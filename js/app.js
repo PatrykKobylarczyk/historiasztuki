@@ -4,6 +4,7 @@ import { loadVoices, polishVoices, voiceFor, guessGender, speak, stopSpeaking, t
 import { openAsk } from "./ask.js";
 import { buildItems } from "./items.js";
 import { icons } from "./icons.js";
+import * as keepAwake from "./keepawake.js";
 
 const $ = (s, el = document) => el.querySelector(s);
 const view = $("#view");
@@ -77,6 +78,18 @@ function renderHome() {
   view.innerHTML = html;
 }
 
+// przydział obrazów do rozdziałów: jawny (@n) lub równomierny
+function chapterImages(lesson) {
+  const nChapters = lesson.segments.filter((s) => s.t === "chapter").length;
+  const imgs = lesson.gallery.filter((g) => g.thumb);
+  const byChapter = {};
+  imgs.forEach((g, k) => {
+    const ch = g.ch ?? Math.min(nChapters, Math.floor((k * nChapters) / Math.max(1, imgs.length)) + 1);
+    (byChapter[ch] ||= []).push(g);
+  });
+  return byChapter;
+}
+
 // ---------- Lekcja ----------
 async function renderLesson(n) {
   let lesson;
@@ -95,12 +108,7 @@ async function renderLesson(n) {
   const items = own ? player.items : buildItems(lesson);
   const nChapters = lesson.segments.filter((s) => s.t === "chapter").length;
   const imgs = lesson.gallery.filter((g) => g.thumb);
-  // przydział obrazów do rozdziałów: jawny (@n) lub równomierny
-  const byChapter = {};
-  imgs.forEach((g, k) => {
-    const ch = g.ch ?? Math.min(nChapters, Math.floor((k * nChapters) / Math.max(1, imgs.length)) + 1);
-    (byChapter[ch] ||= []).push(g);
-  });
+  const byChapter = chapterImages(lesson);
 
   // transkrypcja: akapity z podziałem na zdania (indeksy elementów odtwarzania)
   let tr = "";
@@ -278,6 +286,7 @@ function updatePlayerUI(force = false) {
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
     $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
     setIcon($(".car-play", car));
+    carVisual(it?.chapter ?? 0);
   }
   // odtwarzacz na stronie lekcji
   const pl = $(".player", view);
@@ -330,6 +339,13 @@ document.addEventListener("click", async (e) => {
   const b = e.target.closest("[data-action]");
   if (!b) return;
   const a = b.dataset.action;
+  // tryb auto: blokadę ekranu włączamy od razu, jeszcze w geście użytkownika
+  if (a === "car") { openCar(!!b.closest("#view .player")); return; }
+  if (a === "car-close") { closeCar(); return; }
+  if (a === "car-img") {
+    if (carState.list.length > 1) { carState.pos = (carState.pos + 1) % carState.list.length; showCarImage(); }
+    return;
+  }
   if (b.closest("#view .player") && a !== "speed") await ensureViewLesson();
   if (a === "toggle") player.toggle();
   else if (a === "back") player.back();
@@ -339,15 +355,6 @@ document.addEventListener("click", async (e) => {
   else if (a === "speed") {
     const i = SPEEDS.indexOf(player.speed);
     player.setSpeed(SPEEDS[(i + 1) % SPEEDS.length]);
-  } else if (a === "car") {
-    $("#carmode").hidden = false;
-    try { await document.documentElement.requestFullscreen?.(); } catch {}
-    try { wakeLock = await navigator.wakeLock?.request("screen"); } catch {}
-    updatePlayerUI(true);
-  } else if (a === "car-close") {
-    $("#carmode").hidden = true;
-    try { if (document.fullscreenElement) await document.exitFullscreen(); } catch {}
-    try { await wakeLock?.release(); } catch {}
   } else if (a === "ask") {
     openAsk(player, speakers);
   } else if (a === "offline") {
@@ -358,12 +365,75 @@ document.addEventListener("click", async (e) => {
     speak(`Dzień dobry. Tu ${speakers[k].name}, KULTURA. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
   }
 });
-let wakeLock = null;
-document.addEventListener("visibilitychange", async () => {
-  if (document.visibilityState === "visible" && !$("#carmode").hidden) {
-    try { wakeLock = await navigator.wakeLock?.request("screen"); } catch {}
+// ---------- Tryb auto ----------
+function openCar(fromLessonView) {
+  keepAwake.enable();
+  const car = $("#carmode");
+  car.hidden = false;
+  document.documentElement.classList.add("car-open");
+  clearInterval(carState.timer);
+  carState = { lesson: null, key: null, list: [], pos: 0, shownUrl: null, layer: 0, timer: null };
+  document.documentElement.requestFullscreen?.().catch(() => {});
+  if (fromLessonView) ensureViewLesson().then(() => updatePlayerUI(true));
+  updatePlayerUI(true);
+}
+function closeCar() {
+  keepAwake.disable();
+  $("#carmode").hidden = true;
+  document.documentElement.classList.remove("car-open");
+  clearInterval(carState.timer);
+  if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+}
+
+// obrazy bieżącego rozdziału; gdy rozdział nie ma własnych — ostatnie wcześniejsze
+let carState = { lesson: null, list: [], pos: 0, shownUrl: null, layer: 0, timer: null };
+function imagesForChapter(lesson, ch) {
+  const by = chapterImages(lesson);
+  for (let c = ch; c >= 0; c--) if (by[c]?.length) return by[c];
+  const first = Object.keys(by).map(Number).sort((x, y) => x - y)[0];
+  return first != null ? by[first] : [];
+}
+function carVisual(ch) {
+  const lesson = player.lesson;
+  const box = $("#carmode .car-visual");
+  if (!lesson || !box) return;
+  const list = imagesForChapter(lesson, ch);
+  const key = list.map((g) => g.url || g.thumb).join("|");
+  if (carState.lesson !== lesson.n || carState.key !== key) {
+    carState.lesson = lesson.n;
+    carState.key = key;
+    carState.list = list;
+    carState.pos = 0;
+    clearInterval(carState.timer);
+    // kilka obrazów w rozdziale — zmieniają się co 14 s
+    if (list.length > 1) carState.timer = setInterval(() => { carState.pos = (carState.pos + 1) % carState.list.length; showCarImage(); }, 14000);
+    showCarImage();
   }
-});
+  box.hidden = !list.length;
+}
+function showCarImage() {
+  const g = carState.list[carState.pos];
+  const box = $("#carmode .car-visual");
+  if (!g || !box) return;
+  const src = g.url || g.thumb;
+  if (carState.shownUrl === src) return;
+  carState.shownUrl = src;
+  const layers = box.querySelectorAll(".cv-layer");
+  const next = layers[carState.layer ^ 1];
+  const cur = layers[carState.layer];
+  const pre = new Image();
+  pre.onload = pre.onerror = () => {
+    if (carState.shownUrl !== src) return;
+    next.querySelectorAll("img").forEach((im) => { im.src = src; });
+    next.classList.add("on");
+    cur.classList.remove("on");
+    carState.layer ^= 1;
+    const credit = [g.artist, g.license].filter(Boolean).join(", ");
+    $(".cv-caption", box).textContent = g.caption + (credit ? ` · ${credit}` : "");
+    $(".cv-count", box).textContent = carState.list.length > 1 ? `${carState.pos + 1} / ${carState.list.length}` : "";
+  };
+  pre.src = src;
+}
 document.addEventListener("keydown", (e) => {
   if (e.target.closest("input, textarea, select, dialog")) return;
   if (e.code === "Space" && player.lesson) { e.preventDefault(); player.toggle(); }
