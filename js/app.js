@@ -3,6 +3,7 @@ import { store } from "./store.js";
 import { loadVoices, polishVoices, voiceFor, guessGender, speak, stopSpeaking, ttsSupported, speakerVoiceParams } from "./tts.js";
 import { openAsk } from "./ask.js";
 import { buildItems } from "./items.js";
+import { icons } from "./icons.js";
 
 const $ = (s, el = document) => el.querySelector(s);
 const view = $("#view");
@@ -29,41 +30,49 @@ function renderHome() {
   const total = program.parts.reduce((a, p) => a + p.sections.reduce((b, s) => b + s.episodes.length, 0), 0);
   let html = `
     <section class="hero">
-      <div class="eyebrow">Europa · Polska · Łódź</div>
-      <h1>Historia kultury</h1>
-      <p>Kurs do słuchania — w aucie, na spacerze, w domu. Każdą dziedzinę prowadzi inny ekspert: historyk, historyczka sztuki, architekt, muzykolog, literaturoznawczyni, historyczka designu i fotograf. Lekcje po 15–20 minut, chronologicznie, jedna wynika z drugiej.</p>
-      <p class="muted">${catalog.length} z ${total} odcinków gotowych do słuchania.</p>
-    </section>`;
+      <div class="eyebrow">Kurs historii kultury do słuchania · Europa · Polska · Łódź</div>
+      <h1 class="hero-title">KULTURA<span class="brand-dot" aria-hidden="true"></span></h1>
+      <p class="hero-deck">Wielkie dzieła, wielkie idee i&nbsp;ludzie, którzy zmienili świat.</p>
+      <div class="hero-grid">
+        <p class="hero-lead">Słuchaj w aucie, na spacerze, w domu. Każdą dziedzinę prowadzi inny ekspert: historyk, historyczka sztuki, architekt, muzykolog, literaturoznawczyni, historyczka designu i fotograf. Odcinki po 15–20 minut, chronologicznie — od prehistorii po XXI wiek.</p>
+        <div class="stats">
+          <div><b>${total}</b><span>odcinków</span></div>
+          <div><b>${program.parts.length}</b><span>części</span></div>
+          <div><b>${catalog.length}</b><span>gotowych</span></div>
+        </div>
+      </div>`;
   if (last && ready.has(last.n)) {
     const pct = Math.round((100 * (last.index || 0)) / (last.total || 1));
     html += `<a class="continue" href="#/lekcja/${last.n}">
-      <span class="play-circle">▶</span>
-      <span class="ct"><small>Kontynuuj słuchanie</small><strong>Odcinek ${last.n}. ${esc(last.title)}</strong>
-      <span class="bar"><div style="width:${pct}%"></div></span></span></a>`;
+      <span class="play-circle">${icons.play}</span>
+      <span class="ct"><small>Kontynuuj · odcinek ${last.n}</small><strong>${esc(last.title)}</strong>
+      <span class="bar"><div style="width:${pct}%"></div></span></span><span class="go">${icons.arrow}</span></a>`;
   } else if (catalog[0]) {
-    html += `<a class="continue" href="#/lekcja/${catalog[0].n}"><span class="play-circle">▶</span>
-      <span class="ct"><small>Zacznij od początku</small><strong>Odcinek ${catalog[0].n}. ${esc(catalog[0].title)}</strong></span></a>`;
+    html += `<a class="continue" href="#/lekcja/${catalog[0].n}"><span class="play-circle">${icons.play}</span>
+      <span class="ct"><small>Zacznij od początku · odcinek ${catalog[0].n}</small><strong>${esc(catalog[0].title)}</strong></span><span class="go">${icons.arrow}</span></a>`;
   }
+  html += `</section>
+    <div class="section-head"><h2>Program</h2><span class="eyebrow">${program.parts.length} części · ${total} odcinków</span></div>`;
   for (const part of program.parts) {
     const eps = part.sections.flatMap((s) => s.episodes);
     const readyCount = eps.filter((e) => ready.has(e.n)).length;
     const open = readyCount > 0 || (last && eps.some((e) => e.n === last.n));
     html += `<details class="part" ${open ? "open" : ""}>
       <summary><span class="roman">${part.id}</span><span class="pt">${esc(part.title)}</span>
-      <span class="cnt">${readyCount ? `${readyCount}/${eps.length} gotowe` : `${eps.length} odc.`}</span></summary>`;
+      <span class="cnt">${readyCount ? `${readyCount} z ${eps.length} gotowe` : `${eps.length} odc.`}</span></summary><div class="part-body">`;
     for (const sec of part.sections) {
       if (sec.title) html += `<div class="section-title">${esc(sec.title)}</div>`;
       for (const e of sec.episodes) {
         const c = ready.get(e.n);
         const cls = c ? (done.has(e.n) ? "ep ready done" : "ep ready") : "ep";
-        const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "w przygotowaniu";
+        const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "wkrótce";
         const title = c ? c.title : e.title;
         html += c
-          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${e.n}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>`
-          : `<div class="${cls}"><span class="num">${e.n}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></div>`;
+          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>`
+          : `<div class="${cls}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></div>`;
       }
     }
-    html += `</details>`;
+    html += `</div></details>`;
   }
   view.innerHTML = html;
 }
@@ -74,8 +83,9 @@ async function renderLesson(n) {
   try { lesson = await getLesson(n); }
   catch {
     const ep = program.parts.flatMap((p) => p.sections.flatMap((s) => s.episodes)).find((e) => e.n === n);
-    view.innerHTML = `<p class="eyebrow">Odcinek ${n}</p><h1>${esc(ep?.title || "Odcinek")}</h1>
-      <div class="notice">Ten odcinek jest w przygotowaniu. Gotowe odcinki znajdziesz na <a href="#/">liście kursu</a>.</div>`;
+    view.innerHTML = `<div class="lesson-head"><div class="eyebrow"><a href="#/">Kurs</a><span class="sep"></span>Odcinek ${n}</div><h1>${esc(ep?.title || "Odcinek")}</h1>
+      <div class="sub">Ten odcinek jest w przygotowaniu.</div></div>
+      <p style="margin-top:32px"><a class="btn" href="#/">Wróć do programu</a></p>`;
     return;
   }
   // jeśli gra inna lekcja — nie przerywamy jej, dopóki słuchacz nie naciśnie „odtwórz” tutaj
@@ -94,15 +104,19 @@ async function renderLesson(n) {
 
   // transkrypcja: akapity z podziałem na zdania (indeksy elementów odtwarzania)
   let tr = "";
-  let lastSi = -1, open = false, chapter = 0;
-  const closePara = () => { if (open) { tr += `</p></div></div>`; open = false; } };
+  let lastSi = -1, open = false, chapter = 0, lastSp = null;
+  const closePara = () => { if (open) { tr += `</p></div>`; open = false; } };
   items.forEach((it, i) => {
-    if (it.kind === "jingle") { closePara(); tr += `<div class="cue">♪ Dżingiel „Historia kultury”</div>`; return; }
-    if (it.kind === "outro") { closePara(); tr += `<div class="cue">♪ Sygnał zamykający</div>`; return; }
+    if (it.kind === "jingle") { closePara(); tr += `<div class="cue">Sygnał · KULTURA</div>`; lastSp = null; return; }
+    if (it.kind === "outro") { closePara(); tr += `<div class="cue">Koniec odcinka</div>`; return; }
     if (it.kind === "sting") {
       closePara();
       chapter = it.chapter;
-      tr += `<h3 data-i="${i}">${esc(it.chapterTitle)}</h3>`;
+      lastSp = null;
+      const mt = /^(Rozdział\s+[IVXLC\d]+)\.\s*(.+)$/.exec(it.chapterTitle || "");
+      tr += mt
+        ? `<h3 data-i="${i}"><span class="chn">${esc(mt[1])}</span>${esc(mt[2])}</h3>`
+        : `<h3 data-i="${i}">${esc(it.chapterTitle)}</h3>`;
       return;
     }
     if (it.announce) return;
@@ -110,8 +124,10 @@ async function renderLesson(n) {
       if (it.si !== lastSi) {
         closePara();
         const seg = lesson.segments[it.si];
-        tr += `<div class="music-card" data-i="${i}">🎵 <strong>${esc(seg.title)}</strong> — ${esc(seg.performer || "")}<br>${esc(seg.note || "")}<br>
-          <a href="${esc(seg.url)}" target="_blank" rel="noopener">Posłuchaj nagrania ↗</a></div>`;
+        tr += `<div class="music-card" data-i="${i}"><span class="mi">${icons.note}</span><span><strong>${esc(seg.title)}</strong>${seg.performer ? ` — ${esc(seg.performer)}` : ""}</span>
+          ${seg.note ? `<span class="muted">${esc(seg.note)}</span>` : ""}
+          <a href="${esc(seg.url)}" target="_blank" rel="noopener">Posłuchaj nagrania ${icons.external}</a></div>`;
+        lastSp = null;
         lastSi = it.si;
       }
       return;
@@ -119,15 +135,16 @@ async function renderLesson(n) {
     if (it.si !== lastSi) {
       closePara();
       const sp = speakers[it.sp];
-      tr += `<div class="para"><div class="bar" style="background:${sp.color}"></div><div>
-        <div class="spk" style="color:${sp.color}">${esc(sp.name)}</div><p>`;
+      tr += `<div class="para${lastSp === it.sp ? " cont" : ""}">
+        <div class="spk"><i style="background:${sp.color}"></i>${esc(sp.name)}</div><p>`;
+      lastSp = it.sp;
       open = true;
       lastSi = it.si;
       // obrazy rozdziału po pierwszym akapicie
       if (byChapter[chapter]) {
         const imgsHere = byChapter[chapter];
         delete byChapter[chapter];
-        tr = tr.replace(/<div class="para">(?![\s\S]*<div class="para">)/, (m) =>
+        tr = tr.replace(/<div class="para(?: cont)?">(?![\s\S]*<div class="para)/, (m) =>
           imgsHere.map((g) => figureHtml(g, "inline")).join("") + m);
       }
     }
@@ -136,46 +153,52 @@ async function renderLesson(n) {
   closePara();
 
   const gallery = lesson.gallery.filter((g) => g.thumb).map((g) => figureHtml(g)).join("");
-  const glossary = lesson.glossary.map((g) => `<dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd>`).join("");
-  const quiz = lesson.quiz.map((q, qi) => `<div class="q" data-q="${qi}"><p>${qi + 1}. ${esc(q.q)}</p>
+  const glossary = lesson.glossary.map((g) => `<div><dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd></div>`).join("");
+  const quiz = lesson.quiz.map((q, qi) => `<div class="q" data-q="${qi}"><p><b>${String(qi + 1).padStart(2, "0")}</b>${esc(q.q)}</p>
     ${q.a.map((a, ai) => `<label><input type="radio" name="q${qi}" value="${ai}"> <span>${esc(a)}</span></label>`).join("")}
     <div class="why" hidden>${esc(q.why)}</div></div>`).join("");
-  const sources = lesson.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a></li>`).join("");
+  const sources = lesson.sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener"><span>${esc(s.title)}</span>${icons.external}</a></li>`).join("");
   const nextN = catalog.find((c) => c.n > lesson.n);
 
+  const sec = (title, label, body, wide = false) =>
+    `<section class="lesson-extra${wide ? " wide" : ""}"><div class="section-head"><h2>${title}</h2><span class="eyebrow">${label}</span></div>${body}</section>`;
   view.innerHTML = `
-    <div class="lesson-head">
-      <div class="eyebrow">Odcinek ${lesson.n}</div>
+    <header class="lesson-head">
+      <div class="eyebrow"><a href="#/">Kurs</a><span class="sep"></span><span class="accent">Odcinek ${lesson.n}</span></div>
       <h1>${esc(lesson.title)}</h1>
       <div class="sub">${esc(lesson.subtitle)}</div>
-    </div>
-    <div class="chips"><span class="chip">${esc(lesson.era)}</span><span class="chip">ok. ${lesson.minutes} min słuchania</span><span class="chip">${nChapters} rozdziałów</span></div>
+      <div class="meta">
+        <div><small>Epoka</small><span>${esc(lesson.era)}</span></div>
+        <div><small>Czas</small><span>ok. ${lesson.minutes} min</span></div>
+        <div><small>Rozdziały</small><span>${nChapters}</span></div>
+      </div>
+    </header>
     <section class="player" aria-label="Odtwarzacz">
       <div class="now"><span class="dot"></span><span class="who">Gotowe do odtwarzania</span><span class="chap"></span></div>
       <div class="progress" title="Przewiń"><div></div><div class="ticks"></div></div>
       <div class="controls">
-        <button class="small" data-action="prev-chapter" title="Poprzedni rozdział">⏮</button>
-        <button data-action="back" title="Cofnij">↺</button>
-        <button class="play" data-action="toggle" aria-label="Odtwórz / pauza">▶</button>
-        <button data-action="forward" title="Dalej">↻</button>
-        <button class="small" data-action="next-chapter" title="Następny rozdział">⏭</button>
+        <button class="small" data-action="prev-chapter" title="Poprzedni rozdział" aria-label="Poprzedni rozdział">${icons.prev}</button>
+        <button data-action="back" title="Cofnij" aria-label="Cofnij">${icons.back}</button>
+        <button class="play" data-action="toggle" aria-label="Odtwórz / pauza">${icons.play}</button>
+        <button data-action="forward" title="Dalej" aria-label="Dalej">${icons.forward}</button>
+        <button class="small" data-action="next-chapter" title="Następny rozdział" aria-label="Następny rozdział">${icons.next}</button>
       </div>
-      <div class="controls" style="margin-top:10px">
-        <button class="small" data-action="speed" title="Tempo">${player.speed.toFixed(2).replace(/0$/, "")}×</button>
-        <button class="small" data-action="car">🚗 Tryb auto</button>
-        <button class="small" data-action="ask">🎙 Zadaj pytanie</button>
-        <button class="small" data-action="offline" title="Zapisz na telefonie do słuchania bez internetu">⤓ Offline</button>
+      <div class="tools">
+        <button data-action="speed" title="Tempo">${player.speed.toFixed(2).replace(/0$/, "")}×</button>
+        <button data-action="car">${icons.car}Tryb auto</button>
+        <button data-action="ask">${icons.mic}Zadaj pytanie</button>
+        <button data-action="offline" title="Zapisz na telefonie do słuchania bez internetu">${icons.download}<span>Offline</span></button>
       </div>
       <div class="mode-note"></div>
     </section>
     <section class="transcript">${tr}</section>
-    ${gallery ? `<h2>Galeria</h2><div class="gallery">${gallery}</div>` : ""}
-    ${glossary ? `<h2>Słowniczek</h2><dl class="glossary">${glossary}</dl>` : ""}
-    ${quiz ? `<h2>Sprawdź się</h2><div class="quiz">${quiz}</div>` : ""}
-    ${sources ? `<h2>Źródła i materiały</h2><ul class="sources">${sources}</ul>` : ""}
+    ${gallery ? sec("Galeria", `${imgs.length} obrazów`, `<div class="gallery">${gallery}</div>`, true) : ""}
+    ${glossary ? sec("Słowniczek", `${lesson.glossary.length} pojęć`, `<dl class="glossary">${glossary}</dl>`) : ""}
+    ${quiz ? sec("Sprawdź się", `${lesson.quiz.length} pytania`, `<div class="quiz">${quiz}</div>`) : ""}
+    ${sources ? sec("Źródła", "Materiały", `<ul class="sources">${sources}</ul>`) : ""}
     <div class="next-card"><div class="eyebrow">Następny odcinek</div>
       <p>${esc(lesson.next)}</p>
-      ${nextN ? `<a class="btn" href="#/lekcja/${nextN.n}">Przejdź do odcinka ${nextN.n} →</a>` : `<span class="muted">Kolejne odcinki w przygotowaniu.</span>`}
+      ${nextN ? `<a class="btn" href="#/lekcja/${nextN.n}">Odcinek ${nextN.n} ${icons.arrow}</a>` : `<span class="muted">Kolejne odcinki w przygotowaniu.</span>`}
     </div>`;
 
   // podziałki rozdziałów na pasku postępu
@@ -232,17 +255,18 @@ let lastCur = -1;
 function updatePlayerUI(force = false) {
   const it = player.current;
   const sp = it?.sp ? speakers[it.sp] : null;
-  const who = it ? (it.kind === "jingle" ? "♪ Dżingiel" : it.kind === "outro" ? "♪ Zakończenie" : it.kind === "sting" ? "♪" : sp?.name) : "";
-  const color = sp?.color || "var(--gold)";
-  const icon = player.playing ? "❚❚" : "▶";
+  const who = it ? (it.kind === "jingle" ? "Sygnał" : it.kind === "outro" ? "Zakończenie" : it.kind === "sting" ? "Rozdział" : sp?.name) : "";
+  const color = sp?.color || "var(--accent)";
+  const state = player.playing ? "pause" : "play";
+  const setIcon = (el) => { if (el && el.dataset.state !== state) { el.dataset.state = state; el.innerHTML = icons[state]; } };
 
   // mini odtwarzacz
   const mp = $("#miniplayer");
   if (player.lesson) {
     mp.hidden = false;
-    $(".mp-toggle", mp).textContent = icon;
+    setIcon($(".mp-toggle", mp));
     $(".mp-title", mp).textContent = `${player.lesson.n}. ${player.lesson.title}`;
-    $(".mp-sub", mp).textContent = `${who || ""} · ${it?.chapterTitle || ""}`;
+    $(".mp-sub", mp).textContent = [who, it?.chapterTitle].filter(Boolean).join(" · ");
     $(".mp-info", mp).href = `#/lekcja/${player.lesson.n}`;
   }
   // tryb samochodowy
@@ -253,20 +277,20 @@ function updatePlayerUI(force = false) {
     $(".car-speaker .dot", car).style.background = color;
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
     $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
-    $(".car-play", car).textContent = icon;
+    setIcon($(".car-play", car));
   }
   // odtwarzacz na stronie lekcji
   const pl = $(".player", view);
   if (pl && player.lesson && location.hash === `#/lekcja/${player.lesson.n}`) {
     $(".now .dot", pl).style.background = color;
     $(".now .who", pl).textContent = who || "Gotowe do odtwarzania";
-    $(".now .chap", pl).textContent = it?.chapterTitle && it.chapterTitle !== player.lesson.title ? `· ${it.chapterTitle}` : "";
+    $(".now .chap", pl).textContent = it?.chapterTitle && it.chapterTitle !== player.lesson.title ? it.chapterTitle : "";
     $(".progress > div", pl).style.width = `${(player.progress * 100).toFixed(1)}%`;
-    $(".play", pl).textContent = icon;
+    setIcon($(".play", pl));
     $('[data-action="speed"]', pl).textContent = `${String(player.speed).replace(".", ",")}×`;
     $(".mode-note", pl).textContent = player.mode === "mp3"
-      ? "Nagranie z naturalnymi głosami — działa także przy zgaszonym ekranie."
-      : ttsSupported() ? `Głosy syntezatora tego urządzenia (${polishVoices().length} polskich). Nie wygaszaj ekranu podczas słuchania.` : "Ta przeglądarka nie obsługuje syntezy mowy.";
+      ? "Nagranie z naturalnymi głosami · działa przy zgaszonym ekranie"
+      : ttsSupported() ? `Syntezator urządzenia · ${polishVoices().length} polskich głosów · nie wygaszaj ekranu` : "Ta przeglądarka nie obsługuje syntezy mowy.";
     if (player.index !== lastCur || force) {
       view.querySelectorAll(".s.cur").forEach((el) => el.classList.remove("cur"));
       const el = view.querySelector(`.s[data-i="${player.index}"]`);
@@ -331,7 +355,7 @@ document.addEventListener("click", async (e) => {
   } else if (a === "test-voice") {
     const k = b.dataset.sp;
     stopSpeaking();
-    speak(`Dzień dobry. Tu ${speakers[k].name}, Akademia Kultury i Sztuki. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
+    speak(`Dzień dobry. Tu ${speakers[k].name}, KULTURA. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
   }
 });
 let wakeLock = null;
@@ -348,7 +372,7 @@ document.addEventListener("keydown", (e) => {
 async function saveOffline(btn) {
   if (!player.lesson || !("caches" in window)) return;
   btn.disabled = true;
-  btn.textContent = "Zapisuję…";
+  btn.lastElementChild.textContent = "Zapisuję…";
   const id = String(player.lesson.n).padStart(3, "0");
   const urls = [`data/lessons/${id}.json`, ...player.lesson.gallery.flatMap((g) => [g.thumb, g.url]).filter(Boolean)];
   if (player.mode === "mp3") urls.push(`audio/${id}.json`, `audio/${player.manifest.file}`);
@@ -361,7 +385,7 @@ async function saveOffline(btn) {
       ok++;
     } catch {}
   }));
-  btn.textContent = ok === urls.length ? "✓ Zapisano offline" : `Zapisano ${ok}/${urls.length}`;
+  btn.lastElementChild.textContent = ok === urls.length ? "Zapisano offline" : `Zapisano ${ok}/${urls.length}`;
 }
 
 // ---------- Ustawienia głosów ----------
@@ -374,23 +398,28 @@ async function renderSettings() {
     return voices.map((v) => `<option value="${esc(v.voiceURI)}" ${v.voiceURI === cur ? "selected" : ""}>${esc(v.name)}${guessGender(v) !== "?" ? ` (${guessGender(v) === "f" ? "k" : "m"})` : ""}</option>`).join("");
   };
   view.innerHTML = `
-    <div class="eyebrow">Ustawienia</div>
-    <h1>Głosy ekspertów</h1>
+    <header class="page-head">
+      <div class="eyebrow">Ustawienia</div>
+      <h1>Głosy ekspertów</h1>
+      <p>Każdy ekspert może mówić innym głosem. Najlepszą jakość dają nagrania MP3 z naturalnymi głosami — wtedy poniższy wybór głosów nie jest używany.</p>
+    </header>
     ${!ttsSupported() ? `<div class="notice warn">Ta przeglądarka nie obsługuje syntezy mowy.</div>` : voices.length < 2 ? `<div class="notice warn">${voices.length ? "To urządzenie ma tylko jeden polski głos syntezatora, więc eksperci różnią się wysokością głosu." : "To urządzenie nie ma polskiego głosu syntezatora."} Więcej głosów: na iPhonie Ustawienia → Dostępność → Treść mówiona → Głosy → Polski (pobierz wersje „ulepszone”); na Androidzie ustawienia „Zamiana tekstu na mowę” Google z pakietem polskim; na komputerze przeglądarka Edge ma naturalne głosy Marek i Zofia.</div>` : ""}
-    <p class="muted">Każdy ekspert może mówić innym głosem. Najlepszą jakość dają nagrania MP3 z naturalnymi głosami (patrz README projektu) — wtedy te ustawienia nie są używane.</p>
     <div class="settings">
+      <div class="group">Eksperci</div>
       ${Object.entries(speakers).map(([k, s]) => `
         <div class="row">
           <div class="lbl"><span class="dot" style="background:${s.color}"></span>${esc(s.name)}</div>
           <div class="ctl">
             <select data-sp="${k}">${opts(k)}</select>
             <label class="muted">wysokość <input type="range" min="0.6" max="1.5" step="0.05" value="${store.get("pitchMap", {})[k] ?? s.pitch}" data-pitch="${k}"></label>
-            <button class="btn ghost" data-action="test-voice" data-sp="${k}">▶ Posłuchaj</button>
+            <button class="btn ghost" data-action="test-voice" data-sp="${k}">Posłuchaj</button>
           </div>
         </div>`).join("")}
+      <div class="group">Odtwarzanie</div>
       <div class="row"><div class="lbl">Nagrania MP3</div><div class="ctl"><label><input type="checkbox" id="preferMp3" ${store.get("preferMp3", true) ? "checked" : ""}> używaj nagrań z naturalnymi głosami, gdy są dostępne</label></div></div>
       <div class="row"><div class="lbl">Automatycznie dalej</div><div class="ctl"><label><input type="checkbox" id="autonext" ${store.get("autonext", true) ? "checked" : ""}> po zakończeniu odcinka włącz następny</label></div></div>
       <div class="row"><div class="lbl">Przewijanie tekstu</div><div class="ctl"><label><input type="checkbox" id="autoscroll" ${store.get("autoscroll", true) ? "checked" : ""}> przewijaj transkrypcję za lektorem</label></div></div>
+      <div class="group">Aplikacja</div>
       <div class="row"><div class="lbl">Kod dostępu do pytań</div><div class="ctl"><input type="password" id="accessCode" value="${esc(store.get("accessCode", ""))}" placeholder="jeśli ustawiono na serwerze"></div></div>
       <div class="row"><div class="lbl">Motyw</div><div class="ctl"><select id="theme">
         ${["auto", "light", "dark"].map((t) => `<option value="${t}" ${store.get("theme", "auto") === t ? "selected" : ""}>${{ auto: "jak w systemie", light: "jasny", dark: "ciemny" }[t]}</option>`).join("")}</select></div></div>
@@ -428,6 +457,7 @@ async function route() {
 
 async function init() {
   applyTheme();
+  document.querySelectorAll("[data-icon]").forEach((el) => { el.insertAdjacentHTML("afterbegin", icons[el.dataset.icon]); });
   [program, catalog, speakers] = await Promise.all([getJSON("data/program.json"), getJSON("data/catalog.json"), getJSON("data/speakers.json")]);
   window.addEventListener("hashchange", route);
   await route();

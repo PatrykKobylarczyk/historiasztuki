@@ -81,10 +81,10 @@ export function openAsk(player, speakers) {
     mic.textContent = "● Słucham…";
     rec.onresult = (e) => {
       q.value = Array.from(e.results).map((r) => r[0].transcript).join(" ");
-      if (e.results[e.results.length - 1].isFinal) { mic.textContent = "🎙 Mów"; send(); }
+      if (e.results[e.results.length - 1].isFinal) { mic.textContent = "Mów"; send(); }
     };
-    rec.onerror = () => { mic.textContent = "🎙 Mów"; };
-    rec.onend = () => { mic.textContent = "🎙 Mów"; };
+    rec.onerror = () => { mic.textContent = "Mów"; };
+    rec.onend = () => { mic.textContent = "Mów"; };
     rec.start();
   };
   // w trybie auto od razu słuchamy
