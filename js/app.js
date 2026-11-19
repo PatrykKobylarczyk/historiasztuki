@@ -38,8 +38,8 @@ function renderHome() {
         <p class="hero-lead">Słuchaj w aucie, na spacerze, w domu. Każdą dziedzinę prowadzi inny ekspert: historyk, historyczka sztuki, architekt, muzykolog, literaturoznawczyni, historyczka designu i fotograf. Odcinki po 15–20 minut, chronologicznie — od prehistorii po XXI wiek.</p>
         <div class="stats">
           <div><b>${total}</b><span>odcinków</span></div>
-          <div><b>${program.parts.length}</b><span>części</span></div>
           <div><b>${catalog.length}</b><span>gotowych</span></div>
+          <div><b>${done.size}<small> / ${total}</small></b><span>wysłuchanych</span></div>
         </div>
       </div>`;
   if (last && ready.has(last.n)) {
