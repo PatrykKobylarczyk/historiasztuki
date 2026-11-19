@@ -131,6 +131,7 @@ h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); font-variation-settings: "opsz" 60
 .stats div + div { padding-left: 16px; border-left: 1px solid var(--line); }
 .stats b { display: block; font-family: var(--serif); font-weight: 400; font-size: clamp(2rem, 4vw, 2.8rem); line-height: 1; letter-spacing: -.03em; font-variant-numeric: lining-nums; }
 .stats span { font-size: .8rem; color: var(--muted); }
+.stats b small { font-size: .42em; color: var(--muted); letter-spacing: 0; margin-left: .1em; }
 @media (min-width: 860px) { .hero-grid { grid-template-columns: 1.2fr 1fr; gap: 64px; } }
 
 .continue {
@@ -178,6 +179,9 @@ h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); font-variation-settings: "opsz" 60
 .ep:not(.ready) { color: var(--muted); }
 .ep.ready { transition: padding .25s var(--ease); }
 .ep.ready:hover { padding-left: 6px; }
+.ep.cur { position: relative; }
+.ep.cur::before { content: ""; position: absolute; left: -14px; top: 50%; width: 6px; height: 6px; margin-top: -3px; border-radius: 50%; background: var(--accent); }
+.ep.cur .et { color: var(--accent); }
 
 /* ---------- Lekcja ---------- */
 .lesson-head { padding: clamp(48px, 9vw, 104px) 0 0; max-width: 980px; }

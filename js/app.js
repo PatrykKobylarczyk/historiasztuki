@@ -38,8 +38,8 @@ function renderHome() {
         <p class="hero-lead">Słuchaj w aucie, na spacerze, w domu. Każdą dziedzinę prowadzi inny ekspert: historyk, historyczka sztuki, architekt, muzykolog, literaturoznawczyni, historyczka designu i fotograf. Odcinki po 15–20 minut, chronologicznie — od prehistorii po XXI wiek.</p>
         <div class="stats">
           <div><b>${total}</b><span>odcinków</span></div>
-          <div><b>${program.parts.length}</b><span>części</span></div>
           <div><b>${catalog.length}</b><span>gotowych</span></div>
+          <div><b>${done.size}<small> / ${total}</small></b><span>wysłuchanych</span></div>
         </div>
       </div>`;
   if (last && ready.has(last.n)) {
@@ -54,10 +54,12 @@ function renderHome() {
   }
   html += `</section>
     <div class="section-head"><h2>Program</h2><span class="eyebrow">${program.parts.length} części · ${total} odcinków</span></div>`;
+  const currentN = (last && ready.has(last.n)) ? last.n : player.lesson?.n ?? catalog[0]?.n;
   for (const part of program.parts) {
     const eps = part.sections.flatMap((s) => s.episodes);
     const readyCount = eps.filter((e) => ready.has(e.n)).length;
-    const open = readyCount > 0 || (last && eps.some((e) => e.n === last.n));
+    // rozwinięta tylko część, w której słuchacz aktualnie jest
+    const open = eps.some((e) => e.n === currentN);
     html += `<details class="part" ${open ? "open" : ""}>
       <summary><span class="roman">${part.id}</span><span class="pt">${esc(part.title)}</span>
       <span class="cnt">${readyCount ? `${readyCount} z ${eps.length} gotowe` : `${eps.length} odc.`}</span></summary><div class="part-body">`;
@@ -65,7 +67,7 @@ function renderHome() {
       if (sec.title) html += `<div class="section-title">${esc(sec.title)}</div>`;
       for (const e of sec.episodes) {
         const c = ready.get(e.n);
-        const cls = c ? (done.has(e.n) ? "ep ready done" : "ep ready") : "ep";
+        const cls = (c ? (done.has(e.n) ? "ep ready done" : "ep ready") : "ep") + (e.n === currentN ? " cur" : "");
         const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "wkrótce";
         const title = c ? c.title : e.title;
         html += c
