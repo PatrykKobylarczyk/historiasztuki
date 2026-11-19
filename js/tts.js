@@ -82,9 +82,10 @@ export function speakerVoiceParams(spKey, speakers) {
 export function speak(text, { voice, pitch = 1, rate = 1 }, handlers = {}) {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = voice?.lang || "pl-PL";
-  if (voice) u.voice = voice;
+  try { if (voice) u.voice = voice; } catch { /* nieprawidłowy głos — zostaje domyślny */ }
   u.pitch = Math.max(0.1, Math.min(2, pitch));
   u.rate = Math.max(0.5, Math.min(2, rate));
+  u.onstart = () => handlers.onstart?.();
   u.onend = () => handlers.onend?.();
   u.onerror = (e) => handlers.onerror?.(e);
   u.onboundary = (e) => handlers.onboundary?.(e);
@@ -92,6 +93,8 @@ export function speak(text, { voice, pitch = 1, rate = 1 }, handlers = {}) {
   return u;
 }
 
+let cancelledAt = 0;
 export function stopSpeaking() {
-  if (ttsSupported()) speechSynthesis.cancel();
+  if (ttsSupported()) { speechSynthesis.cancel(); cancelledAt = Date.now(); }
 }
+export function msSinceCancel() { return Date.now() - cancelledAt; }

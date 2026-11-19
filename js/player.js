@@ -3,7 +3,7 @@
 // Tryb „tts”: synteza mowy w przeglądarce — każdy ekspert innym głosem, dżingiel syntezowany na żywo.
 import { buildItems } from "./items.js";
 import { renderJingle, renderOutro, renderSting, toWav } from "./jingle.js";
-import { speak, stopSpeaking, speakerVoiceParams, loadVoices, ttsSupported } from "./tts.js";
+import { speak, stopSpeaking, msSinceCancel, speakerVoiceParams, loadVoices, ttsSupported } from "./tts.js";
 import { store } from "./store.js";
 
 let audioCtx = null;
@@ -113,8 +113,18 @@ export class Player extends EventTarget {
     }
     this.playing = true;
     try { ctx().resume(); } catch {}
-    this.keepAlive.src = silentAudioUrl();
-    this.keepAlive.play().catch(() => {});
+    this.fails = 0;
+    // odblokowanie mowy w geście użytkownika (iOS/Safari i część Chrome blokują mowę uruchomioną później)
+    try {
+      if (!this.unlocked) {
+        const u = new SpeechSynthesisUtterance(" ");
+        u.volume = 0;
+        u.lang = "pl-PL";
+        speechSynthesis.speak(u);
+        this.unlocked = true;
+      }
+      speechSynthesis.resume();
+    } catch {}
     this.#emit();
     this.#playIndex(this.index);
   }
@@ -197,12 +207,17 @@ export class Player extends EventTarget {
     };
     if (it.kind === "jingle" || it.kind === "outro" || it.kind === "sting") {
       const c = ctx();
+      try { c.resume(); } catch {}
       const src = c.createBufferSource();
       src.buffer = getBuffer(it.kind);
       const g = c.createGain();
       g.gain.value = 0.9;
       src.connect(g).connect(c.destination);
-      src.onended = () => advance(it.kind === "sting" ? 250 : 400);
+      src.onended = () => {
+        // zwalniamy wyjście audio, żeby nie blokowało syntezatora mowy na telefonie
+        setTimeout(() => { try { c.suspend(); } catch {} }, 50);
+        advance(it.kind === "sting" ? 250 : 400);
+      };
       this.node = src;
       src.start();
       return;
@@ -210,20 +225,48 @@ export class Player extends EventTarget {
     const p = speakerVoiceParams(it.sp, this.speakers);
     const next = this.items[i + 1];
     const gap = !next ? 0 : next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : next.si !== it.si ? 350 : 80;
-    const started = Date.now();
-    speak(it.text, { ...p, rate: p.rate * this.speed }, {
-      onend: () => advance(gap),
-      onerror: (e) => {
-        if (token !== this.token) return;
-        if (e?.error === "interrupted" || e?.error === "canceled") return;
-        advance(gap);
-      },
-    });
+    let started = Date.now();
+    const silentFail = (why) => {
+      // mowa „skończyła się” natychmiast lub z błędem — kilka razy z rzędu oznacza, że nic nie słychać
+      this.fails = (this.fails || 0) + 1;
+      if (this.fails >= 3) {
+        this.pause();
+        this.dispatchEvent(new CustomEvent("error", { detail: why === "not-allowed"
+          ? "Przeglądarka zablokowała czytanie. Naciśnij ▶ jeszcze raz."
+          : why === "language-unavailable" || why === "voice-unavailable"
+            ? "Na tym urządzeniu brakuje polskiego głosu syntezatora. Dodaj go w ustawieniach telefonu (zamiana tekstu na mowę) albo użyj nagrań MP3."
+            : "Syntezator mowy nie odpowiada. Naciśnij ▶ jeszcze raz; jeśli to nie pomoże, zmień głos w zakładce Głosy." }));
+        return true;
+      }
+      return false;
+    };
+    const go = () => {
+      if (token !== this.token || !this.playing) return;
+      started = Date.now();
+      this.utt = speak(it.text, { ...p, rate: p.rate * this.speed }, {
+        onstart: () => { this.fails = 0; },
+        onend: () => {
+          if (token !== this.token) return;
+          if (Date.now() - started < 250 && it.text.length > 25 && silentFail("instant")) return;
+          advance(gap);
+        },
+        onerror: (e) => {
+          if (token !== this.token) return;
+          if (e?.error === "interrupted" || e?.error === "canceled") return;
+          if (silentFail(e?.error)) return;
+          advance(gap);
+        },
+      });
+    };
+    // Chrome gubi wypowiedź wydaną tuż po cancel() — krótkie opóźnienie
+    if (speechSynthesis.speaking || speechSynthesis.pending) { stopSpeaking(); setTimeout(go, 80); }
+    else if (msSinceCancel() < 150) setTimeout(go, 80);
+    else go();
     // strażnik: jeśli przeglądarka „zgubi” zdarzenie końca wypowiedzi
     const limit = 4000 + (it.text.length * 140) / this.speed;
     setTimeout(() => {
       if (token === this.token && this.playing && Date.now() - started >= limit && !speechSynthesis.speaking) advance(0);
-    }, limit + 500);
+    }, limit + 600);
   }
 
   #stopNode() {
