@@ -114,6 +114,8 @@ export class Player extends EventTarget {
     this.playing = true;
     try { ctx().resume(); } catch {}
     this.fails = 0;
+    // iPhone: tryb „playback”, żeby dźwięk nie był wyciszany przełącznikiem trybu cichego (Safari 16.4+)
+    try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch {}
     // odblokowanie mowy w geście użytkownika (iOS/Safari i część Chrome blokują mowę uruchomioną później)
     try {
       if (!this.unlocked) {

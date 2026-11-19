@@ -1,6 +1,6 @@
 // Service worker: działanie offline. Powłoka i lekcje zapisywane przy instalacji,
 // obrazy i nagrania — w miarę słuchania (lub przyciskiem „Offline” w lekcji).
-const VERSION = "hk-v2";
+const VERSION = "hk-v3";
 const SHELL = [
   "./", "index.html", "css/app.css", "manifest.webmanifest",
   "js/app.js", "js/player.js", "js/items.js", "js/jingle.js", "js/tts.js", "js/store.js", "js/ask.js",
