@@ -1,9 +1,9 @@
 // Service worker: działanie offline. Powłoka i lekcje zapisywane przy instalacji,
 // obrazy i nagrania — w miarę słuchania (lub przyciskiem „Offline” w lekcji).
-const VERSION = "hk-v3";
+const VERSION = "hk-v4";
 const SHELL = [
   "./", "index.html", "css/app.css", "manifest.webmanifest",
-  "js/app.js", "js/player.js", "js/items.js", "js/jingle.js", "js/tts.js", "js/store.js", "js/ask.js",
+  "js/app.js", "js/player.js", "js/items.js", "js/jingle.js", "js/tts.js", "js/store.js", "js/ask.js", "js/icons.js",
   "data/program.json", "data/catalog.json", "data/speakers.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png",
 ];
@@ -62,9 +62,9 @@ self.addEventListener("fetch", (e) => {
     return;
   }
 
-  // obrazy z zewnętrznych kolekcji: najpierw pamięć
+  // obrazy z zewnętrznych kolekcji i czcionki: najpierw pamięć
   if (url.origin !== location.origin) {
-    if (req.destination === "image") {
+    if (req.destination === "image" || req.destination === "font" || url.hostname === "fonts.googleapis.com") {
       e.respondWith((async () => {
         const hit = await caches.match(req.url);
         if (hit) return hit;

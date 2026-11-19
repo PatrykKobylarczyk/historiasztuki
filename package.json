@@ -1,9 +1,9 @@
 {
-  "name": "historia-kultury",
+  "name": "kultura",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Historia kultury — kurs do słuchania (PWA)",
+  "description": "KULTURA — kurs historii kultury do słuchania (PWA)",
   "scripts": {
     "build": "node scripts/build-lessons.mjs",
     "audio": "node scripts/generate-audio.mjs",

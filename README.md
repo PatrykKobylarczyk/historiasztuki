@@ -1,4 +1,4 @@
-# Historia kultury — Akademia Kultury i Sztuki
+# KULTURA — kurs historii kultury do słuchania
 
 Kurs historii kultury **do słuchania** (w samochodzie, na spacerze), zrobiony jako aplikacja PWA: instaluje się na telefonie jak zwykła aplikacja i działa bez internetu.
 

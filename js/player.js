@@ -325,7 +325,7 @@ export class Player extends EventTarget {
   #updateMediaSession() {
     if (!("mediaSession" in navigator) || !this.lesson) return;
     const it = this.current;
-    const sp = it?.sp ? this.speakers?.[it.sp]?.name : "Historia kultury";
+    const sp = it?.sp ? this.speakers?.[it.sp]?.name : "KULTURA";
     const key = `${this.lesson.n}|${it?.chapterTitle}|${sp}`;
     if (key !== this._msKey) {
       this._msKey = key;
@@ -333,7 +333,7 @@ export class Player extends EventTarget {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: `${this.lesson.n}. ${this.lesson.title}`,
           artist: `${sp} — ${it?.chapterTitle || ""}`,
-          album: "Historia kultury · Akademia Kultury i Sztuki",
+          album: "KULTURA",
           artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }],
         });
       } catch {}
