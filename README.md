@@ -30,8 +30,9 @@ Kurs historii kultury **do słuchania** (w samochodzie, na spacerze), zrobiony j
 **2. Nagrania MP3 z naturalnymi głosami (zalecane do auta).** Skrypt generuje plik MP3 dla każdej lekcji, z innym naturalnym głosem dla każdego eksperta i z dżinglami. Aplikacja sama wykrywa nagranie i odtwarza je jak podcast: przy zgaszonym ekranie, przez Bluetooth, CarPlay i Android Auto. Transkrypcja dalej podświetla się w rytm nagrania.
 
 Najprościej przez GitHub Actions:
-1. W repozytorium wejdź w **Settings → Secrets and variables → Actions** i dodaj `OPENAI_API_KEY` (głosy gpt-4o-mini-tts) albo `GOOGLE_TTS_API_KEY` (Google Cloud Text-to-Speech).
-2. W **Actions → Nagrania MP3 → Run workflow** podaj numery odcinków (np. `1 2 3`) albo zostaw puste pole, żeby wygenerować wszystkie gotowe. Wybierz dostawcę.
+1. Wejdź w **Actions → Nagrania MP3 → Run workflow**. Podaj numery odcinków (np. `1 2 3`) albo zostaw puste pole, żeby wygenerować wszystkie gotowe.
+2. Dostawca `edge` jest **darmowy i nie wymaga klucza**. To neuronowe głosy Microsoft Edge: Marek i Zofia, a eksperci różnią się wysokością i tempem. Korzysta z nieoficjalnego dostępu, więc może kiedyś przestać działać.
+3. Płatne, lepiej zróżnicowane głosy wymagają sekretu w **Settings → Secrets and variables → Actions**: `OPENAI_API_KEY` (dostawca `openai`) albo `GOOGLE_TTS_API_KEY` (dostawca `google`, darmowy limit miesięczny, ale konto wymaga karty).
 3. Workflow zapisze `audio/*.mp3` w repozytorium, a Vercel sam opublikuje nową wersję.
 
 Lokalnie: `OPENAI_API_KEY=... node scripts/generate-audio.mjs 1 2` (wymaga ffmpeg). Głosy ekspertów można zmienić plikiem `data/tts-voices.json`. Skrypt pomija odcinki, których tekst się nie zmienił. Koszt to orientacyjnie kilkadziesiąt groszy do złotówki za odcinek przy OpenAI. Sprawdź aktualny cennik dostawcy.

@@ -10,8 +10,8 @@ on:
       provider:
         description: "Dostawca głosów"
         type: choice
-        options: [openai, google]
-        default: openai
+        options: [edge, openai, google]
+        default: edge
 
 permissions:
   contents: write
@@ -27,6 +27,9 @@ jobs:
           node-version: 20
       - name: ffmpeg
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: edge-tts (darmowe głosy)
+        if: inputs.provider == 'edge'
+        run: pip install edge-tts
       - name: Generowanie nagrań
         env:
           TTS_PROVIDER: ${{ inputs.provider }}

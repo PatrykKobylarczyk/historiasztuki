@@ -6,6 +6,7 @@
 //   OPENAI_API_KEY=... node scripts/generate-audio.mjs             # wszystkie gotowe lekcje
 //   OPENAI_API_KEY=... node scripts/generate-audio.mjs 1 2 186     # wybrane odcinki
 //   TTS_PROVIDER=google GOOGLE_TTS_API_KEY=... node scripts/generate-audio.mjs
+//   TTS_PROVIDER=edge node scripts/generate-audio.mjs   # darmowo, bez klucza (pip install edge-tts)
 //   --force  — wygeneruj ponownie, nawet jeśli tekst się nie zmienił
 // Wymaga: Node 18+, ffmpeg w PATH.
 import fs from "node:fs";
@@ -18,7 +19,7 @@ import { renderJingle, renderOutro, renderSting } from "../js/jingle.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SR = 24000;
-const PROVIDER = process.env.TTS_PROVIDER || (process.env.GOOGLE_TTS_API_KEY && !process.env.OPENAI_API_KEY ? "google" : "openai");
+const PROVIDER = process.env.TTS_PROVIDER || (process.env.OPENAI_API_KEY ? "openai" : process.env.GOOGLE_TTS_API_KEY ? "google" : "edge");
 const BITRATE = process.env.MP3_BITRATE || "48k";
 const cacheDir = path.join(root, ".audio-cache");
 fs.mkdirSync(cacheDir, { recursive: true });
@@ -27,6 +28,12 @@ fs.mkdirSync(path.join(root, "audio"), { recursive: true });
 // Głosy ekspertów. Można nadpisać plikiem data/tts-voices.json: { "openai": {...}, "google": {...} }
 const VOICES = {
   openai: { gospodarz: "onyx", historyk: "ash", sztuka: "coral", architekt: "echo", muzyka: "verse", literatura: "sage", design: "nova", foto: "ballad" },
+  // edge: darmowe głosy neuronowe Microsoft Edge (pl-PL: Marek, Zofia) — eksperci różnią się wysokością i tempem
+  edge: {
+    gospodarz: "pl-PL-MarekNeural|+0%|-2Hz", historyk: "pl-PL-MarekNeural|-4%|-9Hz", architekt: "pl-PL-MarekNeural|+3%|+4Hz",
+    muzyka: "pl-PL-MarekNeural|+2%|+9Hz", foto: "pl-PL-MarekNeural|+5%|-5Hz",
+    sztuka: "pl-PL-ZofiaNeural|+0%|+0Hz", literatura: "pl-PL-ZofiaNeural|-4%|-7Hz", design: "pl-PL-ZofiaNeural|+4%|+7Hz",
+  },
   google: { gospodarz: "pl-PL-Wavenet-B", historyk: "pl-PL-Wavenet-C", sztuka: "pl-PL-Wavenet-A", architekt: "pl-PL-Standard-B", muzyka: "pl-PL-Standard-C", literatura: "pl-PL-Wavenet-D", design: "pl-PL-Wavenet-E", foto: "pl-PL-Standard-E" },
 };
 const override = path.join(root, "data", "tts-voices.json");
@@ -79,10 +86,21 @@ async function ttsGoogle(text, sp) {
   throw new Error("Google: brak danych audio");
 }
 
+// edge: wymaga `pip install edge-tts`; bez klucza API
+async function ttsEdge(text, sp) {
+  const [voice, rate, pitch] = (VOICES.edge[sp] || VOICES.edge.gospodarz).split("|");
+  const tmp = path.join(cacheDir, `edge-${process.pid}-${crypto.randomUUID()}.mp3`);
+  try {
+    execFileSync("edge-tts", ["--voice", voice, `--rate=${rate}`, `--pitch=${pitch}`, `--text=${text}`, "--write-media", tmp], { stdio: "pipe" });
+    const pcm = execFileSync("ffmpeg", ["-loglevel", "error", "-i", tmp, "-f", "s16le", "-ar", String(SR), "-ac", "1", "-"], { maxBuffer: 1 << 28 });
+    return new Int16Array(pcm.buffer.slice(pcm.byteOffset, pcm.byteOffset + pcm.length));
+  } finally { fs.rmSync(tmp, { force: true }); }
+}
+
 // „test”: cisza o długości mowy — do sprawdzenia całego procesu bez klucza API
 async function ttsTest(text) { return new Int16Array(Math.round((SR * text.length) / 15)); }
 VOICES.test = Object.fromEntries(Object.keys(speakers).map((k) => [k, k]));
-const tts = PROVIDER === "google" ? ttsGoogle : PROVIDER === "test" ? ttsTest : ttsOpenAI;
+const tts = { google: ttsGoogle, test: ttsTest, edge: ttsEdge, openai: ttsOpenAI }[PROVIDER];
 const voiceId = (sp) => `${PROVIDER}:${VOICES[PROVIDER][sp]}`;
 
 async function clip(text, sp) {
