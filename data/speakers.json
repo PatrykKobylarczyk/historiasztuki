@@ -1,0 +1,10 @@
+{
+  "gospodarz": { "name": "Gospodarz Akademii", "role": "prowadzący audycję", "color": "#b8862b", "gender": "m", "pitch": 0.95, "rate": 1.0 },
+  "historyk": { "name": "Historyk", "role": "polityka, społeczeństwo, Polska i Łódź", "color": "#8a4b3c", "gender": "m", "pitch": 0.85, "rate": 1.0 },
+  "sztuka": { "name": "Historyczka sztuki", "role": "malarstwo, rzeźba, grafika, rynek sztuki", "color": "#9b3d5a", "gender": "f", "pitch": 1.05, "rate": 1.0 },
+  "architekt": { "name": "Architekt", "role": "architektura i urbanistyka", "color": "#3f6b5c", "gender": "m", "pitch": 1.0, "rate": 1.0 },
+  "muzyka": { "name": "Muzykolog", "role": "muzyka i dźwięk epoki", "color": "#3c5a8a", "gender": "m", "pitch": 1.1, "rate": 1.0 },
+  "literatura": { "name": "Literaturoznawczyni i filozofka", "role": "literatura, teatr, filozofia, estetyka", "color": "#6b4f8a", "gender": "f", "pitch": 0.95, "rate": 0.98 },
+  "design": { "name": "Historyczka designu", "role": "wzornictwo, ceramika, moda męska", "color": "#a0612a", "gender": "f", "pitch": 1.15, "rate": 1.02 },
+  "foto": { "name": "Fotograf i filmoznawca", "role": "fotografia i film", "color": "#4a5560", "gender": "m", "pitch": 0.9, "rate": 1.0 }
+}

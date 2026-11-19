@@ -1,0 +1,45 @@
+name: Nagrania MP3 (naturalne głosy)
+
+on:
+  workflow_dispatch:
+    inputs:
+      lessons:
+        description: "Numery odcinków oddzielone spacją (puste = wszystkie gotowe)"
+        required: false
+        default: ""
+      provider:
+        description: "Dostawca głosów"
+        type: choice
+        options: [openai, google]
+        default: openai
+
+permissions:
+  contents: write
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Generowanie nagrań
+        env:
+          TTS_PROVIDER: ${{ inputs.provider }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          LESSONS: ${{ inputs.lessons }}
+        run: node scripts/generate-audio.mjs $LESSONS
+      - name: Zapis do repozytorium
+        env:
+          LESSONS: ${{ inputs.lessons }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A audio
+          git diff --cached --quiet || git commit -m "Nagrania MP3: ${LESSONS:-wszystkie}"
+          git push

@@ -1,0 +1,1045 @@
+{
+ "parts": [
+  {
+   "id": "I",
+   "title": "Narodziny kultury i pierwsze cywilizacje",
+   "sections": [
+    {
+     "title": "Prehistoria — zanim powstała historia sztuki",
+     "episodes": [
+      {
+       "n": 1,
+       "title": "Zanim powstała historia sztuki — pierwsze obrazy, rytuały i muzyka"
+      },
+      {
+       "n": 2,
+       "title": "Rewolucja neolityczna — narodziny osiadłego życia"
+      },
+      {
+       "n": 3,
+       "title": "Pierwsze domy, osady i miasta — architektura jako odpowiedź na nowe potrzeby"
+      },
+      {
+       "n": 4,
+       "title": "Narodziny ceramiki, ornamentu i pierwszego wzornictwa"
+      },
+      {
+       "n": 5,
+       "title": "Megality — Stonehenge, grobowce i architektura rytualna"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "II",
+   "title": "Starożytność — fundamenty Europy",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 6,
+       "title": "Mezopotamia — narodziny miasta, pisma i władzy"
+      },
+      {
+       "n": 7,
+       "title": "Sumer, Babilon i Asyria — sztuka jako narzędzie potęgi"
+      },
+      {
+       "n": 8,
+       "title": "Egipt — wieczność, religia i monumentalna architektura"
+      },
+      {
+       "n": 9,
+       "title": "Egipskie malarstwo, rzeźba, ubiór i przedmioty codzienne"
+      },
+      {
+       "n": 10,
+       "title": "Grecja archaiczna — narodziny kanonu piękna"
+      },
+      {
+       "n": 11,
+       "title": "Grecja klasyczna — proporcja, harmonia i idea człowieka"
+      },
+      {
+       "n": 12,
+       "title": "Ateny — demokracja, teatr, filozofia i życie publiczne"
+      },
+      {
+       "n": 13,
+       "title": "Platon, Arystoteles i początki europejskiej estetyki"
+      },
+      {
+       "n": 14,
+       "title": "Grecka architektura — świątynia, porządek i miasto"
+      },
+      {
+       "n": 15,
+       "title": "Grecka ceramika, rzemiosło i kultura przedmiotów"
+      },
+      {
+       "n": 16,
+       "title": "Hellenizm — Aleksander Wielki i świat kosmopolityczny"
+      },
+      {
+       "n": 17,
+       "title": "Rzym — republika, imperium i kultura władzy"
+      },
+      {
+       "n": 18,
+       "title": "Rzymska architektura — beton, łuki, kopuły i infrastruktura"
+      },
+      {
+       "n": 19,
+       "title": "Rzymskie wnętrza, mozaiki, malarstwo i meble"
+      },
+      {
+       "n": 20,
+       "title": "Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz"
+      },
+      {
+       "n": 21,
+       "title": "Muzyka, teatr i codzienność starożytnego świata"
+      },
+      {
+       "n": 22,
+       "title": "Chrześcijaństwo i przemiana antycznego świata"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "III",
+   "title": "Średniowiecze — religia, wspólnota i symbol",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 23,
+       "title": "Upadek Rzymu i narodziny średniowiecznej Europy"
+      },
+      {
+       "n": 24,
+       "title": "Bizancjum — cesarstwo, ikony i mozaiki"
+      },
+      {
+       "n": 25,
+       "title": "Islam — architektura, ornament, kaligrafia i nauka"
+      },
+      {
+       "n": 26,
+       "title": "Klasztory — architektura, rękopisy i przechowywanie wiedzy"
+      },
+      {
+       "n": 27,
+       "title": "Romanizm — kościół jako centrum świata"
+      },
+      {
+       "n": 28,
+       "title": "Gotyk — światło, konstrukcja i monumentalność"
+      },
+      {
+       "n": 29,
+       "title": "Witraż, rzeźba i iluminowane rękopisy"
+      },
+      {
+       "n": 30,
+       "title": "Średniowieczna muzyka — chorał, notacja i początki wielogłosowości"
+      },
+      {
+       "n": 31,
+       "title": "Literatura średniowieczna — epos, rycerstwo, Dante i mistyka"
+      },
+      {
+       "n": 32,
+       "title": "Scholastyka, św. Augustyn i św. Tomasz z Akwinu"
+      },
+      {
+       "n": 33,
+       "title": "Moda, ubiór i przedmioty średniowiecznej Europy"
+      },
+      {
+       "n": 34,
+       "title": "Polska pierwszych Piastów — chrystianizacja i początki państwowości"
+      },
+      {
+       "n": 35,
+       "title": "Polska romańska — architektura, rzeźba i sztuka sakralna"
+      },
+      {
+       "n": 36,
+       "title": "Polska gotycka — miasta, zamki i katedry"
+      },
+      {
+       "n": 37,
+       "title": "Kraków, Gniezno i państwo Jagiellonów — kultura i władza"
+      },
+      {
+       "n": 38,
+       "title": "Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokalne"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "IV",
+   "title": "Renesans — odkrycie człowieka",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 39,
+       "title": "Renesans — dlaczego Europa odkryła antyk na nowo?"
+      },
+      {
+       "n": 40,
+       "title": "Humanizm, druk i rewolucja wiedzy"
+      },
+      {
+       "n": 41,
+       "title": "Włochy — Brunelleschi, Alberti i narodziny nowej architektury"
+      },
+      {
+       "n": 42,
+       "title": "Perspektywa, anatomia i nowy język malarstwa"
+      },
+      {
+       "n": 43,
+       "title": "Leonardo, Michał Anioł i Rafael — trzy wizje człowieka"
+      },
+      {
+       "n": 44,
+       "title": "Wenecja, kolor i malarstwo olejne"
+      },
+      {
+       "n": 45,
+       "title": "Niderlandy — van Eyck, Bosch i Bruegel"
+      },
+      {
+       "n": 46,
+       "title": "Niemcy — Dürer, reformacja i grafika"
+      },
+      {
+       "n": 47,
+       "title": "Renesansowa muzyka — polifonia, msza i madrygał"
+      },
+      {
+       "n": 48,
+       "title": "Literatura renesansu — Petrarka, Boccaccio, Szekspir i Cervantes"
+      },
+      {
+       "n": 49,
+       "title": "Polska renesansowa — Zygmunt Stary i Zygmunt August"
+      },
+      {
+       "n": 50,
+       "title": "Wawel, renesansowy Kraków i polska architektura"
+      },
+      {
+       "n": 51,
+       "title": "Jan Kochanowski, Mikołaj Rej i polski język literacki"
+      },
+      {
+       "n": 52,
+       "title": "Mikołaj Kopernik — nauka, kosmos i zmiana obrazu świata"
+      },
+      {
+       "n": 53,
+       "title": "Renesansowy ubiór, meble, tkaniny i przedmioty"
+      },
+      {
+       "n": 54,
+       "title": "Renesansowe miasto — urbanistyka, fortyfikacje i rezydencje"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "V",
+   "title": "Manieryzm, barok i kultura dworu",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 55,
+       "title": "Manieryzm — sztuka niepokoju i wyrafinowania"
+      },
+      {
+       "n": 56,
+       "title": "Barok — kontrreformacja, emocje i spektakl"
+      },
+      {
+       "n": 57,
+       "title": "Caravaggio i narodziny nowego realizmu"
+      },
+      {
+       "n": 58,
+       "title": "Rubens, Rembrandt i Velázquez — trzy oblicza baroku"
+      },
+      {
+       "n": 59,
+       "title": "Barokowa architektura — Bernini, Borromini i monumentalne miasto"
+      },
+      {
+       "n": 60,
+       "title": "Barokowe wnętrza, meble, porcelana i rzemiosło"
+      },
+      {
+       "n": 61,
+       "title": "Opera — narodziny nowej formy muzycznego teatru"
+      },
+      {
+       "n": 62,
+       "title": "Bach, Händel i Vivaldi — muzyka jako architektura dźwięku"
+      },
+      {
+       "n": 63,
+       "title": "Literatura baroku — metafizyka, teatr i wielkie dramaty"
+      },
+      {
+       "n": 64,
+       "title": "Absolutyzm i dwór Ludwika XIV — polityka jako spektakl"
+      },
+      {
+       "n": 65,
+       "title": "Moda XVII wieku — peruki, koronki, dwór francuski i polski kontusz"
+      },
+      {
+       "n": 66,
+       "title": "Barok w Polsce — Wazowie, Wilanów i sarmatyzm"
+      },
+      {
+       "n": 67,
+       "title": "Polska literatura, muzyka i życie społeczne XVII wieku"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VI",
+   "title": "Oświecenie i narodziny nowoczesności",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 68,
+       "title": "Oświecenie — rozum, nauka i krytyka tradycji"
+      },
+      {
+       "n": 69,
+       "title": "Locke, Rousseau, Voltaire i Kant — nowe idee człowieka i społeczeństwa"
+      },
+      {
+       "n": 70,
+       "title": "Rokoko — intymność, dekoracyjność i kultura salonu"
+      },
+      {
+       "n": 71,
+       "title": "Neoklasycyzm — powrót do antyku i nowy ideał piękna"
+      },
+      {
+       "n": 72,
+       "title": "David, Canova, Piranesi — sztuka i polityka"
+      },
+      {
+       "n": 73,
+       "title": "Haydn i Mozart — klasycyzm w muzyce"
+      },
+      {
+       "n": 74,
+       "title": "Literatura oświecenia — powieść, satyra i encyklopedie"
+      },
+      {
+       "n": 75,
+       "title": "Moda XVIII wieku — habit, kamizelka, bryczesy i frak"
+      },
+      {
+       "n": 76,
+       "title": "Meble, wnętrza i design XVIII wieku — od rokoka do klasycyzmu"
+      },
+      {
+       "n": 77,
+       "title": "Grand Tour, archeologia i narodziny nowoczesnego muzeum"
+      },
+      {
+       "n": 78,
+       "title": "Stanisław August — Warszawa jako projekt kulturalny"
+      },
+      {
+       "n": 79,
+       "title": "Polska literatura, teatr i muzyka oświecenia"
+      },
+      {
+       "n": 80,
+       "title": "Konstytucja 3 maja, rozbiory i koniec Rzeczypospolitej"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VII",
+   "title": "Romantyzm i wiek rewolucji",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 81,
+       "title": "Rewolucja francuska i narodziny nowoczesnej polityki"
+      },
+      {
+       "n": 82,
+       "title": "Romantyzm — emocje, natura, wolność i jednostka"
+      },
+      {
+       "n": 83,
+       "title": "Goya, Delacroix, Turner i Friedrich"
+      },
+      {
+       "n": 84,
+       "title": "Beethoven — od klasycyzmu do romantyzmu"
+      },
+      {
+       "n": 85,
+       "title": "Chopin — polskość, emigracja i europejska kultura muzyczna"
+      },
+      {
+       "n": 86,
+       "title": "Literatura romantyczna — Goethe, Byron, Mickiewicz, Słowacki"
+      },
+      {
+       "n": 87,
+       "title": "Filozofia romantyzmu — Hegel, Schopenhauer i narodziny nowoczesnego indywidualizmu"
+      },
+      {
+       "n": 88,
+       "title": "Architektura historyzmu i neogotyk"
+      },
+      {
+       "n": 89,
+       "title": "Moda męska XIX wieku — dandyzm, Beau Brummell i narodziny garnituru"
+      },
+      {
+       "n": 90,
+       "title": "Meble i wnętrza XIX wieku — przemysł, mieszczaństwo i nowe standardy życia"
+      },
+      {
+       "n": 91,
+       "title": "Polska pod zaborami — kultura jako narzędzie tożsamości"
+      },
+      {
+       "n": 92,
+       "title": "Matejko, Grottger i malarstwo historyczne"
+      },
+      {
+       "n": 93,
+       "title": "Pozytywizm, praca organiczna i polska literatura"
+      },
+      {
+       "n": 94,
+       "title": "Wiosna Ludów, rewolucja przemysłowa i narodziny nowoczesnego miasta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VIII",
+   "title": "Wiek przemysłowy — 1850–1900",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 95,
+       "title": "Industrializacja Europy — fabryki, kolej i nowa klasa robotnicza"
+      },
+      {
+       "n": 96,
+       "title": "Łódź przemysłowa — fabrykanci, robotnicy i wielokulturowe miasto"
+      },
+      {
+       "n": 97,
+       "title": "Realizm — Courbet, Millet i społeczeństwo na obrazie"
+      },
+      {
+       "n": 98,
+       "title": "Impresjonizm — nowe widzenie świata"
+      },
+      {
+       "n": 99,
+       "title": "Postimpresjonizm — Cézanne, van Gogh, Gauguin"
+      },
+      {
+       "n": 100,
+       "title": "Symbolizm — sztuka, sen i psychologia"
+      },
+      {
+       "n": 101,
+       "title": "Fotografia — od dagerotypu do fotografii artystycznej"
+      },
+      {
+       "n": 102,
+       "title": "Grafika, litografia, plakat i narodziny nowoczesnej reklamy"
+      },
+      {
+       "n": 103,
+       "title": "Architektura żelaza, szkła i stali — nowe możliwości konstrukcji"
+      },
+      {
+       "n": 104,
+       "title": "Secesja — nowa forma życia i projektowania"
+      },
+      {
+       "n": 105,
+       "title": "William Morris, Arts and Crafts i narodziny nowoczesnego designu"
+      },
+      {
+       "n": 106,
+       "title": "Meble, tkaniny i wnętrza przełomu wieków"
+      },
+      {
+       "n": 107,
+       "title": "Moda męska Belle Époque — smoking, garnitur i elegancja mieszczańska"
+      },
+      {
+       "n": 108,
+       "title": "Wagner, Verdi, Debussy i przemiana muzyki"
+      },
+      {
+       "n": 109,
+       "title": "Literatura realizmu i naturalizmu — Flaubert, Dostojewski, Tołstoj, Prus"
+      },
+      {
+       "n": 110,
+       "title": "Polska kultura przełomu XIX i XX wieku — Wyspiański, Chełmoński, Reymont"
+      },
+      {
+       "n": 111,
+       "title": "Łódź około 1900 roku — architektura, fotografie, wnętrza i codzienność"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "IX",
+   "title": "XX wiek — narodziny współczesności",
+   "sections": [
+    {
+     "title": "1900–1914: Europa przed katastrofą",
+     "episodes": [
+      {
+       "n": 112,
+       "title": "Belle Époque — wiara w postęp i ukryty kryzys Europy"
+      },
+      {
+       "n": 113,
+       "title": "Secesja w Europie — Wiedeń, Paryż, Barcelona i Glasgow"
+      },
+      {
+       "n": 114,
+       "title": "Młoda Polska — Wyspiański, Malczewski i polski modernizm"
+      },
+      {
+       "n": 115,
+       "title": "Symbolizm, ekspresjonizm i narodziny nowej wrażliwości"
+      },
+      {
+       "n": 116,
+       "title": "Freud, Nietzsche i odkrycie nieświadomości"
+      },
+      {
+       "n": 117,
+       "title": "Narodziny kina — bracia Lumière, Méliès i nowy język obrazu"
+      },
+      {
+       "n": 118,
+       "title": "Nowoczesna fotografia — dokument, portret i eksperyment"
+      },
+      {
+       "n": 119,
+       "title": "Moda męska początku XX wieku — garnitur, smoking i nowe obyczaje"
+      },
+      {
+       "n": 120,
+       "title": "Design przed I wojną światową — secesja, przemysł i nowe materiały"
+      },
+      {
+       "n": 121,
+       "title": "Łódź początku XX wieku — rewolucja 1905 roku, fabryki i wielokulturowość"
+      }
+     ]
+    },
+    {
+     "title": "1914–1918: Wojna i rozpad starego świata",
+     "episodes": [
+      {
+       "n": 122,
+       "title": "I wojna światowa — koniec dawnej Europy"
+      },
+      {
+       "n": 123,
+       "title": "Ekspresjonizm, dadaizm i sztuka protestu"
+      },
+      {
+       "n": 124,
+       "title": "Wojna w literaturze, fotografii i muzyce"
+      },
+      {
+       "n": 125,
+       "title": "Polska odzyskuje niepodległość — kultura i polityka 1918 roku"
+      }
+     ]
+    },
+    {
+     "title": "1918–1929: Eksperyment i nowoczesność",
+     "episodes": [
+      {
+       "n": 126,
+       "title": "Bauhaus — nowa idea architektury i designu"
+      },
+      {
+       "n": 127,
+       "title": "Konstruktywizm, De Stijl i suprematyzm"
+      },
+      {
+       "n": 128,
+       "title": "Polska awangarda — Strzemiński, Kobro i Blok"
+      },
+      {
+       "n": 129,
+       "title": "Architektura modernistyczna — Le Corbusier i nowy sposób życia"
+      },
+      {
+       "n": 130,
+       "title": "Meble modernizmu — Breuer, Mies van der Rohe i nowa technologia"
+      },
+      {
+       "n": 131,
+       "title": "Art déco — elegancja, luksus i przemysł"
+      },
+      {
+       "n": 132,
+       "title": "Jazz, Strawiński i rewolucja muzyczna"
+      },
+      {
+       "n": 133,
+       "title": "Literatura modernistyczna — Joyce, Kafka, Proust i Schulz"
+      },
+      {
+       "n": 134,
+       "title": "Psychoanaliza, egzystencjalizm i kryzys tradycyjnych wartości"
+      },
+      {
+       "n": 135,
+       "title": "Kino nieme — ekspresjonizm niemiecki i kino radzieckie"
+      },
+      {
+       "n": 136,
+       "title": "Moda lat 20. — nowoczesna kobieta, nowoczesny mężczyzna"
+      },
+      {
+       "n": 137,
+       "title": "II Rzeczpospolita — architektura, design i kultura nowego państwa"
+      }
+     ]
+    },
+    {
+     "title": "1929–1939: Kryzys, propaganda i totalitaryzmy",
+     "episodes": [
+      {
+       "n": 138,
+       "title": "Wielki kryzys i przemiany społeczne"
+      },
+      {
+       "n": 139,
+       "title": "Faszyzm, nazizm i stalinizm — polityka estetyzacji władzy"
+      },
+      {
+       "n": 140,
+       "title": "Architektura totalitarna — monumentalność i propaganda"
+      },
+      {
+       "n": 141,
+       "title": "Surrealizm — Dalí, Magritte i podświadomość"
+      },
+      {
+       "n": 142,
+       "title": "Polska sztuka i architektura międzywojenna"
+      },
+      {
+       "n": 143,
+       "title": "Fotografia dokumentalna, reportaż i propaganda"
+      },
+      {
+       "n": 144,
+       "title": "Kino dźwiękowe — Hollywood, Europa i polskie kino przed wojną"
+      },
+      {
+       "n": 145,
+       "title": "Literatura lat 30. — Orwell, Huxley, Gombrowicz i Witkacy"
+      },
+      {
+       "n": 146,
+       "title": "Radio, reklama i narodziny kultury masowej"
+      },
+      {
+       "n": 147,
+       "title": "Moda męska lat 30. — krawiectwo, proporcje i złota era elegancji"
+      },
+      {
+       "n": 148,
+       "title": "Design międzywojenny — funkcjonalizm i nowoczesne mieszkanie"
+      },
+      {
+       "n": 149,
+       "title": "Łódź międzywojenna — przemysł, architektura i życie społeczne"
+      }
+     ]
+    },
+    {
+     "title": "1939–1945: Kultura wobec katastrofy",
+     "episodes": [
+      {
+       "n": 150,
+       "title": "II wojna światowa — zniszczenie europejskiej cywilizacji"
+      },
+      {
+       "n": 151,
+       "title": "Zagłada i zniszczenie wielokulturowego świata Polski"
+      },
+      {
+       "n": 152,
+       "title": "Getto łódzkie — historia miasta, dokumenty, fotografie i świadectwa"
+      },
+      {
+       "n": 153,
+       "title": "Sztuka okupacyjna i kultura podziemna"
+      },
+      {
+       "n": 154,
+       "title": "Literatura, muzyka i teatr w czasie wojny"
+      },
+      {
+       "n": 155,
+       "title": "Propaganda, fotografia i film wojenny"
+      }
+     ]
+    },
+    {
+     "title": "1945–1956: Odbudowa i zimna wojna",
+     "episodes": [
+      {
+       "n": 156,
+       "title": "Powojenna Europa — odbudowa, podział i nowy porządek"
+      },
+      {
+       "n": 157,
+       "title": "Polska Ludowa — socrealizm i polityka kultury"
+      },
+      {
+       "n": 158,
+       "title": "Architektura odbudowy Warszawy i innych polskich miast"
+      },
+      {
+       "n": 159,
+       "title": "Modernizm powojenny — brutalizm i nowe materiały"
+      },
+      {
+       "n": 160,
+       "title": "Abstrakcja, ekspresjonizm abstrakcyjny i nowy język malarstwa"
+      },
+      {
+       "n": 161,
+       "title": "Polska szkoła plakatu — Tomaszewski, Młodożeniec i Lenica"
+      },
+      {
+       "n": 162,
+       "title": "Design PRL — mieszkanie, meble i dostępność przedmiotów"
+      },
+      {
+       "n": 163,
+       "title": "Fotografia powojenna — dokument, humanizm i pamięć"
+      },
+      {
+       "n": 164,
+       "title": "Literatura powojenna — Miłosz, Różewicz, Herbert i Camus"
+      },
+      {
+       "n": 165,
+       "title": "Muzyka awangardowa — Schoenberg, Cage i początki nowych brzmień"
+      },
+      {
+       "n": 166,
+       "title": "Łódź po 1945 roku — przemysł, odbudowa i nowa rzeczywistość"
+      }
+     ]
+    },
+    {
+     "title": "1956–1970: Odwilż i kultura nowoczesna",
+     "episodes": [
+      {
+       "n": 167,
+       "title": "Polski Październik i odwilż — odzyskiwanie wolności artystycznej"
+      },
+      {
+       "n": 168,
+       "title": "Nowa figuracja, informel i polska sztuka powojenna"
+      },
+      {
+       "n": 169,
+       "title": "Wajda, Munk, Kieślowski — kino jako obraz społeczeństwa"
+      },
+      {
+       "n": 170,
+       "title": "Jazz, rock i nowa kultura młodzieżowa"
+      },
+      {
+       "n": 171,
+       "title": "Pop-art, minimalizm i konceptualizm"
+      },
+      {
+       "n": 172,
+       "title": "Nowoczesne meble — Eames, Wegner i polski fotel 366"
+      },
+      {
+       "n": 173,
+       "title": "Moda męska lat 50. i 60. — od klasyki do rewolucji młodzieżowej"
+      },
+      {
+       "n": 174,
+       "title": "Fotografia humanistyczna i fotografia uliczna"
+      },
+      {
+       "n": 175,
+       "title": "Literatura i filozofia — egzystencjalizm, postmodernizm, Gombrowicz"
+      },
+      {
+       "n": 176,
+       "title": "Łódź — szkoła filmowa, awangarda i przemiany miasta"
+      }
+     ]
+    },
+    {
+     "title": "1970–1980: Konsumpcja, kryzys i kultura PRL",
+     "episodes": [
+      {
+       "n": 177,
+       "title": "Epoka Gierka — modernizacja, konsumpcja i propaganda sukcesu"
+      },
+      {
+       "n": 178,
+       "title": "Edward Dwurnik — malarstwo Polski codziennej"
+      },
+      {
+       "n": 179,
+       "title": "Polska sztuka konceptualna i neoawangarda"
+      },
+      {
+       "n": 180,
+       "title": "Architektura PRL — wielka płyta, osiedla i nowoczesność masowa"
+      },
+      {
+       "n": 181,
+       "title": "Wzornictwo lat 70. — meble, elektronika i przedmioty codzienne"
+      },
+      {
+       "n": 182,
+       "title": "Moda męska PRL — ograniczenia, aspiracje i zachodnie inspiracje"
+      },
+      {
+       "n": 183,
+       "title": "Rock, jazz i muzyka popularna — Niemen, SBB i inni"
+      },
+      {
+       "n": 184,
+       "title": "Fotografia PRL — dokument, reportaż i życie codzienne"
+      },
+      {
+       "n": 185,
+       "title": "Literatura i teatr lat 70. — bunt, metafora i cenzura"
+      },
+      {
+       "n": 186,
+       "title": "Łódź lat 70. — włókiennictwo, mieszkania, kultura i życie mieszkańców"
+      }
+     ]
+    },
+    {
+     "title": "1980–1989: Kryzys i niezależność",
+     "episodes": [
+      {
+       "n": 187,
+       "title": "Solidarność, stan wojenny i kultura oporu"
+      },
+      {
+       "n": 188,
+       "title": "Sztuka niezależna, podziemie i cenzura"
+      },
+      {
+       "n": 189,
+       "title": "Postmodernizm — koniec wielkich narracji?"
+      },
+      {
+       "n": 190,
+       "title": "Muzyka lat 80. — punk, new wave i elektronika"
+      },
+      {
+       "n": 191,
+       "title": "Moda i design lat 80. — nowy konsumpcjonizm i kultura alternatywna"
+      },
+      {
+       "n": 192,
+       "title": "Kino, fotografia i literatura schyłkowego PRL"
+      },
+      {
+       "n": 193,
+       "title": "Łódź lat 80. — kryzys przemysłu i zmieniające się miasto"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "X",
+   "title": "Po 1989 roku — świat współczesny",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 194,
+       "title": "Upadek komunizmu i transformacja kultury"
+      },
+      {
+       "n": 195,
+       "title": "Polska architektura po 1989 roku — kapitalizm, nowe miasta i nowe inwestycje"
+      },
+      {
+       "n": 196,
+       "title": "Łódź po transformacji — upadek przemysłu i nowa tożsamość miasta"
+      },
+      {
+       "n": 197,
+       "title": "Globalizacja sztuki — biennale, galerie i rynek"
+      },
+      {
+       "n": 198,
+       "title": "Fotografia cyfrowa — od aparatu do smartfona"
+      },
+      {
+       "n": 199,
+       "title": "Design XXI wieku — Apple, minimalizm i nowe technologie"
+      },
+      {
+       "n": 200,
+       "title": "Moda męska po 1989 roku — od garnituru do współczesnego quiet luxury"
+      },
+      {
+       "n": 201,
+       "title": "Literatura współczesna — pamięć, tożsamość i globalizacja"
+      },
+      {
+       "n": 202,
+       "title": "Muzyka XXI wieku — streaming, elektronika i nowe formy słuchania"
+      },
+      {
+       "n": 203,
+       "title": "Kino i seriale — nowy język kultury popularnej"
+      },
+      {
+       "n": 204,
+       "title": "Architektura parametryczna, ekologia i nowe materiały"
+      },
+      {
+       "n": 205,
+       "title": "Sztuka współczesna — instalacja, konceptualizm i sztuka zaangażowana"
+      },
+      {
+       "n": 206,
+       "title": "AI i generatywna sztuka — czy maszyna może być twórcą?"
+      },
+      {
+       "n": 207,
+       "title": "Współczesna Polska — kultura, społeczeństwo i przemiany estetyczne"
+      },
+      {
+       "n": 208,
+       "title": "Łódź dzisiaj — rewitalizacja, design, fotografia i przyszłość miasta"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "XI",
+   "title": "Odcinki specjalne i podsumowania",
+   "sections": [
+    {
+     "title": "",
+     "episodes": [
+      {
+       "n": 209,
+       "title": "Historia piękna — od Platona do współczesności"
+      },
+      {
+       "n": 210,
+       "title": "Historia muzeum — jak powstały wielkie kolekcje Europy?"
+      },
+      {
+       "n": 211,
+       "title": "100 najważniejszych obrazów w historii kultury"
+      },
+      {
+       "n": 212,
+       "title": "50 najważniejszych budowli i przestrzeni miejskich"
+      },
+      {
+       "n": 213,
+       "title": "50 najważniejszych mebli i przedmiotów designu"
+      },
+      {
+       "n": 214,
+       "title": "50 najważniejszych kompozycji muzycznych"
+      },
+      {
+       "n": 215,
+       "title": "50 najważniejszych książek europejskiej kultury"
+      },
+      {
+       "n": 216,
+       "title": "100 lat męskiej elegancji — syntetyczna historia nowoczesnego ubioru"
+      },
+      {
+       "n": 217,
+       "title": "Łódź — historia miasta w 20 obiektach, fotografiach i budynkach"
+      },
+      {
+       "n": 218,
+       "title": "Polska kultura — najważniejsze osiągnięcia i ich miejsce w Europie"
+      },
+      {
+       "n": 219,
+       "title": "Jak sztuka odzwierciedla władzę, pieniądze i społeczeństwo?"
+      },
+      {
+       "n": 220,
+       "title": "Co właściwie nazywamy kulturą i jak zmienia się jej znaczenie?"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

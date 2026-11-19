@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Historia kultury</title>
+  <meta name="description" content="Akademia Kultury i Sztuki — kurs historii kultury do słuchania: Europa, Polska, Łódź.">
+  <meta name="theme-color" content="#1c1714">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Historia kultury">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="Strona główna">
+      <img src="icons/icon-192.png" alt="" width="32" height="32">
+      <span><strong>Historia kultury</strong><small>Akademia Kultury i Sztuki</small></span>
+    </a>
+    <nav>
+      <a href="#/" data-nav="home">Kurs</a>
+      <a href="#/ustawienia" data-nav="settings">Głosy</a>
+    </nav>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <!-- Mini odtwarzacz widoczny na każdej stronie, gdy lekcja jest aktywna -->
+  <div id="miniplayer" class="miniplayer" hidden>
+    <button class="mp-toggle" data-action="toggle" aria-label="Odtwórz / pauza"></button>
+    <a class="mp-info" href="#/">
+      <span class="mp-title"></span>
+      <span class="mp-sub"></span>
+    </a>
+    <button class="mp-car" data-action="car" aria-label="Tryb samochodowy">🚗</button>
+  </div>
+
+  <!-- Tryb samochodowy: duże przyciski, minimum tekstu -->
+  <div id="carmode" class="carmode" hidden>
+    <div class="car-top">
+      <button class="car-close" data-action="car-close" aria-label="Zamknij tryb samochodowy">✕</button>
+      <span class="car-ep"></span>
+    </div>
+    <div class="car-speaker"><span class="dot"></span><span class="name"></span></div>
+    <div class="car-chapter"></div>
+    <div class="car-progress"><div></div></div>
+    <div class="car-controls">
+      <button data-action="prev-chapter" aria-label="Poprzedni rozdział">⏮</button>
+      <button data-action="back" aria-label="Cofnij">↺</button>
+      <button data-action="toggle" class="car-play" aria-label="Odtwórz / pauza"></button>
+      <button data-action="forward" aria-label="Dalej">↻</button>
+      <button data-action="next-chapter" aria-label="Następny rozdział">⏭</button>
+    </div>
+    <button class="car-ask" data-action="ask">🎙 Zadaj pytanie</button>
+  </div>
+
+  <dialog id="askdlg" class="askdlg">
+    <form method="dialog" class="ask-inner">
+      <h2>Pytanie do prowadzących</h2>
+      <p class="ask-hint">Lekcja jest wstrzymana. Zadaj pytanie głosem lub wpisz je — odpowiedź zostanie przeczytana, a potem wrócimy do wykładu.</p>
+      <div class="ask-row">
+        <button type="button" class="ask-mic" data-action="mic">🎙 Mów</button>
+        <input name="q" class="ask-q" placeholder="np. Dlaczego Gierek inwestował w wielką płytę?" autocomplete="off">
+      </div>
+      <div class="ask-answer" aria-live="polite"></div>
+      <div class="ask-actions">
+        <button type="button" class="btn" data-action="ask-send">Zapytaj</button>
+        <button type="button" class="btn ghost" data-action="ask-resume">Wróć do lekcji</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

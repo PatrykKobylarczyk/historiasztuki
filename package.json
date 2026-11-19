@@ -1,0 +1,16 @@
+{
+  "name": "historia-kultury",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Historia kultury — kurs do słuchania (PWA)",
+  "scripts": {
+    "build": "node scripts/build-lessons.mjs",
+    "audio": "node scripts/generate-audio.mjs",
+    "dev": "npx --yes serve -l 3000 ."
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0"
+  },
+  "engines": { "node": ">=18" }
+}
