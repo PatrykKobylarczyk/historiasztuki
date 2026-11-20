@@ -5159,6 +5159,48 @@
    "m": [
     "Gide\\p{L}*"
    ]
+  },
+  {
+   "id": "przybos",
+   "name": "Julian Przyboś",
+   "born": 1901,
+   "died": 1970,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta awangardy, członek grupy a.r.",
+   "m": [
+    "Przybo\\p{L}*"
+   ]
+  },
+  {
+   "id": "zamecznik",
+   "name": "Stanisław Zamecznik",
+   "born": 1909,
+   "died": 1971,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "architekt wystaw i grafik",
+   "m": [
+    "Zamecznik\\p{L}*"
+   ]
+  },
+  {
+   "id": "nikifor",
+   "name": "Nikifor Krynicki",
+   "born": 1895,
+   "died": 1968,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz naiwny z Krynicy",
+   "m": [
+    "Nikifor\\p{L}*"
+   ]
   }
  ]
 }

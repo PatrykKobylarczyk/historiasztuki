@@ -39,8 +39,14 @@
    "born": 1930,
    "died": 2017,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 40
+    }
+   ],
+   "total": 3
   },
   {
    "id": "ando",
@@ -204,9 +210,14 @@
      "n": 230,
      "count": 1,
      "i": 79
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 5
   },
   {
    "id": "ban",
@@ -371,8 +382,14 @@
    "born": 1929,
    "died": 2005,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
   },
   {
    "id": "belka",
@@ -410,9 +427,14 @@
      "n": 194,
      "count": 2,
      "i": 57
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 90
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "bialoszewski",
@@ -1146,8 +1168,14 @@
    "born": 1941,
    "died": 2004,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 71
+    }
+   ],
+   "total": 1
   },
   {
    "id": "dwurnik",
@@ -1164,8 +1192,14 @@
    "born": 1943,
    "died": 2018,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 67
+    }
+   ],
+   "total": 3
   },
   {
    "id": "dzeser",
@@ -1381,9 +1415,14 @@
      "n": 186,
      "count": 5,
      "i": 66
+    },
+    {
+     "n": 231,
+     "count": 3,
+     "i": 49
     }
    ],
-   "total": 7
+   "total": 10
   },
   {
    "id": "fathy",
@@ -1668,8 +1707,14 @@
    "born": 1925,
    "died": 2022,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 2,
+     "i": 53
+    }
+   ],
+   "total": 2
   },
   {
    "id": "gilgamesz",
@@ -2469,8 +2514,14 @@
    "born": 1915,
    "died": 1990,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 36
+    }
+   ],
+   "total": 3
   },
   {
    "id": "karski",
@@ -2618,9 +2669,14 @@
      "n": 226,
      "count": 1,
      "i": 45
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 20
     }
    ],
-   "total": 5
+   "total": 9
   },
   {
    "id": "kochanowski",
@@ -3096,9 +3152,14 @@
      "n": 186,
      "count": 1,
      "i": 178
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 24
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "lem",
@@ -3134,8 +3195,14 @@
    "born": 1898,
    "died": 1980,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 2,
+     "i": 14
+    }
+   ],
+   "total": 2
   },
   {
    "id": "leroi-gourhan",
@@ -4167,6 +4234,25 @@
    "total": 3
   },
   {
+   "id": "nikifor",
+   "name": "Nikifor Krynicki",
+   "born": 1895,
+   "died": 1968,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz naiwny z Krynicy",
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 70
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "nishizawa",
    "name": "Ryue Nishizawa",
    "c": "architekt",
@@ -4303,9 +4389,14 @@
      "n": 227,
      "count": 1,
      "i": 46
+    },
+    {
+     "n": 231,
+     "count": 2,
+     "i": 46
     }
    ],
-   "total": 3
+   "total": 5
   },
   {
    "id": "opalka",
@@ -4321,8 +4412,14 @@
    "born": 1931,
    "died": 2011,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 57
+    }
+   ],
+   "total": 3
   },
   {
    "id": "orthwein",
@@ -4555,9 +4652,14 @@
      "n": 186,
      "count": 1,
      "i": 178
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 24
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "pilsudski",
@@ -4759,6 +4861,25 @@
     }
    ],
    "total": 12
+  },
+  {
+   "id": "przybos",
+   "name": "Julian Przyboś",
+   "born": 1901,
+   "died": 1970,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta awangardy, członek grupy a.r.",
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 1
   },
   {
    "id": "puabi",
@@ -5377,9 +5498,14 @@
      "n": 230,
      "count": 1,
      "i": 79
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 5
   },
   {
    "id": "sautuola",
@@ -5868,9 +5994,14 @@
      "n": 226,
      "count": 1,
      "i": 45
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 21
     }
    ],
-   "total": 5
+   "total": 9
   },
   {
    "id": "stelmach",
@@ -5915,9 +6046,14 @@
      "n": 230,
      "count": 1,
      "i": 79
+    },
+    {
+     "n": 231,
+     "count": 3,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 4
   },
   {
    "id": "strzeminski",
@@ -5969,9 +6105,14 @@
      "n": 230,
      "count": 1,
      "i": 79
+    },
+    {
+     "n": 231,
+     "count": 6,
+     "i": 4
     }
    ],
-   "total": 9
+   "total": 15
   },
   {
    "id": "stukeley",
@@ -6749,6 +6890,25 @@
    "total": 5
   },
   {
+   "id": "zamecznik",
+   "name": "Stanisław Zamecznik",
+   "born": 1909,
+   "died": 1971,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "architekt wystaw i grafik",
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 50
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "zdanowska",
    "name": "Hanna Zdanowska",
    "born": 1959,
@@ -6851,7 +7011,7 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 231,
-   "ready": 24,
+   "ready": 25,
    "parts": 11,
    "sections": 20,
    "plannedHours": 40,
@@ -6859,17 +7019,17 @@
    "experts": 7
   },
   "ready": {
-   "minutes": 250,
-   "words": 33545,
-   "sentences": 2548,
-   "chapters": 226,
-   "images": 185,
-   "glossary": 146,
-   "quiz": 113,
-   "sources": 103,
+   "minutes": 258,
+   "words": 34600,
+   "sentences": 2630,
+   "chapters": 235,
+   "images": 193,
+   "glossary": 152,
+   "quiz": 118,
+   "sources": 107,
    "music": 6,
-   "lodz": 271,
-   "polska": 171
+   "lodz": 280,
+   "polska": 183
   },
   "lessons": [
    {
@@ -7458,12 +7618,33 @@
      "sztuka": 678,
      "literatura": 81
     }
+   },
+   {
+    "n": 231,
+    "title": "Polscy artyści XX i XXI wieku",
+    "era": "XX–XXI wiek · Polska",
+    "minutes": 8,
+    "words": 1055,
+    "sentences": 82,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 9,
+    "polska": 12,
+    "people": 22,
+    "speakers": {
+     "gospodarz": 132,
+     "sztuka": 923
+    }
    }
   ],
   "speakers": {
-   "gospodarz": 4162,
+   "gospodarz": 4294,
    "historyk": 6817,
-   "sztuka": 4549,
+   "sztuka": 5472,
    "architekt": 8055,
    "muzyka": 1882,
    "literatura": 4319,
@@ -7545,7 +7726,7 @@
     "id": "XI",
     "title": "Odcinki specjalne i podsumowania",
     "episodes": 20,
-    "ready": 7,
+    "ready": 8,
     "sections": 1
    }
   ],
@@ -7675,19 +7856,19 @@
    }
   ],
   "people": {
-   "total": 266,
-   "mentions": 607,
+   "total": 277,
+   "mentions": 662,
    "byCategory": {
     "naukowiec": 28,
     "filozof": 7,
     "inne": 10,
     "muzyk": 10,
-    "pisarz": 40,
+    "pisarz": 41,
     "polityk": 32,
-    "architekt": 79,
-    "malarz": 38,
+    "architekt": 80,
+    "malarz": 46,
     "projektant": 6,
-    "rzeźbiarz": 6,
+    "rzeźbiarz": 7,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
@@ -7698,8 +7879,8 @@
     "16": 4,
     "17": 2,
     "18": 8,
-    "19": 79,
-    "20": 137,
+    "19": 81,
+    "20": 146,
     "-5": 2,
     "-4": 1,
     "-1": 1,
@@ -7719,11 +7900,11 @@
    },
    "byCountry": {
     "zagranica": 136,
-    "Polska": 130
+    "Polska": 141
    },
    "byGender": {
-    "m": 239,
-    "f": 27
+    "m": 248,
+    "f": 29
    },
    "lodz": 29,
    "withWorks": 174,

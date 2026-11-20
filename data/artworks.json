@@ -212,7 +212,7 @@
  },
  "Wojciech Fangor": {
   "creator": "Wojciech Fangor",
-  "date": "1950",
+  "date": "1922–2015",
   "place": ""
  },
  "Muzeum Sztuki w Łodzi ms1": {
@@ -904,5 +904,35 @@
   "creator": "Samuel Hirszenberg",
   "date": "1892",
   "place": ""
+ },
+ "Zofia Stryjeńska": {
+  "creator": "Zofia Stryjeńska",
+  "date": "lata 20.–30. XX w.",
+  "place": ""
+ },
+ "Strzemiński unism": {
+  "creator": "Władysław Strzemiński",
+  "date": "1929–1934",
+  "place": "Muzeum Sztuki w Łodzi"
+ },
+ "Katarzyna Kobro spatial composition": {
+  "creator": "Katarzyna Kobro",
+  "date": "1925–1933",
+  "place": "Muzeum Sztuki w Łodzi"
+ },
+ "Tadeusz Kantor": {
+  "creator": "Tadeusz Kantor, teatr Cricot 2",
+  "date": "Umarła klasa, 1975",
+  "place": "Kraków"
+ },
+ "Agora Abakanowicz Chicago": {
+  "creator": "Magdalena Abakanowicz",
+  "date": "2006",
+  "place": "Grant Park, Chicago"
+ },
+ "Estonia monument Stockholm": {
+  "creator": "Mirosław Bałka",
+  "date": "1997",
+  "place": "Sztokholm"
  }
 }
