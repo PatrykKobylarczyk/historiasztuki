@@ -434,5 +434,130 @@
   "creator": "pałac Oskara Kona",
   "date": "szkoła od 1948",
   "place": "Łódź, ul. Targowa 61/63"
+ },
+ "Ziggurat of Ur": {
+  "creator": "król Ur-Nammu (III dynastia z Ur)",
+  "date": "ok. 2100 p.n.e. (częściowa rekonstrukcja XX w.)",
+  "place": "Ur, Irak"
+ },
+ "Warka Vase": {
+  "creator": "nieznany twórca sumeryjski",
+  "date": "ok. 3200–3000 p.n.e.",
+  "place": "Uruk; Muzeum Iraku, Bagdad"
+ },
+ "Cylinder seal impression": {
+  "creator": "twórcy mezopotamscy",
+  "date": "IV–I tysiąclecie p.n.e.",
+  "place": "Mezopotamia"
+ },
+ "cuneiform tablet": {
+  "creator": "pisarze mezopotamscy",
+  "date": "III–I tysiąclecie p.n.e.",
+  "place": "Mezopotamia"
+ },
+ "Standard of Ur": {
+  "creator": "nieznany twórca sumeryjski",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Ur; British Museum, Londyn"
+ },
+ "Puabi headdress": {
+  "creator": "złotnicy sumeryjscy",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Ur; Penn Museum, Filadelfia"
+ },
+ "Bull Headed Lyre Ur": {
+  "creator": "nieznany twórca sumeryjski",
+  "date": "ok. 2500 p.n.e.",
+  "place": "Ur"
+ },
+ "Flood tablet Gilgamesh": {
+  "creator": "pisarze biblioteki Asurbanipala",
+  "date": "VII w. p.n.e.",
+  "place": "Niniwa; British Museum, Londyn"
+ },
+ "Victory Stele of Naram-Sin": {
+  "creator": "nieznany twórca akadyjski",
+  "date": "ok. 2250 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Gudea statue": {
+  "creator": "warsztat z Lagasz",
+  "date": "ok. 2120 p.n.e.",
+  "place": "Lagasz (Girsu), Irak"
+ },
+ "Code of Hammurabi stele": {
+  "creator": "zamówienie króla Hammurabiego",
+  "date": "ok. 1754 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Lamassu Louvre": {
+  "creator": "warsztat asyryjski, pałac Sargona II",
+  "date": "ok. 713–706 p.n.e.",
+  "place": "Chorsabad; Luwr, Paryż"
+ },
+ "Lion Hunt of Ashurbanipal": {
+  "creator": "warsztat asyryjski",
+  "date": "ok. 645–635 p.n.e.",
+  "place": "Niniwa; British Museum, Londyn"
+ },
+ "Ishtar Gate Pergamon": {
+  "creator": "zamówienie Nabuchodonozora II",
+  "date": "ok. 575 p.n.e.",
+  "place": "Babilon; Muzeum Pergamońskie, Berlin"
+ },
+ "Tower of Babel Bruegel Vienna": {
+  "creator": "Pieter Bruegel starszy",
+  "date": "1563",
+  "place": "Kunsthistorisches Museum, Wiedeń"
+ },
+ "Cyrus Cylinder": {
+  "creator": "pisarze Cyrusa Wielkiego",
+  "date": "po 539 p.n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Narmer Palette": {
+  "creator": "warsztat królewski wczesnego Egiptu",
+  "date": "ok. 3100 p.n.e.",
+  "place": "Hierakonpolis; Muzeum Egipskie, Kair"
+ },
+ "Pyramid of Djoser": {
+  "creator": "Imhotep",
+  "date": "ok. 2650 p.n.e.",
+  "place": "Sakkara, Egipt"
+ },
+ "Giza pyramid complex": {
+  "creator": "budowniczowie IV dynastii",
+  "date": "ok. 2560–2500 p.n.e.",
+  "place": "Giza, Egipt"
+ },
+ "Papyrus of Hunefer": {
+  "creator": "skryba z Teb",
+  "date": "ok. 1275 p.n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Karnak hypostyle hall": {
+  "creator": "faraonowie Seti I i Ramzes II",
+  "date": "XIII w. p.n.e.",
+  "place": "Karnak, Luksor"
+ },
+ "Temple of Hatshepsut": {
+  "creator": "Senenmut (dla królowej Hatszepsut)",
+  "date": "ok. 1479–1458 p.n.e.",
+  "place": "Deir el-Bahari, Luksor"
+ },
+ "Abu Simbel temple": {
+  "creator": "zamówienie Ramzesa II",
+  "date": "ok. 1264–1244 p.n.e.; przeniesiona 1964–1968",
+  "place": "Abu Simbel, Egipt"
+ },
+ "Tutankhamun mask": {
+  "creator": "złotnicy królewscy",
+  "date": "ok. 1323 p.n.e.",
+  "place": "Muzeum Egipskie, Kair"
+ },
+ "Rosetta Stone": {
+  "creator": "dekret kapłanów z Memfis",
+  "date": "196 p.n.e.",
+  "place": "British Museum, Londyn"
  }
 }

@@ -2364,6 +2364,382 @@
    ],
    "ls": "epizod",
    "lodzLink": "W 1987 roku odwiedził Łódź i spotkał się z włókniarkami."
+  },
+  {
+   "id": "gilgamesz",
+   "name": "Gilgamesz",
+   "c": "inne",
+   "country": "Sumer (legenda)",
+   "g": "m",
+   "legend": true,
+   "desc": "legendarny król Uruk, bohater eposu",
+   "m": [
+    "Gilgamesz\\p{L}*"
+   ]
+  },
+  {
+   "id": "enheduanna",
+   "name": "Enheduanna",
+   "born": -2285,
+   "died": -2250,
+   "c": "pisarz",
+   "country": "Akad / Sumer",
+   "g": "f",
+   "desc": "kapłanka w Ur, pierwsza znana z imienia autorka",
+   "m": [
+    "Enheduann\\p{L}*"
+   ],
+   "works": [
+    "Hymny do bogini Inanny (m.in. Nin-me-sara)",
+    "Hymny świątynne"
+   ]
+  },
+  {
+   "id": "sargon",
+   "name": "Sargon z Akadu",
+   "born": -2334,
+   "died": -2279,
+   "c": "polityk",
+   "country": "Akad",
+   "g": "m",
+   "desc": "twórca pierwszego imperium Mezopotamii",
+   "m": [
+    "Sargon\\p{L}*"
+   ]
+  },
+  {
+   "id": "woolley",
+   "name": "Leonard Woolley",
+   "born": 1880,
+   "died": 1960,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca grobów królewskich w Ur",
+   "m": [
+    "Woolley\\p{L}*"
+   ]
+  },
+  {
+   "id": "puabi",
+   "name": "Puabi",
+   "born": -2600,
+   "c": "polityk",
+   "country": "Sumer",
+   "g": "f",
+   "desc": "królowa (lub kapłanka) z Ur, pochowana ze skarbami",
+   "m": [
+    "Puabi"
+   ]
+  },
+  {
+   "id": "george-smith",
+   "name": "George Smith",
+   "born": 1840,
+   "died": 1876,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "asyriolog, odczytał mezopotamską opowieść o potopie",
+   "m": [
+    "George'?\\p{L}*\\s+Smith\\p{L}*"
+   ]
+  },
+  {
+   "id": "asurbanipal",
+   "name": "Asurbanipal",
+   "born": -685,
+   "died": -631,
+   "c": "polityk",
+   "country": "Asyria",
+   "g": "m",
+   "desc": "król Asyrii, twórca biblioteki w Niniwie",
+   "m": [
+    "Asurbanipal\\p{L}*"
+   ]
+  },
+  {
+   "id": "schmandt",
+   "name": "Denise Schmandt-Besserat",
+   "born": 1933,
+   "c": "naukowiec",
+   "country": "Francja / USA",
+   "g": "f",
+   "desc": "archeolożka, badaczka narodzin pisma",
+   "m": [
+    "Schmandt-Besserat"
+   ]
+  },
+  {
+   "id": "meuszynski",
+   "name": "Janusz Meuszyński",
+   "born": 1947,
+   "died": 1979,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "archeolog, kierownik polskich prac w Nimrud",
+   "m": [
+    "Meuszyńsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "naram-sin",
+   "name": "Naram-Sin",
+   "born": -2254,
+   "died": -2218,
+   "c": "polityk",
+   "country": "Akad",
+   "g": "m",
+   "desc": "król Akadu, wnuk Sargona",
+   "m": [
+    "Naram-Sin\\p{L}*"
+   ]
+  },
+  {
+   "id": "gudea",
+   "name": "Gudea z Lagasz",
+   "born": -2144,
+   "died": -2124,
+   "c": "polityk",
+   "country": "Sumer",
+   "g": "m",
+   "desc": "książę Lagasz, fundator świątyń",
+   "m": [
+    "Gude\\p{L}*"
+   ]
+  },
+  {
+   "id": "hammurabi",
+   "name": "Hammurabi",
+   "born": -1810,
+   "died": -1750,
+   "c": "polityk",
+   "country": "Babilonia",
+   "g": "m",
+   "desc": "król Babilonu, autor kodeksu praw",
+   "m": [
+    "Hammurabi\\p{L}*"
+   ]
+  },
+  {
+   "id": "nabuchodonozor",
+   "name": "Nabuchodonozor II",
+   "born": -634,
+   "died": -562,
+   "c": "polityk",
+   "country": "Babilonia",
+   "g": "m",
+   "desc": "król Babilonu, budowniczy Bramy Isztar",
+   "m": [
+    "Nabuchodonozor\\p{L}*"
+   ]
+  },
+  {
+   "id": "cyrus",
+   "name": "Cyrus Wielki",
+   "born": -600,
+   "died": -530,
+   "c": "polityk",
+   "country": "Persja",
+   "g": "m",
+   "desc": "twórca imperium perskiego",
+   "m": [
+    "Cyrus\\p{L}*"
+   ]
+  },
+  {
+   "id": "bruegel",
+   "name": "Pieter Bruegel starszy",
+   "born": 1525,
+   "died": 1569,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "m": [
+    "Bruegl\\p{L}*",
+    "Bruegel"
+   ]
+  },
+  {
+   "id": "herodot",
+   "name": "Herodot",
+   "born": -484,
+   "died": -425,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "grecki historyk, „ojciec historii”",
+   "m": [
+    "Herodot\\p{L}*"
+   ],
+   "works": [
+    "Dzieje (Historie)"
+   ]
+  },
+  {
+   "id": "narmer",
+   "name": "Narmer",
+   "born": -3150,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "władca, który zjednoczył Egipt",
+   "m": [
+    "Narmer\\p{L}*"
+   ]
+  },
+  {
+   "id": "imhotep",
+   "name": "Imhotep",
+   "born": -2690,
+   "died": -2610,
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt piramidy Dżesera, pierwszy znany z imienia architekt",
+   "m": [
+    "Imhotep\\p{L}*"
+   ]
+  },
+  {
+   "id": "dzeser",
+   "name": "Dżeser",
+   "born": -2690,
+   "died": -2650,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon III dynastii",
+   "m": [
+    "Dżeser\\p{L}*"
+   ]
+  },
+  {
+   "id": "cheops",
+   "name": "Chufu (Cheops)",
+   "born": -2600,
+   "died": -2560,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy Wielkiej Piramidy",
+   "m": [
+    "Cheops\\p{L}*",
+    "Chufu"
+   ]
+  },
+  {
+   "id": "hatszepsut",
+   "name": "Hatszepsut",
+   "born": -1507,
+   "died": -1458,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "królowa-faraon XVIII dynastii",
+   "m": [
+    "Hatszepsut"
+   ]
+  },
+  {
+   "id": "senenmut",
+   "name": "Senenmut",
+   "born": -1500,
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt świątyni Hatszepsut",
+   "m": [
+    "Senenmut\\p{L}*"
+   ]
+  },
+  {
+   "id": "ramzes",
+   "name": "Ramzes II",
+   "born": -1303,
+   "died": -1213,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy Abu Simbel",
+   "m": [
+    "Ramzes\\p{L}*"
+   ]
+  },
+  {
+   "id": "tutanchamon",
+   "name": "Tutanchamon",
+   "born": -1341,
+   "died": -1323,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, którego grób odkryto w 1922",
+   "m": [
+    "Tutanchamon\\p{L}*"
+   ]
+  },
+  {
+   "id": "michalowski",
+   "name": "Kazimierz Michałowski",
+   "born": 1901,
+   "died": 1981,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "archeolog, twórca polskiej szkoły archeologii śródziemnomorskiej",
+   "m": [
+    "Michałowsk\\p{L}*"
+   ],
+   "works": [
+    "Polska Stacja Archeologii Śródziemnomorskiej w Kairze (1959)",
+    "Odkrycie katedry w Faras (1961–1964)",
+    "Prace w Deir el-Bahari"
+   ]
+  },
+  {
+   "id": "carter",
+   "name": "Howard Carter",
+   "born": 1874,
+   "died": 1939,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca grobu Tutanchamona",
+   "m": [
+    "Howard\\p{L}*\\s+Carter\\p{L}*",
+    "Carter(?:a|em|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "napoleon",
+   "name": "Napoleon Bonaparte",
+   "born": 1769,
+   "died": 1821,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "cesarz Francuzów",
+   "m": [
+    "Napoleon\\p{L}*"
+   ]
+  },
+  {
+   "id": "champollion",
+   "name": "Jean-François Champollion",
+   "born": 1790,
+   "died": 1832,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "językoznawca, odczytał hieroglify (1822)",
+   "m": [
+    "Champollion\\p{L}*"
+   ]
   }
  ]
 }

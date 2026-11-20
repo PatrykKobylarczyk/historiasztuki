@@ -19,6 +19,29 @@
    "total": 1
   },
   {
+   "id": "asurbanipal",
+   "name": "Asurbanipal",
+   "born": -685,
+   "died": -631,
+   "c": "polityk",
+   "country": "Asyria",
+   "g": "m",
+   "desc": "król Asyrii, twórca biblioteki w Niniwie",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 101
+    },
+    {
+     "n": 7,
+     "count": 3,
+     "i": 49
+    }
+   ],
+   "total": 4
+  },
+  {
    "id": "aulenti",
    "name": "Gae Aulenti",
    "born": 1927,
@@ -352,6 +375,24 @@
    "total": 0
   },
   {
+   "id": "bruegel",
+   "name": "Pieter Bruegel starszy",
+   "born": 1525,
+   "died": 1569,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 2,
+     "i": 84
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "cartailhac",
    "name": "Émile Cartailhac",
    "born": 1845,
@@ -368,6 +409,60 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "carter",
+   "name": "Howard Carter",
+   "born": 1874,
+   "died": 1939,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca grobu Tutanchamona",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 81
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "champollion",
+   "name": "Jean-François Champollion",
+   "born": 1790,
+   "died": 1832,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "językoznawca, odczytał hieroglify (1822)",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 87
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "cheops",
+   "name": "Chufu (Cheops)",
+   "born": -2600,
+   "died": -2560,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy Wielkiej Piramidy",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 3,
+     "i": 33
+    }
+   ],
+   "total": 3
   },
   {
    "id": "chierowski",
@@ -423,6 +518,24 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "cyrus",
+   "name": "Cyrus Wielki",
+   "born": -600,
+   "died": -530,
+   "c": "polityk",
+   "country": "Persja",
+   "g": "m",
+   "desc": "twórca imperium perskiego",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 3,
+     "i": 95
+    }
+   ],
+   "total": 3
   },
   {
    "id": "daszynski",
@@ -506,6 +619,24 @@
    "total": 0
   },
   {
+   "id": "dzeser",
+   "name": "Dżeser",
+   "born": -2690,
+   "died": -2650,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon III dynastii",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "edelman",
    "name": "Marek Edelman",
    "born": 1919,
@@ -531,6 +662,28 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "enheduanna",
+   "name": "Enheduanna",
+   "born": -2285,
+   "died": -2250,
+   "c": "pisarz",
+   "country": "Akad / Sumer",
+   "g": "f",
+   "desc": "kapłanka w Ur, pierwsza znana z imienia autorka",
+   "works": [
+    "Hymny do bogini Inanny (m.in. Nin-me-sara)",
+    "Hymny świątynne"
+   ],
+   "mentions": [
+    {
+     "n": 6,
+     "count": 2,
+     "i": 105
+    }
+   ],
+   "total": 2
   },
   {
    "id": "ernst",
@@ -632,6 +785,24 @@
    "total": 1
   },
   {
+   "id": "george-smith",
+   "name": "George Smith",
+   "born": 1840,
+   "died": 1876,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "asyriolog, odczytał mezopotamską opowieść o potopie",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 2,
+     "i": 101
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "geyer",
    "name": "Ludwik Geyer",
    "born": 1805,
@@ -685,6 +856,23 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "gilgamesz",
+   "name": "Gilgamesz",
+   "c": "inne",
+   "country": "Sumer (legenda)",
+   "g": "m",
+   "legend": true,
+   "desc": "legendarny król Uruk, bohater eposu",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 4,
+     "i": 33
+    }
+   ],
+   "total": 4
   },
   {
    "id": "gombrich",
@@ -790,6 +978,42 @@
    "total": 2
   },
   {
+   "id": "gudea",
+   "name": "Gudea z Lagasz",
+   "born": -2144,
+   "died": -2124,
+   "c": "polityk",
+   "country": "Sumer",
+   "g": "m",
+   "desc": "książę Lagasz, fundator świątyń",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 3,
+     "i": 24
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "hammurabi",
+   "name": "Hammurabi",
+   "born": -1810,
+   "died": -1750,
+   "c": "polityk",
+   "country": "Babilonia",
+   "g": "m",
+   "desc": "król Babilonu, autor kodeksu praw",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 2,
+     "i": 29
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "haring",
    "name": "Keith Haring",
    "born": 1958,
@@ -828,6 +1052,24 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "hatszepsut",
+   "name": "Hatszepsut",
+   "born": -1507,
+   "died": -1458,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "królowa-faraon XVIII dynastii",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 2,
+     "i": 65
+    }
+   ],
+   "total": 2
   },
   {
    "id": "heidegger",
@@ -871,6 +1113,27 @@
      "n": 186,
      "count": 1,
      "i": 123
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "herodot",
+   "name": "Herodot",
+   "born": -484,
+   "died": -425,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "grecki historyk, „ojciec historii”",
+   "works": [
+    "Dzieje (Historie)"
+   ],
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 10
     }
    ],
    "total": 1
@@ -931,6 +1194,24 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "imhotep",
+   "name": "Imhotep",
+   "born": -2690,
+   "died": -2610,
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt piramidy Dżesera, pierwszy znany z imienia architekt",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 3,
+     "i": 23
+    }
+   ],
+   "total": 3
   },
   {
    "id": "inigo-jones",
@@ -1701,6 +1982,49 @@
    "total": 1
   },
   {
+   "id": "meuszynski",
+   "name": "Janusz Meuszyński",
+   "born": 1947,
+   "died": 1979,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "archeolog, kierownik polskich prac w Nimrud",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 119
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "michalowski",
+   "name": "Kazimierz Michałowski",
+   "born": 1901,
+   "died": 1981,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "archeolog, twórca polskiej szkoły archeologii śródziemnomorskiej",
+   "works": [
+    "Polska Stacja Archeologii Śródziemnomorskiej w Kairze (1959)",
+    "Odkrycie katedry w Faras (1961–1964)",
+    "Prace w Deir el-Bahari"
+   ],
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 74
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "mickiewicz",
    "name": "Adam Mickiewicz",
    "born": 1798,
@@ -1786,6 +2110,24 @@
    "total": 0
   },
   {
+   "id": "nabuchodonozor",
+   "name": "Nabuchodonozor II",
+   "born": -634,
+   "died": -562,
+   "c": "polityk",
+   "country": "Babilonia",
+   "g": "m",
+   "desc": "król Babilonu, budowniczy Bramy Isztar",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 2,
+     "i": 58
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "nalepa",
    "name": "Tadeusz Nalepa",
    "born": 1943,
@@ -1800,6 +2142,59 @@
      "n": 186,
      "count": 2,
      "i": 134
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "napoleon",
+   "name": "Napoleon Bonaparte",
+   "born": 1769,
+   "died": 1821,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "cesarz Francuzów",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 85
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "naram-sin",
+   "name": "Naram-Sin",
+   "born": -2254,
+   "died": -2218,
+   "c": "polityk",
+   "country": "Akad",
+   "g": "m",
+   "desc": "król Akadu, wnuk Sargona",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 3,
+     "i": 14
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "narmer",
+   "name": "Narmer",
+   "born": -3150,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "władca, który zjednoczył Egipt",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 2,
+     "i": 17
     }
    ],
    "total": 2
@@ -2136,6 +2531,41 @@
    "total": 11
   },
   {
+   "id": "puabi",
+   "name": "Puabi",
+   "born": -2600,
+   "c": "polityk",
+   "country": "Sumer",
+   "g": "f",
+   "desc": "królowa (lub kapłanka) z Ur, pochowana ze skarbami",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 76
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ramzes",
+   "name": "Ramzes II",
+   "born": -1303,
+   "died": -1213,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy Abu Simbel",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 68
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "reagan",
    "name": "Ronald Reagan",
    "born": 1911,
@@ -2206,6 +2636,11 @@
      "i": 155
     },
     {
+     "n": 7,
+     "count": 1,
+     "i": 88
+    },
+    {
      "n": 186,
      "count": 1,
      "i": 103
@@ -2226,7 +2661,7 @@
      "i": 66
     }
    ],
-   "total": 5
+   "total": 6
   },
   {
    "id": "reznikoff",
@@ -2516,6 +2951,29 @@
    "total": 3
   },
   {
+   "id": "sargon",
+   "name": "Sargon z Akadu",
+   "born": -2334,
+   "died": -2279,
+   "c": "polityk",
+   "country": "Akad",
+   "g": "m",
+   "desc": "twórca pierwszego imperium Mezopotamii",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 105
+    },
+    {
+     "n": 7,
+     "count": 3,
+     "i": 11
+    }
+   ],
+   "total": 4
+  },
+  {
    "id": "sautuola",
    "name": "Marcelino Sanz de Sautuola",
    "born": 1831,
@@ -2586,6 +3044,23 @@
    "total": 6
   },
   {
+   "id": "schmandt",
+   "name": "Denise Schmandt-Besserat",
+   "born": 1933,
+   "c": "naukowiec",
+   "country": "Francja / USA",
+   "g": "f",
+   "desc": "archeolożka, badaczka narodzin pisma",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 43
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "schwitters",
    "name": "Kurt Schwitters",
    "born": 1887,
@@ -2638,6 +3113,23 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "senenmut",
+   "name": "Senenmut",
+   "born": -1500,
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt świątyni Hatszepsut",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 66
+    }
+   ],
+   "total": 1
   },
   {
    "id": "singer",
@@ -2914,6 +3406,24 @@
    "total": 1
   },
   {
+   "id": "tutanchamon",
+   "name": "Tutanchamon",
+   "born": -1341,
+   "died": -1323,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, którego grób odkryto w 1922",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 3,
+     "i": 81
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "tuwim",
    "name": "Julian Tuwim",
    "born": 1894,
@@ -3030,6 +3540,24 @@
    "total": 2
   },
   {
+   "id": "woolley",
+   "name": "Leonard Woolley",
+   "born": 1880,
+   "died": 1960,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca grobów królewskich w Ur",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 75
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "zdanowska",
    "name": "Hanna Zdanowska",
    "born": 1959,
@@ -3060,25 +3588,25 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 223,
-   "ready": 12,
+   "ready": 15,
    "parts": 11,
    "sections": 19,
-   "plannedHours": 48,
+   "plannedHours": 45,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 155,
-   "words": 20899,
-   "sentences": 1619,
-   "chapters": 121,
-   "images": 90,
-   "glossary": 76,
-   "quiz": 53,
-   "sources": 55,
-   "music": 5,
-   "lodz": 245,
-   "polska": 98
+   "minutes": 182,
+   "words": 24557,
+   "sentences": 1905,
+   "chapters": 150,
+   "images": 115,
+   "glossary": 96,
+   "quiz": 68,
+   "sources": 67,
+   "music": 6,
+   "lodz": 249,
+   "polska": 106
   },
   "lessons": [
    {
@@ -3205,6 +3733,82 @@
      "sztuka": 256,
      "literatura": 95,
      "design": 18
+    }
+   },
+   {
+    "n": 6,
+    "title": "Mezopotamia — narodziny miasta, pisma i władzy",
+    "era": "Mezopotamia · ok. 4000–2000 p.n.e.",
+    "minutes": 10,
+    "words": 1379,
+    "sentences": 111,
+    "chapters": 11,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 1,
+    "lodz": 2,
+    "polska": 2,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 141,
+     "historyk": 606,
+     "architekt": 133,
+     "sztuka": 140,
+     "design": 105,
+     "muzyka": 104,
+     "literatura": 150
+    }
+   },
+   {
+    "n": 7,
+    "title": "Sumer, Babilon i Asyria — sztuka jako narzędzie potęgi",
+    "era": "Mezopotamia · ok. 2300–539 p.n.e.",
+    "minutes": 9,
+    "words": 1169,
+    "sentences": 89,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 1,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 138,
+     "historyk": 270,
+     "sztuka": 261,
+     "architekt": 244,
+     "design": 44,
+     "muzyka": 88,
+     "literatura": 124
+    }
+   },
+   {
+    "n": 8,
+    "title": "Egipt — wieczność, religia i monumentalna architektura",
+    "era": "Starożytny Egipt · ok. 3100–30 p.n.e.",
+    "minutes": 8,
+    "words": 1110,
+    "sentences": 86,
+    "chapters": 9,
+    "images": 9,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 5,
+    "people": 13,
+    "speakers": {
+     "gospodarz": 136,
+     "historyk": 396,
+     "architekt": 378,
+     "literatura": 117,
+     "muzyka": 83
     }
    },
    {
@@ -3392,13 +3996,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 2521,
-   "historyk": 5105,
-   "sztuka": 2808,
-   "architekt": 4005,
-   "muzyka": 1458,
-   "literatura": 2016,
-   "design": 2279,
+   "gospodarz": 2936,
+   "historyk": 6377,
+   "sztuka": 3209,
+   "architekt": 4760,
+   "muzyka": 1733,
+   "literatura": 2407,
+   "design": 2428,
    "foto": 707
   },
   "parts": [
@@ -3413,7 +4017,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 0,
+    "ready": 3,
     "sections": 1
    },
    {
@@ -3606,17 +4210,17 @@
    }
   ],
   "people": {
-   "total": 111,
-   "mentions": 203,
+   "total": 139,
+   "mentions": 260,
    "byCategory": {
-    "naukowiec": 17,
+    "naukowiec": 24,
     "filozof": 4,
-    "inne": 8,
+    "inne": 9,
     "muzyk": 10,
-    "pisarz": 15,
-    "polityk": 14,
-    "architekt": 8,
-    "malarz": 17,
+    "pisarz": 17,
+    "polityk": 29,
+    "architekt": 10,
+    "malarz": 18,
     "projektant": 6,
     "rzeźbiarz": 3,
     "przemysłowiec": 3,
@@ -3626,26 +4230,38 @@
    "byCentury": {
     "10": 1,
     "11": 1,
-    "16": 2,
+    "16": 3,
     "17": 1,
-    "18": 5,
-    "19": 31,
-    "20": 66,
-    "-5": 1,
+    "18": 7,
+    "19": 34,
+    "20": 69,
+    "-5": 2,
     "-4": 1,
-    "-1": 1
+    "-1": 1,
+    "-23": 2,
+    "-24": 1,
+    "-26": 2,
+    "-7": 2,
+    "-22": 1,
+    "-19": 1,
+    "-6": 1,
+    "-32": 1,
+    "-27": 2,
+    "-16": 1,
+    "-15": 1,
+    "-14": 2
    },
    "byCountry": {
-    "zagranica": 58,
-    "Polska": 53
+    "zagranica": 84,
+    "Polska": 55
    },
    "byGender": {
-    "m": 102,
-    "f": 9
+    "m": 126,
+    "f": 13
    },
    "lodz": 26,
-   "withWorks": 53,
-   "works": 191,
+   "withWorks": 56,
+   "works": 197,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 24,
