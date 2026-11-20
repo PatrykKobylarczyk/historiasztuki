@@ -644,5 +644,100 @@
   "creator": "wizerunek wyobrażony (portret późniejszy)",
   "date": "Tales z Miletu, ok. 624–546 p.n.e.",
   "place": ""
+ },
+ "Wainwright Building": {
+  "creator": "Louis Sullivan (z D. Adlerem)",
+  "date": "1890–1891",
+  "place": "Saint Louis, USA"
+ },
+ "Casa Batlló": {
+  "creator": "Antoni Gaudí",
+  "date": "1904–1906",
+  "place": "Barcelona"
+ },
+ "Fallingwater": {
+  "creator": "Frank Lloyd Wright",
+  "date": "1935–1939",
+  "place": "Pensylwania, USA"
+ },
+ "Bauhaus Dessau": {
+  "creator": "Walter Gropius",
+  "date": "1925–1926",
+  "place": "Dessau, Niemcy"
+ },
+ "Barcelona Pavilion": {
+  "creator": "Ludwig Mies van der Rohe (z Lilly Reich)",
+  "date": "1929; rekonstrukcja 1986",
+  "place": "Barcelona"
+ },
+ "Villa Savoye": {
+  "creator": "Le Corbusier i Pierre Jeanneret",
+  "date": "1928–1931",
+  "place": "Poissy, Francja"
+ },
+ "Salk Institute": {
+  "creator": "Louis Kahn",
+  "date": "1959–1965",
+  "place": "La Jolla, Kalifornia"
+ },
+ "Sydney Opera House": {
+  "creator": "Jørn Utzon",
+  "date": "1957–1973",
+  "place": "Sydney, Australia"
+ },
+ "National Congress Brasilia": {
+  "creator": "Oscar Niemeyer",
+  "date": "1958–1960",
+  "place": "Brasília"
+ },
+ "MASP São Paulo": {
+  "creator": "Lina Bo Bardi",
+  "date": "1957–1968",
+  "place": "São Paulo"
+ },
+ "Guggenheim Museum Bilbao": {
+  "creator": "Frank Gehry",
+  "date": "1997",
+  "place": "Bilbao, Hiszpania"
+ },
+ "Memorial to the Murdered Jews of Europe": {
+  "creator": "Peter Eisenman",
+  "date": "2005",
+  "place": "Berlin"
+ },
+ "Centre Pompidou": {
+  "creator": "Renzo Piano i Richard Rogers",
+  "date": "1971–1977",
+  "place": "Paryż"
+ },
+ "Reichstag dome": {
+  "creator": "Norman Foster",
+  "date": "1999",
+  "place": "Berlin"
+ },
+ "MAXXI Rome": {
+  "creator": "Zaha Hadid",
+  "date": "2010",
+  "place": "Rzym"
+ },
+ "Church of the Light": {
+  "creator": "Tadao Ando",
+  "date": "1989",
+  "place": "Ibaraki, Japonia"
+ },
+ "21st Century Museum of Contemporary Art Kanazawa": {
+  "creator": "SANAA (Kazuyo Sejima, Ryue Nishizawa)",
+  "date": "2004",
+  "place": "Kanazawa, Japonia"
+ },
+ "Therme Vals": {
+  "creator": "Peter Zumthor",
+  "date": "1996",
+  "place": "Vals, Szwajcaria"
+ },
+ "Tate Modern": {
+  "creator": "Herzog & de Meuron (dawna elektrownia G. G. Scotta)",
+  "date": "2000",
+  "place": "Londyn"
  }
 }
