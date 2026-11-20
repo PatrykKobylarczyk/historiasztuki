@@ -2331,6 +2331,39 @@
    ],
    "lodzLink": "Urodzony i związany z Łodzią; w tekstach opowiada o mieście po transformacji.",
    "verify": true
+  },
+  {
+   "id": "boniek",
+   "name": "Zbigniew Boniek",
+   "born": 1956,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "piłkarz Widzewa Łódź i Juventusu, prezes PZPN",
+   "m": [
+    "Bońk\\p{L}*",
+    "Boniek"
+   ],
+   "lodzLink": "Grał w Widzewie Łódź (1975–1982), z którym zdobył dwa mistrzostwa Polski."
+  },
+  {
+   "id": "jan-pawel-ii",
+   "name": "Jan Paweł II",
+   "born": 1920,
+   "died": 2005,
+   "c": "inne",
+   "country": "Polska / Watykan",
+   "pl": true,
+   "g": "m",
+   "desc": "papież 1978–2005",
+   "m": [
+    "Jan\\p{L}*\\s+Paw\\p{L}*\\s+(?:drugi|II)\\p{L}*"
+   ],
+   "ls": "epizod",
+   "lodzLink": "W 1987 roku odwiedził Łódź i spotkał się z włókniarkami."
   }
  ]
 }
