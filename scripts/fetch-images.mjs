@@ -51,7 +51,11 @@ for (const q of queries) {
       const d = await api({ action: "query", titles: q, ...IMG });
       entry = toEntry(Object.values(d.query?.pages || {})[0]);
     } else {
-      const d = await api({ action: "query", generator: "search", gsrsearch: `${q} filetype:bitmap`, gsrnamespace: "6", gsrlimit: "8", ...IMG });
+      // najpierw: wszystkie słowa zapytania w nazwie pliku (dużo trafniejsze), potem zwykłe wyszukiwanie
+      const words = q.split(/\s+/).filter((w) => w.length > 1).map((w) => `intitle:"${w.replace(/"/g, "")}"`).join(" ");
+      let d = await api({ action: "query", generator: "search", gsrsearch: `${words} filetype:bitmap`, gsrnamespace: "6", gsrlimit: "8", ...IMG });
+      if (!Object.keys(d.query?.pages || {}).length)
+        d = await api({ action: "query", generator: "search", gsrsearch: `${q} filetype:bitmap`, gsrnamespace: "6", gsrlimit: "8", ...IMG });
       const pages = Object.values(d.query?.pages || {}).sort((a, b) => a.index - b.index);
       // pierwszy sensowny wynik: zdjęcie/obraz, nie mapa ani herb, rozsądny rozmiar
       for (const p of pages) {

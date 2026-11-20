@@ -390,16 +390,6 @@
   "date": "przędzalnia z lat 70. XIX w.; dziś lofty",
   "place": "Łódź, Księży Młyn"
  },
- "Szkoła Filmowa Łódź": {
-  "creator": "pałac Oskara Kona",
-  "date": "przełom XIX i XX w.; szkoła od 1948",
-  "place": "Łódź, ul. Targowa 61/63"
- },
- "Uniontex Łódź": {
-  "creator": "architektura przemysłowa",
-  "date": "XIX–XX w.; opuszczona po 1990",
-  "place": "Łódź"
- },
  "Muzeum Kinematografii Łódź": {
   "creator": "pałac Karola Scheiblera",
   "date": "lata 80. XIX w.; muzeum od 1986",
@@ -415,11 +405,6 @@
   "date": "budowa od lat 70. XX w.",
   "place": "Łódź, Retkinia"
  },
- "Ulica Piotrkowska": {
-  "creator": "główna ulica Łodzi",
-  "date": "wytyczona w latach 20. XIX w.; deptak od lat 90.",
-  "place": "Łódź"
- },
  "Chernobyl Nuclear Power Plant": {
   "creator": "Czarnobylska Elektrownia Jądrowa",
   "date": "blok 4 oddany w 1983; katastrofa 26 IV 1986",
@@ -434,5 +419,20 @@
   "creator": "miejski program woonerfów",
   "date": "od 2014",
   "place": "Łódź, Śródmieście"
+ },
+ "File:Piotrkowska Street in Łódź 01.jpg": {
+  "creator": "główna ulica Łodzi",
+  "date": "wytyczona w latach 20. XIX w.; deptak od lat 90.",
+  "place": "Łódź"
+ },
+ "Widzewska Manufaktura": {
+  "creator": "Juliusz Heinzel i Juliusz Kunitzer",
+  "date": "od 1879; po 1990 w upadku, dziś rewitalizowana",
+  "place": "Łódź, Widzew"
+ },
+ "Szkoła Filmowa w Łodzi": {
+  "creator": "pałac Oskara Kona",
+  "date": "szkoła od 1948",
+  "place": "Łódź, ul. Targowa 61/63"
  }
 }
