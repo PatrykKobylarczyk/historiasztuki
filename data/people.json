@@ -5843,7 +5843,7 @@
    "g": "m",
    "desc": "pierwszy cesarz rzymski",
    "m": [
-    "August(?:a|em|owi|us)?(?!\\p{L})",
+    "August(?:a|em|owi|us)?(?!\\p{L})(?! Mau)",
     "Oktawian\\p{L}*"
    ]
   },
@@ -6009,6 +6009,91 @@
    "desc": "cesarz, który zalegalizował chrześcijaństwo",
    "m": [
     "Konstantyn\\p{L}*"
+   ]
+  },
+  {
+   "id": "pliniusz-mlodszy",
+   "name": "Pliniusz Młodszy",
+   "born": 61,
+   "died": 113,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "pisarz, świadek wybuchu Wezuwiusza",
+   "m": [
+    "Pliniusz\\p{L}* Młodsz\\p{L}*",
+    "Pliniusz\\p{L}*(?! Starsz)"
+   ],
+   "works": [
+    "Listy"
+   ]
+  },
+  {
+   "id": "pliniusz-starszy",
+   "name": "Pliniusz Starszy",
+   "born": 23,
+   "died": 79,
+   "c": "naukowiec",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "uczony, autor „Historii naturalnej”",
+   "m": [
+    "Pliniusz\\p{L}* Starsz\\p{L}*"
+   ],
+   "works": [
+    "Historia naturalna"
+   ]
+  },
+  {
+   "id": "fiorelli",
+   "name": "Giuseppe Fiorelli",
+   "born": 1823,
+   "died": 1896,
+   "c": "naukowiec",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "archeolog Pompejów, twórca odlewów gipsowych",
+   "m": [
+    "Fiorell\\p{L}*"
+   ]
+  },
+  {
+   "id": "liwia",
+   "name": "Liwia Druzylla",
+   "born": -58,
+   "died": 29,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "k",
+   "desc": "żona cesarza Augusta",
+   "m": [
+    "Liwi\\p{L}*"
+   ]
+  },
+  {
+   "id": "mau",
+   "name": "August Mau",
+   "born": 1840,
+   "died": 1909,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "badacz malarstwa pompejańskiego",
+   "m": [
+    "August\\p{L}* Mau\\b"
+   ]
+  },
+  {
+   "id": "ludwik-i-bawarski",
+   "name": "Ludwik I Bawarski",
+   "born": 1786,
+   "died": 1868,
+   "c": "polityk",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "król Bawarii, fundator Pompejanum",
+   "m": [
+    "Ludwik\\p{L}* pierwsz\\p{L}*"
    ]
   }
  ]

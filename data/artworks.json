@@ -1219,5 +1219,40 @@
   "creator": "Leonardo da Vinci",
   "date": "ok. 1490",
   "place": "Gallerie dell'Accademia, Wenecja"
+ },
+ "Pompeii Vesuvius": {
+  "creator": "miasto rzymskie zasypane przez Wezuwiusza",
+  "date": "79 n.e.",
+  "place": "Pompeje, Włochy"
+ },
+ "Pompeii atrium": {
+  "creator": "budowniczowie rzymscy",
+  "date": "II w. p.n.e.–79 n.e.",
+  "place": "Pompeje"
+ },
+ "Cave canem mosaic": {
+  "creator": "warsztat mozaikarski, Dom Poety Tragicznego",
+  "date": "I w. n.e.",
+  "place": "Pompeje"
+ },
+ "Villa of the Mysteries fresco": {
+  "creator": "nieznany malarz, II styl pompejański",
+  "date": "ok. 60–50 p.n.e.",
+  "place": "Willa Misteriów, Pompeje"
+ },
+ "Villa of Livia garden fresco": {
+  "creator": "nieznany malarz",
+  "date": "ok. 30–20 p.n.e.",
+  "place": "Palazzo Massimo, Rzym"
+ },
+ "Villa Romana del Casale mosaic": {
+  "creator": "warsztaty północnoafrykańskie",
+  "date": "IV w. n.e.",
+  "place": "Piazza Armerina, Sycylia"
+ },
+ "Lycurgus Cup": {
+  "creator": "szklarz rzymski",
+  "date": "IV w. n.e.",
+  "place": "British Museum, Londyn"
  }
 }

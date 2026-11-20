@@ -249,9 +249,14 @@
      "n": 18,
      "count": 2,
      "i": 70
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 38
     }
    ],
-   "total": 9
+   "total": 10
   },
   {
    "id": "aulenti",
@@ -1844,6 +1849,24 @@
    "total": 1
   },
   {
+   "id": "fiorelli",
+   "name": "Giuseppe Fiorelli",
+   "born": 1823,
+   "died": 1896,
+   "c": "naukowiec",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "archeolog Pompejów, twórca odlewów gipsowych",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 16
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "foster",
    "name": "Norman Foster",
    "born": 1935,
@@ -2677,9 +2700,14 @@
      "n": 10,
      "count": 4,
      "i": 25
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "horacy",
@@ -4003,6 +4031,24 @@
    "total": 1
   },
   {
+   "id": "liwia",
+   "name": "Liwia Druzylla",
+   "born": -58,
+   "died": 29,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "k",
+   "desc": "żona cesarza Augusta",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 2,
+     "i": 38
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "lizyp",
    "name": "Lizyp",
    "born": -390,
@@ -4073,6 +4119,24 @@
      "n": 193,
      "count": 1,
      "i": 94
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ludwik-i-bawarski",
+   "name": "Ludwik I Bawarski",
+   "born": 1786,
+   "died": 1868,
+   "c": "polityk",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "król Bawarii, fundator Pompejanum",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 73
     }
    ],
    "total": 1
@@ -4388,6 +4452,24 @@
    "total": 7
   },
   {
+   "id": "mau",
+   "name": "August Mau",
+   "born": 1840,
+   "died": 1909,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "badacz malarstwa pompejańskiego",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 31
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "mauzolos",
    "name": "Mauzolos",
    "born": -400,
@@ -4563,9 +4645,14 @@
      "n": 8,
      "count": 1,
      "i": 74
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 48
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "mickiewicz",
@@ -5578,6 +5665,48 @@
     }
    ],
    "total": 14
+  },
+  {
+   "id": "pliniusz-mlodszy",
+   "name": "Pliniusz Młodszy",
+   "born": 61,
+   "died": 113,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "pisarz, świadek wybuchu Wezuwiusza",
+   "works": [
+    "Listy"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 2,
+     "i": 13
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "pliniusz-starszy",
+   "name": "Pliniusz Starszy",
+   "born": 23,
+   "died": 79,
+   "c": "naukowiec",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "uczony, autor „Historii naturalnej”",
+   "works": [
+    "Historia naturalna"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 1
   },
   {
    "id": "pniewski",
@@ -6952,9 +7081,14 @@
      "n": 12,
      "count": 2,
      "i": 31
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "sokrates",
@@ -8285,7 +8419,7 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 231,
-   "ready": 33,
+   "ready": 34,
    "parts": 11,
    "sections": 20,
    "plannedHours": 37,
@@ -8293,17 +8427,17 @@
    "experts": 7
   },
   "ready": {
-   "minutes": 316,
-   "words": 41999,
-   "sentences": 3215,
-   "chapters": 304,
-   "images": 250,
-   "glossary": 207,
-   "quiz": 158,
-   "sources": 139,
+   "minutes": 323,
+   "words": 42874,
+   "sentences": 3282,
+   "chapters": 312,
+   "images": 257,
+   "glossary": 215,
+   "quiz": 163,
+   "sources": 143,
    "music": 6,
-   "lodz": 306,
-   "polska": 197
+   "lodz": 308,
+   "polska": 198
   },
   "lessons": [
    {
@@ -8748,6 +8882,30 @@
     }
    },
    {
+    "n": 19,
+    "title": "Rzymskie wnętrza, mozaiki, malarstwo i meble",
+    "era": "Rzym · II w. p.n.e.–IV w. n.e.",
+    "minutes": 7,
+    "words": 875,
+    "sentences": 67,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 1,
+    "people": 10,
+    "speakers": {
+     "gospodarz": 123,
+     "historyk": 99,
+     "architekt": 110,
+     "sztuka": 232,
+     "design": 311
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -9105,13 +9263,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 5306,
-   "historyk": 8026,
-   "sztuka": 6683,
-   "architekt": 9862,
+   "gospodarz": 5429,
+   "historyk": 8125,
+   "sztuka": 6915,
+   "architekt": 9972,
    "muzyka": 2027,
    "literatura": 5747,
-   "design": 3641,
+   "design": 3952,
    "foto": 707
   },
   "parts": [
@@ -9126,7 +9284,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 13,
+    "ready": 14,
     "sections": 1
    },
    {
@@ -9319,15 +9477,15 @@
    }
   ],
   "people": {
-   "total": 335,
-   "mentions": 836,
+   "total": 341,
+   "mentions": 848,
    "byCategory": {
-    "naukowiec": 34,
+    "naukowiec": 37,
     "filozof": 18,
     "inne": 13,
     "muzyk": 10,
-    "pisarz": 49,
-    "polityk": 45,
+    "pisarz": 50,
+    "polityk": 47,
     "architekt": 85,
     "malarz": 50,
     "projektant": 7,
@@ -9337,7 +9495,7 @@
     "fotograf": 2
    },
    "byCentury": {
-    "1": 4,
+    "1": 6,
     "2": 2,
     "3": 1,
     "10": 1,
@@ -9345,12 +9503,12 @@
     "15": 3,
     "16": 5,
     "17": 2,
-    "18": 10,
-    "19": 87,
+    "18": 11,
+    "19": 89,
     "20": 149,
     "-5": 19,
     "-4": 9,
-    "-1": 5,
+    "-1": 6,
     "-23": 2,
     "-24": 1,
     "-26": 3,
@@ -9367,16 +9525,17 @@
     "-3": 3
    },
    "byCountry": {
-    "zagranica": 189,
+    "zagranica": 195,
     "Polska": 146
    },
    "byGender": {
-    "m": 304,
-    "f": 31
+    "m": 309,
+    "f": 31,
+    "k": 1
    },
    "lodz": 31,
-   "withWorks": 193,
-   "works": 620,
+   "withWorks": 195,
+   "works": 622,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,
