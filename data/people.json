@@ -5614,6 +5614,196 @@
     "O szczęściu (1947)",
     "Historia estetyki (1960–1967)"
    ]
+  },
+  {
+   "id": "hippodamos",
+   "name": "Hippodamos z Miletu",
+   "born": -498,
+   "died": -408,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "urbanista, twórca regularnej siatki ulic",
+   "m": [
+    "Hippodamos\\p{L}*",
+    "hippodamejsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "mauzolos",
+   "name": "Mauzolos",
+   "born": -400,
+   "died": -353,
+   "c": "polityk",
+   "country": "Karia",
+   "g": "m",
+   "desc": "władca Karii, od którego imienia pochodzi słowo mauzoleum",
+   "m": [
+    "Mauzolos\\p{L}*"
+   ]
+  },
+  {
+   "id": "eufronios",
+   "name": "Eufronios",
+   "born": -535,
+   "died": -470,
+   "c": "malarz",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "malarz waz czerwonofigurowych",
+   "m": [
+    "Eufronios\\p{L}*"
+   ]
+  },
+  {
+   "id": "penelopa",
+   "name": "Penelopa",
+   "c": "inne",
+   "country": "mitologia grecka",
+   "g": "f",
+   "legend": true,
+   "desc": "żona Odyseusza, wzór wierności i sprytu",
+   "m": [
+    "Penelop\\p{L}*"
+   ]
+  },
+  {
+   "id": "wedgwood",
+   "name": "Josiah Wedgwood",
+   "born": 1730,
+   "died": 1795,
+   "c": "projektant",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "przedsiębiorca, twórca przemysłowej ceramiki",
+   "m": [
+    "Wedgwood\\p{L}*"
+   ]
+  },
+  {
+   "id": "aleksander",
+   "name": "Aleksander Wielki",
+   "born": -356,
+   "died": -323,
+   "c": "polityk",
+   "country": "Macedonia",
+   "g": "m",
+   "desc": "król Macedonii, zdobywca imperium perskiego",
+   "m": [
+    "Aleksand\\p{L}*\\s+(?:Wielk|Macedońsk)\\p{L}*",
+    "Aleksander(?!\\s+Frant)"
+   ]
+  },
+  {
+   "id": "dariusz",
+   "name": "Dariusz III",
+   "born": -380,
+   "died": -330,
+   "c": "polityk",
+   "country": "Persja",
+   "g": "m",
+   "desc": "ostatni król perski z dynastii Achemenidów",
+   "m": [
+    "Dariusz\\p{L}*"
+   ]
+  },
+  {
+   "id": "euklides",
+   "name": "Euklides",
+   "born": -325,
+   "died": -265,
+   "c": "naukowiec",
+   "country": "Grecja (Aleksandria)",
+   "g": "m",
+   "desc": "matematyk, autor „Elementów”",
+   "m": [
+    "Euklides\\p{L}*"
+   ]
+  },
+  {
+   "id": "eratostenes",
+   "name": "Eratostenes",
+   "born": -276,
+   "died": -194,
+   "c": "naukowiec",
+   "country": "Grecja (Aleksandria)",
+   "g": "m",
+   "desc": "uczony, obliczył obwód Ziemi",
+   "m": [
+    "Eratostenes\\p{L}*"
+   ]
+  },
+  {
+   "id": "epikur",
+   "name": "Epikur",
+   "born": -341,
+   "died": -270,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof szczęścia i spokoju",
+   "m": [
+    "Epikur\\p{L}*"
+   ]
+  },
+  {
+   "id": "diogenes",
+   "name": "Diogenes z Synopy",
+   "born": -412,
+   "died": -323,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof cynik",
+   "m": [
+    "Diogenes\\p{L}*"
+   ]
+  },
+  {
+   "id": "ktesibios",
+   "name": "Ktesibios",
+   "born": -285,
+   "died": -222,
+   "c": "naukowiec",
+   "country": "Grecja (Aleksandria)",
+   "g": "m",
+   "desc": "inżynier, wynalazca organów wodnych",
+   "m": [
+    "Ktesibios\\p{L}*"
+   ]
+  },
+  {
+   "id": "archimedes",
+   "name": "Archimedes",
+   "born": -287,
+   "died": -212,
+   "c": "naukowiec",
+   "country": "Grecja (Syrakuzy)",
+   "g": "m",
+   "desc": "matematyk i wynalazca",
+   "m": [
+    "Archimedes\\p{L}*"
+   ]
+  },
+  {
+   "id": "michal-aniol",
+   "name": "Michał Anioł",
+   "born": 1475,
+   "died": 1564,
+   "c": "rzeźbiarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "rzeźbiarz, malarz i architekt renesansu",
+   "m": [
+    "Michał\\p{L}*\\s+Anio\\p{L}*"
+   ],
+   "works": [
+    "Pietà (1498–1499)",
+    "Dawid (1501–1504)",
+    "Sklepienie Kaplicy Sykstyńskiej (1508–1512)",
+    "Sąd Ostateczny (1536–1541)",
+    "Kopuła Bazyliki św. Piotra"
+   ]
   }
  ]
 }

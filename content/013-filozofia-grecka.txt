@@ -3,7 +3,7 @@ n: 13
 title: Filozofia grecka — Sokrates, Platon i Arystoteles
 subtitle: Pytanie, idea i rozum
 era: Grecja · V–IV wiek p.n.e.
-next: Aleksander Wielki i świat hellenistyczny.
+next: Grecka architektura — świątynia, porządek i miasto.
 ---
 
 [jingle]
@@ -69,7 +69,7 @@ W Łodzi szczególną postacią jest Tadeusz Kotarbiński, pierwszy rektor Uniwe
 [gospodarz]
 Podsumujmy. Poznaliśmy sofistów i Demokryta z jego atomami, Sokratesa i jego pytania, Platona z jaskinią i światem idei, Arystotelesa, który wszystko badał i porządkował, „Szkołę Ateńską” Rafaela, filozofię w kolumnadach i krużgankach, a na koniec Tatarkiewicza i łódzkiego Kotarbińskiego.
 
-W następnym odcinku Aleksander Wielki, uczeń Arystotelesa, wyrusza na podbój świata, a sztuka grecka staje się hellenistyczna.
+W następnym odcinku wychodzimy z Akademii na ulice greckich miast: grecka architektura, świątynia, porządek i miasto.
 
 To była KULTURA. Do usłyszenia.
 

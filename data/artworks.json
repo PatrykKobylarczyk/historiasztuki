@@ -1034,5 +1034,115 @@
   "creator": "fundacja króla Attalosa II; rekonstrukcja 1953–1956",
   "date": "II w. p.n.e.",
   "place": "Agora, Ateny"
+ },
+ "Delphi theatre": {
+  "creator": "sanktuarium Apollina",
+  "date": "IV w. p.n.e. (teatr), przebudowy",
+  "place": "Delfy, Grecja"
+ },
+ "Treasury of the Athenians Delphi": {
+  "creator": "fundacja Ateńczyków; rekonstrukcja 1903–1906",
+  "date": "ok. 490 p.n.e.",
+  "place": "Delfy, Grecja"
+ },
+ "Olympia stadium entrance": {
+  "creator": "sanktuarium Zeusa",
+  "date": "IV–III w. p.n.e.",
+  "place": "Olimpia, Grecja"
+ },
+ "Priene": {
+  "creator": "miasto w układzie hippodamejskim",
+  "date": "IV w. p.n.e.",
+  "place": "Priene, Turcja"
+ },
+ "Pella mosaic": {
+  "creator": "mozaikarz Gnosis (podpis)",
+  "date": "ok. 300 p.n.e.",
+  "place": "Pella, Grecja"
+ },
+ "Mausoleum at Halicarnassus model": {
+  "creator": "architekci Pyteos i Satyros (model współczesny)",
+  "date": "ok. 350 p.n.e.",
+  "place": "Halikarnas (Bodrum), Turcja"
+ },
+ "Gods in Color": {
+  "creator": "rekonstrukcja Vinzenza Brinkmanna i zespołu",
+  "date": "oryginały V–IV w. p.n.e.",
+  "place": ""
+ },
+ "Euphronios Krater": {
+  "creator": "Eufronios (malarz) i Euksiteos (garncarz)",
+  "date": "ok. 515 p.n.e.",
+  "place": "Museo Nazionale Cerite, Cerveteri"
+ },
+ "Attic kylix": {
+  "creator": "warsztat ateński",
+  "date": "VI–V w. p.n.e.",
+  "place": ""
+ },
+ "Charioteer of Delphi": {
+  "creator": "nieznany rzeźbiarz grecki",
+  "date": "ok. 474 p.n.e.",
+  "place": "Muzeum Archeologiczne w Delfach"
+ },
+ "Artemision Bronze": {
+  "creator": "nieznany rzeźbiarz grecki",
+  "date": "ok. 460 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Riace bronzes": {
+  "creator": "nieznani rzeźbiarze greccy",
+  "date": "ok. 460–430 p.n.e.",
+  "place": "Museo Nazionale della Magna Grecia, Reggio di Calabria"
+ },
+ "Athenian tetradrachm owl": {
+  "creator": "mennica ateńska",
+  "date": "V w. p.n.e.",
+  "place": ""
+ },
+ "Tanagra figurine": {
+  "creator": "warsztaty z Tanagry",
+  "date": "IV–III w. p.n.e.",
+  "place": ""
+ },
+ "Antikythera mechanism": {
+  "creator": "nieznany konstruktor grecki",
+  "date": "II–I w. p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Alexander Mosaic": {
+  "creator": "mozaikarz rzymski według greckiego obrazu",
+  "date": "ok. 100 p.n.e.",
+  "place": "Dom Fauna, Pompeje; Muzeum Archeologiczne, Neapol"
+ },
+ "Pergamon Altar": {
+  "creator": "warsztaty Pergamonu",
+  "date": "ok. 180–160 p.n.e.",
+  "place": "Muzeum Pergamońskie, Berlin"
+ },
+ "Laocoön and His Sons": {
+  "creator": "Agesander, Atenodoros i Polidoros z Rodos",
+  "date": "I w. p.n.e.–I w. n.e. (kopia lub oryginał)",
+  "place": "Muzea Watykańskie"
+ },
+ "Winged Victory of Samothrace": {
+  "creator": "nieznany rzeźbiarz z Rodos",
+  "date": "ok. 190 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Venus de Milo": {
+  "creator": "przypisywana Aleksandrosowi z Antiochii",
+  "date": "ok. 150–125 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Dying Gaul": {
+  "creator": "kopia rzymska według brązu z Pergamonu",
+  "date": "oryginał ok. 230–220 p.n.e.",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Lighthouse of Alexandria": {
+  "creator": "Sostratos z Knidos (rekonstrukcja wyobrażeniowa)",
+  "date": "ok. 280 p.n.e.",
+  "place": "Aleksandria, Egipt"
  }
 }
