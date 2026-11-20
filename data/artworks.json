@@ -934,5 +934,105 @@
   "creator": "Mirosław Bałka",
   "date": "1997",
   "place": "Sztokholm"
+ },
+ "Parthenon Athens": {
+  "creator": "Iktinos i Kallikrates, nadzór Fidiasz",
+  "date": "447–432 p.n.e.",
+  "place": "Akropol, Ateny"
+ },
+ "Erechtheion Caryatids": {
+  "creator": "warsztat ateński",
+  "date": "ok. 421–406 p.n.e.",
+  "place": "Akropol, Ateny"
+ },
+ "Parthenon frieze": {
+  "creator": "warsztat Fidiasza",
+  "date": "ok. 443–437 p.n.e.",
+  "place": "British Museum, Londyn / Muzeum Akropolu"
+ },
+ "Doryphoros": {
+  "creator": "Poliklet (kopia rzymska)",
+  "date": "oryginał ok. 440 p.n.e.",
+  "place": "Muzeum Archeologiczne, Neapol"
+ },
+ "Discobolus": {
+  "creator": "Myron (kopia rzymska)",
+  "date": "oryginał ok. 450 p.n.e.",
+  "place": "Rzym"
+ },
+ "Corinthian capital": {
+  "creator": "porządek koryncki",
+  "date": "od V–IV w. p.n.e.",
+  "place": ""
+ },
+ "White-ground lekythos": {
+  "creator": "malarz ateński",
+  "date": "V w. p.n.e.",
+  "place": ""
+ },
+ "Hermes and the Infant Dionysus": {
+  "creator": "Praksyteles (lub kopia)",
+  "date": "IV w. p.n.e.",
+  "place": "Muzeum Archeologiczne w Olimpii"
+ },
+ "Theatre of Epidaurus": {
+  "creator": "przypisywany Polikletowi Młodszemu",
+  "date": "IV w. p.n.e.",
+  "place": "Epidauros, Grecja"
+ },
+ "Theatre of Dionysus Athens": {
+  "creator": "teatr ateński",
+  "date": "od V w. p.n.e., przebudowy do czasów rzymskich",
+  "place": "Ateny"
+ },
+ "Theatrical masks mosaic": {
+  "creator": "mozaika rzymska",
+  "date": "II w. n.e.",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Aeschylus bust": {
+  "creator": "kopia rzymska",
+  "date": "Ajschylos, ok. 525–456 p.n.e.",
+  "place": ""
+ },
+ "Sophocles statue": {
+  "creator": "kopia rzymska",
+  "date": "Sofokles, ok. 497–406 p.n.e.",
+  "place": ""
+ },
+ "Euripides bust": {
+  "creator": "kopia rzymska",
+  "date": "Eurypides, ok. 480–406 p.n.e.",
+  "place": ""
+ },
+ "The School of Athens Raphael": {
+  "creator": "Rafael Santi",
+  "date": "1509–1511",
+  "place": "Stanza della Segnatura, Watykan"
+ },
+ "Socrates bust Louvre": {
+  "creator": "kopia rzymska",
+  "date": "Sokrates, ok. 470–399 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Plato Silanion": {
+  "creator": "kopia rzymska według Silaniona",
+  "date": "Platon, ok. 427–347 p.n.e.",
+  "place": ""
+ },
+ "Aristotle Altemps": {
+  "creator": "kopia rzymska według Lizypa",
+  "date": "Arystoteles, 384–322 p.n.e.",
+  "place": "Palazzo Altemps, Rzym"
+ },
+ "Death of Socrates David": {
+  "creator": "Jacques-Louis David",
+  "date": "1787",
+  "place": "Metropolitan Museum of Art, Nowy Jork"
+ },
+ "Stoa of Attalos": {
+  "creator": "fundacja króla Attalosa II; rekonstrukcja 1953–1956",
+  "date": "II w. p.n.e.",
+  "place": "Agora, Ateny"
  }
 }

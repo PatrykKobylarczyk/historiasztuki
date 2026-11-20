@@ -49,6 +49,29 @@
    "total": 3
   },
   {
+   "id": "ajschylos",
+   "name": "Ajschylos",
+   "born": -525,
+   "died": -456,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, twórca „Orestei”",
+   "works": [
+    "Persowie (472 p.n.e.)",
+    "Oresteja (458 p.n.e.)",
+    "Prometeusz skowany"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 2,
+     "i": 20
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "ando",
    "name": "Tadao Ando",
    "c": "architekt",
@@ -72,6 +95,29 @@
    "total": 1
   },
   {
+   "id": "arystofanes",
+   "name": "Arystofanes",
+   "born": -446,
+   "died": -386,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "komediopisarz",
+   "works": [
+    "Chmury (423 p.n.e.)",
+    "Ptaki (414 p.n.e.)",
+    "Lizystrata (411 p.n.e.)"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 3,
+     "i": 54
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "arystoteles",
    "name": "Arystoteles",
    "born": -384,
@@ -79,15 +125,31 @@
    "c": "filozof",
    "country": "Grecja",
    "g": "m",
-   "desc": "filozof grecki",
+   "desc": "filozof i uczony, twórca logiki",
+   "works": [
+    "Etyka nikomachejska",
+    "Polityka",
+    "Poetyka",
+    "Metafizyka"
+   ],
    "mentions": [
     {
      "n": 1,
      "count": 1,
      "i": 201
+    },
+    {
+     "n": 12,
+     "count": 2,
+     "i": 41
+    },
+    {
+     "n": 13,
+     "count": 7,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 10
   },
   {
    "id": "asurbanipal",
@@ -1089,8 +1151,32 @@
     "Dziady w Teatrze Narodowym (1967)",
     "Minister kultury i sztuki (1993–1996)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 89
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "demokryt",
+   "name": "Demokryt z Abdery",
+   "born": -460,
+   "died": -370,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "twórca atomizmu",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 2,
+     "i": 14
+    }
+   ],
+   "total": 2
   },
   {
    "id": "diamond",
@@ -1304,6 +1390,24 @@
    "total": 2
   },
   {
+   "id": "elgin",
+   "name": "Lord Elgin (Thomas Bruce)",
+   "born": 1766,
+   "died": 1841,
+   "c": "polityk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "ambasador, wywiózł rzeźby Partenonu do Londynu",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 3,
+     "i": 37
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "enheduanna",
    "name": "Enheduanna",
    "born": -2285,
@@ -1342,6 +1446,29 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "eurypides",
+   "name": "Eurypides",
+   "born": -480,
+   "died": -406,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, autor „Medei” i „Trojanek”",
+   "works": [
+    "Medea (431 p.n.e.)",
+    "Trojanki (415 p.n.e.)",
+    "Bachantki"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 5,
+     "i": 44
+    }
+   ],
+   "total": 5
   },
   {
    "id": "evans",
@@ -1447,6 +1574,29 @@
    "total": 2
   },
   {
+   "id": "fidiasz",
+   "name": "Fidiasz",
+   "born": -480,
+   "died": -430,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, twórca rzeźb Partenonu",
+   "works": [
+    "Atena Partenos (zaginiona)",
+    "Zeus Olimpijski (zaginiony)",
+    "Rzeźby Partenonu (warsztat)"
+   ],
+   "mentions": [
+    {
+     "n": 11,
+     "count": 3,
+     "i": 20
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "fikus",
    "name": "Marian Fikus",
    "c": "architekt",
@@ -1517,6 +1667,24 @@
      "n": 227,
      "count": 1,
      "i": 37
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "freud",
+   "name": "Zygmunt Freud",
+   "born": 1856,
+   "died": 1939,
+   "c": "naukowiec",
+   "country": "Austria",
+   "g": "m",
+   "desc": "twórca psychoanalizy",
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 41
     }
    ],
    "total": 1
@@ -1864,6 +2032,30 @@
    "total": 3
   },
   {
+   "id": "grotowski",
+   "name": "Jerzy Grotowski",
+   "born": 1933,
+   "died": 1999,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "reżyser, twórca Teatru Laboratorium",
+   "works": [
+    "Akropolis (1962)",
+    "Książę Niezłomny (1965)",
+    "Apocalypsis cum figuris (1969)"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 88
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "gryczelowska",
    "name": "Krystyna Gryczełowska",
    "born": 1931,
@@ -2068,9 +2260,14 @@
      "n": 10,
      "count": 2,
      "i": 87
+    },
+    {
+     "n": 13,
+     "count": 1,
+     "i": 63
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "herbert",
@@ -2262,6 +2459,23 @@
      "n": 226,
      "count": 1,
      "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "iktinos",
+   "name": "Iktinos",
+   "born": -480,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "architekt Partenonu",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 20
     }
    ],
    "total": 1
@@ -2497,6 +2711,40 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "kallikrates",
+   "name": "Kallikrates",
+   "born": -480,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "architekt Partenonu",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 20
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kallimach",
+   "name": "Kallimach",
+   "born": -450,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 56
+    }
+   ],
+   "total": 1
   },
   {
    "id": "kantor",
@@ -2860,8 +3108,14 @@
     "Traktat o dobrej robocie (1955)",
     "Medytacje o życiu godziwym (1966)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 13,
+     "count": 2,
+     "i": 78
+    }
+   ],
+   "total": 2
   },
   {
    "id": "kowalski-g",
@@ -2996,6 +3250,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "ksenofont",
+   "name": "Ksenofont",
+   "born": -430,
+   "died": -354,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "historyk, uczeń Sokratesa",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 20
+    }
+   ],
+   "total": 1
   },
   {
    "id": "kubasinska",
@@ -3205,6 +3477,29 @@
    "total": 2
   },
   {
+   "id": "leonardo",
+   "name": "Leonardo da Vinci",
+   "born": 1452,
+   "died": 1519,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz, wynalazca, uczony renesansu",
+   "works": [
+    "Dama z gronostajem (ok. 1490, Muzeum Książąt Czartoryskich)",
+    "Ostatnia Wieczerza (1495–1498)",
+    "Mona Lisa (ok. 1503–1519)"
+   ],
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "leroi-gourhan",
    "name": "André Leroi-Gourhan",
    "born": 1911,
@@ -3335,6 +3630,24 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "lizyp",
+   "name": "Lizyp",
+   "born": -390,
+   "died": -300,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz Aleksandra Wielkiego",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 74
+    }
+   ],
+   "total": 1
   },
   {
    "id": "loegler",
@@ -3877,6 +4190,11 @@
      "i": 149
     },
     {
+     "n": 11,
+     "count": 1,
+     "i": 72
+    },
+    {
      "n": 224,
      "count": 2,
      "i": 34
@@ -3892,7 +4210,7 @@
      "i": 62
     }
    ],
-   "total": 7
+   "total": 8
   },
   {
    "id": "mieszko",
@@ -4013,6 +4331,23 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "myron",
+   "name": "Myron",
+   "born": -480,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor Dyskobola",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 48
+    }
+   ],
+   "total": 2
   },
   {
    "id": "nabuchodonozor",
@@ -4593,6 +4928,24 @@
    "total": 3
   },
   {
+   "id": "perykles",
+   "name": "Perykles",
+   "born": -495,
+   "died": -429,
+   "c": "polityk",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "przywódca demokratycznych Aten",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 16
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "petrie",
    "name": "Flinders Petrie",
    "born": 1853,
@@ -4706,9 +5059,14 @@
      "n": 10,
      "count": 3,
      "i": 78
+    },
+    {
+     "n": 13,
+     "count": 1,
+     "i": 63
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "platon",
@@ -4718,7 +5076,13 @@
    "c": "filozof",
    "country": "Grecja",
    "g": "m",
-   "desc": "filozof grecki",
+   "desc": "filozof, założyciel Akademii",
+   "works": [
+    "Państwo",
+    "Uczta",
+    "Obrona Sokratesa",
+    "Fedon"
+   ],
    "mentions": [
     {
      "n": 1,
@@ -4729,9 +5093,19 @@
      "n": 10,
      "count": 1,
      "i": 37
+    },
+    {
+     "n": 11,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 13,
+     "count": 10,
+     "i": 4
     }
    ],
-   "total": 2
+   "total": 13
   },
   {
    "id": "pniewski",
@@ -4811,6 +5185,46 @@
    "total": 0
   },
   {
+   "id": "poliklet",
+   "name": "Poliklet",
+   "born": -480,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor „Kanonu”",
+   "works": [
+    "Doryforos",
+    "Diadumenos",
+    "Kanon (traktat, zaginiony)"
+   ],
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 42
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "popper",
+   "name": "Karl Popper",
+   "born": 1902,
+   "died": 1994,
+   "c": "filozof",
+   "country": "Austria / Wielka Brytania",
+   "g": "m",
+   "desc": "filozof nauki, autor „Społeczeństwa otwartego”",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 44
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "poznanski",
    "name": "Izrael Poznański",
    "born": 1833,
@@ -4861,6 +5275,46 @@
     }
    ],
    "total": 12
+  },
+  {
+   "id": "praksyteles",
+   "name": "Praksyteles",
+   "born": -395,
+   "died": -330,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz IV w. p.n.e.",
+   "works": [
+    "Afrodyta z Knidos",
+    "Hermes z małym Dionizosem"
+   ],
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 71
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "protagoras",
+   "name": "Protagoras",
+   "born": -490,
+   "died": -420,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "sofista: „człowiek miarą wszechrzeczy”",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 12
+    }
+   ],
+   "total": 1
   },
   {
    "id": "przybos",
@@ -4918,6 +5372,34 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "rafael",
+   "name": "Rafael Santi",
+   "born": 1483,
+   "died": 1520,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu",
+   "works": [
+    "Szkoła Ateńska (1509–1511)",
+    "Madonna Sykstyńska (1512)",
+    "Przemienienie Pańskie (1516–1520)"
+   ],
+   "mentions": [
+    {
+     "n": 13,
+     "count": 4,
+     "i": 58
+    },
+    {
+     "n": 225,
+     "count": 1,
+     "i": 67
+    }
+   ],
+   "total": 5
   },
   {
    "id": "ramzes",
@@ -5890,6 +6372,52 @@
    "total": 1
   },
   {
+   "id": "sofokles",
+   "name": "Sofokles",
+   "born": -497,
+   "died": -406,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, autor „Antygony” i „Króla Edypa”",
+   "works": [
+    "Antygona",
+    "Król Edyp",
+    "Elektra"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 2,
+     "i": 31
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "sokrates",
+   "name": "Sokrates",
+   "born": -470,
+   "died": -399,
+   "c": "filozof",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "filozof, mistrz Platona",
+   "mentions": [
+    {
+     "n": 12,
+     "count": 2,
+     "i": 56
+    },
+    {
+     "n": 13,
+     "count": 8,
+     "i": 4
+    }
+   ],
+   "total": 10
+  },
+  {
    "id": "soltan",
    "name": "Jerzy Sołtan",
    "c": "architekt",
@@ -6360,6 +6888,30 @@
    "total": 0
   },
   {
+   "id": "tatarkiewicz",
+   "name": "Władysław Tatarkiewicz",
+   "born": 1886,
+   "died": 1980,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "filozof i historyk sztuki",
+   "works": [
+    "Historia filozofii (1931)",
+    "O szczęściu (1947)",
+    "Historia estetyki (1960–1967)"
+   ],
+   "mentions": [
+    {
+     "n": 13,
+     "count": 2,
+     "i": 77
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "thutmose",
    "name": "Thutmose",
    "born": -1350,
@@ -6654,6 +7206,24 @@
    "total": 2
   },
   {
+   "id": "whitehead",
+   "name": "Alfred North Whitehead",
+   "born": 1861,
+   "died": 1947,
+   "c": "filozof",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "filozof i matematyk",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 5
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "wierzbicki",
    "name": "Eugeniusz Wierzbicki",
    "c": "architekt",
@@ -6853,12 +7423,17 @@
    "pl": true,
    "mentions": [
     {
+     "n": 12,
+     "count": 1,
+     "i": 87
+    },
+    {
      "n": 230,
      "count": 4,
      "i": 18
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "zagajewski",
@@ -6948,6 +7523,41 @@
    "total": 0
   },
   {
+   "id": "zenon",
+   "name": "Zenon z Kition",
+   "born": -334,
+   "died": -262,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "twórca stoicyzmu",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 70
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "zeuksis",
+   "name": "Zeuksis",
+   "born": -464,
+   "c": "malarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "legendarny malarz grecki",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "zmijewski",
    "name": "Artur Żmijewski",
    "born": 1966,
@@ -7011,25 +7621,25 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 231,
-   "ready": 25,
+   "ready": 28,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 40,
+   "plannedHours": 39,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 258,
-   "words": 34600,
-   "sentences": 2630,
-   "chapters": 235,
-   "images": 193,
-   "glossary": 152,
-   "quiz": 118,
-   "sources": 107,
+   "minutes": 280,
+   "words": 37356,
+   "sentences": 2857,
+   "chapters": 261,
+   "images": 213,
+   "glossary": 172,
+   "quiz": 133,
+   "sources": 119,
    "music": 6,
-   "lodz": 280,
-   "polska": 183
+   "lodz": 287,
+   "polska": 188
   },
   "lessons": [
    {
@@ -7285,6 +7895,79 @@
     }
    },
    {
+    "n": 11,
+    "title": "Grecja klasyczna — proporcja, harmonia i idea człowieka",
+    "era": "Grecja · ok. 480–323 p.n.e.",
+    "minutes": 8,
+    "words": 981,
+    "sentences": 75,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 0,
+    "people": 13,
+    "speakers": {
+     "gospodarz": 128,
+     "historyk": 100,
+     "architekt": 232,
+     "sztuka": 343,
+     "design": 86,
+     "literatura": 92
+    }
+   },
+   {
+    "n": 12,
+    "title": "Teatr grecki — tragedia, komedia i scena",
+    "era": "Grecja · V–IV wiek p.n.e.",
+    "minutes": 7,
+    "words": 906,
+    "sentences": 79,
+    "chapters": 9,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 3,
+    "people": 10,
+    "speakers": {
+     "gospodarz": 123,
+     "historyk": 83,
+     "literatura": 503,
+     "architekt": 102,
+     "muzyka": 95
+    }
+   },
+   {
+    "n": 13,
+    "title": "Filozofia grecka — Sokrates, Platon i Arystoteles",
+    "era": "Grecja · V–IV wiek p.n.e.",
+    "minutes": 7,
+    "words": 869,
+    "sentences": 73,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 4,
+    "polska": 2,
+    "people": 15,
+    "speakers": {
+     "gospodarz": 124,
+     "literatura": 468,
+     "sztuka": 95,
+     "architekt": 80,
+     "historyk": 102
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -7504,7 +8187,7 @@
     "music": 0,
     "lodz": 2,
     "polska": 2,
-    "people": 29,
+    "people": 30,
     "speakers": {
      "gospodarz": 141,
      "architekt": 936
@@ -7642,13 +8325,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 4294,
-   "historyk": 6817,
-   "sztuka": 5472,
-   "architekt": 8055,
-   "muzyka": 1882,
-   "literatura": 4319,
-   "design": 3054,
+   "gospodarz": 4669,
+   "historyk": 7102,
+   "sztuka": 5910,
+   "architekt": 8469,
+   "muzyka": 1977,
+   "literatura": 5382,
+   "design": 3140,
    "foto": 707
   },
   "parts": [
@@ -7663,7 +8346,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 5,
+    "ready": 8,
     "sections": 1
    },
    {
@@ -7856,19 +8539,19 @@
    }
   ],
   "people": {
-   "total": 277,
-   "mentions": 662,
+   "total": 306,
+   "mentions": 747,
    "byCategory": {
-    "naukowiec": 28,
-    "filozof": 7,
-    "inne": 10,
+    "naukowiec": 29,
+    "filozof": 15,
+    "inne": 12,
     "muzyk": 10,
-    "pisarz": 41,
-    "polityk": 32,
-    "architekt": 80,
-    "malarz": 46,
+    "pisarz": 46,
+    "polityk": 34,
+    "architekt": 82,
+    "malarz": 49,
     "projektant": 6,
-    "rzeźbiarz": 7,
+    "rzeźbiarz": 13,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
@@ -7876,13 +8559,14 @@
    "byCentury": {
     "10": 1,
     "11": 1,
+    "15": 2,
     "16": 4,
     "17": 2,
-    "18": 8,
-    "19": 81,
-    "20": 146,
-    "-5": 2,
-    "-4": 1,
+    "18": 9,
+    "19": 85,
+    "20": 149,
+    "-5": 17,
+    "-4": 4,
     "-1": 1,
     "-23": 2,
     "-24": 1,
@@ -7890,7 +8574,7 @@
     "-7": 4,
     "-22": 1,
     "-19": 1,
-    "-6": 4,
+    "-6": 5,
     "-32": 1,
     "-27": 2,
     "-16": 1,
@@ -7899,16 +8583,16 @@
     "-8": 1
    },
    "byCountry": {
-    "zagranica": 136,
-    "Polska": 141
+    "zagranica": 161,
+    "Polska": 145
    },
    "byGender": {
-    "m": 248,
+    "m": 277,
     "f": 29
    },
-   "lodz": 29,
-   "withWorks": 174,
-   "works": 562,
+   "lodz": 31,
+   "withWorks": 187,
+   "works": 602,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

@@ -192,9 +192,15 @@
    "c": "filozof",
    "country": "Grecja",
    "g": "m",
-   "desc": "filozof grecki",
+   "desc": "filozof, założyciel Akademii",
    "m": [
     "Platon\\p{L}*"
+   ],
+   "works": [
+    "Państwo",
+    "Uczta",
+    "Obrona Sokratesa",
+    "Fedon"
    ]
   },
   {
@@ -205,9 +211,15 @@
    "c": "filozof",
    "country": "Grecja",
    "g": "m",
-   "desc": "filozof grecki",
+   "desc": "filozof i uczony, twórca logiki",
    "m": [
     "Arystotel\\p{L}*"
+   ],
+   "works": [
+    "Etyka nikomachejska",
+    "Polityka",
+    "Poetyka",
+    "Metafizyka"
    ]
   },
   {
@@ -5200,6 +5212,407 @@
    "desc": "malarz naiwny z Krynicy",
    "m": [
     "Nikifor\\p{L}*"
+   ]
+  },
+  {
+   "id": "perykles",
+   "name": "Perykles",
+   "born": -495,
+   "died": -429,
+   "c": "polityk",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "przywódca demokratycznych Aten",
+   "m": [
+    "Perykles\\p{L}*"
+   ]
+  },
+  {
+   "id": "iktinos",
+   "name": "Iktinos",
+   "born": -480,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "architekt Partenonu",
+   "m": [
+    "Iktinos\\p{L}*"
+   ]
+  },
+  {
+   "id": "kallikrates",
+   "name": "Kallikrates",
+   "born": -480,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "architekt Partenonu",
+   "m": [
+    "Kallikrates\\p{L}*"
+   ]
+  },
+  {
+   "id": "fidiasz",
+   "name": "Fidiasz",
+   "born": -480,
+   "died": -430,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, twórca rzeźb Partenonu",
+   "m": [
+    "Fidiasz\\p{L}*"
+   ],
+   "works": [
+    "Atena Partenos (zaginiona)",
+    "Zeus Olimpijski (zaginiony)",
+    "Rzeźby Partenonu (warsztat)"
+   ]
+  },
+  {
+   "id": "elgin",
+   "name": "Lord Elgin (Thomas Bruce)",
+   "born": 1766,
+   "died": 1841,
+   "c": "polityk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "ambasador, wywiózł rzeźby Partenonu do Londynu",
+   "m": [
+    "Elgin\\p{L}*"
+   ]
+  },
+  {
+   "id": "poliklet",
+   "name": "Poliklet",
+   "born": -480,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor „Kanonu”",
+   "m": [
+    "Poliklet\\p{L}*"
+   ],
+   "works": [
+    "Doryforos",
+    "Diadumenos",
+    "Kanon (traktat, zaginiony)"
+   ]
+  },
+  {
+   "id": "myron",
+   "name": "Myron",
+   "born": -480,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor Dyskobola",
+   "m": [
+    "Myron\\p{L}*"
+   ]
+  },
+  {
+   "id": "praksyteles",
+   "name": "Praksyteles",
+   "born": -395,
+   "died": -330,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz IV w. p.n.e.",
+   "m": [
+    "Praksyteles\\p{L}*"
+   ],
+   "works": [
+    "Afrodyta z Knidos",
+    "Hermes z małym Dionizosem"
+   ]
+  },
+  {
+   "id": "lizyp",
+   "name": "Lizyp",
+   "born": -390,
+   "died": -300,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz Aleksandra Wielkiego",
+   "m": [
+    "Lizyp\\p{L}*"
+   ]
+  },
+  {
+   "id": "zeuksis",
+   "name": "Zeuksis",
+   "born": -464,
+   "c": "malarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "legendarny malarz grecki",
+   "m": [
+    "Zeuksis\\p{L}*"
+   ]
+  },
+  {
+   "id": "kallimach",
+   "name": "Kallimach",
+   "born": -450,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
+   "m": [
+    "Kallimach\\p{L}*"
+   ]
+  },
+  {
+   "id": "ajschylos",
+   "name": "Ajschylos",
+   "born": -525,
+   "died": -456,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, twórca „Orestei”",
+   "m": [
+    "Ajschylos\\p{L}*"
+   ],
+   "works": [
+    "Persowie (472 p.n.e.)",
+    "Oresteja (458 p.n.e.)",
+    "Prometeusz skowany"
+   ]
+  },
+  {
+   "id": "sofokles",
+   "name": "Sofokles",
+   "born": -497,
+   "died": -406,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, autor „Antygony” i „Króla Edypa”",
+   "m": [
+    "Sofokles\\p{L}*"
+   ],
+   "works": [
+    "Antygona",
+    "Król Edyp",
+    "Elektra"
+   ]
+  },
+  {
+   "id": "eurypides",
+   "name": "Eurypides",
+   "born": -480,
+   "died": -406,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, autor „Medei” i „Trojanek”",
+   "m": [
+    "Eurypides\\p{L}*"
+   ],
+   "works": [
+    "Medea (431 p.n.e.)",
+    "Trojanki (415 p.n.e.)",
+    "Bachantki"
+   ]
+  },
+  {
+   "id": "arystofanes",
+   "name": "Arystofanes",
+   "born": -446,
+   "died": -386,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "komediopisarz",
+   "m": [
+    "Arystofanes\\p{L}*"
+   ],
+   "works": [
+    "Chmury (423 p.n.e.)",
+    "Ptaki (414 p.n.e.)",
+    "Lizystrata (411 p.n.e.)"
+   ]
+  },
+  {
+   "id": "freud",
+   "name": "Zygmunt Freud",
+   "born": 1856,
+   "died": 1939,
+   "c": "naukowiec",
+   "country": "Austria",
+   "g": "m",
+   "desc": "twórca psychoanalizy",
+   "m": [
+    "Freud\\p{L}*"
+   ]
+  },
+  {
+   "id": "grotowski",
+   "name": "Jerzy Grotowski",
+   "born": 1933,
+   "died": 1999,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "reżyser, twórca Teatru Laboratorium",
+   "m": [
+    "Grotowsk\\p{L}*"
+   ],
+   "works": [
+    "Akropolis (1962)",
+    "Książę Niezłomny (1965)",
+    "Apocalypsis cum figuris (1969)"
+   ]
+  },
+  {
+   "id": "whitehead",
+   "name": "Alfred North Whitehead",
+   "born": 1861,
+   "died": 1947,
+   "c": "filozof",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "filozof i matematyk",
+   "m": [
+    "Whitehead\\p{L}*"
+   ]
+  },
+  {
+   "id": "protagoras",
+   "name": "Protagoras",
+   "born": -490,
+   "died": -420,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "sofista: „człowiek miarą wszechrzeczy”",
+   "m": [
+    "Protagoras\\p{L}*"
+   ]
+  },
+  {
+   "id": "demokryt",
+   "name": "Demokryt z Abdery",
+   "born": -460,
+   "died": -370,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "twórca atomizmu",
+   "m": [
+    "Demokryt\\p{L}*"
+   ]
+  },
+  {
+   "id": "sokrates",
+   "name": "Sokrates",
+   "born": -470,
+   "died": -399,
+   "c": "filozof",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "filozof, mistrz Platona",
+   "m": [
+    "Sokrates\\p{L}*"
+   ]
+  },
+  {
+   "id": "ksenofont",
+   "name": "Ksenofont",
+   "born": -430,
+   "died": -354,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "historyk, uczeń Sokratesa",
+   "m": [
+    "Ksenofont\\p{L}*"
+   ]
+  },
+  {
+   "id": "popper",
+   "name": "Karl Popper",
+   "born": 1902,
+   "died": 1994,
+   "c": "filozof",
+   "country": "Austria / Wielka Brytania",
+   "g": "m",
+   "desc": "filozof nauki, autor „Społeczeństwa otwartego”",
+   "m": [
+    "Popper\\p{L}*"
+   ]
+  },
+  {
+   "id": "rafael",
+   "name": "Rafael Santi",
+   "born": 1483,
+   "died": 1520,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu",
+   "m": [
+    "Rafael\\p{L}*"
+   ],
+   "works": [
+    "Szkoła Ateńska (1509–1511)",
+    "Madonna Sykstyńska (1512)",
+    "Przemienienie Pańskie (1516–1520)"
+   ]
+  },
+  {
+   "id": "leonardo",
+   "name": "Leonardo da Vinci",
+   "born": 1452,
+   "died": 1519,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz, wynalazca, uczony renesansu",
+   "m": [
+    "Leonard\\p{L}*\\s+da\\s+Vinci"
+   ],
+   "works": [
+    "Dama z gronostajem (ok. 1490, Muzeum Książąt Czartoryskich)",
+    "Ostatnia Wieczerza (1495–1498)",
+    "Mona Lisa (ok. 1503–1519)"
+   ]
+  },
+  {
+   "id": "zenon",
+   "name": "Zenon z Kition",
+   "born": -334,
+   "died": -262,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "twórca stoicyzmu",
+   "m": [
+    "Zenon\\p{L}*"
+   ]
+  },
+  {
+   "id": "tatarkiewicz",
+   "name": "Władysław Tatarkiewicz",
+   "born": 1886,
+   "died": 1980,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "filozof i historyk sztuki",
+   "m": [
+    "Tatarkiewicz\\p{L}*"
+   ],
+   "works": [
+    "Historia filozofii (1931)",
+    "O szczęściu (1947)",
+    "Historia estetyki (1960–1967)"
    ]
   }
  ]
