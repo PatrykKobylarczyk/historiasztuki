@@ -5690,8 +5690,7 @@
    "g": "m",
    "desc": "król Macedonii, zdobywca imperium perskiego",
    "m": [
-    "Aleksand\\p{L}*\\s+(?:Wielk|Macedońsk)\\p{L}*",
-    "Aleksander(?!\\s+Frant)"
+    "Aleksand\\p{L}*\\s+(?:Wielk|Macedońsk)\\p{L}*"
    ]
   },
   {
@@ -5803,6 +5802,213 @@
     "Sklepienie Kaplicy Sykstyńskiej (1508–1512)",
     "Sąd Ostateczny (1536–1541)",
     "Kopuła Bazyliki św. Piotra"
+   ]
+  },
+  {
+   "id": "romulus",
+   "name": "Romulus",
+   "c": "polityk",
+   "country": "Rzym (legenda)",
+   "g": "m",
+   "legend": true,
+   "desc": "legendarny założyciel Rzymu",
+   "m": [
+    "Romulus\\p{L}*"
+   ]
+  },
+  {
+   "id": "cezar",
+   "name": "Juliusz Cezar",
+   "born": -100,
+   "died": -44,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "wódz i dyktator rzymski",
+   "m": [
+    "Cezar\\p{L}*"
+   ],
+   "works": [
+    "O wojnie galijskiej",
+    "Reforma kalendarza (kalendarz juliański, 46 p.n.e.)"
+   ]
+  },
+  {
+   "id": "august",
+   "name": "Oktawian August",
+   "born": -63,
+   "died": 14,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "pierwszy cesarz rzymski",
+   "m": [
+    "August(?:a|em|owi|us)?(?!\\p{L})",
+    "Oktawian\\p{L}*"
+   ]
+  },
+  {
+   "id": "kleopatra",
+   "name": "Kleopatra VII",
+   "born": -69,
+   "died": -30,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "ostatnia królowa Egiptu ptolemejskiego",
+   "m": [
+    "Kleopatr\\p{L}*"
+   ]
+  },
+  {
+   "id": "hadrian",
+   "name": "Hadrian",
+   "born": 76,
+   "died": 138,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz rzymski, miłośnik Grecji",
+   "m": [
+    "Hadrian\\p{L}*"
+   ]
+  },
+  {
+   "id": "trajan",
+   "name": "Trajan",
+   "born": 53,
+   "died": 117,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, za którego imperium osiągnęło największy zasięg",
+   "m": [
+    "Trajan\\p{L}*"
+   ]
+  },
+  {
+   "id": "marek-aureliusz",
+   "name": "Marek Aureliusz",
+   "born": 121,
+   "died": 180,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz i filozof stoik",
+   "m": [
+    "Mar\\p{L}*\\s+Aureliusz\\p{L}*"
+   ],
+   "works": [
+    "Rozmyślania"
+   ]
+  },
+  {
+   "id": "juwenalis",
+   "name": "Juwenalis",
+   "born": 55,
+   "died": 128,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta satyryk",
+   "m": [
+    "Juwenalis\\p{L}*"
+   ]
+  },
+  {
+   "id": "szekspir",
+   "name": "William Szekspir",
+   "born": 1564,
+   "died": 1616,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "dramatopisarz i poeta",
+   "m": [
+    "Szekspir\\p{L}*"
+   ],
+   "works": [
+    "Romeo i Julia",
+    "Hamlet",
+    "Juliusz Cezar",
+    "Makbet",
+    "Burza"
+   ]
+  },
+  {
+   "id": "sienkiewicz",
+   "name": "Henryk Sienkiewicz",
+   "born": 1846,
+   "died": 1916,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "powieściopisarz, laureat Nagrody Nobla (1905)",
+   "m": [
+    "Sienkiewicz\\p{L}*"
+   ],
+   "works": [
+    "Trylogia (1884–1888)",
+    "Quo vadis (1896)",
+    "Krzyżacy (1900)",
+    "W pustyni i w puszczy (1911)"
+   ]
+  },
+  {
+   "id": "ptolemeusz",
+   "name": "Klaudiusz Ptolemeusz",
+   "born": 100,
+   "died": 170,
+   "c": "naukowiec",
+   "country": "Egipt rzymski",
+   "g": "m",
+   "desc": "geograf i astronom",
+   "m": [
+    "Ptolemeusz(?!e)\\p{L}*"
+   ]
+  },
+  {
+   "id": "witruwiusz",
+   "name": "Witruwiusz",
+   "born": -80,
+   "died": -15,
+   "c": "architekt",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "architekt i teoretyk, autor „O architekturze”",
+   "m": [
+    "Witruwiusz\\p{L}*",
+    "witruwiańsk\\p{L}*"
+   ],
+   "works": [
+    "Dziesięć ksiąg o architekturze"
+   ]
+  },
+  {
+   "id": "karakalla",
+   "name": "Karakalla",
+   "born": 188,
+   "died": 217,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, fundator term",
+   "m": [
+    "Karakall\\p{L}*"
+   ]
+  },
+  {
+   "id": "konstantyn",
+   "name": "Konstantyn Wielki",
+   "born": 272,
+   "died": 337,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, który zalegalizował chrześcijaństwo",
+   "m": [
+    "Konstantyn\\p{L}*"
    ]
   }
  ]

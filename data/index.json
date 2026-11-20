@@ -98,11 +98,11 @@
     },
     {
      "n": 16,
-     "count": 5,
+     "count": 2,
      "i": 4
     }
    ],
-   "total": 8
+   "total": 5
   },
   {
    "id": "ando",
@@ -229,6 +229,29 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "august",
+   "name": "Oktawian August",
+   "born": -63,
+   "died": 14,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "pierwszy cesarz rzymski",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 7,
+     "i": 36
+    },
+    {
+     "n": 18,
+     "count": 2,
+     "i": 70
+    }
+   ],
+   "total": 9
   },
   {
    "id": "aulenti",
@@ -963,6 +986,28 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "cezar",
+   "name": "Juliusz Cezar",
+   "born": -100,
+   "died": -44,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "wódz i dyktator rzymski",
+   "works": [
+    "O wojnie galijskiej",
+    "Reforma kalendarza (kalendarz juliański, 46 p.n.e.)"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 4,
+     "i": 29
+    }
+   ],
+   "total": 4
   },
   {
    "id": "champollion",
@@ -2302,6 +2347,29 @@
    "total": 5
   },
   {
+   "id": "hadrian",
+   "name": "Hadrian",
+   "born": 76,
+   "died": 138,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz rzymski, miłośnik Grecji",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 56
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "hammurabi",
    "name": "Hammurabi",
    "born": -1810,
@@ -2886,6 +2954,24 @@
    "total": 1
   },
   {
+   "id": "juwenalis",
+   "name": "Juwenalis",
+   "born": 55,
+   "died": 128,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta satyryk",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 69
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kahn",
    "name": "Louis Kahn",
    "c": "architekt",
@@ -2969,6 +3055,24 @@
    "total": 3
   },
   {
+   "id": "karakalla",
+   "name": "Karakalla",
+   "born": 188,
+   "died": 217,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, fundator term",
+   "mentions": [
+    {
+     "n": 18,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "karski",
    "name": "Jan Karski",
    "born": 1914,
@@ -3036,6 +3140,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "kleopatra",
+   "name": "Kleopatra VII",
+   "born": -69,
+   "died": -30,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "ostatnia królowa Egiptu ptolemejskiego",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 36
+    }
+   ],
+   "total": 1
   },
   {
    "id": "klepacz",
@@ -3198,6 +3320,29 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "konstantyn",
+   "name": "Konstantyn Wielki",
+   "born": 272,
+   "died": 337,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, który zalegalizował chrześcijaństwo",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 65
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 77
+    }
+   ],
+   "total": 2
   },
   {
    "id": "konwicki",
@@ -3710,9 +3855,14 @@
      "n": 13,
      "count": 1,
      "i": 65
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 88
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "leroi-gourhan",
@@ -3843,8 +3993,14 @@
     "Filtry Lindleya i kanalizacja Warszawy",
     "Systemy wodno-kanalizacyjne m.in. Hamburga i Frankfurtu"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 18,
+     "count": 1,
+     "i": 53
+    }
+   ],
+   "total": 1
   },
   {
    "id": "lizyp",
@@ -4120,6 +4276,27 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "marek-aureliusz",
+   "name": "Marek Aureliusz",
+   "born": 121,
+   "died": 180,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz i filozof stoik",
+   "works": [
+    "Rozmyślania"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 2,
+     "i": 64
+    }
+   ],
+   "total": 2
   },
   {
    "id": "margolis",
@@ -4663,9 +4840,19 @@
      "n": 8,
      "count": 1,
      "i": 85
+    },
+    {
+     "n": 17,
+     "count": 1,
+     "i": 23
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 78
     }
    ],
-   "total": 1
+   "total": 3
   },
   {
    "id": "naram-sin",
@@ -5487,9 +5674,14 @@
      "n": 11,
      "count": 2,
      "i": 42
+    },
+    {
+     "n": 17,
+     "count": 1,
+     "i": 40
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "popper",
@@ -5626,6 +5818,29 @@
    "total": 1
   },
   {
+   "id": "ptolemeusz",
+   "name": "Klaudiusz Ptolemeusz",
+   "born": 100,
+   "died": 170,
+   "c": "naukowiec",
+   "country": "Egipt rzymski",
+   "g": "m",
+   "desc": "geograf i astronom",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 1,
+     "i": 24
+    },
+    {
+     "n": 17,
+     "count": 1,
+     "i": 79
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "puabi",
    "name": "Puabi",
    "born": -2600,
@@ -5684,12 +5899,17 @@
      "i": 58
     },
     {
+     "n": 18,
+     "count": 1,
+     "i": 31
+    },
+    {
      "n": 225,
      "count": 1,
      "i": 67
     }
    ],
-   "total": 5
+   "total": 6
   },
   {
    "id": "ramzes",
@@ -5946,6 +6166,23 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "romulus",
+   "name": "Romulus",
+   "c": "polityk",
+   "country": "Rzym (legenda)",
+   "g": "m",
+   "legend": true,
+   "desc": "legendarny założyciel Rzymu",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 2,
+     "i": 11
+    }
+   ],
+   "total": 2
   },
   {
    "id": "rossi",
@@ -6535,6 +6772,31 @@
    "total": 1
   },
   {
+   "id": "sienkiewicz",
+   "name": "Henryk Sienkiewicz",
+   "born": 1846,
+   "died": 1916,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "powieściopisarz, laureat Nagrody Nobla (1905)",
+   "works": [
+    "Trylogia (1884–1888)",
+    "Quo vadis (1896)",
+    "Krzyżacy (1900)",
+    "W pustyni i w puszczy (1911)"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 3,
+     "i": 80
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "singer",
    "name": "Izrael Jehoszua Singer",
    "born": 1893,
@@ -7054,6 +7316,41 @@
    "total": 1
   },
   {
+   "id": "szekspir",
+   "name": "William Szekspir",
+   "born": 1564,
+   "died": 1616,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "dramatopisarz i poeta",
+   "works": [
+    "Romeo i Julia",
+    "Hamlet",
+    "Juliusz Cezar",
+    "Makbet",
+    "Burza"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 33
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 37
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 72
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "szyk",
    "name": "Artur Szyk",
    "born": 1894,
@@ -7253,6 +7550,24 @@
      "n": 186,
      "count": 1,
      "i": 154
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "trajan",
+   "name": "Trajan",
+   "born": 53,
+   "died": 117,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, za którego imperium osiągnęło największy zasięg",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 2,
+     "i": 59
     }
    ],
    "total": 2
@@ -7614,6 +7929,27 @@
    "total": 2
   },
   {
+   "id": "witruwiusz",
+   "name": "Witruwiusz",
+   "born": -80,
+   "died": -15,
+   "c": "architekt",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "architekt i teoretyk, autor „O architekturze”",
+   "works": [
+    "Dziesięć ksiąg o architekturze"
+   ],
+   "mentions": [
+    {
+     "n": 18,
+     "count": 5,
+     "i": 84
+    }
+   ],
+   "total": 5
+  },
+  {
    "id": "wojaczek",
    "name": "Rafał Wojaczek",
    "c": "pisarz",
@@ -7949,25 +8285,25 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 231,
-   "ready": 31,
+   "ready": 33,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 38,
+   "plannedHours": 37,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 302,
-   "words": 40083,
-   "sentences": 3065,
-   "chapters": 286,
-   "images": 235,
-   "glossary": 193,
-   "quiz": 148,
-   "sources": 131,
+   "minutes": 316,
+   "words": 41999,
+   "sentences": 3215,
+   "chapters": 304,
+   "images": 250,
+   "glossary": 207,
+   "quiz": 158,
+   "sources": 139,
    "music": 6,
-   "lodz": 300,
-   "polska": 191
+   "lodz": 306,
+   "polska": 197
   },
   "lessons": [
    {
@@ -8356,7 +8692,7 @@
     "music": 0,
     "lodz": 4,
     "polska": 1,
-    "people": 11,
+    "people": 12,
     "speakers": {
      "gospodarz": 138,
      "historyk": 258,
@@ -8364,6 +8700,51 @@
      "architekt": 94,
      "literatura": 184,
      "muzyka": 50
+    }
+   },
+   {
+    "n": 17,
+    "title": "Rzym — republika, imperium i kultura władzy",
+    "era": "Rzym · 753 p.n.e.–476 n.e.",
+    "minutes": 7,
+    "words": 946,
+    "sentences": 72,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 6,
+    "people": 14,
+    "speakers": {
+     "gospodarz": 128,
+     "historyk": 496,
+     "sztuka": 322
+    }
+   },
+   {
+    "n": 18,
+    "title": "Rzymska architektura — beton, łuki, kopuły i infrastruktura",
+    "era": "Rzym · III w. p.n.e.–IV w. n.e.",
+    "minutes": 7,
+    "words": 970,
+    "sentences": 78,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 5,
+    "polska": 0,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 123,
+     "architekt": 680,
+     "historyk": 85,
+     "literatura": 82
     }
    },
    {
@@ -8650,7 +9031,7 @@
     "music": 0,
     "lodz": 2,
     "polska": 12,
-    "people": 13,
+    "people": 14,
     "speakers": {
      "gospodarz": 141,
      "literatura": 629,
@@ -8673,7 +9054,7 @@
     "music": 0,
     "lodz": 5,
     "polska": 11,
-    "people": 23,
+    "people": 24,
     "speakers": {
      "gospodarz": 130,
      "literatura": 867
@@ -8724,12 +9105,12 @@
    }
   ],
   "speakers": {
-   "gospodarz": 5055,
-   "historyk": 7445,
-   "sztuka": 6361,
-   "architekt": 9182,
+   "gospodarz": 5306,
+   "historyk": 8026,
+   "sztuka": 6683,
+   "architekt": 9862,
    "muzyka": 2027,
-   "literatura": 5665,
+   "literatura": 5747,
    "design": 3641,
    "foto": 707
   },
@@ -8745,7 +9126,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 11,
+    "ready": 13,
     "sections": 1
    },
    {
@@ -8938,16 +9319,16 @@
    }
   ],
   "people": {
-   "total": 320,
-   "mentions": 794,
+   "total": 335,
+   "mentions": 836,
    "byCategory": {
-    "naukowiec": 33,
-    "filozof": 17,
+    "naukowiec": 34,
+    "filozof": 18,
     "inne": 13,
     "muzyk": 10,
-    "pisarz": 46,
-    "polityk": 37,
-    "architekt": 83,
+    "pisarz": 49,
+    "polityk": 45,
+    "architekt": 85,
     "malarz": 50,
     "projektant": 7,
     "rzeźbiarz": 14,
@@ -8956,17 +9337,20 @@
     "fotograf": 2
    },
    "byCentury": {
+    "1": 4,
+    "2": 2,
+    "3": 1,
     "10": 1,
     "11": 1,
     "15": 3,
-    "16": 4,
+    "16": 5,
     "17": 2,
     "18": 10,
-    "19": 85,
+    "19": 87,
     "20": 149,
     "-5": 19,
     "-4": 9,
-    "-1": 1,
+    "-1": 5,
     "-23": 2,
     "-24": 1,
     "-26": 3,
@@ -8983,16 +9367,16 @@
     "-3": 3
    },
    "byCountry": {
-    "zagranica": 175,
-    "Polska": 145
+    "zagranica": 189,
+    "Polska": 146
    },
    "byGender": {
-    "m": 290,
-    "f": 30
+    "m": 304,
+    "f": 31
    },
    "lodz": 31,
-   "withWorks": 188,
-   "works": 607,
+   "withWorks": 193,
+   "works": 620,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

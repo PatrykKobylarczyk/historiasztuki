@@ -1144,5 +1144,80 @@
   "creator": "Sostratos z Knidos (rekonstrukcja wyobrażeniowa)",
   "date": "ok. 280 p.n.e.",
   "place": "Aleksandria, Egipt"
+ },
+ "Capitoline Wolf": {
+  "creator": "warsztat etruski lub średniowieczny (spór); bliźnięta z XV w.",
+  "date": "datowanie sporne",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Sarcophagus of the Spouses": {
+  "creator": "nieznany twórca etruski",
+  "date": "ok. 520 p.n.e.",
+  "place": "Muzeum Villa Giulia, Rzym"
+ },
+ "Augustus of Prima Porta": {
+  "creator": "nieznany rzeźbiarz rzymski",
+  "date": "I w. n.e.",
+  "place": "Muzea Watykańskie"
+ },
+ "Ara Pacis": {
+  "creator": "fundacja senatu dla Augusta",
+  "date": "13–9 p.n.e.; pawilon Richarda Meiera 2006",
+  "place": "Rzym"
+ },
+ "Patrician Torlonia": {
+  "creator": "nieznany rzeźbiarz rzymski",
+  "date": "I w. p.n.e.",
+  "place": "Rzym"
+ },
+ "Trajan's Column": {
+  "creator": "przypisywana Apollodorowi z Damaszku",
+  "date": "113 n.e.",
+  "place": "Forum Trajana, Rzym"
+ },
+ "Equestrian Statue of Marcus Aurelius": {
+  "creator": "nieznany rzeźbiarz rzymski",
+  "date": "ok. 175 n.e.",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Pantheon interior": {
+  "creator": "budowniczowie cesarza Hadriana",
+  "date": "ok. 113–125 n.e.",
+  "place": "Rzym"
+ },
+ "Colosseum Rome": {
+  "creator": "cesarze Wespazjan i Tytus",
+  "date": "70–80 n.e.",
+  "place": "Rzym"
+ },
+ "Pont du Gard": {
+  "creator": "inżynierowie rzymscy",
+  "date": "I w. n.e.",
+  "place": "Vers-Pont-du-Gard, Francja"
+ },
+ "Baths of Caracalla": {
+  "creator": "cesarz Karakalla",
+  "date": "212–216 n.e.",
+  "place": "Rzym"
+ },
+ "Via Appia Antica": {
+  "creator": "cenzor Appiusz Klaudiusz",
+  "date": "od 312 p.n.e.",
+  "place": "Rzym–Brindisi"
+ },
+ "Ostia Antica insula": {
+  "creator": "budownictwo czynszowe",
+  "date": "II w. n.e.",
+  "place": "Ostia, Włochy"
+ },
+ "Arch of Constantine": {
+  "creator": "senat rzymski dla Konstantyna",
+  "date": "315 n.e.",
+  "place": "Rzym"
+ },
+ "Vitruvian Man": {
+  "creator": "Leonardo da Vinci",
+  "date": "ok. 1490",
+  "place": "Gallerie dell'Accademia, Wenecja"
  }
 }
