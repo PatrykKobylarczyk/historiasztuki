@@ -158,8 +158,14 @@
    "born": 1921,
    "died": 1944,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 43
+    }
+   ],
+   "total": 2
   },
   {
    "id": "balcerowicz",
@@ -193,8 +199,14 @@
    ],
    "born": 1958,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    }
+   ],
+   "total": 1
   },
   {
    "id": "ban",
@@ -272,8 +284,14 @@
    "born": 1946,
    "died": 2014,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 70
+    }
+   ],
+   "total": 3
   },
   {
    "id": "basquiat",
@@ -416,9 +434,14 @@
      "n": 186,
      "count": 2,
      "i": 120
+    },
+    {
+     "n": 229,
+     "count": 2,
+     "i": 61
     }
    ],
-   "total": 2
+   "total": 4
   },
   {
    "id": "bierezin",
@@ -438,8 +461,14 @@
     "Niezależny kwartalnik literacki „Puls” (współzałożyciel, 1977)",
     "Wiersze w obiegu oficjalnym i podziemnym (tytuły tomów do weryfikacji)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 73
+    }
+   ],
+   "total": 2
   },
   {
    "id": "bo-bardi",
@@ -537,8 +566,14 @@
    "born": 1865,
    "died": 1940,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 57
+    }
+   ],
+   "total": 3
   },
   {
    "id": "braun",
@@ -615,8 +650,14 @@
    "born": 1897,
    "died": 1962,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 33
+    }
+   ],
+   "total": 2
   },
   {
    "id": "bruegel",
@@ -669,8 +710,14 @@
    ],
    "born": 1939,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 4,
+     "i": 47
+    }
+   ],
+   "total": 4
   },
   {
    "id": "buszko",
@@ -686,8 +733,14 @@
    "born": 1924,
    "died": 2015,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 2,
+     "i": 37
+    }
+   ],
+   "total": 2
   },
   {
    "id": "calatrava",
@@ -762,8 +815,14 @@
    "born": 1924,
    "died": 2019,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 48
+    }
+   ],
+   "total": 1
   },
   {
    "id": "champollion",
@@ -822,8 +881,14 @@
    "born": 1849,
    "died": 1914,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 21
+    }
+   ],
+   "total": 2
   },
   {
    "id": "cheops",
@@ -935,8 +1000,14 @@
    "born": 1792,
    "died": 1877,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 5,
+     "i": 17
+    }
+   ],
+   "total": 5
   },
   {
    "id": "cyrus",
@@ -1271,8 +1342,14 @@
    "born": 1853,
    "died": 1929,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 26
+    }
+   ],
+   "total": 2
   },
   {
    "id": "fangor",
@@ -1344,8 +1421,14 @@
    "died": 2023,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
   },
   {
    "id": "foster",
@@ -1390,8 +1473,14 @@
    "born": 1925,
    "died": 2019,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 37
+    }
+   ],
+   "total": 1
   },
   {
    "id": "gabriel",
@@ -1528,6 +1617,24 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "gide",
+   "name": "André Gide",
+   "born": 1869,
+   "died": 1951,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "pisarz, laureat Nagrody Nobla",
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 66
+    }
+   ],
+   "total": 1
   },
   {
    "id": "gierek",
@@ -1678,8 +1785,14 @@
    "born": 1920,
    "died": 2018,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
   },
   {
    "id": "gropius",
@@ -1806,8 +1919,19 @@
    "born": 1922,
    "died": 2005,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 227,
+     "count": 5,
+     "i": 4
+    }
+   ],
+   "total": 6
   },
   {
    "id": "haring",
@@ -1926,9 +2050,19 @@
      "n": 186,
      "count": 1,
      "i": 123
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 74
+    },
+    {
+     "n": 229,
+     "count": 3,
+     "i": 51
     }
    ],
-   "total": 1
+   "total": 5
   },
   {
    "id": "herodot",
@@ -1993,8 +2127,14 @@
     "Galut / Wygnanie (1904)",
     "Czarny sztandar (1905)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 69
+    }
+   ],
+   "total": 3
   },
   {
    "id": "hodder",
@@ -2048,9 +2188,14 @@
      "n": 5,
      "count": 1,
      "i": 161
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 14
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "ihnatowicz",
@@ -2067,8 +2212,14 @@
    "died": 1986,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
   },
   {
    "id": "imhotep",
@@ -2145,8 +2296,14 @@
    "born": 1894,
    "died": 1980,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 19
+    }
+   ],
+   "total": 3
   },
   {
    "id": "jan-pawel-ii",
@@ -2245,8 +2402,14 @@
    "born": 1988,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
   },
   {
    "id": "jobs",
@@ -2412,8 +2575,14 @@
    "died": 2000,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 9
+    }
+   ],
+   "total": 1
   },
   {
    "id": "kobro",
@@ -2444,9 +2613,14 @@
      "n": 193,
      "count": 1,
      "i": 110
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 45
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "kochanowski",
@@ -2465,8 +2639,19 @@
    "born": 1530,
    "died": 1584,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 228,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
   },
   {
    "id": "konieczny",
@@ -2482,8 +2667,14 @@
    ],
    "born": 1969,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
   },
   {
    "id": "konior",
@@ -2498,8 +2689,14 @@
    ],
    "born": 1960,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 63
+    }
+   ],
+   "total": 1
   },
   {
    "id": "konwicki",
@@ -2575,8 +2772,19 @@
    "born": 1856,
    "died": 1942,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 29
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 24
+    }
+   ],
+   "total": 2
   },
   {
    "id": "kotarbinski",
@@ -2598,6 +2806,47 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "kowalski-g",
+   "name": "Grzegorz Kowalski",
+   "born": 1942,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz i pedagog, prowadził tzw. Kowalnię na ASP w Warszawie",
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kozyra",
+   "name": "Katarzyna Kozyra",
+   "born": 1963,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "artystka sztuki krytycznej i wideo",
+   "works": [
+    "Piramida zwierząt (1993)",
+    "Łaźnia (1997)",
+    "W sztuce marzenia stają się rzeczywistością (2003–2008)"
+   ],
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
   },
   {
    "id": "krall",
@@ -2633,8 +2882,14 @@
    "born": 1812,
    "died": 1859,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 2,
+     "i": 46
+    }
+   ],
+   "total": 2
   },
   {
    "id": "kraszewski",
@@ -2739,8 +2994,14 @@
    "died": 2011,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 62
+    }
+   ],
+   "total": 1
   },
   {
    "id": "lachert",
@@ -2757,8 +3018,14 @@
    "born": 1900,
    "died": 1987,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 3,
+     "i": 46
+    }
+   ],
+   "total": 3
   },
   {
    "id": "le-corbusier",
@@ -2787,9 +3054,33 @@
      "n": 224,
      "count": 3,
      "i": 37
+    },
+    {
+     "n": 226,
+     "count": 3,
+     "i": 46
     }
    ],
-   "total": 4
+   "total": 7
+  },
+  {
+   "id": "lechon",
+   "name": "Jan Lechoń",
+   "born": 1899,
+   "died": 1956,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, skamandryta",
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
   },
   {
    "id": "leger",
@@ -2880,8 +3171,19 @@
    "born": 1877,
    "died": 1937,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 4
   },
   {
    "id": "leszczynska",
@@ -2939,8 +3241,14 @@
    "died": 1983,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 1
   },
   {
    "id": "lindley",
@@ -2974,8 +3282,14 @@
    "born": 1940,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 1
   },
   {
    "id": "loos",
@@ -3025,8 +3339,14 @@
    "born": 1968,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
   },
   {
    "id": "machulski",
@@ -3063,8 +3383,36 @@
    "born": 1956,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "majewski",
+   "name": "Hilary Majewski",
+   "born": 1837,
+   "died": 1892,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "architekt miejski Łodzi 1872–1892",
+   "lodzLink": "Architekt miejski Łodzi; projektował dla Poznańskiego i innych fabrykantów.",
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 71
+    }
+   ],
+   "total": 1
   },
   {
    "id": "makowski",
@@ -3080,8 +3428,14 @@
    "born": 1882,
    "died": 1932,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 68
+    }
+   ],
+   "total": 1
   },
   {
    "id": "malczewski",
@@ -3099,8 +3453,14 @@
    "born": 1854,
    "died": 1929,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 4,
+     "i": 18
+    }
+   ],
+   "total": 4
   },
   {
    "id": "malewicz",
@@ -3241,8 +3601,19 @@
    "born": 1838,
    "died": 1893,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 82
+    },
+    {
+     "n": 230,
+     "count": 6,
+     "i": 4
+    }
+   ],
+   "total": 7
   },
   {
    "id": "mcauliffe",
@@ -3276,8 +3647,14 @@
    "born": 1869,
    "died": 1946,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 53
+    }
+   ],
+   "total": 2
   },
   {
    "id": "mellaart",
@@ -3397,9 +3774,14 @@
      "n": 3,
      "count": 1,
      "i": 154
+    },
+    {
+     "n": 228,
+     "count": 7,
+     "i": 23
     }
    ],
-   "total": 1
+   "total": 8
   },
   {
    "id": "mies",
@@ -3436,9 +3818,14 @@
      "n": 225,
      "count": 1,
      "i": 11
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 62
     }
    ],
-   "total": 6
+   "total": 7
   },
   {
    "id": "mieszko",
@@ -3478,8 +3865,19 @@
     "Traktat poetycki (1957)",
     "Ziemia Ulro (1977)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 74
+    },
+    {
+     "n": 229,
+     "count": 2,
+     "i": 39
+    }
+   ],
+   "total": 3
   },
   {
    "id": "mokrzynski",
@@ -3495,8 +3893,14 @@
    "died": 1997,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 9
+    }
+   ],
+   "total": 1
   },
   {
    "id": "moneo",
@@ -3706,8 +4110,14 @@
    "died": 2020,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 46
+    }
+   ],
+   "total": 1
   },
   {
    "id": "niemen",
@@ -3724,9 +4134,14 @@
      "n": 186,
      "count": 2,
      "i": 131
+    },
+    {
+     "n": 228,
+     "count": 3,
+     "i": 61
     }
    ],
-   "total": 2
+   "total": 5
   },
   {
    "id": "niemeyer",
@@ -3793,9 +4208,19 @@
      "n": 186,
      "count": 1,
      "i": 133
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 228,
+     "count": 7,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 9
   },
   {
    "id": "nouvel",
@@ -3840,9 +4265,14 @@
      "n": 225,
      "count": 1,
      "i": 86
+    },
+    {
+     "n": 226,
+     "count": 3,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 4
   },
   {
    "id": "nowosielski",
@@ -3868,9 +4298,14 @@
      "n": 186,
      "count": 2,
      "i": 79
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 46
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "opalka",
@@ -3975,8 +4410,14 @@
    "born": 1866,
    "died": 1940,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 30
+    }
+   ],
+   "total": 3
   },
   {
    "id": "parandowski",
@@ -4040,8 +4481,19 @@
    "born": 1891,
    "died": 1945,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 29
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 24
+    }
+   ],
+   "total": 3
   },
   {
    "id": "petrie",
@@ -4195,8 +4647,19 @@
    "born": 1897,
    "died": 1965,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 3,
+     "i": 38
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 4
   },
   {
    "id": "podkowinski",
@@ -4213,8 +4676,14 @@
    "born": 1866,
    "died": 1895,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 30
+    }
+   ],
+   "total": 3
   },
   {
    "id": "polanski",
@@ -4282,9 +4751,14 @@
      "n": 199,
      "count": 1,
      "i": 9
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 71
     }
    ],
-   "total": 11
+   "total": 12
   },
   {
    "id": "puabi",
@@ -4382,9 +4856,14 @@
      "n": 3,
      "count": 1,
      "i": 102
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 21
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "reymont",
@@ -4646,8 +5125,14 @@
    "born": 1921,
    "died": 2014,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 46
+    }
+   ],
+   "total": 3
   },
   {
    "id": "rubinstein",
@@ -4791,9 +5276,33 @@
      "n": 10,
      "count": 3,
      "i": 34
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 30
     }
    ],
-   "total": 3
+   "total": 4
+  },
+  {
+   "id": "sandecka",
+   "name": "Stanisława Nowicka (Sandecka)",
+   "born": 1912,
+   "died": 2006,
+   "c": "architekt",
+   "country": "Polska / USA",
+   "pl": true,
+   "g": "f",
+   "desc": "architektka, żona i współpracowniczka Macieja Nowickiego",
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 55
+    }
+   ],
+   "total": 1
   },
   {
    "id": "sapkowski",
@@ -4863,8 +5372,14 @@
    ],
    "born": 1972,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    }
+   ],
+   "total": 1
   },
   {
    "id": "sautuola",
@@ -5173,8 +5688,33 @@
    "born": 1921,
    "died": 2011,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 2,
+     "i": 31
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "slonimski",
+   "name": "Antoni Słonimski",
+   "born": 1895,
+   "died": 1976,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta i felietonista, skamandryta",
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
   },
   {
    "id": "slowacki",
@@ -5192,8 +5732,14 @@
    "born": 1809,
    "died": 1849,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 2,
+     "i": 36
+    }
+   ],
+   "total": 2
   },
   {
    "id": "slowik",
@@ -5231,8 +5777,14 @@
    "born": 1913,
    "died": 2005,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 3,
+     "i": 64
+    }
+   ],
+   "total": 3
   },
   {
    "id": "staff",
@@ -5250,8 +5802,14 @@
    "born": 1878,
    "died": 1957,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
   },
   {
    "id": "stanislawski",
@@ -5305,9 +5863,14 @@
      "n": 186,
      "count": 4,
      "i": 74
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 45
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "stelmach",
@@ -5322,8 +5885,14 @@
    "born": 1957,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 64
+    }
+   ],
+   "total": 1
   },
   {
    "id": "stryjenska",
@@ -5341,8 +5910,14 @@
    "born": 1891,
    "died": 1976,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    }
+   ],
+   "total": 1
   },
   {
    "id": "strzeminski",
@@ -5389,9 +5964,14 @@
      "n": 211,
      "count": 1,
      "i": 40
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
     }
    ],
-   "total": 8
+   "total": 9
   },
   {
    "id": "stukeley",
@@ -5407,6 +5987,25 @@
      "n": 5,
      "count": 1,
      "i": 117
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "styka",
+   "name": "Jan Styka",
+   "born": 1858,
+   "died": 1925,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz panoram, współautor Panoramy Racławickiej",
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 25
     }
    ],
    "total": 1
@@ -5435,6 +6034,25 @@
    "total": 4
   },
   {
+   "id": "szanajca",
+   "name": "Józef Szanajca",
+   "born": 1902,
+   "died": 1939,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "architekt awangardy, współpracownik Lacherta",
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 46
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "szczepanik",
    "name": "Jan Szczepanik",
    "born": 1872,
@@ -5452,8 +6070,14 @@
     "Maszyny i metody projektowania wzorów tkackich",
     "Barwna fotografia i film"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
   },
   {
    "id": "szyk",
@@ -5493,8 +6117,19 @@
    "born": 1923,
    "died": 2012,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
   },
   {
    "id": "szyszko-bohusz",
@@ -5510,8 +6145,14 @@
    "born": 1883,
    "died": 1948,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 2,
+     "i": 35
+    }
+   ],
+   "total": 2
   },
   {
    "id": "tales",
@@ -5689,9 +6330,19 @@
      "n": 211,
      "count": 1,
      "i": 78
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 5,
+     "i": 4
     }
    ],
-   "total": 3
+   "total": 9
   },
   {
    "id": "tylman",
@@ -5714,9 +6365,14 @@
      "n": 225,
      "count": 1,
      "i": 86
+    },
+    {
+     "n": 226,
+     "count": 5,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 6
   },
   {
    "id": "utzon",
@@ -5803,9 +6459,14 @@
      "n": 211,
      "count": 2,
      "i": 40
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 25
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "warhol",
@@ -5865,8 +6526,33 @@
    "died": 1991,
    "pl": true,
    "verify": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 9
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "wierzynski",
+   "name": "Kazimierz Wierzyński",
+   "born": 1894,
+   "died": 1969,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, skamandryta",
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
   },
   {
    "id": "witkiewicz-st",
@@ -5884,8 +6570,14 @@
    "born": 1851,
    "died": 1915,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 226,
+     "count": 2,
+     "i": 24
+    }
+   ],
+   "total": 2
   },
   {
    "id": "wojaczek",
@@ -5903,8 +6595,14 @@
    "born": 1945,
    "died": 1971,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 64
+    }
+   ],
+   "total": 2
   },
   {
    "id": "wojtkiewicz",
@@ -5921,8 +6619,14 @@
    "born": 1879,
    "died": 1909,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 65
+    }
+   ],
+   "total": 2
   },
   {
    "id": "woolley",
@@ -5981,8 +6685,14 @@
    "born": 1852,
    "died": 1936,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
   },
   {
    "id": "wyspianski",
@@ -6000,8 +6710,14 @@
    "born": 1869,
    "died": 1907,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 4,
+     "i": 18
+    }
+   ],
+   "total": 4
   },
   {
    "id": "zagajewski",
@@ -6018,8 +6734,19 @@
    "born": 1945,
    "died": 2021,
    "pl": true,
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
   },
   {
    "id": "zdanowska",
@@ -6046,6 +6773,50 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "zemla",
+   "name": "Gustaw Zemła",
+   "born": 1931,
+   "died": 2021,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz, autor Pomnika Powstańców Śląskich",
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "zmijewski",
+   "name": "Artur Żmijewski",
+   "born": 1966,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "artysta wideo i fotografii",
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "zofia-hansen",
+   "name": "Zofia Hansen",
+   "born": 1924,
+   "died": 2013,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "architektka, współautorka projektów Oskara Hansena",
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "zumthor",
@@ -6080,25 +6851,25 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 231,
-   "ready": 19,
+   "ready": 24,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 43,
+   "plannedHours": 40,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 214,
-   "words": 28891,
-   "sentences": 2220,
-   "chapters": 185,
-   "images": 151,
-   "glossary": 119,
-   "quiz": 88,
-   "sources": 83,
+   "minutes": 250,
+   "words": 33545,
+   "sentences": 2548,
+   "chapters": 226,
+   "images": 185,
+   "glossary": 146,
+   "quiz": 113,
+   "sources": 103,
    "music": 6,
-   "lodz": 255,
-   "polska": 111
+   "lodz": 271,
+   "polska": 171
   },
   "lessons": [
    {
@@ -6578,15 +7349,124 @@
      "gospodarz": 141,
      "architekt": 936
     }
+   },
+   {
+    "n": 226,
+    "title": "Polscy architekci — od Tylmana z Gameren do Macieja Nowickiego",
+    "era": "XVII–XX wiek · Polska",
+    "minutes": 7,
+    "words": 919,
+    "sentences": 64,
+    "chapters": 9,
+    "images": 6,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 6,
+    "polska": 11,
+    "people": 18,
+    "speakers": {
+     "gospodarz": 136,
+     "architekt": 705,
+     "historyk": 78
+    }
+   },
+   {
+    "n": 227,
+    "title": "Polscy architekci po 1945 roku",
+    "era": "1945–dziś · Polska",
+    "minutes": 7,
+    "words": 926,
+    "sentences": 63,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 8,
+    "people": 29,
+    "speakers": {
+     "gospodarz": 145,
+     "architekt": 781
+    }
+   },
+   {
+    "n": 228,
+    "title": "Polscy poeci — od Kochanowskiego do Norwida",
+    "era": "XVI–XIX wiek · Polska",
+    "minutes": 7,
+    "words": 922,
+    "sentences": 68,
+    "chapters": 7,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 12,
+    "people": 13,
+    "speakers": {
+     "gospodarz": 141,
+     "literatura": 629,
+     "muzyka": 48,
+     "historyk": 104
+    }
+   },
+   {
+    "n": 229,
+    "title": "Polscy poeci XX wieku",
+    "era": "XX–XXI wiek · Polska",
+    "minutes": 8,
+    "words": 997,
+    "sentences": 68,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 5,
+    "polska": 11,
+    "people": 23,
+    "speakers": {
+     "gospodarz": 130,
+     "literatura": 867
+    }
+   },
+   {
+    "n": 230,
+    "title": "Polscy malarze — od Matejki do Młodej Polski",
+    "era": "ok. 1860–1914 · Polska",
+    "minutes": 7,
+    "words": 890,
+    "sentences": 65,
+    "chapters": 8,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 3,
+    "polska": 18,
+    "people": 22,
+    "speakers": {
+     "gospodarz": 131,
+     "sztuka": 678,
+     "literatura": 81
+    }
    }
   ],
   "speakers": {
-   "gospodarz": 3479,
-   "historyk": 6635,
-   "sztuka": 3871,
-   "architekt": 6569,
-   "muzyka": 1834,
-   "literatura": 2742,
+   "gospodarz": 4162,
+   "historyk": 6817,
+   "sztuka": 4549,
+   "architekt": 8055,
+   "muzyka": 1882,
+   "literatura": 4319,
    "design": 3054,
    "foto": 707
   },
@@ -6665,7 +7545,7 @@
     "id": "XI",
     "title": "Odcinki specjalne i podsumowania",
     "episodes": 20,
-    "ready": 2,
+    "ready": 7,
     "sections": 1
    }
   ],
@@ -6795,31 +7675,31 @@
    }
   ],
   "people": {
-   "total": 193,
-   "mentions": 397,
+   "total": 266,
+   "mentions": 607,
    "byCategory": {
-    "naukowiec": 27,
+    "naukowiec": 28,
     "filozof": 7,
     "inne": 10,
     "muzyk": 10,
-    "pisarz": 20,
+    "pisarz": 40,
     "polityk": 32,
-    "architekt": 48,
-    "malarz": 20,
+    "architekt": 79,
+    "malarz": 38,
     "projektant": 6,
-    "rzeźbiarz": 4,
+    "rzeźbiarz": 6,
     "przemysłowiec": 3,
-    "filmowiec": 4,
+    "filmowiec": 5,
     "fotograf": 2
    },
    "byCentury": {
     "10": 1,
     "11": 1,
-    "16": 3,
+    "16": 4,
     "17": 2,
-    "18": 7,
-    "19": 46,
-    "20": 99,
+    "18": 8,
+    "19": 79,
+    "20": 137,
     "-5": 2,
     "-4": 1,
     "-1": 1,
@@ -6838,24 +7718,24 @@
     "-8": 1
    },
    "byCountry": {
-    "zagranica": 135,
-    "Polska": 58
+    "zagranica": 136,
+    "Polska": 130
    },
    "byGender": {
-    "m": 174,
-    "f": 19
+    "m": 239,
+    "f": 27
    },
-   "lodz": 26,
-   "withWorks": 173,
-   "works": 559,
+   "lodz": 29,
+   "withWorks": 174,
+   "works": 562,
    "lodzStrength": {
     "temat": 3,
-    "mieszkali": 24,
+    "mieszkali": 25,
     "epizod": 9,
     "brak": 6,
     "urodzeni": 17
    },
-   "lodzAll": 55
+   "lodzAll": 56
   }
  }
 }

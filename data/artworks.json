@@ -739,5 +739,170 @@
   "creator": "Herzog & de Meuron (dawna elektrownia G. G. Scotta)",
   "date": "2000",
   "place": "Londyn"
+ },
+ "Krasiński Palace Warsaw": {
+  "creator": "Tylman z Gameren",
+  "date": "1677–1683",
+  "place": "Warszawa"
+ },
+ "Grand Theatre Warsaw": {
+  "creator": "Antonio Corazzi; odbudowa Bohdan Pniewski",
+  "date": "1825–1833; odbudowa 1951–1965",
+  "place": "Warszawa"
+ },
+ "Willa Pod Jedlami": {
+  "creator": "Stanisław Witkiewicz",
+  "date": "1896–1897",
+  "place": "Zakopane, Koziniec"
+ },
+ "Kaplica na Jaszczurówce": {
+  "creator": "Stanisław Witkiewicz",
+  "date": "1904–1908",
+  "place": "Zakopane"
+ },
+ "Zameczek Prezydenta Wisła": {
+  "creator": "Adolf Szyszko-Bohusz",
+  "date": "1929–1931",
+  "place": "Wisła-Czarne"
+ },
+ "Dorton Arena": {
+  "creator": "Maciej Nowicki (z W. H. Deitrickiem)",
+  "date": "projekt 1950, budowa do 1952",
+  "place": "Raleigh, USA"
+ },
+ "Dom Partii Warszawa": {
+  "creator": "Wacław Kłyszewski, Jerzy Mokrzyński, Eugeniusz Wierzbicki",
+  "date": "1948–1952",
+  "place": "Warszawa"
+ },
+ "Przyczółek Grochowski": {
+  "creator": "Oskar i Zofia Hansenowie",
+  "date": "1963–1974",
+  "place": "Warszawa, Gocław"
+ },
+ "Sedesowce Wrocław": {
+  "creator": "Jadwiga Grabowska-Hawrylak",
+  "date": "1970–1975",
+  "place": "Wrocław, pl. Grunwaldzki"
+ },
+ "Osiedle Tysiąclecia Katowice": {
+  "creator": "Henryk Buszko i Aleksander Franta",
+  "date": "od 1961",
+  "place": "Katowice"
+ },
+ "Biblioteka Uniwersytetu Warszawskiego": {
+  "creator": "Marek Budzyński i Zbigniew Badowski",
+  "date": "1999",
+  "place": "Warszawa, Powiśle"
+ },
+ "NOSPR Katowice": {
+  "creator": "Tomasz Konior",
+  "date": "2014",
+  "place": "Katowice"
+ },
+ "Centrum Dialogu Przełomy": {
+  "creator": "KWK Promes (Robert Konieczny)",
+  "date": "2015",
+  "place": "Szczecin"
+ },
+ "Jan Kochanowski portrait": {
+  "creator": "wizerunek późniejszy",
+  "date": "Jan Kochanowski, 1530–1584",
+  "place": ""
+ },
+ "Adam Mickiewicz daguerreotype": {
+  "creator": "dagerotyp",
+  "date": "Adam Mickiewicz, 1798–1855; zdjęcie z 1842",
+  "place": "Paryż"
+ },
+ "Juliusz Słowacki portrait": {
+  "creator": "portret",
+  "date": "Juliusz Słowacki, 1809–1849",
+  "place": ""
+ },
+ "Zygmunt Krasiński portrait": {
+  "creator": "portret",
+  "date": "Zygmunt Krasiński, 1812–1859",
+  "place": ""
+ },
+ "Cyprian Kamil Norwid portrait": {
+  "creator": "fotografia",
+  "date": "Cyprian Kamil Norwid, 1821–1883",
+  "place": ""
+ },
+ "Crypt of the National Bards Wawel": {
+  "creator": "Katedra Wawelska",
+  "date": "krypta od 1890 (Mickiewicz), 1927 (Słowacki)",
+  "place": "Kraków"
+ },
+ "Julian Tuwim": {
+  "creator": "fotografia",
+  "date": "Julian Tuwim, 1894–1953",
+  "place": ""
+ },
+ "Maria Pawlikowska-Jasnorzewska": {
+  "creator": "fotografia",
+  "date": "Maria Pawlikowska-Jasnorzewska, 1891–1945",
+  "place": ""
+ },
+ "Czesław Miłosz": {
+  "creator": "fotografia",
+  "date": "Czesław Miłosz, 1911–2004",
+  "place": ""
+ },
+ "Wisława Szymborska": {
+  "creator": "fotografia",
+  "date": "Wisława Szymborska, 1923–2012",
+  "place": ""
+ },
+ "Zbigniew Herbert": {
+  "creator": "fotografia",
+  "date": "Zbigniew Herbert, 1924–1998",
+  "place": ""
+ },
+ "Monument to the Fallen Shipyard Workers": {
+  "creator": "Bogdan Pietruszka i zespół",
+  "date": "1980",
+  "place": "Gdańsk"
+ },
+ "Stańczyk Matejko": {
+  "creator": "Jan Matejko",
+  "date": "1862",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Chełmoński Czwórka": {
+  "creator": "Józef Chełmoński",
+  "date": "1881",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Szał uniesień": {
+  "creator": "Władysław Podkowiński",
+  "date": "1894",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Malczewski Melancholia": {
+  "creator": "Jacek Malczewski",
+  "date": "1890–1894",
+  "place": "Muzeum Narodowe w Poznaniu"
+ },
+ "Wyspiański Bóg Ojciec stained glass": {
+  "creator": "Stanisław Wyspiański",
+  "date": "1897–1904",
+  "place": "Bazylika Franciszkanów, Kraków"
+ },
+ "Mehoffer Dziwny ogród": {
+  "creator": "Józef Mehoffer",
+  "date": "1903",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Boznańska Dziewczynka z chryzantemami": {
+  "creator": "Olga Boznańska",
+  "date": "1894",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Hirszenberg Jewish Cemetery": {
+  "creator": "Samuel Hirszenberg",
+  "date": "1892",
+  "place": ""
  }
 }

@@ -4971,6 +4971,194 @@
     "Czarny kwadrat (1915)",
     "Biały na białym (1918)"
    ]
+  },
+  {
+   "id": "szanajca",
+   "name": "Józef Szanajca",
+   "born": 1902,
+   "died": 1939,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "architekt awangardy, współpracownik Lacherta",
+   "m": [
+    "Szanajc\\p{L}*"
+   ]
+  },
+  {
+   "id": "sandecka",
+   "name": "Stanisława Nowicka (Sandecka)",
+   "born": 1912,
+   "died": 2006,
+   "c": "architekt",
+   "country": "Polska / USA",
+   "pl": true,
+   "g": "f",
+   "desc": "architektka, żona i współpracowniczka Macieja Nowickiego",
+   "m": [
+    "Sandeck\\p{L}*"
+   ]
+  },
+  {
+   "id": "majewski",
+   "name": "Hilary Majewski",
+   "born": 1837,
+   "died": 1892,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "architekt miejski Łodzi 1872–1892",
+   "m": [
+    "Hilar\\p{L}*\\s+Majewsk\\p{L}*"
+   ],
+   "lodzLink": "Architekt miejski Łodzi; projektował dla Poznańskiego i innych fabrykantów."
+  },
+  {
+   "id": "zofia-hansen",
+   "name": "Zofia Hansen",
+   "born": 1924,
+   "died": 2013,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "architektka, współautorka projektów Oskara Hansena",
+   "m": [
+    "Zofi\\p{L}*\\s+Hansen\\p{L}*"
+   ]
+  },
+  {
+   "id": "zemla",
+   "name": "Gustaw Zemła",
+   "born": 1931,
+   "died": 2021,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz, autor Pomnika Powstańców Śląskich",
+   "m": [
+    "Zeml\\p{L}*",
+    "Zemła"
+   ]
+  },
+  {
+   "id": "kozyra",
+   "name": "Katarzyna Kozyra",
+   "born": 1963,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "artystka sztuki krytycznej i wideo",
+   "m": [
+    "Kozyr\\p{L}*"
+   ],
+   "works": [
+    "Piramida zwierząt (1993)",
+    "Łaźnia (1997)",
+    "W sztuce marzenia stają się rzeczywistością (2003–2008)"
+   ]
+  },
+  {
+   "id": "zmijewski",
+   "name": "Artur Żmijewski",
+   "born": 1966,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "artysta wideo i fotografii",
+   "m": [
+    "Żmijewsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kowalski-g",
+   "name": "Grzegorz Kowalski",
+   "born": 1942,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz i pedagog, prowadził tzw. Kowalnię na ASP w Warszawie",
+   "m": [
+    "Grzegorz\\p{L}*\\s+Kowalsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "slonimski",
+   "name": "Antoni Słonimski",
+   "born": 1895,
+   "died": 1976,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta i felietonista, skamandryta",
+   "m": [
+    "Słonimsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "lechon",
+   "name": "Jan Lechoń",
+   "born": 1899,
+   "died": 1956,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, skamandryta",
+   "m": [
+    "Lechoń",
+    "Lechoni\\p{L}*"
+   ]
+  },
+  {
+   "id": "wierzynski",
+   "name": "Kazimierz Wierzyński",
+   "born": 1894,
+   "died": 1969,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, skamandryta",
+   "m": [
+    "Wierzyńsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "styka",
+   "name": "Jan Styka",
+   "born": 1858,
+   "died": 1925,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz panoram, współautor Panoramy Racławickiej",
+   "m": [
+    "Styk\\p{L}*"
+   ]
+  },
+  {
+   "id": "gide",
+   "name": "André Gide",
+   "born": 1869,
+   "died": 1951,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "pisarz, laureat Nagrody Nobla",
+   "m": [
+    "Gide\\p{L}*"
+   ]
   }
  ]
 }
