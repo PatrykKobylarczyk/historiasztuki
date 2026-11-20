@@ -71,13 +71,15 @@ function renderHome() {
         const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "wkrótce";
         const title = c ? c.title : e.title;
         html += c
-          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>`
+          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>${e.n === currentN ? `
+            <div class="ep-scrub"><div class="progress" data-n="${e.n}" title="Przesuń, aby wybrać moment"><div style="width:${last?.n === e.n ? ((100 * (last.index || 0)) / (last.total || 1)).toFixed(1) : 0}%"></div></div></div>` : ""}`
           : `<div class="${cls}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></div>`;
       }
     }
     html += `</div></details>`;
   }
   view.innerHTML = html;
+  view.querySelectorAll(".ep-scrub .progress").forEach((bar) => scrubber(bar, lessonSource(Number(bar.dataset.n))));
 }
 
 // przydział obrazów do rozdziałów: jawny (@n) lub równomierny
@@ -213,11 +215,7 @@ async function renderLesson(n) {
 
   // podziałki rozdziałów na pasku postępu
   if (own) $(".progress .ticks", view).innerHTML = player.chapterFractions().map((f) => `<span style="left:${(f * 100).toFixed(2)}%"></span>`).join("");
-  $(".progress", view).addEventListener("click", async (e) => {
-    const r = e.currentTarget.getBoundingClientRect();
-    await ensureViewLesson();
-    player.seekFraction((e.clientX - r.left) / r.width);
-  });
+  scrubber($(".progress", view), playerSource(ensureViewLesson));
   view.querySelectorAll(".s, h3[data-i]").forEach((el) => el.addEventListener("click", async () => {
     await ensureViewLesson();
     player.seek(Number(el.dataset.i));
@@ -286,7 +284,7 @@ function updatePlayerUI(force = false) {
     $(".car-speaker .name", car).textContent = who || "";
     $(".car-speaker .dot", car).style.background = color;
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
-    $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
+    if (!scrubbing()) $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
     setIcon($(".car-play", car));
     carVisual(it?.chapter ?? 0);
   }
@@ -296,7 +294,7 @@ function updatePlayerUI(force = false) {
     $(".now .dot", pl).style.background = color;
     $(".now .who", pl).textContent = who || "Gotowe do odtwarzania";
     $(".now .chap", pl).textContent = it?.chapterTitle && it.chapterTitle !== player.lesson.title ? it.chapterTitle : "";
-    $(".progress > div", pl).style.width = `${(player.progress * 100).toFixed(1)}%`;
+    if (!scrubbing()) $(".progress > div", pl).style.width = `${(player.progress * 100).toFixed(1)}%`;
     setIcon($(".play", pl));
     $('[data-action="speed"]', pl).textContent = `${String(player.speed).replace(".", ",")}×`;
     $(".mode-note", pl).textContent = player.mode === "mp3"
@@ -367,6 +365,112 @@ document.addEventListener("click", async (e) => {
     speak(`Dzień dobry. Tu ${speakers[k].name}, KULTURA. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
   }
 });
+// ---------- Przewijanie z podglądem zdania ----------
+const scrubbing = () => document.documentElement.classList.contains("is-scrubbing");
+const fmtTime = (s) => { s = Math.max(0, Math.round(s || 0)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
+let tip = null;
+function scrubTip() {
+  if (tip) return tip;
+  tip = document.createElement("div");
+  tip.className = "scrubtip";
+  tip.hidden = true;
+  tip.innerHTML = `<div class="st-meta"><span class="st-time"></span><span class="st-dot"></span><span class="st-who"></span><span class="st-chap"></span></div><div class="st-text"></div>`;
+  document.body.append(tip);
+  return tip;
+}
+function showTip(bar, f, info) {
+  const t = scrubTip();
+  const it = info.item;
+  const sp = it?.sp ? speakers[it.sp] : null;
+  $(".st-time", t).textContent = `${fmtTime(info.sec)} / ${fmtTime(info.total)}`;
+  $(".st-dot", t).style.background = sp?.color || "var(--accent)";
+  $(".st-who", t).textContent = it?.kind === "speech" ? (sp?.name || "") : it?.kind === "sting" ? "Rozdział" : "Sygnał";
+  $(".st-chap", t).textContent = it?.chapterTitle || "";
+  $(".st-text", t).textContent = it?.kind === "speech" ? it.text : it?.chapterTitle || "";
+  t.hidden = false;
+  const r = bar.getBoundingClientRect();
+  const w = t.offsetWidth, h = t.offsetHeight;
+  const x = Math.max(12, Math.min(window.innerWidth - w - 12, r.left + f * r.width - w / 2));
+  const above = r.top - h - 18;
+  t.style.left = `${x}px`;
+  t.style.top = `${above > 8 ? above : r.bottom + 18}px`;
+  t.style.setProperty("--arrow", `${Math.max(16, Math.min(w - 16, r.left + f * r.width - x))}px`);
+  t.classList.toggle("below", above <= 8);
+}
+// źródło danych dla paska: odtwarzacz (lekcja otwarta) albo sam plik lekcji (lista odcinków)
+function playerSource(prepare) {
+  return {
+    async ready() { if (prepare) await prepare(); return !!player.lesson; },
+    at(f) { const a = player.at(f); return { ...a, item: player.items[a.index] }; },
+    commit(f, a) { if (player.mode === "mp3") player.seekFraction(f); else player.seek(a.index); },
+  };
+}
+function lessonSource(n) {
+  let data = null;
+  return {
+    async ready() {
+      if (player.lesson?.n === n) { data = null; return true; }
+      if (!data) {
+        const lesson = await (await fetch(`data/lessons/${String(n).padStart(3, "0")}.json`)).json();
+        const items = buildItems(lesson);
+        const w = items.map((it) => (it.kind === "speech" ? it.text.length : it.kind === "jingle" ? 120 : it.kind === "outro" ? 60 : 25));
+        const cum = []; let acc = 0; for (const x of w) { cum.push(acc); acc += x; }
+        data = { lesson, items, cum, total: acc };
+      }
+      return true;
+    },
+    at(f) {
+      if (!data) { const a = player.at(f); return { ...a, item: player.items[a.index] }; }
+      const target = f * data.total;
+      let i = data.cum.findIndex((c) => c > target); if (i < 0) i = data.items.length;
+      const index = Math.max(0, i - 1), total = (data.lesson.minutes || 15) * 60;
+      return { index, sec: f * total, total, item: data.items[index] };
+    },
+    commit(f, a) {
+      if (!data) { player.mode === "mp3" ? player.seekFraction(f) : player.seek(a.index); }
+      else store.set(`pos:${n}`, a.index);
+      location.hash = `#/lekcja/${n}`;
+    },
+  };
+}
+function scrubber(bar, src) {
+  if (!bar) return;
+  let active = false, f = 0, info = null, id = null;
+  const frac = (e) => { const r = bar.getBoundingClientRect(); return Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)); };
+  const fill = () => bar.querySelector(":scope > div:first-child");
+  const move = (e) => {
+    if (!active) return;
+    f = frac(e);
+    info = src.at(f);
+    const el = fill(); if (el) el.style.width = `${(f * 100).toFixed(2)}%`;
+    bar.style.setProperty("--f", f);
+    showTip(bar, f, info);
+  };
+  bar.addEventListener("pointerdown", async (e) => {
+    if (e.button > 0) return;
+    e.preventDefault();
+    id = e.pointerId;
+    try { bar.setPointerCapture(id); } catch {}
+    bar.classList.add("scrubbing");
+    document.documentElement.classList.add("is-scrubbing");
+    active = await src.ready();
+    move(e);
+  });
+  bar.addEventListener("pointermove", move);
+  const end = (commit) => {
+    if (!bar.classList.contains("scrubbing")) return;
+    bar.classList.remove("scrubbing");
+    document.documentElement.classList.remove("is-scrubbing");
+    if (tip) tip.hidden = true;
+    if (active && commit && info) src.commit(f, info);
+    active = false;
+    updatePlayerUI(true);
+  };
+  bar.addEventListener("pointerup", () => end(true));
+  bar.addEventListener("pointercancel", () => end(false));
+  bar.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); });
+}
+
 // ---------- Tryb auto ----------
 function openCar(fromLessonView) {
   keepAwake.enable();
@@ -529,6 +633,7 @@ async function route() {
 
 async function init() {
   applyTheme();
+  scrubber($("#carmode .car-progress"), playerSource());
   document.querySelectorAll("[data-icon]").forEach((el) => { el.insertAdjacentHTML("afterbegin", icons[el.dataset.icon]); });
   [program, catalog, speakers] = await Promise.all([getJSON("data/program.json"), getJSON("data/catalog.json"), getJSON("data/speakers.json")]);
   window.addEventListener("hashchange", route);

@@ -458,3 +458,37 @@ figure figcaption a:hover { text-decoration: underline; }
   .car-controls button svg { width: 26px; height: 26px; }
   .car-ask { height: 52px; font-size: 1rem; }
 }
+
+
+/* ---------- Przewijanie z podglądem zdania ---------- */
+.progress, .car-progress { touch-action: none; -webkit-user-select: none; user-select: none; }
+.progress::before, .car-progress::before { content: ""; position: absolute; inset: -14px 0; }
+.car-progress { position: relative; overflow: visible; cursor: pointer; }
+.car-progress > div { border-radius: 6px; }
+.progress::after, .car-progress::after {
+  content: ""; position: absolute; top: 50%; left: calc(var(--f, 0) * 100%); width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%;
+  background: var(--ink); box-shadow: 0 2px 8px rgba(0,0,0,.25); transform: scale(0); transition: transform .15s var(--ease); pointer-events: none;
+}
+.car-progress::after { background: #f5f5f7; width: 26px; height: 26px; margin: -13px 0 0 -13px; }
+.progress.scrubbing, .car-progress.scrubbing { height: 8px; }
+.progress.scrubbing::after, .car-progress.scrubbing::after { transform: scale(1); }
+.progress.scrubbing > div:first-child, .car-progress.scrubbing > div { transition: none; }
+.scrubtip {
+  position: fixed; z-index: 200; width: min(460px, calc(100vw - 24px)); padding: 14px 16px 16px; border-radius: 18px;
+  background: var(--glass-strong); color: var(--ink); backdrop-filter: saturate(180%) blur(24px); -webkit-backdrop-filter: saturate(180%) blur(24px);
+  border: 1px solid var(--line); box-shadow: var(--shadow-lg); pointer-events: none;
+}
+.scrubtip[hidden] { display: none; }
+.scrubtip::after { content: ""; position: absolute; left: var(--arrow, 50%); bottom: -7px; width: 14px; height: 14px; margin-left: -7px; background: inherit; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transform: rotate(45deg); }
+.scrubtip.below::after { bottom: auto; top: -7px; transform: rotate(225deg); }
+.st-meta { display: flex; align-items: center; gap: 8px; font-size: .74rem; color: var(--muted); white-space: nowrap; overflow: hidden; }
+.st-time { font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.st-dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+.st-who { font-weight: 600; color: var(--ink2); }
+.st-chap { overflow: hidden; text-overflow: ellipsis; }
+.st-text { font-family: var(--serif); font-size: 1.08rem; line-height: 1.4; margin-top: 8px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.car-open .scrubtip { background: rgba(28,28,30,.92); color: #f5f5f7; border-color: rgba(255,255,255,.12); }
+.car-open .scrubtip .st-time, .car-open .scrubtip .st-who { color: #f5f5f7; }
+.ep-scrub { padding: 2px 0 16px 0; }
+.ep-scrub .progress { margin: 4px 0 0; }
+.ep-scrub { padding-left: calc(3rem + 12px); }
