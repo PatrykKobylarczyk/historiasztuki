@@ -19,6 +19,51 @@
    "total": 1
   },
   {
+   "id": "bacewicz",
+   "name": "Grażyna Bacewicz",
+   "born": 1909,
+   "died": 1969,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "kompozytorka i skrzypaczka",
+   "ls": "urodzeni",
+   "lodzLink": "Urodziła się w Łodzi i tu zaczynała naukę muzyki.",
+   "works": [
+    "Koncert na orkiestrę smyczkową (1948)",
+    "Siedem koncertów skrzypcowych",
+    "Siedem kwartetów smyczkowych",
+    "II Sonata fortepianowa (1953)",
+    "Muzyka na smyczki, trąbki i perkusję (1958)",
+    "Przygoda Króla Artura (opera radiowa, 1959)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "banach",
+   "name": "Stefan Banach",
+   "born": 1892,
+   "died": 1945,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "matematyk, współtwórca analizy funkcjonalnej",
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku z Łodzią; działał we Lwowie.",
+   "works": [
+    "Théorie des opérations linéaires (1932)",
+    "Paradoks Banacha–Tarskiego (1924)",
+    "Przestrzenie Banacha",
+    "Księga Szkocka"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "banksy",
    "name": "Banksy",
    "born": 1974,
@@ -54,6 +99,47 @@
    "total": 1
   },
   {
+   "id": "becker",
+   "name": "Jurek Becker",
+   "born": 1937,
+   "died": 1997,
+   "c": "pisarz",
+   "country": "Polska / Niemcy",
+   "lodz": true,
+   "g": "m",
+   "desc": "pisarz i scenarzysta niemieckojęzyczny",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi; dzieciństwo spędził w getcie łódzkim, o którym opowiada „Jakub kłamca”.",
+   "works": [
+    "Jakub kłamca (1969)",
+    "Bokser (1976)",
+    "Dzieci Bronsteina (1986)",
+    "Liebling Kreuzberg (serial, scenariusz)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "belka",
+   "name": "Marek Belka",
+   "born": 1952,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "ekonomista, premier, prezes NBP",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi, absolwent i profesor Uniwersytetu Łódzkiego.",
+   "works": [
+    "Premier RP (2004–2005)",
+    "Prezes Narodowego Banku Polskiego (2010–2016)",
+    "Prace z ekonomii i polityki gospodarczej"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "bialoszewski",
    "name": "Miron Białoszewski",
    "born": 1922,
@@ -71,6 +157,27 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "bierezin",
+   "name": "Jacek Bierezin",
+   "born": 1947,
+   "died": 1993,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta Nowej Fali, działacz opozycji",
+   "ls": "urodzeni",
+   "verify": true,
+   "lodzLink": "Urodzony w Łodzi; łódzki poeta Nowej Fali i współtwórca niezależnego pisma „Puls”.",
+   "works": [
+    "Niezależny kwartalnik literacki „Puls” (współzałożyciel, 1977)",
+    "Wiersze w obiegu oficjalnym i podziemnym (tytuły tomów do weryfikacji)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "bowie",
@@ -91,6 +198,27 @@
    "total": 1
   },
   {
+   "id": "braun",
+   "name": "Mieczysław Braun",
+   "born": 1902,
+   "died": 1941,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta i prawnik, związany z łódzkim środowiskiem literackim",
+   "ls": "urodzeni",
+   "verify": true,
+   "lodzLink": "Urodził się w Łodzi; zginął w getcie warszawskim.",
+   "works": [
+    "Przemiany (1926)",
+    "Tomy poetyckie z lat 20. i 30., m.in. o świecie pracy i przemysłu (tytuły do weryfikacji)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "breuil",
    "name": "Henri Breuil",
    "born": 1877,
@@ -107,6 +235,26 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "broderson",
+   "name": "Mojżesz Broderson",
+   "born": 1890,
+   "died": 1956,
+   "c": "pisarz",
+   "country": "Polska",
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta i dramatopisarz jidysz",
+   "ls": "mieszkali",
+   "lodzLink": "Działał w Łodzi: współtworzył grupę Jung Jidysz i kabaret Ararat.",
+   "works": [
+    "Grupa artystyczna Jung Jidysz (1919)",
+    "Kabaret literacki Ararat w Łodzi (1927)",
+    "Wiersze i dramaty w jidysz"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "cartailhac",
@@ -182,6 +330,49 @@
    "total": 1
   },
   {
+   "id": "daszynski",
+   "name": "Ignacy Daszyński",
+   "born": 1866,
+   "died": 1936,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "polityk socjalistyczny, premier rządu lubelskiego, marszałek Sejmu",
+   "ls": "brak",
+   "verify": true,
+   "lodzLink": "Brak udokumentowanego związku biograficznego; PPS miała w Łodzi jedno z najsilniejszych zapleczy.",
+   "works": [
+    "Premier Tymczasowego Rządu Ludowego w Lublinie (1918)",
+    "Marszałek Sejmu (1928–1930)",
+    "Pamiętniki (1925–1926)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "dejmek",
+   "name": "Kazimierz Dejmek",
+   "born": 1924,
+   "died": 2002,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser teatralny, aktor, dyrektor teatrów",
+   "ls": "mieszkali",
+   "lodzLink": "W 1949 założył w Łodzi Teatr Nowy i kierował nim.",
+   "works": [
+    "Teatr Nowy w Łodzi (założenie, 1949)",
+    "Historyja o chwalebnym Zmartwychwstaniu Pańskim (1961)",
+    "Dziady w Teatrze Narodowym (1967)",
+    "Minister kultury i sztuki (1993–1996)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "diamond",
    "name": "Jared Diamond",
    "born": 1937,
@@ -197,6 +388,48 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "dmowski",
+   "name": "Roman Dmowski",
+   "born": 1864,
+   "died": 1939,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "polityk, ideolog Narodowej Demokracji",
+   "ls": "brak",
+   "verify": true,
+   "lodzLink": "Brak udokumentowanego silnego związku biograficznego z Łodzią.",
+   "works": [
+    "Myśli nowoczesnego Polaka (1903)",
+    "Niemcy, Rosja i kwestia polska (1908)",
+    "Polityka polska i odbudowanie państwa (1925)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "edelman",
+   "name": "Marek Edelman",
+   "born": 1919,
+   "died": 2009,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "przywódca powstania w getcie warszawskim, kardiolog",
+   "ls": "mieszkali",
+   "lodzLink": "Po wojnie przez dziesięciolecia mieszkał w Łodzi i pracował jako kardiolog.",
+   "works": [
+    "Getto walczy (1945)",
+    "Zdążyć przed Panem Bogiem (rozmowa z Hanną Krall, 1977)",
+    "I była miłość w getcie (2009)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "ernst",
@@ -264,6 +497,26 @@
    "total": 1
   },
   {
+   "id": "geyer",
+   "name": "Ludwik Geyer",
+   "born": 1805,
+   "died": 1869,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "fabrykant, pionier mechanicznej produkcji w Łodzi",
+   "ls": "mieszkali",
+   "lodzLink": "Zbudował Białą Fabrykę przy Piotrkowskiej, gdzie w 1839 uruchomiono pierwszą w Łodzi maszynę parową.",
+   "works": [
+    "Biała Fabryka (1835–1839), dziś Centralne Muzeum Włókiennictwa",
+    "Pierwsza maszyna parowa w Łodzi (1839)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "gierek",
    "name": "Edward Gierek",
    "born": 1913,
@@ -301,6 +554,29 @@
    "total": 2
   },
   {
+   "id": "gombrowicz",
+   "name": "Witold Gombrowicz",
+   "born": 1904,
+   "died": 1969,
+   "c": "pisarz",
+   "country": "Polska / Argentyna",
+   "pl": true,
+   "g": "m",
+   "desc": "prozaik i dramatopisarz",
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku z Łodzią.",
+   "works": [
+    "Ferdydurke (1937)",
+    "Iwona, księżniczka Burgunda (1938)",
+    "Trans-Atlantyk (1953)",
+    "Dziennik (1957–1966)",
+    "Pornografia (1960)",
+    "Kosmos (1965)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "gomulka",
    "name": "Władysław Gomułka",
    "born": 1905,
@@ -310,6 +586,11 @@
    "pl": true,
    "g": "m",
    "desc": "I sekretarz PZPR 1956–1970",
+   "ls": "epizod",
+   "lodzLink": "Jako działacz komunistyczny uczestniczył w strajku włókniarzy w Łodzi w 1932 roku, gdzie został ranny.",
+   "works": [
+    "Przemówienie na wiecu 24 października 1956 (Polski Październik)"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -358,6 +639,28 @@
    "total": 1
   },
   {
+   "id": "hasior",
+   "name": "Władysław Hasior",
+   "born": 1928,
+   "died": 1999,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz i twórca asamblaży",
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Słaby związek: prace w zbiorach muzealnych, brak udokumentowanego związku biograficznego z Łodzią.",
+   "works": [
+    "Sztandary (cykl od lat 60.)",
+    "Pomnik Utrwalenia Władzy Ludowej na Podhalu, tzw. Organy (1966)",
+    "Asamblaże z przedmiotów codziennych",
+    "Galeria Władysława Hasiora w Zakopanem"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "heidegger",
    "name": "Martin Heidegger",
    "born": 1889,
@@ -385,6 +688,15 @@
    "pl": true,
    "g": "m",
    "desc": "poeta, „Pan Cogito”",
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku z Łodzią.",
+   "works": [
+    "Struna światła (1956)",
+    "Hermes, pies i gwiazda (1957)",
+    "Barbarzyńca w ogrodzie (1962)",
+    "Pan Cogito (1974)",
+    "Raport z oblężonego Miasta (1983)"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -393,6 +705,28 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "hirszenberg",
+   "name": "Samuel Hirszenberg",
+   "born": 1865,
+   "died": 1908,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "malarz, twórca obrazów o losie Żydów",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi w rodzinie żydowskiego tkacza.",
+   "works": [
+    "Żydowski cmentarz (1892)",
+    "Wieczny Żyd (1899)",
+    "Galut / Wygnanie (1904)",
+    "Czarny sztandar (1905)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "hodder",
@@ -491,6 +825,51 @@
    "total": 2
   },
   {
+   "id": "karski",
+   "name": "Jan Karski",
+   "born": 1914,
+   "died": 2000,
+   "c": "polityk",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "kurier Polskiego Państwa Podziemnego, świadek Zagłady",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi i tu dorastał.",
+   "works": [
+    "Raport dla aliantów o Zagładzie (1942–1943)",
+    "Story of a Secret State / Tajne państwo (1944)",
+    "Wielkie mocarstwa wobec Polski 1919–1945 (1985)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "kieslowski",
+   "name": "Krzysztof Kieślowski",
+   "born": 1941,
+   "died": 1996,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser filmów dokumentalnych i fabularnych",
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi (1969); dokument „Z miasta Łodzi” (1969).",
+   "works": [
+    "Z miasta Łodzi (1969)",
+    "Amator (1979)",
+    "Przypadek (1981)",
+    "Dekalog (1988)",
+    "Podwójne życie Weroniki (1991)",
+    "Trzy kolory (1993–1994)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "klaus-schmidt",
    "name": "Klaus Schmidt",
    "born": 1953,
@@ -509,6 +888,26 @@
    "total": 2
   },
   {
+   "id": "klepacz",
+   "name": "Michał Klepacz",
+   "born": 1893,
+   "died": 1967,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "biskup łódzki",
+   "ls": "mieszkali",
+   "lodzLink": "Biskup łódzki 1946–1967; kierował Episkopatem w czasie uwięzienia kardynała Wyszyńskiego.",
+   "works": [
+    "Biskup łódzki (1946–1967)",
+    "Przewodniczący Episkopatu Polski (1953–1956)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "kobro",
    "name": "Katarzyna Kobro",
    "born": 1898,
@@ -519,6 +918,14 @@
    "lodz": true,
    "g": "f",
    "desc": "rzeźbiarka awangardy, grupa a.r.",
+   "ls": "mieszkali",
+   "lodzLink": "Od 1931 mieszkała i tworzyła w Łodzi; jej rzeźby są w Muzeum Sztuki w Łodzi.",
+   "works": [
+    "Rzeźba zawieszona (1921–1922)",
+    "Kompozycje przestrzenne (1925–1933)",
+    "Kompozycja przestrzeni. Obliczenia rytmu czasoprzestrzennego (z W. Strzemińskim, 1931)",
+    "Akty (1948)"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -546,6 +953,45 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "kopcinski",
+   "name": "Stefan Kopciński",
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "lekarz i działacz społeczny",
+   "ls": "mieszkali",
+   "verify": true,
+   "lodzLink": "Łódzki lekarz i działacz; patron ulicy Kopcińskiego. Biografia do weryfikacji.",
+   "works": [
+    "Działalność lekarska i społeczna w Łodzi"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "kotarbinski",
+   "name": "Tadeusz Kotarbiński",
+   "born": 1886,
+   "died": 1981,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "filozof i logik, twórca reizmu i prakseologii",
+   "ls": "mieszkali",
+   "lodzLink": "Pierwszy rektor Uniwersytetu Łódzkiego (1945–1949).",
+   "works": [
+    "Elementy teorii poznania, logiki formalnej i metodologii nauk (1929)",
+    "Traktat o dobrej robocie (1955)",
+    "Medytacje o życiu godziwym (1966)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "krall",
@@ -585,6 +1031,26 @@
    "total": 1
   },
   {
+   "id": "kropiwnicki",
+   "name": "Jerzy Kropiwnicki",
+   "born": 1945,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "ekonomista, polityk, prezydent Łodzi",
+   "ls": "urodzeni",
+   "verify": true,
+   "lodzLink": "Prezydent Łodzi w latach 2002–2010; związany z łódzką Solidarnością.",
+   "works": [
+    "Prezydent Łodzi (2002–2010)",
+    "Minister w rządach III RP"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "kubasinska",
    "name": "Mira Kubasińska",
    "born": 1944,
@@ -602,6 +1068,26 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "kunitzer",
+   "name": "Juliusz Kunitzer",
+   "born": 1843,
+   "died": 1905,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "fabrykant, współwłaściciel Widzewskiej Manufaktury",
+   "ls": "mieszkali",
+   "lodzLink": "Współtwórca Widzewskiej Manufaktury i łódzkich tramwajów; zginął w zamachu w 1905 roku.",
+   "works": [
+    "Widzewska Manufaktura (z Juliuszem Heinzlem)",
+    "Elektryczne tramwaje w Łodzi (od 1898)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "le-corbusier",
@@ -677,6 +1163,25 @@
    "total": 1
   },
   {
+   "id": "leszczynska",
+   "name": "Stanisława Leszczyńska",
+   "born": 1896,
+   "died": 1974,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "położna, więźniarka Auschwitz",
+   "ls": "urodzeni",
+   "lodzLink": "Urodziła się, mieszkała i pracowała w Łodzi; w Auschwitz odebrała około trzech tysięcy porodów.",
+   "works": [
+    "Raport położnej z Oświęcimia (1957)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "lewis-williams",
    "name": "David Lewis-Williams",
    "born": 1934,
@@ -692,6 +1197,25 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "lindley",
+   "name": "William Heerlein Lindley",
+   "born": 1853,
+   "died": 1917,
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "inżynier, projektant wodociągów i kanalizacji",
+   "ls": "epizod",
+   "lodzLink": "Przygotował projekt kanalizacji i wodociągów Łodzi (1909), zrealizowany po I wojnie światowej.",
+   "works": [
+    "Projekt kanalizacji i wodociągów Łodzi (1909)",
+    "Filtry Lindleya i kanalizacja Warszawy",
+    "Systemy wodno-kanalizacyjne m.in. Hamburga i Frankfurtu"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "loos",
@@ -712,6 +1236,28 @@
    "total": 5
   },
   {
+   "id": "machulski",
+   "name": "Jan Machulski",
+   "born": 1928,
+   "died": 2008,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "aktor teatralny i filmowy, pedagog",
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Związany z łódzkimi teatrami i Szkołą Filmową; zakres do weryfikacji.",
+   "works": [
+    "Prawo i pięść (1964)",
+    "Va banque (1981)",
+    "Va banque II (1984)",
+    "Teatr Ochoty w Warszawie (współzałożyciel)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "marchlewski",
    "name": "Julian Marchlewski",
    "born": 1866,
@@ -729,6 +1275,27 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "margolis",
+   "name": "Alina Margolis-Edelman",
+   "born": 1922,
+   "died": 2008,
+   "c": "inne",
+   "country": "Polska / Francja",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "lekarka, współzałożycielka organizacji humanitarnych",
+   "ls": "urodzeni",
+   "lodzLink": "Urodziła się w Łodzi; po wojnie mieszkała w Łodzi z Markiem Edelmanem.",
+   "works": [
+    "Współtworzenie Médecins du Monde",
+    "Fundacja „Nagle Sami”",
+    "Ala z elementarza (1994)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "maria-sautuola",
@@ -841,6 +1408,53 @@
    "total": 1
   },
   {
+   "id": "milosz",
+   "name": "Czesław Miłosz",
+   "born": 1911,
+   "died": 2004,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, eseista, laureat Nagrody Nobla (1980)",
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku biograficznego z Łodzią.",
+   "works": [
+    "Ocalenie (1945)",
+    "Zniewolony umysł (1953)",
+    "Dolina Issy (1955)",
+    "Traktat poetycki (1957)",
+    "Rodzinna Europa (1959)",
+    "Historia literatury polskiej (1969)",
+    "Ziemia Ulro (1977)",
+    "Abecadło Miłosza (1997)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "munk",
+   "name": "Andrzej Munk",
+   "born": 1921,
+   "died": 1961,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser, współtwórca polskiej szkoły filmowej",
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi.",
+   "works": [
+    "Człowiek na torze (1956)",
+    "Eroica (1957)",
+    "Zezowate szczęście (1960)",
+    "Pasażerka (1963, ukończona po śmierci reżysera)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "nalepa",
    "name": "Tadeusz Nalepa",
    "born": 1943,
@@ -931,6 +1545,15 @@
    "pl": true,
    "g": "m",
    "desc": "malarz, łączący ikonę z nowoczesnością",
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Związany z Łodzią przez pracę dydaktyczną w łódzkiej uczelni plastycznej; zakres i lata wymagają weryfikacji.",
+   "works": [
+    "Akty kobiece (cykl)",
+    "Polichromie i ikony cerkiewne, m.in. w Białym Borze",
+    "Kościół Ducha Świętego w Tychach (polichromie)",
+    "Abstrakcje geometryczne i pejzaże miejskie"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -1024,6 +1647,26 @@
    "total": 2
   },
   {
+   "id": "pilsudski",
+   "name": "Józef Piłsudski",
+   "born": 1867,
+   "died": 1935,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "Naczelnik Państwa, marszałek Polski",
+   "ls": "epizod",
+   "lodzLink": "W Łodzi przy ul. Wschodniej działała drukarnia „Robotnika”; tu został aresztowany w 1900 roku.",
+   "works": [
+    "Redaktor „Robotnika” (od 1894)",
+    "Bibuła (1903)",
+    "Rok 1920 (1924)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "platon",
    "name": "Platon",
    "born": -427,
@@ -1042,6 +1685,29 @@
    "total": 1
   },
   {
+   "id": "polanski",
+   "name": "Roman Polański",
+   "born": 1933,
+   "c": "filmowiec",
+   "country": "Polska / Francja",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser filmowy",
+   "ls": "mieszkali",
+   "lodzLink": "Studiował w Szkole Filmowej w Łodzi, gdzie powstały jego etiudy.",
+   "works": [
+    "Dwaj ludzie z szafą (etiuda, 1958)",
+    "Nóż w wodzie (1962)",
+    "Wstręt (1965)",
+    "Dziecko Rosemary (1968)",
+    "Chinatown (1974)",
+    "Pianista (2002)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "poznanski",
    "name": "Izrael Poznański",
    "born": 1833,
@@ -1052,6 +1718,13 @@
    "lodz": true,
    "g": "m",
    "desc": "łódzki fabrykant, twórca kompleksu dzisiejszej Manufaktury",
+   "ls": "mieszkali",
+   "lodzLink": "Fabrykant; jego zakłady to dziś Manufaktura, pałac — Muzeum Miasta Łodzi.",
+   "works": [
+    "Fabryka przy Ogrodowej (1872–1892), dziś Manufaktura",
+    "Pałac przy Ogrodowej, dziś Muzeum Miasta Łodzi",
+    "Mauzoleum Poznańskich na cmentarzu żydowskim przy Brackiej"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -1072,6 +1745,12 @@
    "lodz": true,
    "g": "m",
    "desc": "urbanista, twórca planu przemysłowej Łodzi",
+   "ls": "mieszkali",
+   "lodzLink": "Zaplanował przemysłową Łódź: Nowe Miasto i osadę Łódka.",
+   "works": [
+    "Plan Nowego Miasta z ośmiobocznym rynkiem (1821–1823)",
+    "Osada Łódka wzdłuż Piotrkowskiej (od 1824)"
+   ],
    "mentions": [
     {
      "n": 3,
@@ -1092,6 +1771,15 @@
    "lodz": true,
    "g": "m",
    "desc": "pisarz, autor „Ziemi obiecanej” o Łodzi",
+   "ls": "temat",
+   "lodzLink": "Zbierał materiały w Łodzi do „Ziemi obiecanej” (1896–1898); powieść stworzyła literacki obraz przemysłowej Łodzi.",
+   "works": [
+    "Komediantka (1896)",
+    "Fermenty (1897)",
+    "Ziemia obiecana (1899)",
+    "Chłopi (1904–1909; Nagroda Nobla 1924)",
+    "Rok 1794 (1913–1918)"
+   ],
    "mentions": [
     {
      "n": 3,
@@ -1218,6 +1906,110 @@
    "total": 1
   },
   {
+   "id": "rubinstein",
+   "name": "Artur Rubinstein",
+   "born": 1887,
+   "died": 1982,
+   "c": "muzyk",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "pianista, jeden z najwybitniejszych interpretatorów Chopina",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi w rodzinie żydowskiego fabrykanta; patron Międzynarodowego Konkursu Pianistycznego i ulicy w Łodzi.",
+   "works": [
+    "Nagrania dzieł Chopina: mazurki, nokturny, polonezy, ballady",
+    "Koncerty fortepianowe Brahmsa i Beethovena",
+    "Moje młode lata (1973)",
+    "Moje długie życie (1980)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "rudnicki",
+   "name": "Lucjan Rudnicki",
+   "born": 1882,
+   "died": 1968,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz, działacz ruchu robotniczego",
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Związek z Łodzią wymaga weryfikacji (działalność w ruchu robotniczym).",
+   "works": [
+    "Stare i nowe (cykl wspomnieniowy)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "rybczynski",
+   "name": "Zbigniew Rybczyński",
+   "born": 1949,
+   "c": "filmowiec",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "twórca animacji i filmu eksperymentalnego, laureat Oscara",
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi; „Tango” powstało w łódzkim studiu Se-ma-for.",
+   "works": [
+    "Kwadrat (1972)",
+    "Nowa książka (1975)",
+    "Tango (1980, Oscar 1983)",
+    "Orkiestra (1990)",
+    "Teledyski m.in. dla Micka Jaggera i Art of Noise"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "rzewski",
+   "name": "Aleksy Rżewski",
+   "born": 1871,
+   "died": 1939,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "prawnik, pierwszy prezydent Łodzi w niepodległej Polsce",
+   "ls": "mieszkali",
+   "verify": true,
+   "lodzLink": "Prezydent Łodzi w pierwszych latach niepodległości (od 1918).",
+   "works": [
+    "Organizacja polskiego samorządu Łodzi po 1918 roku"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "sapkowski",
+   "name": "Andrzej Sapkowski",
+   "born": 1948,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "pisarz fantasy, autor sagi o wiedźminie",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się i mieszka w Łodzi.",
+   "works": [
+    "Wiedźmin (opowiadanie, „Fantastyka” 1986)",
+    "Ostatnie życzenie (1993)",
+    "Saga o wiedźminie (1994–1999)",
+    "Trylogia husycka (2002–2006)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "sautuola",
    "name": "Marcelino Sanz de Sautuola",
    "born": 1831,
@@ -1246,6 +2038,13 @@
    "lodz": true,
    "g": "m",
    "desc": "łódzki fabrykant, twórca Księżego Młyna",
+   "ls": "mieszkali",
+   "lodzLink": "Największy fabrykant Łodzi XIX wieku; twórca Księżego Młyna.",
+   "works": [
+    "Księży Młyn: fabryka, familoki, szkoła, szpital",
+    "Pałac Scheiblera (dziś Muzeum Kinematografii)",
+    "Kaplica Scheiblerów na Starym Cmentarzu"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -1310,6 +2109,25 @@
    "total": 3
   },
   {
+   "id": "singer",
+   "name": "Izrael Jehoszua Singer",
+   "born": 1893,
+   "died": 1944,
+   "c": "pisarz",
+   "country": "Polska / USA",
+   "g": "m",
+   "desc": "pisarz jidysz, starszy brat Isaaca Bashevisa Singera",
+   "ls": "temat",
+   "lodzLink": "Autor „Braci Aszkenazy”, wielkiej powieści o przemysłowej Łodzi.",
+   "works": [
+    "Josie Kałb (1932)",
+    "Bracia Aszkenazy (1936)",
+    "Rodzina Karnowskich (1943)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "stazewski",
    "name": "Henryk Stażewski",
    "born": 1894,
@@ -1339,6 +2157,16 @@
    "lodz": true,
    "g": "m",
    "desc": "malarz awangardy, twórca unizmu i Sali Neoplastycznej",
+   "ls": "mieszkali",
+   "lodzLink": "Od 1931 mieszkał i tworzył w Łodzi; współtwórca kolekcji grupy a.r. w Muzeum Sztuki i łódzkiej uczelni plastycznej, dziś ASP jego imienia.",
+   "works": [
+    "Kompozycje unistyczne (1929–1934)",
+    "Międzynarodowa Kolekcja Sztuki Nowoczesnej grupy a.r. (1931)",
+    "Moim przyjaciołom Żydom (1945)",
+    "Sala Neoplastyczna (1948)",
+    "Powidoki (cykl, 1948–1949)",
+    "Teoria widzenia (wyd. 1958)"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -1365,6 +2193,72 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "szczepanik",
+   "name": "Jan Szczepanik",
+   "born": 1872,
+   "died": 1926,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "wynalazca, nazywany „polskim Edisonem”",
+   "ls": "temat",
+   "lodzLink": "Związek tematyczny: jego wynalazki dotyczyły tkactwa wzorzystego, kluczowego dla łódzkiego przemysłu.",
+   "works": [
+    "Telektroskop (1897)",
+    "Kamizelka kuloodporna (ok. 1901)",
+    "Maszyny i metody projektowania wzorów tkackich",
+    "Barwna fotografia i film"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "szyk",
+   "name": "Artur Szyk",
+   "born": 1894,
+   "died": 1951,
+   "c": "malarz",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "ilustrator, miniaturzysta, karykaturzysta",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi.",
+   "works": [
+    "Statut kaliski (1927–1928)",
+    "Washington and His Times (1931)",
+    "Hagada (1934–1936)",
+    "The New Order (1941)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "tansman",
+   "name": "Aleksander Tansman",
+   "born": 1897,
+   "died": 1986,
+   "c": "muzyk",
+   "country": "Polska / Francja",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "kompozytor, przedstawiciel École de Paris",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi; w mieście odbywa się Festiwal i Konkurs jego imienia.",
+   "works": [
+    "Rapsodia polska (1940)",
+    "Dziewięć symfonii",
+    "Mazurki na fortepian",
+    "Cavatina na gitarę (1951)",
+    "Opera Le Serment (1955)"
+   ],
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "tomaszewski",
@@ -1409,6 +2303,30 @@
    "total": 1
   },
   {
+   "id": "tuwim",
+   "name": "Julian Tuwim",
+   "born": 1894,
+   "died": 1953,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta, współtwórca Skamandra, autor wierszy dla dzieci",
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi i tu dorastał; łódzkie dzieciństwo wraca w jego poezji. Na Piotrkowskiej stoi ławeczka Tuwima.",
+   "works": [
+    "Czyhanie na Boga (1918)",
+    "Sokrates tańczący (1920)",
+    "Bal w operze (1936)",
+    "Lokomotywa (1938)",
+    "Ptasie radio",
+    "Kwiaty polskie (1949)"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "wajda",
    "name": "Andrzej Wajda",
    "born": 1926,
@@ -1419,6 +2337,18 @@
    "lodz": true,
    "g": "m",
    "desc": "reżyser, „Ziemia obiecana” kręcona w Łodzi",
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi (1953); w Łodzi kręcił „Ziemię obiecaną”.",
+   "works": [
+    "Pokolenie (1955)",
+    "Kanał (1957)",
+    "Popiół i diament (1958)",
+    "Ziemia obiecana (1974)",
+    "Człowiek z marmuru (1977)",
+    "Człowiek z żelaza (1981, Złota Palma)",
+    "Katyń (2007)",
+    "Powidoki (2016, o Strzemińskim)"
+   ],
    "mentions": [
     {
      "n": 186,
@@ -1445,12 +2375,32 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "zdanowska",
+   "name": "Hanna Zdanowska",
+   "born": 1959,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "prezydent Łodzi",
+   "ls": "urodzeni",
+   "lodzLink": "Prezydent Łodzi od 2010; okres rewitalizacji, Nowego Centrum Łodzi i starań o Expo 2029.",
+   "works": [
+    "Prezydent Łodzi (od 2010)",
+    "Program rewitalizacji obszarowej",
+    "Kandydatura i organizacja Expo 2029"
+   ],
+   "mentions": [],
+   "total": 0
   }
  ],
  "stats": {
   "generated": "2026-11-20",
   "course": {
-   "planned": 220,
+   "planned": 223,
    "ready": 6,
    "parts": 11,
    "sections": 19,
@@ -1696,14 +2646,14 @@
    {
     "id": "IX",
     "title": "XX wiek — narodziny współczesności",
-    "episodes": 82,
+    "episodes": 83,
     "ready": 1,
     "sections": 9
    },
    {
     "id": "X",
     "title": "Po 1989 roku — świat współczesny",
-    "episodes": 15,
+    "episodes": 17,
     "ready": 0,
     "sections": 1
    },
@@ -1718,11 +2668,11 @@
   "domains": [
    {
     "name": "Łódź",
-    "count": 15
+    "count": 17
    },
    {
     "name": "Architektura i miasto",
-    "count": 45
+    "count": 43
    },
    {
     "name": "Malarstwo i rzeźba",
@@ -1738,11 +2688,11 @@
    },
    {
     "name": "Film i fotografia",
-    "count": 21
+    "count": 20
    },
    {
     "name": "Design i rzemiosło",
-    "count": 27
+    "count": 26
    },
    {
     "name": "Moda",
@@ -1810,22 +2760,32 @@
     "ready": true
    },
    {
-    "n": 193,
-    "title": "Łódź lat 80. — kryzys przemysłu i zmieniające się miasto",
+    "n": 194,
+    "title": "Łódź 1980–1989 — kryzys przemysłu, kultura niezależna i zmierzch PRL",
     "ready": false
    },
    {
-    "n": 196,
-    "title": "Łódź po transformacji — upadek przemysłu i nowa tożsamość miasta",
+    "n": 197,
+    "title": "Łódź 1989–1995 — upadek przemysłu włókienniczego i miasto w transformacji",
     "ready": false
    },
    {
-    "n": 208,
-    "title": "Łódź dzisiaj — rewitalizacja, design, fotografia i przyszłość miasta",
+    "n": 198,
+    "title": "Łódź 1995–2005 — nowe instytucje, festiwale i pierwsze odrodzenie",
     "ready": false
    },
    {
-    "n": 217,
+    "n": 199,
+    "title": "Łódź 2005–2015 — Manufaktura, Off Piotrkowska, murale i Nowe Centrum Łodzi",
+    "ready": false
+   },
+   {
+    "n": 211,
+    "title": "Łódź 2015–dziś — dworzec Fabryczna, rewitalizacja, EC1 i droga do Expo 2029",
+    "ready": false
+   },
+   {
+    "n": 220,
     "title": "Łódź — historia miasta w 20 obiektach, fotografiach i budynkach",
     "ready": false
    }
@@ -1868,7 +2828,17 @@
     "m": 70,
     "f": 6
    },
-   "lodz": 9
+   "lodz": 9,
+   "withWorks": 51,
+   "works": 185,
+   "lodzStrength": {
+    "temat": 3,
+    "mieszkali": 19,
+    "epizod": 7,
+    "brak": 6,
+    "urodzeni": 16
+   },
+   "lodzAll": 47
   }
  }
 }

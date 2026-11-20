@@ -2,7 +2,7 @@
 
 Kurs historii kultury **do słuchania** (w samochodzie, na spacerze), zrobiony jako aplikacja PWA: instaluje się na telefonie jak zwykła aplikacja i działa bez internetu.
 
-- 220 odcinków w 11 częściach, chronologicznie, od prehistorii po XXI wiek. Polska i Łódź są w każdej epoce.
+- 223 odcinki w 11 częściach, chronologicznie, od prehistorii po XXI wiek. Polska i Łódź są w każdej epoce.
 - Odcinki trwają 15–20 minut. Każdy zaczyna się dżinglem w stylu radiowym („Historia kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek…”) i kończy sygnałem zamykającym.
 - Każdą dziedzinę prowadzi inny ekspert, innym głosem: gospodarz, historyk, historyczka sztuki, architekt, muzykolog, literaturoznawczyni i filozofka, historyczka designu, fotograf i filmoznawca.
 - Lekcje mają rozdziały, transkrypcję z podświetlaniem, obrazy z kolekcji muzealnych (Wikimedia Commons, z autorami i licencjami), słowniczek, quiz i źródła.

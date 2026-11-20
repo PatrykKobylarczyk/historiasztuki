@@ -591,3 +591,17 @@ figure figcaption a:hover { text-decoration: underline; }
 }
 .figs.big .fig b { font-size: clamp(2.4rem, 7vw, 3.8rem); white-space: nowrap; }
 @media (min-width: 760px) { .fig { padding-right: 24px; } }
+.pm-none { font-size: .78rem; color: var(--faint); padding: 5px 0; }
+.pw { grid-column: 1 / -1; margin-top: 6px; }
+.pw summary { cursor: pointer; list-style: none; font-size: .8rem; font-weight: 600; color: var(--ink2); display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.pw summary::-webkit-details-marker { display: none; }
+.pw summary::before { content: "+"; font-weight: 400; font-size: 1.1rem; line-height: 1; color: var(--muted); transition: transform .2s; }
+.pw[open] summary::before { transform: rotate(45deg); }
+.ls { font-weight: 500; color: var(--muted); }
+.ls-urodzeni, .ls-mieszkali { color: var(--accent); }
+.verify { font-size: .66rem; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); border: 1px dashed var(--line-strong); border-radius: 999px; padding: 1px 8px; }
+.plodz { font-size: .9rem; color: var(--ink2); margin: 10px 0 6px; max-width: 70ch; }
+.works { margin: 6px 0 4px; padding: 0; list-style: none; columns: 2 260px; column-gap: 28px; }
+.works li { font-family: var(--serif); font-size: 1rem; padding: 5px 0; border-bottom: 1px solid var(--line); break-inside: avoid; }
+
+.bf.muted { background: var(--line-strong); }

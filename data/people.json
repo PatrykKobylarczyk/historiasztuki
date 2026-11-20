@@ -1,81 +1,2033 @@
 {
-  "_info": "Indeks osób kursu KULTURA. Pole 'm' to rdzenie/wyrażenia regularne (bez flag, z odmianą przez \\p{L}*), szukane w tekstach odcinków przez scripts/build-index.mjs. 'only' ogranicza dopasowanie do wskazanych odcinków (gdy nazwisko jest niejednoznaczne). 'born'/'died': rok (ujemny = p.n.e.), 'c': dziedzina, 'pl': Polak/Polka, 'lodz': związek z Łodzią, 'g': płeć (m/f), 'legend': postać legendarna.",
-  "people": [
-    { "id": "mellaart", "name": "James Mellaart", "born": 1925, "died": 2012, "c": "naukowiec", "country": "Wielka Brytania", "g": "m", "desc": "archeolog, pierwszy badacz Çatalhöyük", "m": ["Mellaart"] },
-    { "id": "hodder", "name": "Ian Hodder", "born": 1948, "c": "naukowiec", "country": "Wielka Brytania", "g": "m", "desc": "archeolog, wieloletni kierownik badań w Çatalhöyük", "m": ["Hodder"] },
-    { "id": "klaus-schmidt", "name": "Klaus Schmidt", "born": 1953, "died": 2014, "c": "naukowiec", "country": "Niemcy", "g": "m", "desc": "archeolog, odkrywca Göbekli Tepe", "m": ["Klaus\\s+Schmidt", "Schmidt\\p{L}*"], "only": [2] },
-    { "id": "childe", "name": "Vere Gordon Childe", "born": 1892, "died": 1957, "c": "naukowiec", "country": "Australia", "g": "m", "desc": "archeolog, twórca pojęcia „rewolucja neolityczna”", "m": ["Childe"] },
-    { "id": "diamond", "name": "Jared Diamond", "born": 1937, "c": "naukowiec", "country": "USA", "g": "m", "desc": "biolog i geograf, autor tezy o rolnictwie jako „najgorszym błędzie”", "m": ["Jared\\p{L}*\\s+Diamond\\p{L}*", "Diamond\\p{L}*"] },
-    { "id": "scott", "name": "James C. Scott", "born": 1936, "died": 2024, "c": "naukowiec", "country": "USA", "g": "m", "desc": "politolog i antropolog, badacz pierwszych państw", "m": ["Scott\\p{L}*"] },
-    { "id": "rousseau", "name": "Jean-Jacques Rousseau", "born": 1712, "died": 1778, "c": "filozof", "country": "Francja", "g": "m", "desc": "filozof oświecenia, krytyk własności i cywilizacji", "m": ["Rousseau"] },
-    { "id": "sautuola", "name": "Marcelino Sanz de Sautuola", "born": 1831, "died": 1888, "c": "naukowiec", "country": "Hiszpania", "g": "m", "desc": "prawnik i archeolog amator, odkrywca malowideł w Altamirze", "m": ["Sautuol\\p{L}*"] },
-    { "id": "maria-sautuola", "name": "María Sanz de Sautuola", "born": 1870, "died": 1946, "c": "inne", "country": "Hiszpania", "g": "f", "desc": "córka Marcelina; jako dziecko pierwsza zobaczyła malowidła z Altamiry", "m": ["córk\\p{L}*\\s+Mari\\p{L}*"] },
-    { "id": "cartailhac", "name": "Émile Cartailhac", "born": 1845, "died": 1921, "c": "naukowiec", "country": "Francja", "g": "m", "desc": "prehistoryk, autor „mea culpa sceptyka”", "m": ["Cartailhac"] },
-    { "id": "breuil", "name": "Henri Breuil", "born": 1877, "died": 1961, "c": "naukowiec", "country": "Francja", "g": "m", "desc": "ksiądz i prehistoryk, teoria magii łowieckiej", "m": ["Breuil"] },
-    { "id": "leroi-gourhan", "name": "André Leroi-Gourhan", "born": 1911, "died": 1986, "c": "naukowiec", "country": "Francja", "g": "m", "desc": "prehistoryk, strukturalna interpretacja sztuki jaskiniowej", "m": ["Leroi-Gourhan"] },
-    { "id": "lewis-williams", "name": "David Lewis-Williams", "born": 1934, "c": "naukowiec", "country": "RPA", "g": "m", "desc": "archeolog, hipoteza szamańska sztuki naskalnej", "m": ["Lewis-Williams"] },
-    { "id": "reznikoff", "name": "Iegor Reznikoff", "born": 1938, "c": "muzyk", "country": "Francja", "g": "m", "desc": "muzykolog, badacz akustyki jaskiń", "m": ["Reznikoff\\p{L}*"] },
-    { "id": "platon", "name": "Platon", "born": -427, "died": -347, "c": "filozof", "country": "Grecja", "g": "m", "desc": "filozof grecki", "m": ["Platon\\p{L}*"] },
-    { "id": "arystoteles", "name": "Arystoteles", "born": -384, "died": -322, "c": "filozof", "country": "Grecja", "g": "m", "desc": "filozof grecki", "m": ["Arystotel\\p{L}*"] },
-    { "id": "horacy", "name": "Horacy", "born": -65, "died": -8, "c": "pisarz", "country": "Rzym", "g": "m", "desc": "poeta rzymski", "m": ["Horac\\p{L}*"] },
-    { "id": "mieszko", "name": "Mieszko I", "born": 940, "died": 992, "c": "polityk", "country": "Polska", "pl": true, "g": "m", "desc": "pierwszy historyczny władca Polski", "m": ["Mieszk[aouie]?\\s+I(?!\\p{L})"] },
-    { "id": "geoffrey", "name": "Geoffrey z Monmouth", "born": 1095, "died": 1155, "c": "pisarz", "country": "Anglia", "g": "m", "desc": "kronikarz, autor „Historii królów Brytanii”", "m": ["Geoffrey"] },
-    { "id": "merlin", "name": "Merlin", "c": "inne", "country": "legenda", "g": "m", "legend": true, "desc": "czarodziej z legend arturiańskich", "m": ["Merlin\\p{L}*"] },
-    { "id": "inigo-jones", "name": "Inigo Jones", "born": 1573, "died": 1652, "c": "architekt", "country": "Anglia", "g": "m", "desc": "architekt, propagator palladianizmu w Anglii", "m": ["Inigo"] },
-    { "id": "palladio", "name": "Andrea Palladio", "born": 1508, "died": 1580, "c": "architekt", "country": "Włochy", "g": "m", "desc": "architekt renesansu", "m": ["Palladi\\p{L}*"] },
-    { "id": "stukeley", "name": "William Stukeley", "born": 1687, "died": 1765, "c": "naukowiec", "country": "Anglia", "g": "m", "desc": "antykwariusz, badacz Stonehenge", "m": ["Stukeley"] },
-    { "id": "constable", "name": "John Constable", "born": 1776, "died": 1837, "c": "malarz", "country": "Anglia", "g": "m", "desc": "malarz romantyczny, akwarela ze Stonehenge", "m": ["Constable"] },
-    { "id": "turner", "name": "William Turner", "born": 1775, "died": 1851, "c": "malarz", "country": "Anglia", "g": "m", "desc": "malarz romantyczny", "m": ["Turner\\p{L}*"] },
-    { "id": "kraszewski", "name": "Józef Ignacy Kraszewski", "born": 1812, "died": 1887, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "pisarz, autor „Starej baśni”", "m": ["Kraszewsk\\p{L}*"] },
-    { "id": "mickiewicz", "name": "Adam Mickiewicz", "born": 1798, "died": 1855, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "poeta, autor „Pana Tadeusza”", "m": ["Mickiewicz\\p{L}*"] },
-    { "id": "reymont", "name": "Władysław Reymont", "born": 1867, "died": 1925, "c": "pisarz", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "pisarz, autor „Ziemi obiecanej” o Łodzi", "m": ["Reymont\\p{L}*"] },
-    { "id": "norwid", "name": "Cyprian Kamil Norwid", "born": 1821, "died": 1883, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "poeta; jego wiersze śpiewał Niemen", "m": ["Norwid\\p{L}*"] },
-    { "id": "heidegger", "name": "Martin Heidegger", "born": 1889, "died": 1976, "c": "filozof", "country": "Niemcy", "g": "m", "desc": "filozof, esej „Budować, mieszkać, myśleć”", "m": ["Heidegger\\p{L}*"] },
-    { "id": "rembielinski", "name": "Rajmund Rembieliński", "born": 1775, "died": 1841, "c": "architekt", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "urbanista, twórca planu przemysłowej Łodzi", "m": ["Rembielińsk\\p{L}*"] },
-    { "id": "chierowski", "name": "Józef Chierowski", "born": 1927, "died": 2013, "c": "projektant", "country": "Polska", "pl": true, "g": "m", "desc": "projektant fotela 366", "m": ["Chierowsk\\p{L}*"] },
-    { "id": "rodin", "name": "Auguste Rodin", "born": 1840, "died": 1917, "c": "rzeźbiarz", "country": "Francja", "g": "m", "desc": "rzeźbiarz, autor „Myśliciela”", "m": ["Rodin\\p{L}*"] },
-    { "id": "semper", "name": "Gottfried Semper", "born": 1803, "died": 1879, "c": "architekt", "country": "Niemcy", "g": "m", "desc": "architekt i teoretyk, techniczne korzenie ornamentu", "m": ["Semper\\p{L}*"] },
-    { "id": "riegl", "name": "Alois Riegl", "born": 1858, "died": 1905, "c": "naukowiec", "country": "Austria", "g": "m", "desc": "historyk sztuki, „Problemy stylu”", "m": ["Riegl\\p{L}*"] },
-    { "id": "gombrich", "name": "Ernst Gombrich", "born": 1909, "died": 2001, "c": "naukowiec", "country": "Austria / Wielka Brytania", "g": "m", "desc": "historyk sztuki, „Zmysł porządku”", "m": ["Gombrich\\p{L}*"] },
-    { "id": "petrie", "name": "Flinders Petrie", "born": 1853, "died": 1942, "c": "naukowiec", "country": "Wielka Brytania", "g": "m", "desc": "egiptolog, twórca datowania sekwencyjnego ceramiki", "m": ["Petrie"] },
-    { "id": "loos", "name": "Adolf Loos", "born": 1870, "died": 1933, "c": "architekt", "country": "Austria", "g": "m", "desc": "architekt, autor „Ornamentu i zbrodni”", "m": ["Loos\\p{L}*"] },
-    { "id": "le-corbusier", "name": "Le Corbusier", "born": 1887, "died": 1965, "c": "architekt", "country": "Szwajcaria / Francja", "g": "m", "desc": "architekt modernizmu", "m": ["Le\\s+Corbusier\\p{L}*"] },
-    { "id": "picasso", "name": "Pablo Picasso", "born": 1881, "died": 1973, "c": "malarz", "country": "Hiszpania", "g": "m", "desc": "malarz, współtwórca kubizmu", "m": ["Picass\\p{L}*"] },
-    { "id": "tomaszewski", "name": "Lubomir Tomaszewski", "born": 1923, "died": 2018, "c": "projektant", "country": "Polska", "pl": true, "g": "m", "desc": "projektant porcelany Ćmielów", "m": ["Tomaszewsk\\p{L}*"] },
-    { "id": "orthwein", "name": "Hanna Orthwein", "born": 1921, "died": 2010, "c": "projektant", "country": "Polska", "pl": true, "g": "f", "desc": "projektantka figurek porcelanowych", "m": ["Orthwein"] },
-    { "id": "jedrasiak", "name": "Henryk Jędrasiak", "born": 1927, "died": 2010, "c": "projektant", "country": "Polska", "pl": true, "g": "m", "desc": "projektant figurek porcelanowych", "m": ["Jędrasiak\\p{L}*"] },
-    { "id": "naruszewicz", "name": "Mieczysław Naruszewicz", "born": 1919, "died": 2003, "c": "projektant", "country": "Polska", "pl": true, "g": "m", "desc": "projektant figurek porcelanowych", "m": ["Naruszewicz\\p{L}*"] },
-    { "id": "fangor", "name": "Wojciech Fangor", "born": 1922, "died": 2015, "c": "malarz", "country": "Polska", "pl": true, "g": "m", "desc": "malarz, twórca op-artu i plakacista", "m": ["Fangor\\p{L}*"] },
-    { "id": "gomulka", "name": "Władysław Gomułka", "born": 1905, "died": 1982, "c": "polityk", "country": "Polska", "pl": true, "g": "m", "desc": "I sekretarz PZPR 1956–1970", "m": ["Gomuł\\p{L}*"] },
-    { "id": "gierek", "name": "Edward Gierek", "born": 1913, "died": 2001, "c": "polityk", "country": "Polska", "pl": true, "g": "m", "desc": "I sekretarz PZPR 1970–1980", "m": ["Gierk\\p{L}*", "Gierek"] },
-    { "id": "jaroszewicz", "name": "Piotr Jaroszewicz", "born": 1909, "died": 1992, "c": "polityk", "country": "Polska", "pl": true, "g": "m", "desc": "premier PRL 1970–1980", "m": ["Jaroszewicz\\p{L}*"] },
-    { "id": "marchlewski", "name": "Julian Marchlewski", "born": 1866, "died": 1925, "c": "polityk", "country": "Polska", "pl": true, "g": "m", "desc": "działacz komunistyczny, patron łódzkich zakładów bawełnianych", "m": ["Marchlewsk\\p{L}*"] },
-    { "id": "poznanski", "name": "Izrael Poznański", "born": 1833, "died": 1900, "c": "przemysłowiec", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "łódzki fabrykant, twórca kompleksu dzisiejszej Manufaktury", "m": ["Poznańsk\\p{L}*"] },
-    { "id": "scheibler", "name": "Karol Scheibler", "born": 1820, "died": 1881, "c": "przemysłowiec", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "łódzki fabrykant, twórca Księżego Młyna", "m": ["Scheibler\\p{L}*"] },
-    { "id": "gryczelowska", "name": "Krystyna Gryczełowska", "born": 1931, "died": 2009, "c": "filmowiec", "country": "Polska", "pl": true, "lodz": true, "g": "f", "desc": "dokumentalistka, „Nasze znajome z Łodzi”", "m": ["Gryczełowsk\\p{L}*"] },
-    { "id": "wajda", "name": "Andrzej Wajda", "born": 1926, "died": 2016, "c": "filmowiec", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "reżyser, „Ziemia obiecana” kręcona w Łodzi", "m": ["Wajd\\p{L}*"] },
-    { "id": "bialoszewski", "name": "Miron Białoszewski", "born": 1922, "died": 1983, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "poeta, „Pamiętnik z powstania warszawskiego”", "m": ["Białoszewsk\\p{L}*"] },
-    { "id": "herbert", "name": "Zbigniew Herbert", "born": 1924, "died": 1998, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "poeta, „Pan Cogito”", "m": ["Herbert\\p{L}*"] },
-    { "id": "konwicki", "name": "Tadeusz Konwicki", "born": 1926, "died": 2015, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "pisarz i reżyser", "m": ["Konwick\\p{L}*"] },
-    { "id": "lem", "name": "Stanisław Lem", "born": 1921, "died": 2006, "c": "pisarz", "country": "Polska", "pl": true, "g": "m", "desc": "pisarz fantastyki naukowej i filozof", "m": ["Lem(?:a|em|owi)?(?!\\p{L})"] },
-    { "id": "krall", "name": "Hanna Krall", "born": 1935, "c": "pisarz", "country": "Polska", "pl": true, "g": "f", "desc": "reporterka", "m": ["Krall"] },
-    { "id": "niemen", "name": "Czesław Niemen", "born": 1939, "died": 2004, "c": "muzyk", "country": "Polska", "pl": true, "g": "m", "desc": "wokalista i kompozytor", "m": ["Niemen\\p{L}*"] },
-    { "id": "nalepa", "name": "Tadeusz Nalepa", "born": 1943, "died": 2007, "c": "muzyk", "country": "Polska", "pl": true, "g": "m", "desc": "gitarzysta, lider zespołu Breakout", "m": ["Nalep\\p{L}*"] },
-    { "id": "kubasinska", "name": "Mira Kubasińska", "born": 1944, "died": 2005, "c": "muzyk", "country": "Polska", "pl": true, "g": "f", "desc": "wokalistka zespołu Breakout", "m": ["Kubasińsk\\p{L}*"] },
-    { "id": "bowie", "name": "David Bowie", "born": 1947, "died": 2016, "c": "muzyk", "country": "Wielka Brytania", "g": "m", "desc": "muzyk rockowy", "m": ["Bowi\\p{L}*"] },
-    { "id": "rothko", "name": "Mark Rothko", "born": 1903, "died": 1970, "c": "malarz", "country": "USA", "g": "m", "desc": "malarz abstrakcji barwnej", "m": ["Rothk\\p{L}*"] },
-    { "id": "richter", "name": "Gerhard Richter", "born": 1932, "c": "malarz", "country": "Niemcy", "g": "m", "desc": "malarz, relacja fotografii i obrazu", "m": ["Richter\\p{L}*"] },
-    { "id": "warhol", "name": "Andy Warhol", "born": 1928, "died": 1987, "c": "malarz", "country": "USA", "g": "m", "desc": "artysta pop-artu", "m": ["Warhol\\p{L}*"] },
-    { "id": "basquiat", "name": "Jean-Michel Basquiat", "born": 1960, "died": 1988, "c": "malarz", "country": "USA", "g": "m", "desc": "malarz, wyrósł z nowojorskiego graffiti", "m": ["Basquiat\\p{L}*"] },
-    { "id": "haring", "name": "Keith Haring", "born": 1958, "died": 1990, "c": "malarz", "country": "USA", "g": "m", "desc": "artysta graffiti i pop-artu", "m": ["Haring\\p{L}*"] },
-    { "id": "banksy", "name": "Banksy", "born": 1974, "c": "malarz", "country": "Wielka Brytania", "g": "m", "desc": "anonimowy artysta street artu", "m": ["Banksy\\p{L}*"] },
-    { "id": "leger", "name": "Fernand Léger", "born": 1881, "died": 1955, "c": "malarz", "country": "Francja", "g": "m", "desc": "malarz kubista; praca w łódzkim Muzeum Sztuki", "m": ["Léger\\p{L}*"] },
-    { "id": "ernst", "name": "Max Ernst", "born": 1891, "died": 1976, "c": "malarz", "country": "Niemcy / Francja", "g": "m", "desc": "malarz surrealista; praca w łódzkim Muzeum Sztuki", "m": ["Max\\p{L}*\\s+Ernst\\p{L}*"] },
-    { "id": "schwitters", "name": "Kurt Schwitters", "born": 1887, "died": 1948, "c": "malarz", "country": "Niemcy", "g": "m", "desc": "artysta dadaista; praca w łódzkim Muzeum Sztuki", "m": ["Schwitters\\p{L}*"] },
-    { "id": "strzeminski", "name": "Władysław Strzemiński", "born": 1893, "died": 1952, "c": "malarz", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "malarz awangardy, twórca unizmu i Sali Neoplastycznej", "m": ["Strzemińsk\\p{L}*"] },
-    { "id": "kobro", "name": "Katarzyna Kobro", "born": 1898, "died": 1951, "c": "rzeźbiarz", "country": "Polska", "pl": true, "lodz": true, "g": "f", "desc": "rzeźbiarka awangardy, grupa a.r.", "m": ["Kobro"] },
-    { "id": "stazewski", "name": "Henryk Stażewski", "born": 1894, "died": 1988, "c": "malarz", "country": "Polska", "pl": true, "g": "m", "desc": "malarz awangardy, grupa a.r.", "m": ["Stażewsk\\p{L}*"] },
-    { "id": "nowosielski", "name": "Jerzy Nowosielski", "born": 1923, "died": 2011, "c": "malarz", "country": "Polska", "pl": true, "g": "m", "desc": "malarz, łączący ikonę z nowoczesnością", "m": ["Nowosielsk\\p{L}*"] },
-    { "id": "marian-schmidt", "name": "Marian Schmidt", "born": 1938, "c": "fotograf", "country": "Polska", "pl": true, "lodz": true, "g": "m", "desc": "fotograf, dokumentalista Łodzi", "m": ["Marian\\p{L}*\\s+Schmidt\\p{L}*", "Schmidt\\p{L}*"], "only": [186] }
-  ]
+ "_info": "Indeks osób kursu KULTURA. Pole 'm' to rdzenie/wyrażenia regularne (bez flag, z odmianą przez \\p{L}*), szukane w tekstach odcinków przez scripts/build-index.mjs. 'only' ogranicza dopasowanie do wskazanych odcinków (gdy nazwisko jest niejednoznaczne). 'born'/'died': rok (ujemny = p.n.e.), 'c': dziedzina, 'pl': Polak/Polka, 'lodz': związek z Łodzią, 'g': płeć (m/f), 'legend': postać legendarna. Pola dodatkowe: 'works' — wybrana twórczość/dorobek; 'ls' — siła związku z Łodzią (urodzeni/mieszkali/epizod/temat/brak); 'lodzLink' — opis związku; 'verify' — wymaga weryfikacji.",
+ "people": [
+  {
+   "id": "mellaart",
+   "name": "James Mellaart",
+   "born": 1925,
+   "died": 2012,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, pierwszy badacz Çatalhöyük",
+   "m": [
+    "Mellaart"
+   ]
+  },
+  {
+   "id": "hodder",
+   "name": "Ian Hodder",
+   "born": 1948,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, wieloletni kierownik badań w Çatalhöyük",
+   "m": [
+    "Hodder"
+   ]
+  },
+  {
+   "id": "klaus-schmidt",
+   "name": "Klaus Schmidt",
+   "born": 1953,
+   "died": 2014,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "archeolog, odkrywca Göbekli Tepe",
+   "m": [
+    "Klaus\\s+Schmidt",
+    "Schmidt\\p{L}*"
+   ],
+   "only": [
+    2
+   ]
+  },
+  {
+   "id": "childe",
+   "name": "Vere Gordon Childe",
+   "born": 1892,
+   "died": 1957,
+   "c": "naukowiec",
+   "country": "Australia",
+   "g": "m",
+   "desc": "archeolog, twórca pojęcia „rewolucja neolityczna”",
+   "m": [
+    "Childe"
+   ]
+  },
+  {
+   "id": "diamond",
+   "name": "Jared Diamond",
+   "born": 1937,
+   "c": "naukowiec",
+   "country": "USA",
+   "g": "m",
+   "desc": "biolog i geograf, autor tezy o rolnictwie jako „najgorszym błędzie”",
+   "m": [
+    "Jared\\p{L}*\\s+Diamond\\p{L}*",
+    "Diamond\\p{L}*"
+   ]
+  },
+  {
+   "id": "scott",
+   "name": "James C. Scott",
+   "born": 1936,
+   "died": 2024,
+   "c": "naukowiec",
+   "country": "USA",
+   "g": "m",
+   "desc": "politolog i antropolog, badacz pierwszych państw",
+   "m": [
+    "Scott\\p{L}*"
+   ]
+  },
+  {
+   "id": "rousseau",
+   "name": "Jean-Jacques Rousseau",
+   "born": 1712,
+   "died": 1778,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "filozof oświecenia, krytyk własności i cywilizacji",
+   "m": [
+    "Rousseau"
+   ]
+  },
+  {
+   "id": "sautuola",
+   "name": "Marcelino Sanz de Sautuola",
+   "born": 1831,
+   "died": 1888,
+   "c": "naukowiec",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "prawnik i archeolog amator, odkrywca malowideł w Altamirze",
+   "m": [
+    "Sautuol\\p{L}*"
+   ]
+  },
+  {
+   "id": "maria-sautuola",
+   "name": "María Sanz de Sautuola",
+   "born": 1870,
+   "died": 1946,
+   "c": "inne",
+   "country": "Hiszpania",
+   "g": "f",
+   "desc": "córka Marcelina; jako dziecko pierwsza zobaczyła malowidła z Altamiry",
+   "m": [
+    "córk\\p{L}*\\s+Mari\\p{L}*"
+   ]
+  },
+  {
+   "id": "cartailhac",
+   "name": "Émile Cartailhac",
+   "born": 1845,
+   "died": 1921,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "prehistoryk, autor „mea culpa sceptyka”",
+   "m": [
+    "Cartailhac"
+   ]
+  },
+  {
+   "id": "breuil",
+   "name": "Henri Breuil",
+   "born": 1877,
+   "died": 1961,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "ksiądz i prehistoryk, teoria magii łowieckiej",
+   "m": [
+    "Breuil"
+   ]
+  },
+  {
+   "id": "leroi-gourhan",
+   "name": "André Leroi-Gourhan",
+   "born": 1911,
+   "died": 1986,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "prehistoryk, strukturalna interpretacja sztuki jaskiniowej",
+   "m": [
+    "Leroi-Gourhan"
+   ]
+  },
+  {
+   "id": "lewis-williams",
+   "name": "David Lewis-Williams",
+   "born": 1934,
+   "c": "naukowiec",
+   "country": "RPA",
+   "g": "m",
+   "desc": "archeolog, hipoteza szamańska sztuki naskalnej",
+   "m": [
+    "Lewis-Williams"
+   ]
+  },
+  {
+   "id": "reznikoff",
+   "name": "Iegor Reznikoff",
+   "born": 1938,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "muzykolog, badacz akustyki jaskiń",
+   "m": [
+    "Reznikoff\\p{L}*"
+   ]
+  },
+  {
+   "id": "platon",
+   "name": "Platon",
+   "born": -427,
+   "died": -347,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof grecki",
+   "m": [
+    "Platon\\p{L}*"
+   ]
+  },
+  {
+   "id": "arystoteles",
+   "name": "Arystoteles",
+   "born": -384,
+   "died": -322,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof grecki",
+   "m": [
+    "Arystotel\\p{L}*"
+   ]
+  },
+  {
+   "id": "horacy",
+   "name": "Horacy",
+   "born": -65,
+   "died": -8,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta rzymski",
+   "m": [
+    "Horac\\p{L}*"
+   ]
+  },
+  {
+   "id": "mieszko",
+   "name": "Mieszko I",
+   "born": 940,
+   "died": 992,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy historyczny władca Polski",
+   "m": [
+    "Mieszk[aouie]?\\s+I(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "geoffrey",
+   "name": "Geoffrey z Monmouth",
+   "born": 1095,
+   "died": 1155,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "kronikarz, autor „Historii królów Brytanii”",
+   "m": [
+    "Geoffrey"
+   ]
+  },
+  {
+   "id": "merlin",
+   "name": "Merlin",
+   "c": "inne",
+   "country": "legenda",
+   "g": "m",
+   "legend": true,
+   "desc": "czarodziej z legend arturiańskich",
+   "m": [
+    "Merlin\\p{L}*"
+   ]
+  },
+  {
+   "id": "inigo-jones",
+   "name": "Inigo Jones",
+   "born": 1573,
+   "died": 1652,
+   "c": "architekt",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "architekt, propagator palladianizmu w Anglii",
+   "m": [
+    "Inigo"
+   ]
+  },
+  {
+   "id": "palladio",
+   "name": "Andrea Palladio",
+   "born": 1508,
+   "died": 1580,
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "architekt renesansu",
+   "m": [
+    "Palladi\\p{L}*"
+   ]
+  },
+  {
+   "id": "stukeley",
+   "name": "William Stukeley",
+   "born": 1687,
+   "died": 1765,
+   "c": "naukowiec",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "antykwariusz, badacz Stonehenge",
+   "m": [
+    "Stukeley"
+   ]
+  },
+  {
+   "id": "constable",
+   "name": "John Constable",
+   "born": 1776,
+   "died": 1837,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "malarz romantyczny, akwarela ze Stonehenge",
+   "m": [
+    "Constable"
+   ]
+  },
+  {
+   "id": "turner",
+   "name": "William Turner",
+   "born": 1775,
+   "died": 1851,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "malarz romantyczny",
+   "m": [
+    "Turner\\p{L}*"
+   ]
+  },
+  {
+   "id": "kraszewski",
+   "name": "Józef Ignacy Kraszewski",
+   "born": 1812,
+   "died": 1887,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz, autor „Starej baśni”",
+   "m": [
+    "Kraszewsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "mickiewicz",
+   "name": "Adam Mickiewicz",
+   "born": 1798,
+   "died": 1855,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, autor „Pana Tadeusza”",
+   "m": [
+    "Mickiewicz\\p{L}*"
+   ]
+  },
+  {
+   "id": "reymont",
+   "name": "Władysław Reymont",
+   "born": 1867,
+   "died": 1925,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "pisarz, autor „Ziemi obiecanej” o Łodzi",
+   "m": [
+    "Reymont\\p{L}*"
+   ],
+   "ls": "temat",
+   "lodzLink": "Zbierał materiały w Łodzi do „Ziemi obiecanej” (1896–1898); powieść stworzyła literacki obraz przemysłowej Łodzi.",
+   "works": [
+    "Komediantka (1896)",
+    "Fermenty (1897)",
+    "Ziemia obiecana (1899)",
+    "Chłopi (1904–1909; Nagroda Nobla 1924)",
+    "Rok 1794 (1913–1918)"
+   ]
+  },
+  {
+   "id": "norwid",
+   "name": "Cyprian Kamil Norwid",
+   "born": 1821,
+   "died": 1883,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta; jego wiersze śpiewał Niemen",
+   "m": [
+    "Norwid\\p{L}*"
+   ]
+  },
+  {
+   "id": "heidegger",
+   "name": "Martin Heidegger",
+   "born": 1889,
+   "died": 1976,
+   "c": "filozof",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "filozof, esej „Budować, mieszkać, myśleć”",
+   "m": [
+    "Heidegger\\p{L}*"
+   ]
+  },
+  {
+   "id": "rembielinski",
+   "name": "Rajmund Rembieliński",
+   "born": 1775,
+   "died": 1841,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "urbanista, twórca planu przemysłowej Łodzi",
+   "m": [
+    "Rembielińsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Zaplanował przemysłową Łódź: Nowe Miasto i osadę Łódka.",
+   "works": [
+    "Plan Nowego Miasta z ośmiobocznym rynkiem (1821–1823)",
+    "Osada Łódka wzdłuż Piotrkowskiej (od 1824)"
+   ]
+  },
+  {
+   "id": "chierowski",
+   "name": "Józef Chierowski",
+   "born": 1927,
+   "died": 2013,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant fotela 366",
+   "m": [
+    "Chierowsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "rodin",
+   "name": "Auguste Rodin",
+   "born": 1840,
+   "died": 1917,
+   "c": "rzeźbiarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor „Myśliciela”",
+   "m": [
+    "Rodin\\p{L}*"
+   ]
+  },
+  {
+   "id": "semper",
+   "name": "Gottfried Semper",
+   "born": 1803,
+   "died": 1879,
+   "c": "architekt",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "architekt i teoretyk, techniczne korzenie ornamentu",
+   "m": [
+    "Semper\\p{L}*"
+   ]
+  },
+  {
+   "id": "riegl",
+   "name": "Alois Riegl",
+   "born": 1858,
+   "died": 1905,
+   "c": "naukowiec",
+   "country": "Austria",
+   "g": "m",
+   "desc": "historyk sztuki, „Problemy stylu”",
+   "m": [
+    "Riegl\\p{L}*"
+   ]
+  },
+  {
+   "id": "gombrich",
+   "name": "Ernst Gombrich",
+   "born": 1909,
+   "died": 2001,
+   "c": "naukowiec",
+   "country": "Austria / Wielka Brytania",
+   "g": "m",
+   "desc": "historyk sztuki, „Zmysł porządku”",
+   "m": [
+    "Gombrich\\p{L}*"
+   ]
+  },
+  {
+   "id": "petrie",
+   "name": "Flinders Petrie",
+   "born": 1853,
+   "died": 1942,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "egiptolog, twórca datowania sekwencyjnego ceramiki",
+   "m": [
+    "Petrie"
+   ]
+  },
+  {
+   "id": "loos",
+   "name": "Adolf Loos",
+   "born": 1870,
+   "died": 1933,
+   "c": "architekt",
+   "country": "Austria",
+   "g": "m",
+   "desc": "architekt, autor „Ornamentu i zbrodni”",
+   "m": [
+    "Loos\\p{L}*"
+   ]
+  },
+  {
+   "id": "le-corbusier",
+   "name": "Le Corbusier",
+   "born": 1887,
+   "died": 1965,
+   "c": "architekt",
+   "country": "Szwajcaria / Francja",
+   "g": "m",
+   "desc": "architekt modernizmu",
+   "m": [
+    "Le\\s+Corbusier\\p{L}*"
+   ]
+  },
+  {
+   "id": "picasso",
+   "name": "Pablo Picasso",
+   "born": 1881,
+   "died": 1973,
+   "c": "malarz",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "malarz, współtwórca kubizmu",
+   "m": [
+    "Picass\\p{L}*"
+   ]
+  },
+  {
+   "id": "tomaszewski",
+   "name": "Lubomir Tomaszewski",
+   "born": 1923,
+   "died": 2018,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant porcelany Ćmielów",
+   "m": [
+    "Tomaszewsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "orthwein",
+   "name": "Hanna Orthwein",
+   "born": 1921,
+   "died": 2010,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "projektantka figurek porcelanowych",
+   "m": [
+    "Orthwein"
+   ]
+  },
+  {
+   "id": "jedrasiak",
+   "name": "Henryk Jędrasiak",
+   "born": 1927,
+   "died": 2010,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant figurek porcelanowych",
+   "m": [
+    "Jędrasiak\\p{L}*"
+   ]
+  },
+  {
+   "id": "naruszewicz",
+   "name": "Mieczysław Naruszewicz",
+   "born": 1919,
+   "died": 2003,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant figurek porcelanowych",
+   "m": [
+    "Naruszewicz\\p{L}*"
+   ]
+  },
+  {
+   "id": "fangor",
+   "name": "Wojciech Fangor",
+   "born": 1922,
+   "died": 2015,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, twórca op-artu i plakacista",
+   "m": [
+    "Fangor\\p{L}*"
+   ]
+  },
+  {
+   "id": "gomulka",
+   "name": "Władysław Gomułka",
+   "born": 1905,
+   "died": 1982,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "I sekretarz PZPR 1956–1970",
+   "m": [
+    "Gomuł\\p{L}*"
+   ],
+   "ls": "epizod",
+   "lodzLink": "Jako działacz komunistyczny uczestniczył w strajku włókniarzy w Łodzi w 1932 roku, gdzie został ranny.",
+   "works": [
+    "Przemówienie na wiecu 24 października 1956 (Polski Październik)"
+   ]
+  },
+  {
+   "id": "gierek",
+   "name": "Edward Gierek",
+   "born": 1913,
+   "died": 2001,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "I sekretarz PZPR 1970–1980",
+   "m": [
+    "Gierk\\p{L}*",
+    "Gierek"
+   ]
+  },
+  {
+   "id": "jaroszewicz",
+   "name": "Piotr Jaroszewicz",
+   "born": 1909,
+   "died": 1992,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "premier PRL 1970–1980",
+   "m": [
+    "Jaroszewicz\\p{L}*"
+   ]
+  },
+  {
+   "id": "marchlewski",
+   "name": "Julian Marchlewski",
+   "born": 1866,
+   "died": 1925,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "działacz komunistyczny, patron łódzkich zakładów bawełnianych",
+   "m": [
+    "Marchlewsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "poznanski",
+   "name": "Izrael Poznański",
+   "born": 1833,
+   "died": 1900,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "łódzki fabrykant, twórca kompleksu dzisiejszej Manufaktury",
+   "m": [
+    "Poznańsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Fabrykant; jego zakłady to dziś Manufaktura, pałac — Muzeum Miasta Łodzi.",
+   "works": [
+    "Fabryka przy Ogrodowej (1872–1892), dziś Manufaktura",
+    "Pałac przy Ogrodowej, dziś Muzeum Miasta Łodzi",
+    "Mauzoleum Poznańskich na cmentarzu żydowskim przy Brackiej"
+   ]
+  },
+  {
+   "id": "scheibler",
+   "name": "Karol Scheibler",
+   "born": 1820,
+   "died": 1881,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "łódzki fabrykant, twórca Księżego Młyna",
+   "m": [
+    "Scheibler\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Największy fabrykant Łodzi XIX wieku; twórca Księżego Młyna.",
+   "works": [
+    "Księży Młyn: fabryka, familoki, szkoła, szpital",
+    "Pałac Scheiblera (dziś Muzeum Kinematografii)",
+    "Kaplica Scheiblerów na Starym Cmentarzu"
+   ]
+  },
+  {
+   "id": "gryczelowska",
+   "name": "Krystyna Gryczełowska",
+   "born": 1931,
+   "died": 2009,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "dokumentalistka, „Nasze znajome z Łodzi”",
+   "m": [
+    "Gryczełowsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "wajda",
+   "name": "Andrzej Wajda",
+   "born": 1926,
+   "died": 2016,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser, „Ziemia obiecana” kręcona w Łodzi",
+   "m": [
+    "Wajd\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi (1953); w Łodzi kręcił „Ziemię obiecaną”.",
+   "works": [
+    "Pokolenie (1955)",
+    "Kanał (1957)",
+    "Popiół i diament (1958)",
+    "Ziemia obiecana (1974)",
+    "Człowiek z marmuru (1977)",
+    "Człowiek z żelaza (1981, Złota Palma)",
+    "Katyń (2007)",
+    "Powidoki (2016, o Strzemińskim)"
+   ]
+  },
+  {
+   "id": "bialoszewski",
+   "name": "Miron Białoszewski",
+   "born": 1922,
+   "died": 1983,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, „Pamiętnik z powstania warszawskiego”",
+   "m": [
+    "Białoszewsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "herbert",
+   "name": "Zbigniew Herbert",
+   "born": 1924,
+   "died": 1998,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, „Pan Cogito”",
+   "m": [
+    "Herbert\\p{L}*"
+   ],
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku z Łodzią.",
+   "works": [
+    "Struna światła (1956)",
+    "Hermes, pies i gwiazda (1957)",
+    "Barbarzyńca w ogrodzie (1962)",
+    "Pan Cogito (1974)",
+    "Raport z oblężonego Miasta (1983)"
+   ]
+  },
+  {
+   "id": "konwicki",
+   "name": "Tadeusz Konwicki",
+   "born": 1926,
+   "died": 2015,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz i reżyser",
+   "m": [
+    "Konwick\\p{L}*"
+   ]
+  },
+  {
+   "id": "lem",
+   "name": "Stanisław Lem",
+   "born": 1921,
+   "died": 2006,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz fantastyki naukowej i filozof",
+   "m": [
+    "Lem(?:a|em|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "krall",
+   "name": "Hanna Krall",
+   "born": 1935,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "reporterka",
+   "m": [
+    "Krall"
+   ]
+  },
+  {
+   "id": "niemen",
+   "name": "Czesław Niemen",
+   "born": 1939,
+   "died": 2004,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "wokalista i kompozytor",
+   "m": [
+    "Niemen\\p{L}*"
+   ]
+  },
+  {
+   "id": "nalepa",
+   "name": "Tadeusz Nalepa",
+   "born": 1943,
+   "died": 2007,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "gitarzysta, lider zespołu Breakout",
+   "m": [
+    "Nalep\\p{L}*"
+   ]
+  },
+  {
+   "id": "kubasinska",
+   "name": "Mira Kubasińska",
+   "born": 1944,
+   "died": 2005,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "wokalistka zespołu Breakout",
+   "m": [
+    "Kubasińsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "bowie",
+   "name": "David Bowie",
+   "born": 1947,
+   "died": 2016,
+   "c": "muzyk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "muzyk rockowy",
+   "m": [
+    "Bowi\\p{L}*"
+   ]
+  },
+  {
+   "id": "rothko",
+   "name": "Mark Rothko",
+   "born": 1903,
+   "died": 1970,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "malarz abstrakcji barwnej",
+   "m": [
+    "Rothk\\p{L}*"
+   ]
+  },
+  {
+   "id": "richter",
+   "name": "Gerhard Richter",
+   "born": 1932,
+   "c": "malarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "malarz, relacja fotografii i obrazu",
+   "m": [
+    "Richter\\p{L}*"
+   ]
+  },
+  {
+   "id": "warhol",
+   "name": "Andy Warhol",
+   "born": 1928,
+   "died": 1987,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "artysta pop-artu",
+   "m": [
+    "Warhol\\p{L}*"
+   ]
+  },
+  {
+   "id": "basquiat",
+   "name": "Jean-Michel Basquiat",
+   "born": 1960,
+   "died": 1988,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "malarz, wyrósł z nowojorskiego graffiti",
+   "m": [
+    "Basquiat\\p{L}*"
+   ]
+  },
+  {
+   "id": "haring",
+   "name": "Keith Haring",
+   "born": 1958,
+   "died": 1990,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "artysta graffiti i pop-artu",
+   "m": [
+    "Haring\\p{L}*"
+   ]
+  },
+  {
+   "id": "banksy",
+   "name": "Banksy",
+   "born": 1974,
+   "c": "malarz",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "anonimowy artysta street artu",
+   "m": [
+    "Banksy\\p{L}*"
+   ]
+  },
+  {
+   "id": "leger",
+   "name": "Fernand Léger",
+   "born": 1881,
+   "died": 1955,
+   "c": "malarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "malarz kubista; praca w łódzkim Muzeum Sztuki",
+   "m": [
+    "Léger\\p{L}*"
+   ]
+  },
+  {
+   "id": "ernst",
+   "name": "Max Ernst",
+   "born": 1891,
+   "died": 1976,
+   "c": "malarz",
+   "country": "Niemcy / Francja",
+   "g": "m",
+   "desc": "malarz surrealista; praca w łódzkim Muzeum Sztuki",
+   "m": [
+    "Max\\p{L}*\\s+Ernst\\p{L}*"
+   ]
+  },
+  {
+   "id": "schwitters",
+   "name": "Kurt Schwitters",
+   "born": 1887,
+   "died": 1948,
+   "c": "malarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "artysta dadaista; praca w łódzkim Muzeum Sztuki",
+   "m": [
+    "Schwitters\\p{L}*"
+   ]
+  },
+  {
+   "id": "strzeminski",
+   "name": "Władysław Strzemiński",
+   "born": 1893,
+   "died": 1952,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "malarz awangardy, twórca unizmu i Sali Neoplastycznej",
+   "m": [
+    "Strzemińsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Od 1931 mieszkał i tworzył w Łodzi; współtwórca kolekcji grupy a.r. w Muzeum Sztuki i łódzkiej uczelni plastycznej, dziś ASP jego imienia.",
+   "works": [
+    "Kompozycje unistyczne (1929–1934)",
+    "Międzynarodowa Kolekcja Sztuki Nowoczesnej grupy a.r. (1931)",
+    "Moim przyjaciołom Żydom (1945)",
+    "Sala Neoplastyczna (1948)",
+    "Powidoki (cykl, 1948–1949)",
+    "Teoria widzenia (wyd. 1958)"
+   ]
+  },
+  {
+   "id": "kobro",
+   "name": "Katarzyna Kobro",
+   "born": 1898,
+   "died": 1951,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "rzeźbiarka awangardy, grupa a.r.",
+   "m": [
+    "Kobro"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Od 1931 mieszkała i tworzyła w Łodzi; jej rzeźby są w Muzeum Sztuki w Łodzi.",
+   "works": [
+    "Rzeźba zawieszona (1921–1922)",
+    "Kompozycje przestrzenne (1925–1933)",
+    "Kompozycja przestrzeni. Obliczenia rytmu czasoprzestrzennego (z W. Strzemińskim, 1931)",
+    "Akty (1948)"
+   ]
+  },
+  {
+   "id": "stazewski",
+   "name": "Henryk Stażewski",
+   "born": 1894,
+   "died": 1988,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz awangardy, grupa a.r.",
+   "m": [
+    "Stażewsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "nowosielski",
+   "name": "Jerzy Nowosielski",
+   "born": 1923,
+   "died": 2011,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, łączący ikonę z nowoczesnością",
+   "m": [
+    "Nowosielsk\\p{L}*"
+   ],
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Związany z Łodzią przez pracę dydaktyczną w łódzkiej uczelni plastycznej; zakres i lata wymagają weryfikacji.",
+   "works": [
+    "Akty kobiece (cykl)",
+    "Polichromie i ikony cerkiewne, m.in. w Białym Borze",
+    "Kościół Ducha Świętego w Tychach (polichromie)",
+    "Abstrakcje geometryczne i pejzaże miejskie"
+   ]
+  },
+  {
+   "id": "marian-schmidt",
+   "name": "Marian Schmidt",
+   "born": 1938,
+   "c": "fotograf",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "fotograf, dokumentalista Łodzi",
+   "m": [
+    "Marian\\p{L}*\\s+Schmidt\\p{L}*",
+    "Schmidt\\p{L}*"
+   ],
+   "only": [
+    186
+   ]
+  },
+  {
+   "id": "milosz",
+   "name": "Czesław Miłosz",
+   "born": 1911,
+   "died": 2004,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, eseista, laureat Nagrody Nobla (1980)",
+   "m": [
+    "Miłosz\\p{L}*"
+   ],
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku biograficznego z Łodzią.",
+   "works": [
+    "Ocalenie (1945)",
+    "Zniewolony umysł (1953)",
+    "Dolina Issy (1955)",
+    "Traktat poetycki (1957)",
+    "Rodzinna Europa (1959)",
+    "Historia literatury polskiej (1969)",
+    "Ziemia Ulro (1977)",
+    "Abecadło Miłosza (1997)"
+   ]
+  },
+  {
+   "id": "tuwim",
+   "name": "Julian Tuwim",
+   "born": 1894,
+   "died": 1953,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta, współtwórca Skamandra, autor wierszy dla dzieci",
+   "m": [
+    "Tuwim\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi i tu dorastał; łódzkie dzieciństwo wraca w jego poezji. Na Piotrkowskiej stoi ławeczka Tuwima.",
+   "works": [
+    "Czyhanie na Boga (1918)",
+    "Sokrates tańczący (1920)",
+    "Bal w operze (1936)",
+    "Lokomotywa (1938)",
+    "Ptasie radio",
+    "Kwiaty polskie (1949)"
+   ]
+  },
+  {
+   "id": "rubinstein",
+   "name": "Artur Rubinstein",
+   "born": 1887,
+   "died": 1982,
+   "c": "muzyk",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "pianista, jeden z najwybitniejszych interpretatorów Chopina",
+   "m": [
+    "Rubinstein\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi w rodzinie żydowskiego fabrykanta; patron Międzynarodowego Konkursu Pianistycznego i ulicy w Łodzi.",
+   "works": [
+    "Nagrania dzieł Chopina: mazurki, nokturny, polonezy, ballady",
+    "Koncerty fortepianowe Brahmsa i Beethovena",
+    "Moje młode lata (1973)",
+    "Moje długie życie (1980)"
+   ]
+  },
+  {
+   "id": "bacewicz",
+   "name": "Grażyna Bacewicz",
+   "born": 1909,
+   "died": 1969,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "kompozytorka i skrzypaczka",
+   "m": [
+    "Bacewicz\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodziła się w Łodzi i tu zaczynała naukę muzyki.",
+   "works": [
+    "Koncert na orkiestrę smyczkową (1948)",
+    "Siedem koncertów skrzypcowych",
+    "Siedem kwartetów smyczkowych",
+    "II Sonata fortepianowa (1953)",
+    "Muzyka na smyczki, trąbki i perkusję (1958)",
+    "Przygoda Króla Artura (opera radiowa, 1959)"
+   ]
+  },
+  {
+   "id": "tansman",
+   "name": "Aleksander Tansman",
+   "born": 1897,
+   "died": 1986,
+   "c": "muzyk",
+   "country": "Polska / Francja",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "kompozytor, przedstawiciel École de Paris",
+   "m": [
+    "Tansman\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi; w mieście odbywa się Festiwal i Konkurs jego imienia.",
+   "works": [
+    "Rapsodia polska (1940)",
+    "Dziewięć symfonii",
+    "Mazurki na fortepian",
+    "Cavatina na gitarę (1951)",
+    "Opera Le Serment (1955)"
+   ]
+  },
+  {
+   "id": "hirszenberg",
+   "name": "Samuel Hirszenberg",
+   "born": 1865,
+   "died": 1908,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "malarz, twórca obrazów o losie Żydów",
+   "m": [
+    "Hirszenberg\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi w rodzinie żydowskiego tkacza.",
+   "works": [
+    "Żydowski cmentarz (1892)",
+    "Wieczny Żyd (1899)",
+    "Galut / Wygnanie (1904)",
+    "Czarny sztandar (1905)"
+   ]
+  },
+  {
+   "id": "braun",
+   "name": "Mieczysław Braun",
+   "born": 1902,
+   "died": 1941,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta i prawnik, związany z łódzkim środowiskiem literackim",
+   "m": [
+    "Mieczysław\\p{L}*\\s+Braun\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "verify": true,
+   "lodzLink": "Urodził się w Łodzi; zginął w getcie warszawskim.",
+   "works": [
+    "Przemiany (1926)",
+    "Tomy poetyckie z lat 20. i 30., m.in. o świecie pracy i przemysłu (tytuły do weryfikacji)"
+   ]
+  },
+  {
+   "id": "hasior",
+   "name": "Władysław Hasior",
+   "born": 1928,
+   "died": 1999,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz i twórca asamblaży",
+   "m": [
+    "Hasior\\p{L}*"
+   ],
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Słaby związek: prace w zbiorach muzealnych, brak udokumentowanego związku biograficznego z Łodzią.",
+   "works": [
+    "Sztandary (cykl od lat 60.)",
+    "Pomnik Utrwalenia Władzy Ludowej na Podhalu, tzw. Organy (1966)",
+    "Asamblaże z przedmiotów codziennych",
+    "Galeria Władysława Hasiora w Zakopanem"
+   ]
+  },
+  {
+   "id": "edelman",
+   "name": "Marek Edelman",
+   "born": 1919,
+   "died": 2009,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "przywódca powstania w getcie warszawskim, kardiolog",
+   "m": [
+    "(?<!-)Edelman\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Po wojnie przez dziesięciolecia mieszkał w Łodzi i pracował jako kardiolog.",
+   "works": [
+    "Getto walczy (1945)",
+    "Zdążyć przed Panem Bogiem (rozmowa z Hanną Krall, 1977)",
+    "I była miłość w getcie (2009)"
+   ]
+  },
+  {
+   "id": "karski",
+   "name": "Jan Karski",
+   "born": 1914,
+   "died": 2000,
+   "c": "polityk",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "kurier Polskiego Państwa Podziemnego, świadek Zagłady",
+   "m": [
+    "Karsk\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi i tu dorastał.",
+   "works": [
+    "Raport dla aliantów o Zagładzie (1942–1943)",
+    "Story of a Secret State / Tajne państwo (1944)",
+    "Wielkie mocarstwa wobec Polski 1919–1945 (1985)"
+   ]
+  },
+  {
+   "id": "margolis",
+   "name": "Alina Margolis-Edelman",
+   "born": 1922,
+   "died": 2008,
+   "c": "inne",
+   "country": "Polska / Francja",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "lekarka, współzałożycielka organizacji humanitarnych",
+   "m": [
+    "Margolis\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodziła się w Łodzi; po wojnie mieszkała w Łodzi z Markiem Edelmanem.",
+   "works": [
+    "Współtworzenie Médecins du Monde",
+    "Fundacja „Nagle Sami”",
+    "Ala z elementarza (1994)"
+   ]
+  },
+  {
+   "id": "bierezin",
+   "name": "Jacek Bierezin",
+   "born": 1947,
+   "died": 1993,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta Nowej Fali, działacz opozycji",
+   "m": [
+    "Bierezin\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "verify": true,
+   "lodzLink": "Urodzony w Łodzi; łódzki poeta Nowej Fali i współtwórca niezależnego pisma „Puls”.",
+   "works": [
+    "Niezależny kwartalnik literacki „Puls” (współzałożyciel, 1977)",
+    "Wiersze w obiegu oficjalnym i podziemnym (tytuły tomów do weryfikacji)"
+   ]
+  },
+  {
+   "id": "singer",
+   "name": "Izrael Jehoszua Singer",
+   "born": 1893,
+   "died": 1944,
+   "c": "pisarz",
+   "country": "Polska / USA",
+   "g": "m",
+   "desc": "pisarz jidysz, starszy brat Isaaca Bashevisa Singera",
+   "m": [
+    "Izrael\\p{L}*\\s+(?:Jehoszu\\p{L}*\\s+)?Singer\\p{L}*",
+    "I\\.\\s?J\\.\\s?Singer\\p{L}*"
+   ],
+   "ls": "temat",
+   "lodzLink": "Autor „Braci Aszkenazy”, wielkiej powieści o przemysłowej Łodzi.",
+   "works": [
+    "Josie Kałb (1932)",
+    "Bracia Aszkenazy (1936)",
+    "Rodzina Karnowskich (1943)"
+   ]
+  },
+  {
+   "id": "becker",
+   "name": "Jurek Becker",
+   "born": 1937,
+   "died": 1997,
+   "c": "pisarz",
+   "country": "Polska / Niemcy",
+   "lodz": true,
+   "g": "m",
+   "desc": "pisarz i scenarzysta niemieckojęzyczny",
+   "m": [
+    "Jur\\p{L}*\\s+Becker\\p{L}*",
+    "Becker\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi; dzieciństwo spędził w getcie łódzkim, o którym opowiada „Jakub kłamca”.",
+   "works": [
+    "Jakub kłamca (1969)",
+    "Bokser (1976)",
+    "Dzieci Bronsteina (1986)",
+    "Liebling Kreuzberg (serial, scenariusz)"
+   ]
+  },
+  {
+   "id": "rudnicki",
+   "name": "Lucjan Rudnicki",
+   "born": 1882,
+   "died": 1968,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz, działacz ruchu robotniczego",
+   "m": [
+    "Lucjan\\p{L}*\\s+Rudnick\\p{L}*"
+   ],
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Związek z Łodzią wymaga weryfikacji (działalność w ruchu robotniczym).",
+   "works": [
+    "Stare i nowe (cykl wspomnieniowy)"
+   ]
+  },
+  {
+   "id": "polanski",
+   "name": "Roman Polański",
+   "born": 1933,
+   "c": "filmowiec",
+   "country": "Polska / Francja",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser filmowy",
+   "m": [
+    "Polańsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Studiował w Szkole Filmowej w Łodzi, gdzie powstały jego etiudy.",
+   "works": [
+    "Dwaj ludzie z szafą (etiuda, 1958)",
+    "Nóż w wodzie (1962)",
+    "Wstręt (1965)",
+    "Dziecko Rosemary (1968)",
+    "Chinatown (1974)",
+    "Pianista (2002)"
+   ]
+  },
+  {
+   "id": "munk",
+   "name": "Andrzej Munk",
+   "born": 1921,
+   "died": 1961,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser, współtwórca polskiej szkoły filmowej",
+   "m": [
+    "Munk(?:a|iem|owi)?(?!\\p{L})"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi.",
+   "works": [
+    "Człowiek na torze (1956)",
+    "Eroica (1957)",
+    "Zezowate szczęście (1960)",
+    "Pasażerka (1963, ukończona po śmierci reżysera)"
+   ]
+  },
+  {
+   "id": "kieslowski",
+   "name": "Krzysztof Kieślowski",
+   "born": 1941,
+   "died": 1996,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser filmów dokumentalnych i fabularnych",
+   "m": [
+    "Kieślowsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi (1969); dokument „Z miasta Łodzi” (1969).",
+   "works": [
+    "Z miasta Łodzi (1969)",
+    "Amator (1979)",
+    "Przypadek (1981)",
+    "Dekalog (1988)",
+    "Podwójne życie Weroniki (1991)",
+    "Trzy kolory (1993–1994)"
+   ]
+  },
+  {
+   "id": "dejmek",
+   "name": "Kazimierz Dejmek",
+   "born": 1924,
+   "died": 2002,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser teatralny, aktor, dyrektor teatrów",
+   "m": [
+    "Dejmk\\p{L}*",
+    "Dejmek"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "W 1949 założył w Łodzi Teatr Nowy i kierował nim.",
+   "works": [
+    "Teatr Nowy w Łodzi (założenie, 1949)",
+    "Historyja o chwalebnym Zmartwychwstaniu Pańskim (1961)",
+    "Dziady w Teatrze Narodowym (1967)",
+    "Minister kultury i sztuki (1993–1996)"
+   ]
+  },
+  {
+   "id": "machulski",
+   "name": "Jan Machulski",
+   "born": 1928,
+   "died": 2008,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "aktor teatralny i filmowy, pedagog",
+   "m": [
+    "Jan\\p{L}*\\s+Machulsk\\p{L}*"
+   ],
+   "ls": "epizod",
+   "verify": true,
+   "lodzLink": "Związany z łódzkimi teatrami i Szkołą Filmową; zakres do weryfikacji.",
+   "works": [
+    "Prawo i pięść (1964)",
+    "Va banque (1981)",
+    "Va banque II (1984)",
+    "Teatr Ochoty w Warszawie (współzałożyciel)"
+   ]
+  },
+  {
+   "id": "rybczynski",
+   "name": "Zbigniew Rybczyński",
+   "born": 1949,
+   "c": "filmowiec",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "twórca animacji i filmu eksperymentalnego, laureat Oscara",
+   "m": [
+    "Rybczyńsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Absolwent Szkoły Filmowej w Łodzi; „Tango” powstało w łódzkim studiu Se-ma-for.",
+   "works": [
+    "Kwadrat (1972)",
+    "Nowa książka (1975)",
+    "Tango (1980, Oscar 1983)",
+    "Orkiestra (1990)",
+    "Teledyski m.in. dla Micka Jaggera i Art of Noise"
+   ]
+  },
+  {
+   "id": "geyer",
+   "name": "Ludwik Geyer",
+   "born": 1805,
+   "died": 1869,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "fabrykant, pionier mechanicznej produkcji w Łodzi",
+   "m": [
+    "Geyer\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Zbudował Białą Fabrykę przy Piotrkowskiej, gdzie w 1839 uruchomiono pierwszą w Łodzi maszynę parową.",
+   "works": [
+    "Biała Fabryka (1835–1839), dziś Centralne Muzeum Włókiennictwa",
+    "Pierwsza maszyna parowa w Łodzi (1839)"
+   ]
+  },
+  {
+   "id": "kunitzer",
+   "name": "Juliusz Kunitzer",
+   "born": 1843,
+   "died": 1905,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "fabrykant, współwłaściciel Widzewskiej Manufaktury",
+   "m": [
+    "Kunitzer\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Współtwórca Widzewskiej Manufaktury i łódzkich tramwajów; zginął w zamachu w 1905 roku.",
+   "works": [
+    "Widzewska Manufaktura (z Juliuszem Heinzlem)",
+    "Elektryczne tramwaje w Łodzi (od 1898)"
+   ]
+  },
+  {
+   "id": "lindley",
+   "name": "William Heerlein Lindley",
+   "born": 1853,
+   "died": 1917,
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "inżynier, projektant wodociągów i kanalizacji",
+   "m": [
+    "Lindley\\p{L}*"
+   ],
+   "ls": "epizod",
+   "lodzLink": "Przygotował projekt kanalizacji i wodociągów Łodzi (1909), zrealizowany po I wojnie światowej.",
+   "works": [
+    "Projekt kanalizacji i wodociągów Łodzi (1909)",
+    "Filtry Lindleya i kanalizacja Warszawy",
+    "Systemy wodno-kanalizacyjne m.in. Hamburga i Frankfurtu"
+   ]
+  },
+  {
+   "id": "pilsudski",
+   "name": "Józef Piłsudski",
+   "born": 1867,
+   "died": 1935,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "Naczelnik Państwa, marszałek Polski",
+   "m": [
+    "Piłsudsk\\p{L}*"
+   ],
+   "ls": "epizod",
+   "lodzLink": "W Łodzi przy ul. Wschodniej działała drukarnia „Robotnika”; tu został aresztowany w 1900 roku.",
+   "works": [
+    "Redaktor „Robotnika” (od 1894)",
+    "Bibuła (1903)",
+    "Rok 1920 (1924)"
+   ]
+  },
+  {
+   "id": "belka",
+   "name": "Marek Belka",
+   "born": 1952,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "ekonomista, premier, prezes NBP",
+   "m": [
+    "Mar\\p{L}*\\s+Belk\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi, absolwent i profesor Uniwersytetu Łódzkiego.",
+   "works": [
+    "Premier RP (2004–2005)",
+    "Prezes Narodowego Banku Polskiego (2010–2016)",
+    "Prace z ekonomii i polityki gospodarczej"
+   ]
+  },
+  {
+   "id": "kropiwnicki",
+   "name": "Jerzy Kropiwnicki",
+   "born": 1945,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "ekonomista, polityk, prezydent Łodzi",
+   "m": [
+    "Kropiwnick\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "verify": true,
+   "lodzLink": "Prezydent Łodzi w latach 2002–2010; związany z łódzką Solidarnością.",
+   "works": [
+    "Prezydent Łodzi (2002–2010)",
+    "Minister w rządach III RP"
+   ]
+  },
+  {
+   "id": "zdanowska",
+   "name": "Hanna Zdanowska",
+   "born": 1959,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "prezydent Łodzi",
+   "m": [
+    "Zdanowsk\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Prezydent Łodzi od 2010; okres rewitalizacji, Nowego Centrum Łodzi i starań o Expo 2029.",
+   "works": [
+    "Prezydent Łodzi (od 2010)",
+    "Program rewitalizacji obszarowej",
+    "Kandydatura i organizacja Expo 2029"
+   ]
+  },
+  {
+   "id": "rzewski",
+   "name": "Aleksy Rżewski",
+   "born": 1871,
+   "died": 1939,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "prawnik, pierwszy prezydent Łodzi w niepodległej Polsce",
+   "m": [
+    "Rżewsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "verify": true,
+   "lodzLink": "Prezydent Łodzi w pierwszych latach niepodległości (od 1918).",
+   "works": [
+    "Organizacja polskiego samorządu Łodzi po 1918 roku"
+   ]
+  },
+  {
+   "id": "kopcinski",
+   "name": "Stefan Kopciński",
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "lekarz i działacz społeczny",
+   "m": [
+    "Kopcińsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "verify": true,
+   "lodzLink": "Łódzki lekarz i działacz; patron ulicy Kopcińskiego. Biografia do weryfikacji.",
+   "works": [
+    "Działalność lekarska i społeczna w Łodzi"
+   ]
+  },
+  {
+   "id": "dmowski",
+   "name": "Roman Dmowski",
+   "born": 1864,
+   "died": 1939,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "polityk, ideolog Narodowej Demokracji",
+   "m": [
+    "Dmowsk\\p{L}*"
+   ],
+   "ls": "brak",
+   "verify": true,
+   "lodzLink": "Brak udokumentowanego silnego związku biograficznego z Łodzią.",
+   "works": [
+    "Myśli nowoczesnego Polaka (1903)",
+    "Niemcy, Rosja i kwestia polska (1908)",
+    "Polityka polska i odbudowanie państwa (1925)"
+   ]
+  },
+  {
+   "id": "daszynski",
+   "name": "Ignacy Daszyński",
+   "born": 1866,
+   "died": 1936,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "polityk socjalistyczny, premier rządu lubelskiego, marszałek Sejmu",
+   "m": [
+    "Daszyńsk\\p{L}*"
+   ],
+   "ls": "brak",
+   "verify": true,
+   "lodzLink": "Brak udokumentowanego związku biograficznego; PPS miała w Łodzi jedno z najsilniejszych zapleczy.",
+   "works": [
+    "Premier Tymczasowego Rządu Ludowego w Lublinie (1918)",
+    "Marszałek Sejmu (1928–1930)",
+    "Pamiętniki (1925–1926)"
+   ]
+  },
+  {
+   "id": "leszczynska",
+   "name": "Stanisława Leszczyńska",
+   "born": 1896,
+   "died": 1974,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "położna, więźniarka Auschwitz",
+   "m": [
+    "Stanisław\\p{L}*\\s+Leszczyńsk(?:a|iej|ą)(?!\\p{L})",
+    "Leszczyńsk(?:a|iej|ą)(?!\\p{L})"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodziła się, mieszkała i pracowała w Łodzi; w Auschwitz odebrała około trzech tysięcy porodów.",
+   "works": [
+    "Raport położnej z Oświęcimia (1957)"
+   ]
+  },
+  {
+   "id": "klepacz",
+   "name": "Michał Klepacz",
+   "born": 1893,
+   "died": 1967,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "biskup łódzki",
+   "m": [
+    "Klepacz\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Biskup łódzki 1946–1967; kierował Episkopatem w czasie uwięzienia kardynała Wyszyńskiego.",
+   "works": [
+    "Biskup łódzki (1946–1967)",
+    "Przewodniczący Episkopatu Polski (1953–1956)"
+   ]
+  },
+  {
+   "id": "kotarbinski",
+   "name": "Tadeusz Kotarbiński",
+   "born": 1886,
+   "died": 1981,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "filozof i logik, twórca reizmu i prakseologii",
+   "m": [
+    "Kotarbińsk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Pierwszy rektor Uniwersytetu Łódzkiego (1945–1949).",
+   "works": [
+    "Elementy teorii poznania, logiki formalnej i metodologii nauk (1929)",
+    "Traktat o dobrej robocie (1955)",
+    "Medytacje o życiu godziwym (1966)"
+   ]
+  },
+  {
+   "id": "szczepanik",
+   "name": "Jan Szczepanik",
+   "born": 1872,
+   "died": 1926,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "wynalazca, nazywany „polskim Edisonem”",
+   "m": [
+    "Szczepanik\\p{L}*"
+   ],
+   "ls": "temat",
+   "lodzLink": "Związek tematyczny: jego wynalazki dotyczyły tkactwa wzorzystego, kluczowego dla łódzkiego przemysłu.",
+   "works": [
+    "Telektroskop (1897)",
+    "Kamizelka kuloodporna (ok. 1901)",
+    "Maszyny i metody projektowania wzorów tkackich",
+    "Barwna fotografia i film"
+   ]
+  },
+  {
+   "id": "banach",
+   "name": "Stefan Banach",
+   "born": 1892,
+   "died": 1945,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "matematyk, współtwórca analizy funkcjonalnej",
+   "m": [
+    "Stefan\\p{L}*\\s+Banach\\p{L}*",
+    "Banach(?:a|owi|em)?(?!\\p{L})"
+   ],
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku z Łodzią; działał we Lwowie.",
+   "works": [
+    "Théorie des opérations linéaires (1932)",
+    "Paradoks Banacha–Tarskiego (1924)",
+    "Przestrzenie Banacha",
+    "Księga Szkocka"
+   ]
+  },
+  {
+   "id": "sapkowski",
+   "name": "Andrzej Sapkowski",
+   "born": 1948,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "pisarz fantasy, autor sagi o wiedźminie",
+   "m": [
+    "Sapkowsk\\p{L}*"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się i mieszka w Łodzi.",
+   "works": [
+    "Wiedźmin (opowiadanie, „Fantastyka” 1986)",
+    "Ostatnie życzenie (1993)",
+    "Saga o wiedźminie (1994–1999)",
+    "Trylogia husycka (2002–2006)"
+   ]
+  },
+  {
+   "id": "gombrowicz",
+   "name": "Witold Gombrowicz",
+   "born": 1904,
+   "died": 1969,
+   "c": "pisarz",
+   "country": "Polska / Argentyna",
+   "pl": true,
+   "g": "m",
+   "desc": "prozaik i dramatopisarz",
+   "m": [
+    "Gombrowicz\\p{L}*"
+   ],
+   "ls": "brak",
+   "lodzLink": "Brak udokumentowanego związku z Łodzią.",
+   "works": [
+    "Ferdydurke (1937)",
+    "Iwona, księżniczka Burgunda (1938)",
+    "Trans-Atlantyk (1953)",
+    "Dziennik (1957–1966)",
+    "Pornografia (1960)",
+    "Kosmos (1965)"
+   ]
+  },
+  {
+   "id": "broderson",
+   "name": "Mojżesz Broderson",
+   "born": 1890,
+   "died": 1956,
+   "c": "pisarz",
+   "country": "Polska",
+   "lodz": true,
+   "g": "m",
+   "desc": "poeta i dramatopisarz jidysz",
+   "m": [
+    "Broderson\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodzLink": "Działał w Łodzi: współtworzył grupę Jung Jidysz i kabaret Ararat.",
+   "works": [
+    "Grupa artystyczna Jung Jidysz (1919)",
+    "Kabaret literacki Ararat w Łodzi (1927)",
+    "Wiersze i dramaty w jidysz"
+   ]
+  },
+  {
+   "id": "szyk",
+   "name": "Artur Szyk",
+   "born": 1894,
+   "died": 1951,
+   "c": "malarz",
+   "country": "Polska / USA",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "ilustrator, miniaturzysta, karykaturzysta",
+   "m": [
+    "Artur\\p{L}*\\s+Szyk\\p{L}*",
+    "Szyk(?:a|iem|owi)(?!\\p{L})"
+   ],
+   "ls": "urodzeni",
+   "lodzLink": "Urodził się w Łodzi.",
+   "works": [
+    "Statut kaliski (1927–1928)",
+    "Washington and His Times (1931)",
+    "Hagada (1934–1936)",
+    "The New Order (1941)"
+   ]
+  }
+ ]
 }

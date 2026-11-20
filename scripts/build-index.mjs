@@ -140,10 +140,14 @@ const stats = {
     byCountry: count(mentioned, (p) => (p.pl ? "Polska" : "zagranica")),
     byGender: count(mentioned, (p) => p.g),
     lodz: mentioned.filter((p) => p.lodz).length,
+    withWorks: out.filter((p) => p.works?.length).length,
+    works: out.reduce((a, p) => a + (p.works?.length || 0), 0),
+    lodzStrength: count(out.filter((p) => p.ls), (p) => p.ls),
+    lodzAll: out.filter((p) => p.lodz || ["urodzeni", "mieszkali", "epizod", "temat"].includes(p.ls)).length,
   },
 };
 
 fs.writeFileSync(path.join(root, "data/index.json"), JSON.stringify({ people: out.sort((a, b) => a.id.localeCompare(b.id)), stats }, null, 1));
 console.log(`Indeks: ${mentioned.length} osób, ${stats.people.mentions} wzmianek; Łódź: ${stats.ready.lodz} wzmianek`);
-const missing = out.filter((p) => !p.total).map((p) => p.name);
+const missing = out.filter((p) => !p.total && !p.works?.length).map((p) => p.name);
 if (missing.length) console.warn("  ! bez wzmianek:", missing.join(", "));
