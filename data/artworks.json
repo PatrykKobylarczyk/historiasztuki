@@ -235,11 +235,6 @@
   "date": "Czesław Niemen, 1939–2004",
   "place": ""
  },
- "Chernobyl Nuclear Power Plant reactor 4": {
-  "creator": "Czarnobylska Elektrownia Jądrowa",
-  "date": "blok 4 oddany w 1983; katastrofa 26 IV 1986",
-  "place": "Czarnobyl, Ukraina"
- },
  "Space Shuttle Challenger explosion": {
   "creator": "fot. NASA",
   "date": "28 stycznia 1986",
@@ -255,35 +250,15 @@
   "date": "szczyt Reagan–Gorbaczow 11–12 X 1986",
   "place": "Reykjavík, Islandia"
  },
- "Lloyd's building London": {
-  "creator": "Richard Rogers",
-  "date": "1978–1986",
-  "place": "Londyn"
- },
  "Musée d'Orsay main hall": {
   "creator": "dworzec: Victor Laloux (1900); wnętrza muzeum: Gae Aulenti",
   "date": "muzeum otwarte w 1986",
   "place": "Paryż"
  },
- "Macintosh Plus computer": {
-  "creator": "Apple Computer",
-  "date": "1986",
-  "place": "USA"
- },
  "Fiat 126p": {
   "creator": "Fiat, produkcja licencyjna FSM",
   "date": "w Polsce 1973–2000",
   "place": "Bielsko-Biała i Tychy"
- },
- "Retkinia Łódź": {
-  "creator": "osiedle z wielkiej płyty",
-  "date": "budowa od lat 70. XX w.",
-  "place": "Łódź, Retkinia"
- },
- "Księży Młyn Scheibler spinning mill": {
-  "creator": "inwestor: Karol Scheibler",
-  "date": "przędzalnia z lat 70. XIX w.; dziś lofty",
-  "place": "Łódź, Księży Młyn"
  },
  "Uniwersytet Łódzki rektorat": {
   "creator": "Uniwersytet Łódzki",
@@ -310,35 +285,15 @@
   "date": "Joseph Beuys, 1921–1986",
   "place": ""
  },
- "Szkoła Filmowa w Łodzi pałac Kona": {
-  "creator": "pałac Oskara Kona",
-  "date": "przełom XIX i XX w.; szkoła od 1948",
-  "place": "Łódź, ul. Targowa 61/63"
- },
  "Leszek Balcerowicz": {
   "creator": "portret ekonomisty",
   "date": "Leszek Balcerowicz, ur. 1947",
   "place": ""
  },
- "Łódź abandoned textile factory": {
-  "creator": "architektura przemysłowa",
-  "date": "XIX–XX w.; opuszczona po 1990",
-  "place": "Łódź"
- },
  "Bałucki Rynek Łódź": {
   "creator": "targowisko miejskie",
   "date": "tradycja handlu od XIX w.",
   "place": "Łódź, Bałuty"
- },
- "Piotrkowska Street Łódź": {
-  "creator": "główna ulica Łodzi",
-  "date": "wytyczona w latach 20. XIX w.; deptak od lat 90.",
-  "place": "Łódź"
- },
- "Wytwórnia Filmów Fabularnych Łódź": {
-  "creator": "Wytwórnia Filmów Fabularnych",
-  "date": "1945–1998",
-  "place": "Łódź, ul. Łąkowa"
  },
  "Jewish cemetery Łódź Bracka": {
   "creator": "cmentarz żydowski",
@@ -415,11 +370,6 @@
   "date": "centrum nauki od 2018",
   "place": "Łódź, ul. Targowa 1/3"
  },
- "woonerf 6 Sierpnia Łódź": {
-  "creator": "miejski program woonerfów",
-  "date": "2014",
-  "place": "Łódź, ul. 6 Sierpnia"
- },
  "Monopolis Łódź": {
   "creator": "dawny Monopol Wódczany",
   "date": "1902; Monopolis od 2018",
@@ -434,5 +384,55 @@
   "creator": "las miejski",
   "date": "",
   "place": "Łódź, Łagiewniki"
+ },
+ "Księży Młyn przędzalnia": {
+  "creator": "inwestor: Karol Scheibler",
+  "date": "przędzalnia z lat 70. XIX w.; dziś lofty",
+  "place": "Łódź, Księży Młyn"
+ },
+ "Szkoła Filmowa Łódź": {
+  "creator": "pałac Oskara Kona",
+  "date": "przełom XIX i XX w.; szkoła od 1948",
+  "place": "Łódź, ul. Targowa 61/63"
+ },
+ "Uniontex Łódź": {
+  "creator": "architektura przemysłowa",
+  "date": "XIX–XX w.; opuszczona po 1990",
+  "place": "Łódź"
+ },
+ "Muzeum Kinematografii Łódź": {
+  "creator": "pałac Karola Scheiblera",
+  "date": "lata 80. XIX w.; muzeum od 1986",
+  "place": "Łódź, pl. Zwycięstwa 1"
+ },
+ "Macintosh Plus": {
+  "creator": "Apple Computer",
+  "date": "1986",
+  "place": "USA"
+ },
+ "Retkinia osiedle": {
+  "creator": "osiedle z wielkiej płyty",
+  "date": "budowa od lat 70. XX w.",
+  "place": "Łódź, Retkinia"
+ },
+ "Ulica Piotrkowska": {
+  "creator": "główna ulica Łodzi",
+  "date": "wytyczona w latach 20. XIX w.; deptak od lat 90.",
+  "place": "Łódź"
+ },
+ "Chernobyl Nuclear Power Plant": {
+  "creator": "Czarnobylska Elektrownia Jądrowa",
+  "date": "blok 4 oddany w 1983; katastrofa 26 IV 1986",
+  "place": "Czarnobyl, Ukraina"
+ },
+ "Lloyd's building": {
+  "creator": "Richard Rogers",
+  "date": "1978–1986",
+  "place": "Londyn"
+ },
+ "Woonerf Łódź": {
+  "creator": "miejski program woonerfów",
+  "date": "od 2014",
+  "place": "Łódź, Śródmieście"
  }
 }

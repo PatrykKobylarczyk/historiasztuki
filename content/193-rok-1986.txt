@@ -110,15 +110,15 @@ To była KULTURA. Do usłyszenia.
 [outro]
 
 ## Galeria
-![Elektrownia jądrowa w Czarnobylu](Chernobyl Nuclear Power Plant reactor 4) @1
+![Elektrownia jądrowa w Czarnobylu](Chernobyl Nuclear Power Plant) @1
 ![Katastrofa promu Challenger, 28 stycznia 1986](Space Shuttle Challenger explosion) @2
 ![Kometa Halleya w 1986 roku](Halley's Comet 1986) @2
 ![Dom Höfði w Reykjavíku, miejsce szczytu Reagan–Gorbaczow](Höfði house Reykjavik) @2
-![Siedziba Lloyd's w Londynie, proj. Richard Rogers](Lloyd's building London) @5
+![Siedziba Lloyd's w Londynie, proj. Richard Rogers](Lloyd's building) @5
 ![Musée d'Orsay — dawny dworzec, muzeum od 1986](Musée d'Orsay main hall) @5
-![Macintosh Plus](Macintosh Plus computer) @6
+![Macintosh Plus](Macintosh Plus) @6
 ![Fiat 126p — „maluch”](Fiat 126p) @6
-![Osiedle Retkinia w Łodzi](Retkinia Łódź) @7
+![Osiedle Retkinia w Łodzi](Retkinia osiedle) @7
 
 ## Słowniczek
 - Głasnost: polityka jawności w ZSRR za Gorbaczowa; ograniczenie cenzury i dopuszczenie krytyki.
