@@ -2028,6 +2028,309 @@
     "Hagada (1934–1936)",
     "The New Order (1941)"
    ]
+  },
+  {
+   "id": "gorbaczow",
+   "name": "Michaił Gorbaczow",
+   "born": 1931,
+   "died": 2022,
+   "c": "polityk",
+   "country": "ZSRR / Rosja",
+   "g": "m",
+   "desc": "przywódca ZSRR 1985–1991, autor pierestrojki i głasnosti",
+   "m": [
+    "Gorbacz\\p{L}*"
+   ]
+  },
+  {
+   "id": "beck",
+   "name": "Ulrich Beck",
+   "born": 1944,
+   "died": 2015,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "socjolog, autor „Społeczeństwa ryzyka” (1986)",
+   "m": [
+    "Ulrich\\p{L}*\\s+Beck\\p{L}*",
+    "Beck(?:a|iem|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "reagan",
+   "name": "Ronald Reagan",
+   "born": 1911,
+   "died": 2004,
+   "c": "polityk",
+   "country": "USA",
+   "g": "m",
+   "desc": "prezydent USA 1981–1989",
+   "m": [
+    "Reagan\\p{L}*"
+   ]
+  },
+  {
+   "id": "mcauliffe",
+   "name": "Christa McAuliffe",
+   "born": 1948,
+   "died": 1986,
+   "c": "inne",
+   "country": "USA",
+   "g": "f",
+   "desc": "nauczycielka, członkini załogi promu Challenger",
+   "m": [
+    "McAuliffe"
+   ]
+  },
+  {
+   "id": "maradona",
+   "name": "Diego Maradona",
+   "born": 1960,
+   "died": 2020,
+   "c": "inne",
+   "country": "Argentyna",
+   "g": "m",
+   "desc": "piłkarz, mistrz świata 1986",
+   "m": [
+    "Maradon\\p{L}*"
+   ]
+  },
+  {
+   "id": "jaruzelski",
+   "name": "Wojciech Jaruzelski",
+   "born": 1923,
+   "died": 2014,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "generał, I sekretarz PZPR, przywódca PRL w latach 80.",
+   "m": [
+    "Jaruzelsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "paul-simon",
+   "name": "Paul Simon",
+   "born": 1941,
+   "c": "muzyk",
+   "country": "USA",
+   "g": "m",
+   "desc": "muzyk, autor płyty „Graceland” (1986)",
+   "m": [
+    "Paul\\p{L}*\\s+Simon\\p{L}*"
+   ],
+   "works": [
+    "Simon & Garfunkel: Bridge over Troubled Water (1970)",
+    "Graceland (1986)",
+    "The Rhythm of the Saints (1990)"
+   ]
+  },
+  {
+   "id": "mercury",
+   "name": "Freddie Mercury",
+   "born": 1946,
+   "died": 1991,
+   "c": "muzyk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "wokalista zespołu Queen",
+   "m": [
+    "Mercury"
+   ]
+  },
+  {
+   "id": "gabriel",
+   "name": "Peter Gabriel",
+   "born": 1950,
+   "c": "muzyk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "muzyk, autor płyty „So” (1986)",
+   "m": [
+    "Peter\\p{L}*\\s+Gabriel\\p{L}*"
+   ]
+  },
+  {
+   "id": "rogers",
+   "name": "Richard Rogers",
+   "born": 1933,
+   "died": 2021,
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "architekt high-tech: Centre Pompidou (z R. Piano), Lloyd's",
+   "m": [
+    "Rogers\\p{L}*"
+   ]
+  },
+  {
+   "id": "foster",
+   "name": "Norman Foster",
+   "born": 1935,
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "architekt high-tech, m.in. bank HSBC w Hongkongu",
+   "m": [
+    "Norman\\p{L}*\\s+Foster\\p{L}*",
+    "Foster(?:a|em|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "jobs",
+   "name": "Steve Jobs",
+   "born": 1955,
+   "died": 2011,
+   "c": "projektant",
+   "country": "USA",
+   "g": "m",
+   "desc": "współzałożyciel Apple, współtwórca Pixara",
+   "m": [
+    "Jobs\\p{L}*"
+   ]
+  },
+  {
+   "id": "lucas",
+   "name": "George Lucas",
+   "born": 1944,
+   "c": "filmowiec",
+   "country": "USA",
+   "g": "m",
+   "desc": "reżyser i producent, twórca „Gwiezdnych wojen”",
+   "m": [
+    "George'?\\p{L}*\\s+Lucas\\p{L}*"
+   ]
+  },
+  {
+   "id": "stanislawski",
+   "name": "Ryszard Stanisławski",
+   "born": 1921,
+   "died": 2000,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "historyk sztuki, dyrektor Muzeum Sztuki w Łodzi 1966–1991",
+   "m": [
+    "Stanisławsk\\p{L}*"
+   ],
+   "lodzLink": "Przez ćwierć wieku kierował Muzeum Sztuki w Łodzi."
+  },
+  {
+   "id": "aulenti",
+   "name": "Gae Aulenti",
+   "born": 1927,
+   "died": 2012,
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "f",
+   "desc": "architektka, autorka wnętrz Musée d'Orsay",
+   "m": [
+    "Aulenti"
+   ]
+  },
+  {
+   "id": "slowik",
+   "name": "Andrzej Słowik",
+   "born": 1949,
+   "died": 2016,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "przewodniczący Solidarności Regionu Ziemi Łódzkiej",
+   "m": [
+    "Słowik\\p{L}*"
+   ],
+   "lodzLink": "Przywódca łódzkiej Solidarności 1980–1981, więziony w stanie wojennym."
+  },
+  {
+   "id": "wasko",
+   "name": "Ryszard Waśko",
+   "born": 1947,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "artysta multimedialny, organizator festiwalu „Konstrukcja w procesie”",
+   "m": [
+    "Waśk\\p{L}*"
+   ],
+   "lodzLink": "Związany z łódzką sceną awangardy; zorganizował w Łodzi „Konstrukcję w procesie” (1981)."
+  },
+  {
+   "id": "beuys",
+   "name": "Joseph Beuys",
+   "born": 1921,
+   "died": 1986,
+   "c": "rzeźbiarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "artysta, twórca performansu i „rzeźby społecznej”",
+   "m": [
+    "Beuys\\p{L}*"
+   ],
+   "lodzLink": "Przekazał Muzeum Sztuki w Łodzi zbiór prac „Polentransport 1981”.",
+   "ls": "epizod"
+  },
+  {
+   "id": "robakowski",
+   "name": "Józef Robakowski",
+   "born": 1939,
+   "c": "fotograf",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "artysta, fotograf i filmowiec, współtwórca Warsztatu Formy Filmowej",
+   "m": [
+    "Robakowsk\\p{L}*"
+   ],
+   "lodzLink": "Łódzki artysta; w swoim mieszkaniu prowadził Galerię Wymiany.",
+   "works": [
+    "Warsztat Formy Filmowej (współtwórca, 1970)",
+    "Galeria Wymiany (od 1978)",
+    "Z mojego okna (film, 1978–1999)"
+   ]
+  },
+  {
+   "id": "balcerowicz",
+   "name": "Leszek Balcerowicz",
+   "born": 1947,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "ekonomista, autor reform gospodarczych 1990",
+   "m": [
+    "Balcerowicz\\p{L}*"
+   ]
+  },
+  {
+   "id": "ostr",
+   "name": "Adam Ostrowski (O.S.T.R.)",
+   "born": 1980,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "urodzeni",
+   "g": "m",
+   "desc": "raper, producent i skrzypek",
+   "m": [
+    "O\\.S\\.T\\.R\\.?",
+    "Adam\\p{L}*\\s+Ostrowsk\\p{L}*"
+   ],
+   "lodzLink": "Urodzony i związany z Łodzią; w tekstach opowiada o mieście po transformacji.",
+   "verify": true
   }
  ]
 }

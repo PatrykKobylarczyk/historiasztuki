@@ -19,6 +19,18 @@
    "total": 1
   },
   {
+   "id": "aulenti",
+   "name": "Gae Aulenti",
+   "born": 1927,
+   "died": 2012,
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "f",
+   "desc": "architektka, autorka wnętrz Musée d'Orsay",
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "bacewicz",
    "name": "Grażyna Bacewicz",
    "born": 1909,
@@ -41,6 +53,24 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "balcerowicz",
+   "name": "Leszek Balcerowicz",
+   "born": 1947,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "ekonomista, autor reform gospodarczych 1990",
+   "mentions": [
+    {
+     "n": 197,
+     "count": 2,
+     "i": 10
+    }
+   ],
+   "total": 2
   },
   {
    "id": "banach",
@@ -99,6 +129,24 @@
    "total": 1
   },
   {
+   "id": "beck",
+   "name": "Ulrich Beck",
+   "born": 1944,
+   "died": 2015,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "socjolog, autor „Społeczeństwa ryzyka” (1986)",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 3,
+     "i": 27
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "becker",
    "name": "Jurek Becker",
    "born": 1937,
@@ -116,8 +164,14 @@
     "Dzieci Bronsteina (1986)",
     "Liebling Kreuzberg (serial, scenariusz)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 194,
+     "count": 1,
+     "i": 88
+    }
+   ],
+   "total": 1
   },
   {
    "id": "belka",
@@ -138,6 +192,26 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "beuys",
+   "name": "Joseph Beuys",
+   "born": 1921,
+   "died": 1986,
+   "c": "rzeźbiarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "artysta, twórca performansu i „rzeźby społecznej”",
+   "lodzLink": "Przekazał Muzeum Sztuki w Łodzi zbiór prac „Polentransport 1981”.",
+   "ls": "epizod",
+   "mentions": [
+    {
+     "n": 194,
+     "count": 2,
+     "i": 57
+    }
+   ],
+   "total": 2
   },
   {
    "id": "bialoszewski",
@@ -479,6 +553,40 @@
    "total": 7
   },
   {
+   "id": "foster",
+   "name": "Norman Foster",
+   "born": 1935,
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "architekt high-tech, m.in. bank HSBC w Hongkongu",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 83
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "gabriel",
+   "name": "Peter Gabriel",
+   "born": 1950,
+   "c": "muzyk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "muzyk, autor płyty „So” (1986)",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 64
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "geoffrey",
    "name": "Geoffrey z Monmouth",
    "born": 1095,
@@ -513,8 +621,24 @@
     "Biała Fabryka (1835–1839), dziś Centralne Muzeum Włókiennictwa",
     "Pierwsza maszyna parowa w Łodzi (1839)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 106
+    },
+    {
+     "n": 194,
+     "count": 1,
+     "i": 11
+    },
+    {
+     "n": 198,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 3
   },
   {
    "id": "gierek",
@@ -599,6 +723,24 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "gorbaczow",
+   "name": "Michaił Gorbaczow",
+   "born": 1931,
+   "died": 2022,
+   "c": "polityk",
+   "country": "ZSRR / Rosja",
+   "g": "m",
+   "desc": "przywódca ZSRR 1985–1991, autor pierestrojki i głasnosti",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 3,
+     "i": 25
+    }
+   ],
+   "total": 3
   },
   {
    "id": "gryczelowska",
@@ -801,6 +943,25 @@
    "total": 1
   },
   {
+   "id": "jaruzelski",
+   "name": "Wojciech Jaruzelski",
+   "born": 1923,
+   "died": 2014,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "generał, I sekretarz PZPR, przywódca PRL w latach 80.",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 53
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "jedrasiak",
    "name": "Henryk Jędrasiak",
    "born": 1927,
@@ -823,6 +984,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "jobs",
+   "name": "Steve Jobs",
+   "born": 1955,
+   "died": 2011,
+   "c": "projektant",
+   "country": "USA",
+   "g": "m",
+   "desc": "współzałożyciel Apple, współtwórca Pixara",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 94
+    }
+   ],
+   "total": 1
   },
   {
    "id": "karski",
@@ -931,9 +1110,14 @@
      "n": 186,
      "count": 3,
      "i": 78
+    },
+    {
+     "n": 193,
+     "count": 1,
+     "i": 110
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "konwicki",
@@ -1047,8 +1231,19 @@
     "Prezydent Łodzi (2002–2010)",
     "Minister w rządach III RP"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 194,
+     "count": 1,
+     "i": 19
+    },
+    {
+     "n": 199,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 2
   },
   {
    "id": "kubasinska",
@@ -1236,6 +1431,23 @@
    "total": 5
   },
   {
+   "id": "lucas",
+   "name": "George Lucas",
+   "born": 1944,
+   "c": "filmowiec",
+   "country": "USA",
+   "g": "m",
+   "desc": "reżyser i producent, twórca „Gwiezdnych wojen”",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 94
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "machulski",
    "name": "Jan Machulski",
    "born": 1928,
@@ -1258,6 +1470,24 @@
    "total": 0
   },
   {
+   "id": "maradona",
+   "name": "Diego Maradona",
+   "born": 1960,
+   "died": 2020,
+   "c": "inne",
+   "country": "Argentyna",
+   "g": "m",
+   "desc": "piłkarz, mistrz świata 1986",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 57
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "marchlewski",
    "name": "Julian Marchlewski",
    "born": 1866,
@@ -1272,9 +1502,14 @@
      "n": 186,
      "count": 2,
      "i": 31
+    },
+    {
+     "n": 194,
+     "count": 1,
+     "i": 11
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "margolis",
@@ -1335,6 +1570,24 @@
    "total": 3
   },
   {
+   "id": "mcauliffe",
+   "name": "Christa McAuliffe",
+   "born": 1948,
+   "died": 1986,
+   "c": "inne",
+   "country": "USA",
+   "g": "f",
+   "desc": "nauczycielka, członkini załogi promu Challenger",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 36
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "mellaart",
    "name": "James Mellaart",
    "born": 1925,
@@ -1348,6 +1601,24 @@
      "n": 3,
      "count": 1,
      "i": 19
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "mercury",
+   "name": "Freddie Mercury",
+   "born": 1946,
+   "died": 1991,
+   "c": "muzyk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "wokalista zespołu Queen",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 68
     }
    ],
    "total": 1
@@ -1588,6 +1859,28 @@
    "total": 2
   },
   {
+   "id": "ostr",
+   "name": "Adam Ostrowski (O.S.T.R.)",
+   "born": 1980,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "urodzeni",
+   "g": "m",
+   "desc": "raper, producent i skrzypek",
+   "lodzLink": "Urodzony i związany z Łodzią; w tekstach opowiada o mieście po transformacji.",
+   "verify": true,
+   "mentions": [
+    {
+     "n": 198,
+     "count": 1,
+     "i": 57
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "palladio",
    "name": "Andrea Palladio",
    "born": 1508,
@@ -1604,6 +1897,28 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "paul-simon",
+   "name": "Paul Simon",
+   "born": 1941,
+   "c": "muzyk",
+   "country": "USA",
+   "g": "m",
+   "desc": "muzyk, autor płyty „Graceland” (1986)",
+   "works": [
+    "Simon & Garfunkel: Bridge over Troubled Water (1970)",
+    "Graceland (1986)",
+    "The Rhythm of the Saints (1990)"
+   ],
+   "mentions": [
+    {
+     "n": 193,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
   },
   {
    "id": "petrie",
@@ -1730,9 +2045,47 @@
      "n": 186,
      "count": 5,
      "i": 31
+    },
+    {
+     "n": 193,
+     "count": 1,
+     "i": 106
+    },
+    {
+     "n": 194,
+     "count": 1,
+     "i": 11
+    },
+    {
+     "n": 198,
+     "count": 2,
+     "i": 70
+    },
+    {
+     "n": 199,
+     "count": 1,
+     "i": 9
     }
    ],
-   "total": 5
+   "total": 10
+  },
+  {
+   "id": "reagan",
+   "name": "Ronald Reagan",
+   "born": 1911,
+   "died": 2004,
+   "c": "polityk",
+   "country": "USA",
+   "g": "m",
+   "desc": "prezydent USA 1981–1989",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 41
+    }
+   ],
+   "total": 1
   },
   {
    "id": "rembielinski",
@@ -1790,9 +2143,24 @@
      "n": 186,
      "count": 1,
      "i": 103
+    },
+    {
+     "n": 197,
+     "count": 1,
+     "i": 5
+    },
+    {
+     "n": 198,
+     "count": 1,
+     "i": 22
+    },
+    {
+     "n": 211,
+     "count": 1,
+     "i": 66
     }
    ],
-   "total": 2
+   "total": 5
   },
   {
    "id": "reznikoff",
@@ -1852,6 +2220,32 @@
    "total": 3
   },
   {
+   "id": "robakowski",
+   "name": "Józef Robakowski",
+   "born": 1939,
+   "c": "fotograf",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "artysta, fotograf i filmowiec, współtwórca Warsztatu Formy Filmowej",
+   "lodzLink": "Łódzki artysta; w swoim mieszkaniu prowadził Galerię Wymiany.",
+   "works": [
+    "Warsztat Formy Filmowej (współtwórca, 1970)",
+    "Galeria Wymiany (od 1978)",
+    "Z mojego okna (film, 1978–1999)"
+   ],
+   "mentions": [
+    {
+     "n": 194,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "rodin",
    "name": "Auguste Rodin",
    "born": 1840,
@@ -1865,6 +2259,24 @@
      "n": 2,
      "count": 1,
      "i": 150
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "rogers",
+   "name": "Richard Rogers",
+   "born": 1933,
+   "died": 2021,
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "architekt high-tech: Centre Pompidou (z R. Piano), Lloyd's",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 80
     }
    ],
    "total": 1
@@ -1924,8 +2336,14 @@
     "Moje młode lata (1973)",
     "Moje długie życie (1980)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 198,
+     "count": 1,
+     "i": 22
+    }
+   ],
+   "total": 1
   },
   {
    "id": "rudnicki",
@@ -1965,8 +2383,14 @@
     "Orkiestra (1990)",
     "Teledyski m.in. dla Micka Jaggera i Art of Noise"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 194,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
   },
   {
    "id": "rzewski",
@@ -2006,8 +2430,19 @@
     "Saga o wiedźminie (1994–1999)",
     "Trylogia husycka (2002–2006)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 115
+    },
+    {
+     "n": 211,
+     "count": 2,
+     "i": 44
+    }
+   ],
+   "total": 3
   },
   {
    "id": "sautuola",
@@ -2050,9 +2485,29 @@
      "n": 186,
      "count": 1,
      "i": 51
+    },
+    {
+     "n": 193,
+     "count": 1,
+     "i": 106
+    },
+    {
+     "n": 194,
+     "count": 1,
+     "i": 11
+    },
+    {
+     "n": 199,
+     "count": 1,
+     "i": 20
+    },
+    {
+     "n": 211,
+     "count": 1,
+     "i": 32
     }
    ],
-   "total": 1
+   "total": 5
   },
   {
    "id": "schwitters",
@@ -2124,8 +2579,68 @@
     "Bracia Aszkenazy (1936)",
     "Rodzina Karnowskich (1943)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 194,
+     "count": 1,
+     "i": 88
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "slowik",
+   "name": "Andrzej Słowik",
+   "born": 1949,
+   "died": 2016,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "przewodniczący Solidarności Regionu Ziemi Łódzkiej",
+   "lodzLink": "Przywódca łódzkiej Solidarności 1980–1981, więziony w stanie wojennym.",
+   "mentions": [
+    {
+     "n": 194,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "stanislawski",
+   "name": "Ryszard Stanisławski",
+   "born": 1921,
+   "died": 2000,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "historyk sztuki, dyrektor Muzeum Sztuki w Łodzi 1966–1991",
+   "lodzLink": "Przez ćwierć wieku kierował Muzeum Sztuki w Łodzi.",
+   "mentions": [
+    {
+     "n": 193,
+     "count": 1,
+     "i": 110
+    },
+    {
+     "n": 194,
+     "count": 1,
+     "i": 58
+    },
+    {
+     "n": 197,
+     "count": 1,
+     "i": 64
+    }
+   ],
+   "total": 3
   },
   {
    "id": "stazewski",
@@ -2172,9 +2687,29 @@
      "n": 186,
      "count": 4,
      "i": 78
+    },
+    {
+     "n": 193,
+     "count": 1,
+     "i": 110
+    },
+    {
+     "n": 198,
+     "count": 1,
+     "i": 51
+    },
+    {
+     "n": 199,
+     "count": 1,
+     "i": 48
+    },
+    {
+     "n": 211,
+     "count": 1,
+     "i": 40
     }
    ],
-   "total": 4
+   "total": 8
   },
   {
    "id": "stukeley",
@@ -2323,8 +2858,14 @@
     "Ptasie radio",
     "Kwiaty polskie (1949)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 198,
+     "count": 2,
+     "i": 21
+    }
+   ],
+   "total": 2
   },
   {
    "id": "wajda",
@@ -2354,9 +2895,14 @@
      "n": 186,
      "count": 2,
      "i": 103
+    },
+    {
+     "n": 211,
+     "count": 2,
+     "i": 40
     }
    ],
-   "total": 2
+   "total": 4
   },
   {
    "id": "warhol",
@@ -2372,6 +2918,32 @@
      "n": 186,
      "count": 2,
      "i": 83
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "wasko",
+   "name": "Ryszard Waśko",
+   "born": 1947,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "artysta multimedialny, organizator festiwalu „Konstrukcja w procesie”",
+   "lodzLink": "Związany z łódzką sceną awangardy; zorganizował w Łodzi „Konstrukcję w procesie” (1981).",
+   "mentions": [
+    {
+     "n": 194,
+     "count": 1,
+     "i": 55
+    },
+    {
+     "n": 198,
+     "count": 1,
+     "i": 43
     }
    ],
    "total": 2
@@ -2393,33 +2965,39 @@
     "Program rewitalizacji obszarowej",
     "Kandydatura i organizacja Expo 2029"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 199,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
   }
  ],
  "stats": {
   "generated": "2026-11-20",
   "course": {
    "planned": 223,
-   "ready": 6,
+   "ready": 12,
    "parts": 11,
    "sections": 19,
-   "plannedHours": 61,
+   "plannedHours": 46,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 99,
-   "words": 13498,
-   "sentences": 1078,
-   "chapters": 59,
-   "images": 47,
-   "glossary": 42,
-   "quiz": 28,
-   "sources": 30,
-   "music": 3,
-   "lodz": 58,
-   "polska": 55
+   "minutes": 149,
+   "words": 19934,
+   "sentences": 1555,
+   "chapters": 111,
+   "images": 90,
+   "glossary": 76,
+   "quiz": 53,
+   "sources": 55,
+   "music": 5,
+   "lodz": 216,
+   "polska": 94
   },
   "lessons": [
    {
@@ -2574,17 +3152,173 @@
      "muzyka": 149,
      "design": 336
     }
+   },
+   {
+    "n": 193,
+    "title": "1986 — jeden rok, cały świat",
+    "era": "1986 · Polska, Europa, świat i Łódź",
+    "minutes": 12,
+    "words": 1579,
+    "sentences": 120,
+    "chapters": 9,
+    "images": 9,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 5,
+    "music": 2,
+    "lodz": 12,
+    "polska": 12,
+    "people": 20,
+    "speakers": {
+     "gospodarz": 176,
+     "historyk": 522,
+     "literatura": 278,
+     "muzyka": 188,
+     "architekt": 181,
+     "design": 160,
+     "sztuka": 74
+    }
+   },
+   {
+    "n": 194,
+    "title": "Łódź 1980–1989 — kryzys przemysłu, kultura niezależna i zmierzch PRL",
+    "era": "1980–1989 · Łódź",
+    "minutes": 9,
+    "words": 1155,
+    "sentences": 80,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 37,
+    "polska": 9,
+    "people": 13,
+    "speakers": {
+     "gospodarz": 134,
+     "historyk": 362,
+     "architekt": 141,
+     "design": 104,
+     "sztuka": 145,
+     "foto": 79,
+     "muzyka": 96,
+     "literatura": 94
+    }
+   },
+   {
+    "n": 197,
+    "title": "Łódź 1989–1995 — upadek przemysłu włókienniczego i miasto w transformacji",
+    "era": "1989–1995 · Łódź",
+    "minutes": 7,
+    "words": 931,
+    "sentences": 69,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 5,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 28,
+    "polska": 6,
+    "people": 3,
+    "speakers": {
+     "gospodarz": 148,
+     "historyk": 219,
+     "design": 139,
+     "architekt": 134,
+     "foto": 87,
+     "sztuka": 97,
+     "literatura": 107
+    }
+   },
+   {
+    "n": 198,
+    "title": "Łódź 1995–2005 — nowe instytucje, festiwale i pierwsze odrodzenie",
+    "era": "1995–2005 · Łódź",
+    "minutes": 7,
+    "words": 870,
+    "sentences": 69,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 25,
+    "polska": 6,
+    "people": 8,
+    "speakers": {
+     "gospodarz": 144,
+     "historyk": 190,
+     "literatura": 101,
+     "foto": 134,
+     "design": 98,
+     "muzyka": 100,
+     "architekt": 103
+    }
+   },
+   {
+    "n": 199,
+    "title": "Łódź 2005–2015 — Manufaktura, Off Piotrkowska, murale i Nowe Centrum Łodzi",
+    "era": "2005–2015 · Łódź",
+    "minutes": 8,
+    "words": 1019,
+    "sentences": 76,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 5,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 28,
+    "polska": 2,
+    "people": 5,
+    "speakers": {
+     "gospodarz": 149,
+     "architekt": 342,
+     "design": 141,
+     "sztuka": 108,
+     "historyk": 104,
+     "muzyka": 50,
+     "foto": 46,
+     "literatura": 79
+    }
+   },
+   {
+    "n": 211,
+    "title": "Łódź 2015–dziś — dworzec Fabryczna, rewitalizacja, EC1 i droga do Expo 2029",
+    "era": "2015–dziś · Łódź",
+    "minutes": 7,
+    "words": 882,
+    "sentences": 63,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 5,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 28,
+    "polska": 4,
+    "people": 5,
+    "speakers": {
+     "gospodarz": 133,
+     "architekt": 316,
+     "sztuka": 92,
+     "literatura": 160,
+     "historyk": 181
+    }
    }
   ],
   "speakers": {
-   "gospodarz": 1637,
-   "historyk": 3152,
-   "sztuka": 2292,
-   "architekt": 2699,
-   "muzyka": 1024,
-   "literatura": 894,
-   "design": 1521,
-   "foto": 279
+   "gospodarz": 2521,
+   "historyk": 4730,
+   "sztuka": 2808,
+   "architekt": 3916,
+   "muzyka": 1458,
+   "literatura": 1713,
+   "design": 2163,
+   "foto": 625
   },
   "parts": [
    {
@@ -2647,14 +3381,14 @@
     "id": "IX",
     "title": "XX wiek — narodziny współczesności",
     "episodes": 83,
-    "ready": 1,
+    "ready": 3,
     "sections": 9
    },
    {
     "id": "X",
     "title": "Po 1989 roku — świat współczesny",
     "episodes": 17,
-    "ready": 0,
+    "ready": 4,
     "sections": 1
    },
    {
@@ -2762,27 +3496,27 @@
    {
     "n": 194,
     "title": "Łódź 1980–1989 — kryzys przemysłu, kultura niezależna i zmierzch PRL",
-    "ready": false
+    "ready": true
    },
    {
     "n": 197,
     "title": "Łódź 1989–1995 — upadek przemysłu włókienniczego i miasto w transformacji",
-    "ready": false
+    "ready": true
    },
    {
     "n": 198,
     "title": "Łódź 1995–2005 — nowe instytucje, festiwale i pierwsze odrodzenie",
-    "ready": false
+    "ready": true
    },
    {
     "n": 199,
     "title": "Łódź 2005–2015 — Manufaktura, Off Piotrkowska, murale i Nowe Centrum Łodzi",
-    "ready": false
+    "ready": true
    },
    {
     "n": 211,
     "title": "Łódź 2015–dziś — dworzec Fabryczna, rewitalizacja, EC1 i droga do Expo 2029",
-    "ready": false
+    "ready": true
    },
    {
     "n": 220,
@@ -2791,22 +3525,22 @@
    }
   ],
   "people": {
-   "total": 76,
-   "mentions": 126,
+   "total": 105,
+   "mentions": 192,
    "byCategory": {
-    "naukowiec": 15,
+    "naukowiec": 17,
     "filozof": 4,
-    "inne": 2,
-    "muzyk": 5,
-    "pisarz": 11,
-    "polityk": 5,
-    "architekt": 6,
-    "malarz": 16,
-    "projektant": 5,
-    "rzeźbiarz": 2,
-    "przemysłowiec": 2,
-    "filmowiec": 2,
-    "fotograf": 1
+    "inne": 4,
+    "muzyk": 10,
+    "pisarz": 15,
+    "polityk": 12,
+    "architekt": 8,
+    "malarz": 17,
+    "projektant": 6,
+    "rzeźbiarz": 3,
+    "przemysłowiec": 3,
+    "filmowiec": 4,
+    "fotograf": 2
    },
    "byCentury": {
     "10": 1,
@@ -2814,31 +3548,31 @@
     "16": 2,
     "17": 1,
     "18": 5,
-    "19": 25,
-    "20": 37,
+    "19": 29,
+    "20": 62,
     "-5": 1,
     "-4": 1,
     "-1": 1
    },
    "byCountry": {
-    "zagranica": 43,
-    "Polska": 33
+    "zagranica": 58,
+    "Polska": 47
    },
    "byGender": {
-    "m": 70,
-    "f": 6
+    "m": 97,
+    "f": 8
    },
-   "lodz": 9,
-   "withWorks": 51,
-   "works": 185,
+   "lodz": 22,
+   "withWorks": 53,
+   "works": 191,
    "lodzStrength": {
     "temat": 3,
-    "mieszkali": 19,
-    "epizod": 7,
+    "mieszkali": 23,
+    "epizod": 8,
     "brak": 6,
-    "urodzeni": 16
+    "urodzeni": 17
    },
-   "lodzAll": 47
+   "lodzAll": 53
   }
  }
 }
