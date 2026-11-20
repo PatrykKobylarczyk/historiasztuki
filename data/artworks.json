@@ -1,0 +1,238 @@
+{
+ "_info": "Opis dzieł z galerii: twórca, okres i miejsce. Klucz = zapytanie obrazu z sekcji „Galeria” w scenariuszu (tekst w nawiasie okrągłym). Scalane przez scripts/build-lessons.mjs.",
+ "Chauvet cave horses painting": {
+  "creator": "nieznani twórcy kultury oryniackiej",
+  "date": "ok. 36 000 lat temu (oryginał)",
+  "place": "Jaskinia Chauvet, Francja"
+ },
+ "Lascaux Hall of the Bulls": {
+  "creator": "nieznani twórcy kultury magdaleńskiej",
+  "date": "ok. 17 000 lat temu",
+  "place": "Lascaux, Francja"
+ },
+ "Altamira bison painting": {
+  "creator": "nieznani twórcy kultury magdaleńskiej",
+  "date": "ok. 18 000–14 000 lat temu",
+  "place": "Altamira, Hiszpania"
+ },
+ "Cueva de las Manos hands": {
+  "creator": "łowcy-zbieracze Patagonii",
+  "date": "ok. 9 000 lat temu (najstarsze warstwy)",
+  "place": "Santa Cruz, Argentyna"
+ },
+ "Löwenmensch Hohlenstein-Stadel": {
+  "creator": "nieznany twórca kultury oryniackiej",
+  "date": "ok. 40 000 lat temu",
+  "place": "Hohlenstein-Stadel, Niemcy"
+ },
+ "Venus of Willendorf": {
+  "creator": "nieznany twórca kultury graweckiej",
+  "date": "ok. 30 000 lat temu",
+  "place": "Willendorf, Austria"
+ },
+ "Hohle Fels flute": {
+  "creator": "nieznany twórca kultury oryniackiej",
+  "date": "ok. 40 000 lat temu",
+  "place": "Hohle Fels, Niemcy"
+ },
+ "mammoth bone dwelling reconstruction": {
+  "creator": "łowcy mamutów epoki lodowcowej",
+  "date": "ok. 18 000–14 000 lat temu (oryginały)",
+  "place": "Europa Wschodnia"
+ },
+ "Jaskinia Obłazowa": {
+  "creator": "nieznany twórca górnego paleolitu",
+  "date": "ok. 30 000 lat temu",
+  "place": "Jaskinia Obłazowa, Podhale"
+ },
+ "Göbekli Tepe pillars": {
+  "creator": "budowniczowie neolitu przedceramicznego",
+  "date": "ok. 9600–8200 p.n.e.",
+  "place": "Göbekli Tepe, Turcja"
+ },
+ "Göbekli Tepe fox relief": {
+  "creator": "budowniczowie neolitu przedceramicznego",
+  "date": "ok. 9600–8200 p.n.e.",
+  "place": "Göbekli Tepe, Turcja"
+ },
+ "Tower of Jericho": {
+  "creator": "pierwsi rolnicy Lewantu",
+  "date": "ok. 8300 p.n.e.",
+  "place": "Jerycho"
+ },
+ "Neolithic polished stone axe": {
+  "creator": "rolnicy neolitu",
+  "date": "ok. 5500–2000 p.n.e.",
+  "place": "Europa"
+ },
+ "Neolithic quern stone": {
+  "creator": "rolnicy neolitu",
+  "date": "od ok. 9000 p.n.e.",
+  "place": "Bliski Wschód i Europa"
+ },
+ "Linear Pottery culture vessel": {
+  "creator": "kultura ceramiki wstęgowej rytej",
+  "date": "ok. 5500–4900 p.n.e.",
+  "place": "Europa Środkowa"
+ },
+ "Linear Pottery longhouse reconstruction": {
+  "creator": "kultura ceramiki wstęgowej rytej",
+  "date": "ok. 5500–4900 p.n.e. (rekonstrukcja współczesna)",
+  "place": "Europa Środkowa"
+ },
+ "Jiahu bone flute": {
+  "creator": "kultura Peiligang",
+  "date": "ok. 7000–5700 p.n.e.",
+  "place": "Jiahu, Chiny"
+ },
+ "Çatalhöyük house interior reconstruction": {
+  "creator": "mieszkańcy Çatalhöyük",
+  "date": "ok. 7100–5700 p.n.e. (rekonstrukcja muzealna)",
+  "place": "Anatolia, Turcja"
+ },
+ "Çatalhöyük excavation": {
+  "creator": "mieszkańcy Çatalhöyük",
+  "date": "ok. 7100–5700 p.n.e.",
+  "place": "Anatolia, Turcja"
+ },
+ "Skara Brae dresser": {
+  "creator": "neolityczni mieszkańcy Orkadów",
+  "date": "ok. 3100–2500 p.n.e.",
+  "place": "Orkady, Szkocja"
+ },
+ "Skara Brae": {
+  "creator": "neolityczni mieszkańcy Orkadów",
+  "date": "ok. 3100–2500 p.n.e.",
+  "place": "Orkady, Szkocja"
+ },
+ "Choirokoitia": {
+  "creator": "rolnicy neolitu Cypru",
+  "date": "ok. 7000–5500 p.n.e. (rekonstrukcja współczesna)",
+  "place": "Choirokoitia, Cypr"
+ },
+ "Biskupin gród": {
+  "creator": "ludność kultury łużyckiej",
+  "date": "VIII w. p.n.e. (rekonstrukcja z XX w.)",
+  "place": "Biskupin, Pałuki"
+ },
+ "Plac Wolności Łódź": {
+  "creator": "plan: Rajmund Rembieliński",
+  "date": "układ z lat 1821–1823",
+  "place": "Łódź"
+ },
+ "Venus of Dolní Věstonice": {
+  "creator": "nieznany twórca kultury graweckiej",
+  "date": "ok. 31 000–27 000 lat temu",
+  "place": "Morawy, Czechy"
+ },
+ "Jomon flame pottery": {
+  "creator": "kultura Jōmon",
+  "date": "ok. 3500–2500 p.n.e.",
+  "place": "Japonia"
+ },
+ "Halaf pottery": {
+  "creator": "kultura Halaf",
+  "date": "ok. 6100–5100 p.n.e.",
+  "place": "północna Mezopotamia"
+ },
+ "Cucuteni pottery": {
+  "creator": "kultura Cucuteni-Trypole",
+  "date": "ok. 4800–3000 p.n.e.",
+  "place": "Rumunia, Mołdawia, Ukraina"
+ },
+ "Funnel Beaker culture pottery": {
+  "creator": "kultura pucharów lejkowatych",
+  "date": "ok. 4000–2800 p.n.e.",
+  "place": "Europa Środkowa i Północna"
+ },
+ "Corded Ware culture pottery": {
+  "creator": "kultura ceramiki sznurowej",
+  "date": "ok. 2900–2350 p.n.e.",
+  "place": "Europa Środkowa"
+ },
+ "Bronocice pot": {
+  "creator": "kultura pucharów lejkowatych",
+  "date": "ok. 3600–3400 p.n.e.",
+  "place": "Bronocice, Małopolska"
+ },
+ "Stonehenge": {
+  "creator": "budowniczowie neolitu i epoki brązu",
+  "date": "ok. 3000–1500 p.n.e.",
+  "place": "Wiltshire, Anglia"
+ },
+ "Newgrange entrance stone": {
+  "creator": "neolityczni rolnicy Irlandii",
+  "date": "ok. 3200 p.n.e.",
+  "place": "dolina Boyne, Irlandia"
+ },
+ "Carnac stones": {
+  "creator": "neolityczni budowniczowie Bretanii",
+  "date": "ok. 4500–3300 p.n.e.",
+  "place": "Carnac, Francja"
+ },
+ "Ggantija temple": {
+  "creator": "neolityczni mieszkańcy Malty",
+  "date": "ok. 3600–3200 p.n.e.",
+  "place": "Gozo, Malta"
+ },
+ "Poulnabrone dolmen": {
+  "creator": "neolityczni rolnicy Irlandii",
+  "date": "ok. 3800–3200 p.n.e.",
+  "place": "Burren, Irlandia"
+ },
+ "Wietrzychowice": {
+  "creator": "kultura pucharów lejkowatych",
+  "date": "ok. 3600–3000 p.n.e.",
+  "place": "Wietrzychowice, Kujawy"
+ },
+ "Krzemień pasiasty": {
+  "creator": "surowiec wydobywany przez górników neolitu",
+  "date": "ok. 3900–1600 p.n.e.",
+  "place": "Krzemionki Opatowskie"
+ },
+ "Krzemionki": {
+  "creator": "górnicy neolitu i wczesnej epoki brązu",
+  "date": "ok. 3900–1600 p.n.e.",
+  "place": "Krzemionki Opatowskie"
+ },
+ "Manufaktura Łódź": {
+  "creator": "inwestor: Izrael Poznański",
+  "date": "fabryka 1872–1892, Manufaktura od 2006",
+  "place": "Łódź"
+ },
+ "Księży Młyn familoki": {
+  "creator": "inwestor: Karol Scheibler",
+  "date": "1873–1875",
+  "place": "Łódź, Księży Młyn"
+ },
+ "Pałac Izraela Poznańskiego": {
+  "creator": "proj. Hilary Majewski, przebudowa Juliusz Jung",
+  "date": "1888–1903",
+  "place": "Łódź, ul. Ogrodowa"
+ },
+ "Wojciech Fangor": {
+  "creator": "Wojciech Fangor",
+  "date": "1950",
+  "place": ""
+ },
+ "Muzeum Sztuki w Łodzi ms1": {
+  "creator": "proj. Adolf Zeligson",
+  "date": "1894–1896; muzeum od 1946",
+  "place": "Łódź, ul. Więckowskiego"
+ },
+ "Sala Neoplastyczna": {
+  "creator": "Władysław Strzemiński",
+  "date": "1948 (rekonstrukcja 1960)",
+  "place": "Muzeum Sztuki w Łodzi"
+ },
+ "Łódź mural PRL reklama": {
+  "creator": "ROA (Belgia), Galeria Urban Forms",
+  "date": "XXI w.",
+  "place": "Łódź, ul. Nowomiejska 5"
+ },
+ "Czesław Niemen": {
+  "creator": "portret muzyka",
+  "date": "Czesław Niemen, 1939–2004",
+  "place": ""
+ }
+}

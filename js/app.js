@@ -244,16 +244,22 @@ async function ensureViewLesson() {
   }
 }
 
+// podpis dzieła: tytuł · twórca, okres, miejsce · (drobno) autor zdjęcia i licencja
+const artMeta = (g) => [g.creator, g.date, g.place].filter(Boolean).join(" · ");
+const photoCredit = (g) => {
+  const lic = g.license && /^public domain$/i.test(g.license) ? "domena publiczna" : g.license;
+  return g.artist ? `fot. ${[g.artist, lic].filter(Boolean).join(", ")}` : lic || "";
+};
 function figureHtml(g, cls = "") {
-  const credit = [g.artist, g.license].filter(Boolean).join(", ");
-  return `<figure class="${cls}"><img loading="lazy" src="${esc(cls ? g.url || g.thumb : g.thumb)}" data-full="${esc(g.url || g.thumb)}" alt="${esc(g.caption)}">
-    <figcaption>${esc(g.caption)}${credit ? ` · <a href="${esc(g.page || "#")}" target="_blank" rel="noopener">${esc(credit)}</a>` : ""}</figcaption></figure>`;
+  const meta = artMeta(g), credit = photoCredit(g);
+  return `<figure class="${cls}"><img loading="lazy" src="${esc(cls ? g.url || g.thumb : g.thumb)}" data-full="${esc(g.url || g.thumb)}" alt="${esc(g.caption)}" data-meta="${esc(meta)}" data-credit="${esc(credit)}">
+    <figcaption><span class="ft">${esc(g.caption)}</span>${meta ? `<span class="fm">${esc(meta)}</span>` : ""}${credit ? `<a class="fc" href="${esc(g.page || "#")}" target="_blank" rel="noopener">${esc(credit)}</a>` : ""}</figcaption></figure>`;
 }
 
 function lightbox(img) {
   const d = document.createElement("div");
   d.className = "lightbox";
-  d.innerHTML = `<div><img src="${esc(img.dataset.full)}" alt=""><p>${esc(img.alt)}</p></div>`;
+  d.innerHTML = `<div><img src="${esc(img.dataset.full)}" alt=""><p><strong>${esc(img.alt)}</strong>${img.dataset.meta ? `<br>${esc(img.dataset.meta)}` : ""}${img.dataset.credit ? `<br><small>${esc(img.dataset.credit)}</small>` : ""}</p></div>`;
   d.addEventListener("click", () => d.remove());
   document.body.append(d);
 }
@@ -365,6 +371,204 @@ document.addEventListener("click", async (e) => {
     speak(`Dzień dobry. Tu ${speakers[k].name}, KULTURA. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
   }
 });
+// ---------- Indeks osób i liczby ----------
+let indexData = null;
+const getIndex = async () => (indexData ||= await getJSON("data/index.json"));
+const CATS = {
+  malarz: "Malarze", rzeźbiarz: "Rzeźbiarze", architekt: "Architekci i urbaniści", projektant: "Projektanci", fotograf: "Fotografowie",
+  filmowiec: "Filmowcy", muzyk: "Muzycy", pisarz: "Pisarze i poeci", filozof: "Filozofowie", naukowiec: "Badacze i naukowcy",
+  polityk: "Politycy i władcy", przemysłowiec: "Przemysłowcy", inne: "Inne postaci",
+};
+const CAT1 = {
+  malarz: "malarz", rzeźbiarz: "rzeźbiarz", architekt: "architekt", projektant: "projektant", fotograf: "fotograf", filmowiec: "filmowiec",
+  muzyk: "muzyka", pisarz: "literatura", filozof: "filozofia", naukowiec: "nauka", polityk: "polityka", przemysłowiec: "przemysł", inne: "inne",
+};
+const yr = (y) => (y == null ? "" : y < 0 ? `${-y} p.n.e.` : String(y));
+const lifespan = (p) => (p.legend ? "postać legendarna" : p.born == null ? "" : p.died ? `${yr(p.born)}–${yr(p.died)}` : `ur. ${yr(p.born)}`);
+const surname = (p) => {
+  const parts = p.name.replace(/ (z|de|van|von) .*/, "").split(/\s+/);
+  return (p.sortKey || parts[parts.length - 1]).replace(/^Le$/, "Le Corbusier");
+};
+const plSort = (a, b) => a.localeCompare(b, "pl");
+
+async function renderIndex() {
+  const { people } = await getIndex();
+  const list = people.filter((p) => p.total > 0).map((p) => ({ ...p, key: p.name === "Le Corbusier" ? "Le Corbusier" : surname(p) }));
+  list.sort((a, b) => plSort(a.key, b.key) || plSort(a.name, b.name));
+  const cats = Object.entries(list.reduce((m, p) => ((m[p.c] = (m[p.c] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
+  const lessonTitle = (n) => catalog.find((c) => c.n === n)?.title || `Odcinek ${n}`;
+  const item = (p) => `<li class="person" data-c="${p.c}" data-pl="${p.pl ? 1 : 0}" data-lodz="${p.lodz ? 1 : 0}" data-q="${esc((p.name + " " + p.desc + " " + (p.country || "") + " " + (CATS[p.c] || "") + (p.lodz ? " łódź łodzi" : "") + (p.pl ? " polska polak" : "")).toLowerCase())}">
+      <div class="pn"><strong>${esc(p.name)}</strong><span class="pdates">${lifespan(p)}</span></div>
+      <div class="pd">${esc(p.desc)}${p.country ? ` · <span class="muted">${esc(p.country)}</span>` : ""}${p.lodz ? ` <span class="tag">Łódź</span>` : ""}</div>
+      <div class="pm">${p.mentions.map((m) => `<a href="#/lekcja/${m.n}/z/${m.i}" title="${esc(lessonTitle(m.n))}">Odc. ${m.n}${m.count > 1 ? ` <span>×${m.count}</span>` : ""}</a>`).join("")}</div>
+    </li>`;
+  const groups = {};
+  for (const p of list) (groups[p.key[0].toUpperCase()] ||= []).push(p);
+  view.innerHTML = `
+    <header class="page-head">
+      <div class="eyebrow">Indeks</div>
+      <h1>Osoby</h1>
+      <p>Wszyscy, o których mówimy w kursie — od archeologów i filozofów po malarzy, muzyków i łódzkich fabrykantów. Dotknij odcinka, aby przejść do miejsca, w którym pada nazwisko.</p>
+    </header>
+    <div class="index-tools">
+      <input type="search" class="index-search" placeholder="Szukaj: nazwisko, dziedzina, kraj…" aria-label="Szukaj w indeksie">
+      <div class="chips" role="group" aria-label="Filtr">
+        <button class="chip on" data-f="all">Wszyscy <span>${list.length}</span></button>
+        <button class="chip" data-f="pl">Polacy <span>${list.filter((p) => p.pl).length}</span></button>
+        <button class="chip" data-f="lodz">Łódź <span>${list.filter((p) => p.lodz).length}</span></button>
+        ${cats.map(([c, k]) => `<button class="chip" data-f="c:${c}">${CATS[c] || c} <span>${k}</span></button>`).join("")}
+      </div>
+    </div>
+    <div class="az">${Object.keys(groups).map((L) => `<a href="#" data-l="${L}">${L}</a>`).join("")}</div>
+    <div class="index-list">
+      ${Object.entries(groups).map(([L, ps]) => `<section class="letter" id="litera-${L}"><h2>${L}</h2><ul>${ps.map(item).join("")}</ul></section>`).join("")}
+      <p class="index-empty" hidden>Nikogo nie znaleziono.</p>
+    </div>`;
+  let filter = "all";
+  const apply = () => {
+    const q = $(".index-search", view).value.trim().toLowerCase();
+    let shown = 0;
+    view.querySelectorAll(".person").forEach((li) => {
+      const okF = filter === "all" || (filter === "pl" && li.dataset.pl === "1") || (filter === "lodz" && li.dataset.lodz === "1") || filter === `c:${li.dataset.c}`;
+      const ok = okF && (!q || li.dataset.q.includes(q));
+      li.hidden = !ok; if (ok) shown++;
+    });
+    view.querySelectorAll(".letter").forEach((s) => { s.hidden = !s.querySelector(".person:not([hidden])"); });
+    $(".index-empty", view).hidden = shown > 0;
+  };
+  $(".index-search", view).addEventListener("input", apply);
+  view.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+    filter = b.dataset.f;
+    view.querySelectorAll(".chip").forEach((x) => x.classList.toggle("on", x === b));
+    apply();
+  }));
+  view.querySelectorAll(".az a").forEach((a) => a.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.getElementById(`litera-${a.dataset.l}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+}
+
+function jumpToSentence(n, i) {
+  const el = view.querySelector(`.s[data-i="${i}"]`);
+  if (player.lesson?.n === n && !player.playing) player.seek(i);
+  if (!el) return;
+  setTimeout(() => {
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.add("flash");
+    setTimeout(() => el.classList.remove("flash"), 2600);
+  }, 150);
+}
+
+// poziome słupki: etykieta · słupek · wartość (z dymkiem po najechaniu)
+function bars(rows, { max, unit = "", dot } = {}) {
+  const m = max ?? Math.max(1, ...rows.map((r) => r.v));
+  return `<div class="bars">${rows.map((r) => `
+    <div class="bar-row" title="${esc(r.label)}: ${r.v}${unit ? " " + unit : ""}${r.note ? " — " + esc(r.note) : ""}">
+      <span class="bl">${r.color ? `<i style="background:${r.color}"></i>` : ""}${r.href ? `<a href="${r.href}">${esc(r.label)}</a>` : esc(r.label)}</span>
+      <span class="bt"><span class="bf${r.muted ? " muted" : ""}" style="width:${Math.max(r.v ? 1.5 : 0, (100 * r.v) / m).toFixed(1)}%"></span>${r.v2 != null ? `<span class="bf2" style="width:${((100 * r.v2) / m).toFixed(1)}%"></span>` : ""}</span>
+      <span class="bv">${r.text ?? r.v}</span>
+    </div>`).join("")}</div>`;
+}
+const nf = (x) => Number(x).toLocaleString("pl-PL");
+const centName = (c) => {
+  const R = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"];
+  return c < 0 ? `${R[-c]} w. p.n.e.` : `${R[c]} w.`;
+};
+
+async function renderStats() {
+  const { people, stats: s } = await getIndex();
+  const done = new Set(store.get("done", []));
+  const doneMin = catalog.filter((c) => done.has(c.n)).reduce((a, c) => a + c.minutes, 0);
+  const mentioned = people.filter((p) => p.total > 0);
+  const top = [...mentioned].sort((a, b) => b.total - a.total || b.mentions.length - a.mentions.length).slice(0, 10);
+  const cats = Object.entries(s.people.byCategory).sort((a, b) => b[1] - a[1]);
+  const cents = Object.entries(s.people.byCentury).map(([c, v]) => [Number(c), v]).sort((a, b) => a[0] - b[0]);
+  const spk = Object.entries(s.speakers).sort((a, b) => b[1] - a[1]);
+  const spTotal = spk.reduce((a, [, v]) => a + v, 0);
+  const pct = (a, b) => `${Math.round((100 * a) / Math.max(1, b))}%`;
+  const fig = (v, label, sub = "") => `<div class="fig"><b>${v}</b><span>${label}</span>${sub ? `<small>${sub}</small>` : ""}</div>`;
+  const block = (title, label, body) => `<section class="stat-block"><div class="section-head"><h2>${title}</h2><span class="eyebrow">${label}</span></div>${body}</section>`;
+  const lessonsSorted = [...s.lessons].sort((a, b) => a.n - b.n);
+  view.innerHTML = `
+    <header class="page-head">
+      <div class="eyebrow">Liczby · stan na ${new Date(s.generated).toLocaleDateString("pl-PL", { day: "numeric", month: "long", year: "numeric" })}</div>
+      <h1>Kurs w liczbach</h1>
+      <p>Wszystko, co da się policzyć: od epok i stuleci po malarzy, muzyków i to, ile razy pada słowo „Łódź”. Liczby rosną z każdym nowym odcinkiem.</p>
+    </header>
+
+    <div class="figs big">
+      ${fig(nf(s.course.planned), "odcinków w programie", `${s.course.ready} gotowych · ${pct(s.course.ready, s.course.planned)}`)}
+      ${fig(s.course.yearsSpan ? `${nf(Math.round(s.course.yearsSpan / 1000))}&thinsp;tys.` : "—", "lat historii", "od pierwszych malowideł do dziś")}
+      ${fig(s.course.parts, "części", `${s.course.sections} epok i okresów`)}
+      ${fig(`~${s.course.plannedHours}&thinsp;h`, "nagrań po ukończeniu", `${s.course.experts} ekspertów + gospodarz`)}
+    </div>
+
+    ${block("Twoje słuchanie", "Postęp", `
+      <div class="figs">
+        ${fig(`${done.size}<small> / ${s.course.planned}</small>`, "wysłuchanych odcinków", `${pct(done.size, s.course.ready)} gotowych`)}
+        ${fig(`${doneMin}<small> min</small>`, "wysłuchanego czasu", `z ${s.ready.minutes} min dostępnych`)}
+      </div>
+      <div class="meter" title="${done.size} z ${s.course.planned} odcinków"><span style="width:${(100 * done.size) / s.course.planned}%"></span><span class="m2" style="width:${(100 * (s.course.ready - done.size)) / s.course.planned}%"></span></div>
+      <div class="meter-legend"><span><i class="k1"></i>wysłuchane</span><span><i class="k2"></i>gotowe do słuchania</span><span><i class="k3"></i>w przygotowaniu</span></div>`)}
+
+    ${block("Gotowe odcinki", `${s.course.ready} odcinków`, `
+      <div class="figs">
+        ${fig(s.ready.minutes, "minut nagrań")}
+        ${fig(nf(s.ready.words), "słów", `${nf(s.ready.sentences)} zdań`)}
+        ${fig(s.ready.chapters, "rozdziałów")}
+        ${fig(s.ready.images, "obrazów")}
+        ${fig(s.ready.glossary, "pojęć w słowniczkach")}
+        ${fig(s.ready.quiz, "pytań w quizach")}
+        ${fig(s.ready.sources, "źródeł")}
+        ${fig(s.ready.music, "utworów do posłuchania")}
+      </div>
+      <h3 class="sub-h">Długość odcinków</h3>
+      ${bars(lessonsSorted.map((l) => ({ label: `${l.n}. ${l.title}`, v: l.minutes, text: `${l.minutes} min`, href: `#/lekcja/${l.n}`, note: l.era })), { unit: "min" })}`)}
+
+    ${block("Ludzie", `${s.people.total} osób · ${s.people.mentions} wzmianek`, `
+      <div class="figs">
+        ${fig(s.people.byCategory.malarz || 0, "malarzy")}
+        ${fig(s.people.byCategory.muzyk || 0, "muzyków")}
+        ${fig(s.people.byCategory.pisarz || 0, "pisarzy i poetów")}
+        ${fig(s.people.byCategory.architekt || 0, "architektów")}
+        ${fig(s.people.byCountry.Polska || 0, "Polaków", `${pct(s.people.byCountry.Polska || 0, s.people.total)} wszystkich`)}
+        ${fig(s.people.byGender.f || 0, "kobiet", `${pct(s.people.byGender.f || 0, s.people.total)} wszystkich`)}
+      </div>
+      <div class="cols">
+        <div><h3 class="sub-h">Według dziedziny</h3>${bars(cats.map(([c, v]) => ({ label: CATS[c] || c, v, href: "#/indeks" })))}</div>
+        <div><h3 class="sub-h">Najczęściej wymieniani</h3>${bars(top.map((p) => ({ label: p.name, v: p.total, text: `${p.total}×`, note: p.desc, href: `#/lekcja/${p.mentions[0].n}/z/${p.mentions[0].i}` })), { unit: "wzmianek" })}</div>
+      </div>
+      <h3 class="sub-h">Według stulecia urodzin</h3>
+      <div class="hist">${cents.map(([c, v]) => `<div class="hcol" title="${centName(c)}: ${v} ${v === 1 ? "osoba" : v < 5 ? "osoby" : "osób"}"><span class="hv">${v}</span><span class="hb" style="height:${(100 * v) / Math.max(...cents.map((x) => x[1]))}%"></span><span class="hl">${centName(c).replace(" w.", "").replace(" p.n.e.", "<br>p.n.e.")}</span></div>`).join("")}</div>`)}
+
+    ${block("Łódź", `${s.ready.lodz} wzmianek`, `
+      <div class="figs">
+        ${fig(s.ready.lodz, "razy pada „Łódź”", "w gotowych odcinkach")}
+        ${fig(s.lessons.filter((l) => l.lodz).length, "odcinków z Łodzią", `na ${s.course.ready} gotowych`)}
+        ${fig(s.lodzEpisodes.length, "odcinków o Łodzi w programie", `${s.lodzEpisodes.filter((e) => e.ready).length} gotowych`)}
+        ${fig(s.people.lodz, "osób związanych z Łodzią")}
+      </div>
+      <h3 class="sub-h">Wzmianki o Łodzi w odcinkach</h3>
+      ${bars(lessonsSorted.map((l) => ({ label: `${l.n}. ${l.title}`, v: l.lodz, href: `#/lekcja/${l.n}` })), { unit: "wzmianek" })}
+      <h3 class="sub-h">Łódzkie odcinki w programie</h3>
+      <ul class="plain">${s.lodzEpisodes.map((e) => `<li class="${e.ready ? "" : "muted"}"><span class="num">${String(e.n).padStart(3, "0")}</span>${e.ready ? `<a href="#/lekcja/${e.n}">${esc(e.title)}</a>` : esc(e.title)}</li>`).join("")}</ul>`)}
+
+    ${block("Program", `${s.course.parts} części`, `
+      <div class="cols">
+        <div><h3 class="sub-h">Odcinki w częściach</h3>
+          ${bars(s.parts.map((p) => ({ label: `${p.id}. ${p.title.split(" — ")[0]}`, v: p.episodes, v2: p.ready, text: p.ready ? `${p.ready}/${p.episodes}` : p.episodes, note: p.title })), { unit: "odcinków" })}
+          <div class="meter-legend"><span><i class="k2"></i>w programie</span><span><i class="k1"></i>gotowe</span></div></div>
+        <div><h3 class="sub-h">Dziedziny w tytułach odcinków</h3>
+          ${bars([...s.domains].sort((a, b) => b.count - a.count).map((d) => ({ label: d.name, v: d.count })), { unit: "odcinków" })}
+          <p class="note">Odcinek może należeć do kilku dziedzin.</p></div>
+      </div>`)}
+
+    ${block("Głosy", "Kto mówi najwięcej", `
+      ${bars(spk.map(([k, v]) => ({ label: speakers[k]?.name || k, v, text: pct(v, spTotal), color: speakers[k]?.color, note: `${nf(v)} słów` })), { unit: "słów" })}`)}
+
+    <p class="note">Liczby obejmują gotowe odcinki; program liczy wszystkie zaplanowane. Postęp słuchania zapisuje się na tym urządzeniu.</p>`;
+}
+
 // ---------- Przewijanie z podglądem zdania ----------
 const scrubbing = () => document.documentElement.classList.contains("is-scrubbing");
 const fmtTime = (s) => { s = Math.max(0, Math.round(s || 0)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
@@ -471,6 +675,14 @@ function scrubber(bar, src) {
   bar.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); });
 }
 
+// okładka na ekranie blokady: obrazy bieżącego rozdziału, zmiana co kilka zdań
+player.artworkFor = (lesson, it, index) => {
+  const list = imagesForChapter(lesson, it?.chapter ?? 0).filter((g) => g.url || g.thumb);
+  if (!list.length) return null;
+  const g = list[Math.floor(index / 8) % list.length];
+  return { src: g.url || g.thumb, thumb: g.thumb, caption: g.caption, meta: artMeta(g) };
+};
+
 // ---------- Tryb auto ----------
 function openCar(fromLessonView) {
   keepAwake.enable();
@@ -534,8 +746,8 @@ function showCarImage() {
     next.classList.add("on");
     cur.classList.remove("on");
     carState.layer ^= 1;
-    const credit = [g.artist, g.license].filter(Boolean).join(", ");
-    $(".cv-caption", box).textContent = g.caption + (credit ? ` · ${credit}` : "");
+    const meta = artMeta(g);
+    $(".cv-caption", box).innerHTML = `<strong>${esc(g.caption)}</strong>${meta ? `<br>${esc(meta)}` : ""}`;
     $(".cv-count", box).textContent = carState.list.length > 1 ? `${carState.pos + 1} / ${carState.list.length}` : "";
   };
   pre.src = src;
@@ -620,12 +832,17 @@ function applyTheme() {
 // ---------- Router ----------
 async function route() {
   const h = location.hash || "#/";
-  document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active",
-    (a.dataset.nav === "home" && !h.startsWith("#/ustawienia")) || (a.dataset.nav === "settings" && h.startsWith("#/ustawienia"))));
-  const m = h.match(/^#\/lekcja\/(\d+)/);
+  const section = h.startsWith("#/ustawienia") ? "settings" : h.startsWith("#/indeks") ? "index" : h.startsWith("#/liczby") ? "stats" : "home";
+  document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === section));
+  const m = h.match(/^#\/lekcja\/(\d+)(?:\/z\/(\d+))?/);
   lastCur = -1;
-  if (m) await renderLesson(Number(m[1]));
-  else if (h.startsWith("#/ustawienia")) await renderSettings();
+  if (m) {
+    await renderLesson(Number(m[1]));
+    if (m[2] != null) jumpToSentence(Number(m[1]), Number(m[2]));
+  }
+  else if (section === "settings") await renderSettings();
+  else if (section === "index") await renderIndex();
+  else if (section === "stats") await renderStats();
   else renderHome();
   if (!m) window.scrollTo(0, 0);
   updatePlayerUI(true);

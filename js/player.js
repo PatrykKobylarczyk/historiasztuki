@@ -343,15 +343,22 @@ export class Player extends EventTarget {
     if (!("mediaSession" in navigator) || !this.lesson) return;
     const it = this.current;
     const sp = it?.sp ? this.speakers?.[it.sp]?.name : "KULTURA";
-    const key = `${this.lesson.n}|${it?.chapterTitle}|${sp}`;
+    // okładka na ekranie blokady: obraz z bieżącego rozdziału (podaje aplikacja), inaczej ikona
+    const art = this.artworkFor?.(this.lesson, it, this.index) || null;
+    const key = `${this.lesson.n}|${it?.chapterTitle}|${sp}|${art?.src || ""}`;
     if (key !== this._msKey) {
       this._msKey = key;
       try {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: `${this.lesson.n}. ${this.lesson.title}`,
-          artist: `${sp} — ${it?.chapterTitle || ""}`,
-          album: "KULTURA",
-          artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }],
+          artist: art?.caption ? `${sp} · ${art.caption}` : `${sp} — ${it?.chapterTitle || ""}`,
+          album: art?.meta ? `KULTURA · ${art.meta}` : "KULTURA",
+          artwork: art
+            ? [
+                ...(art.thumb ? [{ src: art.thumb, sizes: "512x512", type: "image/jpeg" }] : []),
+                { src: art.src, sizes: "1280x1280", type: "image/jpeg" },
+              ]
+            : [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }],
         });
       } catch {}
     }
