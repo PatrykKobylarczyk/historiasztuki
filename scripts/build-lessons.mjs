@@ -18,6 +18,9 @@ const outDir = path.join(root, "data", "lessons");
 const imagesPath = path.join(root, "data", "images.json");
 const speakers = JSON.parse(fs.readFileSync(path.join(root, "data", "speakers.json"), "utf8"));
 const images = fs.existsSync(imagesPath) ? JSON.parse(fs.readFileSync(imagesPath, "utf8")) : {};
+// opis dzieł (twórca, okres, miejsce) — data/artworks.json, klucz = zapytanie obrazu
+const artworksPath = path.join(root, "data", "artworks.json");
+const artworks = fs.existsSync(artworksPath) ? JSON.parse(fs.readFileSync(artworksPath, "utf8")) : {};
 fs.mkdirSync(outDir, { recursive: true });
 
 const WPM = 140; // tempo spokojnej narracji radiowej
@@ -54,7 +57,8 @@ function parse(file) {
         const g = line.match(/^!\[(.*?)\]\((.*?)\)(?:\s*@(\d+))?$/);
         if (!g) throw new Error(`${file}: zły wpis galerii: ${line}`);
         const img = images[g[2]];
-        lesson.gallery.push({ caption: g[1], q: g[2], ...(g[3] ? { ch: Number(g[3]) } : {}), ...(img || {}) });
+        lesson.gallery.push({ caption: g[1], q: g[2], ...(g[3] ? { ch: Number(g[3]) } : {}), ...(img || {}), ...(artworks[g[2]] || {}) });
+        if (!artworks[g[2]]) console.warn(`  ! brak opisu dzieła (twórca/okres) dla „${g[2]}” w data/artworks.json`);
         if (!img) console.warn(`  ! brak obrazu dla zapytania „${g[2]}” (uruchom wyszukiwanie obrazów)`);
       } else if (section === "Słowniczek") {
         const g = line.match(/^- (.*?):\s*(.*)$/);

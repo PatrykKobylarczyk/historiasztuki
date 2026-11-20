@@ -5,7 +5,7 @@
   "type": "module",
   "description": "KULTURA — kurs historii kultury do słuchania (PWA)",
   "scripts": {
-    "build": "node scripts/build-lessons.mjs",
+    "build": "node scripts/build-lessons.mjs && node scripts/build-index.mjs",
     "audio": "node scripts/generate-audio.mjs",
     "dev": "npx --yes serve -l 3000 ."
   },

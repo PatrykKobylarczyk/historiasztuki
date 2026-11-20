@@ -71,13 +71,15 @@ function renderHome() {
         const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "wkrótce";
         const title = c ? c.title : e.title;
         html += c
-          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>`
+          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>${e.n === currentN ? `
+            <div class="ep-scrub"><div class="progress" data-n="${e.n}" title="Przesuń, aby wybrać moment"><div style="width:${last?.n === e.n ? ((100 * (last.index || 0)) / (last.total || 1)).toFixed(1) : 0}%"></div></div></div>` : ""}`
           : `<div class="${cls}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></div>`;
       }
     }
     html += `</div></details>`;
   }
   view.innerHTML = html;
+  view.querySelectorAll(".ep-scrub .progress").forEach((bar) => scrubber(bar, lessonSource(Number(bar.dataset.n))));
 }
 
 // przydział obrazów do rozdziałów: jawny (@n) lub równomierny
@@ -213,11 +215,7 @@ async function renderLesson(n) {
 
   // podziałki rozdziałów na pasku postępu
   if (own) $(".progress .ticks", view).innerHTML = player.chapterFractions().map((f) => `<span style="left:${(f * 100).toFixed(2)}%"></span>`).join("");
-  $(".progress", view).addEventListener("click", async (e) => {
-    const r = e.currentTarget.getBoundingClientRect();
-    await ensureViewLesson();
-    player.seekFraction((e.clientX - r.left) / r.width);
-  });
+  scrubber($(".progress", view), playerSource(ensureViewLesson));
   view.querySelectorAll(".s, h3[data-i]").forEach((el) => el.addEventListener("click", async () => {
     await ensureViewLesson();
     player.seek(Number(el.dataset.i));
@@ -246,16 +244,22 @@ async function ensureViewLesson() {
   }
 }
 
+// podpis dzieła: tytuł · twórca, okres, miejsce · (drobno) autor zdjęcia i licencja
+const artMeta = (g) => [g.creator, g.date, g.place].filter(Boolean).join(" · ");
+const photoCredit = (g) => {
+  const lic = g.license && /^public domain$/i.test(g.license) ? "domena publiczna" : g.license;
+  return g.artist ? `fot. ${[g.artist, lic].filter(Boolean).join(", ")}` : lic || "";
+};
 function figureHtml(g, cls = "") {
-  const credit = [g.artist, g.license].filter(Boolean).join(", ");
-  return `<figure class="${cls}"><img loading="lazy" src="${esc(cls ? g.url || g.thumb : g.thumb)}" data-full="${esc(g.url || g.thumb)}" alt="${esc(g.caption)}">
-    <figcaption>${esc(g.caption)}${credit ? ` · <a href="${esc(g.page || "#")}" target="_blank" rel="noopener">${esc(credit)}</a>` : ""}</figcaption></figure>`;
+  const meta = artMeta(g), credit = photoCredit(g);
+  return `<figure class="${cls}"><img loading="lazy" src="${esc(cls ? g.url || g.thumb : g.thumb)}" data-full="${esc(g.url || g.thumb)}" alt="${esc(g.caption)}" data-meta="${esc(meta)}" data-credit="${esc(credit)}">
+    <figcaption><span class="ft">${esc(g.caption)}</span>${meta ? `<span class="fm">${esc(meta)}</span>` : ""}${credit ? `<a class="fc" href="${esc(g.page || "#")}" target="_blank" rel="noopener">${esc(credit)}</a>` : ""}</figcaption></figure>`;
 }
 
 function lightbox(img) {
   const d = document.createElement("div");
   d.className = "lightbox";
-  d.innerHTML = `<div><img src="${esc(img.dataset.full)}" alt=""><p>${esc(img.alt)}</p></div>`;
+  d.innerHTML = `<div><img src="${esc(img.dataset.full)}" alt=""><p><strong>${esc(img.alt)}</strong>${img.dataset.meta ? `<br>${esc(img.dataset.meta)}` : ""}${img.dataset.credit ? `<br><small>${esc(img.dataset.credit)}</small>` : ""}</p></div>`;
   d.addEventListener("click", () => d.remove());
   document.body.append(d);
 }
@@ -286,7 +290,7 @@ function updatePlayerUI(force = false) {
     $(".car-speaker .name", car).textContent = who || "";
     $(".car-speaker .dot", car).style.background = color;
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
-    $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
+    if (!scrubbing()) $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
     setIcon($(".car-play", car));
     carVisual(it?.chapter ?? 0);
   }
@@ -296,7 +300,7 @@ function updatePlayerUI(force = false) {
     $(".now .dot", pl).style.background = color;
     $(".now .who", pl).textContent = who || "Gotowe do odtwarzania";
     $(".now .chap", pl).textContent = it?.chapterTitle && it.chapterTitle !== player.lesson.title ? it.chapterTitle : "";
-    $(".progress > div", pl).style.width = `${(player.progress * 100).toFixed(1)}%`;
+    if (!scrubbing()) $(".progress > div", pl).style.width = `${(player.progress * 100).toFixed(1)}%`;
     setIcon($(".play", pl));
     $('[data-action="speed"]', pl).textContent = `${String(player.speed).replace(".", ",")}×`;
     $(".mode-note", pl).textContent = player.mode === "mp3"
@@ -367,6 +371,318 @@ document.addEventListener("click", async (e) => {
     speak(`Dzień dobry. Tu ${speakers[k].name}, KULTURA. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
   }
 });
+// ---------- Indeks osób i liczby ----------
+let indexData = null;
+const getIndex = async () => (indexData ||= await getJSON("data/index.json"));
+const CATS = {
+  malarz: "Malarze", rzeźbiarz: "Rzeźbiarze", architekt: "Architekci i urbaniści", projektant: "Projektanci", fotograf: "Fotografowie",
+  filmowiec: "Filmowcy", muzyk: "Muzycy", pisarz: "Pisarze i poeci", filozof: "Filozofowie", naukowiec: "Badacze i naukowcy",
+  polityk: "Politycy i władcy", przemysłowiec: "Przemysłowcy", inne: "Inne postaci",
+};
+const CAT1 = {
+  malarz: "malarz", rzeźbiarz: "rzeźbiarz", architekt: "architekt", projektant: "projektant", fotograf: "fotograf", filmowiec: "filmowiec",
+  muzyk: "muzyka", pisarz: "literatura", filozof: "filozofia", naukowiec: "nauka", polityk: "polityka", przemysłowiec: "przemysł", inne: "inne",
+};
+const yr = (y) => (y == null ? "" : y < 0 ? `${-y} p.n.e.` : String(y));
+const lifespan = (p) => (p.legend ? "postać legendarna" : p.born == null ? "" : p.died ? `${yr(p.born)}–${yr(p.died)}` : `ur. ${yr(p.born)}`);
+const surname = (p) => {
+  const parts = p.name.replace(/ (z|de|van|von) .*/, "").split(/\s+/);
+  return (p.sortKey || parts[parts.length - 1]).replace(/^Le$/, "Le Corbusier");
+};
+const plSort = (a, b) => a.localeCompare(b, "pl");
+
+async function renderIndex() {
+  const { people } = await getIndex();
+  const list = people.filter((p) => p.total > 0).map((p) => ({ ...p, key: p.name === "Le Corbusier" ? "Le Corbusier" : surname(p) }));
+  list.sort((a, b) => plSort(a.key, b.key) || plSort(a.name, b.name));
+  const cats = Object.entries(list.reduce((m, p) => ((m[p.c] = (m[p.c] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
+  const lessonTitle = (n) => catalog.find((c) => c.n === n)?.title || `Odcinek ${n}`;
+  const item = (p) => `<li class="person" data-c="${p.c}" data-pl="${p.pl ? 1 : 0}" data-lodz="${p.lodz ? 1 : 0}" data-q="${esc((p.name + " " + p.desc + " " + (p.country || "") + " " + (CATS[p.c] || "") + (p.lodz ? " łódź łodzi" : "") + (p.pl ? " polska polak" : "")).toLowerCase())}">
+      <div class="pn"><strong>${esc(p.name)}</strong><span class="pdates">${lifespan(p)}</span></div>
+      <div class="pd">${esc(p.desc)}${p.country ? ` · <span class="muted">${esc(p.country)}</span>` : ""}${p.lodz ? ` <span class="tag">Łódź</span>` : ""}</div>
+      <div class="pm">${p.mentions.map((m) => `<a href="#/lekcja/${m.n}/z/${m.i}" title="${esc(lessonTitle(m.n))}">Odc. ${m.n}${m.count > 1 ? ` <span>×${m.count}</span>` : ""}</a>`).join("")}</div>
+    </li>`;
+  const groups = {};
+  for (const p of list) (groups[p.key[0].toUpperCase()] ||= []).push(p);
+  view.innerHTML = `
+    <header class="page-head">
+      <div class="eyebrow">Indeks</div>
+      <h1>Osoby</h1>
+      <p>Wszyscy, o których mówimy w kursie — od archeologów i filozofów po malarzy, muzyków i łódzkich fabrykantów. Dotknij odcinka, aby przejść do miejsca, w którym pada nazwisko.</p>
+    </header>
+    <div class="index-tools">
+      <input type="search" class="index-search" placeholder="Szukaj: nazwisko, dziedzina, kraj…" aria-label="Szukaj w indeksie">
+      <div class="chips" role="group" aria-label="Filtr">
+        <button class="chip on" data-f="all">Wszyscy <span>${list.length}</span></button>
+        <button class="chip" data-f="pl">Polacy <span>${list.filter((p) => p.pl).length}</span></button>
+        <button class="chip" data-f="lodz">Łódź <span>${list.filter((p) => p.lodz).length}</span></button>
+        ${cats.map(([c, k]) => `<button class="chip" data-f="c:${c}">${CATS[c] || c} <span>${k}</span></button>`).join("")}
+      </div>
+    </div>
+    <div class="az">${Object.keys(groups).map((L) => `<a href="#" data-l="${L}">${L}</a>`).join("")}</div>
+    <div class="index-list">
+      ${Object.entries(groups).map(([L, ps]) => `<section class="letter" id="litera-${L}"><h2>${L}</h2><ul>${ps.map(item).join("")}</ul></section>`).join("")}
+      <p class="index-empty" hidden>Nikogo nie znaleziono.</p>
+    </div>`;
+  let filter = "all";
+  const apply = () => {
+    const q = $(".index-search", view).value.trim().toLowerCase();
+    let shown = 0;
+    view.querySelectorAll(".person").forEach((li) => {
+      const okF = filter === "all" || (filter === "pl" && li.dataset.pl === "1") || (filter === "lodz" && li.dataset.lodz === "1") || filter === `c:${li.dataset.c}`;
+      const ok = okF && (!q || li.dataset.q.includes(q));
+      li.hidden = !ok; if (ok) shown++;
+    });
+    view.querySelectorAll(".letter").forEach((s) => { s.hidden = !s.querySelector(".person:not([hidden])"); });
+    $(".index-empty", view).hidden = shown > 0;
+  };
+  $(".index-search", view).addEventListener("input", apply);
+  view.querySelectorAll(".chip").forEach((b) => b.addEventListener("click", () => {
+    filter = b.dataset.f;
+    view.querySelectorAll(".chip").forEach((x) => x.classList.toggle("on", x === b));
+    apply();
+  }));
+  view.querySelectorAll(".az a").forEach((a) => a.addEventListener("click", (e) => {
+    e.preventDefault();
+    document.getElementById(`litera-${a.dataset.l}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }));
+}
+
+function jumpToSentence(n, i) {
+  const el = view.querySelector(`.s[data-i="${i}"]`);
+  if (player.lesson?.n === n && !player.playing) player.seek(i);
+  if (!el) return;
+  setTimeout(() => {
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    el.classList.add("flash");
+    setTimeout(() => el.classList.remove("flash"), 2600);
+  }, 150);
+}
+
+// poziome słupki: etykieta · słupek · wartość (z dymkiem po najechaniu)
+function bars(rows, { max, unit = "", dot } = {}) {
+  const m = max ?? Math.max(1, ...rows.map((r) => r.v));
+  return `<div class="bars">${rows.map((r) => `
+    <div class="bar-row" title="${esc(r.label)}: ${r.v}${unit ? " " + unit : ""}${r.note ? " — " + esc(r.note) : ""}">
+      <span class="bl">${r.color ? `<i style="background:${r.color}"></i>` : ""}${r.href ? `<a href="${r.href}">${esc(r.label)}</a>` : esc(r.label)}</span>
+      <span class="bt"><span class="bf${r.muted ? " muted" : ""}" style="width:${Math.max(r.v ? 1.5 : 0, (100 * r.v) / m).toFixed(1)}%"></span>${r.v2 != null ? `<span class="bf2" style="width:${((100 * r.v2) / m).toFixed(1)}%"></span>` : ""}</span>
+      <span class="bv">${r.text ?? r.v}</span>
+    </div>`).join("")}</div>`;
+}
+const nf = (x) => Number(x).toLocaleString("pl-PL");
+const centName = (c) => {
+  const R = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI"];
+  return c < 0 ? `${R[-c]} w. p.n.e.` : `${R[c]} w.`;
+};
+
+async function renderStats() {
+  const { people, stats: s } = await getIndex();
+  const done = new Set(store.get("done", []));
+  const doneMin = catalog.filter((c) => done.has(c.n)).reduce((a, c) => a + c.minutes, 0);
+  const mentioned = people.filter((p) => p.total > 0);
+  const top = [...mentioned].sort((a, b) => b.total - a.total || b.mentions.length - a.mentions.length).slice(0, 10);
+  const cats = Object.entries(s.people.byCategory).sort((a, b) => b[1] - a[1]);
+  const cents = Object.entries(s.people.byCentury).map(([c, v]) => [Number(c), v]).sort((a, b) => a[0] - b[0]);
+  const spk = Object.entries(s.speakers).sort((a, b) => b[1] - a[1]);
+  const spTotal = spk.reduce((a, [, v]) => a + v, 0);
+  const pct = (a, b) => `${Math.round((100 * a) / Math.max(1, b))}%`;
+  const fig = (v, label, sub = "") => `<div class="fig"><b>${v}</b><span>${label}</span>${sub ? `<small>${sub}</small>` : ""}</div>`;
+  const block = (title, label, body) => `<section class="stat-block"><div class="section-head"><h2>${title}</h2><span class="eyebrow">${label}</span></div>${body}</section>`;
+  const lessonsSorted = [...s.lessons].sort((a, b) => a.n - b.n);
+  view.innerHTML = `
+    <header class="page-head">
+      <div class="eyebrow">Liczby · stan na ${new Date(s.generated).toLocaleDateString("pl-PL", { day: "numeric", month: "long", year: "numeric" })}</div>
+      <h1>Kurs w liczbach</h1>
+      <p>Wszystko, co da się policzyć: od epok i stuleci po malarzy, muzyków i to, ile razy pada słowo „Łódź”. Liczby rosną z każdym nowym odcinkiem.</p>
+    </header>
+
+    <div class="figs big">
+      ${fig(nf(s.course.planned), "odcinków w programie", `${s.course.ready} gotowych · ${pct(s.course.ready, s.course.planned)}`)}
+      ${fig(s.course.yearsSpan ? `${nf(Math.round(s.course.yearsSpan / 1000))}&thinsp;tys.` : "—", "lat historii", "od pierwszych malowideł do dziś")}
+      ${fig(s.course.parts, "części", `${s.course.sections} epok i okresów`)}
+      ${fig(`~${s.course.plannedHours}&thinsp;h`, "nagrań po ukończeniu", `${s.course.experts} ekspertów + gospodarz`)}
+    </div>
+
+    ${block("Twoje słuchanie", "Postęp", `
+      <div class="figs">
+        ${fig(`${done.size}<small> / ${s.course.planned}</small>`, "wysłuchanych odcinków", `${pct(done.size, s.course.ready)} gotowych`)}
+        ${fig(`${doneMin}<small> min</small>`, "wysłuchanego czasu", `z ${s.ready.minutes} min dostępnych`)}
+      </div>
+      <div class="meter" title="${done.size} z ${s.course.planned} odcinków"><span style="width:${(100 * done.size) / s.course.planned}%"></span><span class="m2" style="width:${(100 * (s.course.ready - done.size)) / s.course.planned}%"></span></div>
+      <div class="meter-legend"><span><i class="k1"></i>wysłuchane</span><span><i class="k2"></i>gotowe do słuchania</span><span><i class="k3"></i>w przygotowaniu</span></div>`)}
+
+    ${block("Gotowe odcinki", `${s.course.ready} odcinków`, `
+      <div class="figs">
+        ${fig(s.ready.minutes, "minut nagrań")}
+        ${fig(nf(s.ready.words), "słów", `${nf(s.ready.sentences)} zdań`)}
+        ${fig(s.ready.chapters, "rozdziałów")}
+        ${fig(s.ready.images, "obrazów")}
+        ${fig(s.ready.glossary, "pojęć w słowniczkach")}
+        ${fig(s.ready.quiz, "pytań w quizach")}
+        ${fig(s.ready.sources, "źródeł")}
+        ${fig(s.ready.music, "utworów do posłuchania")}
+      </div>
+      <h3 class="sub-h">Długość odcinków</h3>
+      ${bars(lessonsSorted.map((l) => ({ label: `${l.n}. ${l.title}`, v: l.minutes, text: `${l.minutes} min`, href: `#/lekcja/${l.n}`, note: l.era })), { unit: "min" })}`)}
+
+    ${block("Ludzie", `${s.people.total} osób · ${s.people.mentions} wzmianek`, `
+      <div class="figs">
+        ${fig(s.people.byCategory.malarz || 0, "malarzy")}
+        ${fig(s.people.byCategory.muzyk || 0, "muzyków")}
+        ${fig(s.people.byCategory.pisarz || 0, "pisarzy i poetów")}
+        ${fig(s.people.byCategory.architekt || 0, "architektów")}
+        ${fig(s.people.byCountry.Polska || 0, "Polaków", `${pct(s.people.byCountry.Polska || 0, s.people.total)} wszystkich`)}
+        ${fig(s.people.byGender.f || 0, "kobiet", `${pct(s.people.byGender.f || 0, s.people.total)} wszystkich`)}
+      </div>
+      <div class="cols">
+        <div><h3 class="sub-h">Według dziedziny</h3>${bars(cats.map(([c, v]) => ({ label: CATS[c] || c, v, href: "#/indeks" })))}</div>
+        <div><h3 class="sub-h">Najczęściej wymieniani</h3>${bars(top.map((p) => ({ label: p.name, v: p.total, text: `${p.total}×`, note: p.desc, href: `#/lekcja/${p.mentions[0].n}/z/${p.mentions[0].i}` })), { unit: "wzmianek" })}</div>
+      </div>
+      <h3 class="sub-h">Według stulecia urodzin</h3>
+      <div class="hist">${cents.map(([c, v]) => `<div class="hcol" title="${centName(c)}: ${v} ${v === 1 ? "osoba" : v < 5 ? "osoby" : "osób"}"><span class="hv">${v}</span><span class="hb" style="height:${(100 * v) / Math.max(...cents.map((x) => x[1]))}%"></span><span class="hl">${centName(c).replace(" w.", "").replace(" p.n.e.", "<br>p.n.e.")}</span></div>`).join("")}</div>`)}
+
+    ${block("Łódź", `${s.ready.lodz} wzmianek`, `
+      <div class="figs">
+        ${fig(s.ready.lodz, "razy pada „Łódź”", "w gotowych odcinkach")}
+        ${fig(s.lessons.filter((l) => l.lodz).length, "odcinków z Łodzią", `na ${s.course.ready} gotowych`)}
+        ${fig(s.lodzEpisodes.length, "odcinków o Łodzi w programie", `${s.lodzEpisodes.filter((e) => e.ready).length} gotowych`)}
+        ${fig(s.people.lodz, "osób związanych z Łodzią")}
+      </div>
+      <h3 class="sub-h">Wzmianki o Łodzi w odcinkach</h3>
+      ${bars(lessonsSorted.map((l) => ({ label: `${l.n}. ${l.title}`, v: l.lodz, href: `#/lekcja/${l.n}` })), { unit: "wzmianek" })}
+      <h3 class="sub-h">Łódzkie odcinki w programie</h3>
+      <ul class="plain">${s.lodzEpisodes.map((e) => `<li class="${e.ready ? "" : "muted"}"><span class="num">${String(e.n).padStart(3, "0")}</span>${e.ready ? `<a href="#/lekcja/${e.n}">${esc(e.title)}</a>` : esc(e.title)}</li>`).join("")}</ul>`)}
+
+    ${block("Program", `${s.course.parts} części`, `
+      <div class="cols">
+        <div><h3 class="sub-h">Odcinki w częściach</h3>
+          ${bars(s.parts.map((p) => ({ label: `${p.id}. ${p.title.split(" — ")[0]}`, v: p.episodes, v2: p.ready, text: p.ready ? `${p.ready}/${p.episodes}` : p.episodes, note: p.title })), { unit: "odcinków" })}
+          <div class="meter-legend"><span><i class="k2"></i>w programie</span><span><i class="k1"></i>gotowe</span></div></div>
+        <div><h3 class="sub-h">Dziedziny w tytułach odcinków</h3>
+          ${bars([...s.domains].sort((a, b) => b.count - a.count).map((d) => ({ label: d.name, v: d.count })), { unit: "odcinków" })}
+          <p class="note">Odcinek może należeć do kilku dziedzin.</p></div>
+      </div>`)}
+
+    ${block("Głosy", "Kto mówi najwięcej", `
+      ${bars(spk.map(([k, v]) => ({ label: speakers[k]?.name || k, v, text: pct(v, spTotal), color: speakers[k]?.color, note: `${nf(v)} słów` })), { unit: "słów" })}`)}
+
+    <p class="note">Liczby obejmują gotowe odcinki; program liczy wszystkie zaplanowane. Postęp słuchania zapisuje się na tym urządzeniu.</p>`;
+}
+
+// ---------- Przewijanie z podglądem zdania ----------
+const scrubbing = () => document.documentElement.classList.contains("is-scrubbing");
+const fmtTime = (s) => { s = Math.max(0, Math.round(s || 0)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`; };
+let tip = null;
+function scrubTip() {
+  if (tip) return tip;
+  tip = document.createElement("div");
+  tip.className = "scrubtip";
+  tip.hidden = true;
+  tip.innerHTML = `<div class="st-meta"><span class="st-time"></span><span class="st-dot"></span><span class="st-who"></span><span class="st-chap"></span></div><div class="st-text"></div>`;
+  document.body.append(tip);
+  return tip;
+}
+function showTip(bar, f, info) {
+  const t = scrubTip();
+  const it = info.item;
+  const sp = it?.sp ? speakers[it.sp] : null;
+  $(".st-time", t).textContent = `${fmtTime(info.sec)} / ${fmtTime(info.total)}`;
+  $(".st-dot", t).style.background = sp?.color || "var(--accent)";
+  $(".st-who", t).textContent = it?.kind === "speech" ? (sp?.name || "") : it?.kind === "sting" ? "Rozdział" : "Sygnał";
+  $(".st-chap", t).textContent = it?.chapterTitle || "";
+  $(".st-text", t).textContent = it?.kind === "speech" ? it.text : it?.chapterTitle || "";
+  t.hidden = false;
+  const r = bar.getBoundingClientRect();
+  const w = t.offsetWidth, h = t.offsetHeight;
+  const x = Math.max(12, Math.min(window.innerWidth - w - 12, r.left + f * r.width - w / 2));
+  const above = r.top - h - 18;
+  t.style.left = `${x}px`;
+  t.style.top = `${above > 8 ? above : r.bottom + 18}px`;
+  t.style.setProperty("--arrow", `${Math.max(16, Math.min(w - 16, r.left + f * r.width - x))}px`);
+  t.classList.toggle("below", above <= 8);
+}
+// źródło danych dla paska: odtwarzacz (lekcja otwarta) albo sam plik lekcji (lista odcinków)
+function playerSource(prepare) {
+  return {
+    async ready() { if (prepare) await prepare(); return !!player.lesson; },
+    at(f) { const a = player.at(f); return { ...a, item: player.items[a.index] }; },
+    commit(f, a) { if (player.mode === "mp3") player.seekFraction(f); else player.seek(a.index); },
+  };
+}
+function lessonSource(n) {
+  let data = null;
+  return {
+    async ready() {
+      if (player.lesson?.n === n) { data = null; return true; }
+      if (!data) {
+        const lesson = await (await fetch(`data/lessons/${String(n).padStart(3, "0")}.json`)).json();
+        const items = buildItems(lesson);
+        const w = items.map((it) => (it.kind === "speech" ? it.text.length : it.kind === "jingle" ? 120 : it.kind === "outro" ? 60 : 25));
+        const cum = []; let acc = 0; for (const x of w) { cum.push(acc); acc += x; }
+        data = { lesson, items, cum, total: acc };
+      }
+      return true;
+    },
+    at(f) {
+      if (!data) { const a = player.at(f); return { ...a, item: player.items[a.index] }; }
+      const target = f * data.total;
+      let i = data.cum.findIndex((c) => c > target); if (i < 0) i = data.items.length;
+      const index = Math.max(0, i - 1), total = (data.lesson.minutes || 15) * 60;
+      return { index, sec: f * total, total, item: data.items[index] };
+    },
+    commit(f, a) {
+      if (!data) { player.mode === "mp3" ? player.seekFraction(f) : player.seek(a.index); }
+      else store.set(`pos:${n}`, a.index);
+      location.hash = `#/lekcja/${n}`;
+    },
+  };
+}
+function scrubber(bar, src) {
+  if (!bar) return;
+  let active = false, f = 0, info = null, id = null;
+  const frac = (e) => { const r = bar.getBoundingClientRect(); return Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)); };
+  const fill = () => bar.querySelector(":scope > div:first-child");
+  const move = (e) => {
+    if (!active) return;
+    f = frac(e);
+    info = src.at(f);
+    const el = fill(); if (el) el.style.width = `${(f * 100).toFixed(2)}%`;
+    bar.style.setProperty("--f", f);
+    showTip(bar, f, info);
+  };
+  bar.addEventListener("pointerdown", async (e) => {
+    if (e.button > 0) return;
+    e.preventDefault();
+    id = e.pointerId;
+    try { bar.setPointerCapture(id); } catch {}
+    bar.classList.add("scrubbing");
+    document.documentElement.classList.add("is-scrubbing");
+    active = await src.ready();
+    move(e);
+  });
+  bar.addEventListener("pointermove", move);
+  const end = (commit) => {
+    if (!bar.classList.contains("scrubbing")) return;
+    bar.classList.remove("scrubbing");
+    document.documentElement.classList.remove("is-scrubbing");
+    if (tip) tip.hidden = true;
+    if (active && commit && info) src.commit(f, info);
+    active = false;
+    updatePlayerUI(true);
+  };
+  bar.addEventListener("pointerup", () => end(true));
+  bar.addEventListener("pointercancel", () => end(false));
+  bar.addEventListener("click", (e) => { e.preventDefault(); e.stopPropagation(); });
+}
+
+// okładka na ekranie blokady: obrazy bieżącego rozdziału, zmiana co kilka zdań
+player.artworkFor = (lesson, it, index) => {
+  const list = imagesForChapter(lesson, it?.chapter ?? 0).filter((g) => g.url || g.thumb);
+  if (!list.length) return null;
+  const g = list[Math.floor(index / 8) % list.length];
+  return { src: g.url || g.thumb, thumb: g.thumb, caption: g.caption, meta: artMeta(g) };
+};
+
 // ---------- Tryb auto ----------
 function openCar(fromLessonView) {
   keepAwake.enable();
@@ -430,8 +746,8 @@ function showCarImage() {
     next.classList.add("on");
     cur.classList.remove("on");
     carState.layer ^= 1;
-    const credit = [g.artist, g.license].filter(Boolean).join(", ");
-    $(".cv-caption", box).textContent = g.caption + (credit ? ` · ${credit}` : "");
+    const meta = artMeta(g);
+    $(".cv-caption", box).innerHTML = `<strong>${esc(g.caption)}</strong>${meta ? `<br>${esc(meta)}` : ""}`;
     $(".cv-count", box).textContent = carState.list.length > 1 ? `${carState.pos + 1} / ${carState.list.length}` : "";
   };
   pre.src = src;
@@ -516,12 +832,17 @@ function applyTheme() {
 // ---------- Router ----------
 async function route() {
   const h = location.hash || "#/";
-  document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active",
-    (a.dataset.nav === "home" && !h.startsWith("#/ustawienia")) || (a.dataset.nav === "settings" && h.startsWith("#/ustawienia"))));
-  const m = h.match(/^#\/lekcja\/(\d+)/);
+  const section = h.startsWith("#/ustawienia") ? "settings" : h.startsWith("#/indeks") ? "index" : h.startsWith("#/liczby") ? "stats" : "home";
+  document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === section));
+  const m = h.match(/^#\/lekcja\/(\d+)(?:\/z\/(\d+))?/);
   lastCur = -1;
-  if (m) await renderLesson(Number(m[1]));
-  else if (h.startsWith("#/ustawienia")) await renderSettings();
+  if (m) {
+    await renderLesson(Number(m[1]));
+    if (m[2] != null) jumpToSentence(Number(m[1]), Number(m[2]));
+  }
+  else if (section === "settings") await renderSettings();
+  else if (section === "index") await renderIndex();
+  else if (section === "stats") await renderStats();
   else renderHome();
   if (!m) window.scrollTo(0, 0);
   updatePlayerUI(true);
@@ -529,6 +850,7 @@ async function route() {
 
 async function init() {
   applyTheme();
+  scrubber($("#carmode .car-progress"), playerSource());
   document.querySelectorAll("[data-icon]").forEach((el) => { el.insertAdjacentHTML("afterbegin", icons[el.dataset.icon]); });
   [program, catalog, speakers] = await Promise.all([getJSON("data/program.json"), getJSON("data/catalog.json"), getJSON("data/speakers.json")]);
   window.addEventListener("hashchange", route);

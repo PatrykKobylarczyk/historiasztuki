@@ -161,6 +161,23 @@ export class Player extends EventTarget {
     else this.#emit();
   }
 
+  // podgląd przewijania: który element (zdanie) i która sekunda odpowiada ułamkowi f
+  at(f) {
+    f = Math.max(0, Math.min(1, f));
+    if (this.mode === "mp3" && this.manifest) {
+      const dur = this.audio.duration || this.manifest.duration || 0;
+      const t = f * dur;
+      let i = this.manifest.starts.findIndex((s) => s > t);
+      if (i < 0) i = this.items.length;
+      return { index: Math.max(0, i - 1), sec: t, total: dur };
+    }
+    const target = f * this.total;
+    let i = this.cum.findIndex((c) => c > target);
+    if (i < 0) i = this.items.length;
+    const total = (this.lesson?.minutes || 15) * 60;
+    return { index: Math.max(0, i - 1), sec: f * total, total };
+  }
+
   seekFraction(f) {
     if (this.mode === "mp3" && this.audio.duration) { this.audio.currentTime = f * this.audio.duration; return; }
     const target = f * this.total;
@@ -326,15 +343,22 @@ export class Player extends EventTarget {
     if (!("mediaSession" in navigator) || !this.lesson) return;
     const it = this.current;
     const sp = it?.sp ? this.speakers?.[it.sp]?.name : "KULTURA";
-    const key = `${this.lesson.n}|${it?.chapterTitle}|${sp}`;
+    // okładka na ekranie blokady: obraz z bieżącego rozdziału (podaje aplikacja), inaczej ikona
+    const art = this.artworkFor?.(this.lesson, it, this.index) || null;
+    const key = `${this.lesson.n}|${it?.chapterTitle}|${sp}|${art?.src || ""}`;
     if (key !== this._msKey) {
       this._msKey = key;
       try {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: `${this.lesson.n}. ${this.lesson.title}`,
-          artist: `${sp} — ${it?.chapterTitle || ""}`,
-          album: "KULTURA",
-          artwork: [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }],
+          artist: art?.caption ? `${sp} · ${art.caption}` : `${sp} — ${it?.chapterTitle || ""}`,
+          album: art?.meta ? `KULTURA · ${art.meta}` : "KULTURA",
+          artwork: art
+            ? [
+                ...(art.thumb ? [{ src: art.thumb, sizes: "512x512", type: "image/jpeg" }] : []),
+                { src: art.src, sizes: "1280x1280", type: "image/jpeg" },
+              ]
+            : [{ src: "icons/icon-512.png", sizes: "512x512", type: "image/png" }],
         });
       } catch {}
     }

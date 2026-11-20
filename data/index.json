@@ -1,0 +1,1874 @@
+{
+ "people": [
+  {
+   "id": "arystoteles",
+   "name": "Arystoteles",
+   "born": -384,
+   "died": -322,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof grecki",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 201
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "banksy",
+   "name": "Banksy",
+   "born": 1974,
+   "c": "malarz",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "anonimowy artysta street artu",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 169
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "basquiat",
+   "name": "Jean-Michel Basquiat",
+   "born": 1960,
+   "died": 1988,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "malarz, wyrósł z nowojorskiego graffiti",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 169
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "bialoszewski",
+   "name": "Miron Białoszewski",
+   "born": 1922,
+   "died": 1983,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, „Pamiętnik z powstania warszawskiego”",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 120
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "bowie",
+   "name": "David Bowie",
+   "born": 1947,
+   "died": 2016,
+   "c": "muzyk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "muzyk rockowy",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 136
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "breuil",
+   "name": "Henri Breuil",
+   "born": 1877,
+   "died": 1961,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "ksiądz i prehistoryk, teoria magii łowieckiej",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 195
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "cartailhac",
+   "name": "Émile Cartailhac",
+   "born": 1845,
+   "died": 1921,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "prehistoryk, autor „mea culpa sceptyka”",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 50
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "chierowski",
+   "name": "Józef Chierowski",
+   "born": 1927,
+   "died": 2013,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant fotela 366",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 60
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "childe",
+   "name": "Vere Gordon Childe",
+   "born": 1892,
+   "died": 1957,
+   "c": "naukowiec",
+   "country": "Australia",
+   "g": "m",
+   "desc": "archeolog, twórca pojęcia „rewolucja neolityczna”",
+   "mentions": [
+    {
+     "n": 2,
+     "count": 1,
+     "i": 29
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "constable",
+   "name": "John Constable",
+   "born": 1776,
+   "died": 1837,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "malarz romantyczny, akwarela ze Stonehenge",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 120
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "diamond",
+   "name": "Jared Diamond",
+   "born": 1937,
+   "c": "naukowiec",
+   "country": "USA",
+   "g": "m",
+   "desc": "biolog i geograf, autor tezy o rolnictwie jako „najgorszym błędzie”",
+   "mentions": [
+    {
+     "n": 2,
+     "count": 1,
+     "i": 179
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ernst",
+   "name": "Max Ernst",
+   "born": 1891,
+   "died": 1976,
+   "c": "malarz",
+   "country": "Niemcy / Francja",
+   "g": "m",
+   "desc": "malarz surrealista; praca w łódzkim Muzeum Sztuki",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 178
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "fangor",
+   "name": "Wojciech Fangor",
+   "born": 1922,
+   "died": 2015,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, twórca op-artu i plakacista",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 84
+    },
+    {
+     "n": 5,
+     "count": 1,
+     "i": 170
+    },
+    {
+     "n": 186,
+     "count": 5,
+     "i": 66
+    }
+   ],
+   "total": 7
+  },
+  {
+   "id": "geoffrey",
+   "name": "Geoffrey z Monmouth",
+   "born": 1095,
+   "died": 1155,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "kronikarz, autor „Historii królów Brytanii”",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 115
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "gierek",
+   "name": "Edward Gierek",
+   "born": 1913,
+   "died": 2001,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "I sekretarz PZPR 1970–1980",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 23
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "gombrich",
+   "name": "Ernst Gombrich",
+   "born": 1909,
+   "died": 2001,
+   "c": "naukowiec",
+   "country": "Austria / Wielka Brytania",
+   "g": "m",
+   "desc": "historyk sztuki, „Zmysł porządku”",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 2,
+     "i": 57
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "gomulka",
+   "name": "Władysław Gomułka",
+   "born": 1905,
+   "died": 1982,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "I sekretarz PZPR 1956–1970",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 22
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "gryczelowska",
+   "name": "Krystyna Gryczełowska",
+   "born": 1931,
+   "died": 2009,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "dokumentalistka, „Nasze znajome z Łodzi”",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 97
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "haring",
+   "name": "Keith Haring",
+   "born": 1958,
+   "died": 1990,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "artysta graffiti i pop-artu",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 169
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "heidegger",
+   "name": "Martin Heidegger",
+   "born": 1889,
+   "died": 1976,
+   "c": "filozof",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "filozof, esej „Budować, mieszkać, myśleć”",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 148
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "herbert",
+   "name": "Zbigniew Herbert",
+   "born": 1924,
+   "died": 1998,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, „Pan Cogito”",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 123
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "hodder",
+   "name": "Ian Hodder",
+   "born": 1948,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, wieloletni kierownik badań w Çatalhöyük",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "horacy",
+   "name": "Horacy",
+   "born": -65,
+   "died": -8,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta rzymski",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 161
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "inigo-jones",
+   "name": "Inigo Jones",
+   "born": 1573,
+   "died": 1652,
+   "c": "architekt",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "architekt, propagator palladianizmu w Anglii",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 116
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "jaroszewicz",
+   "name": "Piotr Jaroszewicz",
+   "born": 1909,
+   "died": 1992,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "premier PRL 1970–1980",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 35
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "jedrasiak",
+   "name": "Henryk Jędrasiak",
+   "born": 1927,
+   "died": 2010,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant figurek porcelanowych",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 92
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 154
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "klaus-schmidt",
+   "name": "Klaus Schmidt",
+   "born": 1953,
+   "died": 2014,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "archeolog, odkrywca Göbekli Tepe",
+   "mentions": [
+    {
+     "n": 2,
+     "count": 2,
+     "i": 40
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "kobro",
+   "name": "Katarzyna Kobro",
+   "born": 1898,
+   "died": 1951,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "f",
+   "desc": "rzeźbiarka awangardy, grupa a.r.",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 3,
+     "i": 78
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "konwicki",
+   "name": "Tadeusz Konwicki",
+   "born": 1926,
+   "died": 2015,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz i reżyser",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 123
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "krall",
+   "name": "Hanna Krall",
+   "born": 1935,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "reporterka",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 124
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kraszewski",
+   "name": "Józef Ignacy Kraszewski",
+   "born": 1812,
+   "died": 1887,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz, autor „Starej baśni”",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 125
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kubasinska",
+   "name": "Mira Kubasińska",
+   "born": 1944,
+   "died": 2005,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "wokalistka zespołu Breakout",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 134
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "le-corbusier",
+   "name": "Le Corbusier",
+   "born": 1887,
+   "died": 1965,
+   "c": "architekt",
+   "country": "Szwajcaria / Francja",
+   "g": "m",
+   "desc": "architekt modernizmu",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 172
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "leger",
+   "name": "Fernand Léger",
+   "born": 1881,
+   "died": 1955,
+   "c": "malarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "malarz kubista; praca w łódzkim Muzeum Sztuki",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 178
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "lem",
+   "name": "Stanisław Lem",
+   "born": 1921,
+   "died": 2006,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz fantastyki naukowej i filozof",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 123
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "leroi-gourhan",
+   "name": "André Leroi-Gourhan",
+   "born": 1911,
+   "died": 1986,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "prehistoryk, strukturalna interpretacja sztuki jaskiniowej",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 196
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "lewis-williams",
+   "name": "David Lewis-Williams",
+   "born": 1934,
+   "c": "naukowiec",
+   "country": "RPA",
+   "g": "m",
+   "desc": "archeolog, hipoteza szamańska sztuki naskalnej",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 197
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "loos",
+   "name": "Adolf Loos",
+   "born": 1870,
+   "died": 1933,
+   "c": "architekt",
+   "country": "Austria",
+   "g": "m",
+   "desc": "architekt, autor „Ornamentu i zbrodni”",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 5,
+     "i": 168
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "marchlewski",
+   "name": "Julian Marchlewski",
+   "born": 1866,
+   "died": 1925,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "działacz komunistyczny, patron łódzkich zakładów bawełnianych",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 31
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "maria-sautuola",
+   "name": "María Sanz de Sautuola",
+   "born": 1870,
+   "died": 1946,
+   "c": "inne",
+   "country": "Hiszpania",
+   "g": "f",
+   "desc": "córka Marcelina; jako dziecko pierwsza zobaczyła malowidła z Altamiry",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 44
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "marian-schmidt",
+   "name": "Marian Schmidt",
+   "born": 1938,
+   "c": "fotograf",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "fotograf, dokumentalista Łodzi",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 3,
+     "i": 106
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "mellaart",
+   "name": "James Mellaart",
+   "born": 1925,
+   "died": 2012,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, pierwszy badacz Çatalhöyük",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "merlin",
+   "name": "Merlin",
+   "c": "inne",
+   "country": "legenda",
+   "g": "m",
+   "legend": true,
+   "desc": "czarodziej z legend arturiańskich",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 115
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "mickiewicz",
+   "name": "Adam Mickiewicz",
+   "born": 1798,
+   "died": 1855,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, autor „Pana Tadeusza”",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 154
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "mieszko",
+   "name": "Mieszko I",
+   "born": 940,
+   "died": 992,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy historyczny władca Polski",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 186
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "nalepa",
+   "name": "Tadeusz Nalepa",
+   "born": 1943,
+   "died": 2007,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "gitarzysta, lider zespołu Breakout",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 134
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "naruszewicz",
+   "name": "Mieczysław Naruszewicz",
+   "born": 1919,
+   "died": 2003,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant figurek porcelanowych",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 92
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 154
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "niemen",
+   "name": "Czesław Niemen",
+   "born": 1939,
+   "died": 2004,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "wokalista i kompozytor",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 131
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "norwid",
+   "name": "Cyprian Kamil Norwid",
+   "born": 1821,
+   "died": 1883,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta; jego wiersze śpiewał Niemen",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 133
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "nowosielski",
+   "name": "Jerzy Nowosielski",
+   "born": 1923,
+   "died": 2011,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, łączący ikonę z nowoczesnością",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 79
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "orthwein",
+   "name": "Hanna Orthwein",
+   "born": 1921,
+   "died": 2010,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "projektantka figurek porcelanowych",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 92
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 154
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "palladio",
+   "name": "Andrea Palladio",
+   "born": 1508,
+   "died": 1580,
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "architekt renesansu",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 116
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "petrie",
+   "name": "Flinders Petrie",
+   "born": 1853,
+   "died": 1942,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "egiptolog, twórca datowania sekwencyjnego ceramiki",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 131
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "picasso",
+   "name": "Pablo Picasso",
+   "born": 1881,
+   "died": 1973,
+   "c": "malarz",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "malarz, współtwórca kubizmu",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 119
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 178
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "platon",
+   "name": "Platon",
+   "born": -427,
+   "died": -347,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof grecki",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 201
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "poznanski",
+   "name": "Izrael Poznański",
+   "born": 1833,
+   "died": 1900,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "łódzki fabrykant, twórca kompleksu dzisiejszej Manufaktury",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 5,
+     "i": 31
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "rembielinski",
+   "name": "Rajmund Rembieliński",
+   "born": 1775,
+   "died": 1841,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "urbanista, twórca planu przemysłowej Łodzi",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 102
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "reymont",
+   "name": "Władysław Reymont",
+   "born": 1867,
+   "died": 1925,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "pisarz, autor „Ziemi obiecanej” o Łodzi",
+   "mentions": [
+    {
+     "n": 3,
+     "count": 1,
+     "i": 155
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 103
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "reznikoff",
+   "name": "Iegor Reznikoff",
+   "born": 1938,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "muzykolog, badacz akustyki jaskiń",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 1,
+     "i": 162
+    },
+    {
+     "n": 5,
+     "count": 1,
+     "i": 86
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "richter",
+   "name": "Gerhard Richter",
+   "born": 1932,
+   "c": "malarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "malarz, relacja fotografii i obrazu",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 83
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "riegl",
+   "name": "Alois Riegl",
+   "born": 1858,
+   "died": 1905,
+   "c": "naukowiec",
+   "country": "Austria",
+   "g": "m",
+   "desc": "historyk sztuki, „Problemy stylu”",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 3,
+     "i": 53
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "rodin",
+   "name": "Auguste Rodin",
+   "born": 1840,
+   "died": 1917,
+   "c": "rzeźbiarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor „Myśliciela”",
+   "mentions": [
+    {
+     "n": 2,
+     "count": 1,
+     "i": 150
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "rothko",
+   "name": "Mark Rothko",
+   "born": 1903,
+   "died": 1970,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "malarz abstrakcji barwnej",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 83
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "rousseau",
+   "name": "Jean-Jacques Rousseau",
+   "born": 1712,
+   "died": 1778,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "filozof oświecenia, krytyk własności i cywilizacji",
+   "mentions": [
+    {
+     "n": 2,
+     "count": 1,
+     "i": 186
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "sautuola",
+   "name": "Marcelino Sanz de Sautuola",
+   "born": 1831,
+   "died": 1888,
+   "c": "naukowiec",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "prawnik i archeolog amator, odkrywca malowideł w Altamirze",
+   "mentions": [
+    {
+     "n": 1,
+     "count": 3,
+     "i": 44
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "scheibler",
+   "name": "Karol Scheibler",
+   "born": 1820,
+   "died": 1881,
+   "c": "przemysłowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "łódzki fabrykant, twórca Księżego Młyna",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 51
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "schwitters",
+   "name": "Kurt Schwitters",
+   "born": 1887,
+   "died": 1948,
+   "c": "malarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "artysta dadaista; praca w łódzkim Muzeum Sztuki",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 1,
+     "i": 178
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "scott",
+   "name": "James C. Scott",
+   "born": 1936,
+   "died": 2024,
+   "c": "naukowiec",
+   "country": "USA",
+   "g": "m",
+   "desc": "politolog i antropolog, badacz pierwszych państw",
+   "mentions": [
+    {
+     "n": 2,
+     "count": 1,
+     "i": 181
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "semper",
+   "name": "Gottfried Semper",
+   "born": 1803,
+   "died": 1879,
+   "c": "architekt",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "architekt i teoretyk, techniczne korzenie ornamentu",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 3,
+     "i": 50
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "stazewski",
+   "name": "Henryk Stażewski",
+   "born": 1894,
+   "died": 1988,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz awangardy, grupa a.r.",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 4,
+     "i": 74
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "strzeminski",
+   "name": "Władysław Strzemiński",
+   "born": 1893,
+   "died": 1952,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "malarz awangardy, twórca unizmu i Sali Neoplastycznej",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 4,
+     "i": 78
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "stukeley",
+   "name": "William Stukeley",
+   "born": 1687,
+   "died": 1765,
+   "c": "naukowiec",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "antykwariusz, badacz Stonehenge",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 117
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "tomaszewski",
+   "name": "Lubomir Tomaszewski",
+   "born": 1923,
+   "died": 2018,
+   "c": "projektant",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "projektant porcelany Ćmielów",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 92
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 154
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "turner",
+   "name": "William Turner",
+   "born": 1775,
+   "died": 1851,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "malarz romantyczny",
+   "mentions": [
+    {
+     "n": 5,
+     "count": 1,
+     "i": 121
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "wajda",
+   "name": "Andrzej Wajda",
+   "born": 1926,
+   "died": 2016,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "g": "m",
+   "desc": "reżyser, „Ziemia obiecana” kręcona w Łodzi",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 103
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "warhol",
+   "name": "Andy Warhol",
+   "born": 1928,
+   "died": 1987,
+   "c": "malarz",
+   "country": "USA",
+   "g": "m",
+   "desc": "artysta pop-artu",
+   "mentions": [
+    {
+     "n": 186,
+     "count": 2,
+     "i": 83
+    }
+   ],
+   "total": 2
+  }
+ ],
+ "stats": {
+  "generated": "2026-11-20",
+  "course": {
+   "planned": 220,
+   "ready": 6,
+   "parts": 11,
+   "sections": 19,
+   "plannedHours": 61,
+   "yearsSpan": 52026,
+   "experts": 7
+  },
+  "ready": {
+   "minutes": 99,
+   "words": 13498,
+   "sentences": 1078,
+   "chapters": 59,
+   "images": 47,
+   "glossary": 42,
+   "quiz": 28,
+   "sources": 30,
+   "music": 3,
+   "lodz": 58,
+   "polska": 55
+  },
+  "lessons": [
+   {
+    "n": 1,
+    "title": "Zanim powstała historia sztuki",
+    "era": "Górny paleolit · ok. 50 000–10 000 lat temu",
+    "minutes": 17,
+    "words": 2349,
+    "sentences": 204,
+    "chapters": 8,
+    "images": 9,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 6,
+    "music": 1,
+    "lodz": 6,
+    "polska": 6,
+    "people": 11,
+    "speakers": {
+     "gospodarz": 266,
+     "historyk": 566,
+     "sztuka": 830,
+     "architekt": 215,
+     "muzyka": 256,
+     "literatura": 216
+    }
+   },
+   {
+    "n": 2,
+    "title": "Rewolucja neolityczna",
+    "era": "Neolit · ok. 10 000–3000 p.n.e. (na ziemiach polskich od ok. 5400 p.n.e.)",
+    "minutes": 17,
+    "words": 2297,
+    "sentences": 184,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 9,
+    "polska": 8,
+    "people": 6,
+    "speakers": {
+     "gospodarz": 282,
+     "historyk": 761,
+     "architekt": 252,
+     "design": 290,
+     "muzyka": 225,
+     "sztuka": 306,
+     "literatura": 181
+    }
+   },
+   {
+    "n": 3,
+    "title": "Pierwsze domy, osady i miasta",
+    "era": "Neolit i eneolit · ok. 9000–3000 p.n.e.",
+    "minutes": 15,
+    "words": 2017,
+    "sentences": 150,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 11,
+    "polska": 5,
+    "people": 7,
+    "speakers": {
+     "gospodarz": 249,
+     "architekt": 1005,
+     "design": 54,
+     "historyk": 573,
+     "literatura": 136
+    }
+   },
+   {
+    "n": 4,
+    "title": "Narodziny ceramiki, ornamentu i pierwszego wzornictwa",
+    "era": "Od ok. 26 000 lat temu do epoki brązu",
+    "minutes": 16,
+    "words": 2231,
+    "sentences": 172,
+    "chapters": 10,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 6,
+    "music": 0,
+    "lodz": 2,
+    "polska": 10,
+    "people": 11,
+    "speakers": {
+     "gospodarz": 235,
+     "design": 823,
+     "historyk": 449,
+     "sztuka": 412,
+     "muzyka": 155,
+     "literatura": 157
+    }
+   },
+   {
+    "n": 5,
+    "title": "Megality",
+    "era": "Ok. 4500–1500 p.n.e. · zamknięcie części I",
+    "minutes": 16,
+    "words": 2211,
+    "sentences": 163,
+    "chapters": 11,
+    "images": 8,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 5,
+    "people": 11,
+    "speakers": {
+     "gospodarz": 181,
+     "architekt": 923,
+     "historyk": 499,
+     "muzyka": 239,
+     "sztuka": 256,
+     "literatura": 95,
+     "design": 18
+    }
+   },
+   {
+    "n": 186,
+    "title": "Łódź 1971 — protest, sztuka i obraz miasta",
+    "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
+    "minutes": 18,
+    "words": 2393,
+    "sentences": 205,
+    "chapters": 12,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 6,
+    "music": 2,
+    "lodz": 29,
+    "polska": 21,
+    "people": 39,
+    "speakers": {
+     "gospodarz": 424,
+     "historyk": 304,
+     "architekt": 304,
+     "sztuka": 488,
+     "foto": 279,
+     "literatura": 109,
+     "muzyka": 149,
+     "design": 336
+    }
+   }
+  ],
+  "speakers": {
+   "gospodarz": 1637,
+   "historyk": 3152,
+   "sztuka": 2292,
+   "architekt": 2699,
+   "muzyka": 1024,
+   "literatura": 894,
+   "design": 1521,
+   "foto": 279
+  },
+  "parts": [
+   {
+    "id": "I",
+    "title": "Narodziny kultury i pierwsze cywilizacje",
+    "episodes": 5,
+    "ready": 5,
+    "sections": 1
+   },
+   {
+    "id": "II",
+    "title": "Starożytność — fundamenty Europy",
+    "episodes": 17,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "III",
+    "title": "Średniowiecze — religia, wspólnota i symbol",
+    "episodes": 16,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "IV",
+    "title": "Renesans — odkrycie człowieka",
+    "episodes": 16,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "V",
+    "title": "Manieryzm, barok i kultura dworu",
+    "episodes": 13,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "VI",
+    "title": "Oświecenie i narodziny nowoczesności",
+    "episodes": 13,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "VII",
+    "title": "Romantyzm i wiek rewolucji",
+    "episodes": 14,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "VIII",
+    "title": "Wiek przemysłowy — 1850–1900",
+    "episodes": 17,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "IX",
+    "title": "XX wiek — narodziny współczesności",
+    "episodes": 82,
+    "ready": 1,
+    "sections": 9
+   },
+   {
+    "id": "X",
+    "title": "Po 1989 roku — świat współczesny",
+    "episodes": 15,
+    "ready": 0,
+    "sections": 1
+   },
+   {
+    "id": "XI",
+    "title": "Odcinki specjalne i podsumowania",
+    "episodes": 12,
+    "ready": 0,
+    "sections": 1
+   }
+  ],
+  "domains": [
+   {
+    "name": "Łódź",
+    "count": 15
+   },
+   {
+    "name": "Architektura i miasto",
+    "count": 45
+   },
+   {
+    "name": "Malarstwo i rzeźba",
+    "count": 30
+   },
+   {
+    "name": "Muzyka",
+    "count": 20
+   },
+   {
+    "name": "Literatura i filozofia",
+    "count": 26
+   },
+   {
+    "name": "Film i fotografia",
+    "count": 21
+   },
+   {
+    "name": "Design i rzemiosło",
+    "count": 27
+   },
+   {
+    "name": "Moda",
+    "count": 14
+   },
+   {
+    "name": "Polityka i społeczeństwo",
+    "count": 39
+   }
+  ],
+  "lodzEpisodes": [
+   {
+    "n": 38,
+    "title": "Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokalne",
+    "ready": false
+   },
+   {
+    "n": 96,
+    "title": "Łódź przemysłowa — fabrykanci, robotnicy i wielokulturowe miasto",
+    "ready": false
+   },
+   {
+    "n": 111,
+    "title": "Łódź około 1900 roku — architektura, fotografie, wnętrza i codzienność",
+    "ready": false
+   },
+   {
+    "n": 121,
+    "title": "Łódź początku XX wieku — rewolucja 1905 roku, fabryki i wielokulturowość",
+    "ready": false
+   },
+   {
+    "n": 149,
+    "title": "Łódź międzywojenna — przemysł, architektura i życie społeczne",
+    "ready": false
+   },
+   {
+    "n": 152,
+    "title": "Getto łódzkie — historia miasta, dokumenty, fotografie i świadectwa",
+    "ready": false
+   },
+   {
+    "n": 166,
+    "title": "Łódź po 1945 roku — przemysł, odbudowa i nowa rzeczywistość",
+    "ready": false
+   },
+   {
+    "n": 170,
+    "title": "Jazz, rock i nowa kultura młodzieżowa",
+    "ready": false
+   },
+   {
+    "n": 173,
+    "title": "Moda męska lat 50. i 60. — od klasyki do rewolucji młodzieżowej",
+    "ready": false
+   },
+   {
+    "n": 176,
+    "title": "Łódź — szkoła filmowa, awangarda i przemiany miasta",
+    "ready": false
+   },
+   {
+    "n": 186,
+    "title": "Łódź lat 70. — włókiennictwo, mieszkania, kultura i życie mieszkańców",
+    "ready": true
+   },
+   {
+    "n": 193,
+    "title": "Łódź lat 80. — kryzys przemysłu i zmieniające się miasto",
+    "ready": false
+   },
+   {
+    "n": 196,
+    "title": "Łódź po transformacji — upadek przemysłu i nowa tożsamość miasta",
+    "ready": false
+   },
+   {
+    "n": 208,
+    "title": "Łódź dzisiaj — rewitalizacja, design, fotografia i przyszłość miasta",
+    "ready": false
+   },
+   {
+    "n": 217,
+    "title": "Łódź — historia miasta w 20 obiektach, fotografiach i budynkach",
+    "ready": false
+   }
+  ],
+  "people": {
+   "total": 76,
+   "mentions": 126,
+   "byCategory": {
+    "naukowiec": 15,
+    "filozof": 4,
+    "inne": 2,
+    "muzyk": 5,
+    "pisarz": 11,
+    "polityk": 5,
+    "architekt": 6,
+    "malarz": 16,
+    "projektant": 5,
+    "rzeźbiarz": 2,
+    "przemysłowiec": 2,
+    "filmowiec": 2,
+    "fotograf": 1
+   },
+   "byCentury": {
+    "10": 1,
+    "11": 1,
+    "16": 2,
+    "17": 1,
+    "18": 5,
+    "19": 25,
+    "20": 37,
+    "-5": 1,
+    "-4": 1,
+    "-1": 1
+   },
+   "byCountry": {
+    "zagranica": 43,
+    "Polska": 33
+   },
+   "byGender": {
+    "m": 70,
+    "f": 6
+   },
+   "lodz": 9
+  }
+ }
+}
