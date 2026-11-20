@@ -2740,6 +2740,215 @@
    "m": [
     "Champollion\\p{L}*"
    ]
+  },
+  {
+   "id": "nebamun",
+   "name": "Nebamun",
+   "born": -1400,
+   "c": "inne",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "urzędnik z Teb, którego grób zdobią słynne malowidła",
+   "m": [
+    "Nebamun\\p{L}*"
+   ]
+  },
+  {
+   "id": "chefren",
+   "name": "Chafre (Chefren)",
+   "born": -2570,
+   "died": -2530,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy drugiej piramidy w Gizie",
+   "m": [
+    "Chefren\\p{L}*",
+    "Chafre"
+   ]
+  },
+  {
+   "id": "echnaton",
+   "name": "Echnaton",
+   "born": -1380,
+   "died": -1336,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, twórca kultu Atona",
+   "m": [
+    "Echnaton\\p{L}*",
+    "Amenhotep\\p{L}*\\s+czwart\\p{L}*"
+   ]
+  },
+  {
+   "id": "nefertiti",
+   "name": "Nefertiti",
+   "born": -1370,
+   "died": -1330,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "królowa, żona Echnatona",
+   "m": [
+    "Nefertiti"
+   ]
+  },
+  {
+   "id": "thutmose",
+   "name": "Thutmose",
+   "born": -1350,
+   "c": "rzeźbiarz",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "rzeźbiarz z Amarny",
+   "m": [
+    "Thutmose"
+   ]
+  },
+  {
+   "id": "borchardt",
+   "name": "Ludwig Borchardt",
+   "born": 1863,
+   "died": 1938,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "egiptolog, odkrywca popiersia Nefertiti",
+   "m": [
+    "Borchardt\\p{L}*"
+   ]
+  },
+  {
+   "id": "evans",
+   "name": "Arthur Evans",
+   "born": 1851,
+   "died": 1941,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca pałacu w Knossos",
+   "m": [
+    "Arthur\\p{L}*\\s+Evans\\p{L}*",
+    "Evans(?:a|em|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "schliemann",
+   "name": "Heinrich Schliemann",
+   "born": 1822,
+   "died": 1890,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "archeolog-amator, odkrywca Troi i grobów w Mykenach",
+   "m": [
+    "Schliemann\\p{L}*"
+   ]
+  },
+  {
+   "id": "homer",
+   "name": "Homer",
+   "born": -800,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta, któremu przypisuje się Iliadę i Odyseję",
+   "m": [
+    "Homer\\p{L}*"
+   ],
+   "works": [
+    "Iliada",
+    "Odyseja"
+   ]
+  },
+  {
+   "id": "safona",
+   "name": "Safona",
+   "born": -630,
+   "died": -570,
+   "c": "pisarz",
+   "country": "Grecja (Lesbos)",
+   "g": "f",
+   "desc": "poetka liryczna z Lesbos",
+   "m": [
+    "Safon\\p{L}*"
+   ],
+   "works": [
+    "Oda do Afrodyty",
+    "Fragmenty pieśni miłosnych"
+   ]
+  },
+  {
+   "id": "parandowski",
+   "name": "Jan Parandowski",
+   "born": 1895,
+   "died": 1978,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz i tłumacz, autor „Mitologii”",
+   "m": [
+    "Parandowsk\\p{L}*"
+   ],
+   "works": [
+    "Mitologia (1924)",
+    "Dysk olimpijski (1933)",
+    "Odyseja (przekład prozą, 1953)"
+   ]
+  },
+  {
+   "id": "eksekias",
+   "name": "Eksekias",
+   "born": -550,
+   "c": "malarz",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "garncarz i malarz waz czarnofigurowych",
+   "m": [
+    "Eksekias\\p{L}*"
+   ]
+  },
+  {
+   "id": "pitagoras",
+   "name": "Pitagoras",
+   "born": -570,
+   "died": -495,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof i matematyk",
+   "m": [
+    "Pitagoras\\p{L}*",
+    "pitagorejczy\\p{L}*"
+   ]
+  },
+  {
+   "id": "tales",
+   "name": "Tales z Miletu",
+   "born": -624,
+   "died": -546,
+   "c": "filozof",
+   "country": "Grecja (Jonia)",
+   "g": "m",
+   "desc": "pierwszy filozof grecki",
+   "m": [
+    "Tales\\p{L}*"
+   ]
+  },
+  {
+   "id": "heraklit",
+   "name": "Heraklit z Efezu",
+   "born": -535,
+   "died": -475,
+   "c": "filozof",
+   "country": "Grecja (Jonia)",
+   "g": "m",
+   "desc": "filozof zmienności: „wszystko płynie”",
+   "m": [
+    "Heraklit\\p{L}*"
+   ]
   }
  ]
 }

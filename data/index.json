@@ -298,6 +298,24 @@
    "total": 2
   },
   {
+   "id": "borchardt",
+   "name": "Ludwig Borchardt",
+   "born": 1863,
+   "died": 1938,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "egiptolog, odkrywca popiersia Nefertiti",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "bowie",
    "name": "David Bowie",
    "born": 1947,
@@ -445,6 +463,29 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "chefren",
+   "name": "Chafre (Chefren)",
+   "born": -2570,
+   "died": -2530,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy drugiej piramidy w Gizie",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 2,
+     "i": 33
+    },
+    {
+     "n": 9,
+     "count": 2,
+     "i": 37
+    }
+   ],
+   "total": 4
   },
   {
    "id": "cheops",
@@ -637,6 +678,24 @@
    "total": 1
   },
   {
+   "id": "echnaton",
+   "name": "Echnaton",
+   "born": -1380,
+   "died": -1336,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, twórca kultu Atona",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 4,
+     "i": 44
+    }
+   ],
+   "total": 4
+  },
+  {
    "id": "edelman",
    "name": "Marek Edelman",
    "born": 1919,
@@ -662,6 +721,23 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "eksekias",
+   "name": "Eksekias",
+   "born": -550,
+   "c": "malarz",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "garncarz i malarz waz czarnofigurowych",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 2,
+     "i": 47
+    }
+   ],
+   "total": 2
   },
   {
    "id": "enheduanna",
@@ -699,6 +775,24 @@
      "n": 186,
      "count": 1,
      "i": 178
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "evans",
+   "name": "Arthur Evans",
+   "born": 1851,
+   "died": 1941,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca pałacu w Knossos",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 1,
+     "i": 12
     }
    ],
    "total": 1
@@ -1090,6 +1184,24 @@
    "total": 1
   },
   {
+   "id": "heraklit",
+   "name": "Heraklit z Efezu",
+   "born": -535,
+   "died": -475,
+   "c": "filozof",
+   "country": "Grecja (Jonia)",
+   "g": "m",
+   "desc": "filozof zmienności: „wszystko płynie”",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 2,
+     "i": 87
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "herbert",
    "name": "Zbigniew Herbert",
    "born": 1924,
@@ -1176,6 +1288,27 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "homer",
+   "name": "Homer",
+   "born": -800,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta, któremu przypisuje się Iliadę i Odyseję",
+   "works": [
+    "Iliada",
+    "Odyseja"
+   ],
+   "mentions": [
+    {
+     "n": 10,
+     "count": 4,
+     "i": 25
+    }
+   ],
+   "total": 4
   },
   {
    "id": "horacy",
@@ -2224,6 +2357,41 @@
    "total": 2
   },
   {
+   "id": "nebamun",
+   "name": "Nebamun",
+   "born": -1400,
+   "c": "inne",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "urzędnik z Teb, którego grób zdobią słynne malowidła",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 3,
+     "i": 24
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "nefertiti",
+   "name": "Nefertiti",
+   "born": -1370,
+   "died": -1330,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "królowa, żona Echnatona",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 2,
+     "i": 51
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "niemen",
    "name": "Czesław Niemen",
    "born": 1939,
@@ -2354,6 +2522,30 @@
    "total": 1
   },
   {
+   "id": "parandowski",
+   "name": "Jan Parandowski",
+   "born": 1895,
+   "died": 1978,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz i tłumacz, autor „Mitologii”",
+   "works": [
+    "Mitologia (1924)",
+    "Dysk olimpijski (1933)",
+    "Odyseja (przekład prozą, 1953)"
+   ],
+   "mentions": [
+    {
+     "n": 10,
+     "count": 1,
+     "i": 33
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "paul-simon",
    "name": "Paul Simon",
    "born": 1941,
@@ -2443,6 +2635,24 @@
    "total": 1
   },
   {
+   "id": "pitagoras",
+   "name": "Pitagoras",
+   "born": -570,
+   "died": -495,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof i matematyk",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 3,
+     "i": 78
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "platon",
    "name": "Platon",
    "born": -427,
@@ -2456,9 +2666,14 @@
      "n": 1,
      "count": 1,
      "i": 201
+    },
+    {
+     "n": 10,
+     "count": 1,
+     "i": 37
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "polanski",
@@ -2919,6 +3134,28 @@
    "total": 0
   },
   {
+   "id": "safona",
+   "name": "Safona",
+   "born": -630,
+   "died": -570,
+   "c": "pisarz",
+   "country": "Grecja (Lesbos)",
+   "g": "f",
+   "desc": "poetka liryczna z Lesbos",
+   "works": [
+    "Oda do Afrodyty",
+    "Fragmenty pieśni miłosnych"
+   ],
+   "mentions": [
+    {
+     "n": 10,
+     "count": 3,
+     "i": 34
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "sapkowski",
    "name": "Andrzej Sapkowski",
    "born": 1948,
@@ -3042,6 +3279,24 @@
     }
    ],
    "total": 6
+  },
+  {
+   "id": "schliemann",
+   "name": "Heinrich Schliemann",
+   "born": 1822,
+   "died": 1890,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "archeolog-amator, odkrywca Troi i grobów w Mykenach",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 1
   },
   {
    "id": "schmandt",
@@ -3341,6 +3596,24 @@
    "total": 0
   },
   {
+   "id": "tales",
+   "name": "Tales z Miletu",
+   "born": -624,
+   "died": -546,
+   "c": "filozof",
+   "country": "Grecja (Jonia)",
+   "g": "m",
+   "desc": "pierwszy filozof grecki",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 2,
+     "i": 84
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "tansman",
    "name": "Aleksander Tansman",
    "born": 1897,
@@ -3362,6 +3635,23 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "thutmose",
+   "name": "Thutmose",
+   "born": -1350,
+   "c": "rzeźbiarz",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "rzeźbiarz z Amarny",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
   },
   {
    "id": "tomaszewski",
@@ -3419,9 +3709,14 @@
      "n": 8,
      "count": 3,
      "i": 81
+    },
+    {
+     "n": 9,
+     "count": 2,
+     "i": 73
     }
    ],
-   "total": 3
+   "total": 5
   },
   {
    "id": "tuwim",
@@ -3588,25 +3883,25 @@
   "generated": "2026-11-20",
   "course": {
    "planned": 223,
-   "ready": 15,
+   "ready": 17,
    "parts": 11,
    "sections": 19,
-   "plannedHours": 45,
+   "plannedHours": 43,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 182,
-   "words": 24557,
-   "sentences": 1905,
-   "chapters": 150,
-   "images": 115,
-   "glossary": 96,
-   "quiz": 68,
-   "sources": 67,
+   "minutes": 198,
+   "words": 26717,
+   "sentences": 2076,
+   "chapters": 168,
+   "images": 132,
+   "glossary": 109,
+   "quiz": 78,
+   "sources": 75,
    "music": 6,
-   "lodz": 249,
-   "polska": 106
+   "lodz": 252,
+   "polska": 108
   },
   "lessons": [
    {
@@ -3802,13 +4097,63 @@
     "music": 0,
     "lodz": 0,
     "polska": 5,
-    "people": 13,
+    "people": 14,
     "speakers": {
      "gospodarz": 136,
      "historyk": 396,
      "architekt": 378,
      "literatura": 117,
      "muzyka": 83
+    }
+   },
+   {
+    "n": 9,
+    "title": "Egipskie malarstwo, rzeźba, ubiór i przedmioty codzienne",
+    "era": "Starożytny Egipt · ok. 2700–30 p.n.e.",
+    "minutes": 8,
+    "words": 1084,
+    "sentences": 93,
+    "chapters": 9,
+    "images": 9,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 3,
+    "polska": 0,
+    "people": 7,
+    "speakers": {
+     "gospodarz": 132,
+     "sztuka": 532,
+     "historyk": 42,
+     "design": 272,
+     "literatura": 106
+    }
+   },
+   {
+    "n": 10,
+    "title": "Grecja archaiczna — narodziny kanonu piękna",
+    "era": "Grecja · ok. 800–480 p.n.e.",
+    "minutes": 8,
+    "words": 1076,
+    "sentences": 78,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 2,
+    "people": 10,
+    "speakers": {
+     "gospodarz": 132,
+     "historyk": 216,
+     "literatura": 229,
+     "design": 162,
+     "sztuka": 130,
+     "architekt": 106,
+     "muzyka": 101
     }
    },
    {
@@ -3996,13 +4341,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 2936,
-   "historyk": 6377,
-   "sztuka": 3209,
-   "architekt": 4760,
-   "muzyka": 1733,
-   "literatura": 2407,
-   "design": 2428,
+   "gospodarz": 3200,
+   "historyk": 6635,
+   "sztuka": 3871,
+   "architekt": 4866,
+   "muzyka": 1834,
+   "literatura": 2742,
+   "design": 2862,
    "foto": 707
   },
   "parts": [
@@ -4017,7 +4362,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 3,
+    "ready": 5,
     "sections": 1
    },
    {
@@ -4210,19 +4555,19 @@
    }
   ],
   "people": {
-   "total": 139,
-   "mentions": 260,
+   "total": 154,
+   "mentions": 297,
    "byCategory": {
-    "naukowiec": 24,
-    "filozof": 4,
-    "inne": 9,
+    "naukowiec": 27,
+    "filozof": 7,
+    "inne": 10,
     "muzyk": 10,
-    "pisarz": 17,
-    "polityk": 29,
+    "pisarz": 20,
+    "polityk": 32,
     "architekt": 10,
-    "malarz": 18,
+    "malarz": 19,
     "projektant": 6,
-    "rzeźbiarz": 3,
+    "rzeźbiarz": 4,
     "przemysłowiec": 3,
     "filmowiec": 4,
     "fotograf": 2
@@ -4233,35 +4578,36 @@
     "16": 3,
     "17": 1,
     "18": 7,
-    "19": 34,
+    "19": 38,
     "20": 69,
     "-5": 2,
     "-4": 1,
     "-1": 1,
     "-23": 2,
     "-24": 1,
-    "-26": 2,
-    "-7": 2,
+    "-26": 3,
+    "-7": 4,
     "-22": 1,
     "-19": 1,
-    "-6": 1,
+    "-6": 4,
     "-32": 1,
     "-27": 2,
     "-16": 1,
     "-15": 1,
-    "-14": 2
+    "-14": 6,
+    "-8": 1
    },
    "byCountry": {
-    "zagranica": 84,
-    "Polska": 55
+    "zagranica": 98,
+    "Polska": 56
    },
    "byGender": {
-    "m": 126,
-    "f": 13
+    "m": 139,
+    "f": 15
    },
    "lodz": 26,
-   "withWorks": 56,
-   "works": 197,
+   "withWorks": 59,
+   "works": 204,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 24,

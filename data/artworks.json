@@ -559,5 +559,90 @@
   "creator": "dekret kapłanów z Memfis",
   "date": "196 p.n.e.",
   "place": "British Museum, Londyn"
+ },
+ "Nebamun garden": {
+  "creator": "malarz z Teb",
+  "date": "ok. 1350 p.n.e.",
+  "place": "grób Nebamuna; British Museum, Londyn"
+ },
+ "Meidum Geese": {
+  "creator": "malarz z mastaby Nefermaata",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Meidum; Muzeum Egipskie, Kair"
+ },
+ "Khafre statue": {
+  "creator": "warsztat królewski IV dynastii",
+  "date": "ok. 2550 p.n.e.",
+  "place": "Muzeum Egipskie, Kair"
+ },
+ "Seated Scribe Louvre": {
+  "creator": "nieznany rzeźbiarz egipski",
+  "date": "ok. 2600–2350 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Rahotep and Nofret": {
+  "creator": "nieznany rzeźbiarz egipski",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Meidum; Muzeum Egipskie, Kair"
+ },
+ "Nefertiti bust Berlin": {
+  "creator": "Thutmose (warsztat)",
+  "date": "ok. 1345 p.n.e.",
+  "place": "Neues Museum, Berlin"
+ },
+ "Tutankhamun throne": {
+  "creator": "warsztat królewski",
+  "date": "ok. 1330 p.n.e.",
+  "place": "Muzeum Egipskie, Kair"
+ },
+ "William the Hippo": {
+  "creator": "nieznany twórca egipski",
+  "date": "ok. 1961–1878 p.n.e.",
+  "place": "Metropolitan Museum of Art, Nowy Jork"
+ },
+ "Fayum mummy portrait": {
+  "creator": "malarze z Fajum",
+  "date": "I–III w. n.e.",
+  "place": "Egipt rzymski"
+ },
+ "Knossos palace": {
+  "creator": "budowniczowie minojscy; rekonstrukcja Arthur Evans",
+  "date": "ok. 1700–1400 p.n.e.",
+  "place": "Knossos, Kreta"
+ },
+ "Mask of Agamemnon": {
+  "creator": "złotnik mykeński",
+  "date": "ok. 1550–1500 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Dipylon Amphora": {
+  "creator": "Mistrz Dipylonu",
+  "date": "ok. 760–750 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Exekias Achilles Ajax": {
+  "creator": "Eksekias",
+  "date": "ok. 540–530 p.n.e.",
+  "place": "Muzea Watykańskie"
+ },
+ "Kroisos Kouros": {
+  "creator": "nieznany rzeźbiarz attycki",
+  "date": "ok. 530 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Peplos Kore": {
+  "creator": "nieznany rzeźbiarz attycki",
+  "date": "ok. 530 p.n.e.",
+  "place": "Muzeum Akropolu, Ateny"
+ },
+ "Paestum Temple of Hera": {
+  "creator": "koloniści greccy",
+  "date": "ok. 550 p.n.e.",
+  "place": "Paestum, Włochy"
+ },
+ "Thales of Miletus": {
+  "creator": "wizerunek wyobrażony (portret późniejszy)",
+  "date": "Tales z Miletu, ok. 624–546 p.n.e.",
+  "place": ""
  }
 }
