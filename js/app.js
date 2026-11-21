@@ -59,7 +59,7 @@ function renderHome() {
         <span class="tile-n">${c.n} · ${c.minutes} min</span>
         <strong>${esc(c.title)}</strong></a>`).join("")}</div></section>`;
   }
-  html += `<section class="block"><div class="block-head"><h2>Program</h2><span>${program.parts.length} części</span></div><div class="parts">`;
+  html += `<section class="block" id="program"><div class="block-head"><h2>Program</h2><span>${program.parts.length} części</span></div><div class="parts">`;
   for (const part of program.parts) {
     const eps = partEps(part);
     const r = eps.filter((e) => ready.has(e.n));
@@ -91,12 +91,15 @@ function renderPart(id) {
   const idx = program.parts.indexOf(part);
   const prev = program.parts[idx - 1], next = program.parts[idx + 1];
   let html = `<section class="part-hero">
-    ${cover ? `<div class="part-img">${imgTag(big(cover))}</div>` : ""}
-    <div class="eyebrow accent">Część ${part.id}</div>
-    <h1>${esc(part.title)}</h1>
-    <p class="hero-meta">${eps.length} odcinków${r.length ? ` · ${r.length} gotowych · ${mins >= 60 ? `${Math.floor(mins / 60)} godz. ${mins % 60} min` : `${mins} min`}` : ""}</p>
-    ${startEp ? `<a class="btn accent big" href="#/lekcja/${startEp.n}">${icons.play} ${done.has(startEp.n) ? "Odtwórz ponownie" : last?.n === startEp.n ? "Kontynuuj" : "Odtwórz"}</a>` : ""}
-  </section><a class="back" href="#/">‹ Wszystkie części</a><div class="eplist">`;
+    <div class="ph-top">
+      <span class="ph-cover">${cover ? imgTag(cover) : `<i>${part.id}</i>`}</span>
+      <div class="ph-text"><div class="eyebrow accent">Część ${part.id}</div>
+        <h1>${esc(part.title)}</h1>
+        <p class="hero-meta">${eps.length} odc.${r.length ? ` · ${mins >= 60 ? `${Math.floor(mins / 60)} godz. ${mins % 60} min` : `${mins} min`}` : ""}</p></div>
+    </div>
+    <div class="ph-actions"><a class="back" href="#/program">‹ Wszystkie części</a>
+    ${startEp ? `<a class="btn accent" href="#/lekcja/${startEp.n}">${icons.play} ${done.has(startEp.n) ? "Od nowa" : last?.n === startEp.n ? "Kontynuuj" : "Odtwórz"}</a>` : ""}</div>
+  </section><div class="eplist">`;
   for (const sec of part.sections) {
     if (sec.title) html += `<div class="sec">${esc(sec.title)}</div>`;
     for (const e of sec.episodes) {
@@ -110,6 +113,10 @@ function renderPart(id) {
   }
   html += `</div><nav class="part-nav">${prev ? `<a href="#/czesc/${prev.id}"><small>‹ Część ${prev.id}</small>${esc(prev.title)}</a>` : "<span></span>"}${next ? `<a class="r" href="#/czesc/${next.id}"><small>Część ${next.id} ›</small>${esc(next.title)}</a>` : ""}</nav>`;
   view.innerHTML = html;
+  requestAnimationFrame(() => {
+    const cur = view.querySelector(".erow.cur");
+    if (cur && cur.getBoundingClientRect().bottom > innerHeight - 120) cur.scrollIntoView({ block: "center" });
+  });
 }
 
 // przydział obrazów do rozdziałów: jawny (@n) lub równomierny
@@ -888,7 +895,8 @@ async function route() {
   else if (section === "index") await renderIndex();
   else if (section === "stats") await renderStats();
   else renderHome();
-  if (!m) window.scrollTo(0, 0);
+  if (h.startsWith("#/program")) requestAnimationFrame(() => document.getElementById("program")?.scrollIntoView({ block: "start" }));
+  else if (!m) window.scrollTo(0, 0);
   updatePlayerUI(true);
 }
 
