@@ -9,6 +9,8 @@ import os, subprocess, sys
 from functools import lru_cache
 import numpy as np
 from scipy.signal import fftconvolve, butter, sosfilt
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from drums import hit
 
 LIB, OUTFILE = sys.argv[1], sys.argv[2]
 SR = 44100
@@ -67,38 +69,22 @@ class Mix:
                 x = np.interp(pos, idx, x)
             self.add(x * vel / len(notes) ** 0.35, t, PAN.get(inst, 0))
 
-    # --- perkusja grana miotełkami (synteza) ---
+    # --- perkusja: prawdziwe próbki zestawu Gretsch (miotełki, ride, stopa) ---
     def ride(self, t, vel=1.0):
-        n = int(0.9 * SR); tt = np.arange(n) / SR
-        x = sum(np.sign(np.sin(2 * np.pi * f * tt)) for f in (3120, 4340, 5210, 6890, 8130)) / 5
-        x = sosfilt(butter(2, [3000, 12000], "bandpass", fs=SR, output="sos"), x + 0.4 * np.random.default_rng(int(t * 1e3)).standard_normal(n))
-        x *= np.exp(-tt * 5) * (0.6 + 0.4 * np.exp(-tt * 40))
-        self.add(x * vel * 0.05, t, 0.35)
+        self.add(hit("ride", 1.0, 0.3) * vel * 0.13, t, 0.35)
 
     def brush(self, t, vel=1.0, length=0.22):
-        n = int(length * SR); tt = np.arange(n) / SR
-        x = sosfilt(butter(2, [900, 6000], "bandpass", fs=SR, output="sos"), np.random.default_rng(int(t * 1e3) + 5).standard_normal(n))
-        env = np.sin(np.pi * np.clip(tt / length, 0, 1)) ** 1.5
-        self.add(x * env * vel * 0.035, t - length * 0.4, -0.2)
+        self.add(hit("brush_ghost", 0.5) * vel * 0.12, t, -0.2)
 
     def tap(self, t, vel=1.0):
-        n = int(0.18 * SR); tt = np.arange(n) / SR
-        x = sosfilt(butter(2, [1200, 7000], "bandpass", fs=SR, output="sos"), np.random.default_rng(int(t * 1e3) + 9).standard_normal(n))
-        x = x * np.exp(-tt * 28) + 0.35 * np.sin(2 * np.pi * 210 * tt) * np.exp(-tt * 35)
-        self.add(x * vel * 0.12, t, -0.1)
+        self.add(hit("brush", 0.6) * vel * 0.2, t, -0.1)
 
     def kick(self, t, vel=1.0):
-        n = int(0.3 * SR); tt = np.arange(n) / SR
-        f = 48 + 40 * np.exp(-tt * 30)
-        x = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-tt * 9)
-        self.add(x * vel * 0.35, t, 0)
+        self.add(hit("kick", 0.5) * vel * 0.3, t, 0)
 
     def crash(self, t, vel=1.0):
-        n = int(2.0 * SR); tt = np.arange(n) / SR
-        x = sum(np.sign(np.sin(2 * np.pi * f * tt)) for f in (2730, 3910, 5470, 7230)) / 4
-        x = sosfilt(butter(2, 2500, "highpass", fs=SR, output="sos"), x * 0.5 + np.random.default_rng(42).standard_normal(n))
-        x *= np.exp(-tt * 2.2) * (0.7 + 0.3 * np.exp(-tt * 20))
-        self.add(x * vel * 0.045, t, 0.3); self.add(np.roll(x, 400) * vel * 0.035, t, -0.3)
+        self.add(hit("ride", 2.2, 0.6) * vel * 0.3, t, 0.3)
+        self.add(hit("cymbal", 2.2, 0.6) * vel * 0.12, t, -0.3)
 
     def master(self, length, peak=0.9):
         rng = np.random.default_rng(1)
