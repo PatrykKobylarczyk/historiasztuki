@@ -14,7 +14,7 @@ LIB, OUTFILE = sys.argv[1], sys.argv[2]
 SR = 44100
 NAMES = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"]
 PAN = {"trumpet": 0.0, "acoustic_grand_piano": -0.3, "acoustic_bass": 0.15, "alto_sax": -0.25, "tenor_sax": 0.25,
-       "trombone": 0.35, "baritone_sax": 0.3}
+       "trombone": 0.35, "baritone_sax": 0.3, "muted_trumpet": 0.3}
 
 BPM = 168
 B = 60 / BPM                     # ćwierćnuta
@@ -156,6 +156,10 @@ def compose():
             m.brush(sw(b), 0.9); m.kick(sw(b), 0.25)
     # trąbka dorzuca krótkie odpowiedzi w pauzach fortepianu
     m.play(T, sw(8.5), "D6", 0.18, 0.5, 0.08); m.play(T, sw(9), "C6", 0.25, 0.55, 0.1)
+    # drobne dodatki: krótka odpowiedź trąbki z tłumikiem i saksofon wprowadzający finał
+    m.play("muted_trumpet", sw(10.5), "A5", 0.14, 0.45, 0.08); m.play("muted_trumpet", sw(11), "G5", 0.3, 0.5, 0.15)
+    for b, n in [(12, "F5"), (12.5, "E5"), (13, "Eb5")]:
+        m.play("alto_sax", sw(b), n, B * 0.45, 0.5, 0.08)
     # przejście: triola werbla miotełką
     for k in range(3):
         m.tap(sw(12) + k * B / 3 * 2, 0.6 + 0.2 * k)
