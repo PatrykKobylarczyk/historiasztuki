@@ -116,4 +116,6 @@ Podgląd lokalny: `npx serve .` (pytania wymagają `vercel dev`).
 
 ## Sygnały dźwiękowe
 
-Dżingiel, przerywnik i sygnał zamykający (`media/fx/*.mp3`) to autorska fanfara symfoniczna w duchu Mahlera, renderowana skryptem `scripts/render-jingle.py` z próbek instrumentów MusyngKite (zbiór [gleitz/midi-js-soundfonts](https://github.com/gleitz/midi-js-soundfonts), licencja CC BY-SA 3.0). Po zmianie sygnałów podbij `JINGLE_VERSION` w `js/jingle.js`, żeby nagrania MP3 odcinków powstały na nowo.
+Dżingiel (`media/fx/jingle.mp3`) to autorski ident w stylu nowojorskiego big bandu: trąbka i saksofon altowy jako soliści, sekcje dęte, fortepian, kontrabas, perkusja z krótkim solo. Renderuje go `scripts/render-ident-jazz.py` (eksportuje też aranżację do MIDI). Przerywnik (`sting.mp3`) to motyw trąbki, sygnał zamykający (`outro.mp3`) to finał zespołu. Po dżinglu lektor mówi „KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat.”
+
+Próbki instrumentów: MusyngKite ([gleitz/midi-js-soundfonts](https://github.com/gleitz/midi-js-soundfonts), CC BY-SA 3.0); perkusja: zestaw Gretsch z [tidalcycles/Dirt-Samples](https://github.com/tidalcycles/Dirt-Samples). Inne warianty: `render-jingle.py` (symfoniczny), `render-polka.py` (polka). Po zmianie sygnałów podbij `JINGLE_VERSION` w `js/jingle.js`, żeby nagrania MP3 odcinków powstały na nowo.

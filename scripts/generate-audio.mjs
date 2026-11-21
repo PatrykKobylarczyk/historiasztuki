@@ -27,20 +27,21 @@ fs.mkdirSync(path.join(root, "audio"), { recursive: true });
 
 // Głosy ekspertów. Można nadpisać plikiem data/tts-voices.json: { "openai": {...}, "google": {...} }
 const VOICES = {
-  openai: { gospodarz: "onyx", historyk: "ash", sztuka: "coral", architekt: "echo", muzyka: "verse", literatura: "sage", design: "nova", foto: "ballad" },
+  openai: { lektor: "onyx", gospodarz: "onyx", historyk: "ash", sztuka: "coral", architekt: "echo", muzyka: "verse", literatura: "sage", design: "nova", foto: "ballad" },
   // edge: darmowe głosy neuronowe Microsoft Edge (pl-PL: Marek, Zofia) — eksperci różnią się wysokością i tempem
   edge: {
-    gospodarz: "pl-PL-MarekNeural|+0%|-2Hz", historyk: "pl-PL-MarekNeural|-4%|-9Hz", architekt: "pl-PL-MarekNeural|+3%|+4Hz",
+    lektor: "pl-PL-MarekNeural|-14%|-16Hz", gospodarz: "pl-PL-MarekNeural|+0%|-2Hz", historyk: "pl-PL-MarekNeural|-4%|-9Hz", architekt: "pl-PL-MarekNeural|+3%|+4Hz",
     muzyka: "pl-PL-MarekNeural|+2%|+9Hz", foto: "pl-PL-MarekNeural|+5%|-5Hz",
     sztuka: "pl-PL-ZofiaNeural|+0%|+0Hz", literatura: "pl-PL-ZofiaNeural|-4%|-7Hz", design: "pl-PL-ZofiaNeural|+4%|+7Hz",
   },
-  google: { gospodarz: "pl-PL-Wavenet-B", historyk: "pl-PL-Wavenet-C", sztuka: "pl-PL-Wavenet-A", architekt: "pl-PL-Standard-B", muzyka: "pl-PL-Standard-C", literatura: "pl-PL-Wavenet-D", design: "pl-PL-Wavenet-E", foto: "pl-PL-Standard-E" },
+  google: { lektor: "pl-PL-Wavenet-B", gospodarz: "pl-PL-Wavenet-B", historyk: "pl-PL-Wavenet-C", sztuka: "pl-PL-Wavenet-A", architekt: "pl-PL-Standard-B", muzyka: "pl-PL-Standard-C", literatura: "pl-PL-Wavenet-D", design: "pl-PL-Wavenet-E", foto: "pl-PL-Standard-E" },
 };
 const override = path.join(root, "data", "tts-voices.json");
 if (fs.existsSync(override)) Object.assign(VOICES[PROVIDER], JSON.parse(fs.readFileSync(override, "utf8"))[PROVIDER] || {});
 const speakers = JSON.parse(fs.readFileSync(path.join(root, "data", "speakers.json"), "utf8"));
 
 const STYLE = {
+  lektor: "Bardzo niski, mocny, spokojny męski głos lektora radiowego. Powoli, z namaszczeniem, wyraźne pauzy między frazami.",
   gospodarz: "Ciepły, spokojny głos prowadzącego audycję w Polskim Radiu. Wyraźna dykcja, naturalne pauzy.",
   default: "Mówisz po polsku jako ekspert w audycji radiowej: rzeczowo, z pasją, spokojnym tempem, naturalnie — jak wykład dla słuchacza jadącego samochodem.",
 };
@@ -134,7 +135,7 @@ const silence = (ms) => new Int16Array(Math.round((SR * ms) / 1000));
 function gapAfter(it, next) {
   if (it.kind !== "speech") return it.kind === "sting" ? 250 : 400;
   if (!next) return 0;
-  return next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : next.si !== it.si ? 350 : 120;
+  return next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : it.sp === "lektor" ? 450 : next.si !== it.si ? 350 : 120;
 }
 
 async function pool(tasks, n = 4) {

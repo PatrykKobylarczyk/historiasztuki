@@ -273,7 +273,7 @@ export class Player extends EventTarget {
   #playSpeech(it, i, token, advance) {
     const p = speakerVoiceParams(it.sp, this.speakers);
     const next = this.items[i + 1];
-    const gap = !next ? 0 : next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : next.si !== it.si ? 350 : 80;
+    const gap = !next ? 0 : next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : it.sp === "lektor" ? 450 : next.si !== it.si ? 350 : 80;
     let started = Date.now();
     const silentFail = (why) => {
       // mowa „skończyła się” natychmiast lub z błędem — kilka razy z rzędu oznacza, że nic nie słychać
