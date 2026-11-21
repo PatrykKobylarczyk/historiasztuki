@@ -12,6 +12,19 @@ function ctx() {
   if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
   return audioCtx;
 }
+// Nagrane sygnały orkiestrowe (media/fx/*.mp3); syntezowana wersja tylko jako zapas, gdy plik się nie wczyta.
+const fxLoading = {};
+function loadFx() {
+  for (const kind of ["jingle", "outro", "sting"]) {
+    if (buffers[kind] || fxLoading[kind]) continue;
+    fxLoading[kind] = fetch(`media/fx/${kind}.mp3`)
+      .then((r) => (r.ok ? r.arrayBuffer() : Promise.reject(r.status)))
+      .then((ab) => new Promise((res, rej) => ctx().decodeAudioData(ab, res, rej)))
+      .then((b) => (buffers[kind] = b))
+      .catch(() => {});
+  }
+  return Promise.all(Object.values(fxLoading));
+}
 function getBuffer(kind) {
   if (buffers[kind]) return buffers[kind];
   const c = ctx();
@@ -112,7 +125,7 @@ export class Player extends EventTarget {
       return;
     }
     this.playing = true;
-    try { ctx().resume(); } catch {}
+    try { ctx().resume(); loadFx(); } catch {}
     this.fails = 0;
     // iPhone: tryb „playback”, żeby dźwięk nie był wyciszany przełącznikiem trybu cichego (Safari 16.4+)
     try { if (navigator.audioSession) navigator.audioSession.type = "playback"; } catch {}
@@ -227,6 +240,21 @@ export class Player extends EventTarget {
     if (it.kind === "jingle" || it.kind === "outro" || it.kind === "sting") {
       const c = ctx();
       try { c.resume(); } catch {}
+      if (!buffers[it.kind]) {
+        // poczekaj chwilę na nagranie orkiestrowe (maks. 1,5 s), potem zagraj zapasowy dżingiel
+        Promise.race([loadFx(), new Promise((r) => setTimeout(r, 1500))]).then(() => {
+          if (token === this.token && this.playing) this.#playFx(it, c, advance);
+        });
+        return;
+      }
+      this.#playFx(it, c, advance);
+      return;
+    }
+    this.#playSpeech(it, i, token, advance);
+  }
+
+  #playFx(it, c, advance) {
+    {
       const src = c.createBufferSource();
       src.buffer = getBuffer(it.kind);
       const g = c.createGain();
@@ -239,11 +267,13 @@ export class Player extends EventTarget {
       };
       this.node = src;
       src.start();
-      return;
     }
+  }
+
+  #playSpeech(it, i, token, advance) {
     const p = speakerVoiceParams(it.sp, this.speakers);
     const next = this.items[i + 1];
-    const gap = !next ? 0 : next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : next.si !== it.si ? 350 : 80;
+    const gap = !next ? 0 : next.kind !== "speech" ? 500 : next.sp !== it.sp ? 650 : it.sp === "lektor" ? 450 : next.si !== it.si ? 350 : 80;
     let started = Date.now();
     const silentFail = (why) => {
       // mowa „skończyła się” natychmiast lub z błędem — kilka razy z rzędu oznacza, że nic nie słychać

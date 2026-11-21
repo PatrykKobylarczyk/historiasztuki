@@ -25,20 +25,31 @@ export function splitSentences(text) {
   return out;
 }
 
+// Zapowiedź lektora po dżinglu — głęboki, spokojny głos radiowy.
+export const TAGLINE = "KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat.";
+const TAG_RE = /^\s*(KULTURA|Historia kultury)\.\s*Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat\.\s*/i;
+
 export function buildItems(lesson) {
   const items = [];
+  let tagged = false;
   let chapter = 0;
   let chapterTitle = lesson.title;
   lesson.segments.forEach((seg, si) => {
     if (seg.t === "jingle" || seg.t === "outro") {
       items.push({ kind: seg.t, si, chapter, chapterTitle });
+      if (seg.t === "jingle" && !tagged) {
+        tagged = true;
+        splitSentences(TAGLINE).forEach((text, ci) => items.push({ kind: "speech", si, ci, sp: "lektor", text, chapter, chapterTitle }));
+      }
     } else if (seg.t === "chapter") {
       chapter += 1;
       chapterTitle = seg.title;
       items.push({ kind: "sting", si, chapter, chapterTitle });
       items.push({ kind: "speech", si, sp: "gospodarz", text: seg.title.replace(/^Rozdział ([IVXL]+)\./, (m, r) => `Rozdział ${romanToWord(r)}.`), chapter, chapterTitle, announce: true });
     } else if (seg.t === "speech") {
-      splitSentences(seg.text).forEach((text, ci) => items.push({ kind: "speech", si, ci, sp: seg.sp, text, chapter, chapterTitle }));
+      const body = tagged && seg.sp === "gospodarz" && TAG_RE.test(seg.text) ? seg.text.replace(TAG_RE, "") : seg.text;
+      if (!body.trim()) return;
+      splitSentences(body).forEach((text, ci) => items.push({ kind: "speech", si, ci, sp: seg.sp, text, chapter, chapterTitle }));
     } else if (seg.t === "music") {
       const text = `Fragment muzyczny do posłuchania po lekcji: ${seg.title}. ${seg.performer || ""}. ${seg.note || ""}`.replace(/\s+\./g, ".");
       splitSentences(text).forEach((t, ci) => items.push({ kind: "speech", si, ci, sp: "gospodarz", text: t, chapter, chapterTitle, music: true }));

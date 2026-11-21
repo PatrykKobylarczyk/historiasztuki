@@ -3,7 +3,7 @@
 // Motyw: żwawa polka orkiestry rozrywkowej (akordeon, trąbka, tuba, werbel) — w duchu klasycznych sygnałów radiowych.
 
 // Zmiana wersji wymusza ponowne nagranie MP3 z nowym dżinglem.
-export const JINGLE_VERSION = "polka-1";
+export const JINGLE_VERSION = "jazz-1";
 
 const midiToHz = (m) => 440 * Math.pow(2, (m - 69) / 12);
 
