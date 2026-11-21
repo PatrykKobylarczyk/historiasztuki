@@ -393,14 +393,20 @@ const plSort = (a, b) => a.localeCompare(b, "pl");
 
 async function renderIndex() {
   const { people } = await getIndex();
-  const list = people.filter((p) => p.total > 0).map((p) => ({ ...p, key: p.name === "Le Corbusier" ? "Le Corbusier" : surname(p) }));
+  const LS = { urodzeni: "urodzeni w Łodzi", mieszkali: "mieszkali i tworzyli w Łodzi", epizod: "epizod łódzki", temat: "Łódź w twórczości", brak: "brak związku z Łodzią" };
+  const inLodz = (p) => p.lodz || ["urodzeni", "mieszkali", "epizod", "temat"].includes(p.ls);
+  const list = people.filter((p) => p.total > 0 || p.works?.length).map((p) => ({ ...p, lodz: inLodz(p), key: p.name === "Le Corbusier" ? "Le Corbusier" : surname(p) }));
   list.sort((a, b) => plSort(a.key, b.key) || plSort(a.name, b.name));
   const cats = Object.entries(list.reduce((m, p) => ((m[p.c] = (m[p.c] || 0) + 1), m), {})).sort((a, b) => b[1] - a[1]);
   const lessonTitle = (n) => catalog.find((c) => c.n === n)?.title || `Odcinek ${n}`;
-  const item = (p) => `<li class="person" data-c="${p.c}" data-pl="${p.pl ? 1 : 0}" data-lodz="${p.lodz ? 1 : 0}" data-q="${esc((p.name + " " + p.desc + " " + (p.country || "") + " " + (CATS[p.c] || "") + (p.lodz ? " łódź łodzi" : "") + (p.pl ? " polska polak" : "")).toLowerCase())}">
+  const item = (p) => `<li class="person" data-c="${p.c}" data-pl="${p.pl ? 1 : 0}" data-lodz="${p.lodz ? 1 : 0}" data-ls="${p.ls || ""}" data-works="${p.works?.length ? 1 : 0}" data-q="${esc((p.name + " " + p.desc + " " + (p.country || "") + " " + (CATS[p.c] || "") + (p.lodz ? " łódź łodzi" : "") + (p.pl ? " polska polak" : "") + " " + (p.works || []).join(" ")).toLowerCase())}">
       <div class="pn"><strong>${esc(p.name)}</strong><span class="pdates">${lifespan(p)}</span></div>
       <div class="pd">${esc(p.desc)}${p.country ? ` · <span class="muted">${esc(p.country)}</span>` : ""}${p.lodz ? ` <span class="tag">Łódź</span>` : ""}</div>
-      <div class="pm">${p.mentions.map((m) => `<a href="#/lekcja/${m.n}/z/${m.i}" title="${esc(lessonTitle(m.n))}">Odc. ${m.n}${m.count > 1 ? ` <span>×${m.count}</span>` : ""}</a>`).join("")}</div>
+      <div class="pm">${p.mentions.length ? p.mentions.map((m) => `<a href="#/lekcja/${m.n}/z/${m.i}" title="${esc(lessonTitle(m.n))}">Odc. ${m.n}${m.count > 1 ? ` <span>×${m.count}</span>` : ""}</a>`).join("") : `<span class="pm-none">w kolejnych odcinkach</span>`}</div>
+      ${p.works?.length || p.lodzLink ? `<details class="pw"><summary>${p.works?.length ? `Twórczość · ${p.works.length}` : "Więcej"}${p.ls ? ` · <span class="ls ls-${p.ls}">${LS[p.ls]}</span>` : ""}${p.verify ? ` <span class="verify">do weryfikacji</span>` : ""}</summary>
+        ${p.lodzLink ? `<p class="plodz">${esc(p.lodzLink)}</p>` : ""}
+        ${p.works?.length ? `<ul class="works">${p.works.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>` : ""}
+      </details>` : ""}
     </li>`;
   const groups = {};
   for (const p of list) (groups[p.key[0].toUpperCase()] ||= []).push(p);
@@ -408,7 +414,7 @@ async function renderIndex() {
     <header class="page-head">
       <div class="eyebrow">Indeks</div>
       <h1>Osoby</h1>
-      <p>Wszyscy, o których mówimy w kursie — od archeologów i filozofów po malarzy, muzyków i łódzkich fabrykantów. Dotknij odcinka, aby przejść do miejsca, w którym pada nazwisko.</p>
+      <p>Wszyscy, o których mówimy w kursie — od archeologów i filozofów po malarzy, muzyków i łódzkich fabrykantów — oraz osoby związane z Łodzią z wybraną twórczością. Dotknij odcinka, aby przejść do miejsca, w którym pada nazwisko.</p>
     </header>
     <div class="index-tools">
       <input type="search" class="index-search" placeholder="Szukaj: nazwisko, dziedzina, kraj…" aria-label="Szukaj w indeksie">
@@ -416,6 +422,8 @@ async function renderIndex() {
         <button class="chip on" data-f="all">Wszyscy <span>${list.length}</span></button>
         <button class="chip" data-f="pl">Polacy <span>${list.filter((p) => p.pl).length}</span></button>
         <button class="chip" data-f="lodz">Łódź <span>${list.filter((p) => p.lodz).length}</span></button>
+        <button class="chip" data-f="ls:urodzeni">Urodzeni w Łodzi <span>${list.filter((p) => p.ls === "urodzeni").length}</span></button>
+        <button class="chip" data-f="works">Z twórczością <span>${list.filter((p) => p.works?.length).length}</span></button>
         ${cats.map(([c, k]) => `<button class="chip" data-f="c:${c}">${CATS[c] || c} <span>${k}</span></button>`).join("")}
       </div>
     </div>
@@ -429,7 +437,8 @@ async function renderIndex() {
     const q = $(".index-search", view).value.trim().toLowerCase();
     let shown = 0;
     view.querySelectorAll(".person").forEach((li) => {
-      const okF = filter === "all" || (filter === "pl" && li.dataset.pl === "1") || (filter === "lodz" && li.dataset.lodz === "1") || filter === `c:${li.dataset.c}`;
+      const okF = filter === "all" || (filter === "pl" && li.dataset.pl === "1") || (filter === "lodz" && li.dataset.lodz === "1") ||
+        (filter === "works" && li.dataset.works === "1") || filter === `c:${li.dataset.c}` || filter === `ls:${li.dataset.ls}`;
       const ok = okF && (!q || li.dataset.q.includes(q));
       li.hidden = !ok; if (ok) shown++;
     });
@@ -546,8 +555,11 @@ async function renderStats() {
         ${fig(s.ready.lodz, "razy pada „Łódź”", "w gotowych odcinkach")}
         ${fig(s.lessons.filter((l) => l.lodz).length, "odcinków z Łodzią", `na ${s.course.ready} gotowych`)}
         ${fig(s.lodzEpisodes.length, "odcinków o Łodzi w programie", `${s.lodzEpisodes.filter((e) => e.ready).length} gotowych`)}
-        ${fig(s.people.lodz, "osób związanych z Łodzią")}
+        ${fig(s.people.lodzAll ?? s.people.lodz, "osób związanych z Łodzią", `${s.people.withWorks || 0} z opisem twórczości`)}
       </div>
+      <h3 class="sub-h">Osoby związane z Łodzią — siła związku</h3>
+      ${bars([["urodzeni", "Urodzeni w Łodzi"], ["mieszkali", "Mieszkali i tworzyli w Łodzi"], ["epizod", "Epizod łódzki"], ["temat", "Łódź w twórczości"], ["brak", "Brak związku (z listy do sprawdzenia)"]]
+        .map(([k, label]) => ({ label, v: s.people.lodzStrength?.[k] || 0, href: "#/indeks", muted: k === "brak" })), { unit: "osób" })}
       <h3 class="sub-h">Wzmianki o Łodzi w odcinkach</h3>
       ${bars(lessonsSorted.map((l) => ({ label: `${l.n}. ${l.title}`, v: l.lodz, href: `#/lekcja/${l.n}` })), { unit: "wzmianek" })}
       <h3 class="sub-h">Łódzkie odcinki w programie</h3>

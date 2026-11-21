@@ -1,0 +1,35 @@
+name: Obrazy z Wikimedia Commons
+
+# Uruchamia się samo po zmianie scenariuszy (także na gałęziach z PR) albo ręcznie.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "content/**"
+      - "data/artworks.json"
+      - "data/people.json"
+      - "data/program.json"
+
+permissions:
+  contents: write
+
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Wyszukanie obrazów
+        run: node scripts/fetch-images.mjs
+      - name: Przebudowa lekcji, indeksu i liczb
+        run: npm run build
+      - name: Zapis do repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet || git commit -m "Obrazy i dane lekcji (automatycznie)"
+          git push
