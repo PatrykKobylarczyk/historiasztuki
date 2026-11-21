@@ -5813,7 +5813,7 @@
    "legend": true,
    "desc": "legendarny założyciel Rzymu",
    "m": [
-    "Romulus\\p{L}*"
+    "Romulus\\p{L}*(?! Augustul)"
    ]
   },
   {
@@ -6307,6 +6307,366 @@
    "desc": "poeta i tłumacz „Iliady”",
    "m": [
     "Dmochowsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "plaut",
+   "name": "Plaut",
+   "born": -254,
+   "died": -184,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "komediopisarz rzymski",
+   "m": [
+    "Plaut\\p{L}*"
+   ]
+  },
+  {
+   "id": "terencjusz",
+   "name": "Terencjusz",
+   "born": -195,
+   "died": -159,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "komediopisarz rzymski",
+   "m": [
+    "Terencjusz\\p{L}*"
+   ]
+  },
+  {
+   "id": "seneka",
+   "name": "Seneka Młodszy",
+   "born": -4,
+   "died": 65,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "filozof stoik i tragediopisarz",
+   "m": [
+    "Senek\\p{L}*"
+   ],
+   "works": [
+    "Listy moralne do Lucyliusza",
+    "Medea"
+   ]
+  },
+  {
+   "id": "molier",
+   "name": "Molier",
+   "born": 1622,
+   "died": 1673,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "komediopisarz",
+   "m": [
+    "Molier\\p{L}*"
+   ],
+   "works": [
+    "Skąpiec",
+    "Świętoszek"
+   ]
+  },
+  {
+   "id": "fredro",
+   "name": "Aleksander Fredro",
+   "born": 1793,
+   "died": 1876,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "komediopisarz",
+   "m": [
+    "Fredr\\p{L}*"
+   ],
+   "works": [
+    "Zemsta",
+    "Śluby panieńskie"
+   ]
+  },
+  {
+   "id": "apicjusz",
+   "name": "Apicjusz",
+   "born": -25,
+   "died": 37,
+   "c": "inne",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "smakosz, patron rzymskiej książki kucharskiej",
+   "m": [
+    "Apicjusz\\p{L}*"
+   ]
+  },
+  {
+   "id": "pompejusz",
+   "name": "Pompejusz Wielki",
+   "born": -106,
+   "died": -48,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "wódz i polityk, fundator pierwszego kamiennego teatru",
+   "m": [
+    "Pompejusz\\p{L}*"
+   ]
+  },
+  {
+   "id": "dangour",
+   "name": "Armand D'Angour",
+   "born": 1958,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "badacz i rekonstruktor muzyki greckiej",
+   "m": [
+    "D'Angour\\p{L}*"
+   ]
+  },
+  {
+   "id": "jezus",
+   "name": "Jezus z Nazaretu",
+   "born": -4,
+   "died": 30,
+   "c": "inne",
+   "country": "Judea",
+   "g": "m",
+   "desc": "nauczyciel, od którego wzięło początek chrześcijaństwo",
+   "m": [
+    "Jezus\\p{L}*",
+    "Chrystus\\p{L}*"
+   ]
+  },
+  {
+   "id": "pawel-z-tarsu",
+   "name": "Paweł z Tarsu",
+   "born": 5,
+   "died": 67,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "apostoł, autor listów Nowego Testamentu",
+   "m": [
+    "Paweł\\p{L}* z Tarsu",
+    "Apostoł\\p{L}* Paweł"
+   ],
+   "works": [
+    "Listy apostolskie"
+   ]
+  },
+  {
+   "id": "neron",
+   "name": "Neron",
+   "born": 37,
+   "died": 68,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz",
+   "m": [
+    "Neron\\p{L}*"
+   ]
+  },
+  {
+   "id": "dioklecjan",
+   "name": "Dioklecjan",
+   "born": 244,
+   "died": 311,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, reformator imperium",
+   "m": [
+    "Dioklecjan\\p{L}*"
+   ]
+  },
+  {
+   "id": "teodozjusz",
+   "name": "Teodozjusz Wielki",
+   "born": 347,
+   "died": 395,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, który uczynił chrześcijaństwo religią państwową",
+   "m": [
+    "Teodozjusz\\p{L}*"
+   ]
+  },
+  {
+   "id": "justynian",
+   "name": "Justynian Wielki",
+   "born": 482,
+   "died": 565,
+   "c": "polityk",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "cesarz, fundator Hagii Sophii, kodyfikator prawa",
+   "m": [
+    "Justynian\\p{L}*"
+   ]
+  },
+  {
+   "id": "teodora",
+   "name": "Teodora",
+   "born": 497,
+   "died": 548,
+   "c": "polityk",
+   "country": "Bizancjum",
+   "g": "k",
+   "desc": "cesarzowa, żona Justyniana",
+   "m": [
+    "Teodor(?:a|y|ą|ę)(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "antemiusz",
+   "name": "Antemiusz z Tralles",
+   "born": 474,
+   "died": 534,
+   "c": "architekt",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "matematyk i architekt Hagii Sophii",
+   "m": [
+    "Antemiusz\\p{L}*"
+   ],
+   "works": [
+    "Hagia Sophia"
+   ]
+  },
+  {
+   "id": "izydor-z-miletu",
+   "name": "Izydor z Miletu",
+   "born": 442,
+   "died": 537,
+   "c": "architekt",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "geometra i architekt Hagii Sophii",
+   "m": [
+    "Izydor\\p{L}* z Miletu"
+   ],
+   "works": [
+    "Hagia Sophia"
+   ]
+  },
+  {
+   "id": "prokopiusz",
+   "name": "Prokopiusz z Cezarei",
+   "born": 500,
+   "died": 565,
+   "c": "pisarz",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "kronikarz epoki Justyniana",
+   "m": [
+    "Prokopiusz\\p{L}*"
+   ]
+  },
+  {
+   "id": "ambrozy",
+   "name": "Święty Ambroży",
+   "born": 340,
+   "died": 397,
+   "c": "muzyk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "biskup Mediolanu, twórca hymnów",
+   "m": [
+    "Ambroż\\p{L}*"
+   ]
+  },
+  {
+   "id": "augustyn",
+   "name": "Święty Augustyn",
+   "born": 354,
+   "died": 430,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "filozof i teolog, autor „Wyznań”",
+   "m": [
+    "Augustyn(?!\\p{L}*\\s+Kordeck)\\p{L}*"
+   ],
+   "works": [
+    "Wyznania",
+    "Państwo Boże"
+   ]
+  },
+  {
+   "id": "hieronim",
+   "name": "Święty Hieronim",
+   "born": 347,
+   "died": 420,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "tłumacz Biblii na łacinę (Wulgata)",
+   "m": [
+    "Hieronim\\p{L}*"
+   ],
+   "works": [
+    "Wulgata"
+   ]
+  },
+  {
+   "id": "wujek",
+   "name": "Jakub Wujek",
+   "born": 1541,
+   "died": 1597,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "jezuita, tłumacz Biblii na polski",
+   "m": [
+    "Jakub\\p{L}* Wujk\\p{L}*",
+    "Wujek\\p{L}*"
+   ],
+   "works": [
+    "Biblia Wujka"
+   ]
+  },
+  {
+   "id": "benedykt",
+   "name": "Święty Benedykt z Nursji",
+   "born": 480,
+   "died": 547,
+   "c": "inne",
+   "country": "Italia",
+   "g": "m",
+   "desc": "założyciel zakonu benedyktynów",
+   "m": [
+    "Benedykt\\p{L}*(?! XVI)"
+   ]
+  },
+  {
+   "id": "botticelli",
+   "name": "Sandro Botticelli",
+   "born": 1445,
+   "died": 1510,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu florenckiego",
+   "m": [
+    "Botticell\\p{L}*"
+   ]
+  },
+  {
+   "id": "galla-placydia",
+   "name": "Galla Placydia",
+   "born": 390,
+   "died": 450,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "k",
+   "desc": "cesarzowa, regentka cesarstwa zachodniego",
+   "m": [
+    "Gall\\p{L}* Placydi\\p{L}*"
    ]
   }
  ]

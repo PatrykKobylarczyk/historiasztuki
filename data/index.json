@@ -110,6 +110,24 @@
    "total": 5
   },
   {
+   "id": "ambrozy",
+   "name": "Święty Ambroży",
+   "born": 340,
+   "died": 397,
+   "c": "muzyk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "biskup Mediolanu, twórca hymnów",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 2,
+     "i": 62
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "anakreont",
    "name": "Anakreont",
    "born": -570,
@@ -146,6 +164,45 @@
      "n": 225,
      "count": 1,
      "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "antemiusz",
+   "name": "Antemiusz z Tralles",
+   "born": 474,
+   "died": 534,
+   "c": "architekt",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "matematyk i architekt Hagii Sophii",
+   "works": [
+    "Hagia Sophia"
+   ],
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "apicjusz",
+   "name": "Apicjusz",
+   "born": -25,
+   "died": 37,
+   "c": "inne",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "smakosz, patron rzymskiej książki kucharskiej",
+   "mentions": [
+    {
+     "n": 21,
+     "count": 1,
+     "i": 63
     }
    ],
    "total": 1
@@ -290,6 +347,28 @@
     }
    ],
    "total": 13
+  },
+  {
+   "id": "augustyn",
+   "name": "Święty Augustyn",
+   "born": 354,
+   "died": 430,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "filozof i teolog, autor „Wyznań”",
+   "works": [
+    "Wyznania",
+    "Państwo Boże"
+   ],
+   "mentions": [
+    {
+     "n": 22,
+     "count": 2,
+     "i": 64
+    }
+   ],
+   "total": 2
   },
   {
    "id": "aulenti",
@@ -591,6 +670,24 @@
    "total": 0
   },
   {
+   "id": "benedykt",
+   "name": "Święty Benedykt z Nursji",
+   "born": 480,
+   "died": 547,
+   "c": "inne",
+   "country": "Italia",
+   "g": "m",
+   "desc": "założyciel zakonu benedyktynów",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 76
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "bernini",
    "name": "Gian Lorenzo Bernini",
    "born": 1598,
@@ -755,6 +852,18 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "botticelli",
+   "name": "Sandro Botticelli",
+   "born": 1445,
+   "died": 1510,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu florenckiego",
+   "mentions": [],
+   "total": 0
   },
   {
    "id": "bowie",
@@ -1268,9 +1377,14 @@
      "n": 20,
      "count": 1,
      "i": 36
+    },
+    {
+     "n": 22,
+     "count": 1,
+     "i": 77
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "cyrus",
@@ -1289,6 +1403,23 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "dangour",
+   "name": "Armand D'Angour",
+   "born": 1958,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "badacz i rekonstruktor muzyki greckiej",
+   "mentions": [
+    {
+     "n": 21,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
   },
   {
    "id": "dante",
@@ -1435,6 +1566,29 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "dioklecjan",
+   "name": "Dioklecjan",
+   "born": 244,
+   "died": 311,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, reformator imperium",
+   "mentions": [
+    {
+     "n": 18,
+     "count": 1,
+     "i": 49
+    },
+    {
+     "n": 22,
+     "count": 1,
+     "i": 15
+    }
+   ],
+   "total": 2
   },
   {
    "id": "dmochowski",
@@ -2037,6 +2191,29 @@
    "total": 1
   },
   {
+   "id": "fredro",
+   "name": "Aleksander Fredro",
+   "born": 1793,
+   "died": 1876,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "komediopisarz",
+   "works": [
+    "Zemsta",
+    "Śluby panieńskie"
+   ],
+   "mentions": [
+    {
+     "n": 21,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "freud",
    "name": "Zygmunt Freud",
    "born": 1856,
@@ -2067,6 +2244,24 @@
      "n": 193,
      "count": 1,
      "i": 64
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "galla-placydia",
+   "name": "Galla Placydia",
+   "born": 390,
+   "died": 450,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "k",
+   "desc": "cesarzowa, regentka cesarstwa zachodniego",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 43
     }
    ],
    "total": 1
@@ -2506,9 +2701,14 @@
      "n": 18,
      "count": 1,
      "i": 21
+    },
+    {
+     "n": 21,
+     "count": 1,
+     "i": 72
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "hammurabi",
@@ -2744,6 +2944,27 @@
      "n": 225,
      "count": 2,
      "i": 77
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "hieronim",
+   "name": "Święty Hieronim",
+   "born": 347,
+   "died": 420,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "tłumacz Biblii na łacinę (Wulgata)",
+   "works": [
+    "Wulgata"
+   ],
+   "mentions": [
+    {
+     "n": 22,
+     "count": 2,
+     "i": 67
     }
    ],
    "total": 2
@@ -2996,6 +3217,27 @@
    "total": 3
   },
   {
+   "id": "izydor-z-miletu",
+   "name": "Izydor z Miletu",
+   "born": 442,
+   "died": 537,
+   "c": "architekt",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "geometra i architekt Hagii Sophii",
+   "works": [
+    "Hagia Sophia"
+   ],
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "jan-pawel-ii",
    "name": "Jan Paweł II",
    "born": 1920,
@@ -3102,6 +3344,29 @@
    "total": 1
   },
   {
+   "id": "jezus",
+   "name": "Jezus z Nazaretu",
+   "born": -4,
+   "died": 30,
+   "c": "inne",
+   "country": "Judea",
+   "g": "m",
+   "desc": "nauczyciel, od którego wzięło początek chrześcijaństwo",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 2,
+     "i": 10
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 30
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "jobs",
    "name": "Steve Jobs",
    "born": 1955,
@@ -3118,6 +3383,29 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "justynian",
+   "name": "Justynian Wielki",
+   "born": 482,
+   "died": 565,
+   "c": "polityk",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "cesarz, fundator Hagii Sophii, kodyfikator prawa",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 23
+    },
+    {
+     "n": 22,
+     "count": 3,
+     "i": 44
+    }
+   ],
+   "total": 4
   },
   {
    "id": "juwenalis",
@@ -3511,9 +3799,14 @@
      "n": 18,
      "count": 1,
      "i": 77
+    },
+    {
+     "n": 22,
+     "count": 4,
+     "i": 29
     }
    ],
-   "total": 2
+   "total": 6
   },
   {
    "id": "konwicki",
@@ -3796,9 +4089,14 @@
      "n": 16,
      "count": 1,
      "i": 67
+    },
+    {
+     "n": 21,
+     "count": 1,
+     "i": 27
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "kubasinska",
@@ -4979,6 +5277,28 @@
    "total": 1
   },
   {
+   "id": "molier",
+   "name": "Molier",
+   "born": 1622,
+   "died": 1673,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "komediopisarz",
+   "works": [
+    "Skąpiec",
+    "Świętoszek"
+   ],
+   "mentions": [
+    {
+     "n": 21,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "moneo",
    "name": "Rafael Moneo",
    "c": "architekt",
@@ -5200,6 +5520,29 @@
      "n": 9,
      "count": 2,
      "i": 51
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "neron",
+   "name": "Neron",
+   "born": 37,
+   "died": 68,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 22,
+     "count": 1,
+     "i": 15
     }
    ],
    "total": 2
@@ -5637,6 +5980,27 @@
    "total": 2
   },
   {
+   "id": "pawel-z-tarsu",
+   "name": "Paweł z Tarsu",
+   "born": 5,
+   "died": 67,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "apostoł, autor listów Nowego Testamentu",
+   "works": [
+    "Listy apostolskie"
+   ],
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 12
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "pawlikowska",
    "name": "Maria Pawlikowska-Jasnorzewska",
    "c": "pisarz",
@@ -5843,9 +6207,14 @@
      "n": 13,
      "count": 1,
      "i": 63
+    },
+    {
+     "n": 21,
+     "count": 2,
+     "i": 16
     }
    ],
-   "total": 4
+   "total": 6
   },
   {
    "id": "platon",
@@ -5892,9 +6261,32 @@
      "n": 20,
      "count": 1,
      "i": 20
+    },
+    {
+     "n": 21,
+     "count": 2,
+     "i": 19
     }
    ],
-   "total": 15
+   "total": 17
+  },
+  {
+   "id": "plaut",
+   "name": "Plaut",
+   "born": -254,
+   "died": -184,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "komediopisarz rzymski",
+   "mentions": [
+    {
+     "n": 21,
+     "count": 2,
+     "i": 48
+    }
+   ],
+   "total": 2
   },
   {
    "id": "pliniusz-mlodszy",
@@ -6069,6 +6461,24 @@
    "total": 3
   },
   {
+   "id": "pompejusz",
+   "name": "Pompejusz Wielki",
+   "born": -106,
+   "died": -48,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "wódz i polityk, fundator pierwszego kamiennego teatru",
+   "mentions": [
+    {
+     "n": 21,
+     "count": 1,
+     "i": 53
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "popper",
    "name": "Karl Popper",
    "born": 1902,
@@ -6164,6 +6574,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "prokopiusz",
+   "name": "Prokopiusz z Cezarei",
+   "born": 500,
+   "died": 565,
+   "c": "pisarz",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "kronikarz epoki Justyniana",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 56
+    }
+   ],
+   "total": 1
   },
   {
    "id": "protagoras",
@@ -7163,6 +7591,28 @@
    "total": 3
   },
   {
+   "id": "seneka",
+   "name": "Seneka Młodszy",
+   "born": -4,
+   "died": 65,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "filozof stoik i tragediopisarz",
+   "works": [
+    "Listy moralne do Lucyliusza",
+    "Medea"
+   ],
+   "mentions": [
+    {
+     "n": 21,
+     "count": 2,
+     "i": 50
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "senenmut",
    "name": "Senenmut",
    "born": -1500,
@@ -7761,6 +8211,11 @@
      "i": 41
     },
     {
+     "n": 21,
+     "count": 1,
+     "i": 50
+    },
+    {
      "n": 228,
      "count": 1,
      "i": 37
@@ -7771,7 +8226,7 @@
      "i": 72
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "szyk",
@@ -7962,6 +8417,60 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "teodora",
+   "name": "Teodora",
+   "born": 497,
+   "died": 548,
+   "c": "polityk",
+   "country": "Bizancjum",
+   "g": "k",
+   "desc": "cesarzowa, żona Justyniana",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 44
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "teodozjusz",
+   "name": "Teodozjusz Wielki",
+   "born": 347,
+   "died": 395,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, który uczynił chrześcijaństwo religią państwową",
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 32
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "terencjusz",
+   "name": "Terencjusz",
+   "born": -195,
+   "died": -159,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "komediopisarz rzymski",
+   "mentions": [
+    {
+     "n": 21,
+     "count": 1,
+     "i": 48
+    }
+   ],
+   "total": 1
   },
   {
    "id": "thutmose",
@@ -8356,9 +8865,14 @@
      "n": 20,
      "count": 5,
      "i": 44
+    },
+    {
+     "n": 22,
+     "count": 1,
+     "i": 77
     }
    ],
-   "total": 6
+   "total": 7
   },
   {
    "id": "whitehead",
@@ -8556,6 +9070,28 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "wujek",
+   "name": "Jakub Wujek",
+   "born": 1541,
+   "died": 1597,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "jezuita, tłumacz Biblii na polski",
+   "works": [
+    "Biblia Wujka"
+   ],
+   "mentions": [
+    {
+     "n": 22,
+     "count": 1,
+     "i": 68
+    }
+   ],
+   "total": 1
   },
   {
    "id": "wyczolkowski",
@@ -8802,7 +9338,7 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 35,
+   "ready": 37,
    "parts": 11,
    "sections": 20,
    "plannedHours": 36,
@@ -8810,17 +9346,17 @@
    "experts": 7
   },
   "ready": {
-   "minutes": 330,
-   "words": 43814,
-   "sentences": 3347,
-   "chapters": 320,
-   "images": 264,
-   "glossary": 223,
-   "quiz": 168,
-   "sources": 147,
-   "music": 6,
+   "minutes": 344,
+   "words": 45638,
+   "sentences": 3493,
+   "chapters": 336,
+   "images": 279,
+   "glossary": 239,
+   "quiz": 178,
+   "sources": 155,
+   "music": 7,
    "lodz": 308,
-   "polska": 201
+   "polska": 204
   },
   "lessons": [
    {
@@ -9234,7 +9770,7 @@
     "music": 0,
     "lodz": 1,
     "polska": 6,
-    "people": 14,
+    "people": 16,
     "speakers": {
      "gospodarz": 128,
      "historyk": 496,
@@ -9256,7 +9792,7 @@
     "music": 0,
     "lodz": 5,
     "polska": 0,
-    "people": 9,
+    "people": 10,
     "speakers": {
      "gospodarz": 123,
      "architekt": 680,
@@ -9308,6 +9844,56 @@
      "gospodarz": 114,
      "literatura": 716,
      "historyk": 110
+    }
+   },
+   {
+    "n": 21,
+    "title": "Muzyka, teatr i codzienność starożytnego świata",
+    "era": "Grecja i Rzym · VIII w. p.n.e.–IV w. n.e.",
+    "minutes": 7,
+    "words": 895,
+    "sentences": 75,
+    "chapters": 8,
+    "images": 8,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 1,
+    "lodz": 0,
+    "polska": 0,
+    "people": 13,
+    "speakers": {
+     "gospodarz": 113,
+     "muzyka": 214,
+     "historyk": 250,
+     "sztuka": 103,
+     "design": 104,
+     "architekt": 111
+    }
+   },
+   {
+    "n": 22,
+    "title": "Chrześcijaństwo i przemiana antycznego świata",
+    "era": "I–VI w. n.e.",
+    "minutes": 7,
+    "words": 929,
+    "sentences": 71,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 3,
+    "people": 19,
+    "speakers": {
+     "gospodarz": 139,
+     "historyk": 277,
+     "sztuka": 217,
+     "architekt": 186,
+     "muzyka": 39,
+     "literatura": 71
     }
    },
    {
@@ -9551,7 +10137,7 @@
     "music": 0,
     "lodz": 6,
     "polska": 11,
-    "people": 18,
+    "people": 19,
     "speakers": {
      "gospodarz": 136,
      "architekt": 705,
@@ -9668,13 +10254,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 5543,
-   "historyk": 8235,
-   "sztuka": 6915,
-   "architekt": 9972,
-   "muzyka": 2027,
-   "literatura": 6463,
-   "design": 3952,
+   "gospodarz": 5795,
+   "historyk": 8762,
+   "sztuka": 7235,
+   "architekt": 10269,
+   "muzyka": 2280,
+   "literatura": 6534,
+   "design": 4056,
    "foto": 707
   },
   "parts": [
@@ -9689,7 +10275,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 15,
+    "ready": 17,
     "sections": 1
    },
    {
@@ -9882,16 +10468,16 @@
    }
   ],
   "people": {
-   "total": 355,
-   "mentions": 909,
+   "total": 379,
+   "mentions": 958,
    "byCategory": {
-    "naukowiec": 38,
-    "filozof": 18,
-    "inne": 13,
-    "muzyk": 10,
-    "pisarz": 60,
-    "polityk": 47,
-    "architekt": 85,
+    "naukowiec": 39,
+    "filozof": 20,
+    "inne": 16,
+    "muzyk": 11,
+    "pisarz": 68,
+    "polityk": 54,
+    "architekt": 87,
     "malarz": 52,
     "projektant": 7,
     "rzeźbiarz": 15,
@@ -9900,21 +10486,23 @@
     "fotograf": 2
    },
    "byCentury": {
-    "1": 8,
+    "1": 10,
     "2": 2,
-    "3": 1,
+    "3": 2,
+    "4": 5,
+    "5": 6,
     "10": 1,
     "11": 1,
     "13": 1,
     "15": 4,
-    "16": 7,
-    "17": 2,
-    "18": 12,
+    "16": 8,
+    "17": 3,
+    "18": 13,
     "19": 89,
-    "20": 149,
+    "20": 150,
     "-5": 20,
     "-4": 9,
-    "-1": 9,
+    "-1": 12,
     "-23": 2,
     "-24": 1,
     "-26": 3,
@@ -9928,21 +10516,21 @@
     "-15": 1,
     "-14": 6,
     "-8": 1,
-    "-3": 3,
-    "-2": 1
+    "-3": 4,
+    "-2": 3
    },
    "byCountry": {
-    "zagranica": 208,
-    "Polska": 147
+    "zagranica": 230,
+    "Polska": 149
    },
    "byGender": {
-    "m": 323,
+    "m": 345,
     "f": 31,
-    "k": 1
+    "k": 3
    },
    "lodz": 31,
-   "withWorks": 203,
-   "works": 636,
+   "withWorks": 212,
+   "works": 649,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

@@ -1,0 +1,108 @@
+---
+n: 22
+title: Chrześcijaństwo i przemiana antycznego świata
+subtitle: Od katakumb do Hagii Sophii
+era: I–VI w. n.e.
+next: Upadek Rzymu i narodziny średniowiecznej Europy.
+---
+
+[jingle]
+
+[gospodarz]
+KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty drugi: chrześcijaństwo i przemiana antycznego świata.
+
+W pierwszym wieku naszej ery w odległej prowincji imperium, w Judei, powstaje mały ruch religijny wokół nauczyciela z Nazaretu. Trzysta lat później jego wyznawcy budują największe kościoły świata, a cesarz uznaje ich Boga za swojego. Ta przemiana zmieniła sztukę, architekturę, muzykę i sposób myślenia Europy na następne półtora tysiąca lat. Tym odcinkiem zamykamy drugą część kursu.
+
+# Rozdział I. Nowa religia w starym świecie
+
+[historyk]
+Jezus z Nazaretu działał w Galilei i w Jerozolimie i został ukrzyżowany za czasów rzymskiego namiestnika Poncjusza Piłata, około trzydziestego roku. Jego uczniowie głosili, że zmartwychwstał. Apostoł Paweł z Tarsu, Żyd z rzymskim obywatelstwem, wędrował po miastach wschodu, od Antiochii po Korynt, i pisał listy do gmin, które stały się częścią Nowego Testamentu. Ewangelie spisano po grecku, w języku całego wschodu imperium.
+
+Dla Rzymu chrześcijanie byli podejrzani, bo odmawiali składania ofiar bogom i cesarzowi. Dochodziło do prześladowań: za Nerona po pożarze Rzymu w sześćdziesiątym czwartym roku, a najcięższych za Dioklecjana na początku czwartego wieku. Mimo to wspólnot przybywało, zwłaszcza w miastach, wśród kobiet, niewolników i kupców.
+
+# Rozdział II. Katakumby i pierwsze obrazy
+
+[sztuka]
+Najstarszą sztukę chrześcijańską znajdziemy pod ziemią. Katakumby w Rzymie to kilometry podziemnych korytarzy z niszami grobowymi. Wbrew legendzie nie były kryjówką, lecz cmentarzami, gdzie spotykano się na pogrzebach i rocznicach. Na ścianach malowano proste symbole: rybę, bo greckie słowo ichthys to pierwsze litery wyznania wiary, kotwicę, gołębia, a także postać Dobrego Pasterza z owcą na ramionach, zapożyczoną z antycznych wyobrażeń.
+
+Chrześcijańska sztuka nie wymyślała wszystkiego od zera. Brała formy z antyku i nadawała im nowe znaczenia. Chrystus bywa przedstawiany jak młody Apollo albo jak filozof z brodą, a sceny z Biblii, jak Jonasz połknięty przez wieloryba, były obrazami nadziei na zmartwychwstanie. Bogate rodziny kazały rzeźbić sarkofagi ze scenami biblijnymi, jak sarkofag Juniusza Bassusa z trzysta pięćdziesiątego dziewiątego roku.
+
+# Rozdział III. Konstantyn i bazylika
+
+[historyk]
+W trzysta dwunastym roku Konstantyn, o którym mówiliśmy przy łuku jego imienia, pokonał rywala przy moście Mulwijskim. Według przekazu przed bitwą zobaczył znak krzyża. W trzysta trzynastym roku edykt mediolański przyznał chrześcijanom wolność wyznania. Pod koniec wieku cesarz Teodozjusz uczynił chrześcijaństwo religią państwową i zakazał dawnych kultów. Ostatnie igrzyska olimpijskie antyku odbyły się mniej więcej w tym czasie.
+
+[architekt]
+Chrześcijanie potrzebowali dużych budynków, w których gromadzi się wspólnota. Świątynia antyczna była domem boga, do którego wierni nie wchodzili. Wybrano więc rzymską bazylikę, salę sądową i targową: długą nawę główną, niższe nawy boczne, a na końcu absydę, półokrągłą niszę, w której zamiast sędziego zasiadł biskup. Konstantyn ufundował w Rzymie bazylikę na Lateranie i pierwszą bazylikę świętego Piotra. Ten plan, nawa i absyda, stał się wzorem kościołów w całej Europie, także w Polsce.
+
+# Rozdział IV. Mozaiki Rawenny
+
+[sztuka]
+W piątym wieku stolicą zachodniego cesarstwa stała się Rawenna. Tam zachowały się najpiękniejsze mozaiki późnego antyku. W mauzoleum Galli Placydii granatowe sklepienie jest usiane złotymi gwiazdami. W bazylice San Vitale, z szóstego wieku, cesarz Justynian i cesarzowa Teodora, w purpurze i klejnotach, stoją ze swoimi dworami naprzeciw siebie, jakby uczestniczyli w liturgii.
+
+Te mozaiki pokazują przemianę sztuki. Postacie są płaskie i frontalne, patrzą prosto na nas, unoszą się na złotym tle, które nie jest niebem ani ścianą, tylko światłem wieczności. Zamiast złudzenia rzeczywistości, którego szukali Grecy i Rzymianie, pojawia się obraz świata duchowego. To początek sztuki bizantyńskiej i średniowiecznej.
+
+# Rozdział V. Hagia Sophia
+
+[architekt]
+W pięćset trzydziestym drugim roku Justynian, cesarz wschodniego imperium z Konstantynopola, postanowił zbudować świątynię, jakiej świat nie widział. Zaprojektowali ją dwaj uczeni, matematyk Antemiusz z Tralles i geometra Izydor z Miletu. W niecałe sześć lat powstała Hagia Sophia, kościół Mądrości Bożej, z kopułą o średnicy ponad trzydziestu metrów.
+
+Kopuła spoczywa na czterech łukach i trójkątnych żaglach, pendentywach, a u jej podstawy biegnie wieniec okien. Światło sprawia, że wygląda, jakby unosiła się w powietrzu. Kronikarz Prokopiusz pisał, że wydaje się zawieszona na złotym łańcuchu z nieba. Hagia Sophia była przez prawie tysiąc lat największym kościołem świata, po zdobyciu miasta przez Turków w tysiąc czterysta pięćdziesiątym trzecim roku stała się meczetem i wzorem dla meczetów osmańskich.
+
+# Rozdział VI. Muzyka i słowo
+
+[muzyka]
+Chrześcijanie śpiewali psalmy, przejmując zwyczaj z synagog. Nie używali instrumentów, kojarzonych z pogańskimi widowiskami, i śpiewali jednogłosowo. Biskup Mediolanu, święty Ambroży, w czwartym wieku wprowadził śpiew hymnów naprzemiennie przez dwa chóry. Z tych tradycji wyrośnie w średniowieczu chorał gregoriański.
+
+[literatura]
+Wielkim pisarzem przełomu był święty Augustyn, urodzony w Afryce Północnej. W Wyznaniach opowiedział o swoim życiu, poszukiwaniach i nawróceniu, tworząc pierwszą autobiografię wewnętrzną w literaturze europejskiej. Gdy w czterysta dziesiątym roku Wizygoci złupili Rzym, napisał Państwo Boże, rozważanie o tym, że żadne ziemskie imperium nie jest wieczne. Święty Hieronim przełożył Biblię na łacinę. Ten przekład, Wulgata, był przez tysiąc lat Biblią zachodniej Europy, a z niego tłumaczył na polski Jakub Wujek.
+
+# Rozdział VII. Koniec antyku czy przemiana
+
+[historyk]
+W czterysta siedemdziesiątym szóstym roku ostatni cesarz zachodni, chłopiec Romulus Augustulus, został zdetronizowany. To umowna data upadku Rzymu na zachodzie. Na wschodzie cesarstwo, które nazywamy bizantyńskim, trwało jeszcze tysiąc lat. Historycy spierają się, czy był to upadek, czy raczej powolna przemiana: miasta kurczyły się, ale łacina, prawo rzymskie i chrześcijaństwo przetrwały i stały się fundamentem średniowiecza.
+
+Justynian kazał spisać prawo rzymskie w wielkim kodeksie, który do dziś jest podstawą prawa cywilnego w Europie, także polskiego. Klasztory, takie jak założone przez świętego Benedykta Monte Cassino, przepisywały księgi. Mnisi zachowali dla nas Wergiliusza i Cycerona. Antyczny świat się skończył, ale jego architektura, myśl i opowieści, które poznaliśmy w tej części kursu, przeszły do nowego świata.
+
+# Zakończenie
+
+[gospodarz]
+Podsumujmy. Widzieliśmy narodziny chrześcijaństwa i prześladowania, katakumby i pierwsze symbole, Konstantyna i bazylikę, złote mozaiki Rawenny, kopułę Hagii Sophii, psalmy i hymny Ambrożego, Augustyna i Hieronima, a na koniec upadek, a może przemianę Rzymu.
+
+Tym odcinkiem kończymy drugą część kursu, od Mezopotamii do późnego antyku. W następnej części wchodzimy w średniowiecze: zobaczymy z bliska upadek Rzymu i narodziny średniowiecznej Europy.
+
+To była KULTURA. Do usłyszenia.
+
+[outro]
+
+## Galeria
+![Dobry Pasterz z katakumb Pryscylli](Good Shepherd catacomb Priscilla) @2
+![Sarkofag Juniusza Bassusa](Sarcophagus of Junius Bassus) @2
+![Bazylika Santa Sabina w Rzymie](Santa Sabina Rome interior) @3
+![Sklepienie mauzoleum Galli Placydii](Mausoleum of Galla Placidia ceiling) @4
+![Justynian i jego dwór, San Vitale](Justinian mosaic San Vitale) @4
+![Wnętrze Hagii Sophii](Hagia Sophia interior) @5
+![Święty Augustyn w pracowni, Botticelli](Botticelli Saint Augustine Ognissanti) @6
+
+## Słowniczek
+- Katakumby: podziemne cmentarze wczesnych chrześcijan.
+- Ichthys: ryba, symbol Chrystusa.
+- Bazylika: podłużny kościół z nawami i absydą.
+- Absyda: półkolista nisza zamykająca nawę.
+- Pendentyw: trójkątny żagiel przenoszący kopułę na filary.
+- Edykt mediolański: akt tolerancji religijnej z 313 roku.
+- Wulgata: łaciński przekład Biblii świętego Hieronima.
+- Kodeks Justyniana: zbiór prawa rzymskiego.
+
+## Pytania
+? Czym były rzymskie katakumby? | Kryjówkami | Podziemnymi cmentarzami* | Świątyniami pogańskimi | Spotykano się w nich na pogrzebach i rocznicach.
+? Jaki budynek stał się wzorem kościoła chrześcijańskiego? | Grecka świątynia | Rzymska bazylika* | Amfiteatr | Nawa i absyda pochodzą z rzymskiej sali sądowej.
+? Gdzie są mozaiki z Justynianem i Teodorą? | W Rzymie | W San Vitale w Rawennie* | W Atenach | Postacie stoją na złotym tle.
+? Kto zaprojektował Hagię Sophię? | Witruwiusz | Antemiusz z Tralles i Izydor z Miletu* | Apollodor z Damaszku | Kościół zbudowano w niecałe sześć lat.
+? Kto przełożył Biblię na łacinę? | Augustyn | Hieronim* | Ambroży | Jego przekład to Wulgata.
+
+## Źródła
+- [Katakumby Rzymu — Encyclopaedia Britannica](https://www.britannica.com/topic/catacomb)
+- [Wczesnochrześcijańskie zabytki Rawenny — UNESCO](https://whc.unesco.org/en/list/788/)
+- [Historyczne obszary Stambułu — UNESCO](https://whc.unesco.org/en/list/356/)
+- [Hagia Sophia — Encyclopaedia Britannica](https://www.britannica.com/topic/Hagia-Sophia)
