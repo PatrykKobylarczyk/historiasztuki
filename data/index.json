@@ -2626,6 +2626,25 @@
    "total": 1
   },
   {
+   "id": "filip-kallimach",
+   "name": "Filip Kallimach",
+   "born": 1437,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "humanista, nauczyciel królewiczów",
+   "died": 1496,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 37,
+     "count": 1,
+     "i": 57
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "fiorelli",
    "name": "Giuseppe Fiorelli",
    "born": 1823,
@@ -4408,22 +4427,25 @@
   },
   {
    "id": "kallimach",
-   "name": "Filip Kallimach",
-   "born": 1437,
-   "c": "pisarz",
-   "country": "Włochy",
+   "name": "Kallimach",
+   "born": -450,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
    "g": "m",
-   "desc": "humanista, nauczyciel królewiczów",
-   "died": 1496,
-   "pl": true,
+   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
    "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 56
+    },
     {
      "n": 37,
      "count": 1,
      "i": 57
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "kant",
@@ -11668,7 +11690,7 @@
     "music": 0,
     "lodz": 1,
     "polska": 0,
-    "people": 13,
+    "people": 14,
     "speakers": {
      "gospodarz": 128,
      "historyk": 100,
@@ -12273,7 +12295,7 @@
     "music": 0,
     "lodz": 3,
     "polska": 10,
-    "people": 16,
+    "people": 17,
     "speakers": {
      "gospodarz": 121,
      "historyk": 436,
@@ -12875,8 +12897,8 @@
    }
   ],
   "people": {
-   "total": 467,
-   "mentions": 1209,
+   "total": 468,
+   "mentions": 1211,
    "byCategory": {
     "naukowiec": 46,
     "filozof": 31,
@@ -12887,7 +12909,7 @@
     "architekt": 89,
     "malarz": 58,
     "projektant": 7,
-    "rzeźbiarz": 16,
+    "rzeźbiarz": 17,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
@@ -12913,7 +12935,7 @@
     "18": 15,
     "19": 95,
     "20": 152,
-    "-5": 19,
+    "-5": 20,
     "-4": 9,
     "-1": 12,
     "-23": 2,
@@ -12933,11 +12955,11 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 290,
+    "zagranica": 291,
     "Polska": 177
    },
    "byGender": {
-    "m": 423,
+    "m": 424,
     "f": 31,
     "k": 13
    },

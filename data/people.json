@@ -5356,6 +5356,18 @@
   },
   {
    "id": "kallimach",
+   "name": "Kallimach",
+   "born": -450,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
+   "m": [
+    "Kallimach\\p{L}*"
+   ]
+  },
+  {
+   "id": "filip-kallimach",
    "name": "Filip Kallimach",
    "born": 1437,
    "c": "pisarz",
