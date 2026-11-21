@@ -120,7 +120,14 @@ async function clip(text, sp) {
 }
 
 const toInt16 = (f32) => Int16Array.from(f32, (v) => Math.max(-32768, Math.min(32767, Math.round(v * 32767))));
-const FX = { jingle: toInt16(renderJingle(SR)), outro: toInt16(renderOutro(SR)), sting: toInt16(renderSting(SR)) };
+// Sygnały orkiestrowe z media/fx (render: scripts/render-jingle.py); syntezowane tylko gdy brak pliku.
+function fxFile(kind, fallback) {
+  const f = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "media", "fx", `${kind}.mp3`);
+  if (!fs.existsSync(f)) return toInt16(fallback(SR));
+  const b = execFileSync("ffmpeg", ["-loglevel", "error", "-i", f, "-f", "s16le", "-ar", String(SR), "-ac", "1", "-"], { maxBuffer: 1 << 26 });
+  return new Int16Array(b.buffer, b.byteOffset, b.length >> 1);
+}
+const FX = { jingle: fxFile("jingle", renderJingle), outro: fxFile("outro", renderOutro), sting: fxFile("sting", renderSting) };
 const silence = (ms) => new Int16Array(Math.round((SR * ms) / 1000));
 
 // te same przerwy co w odtwarzaczu przeglądarkowym
