@@ -728,3 +728,13 @@ a.mrow:hover { color: var(--ink); }
 .mrow.cur .mn::before { content: "▶"; font-size: .6rem; margin-right: 3px; }
 .mrow.cur .mm { color: var(--accent); font-weight: 500; }
 @media (max-width: 560px) { .mini { padding-left: 0; } }
+
+/* okno pytania: zawsze mieści się na ekranie telefonu */
+.askdlg { max-width: calc(100vw - 24px); max-height: calc(100dvh - 24px); overflow: auto; box-sizing: border-box; }
+.ask-inner { grid-template-columns: minmax(0, 1fr); padding: clamp(18px, 5vw, 28px); }
+.ask-inner h2 { font-size: clamp(1.5rem, 6vw, 2rem); }
+.ask-row { flex-wrap: wrap; }
+.ask-q { flex: 1 1 220px; width: 100%; }
+.ask-mic { min-height: 48px; }
+.ask-mic.rec { flex: 1 1 100%; }
+.ask-actions .btn { flex: 1 1 auto; }

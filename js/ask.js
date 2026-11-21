@@ -71,21 +71,46 @@ export function openAsk(player, speakers) {
   d.querySelector('[data-action="ask-resume"]').onclick = resume;
   q.onkeydown = (e) => { if (e.key === "Enter") { e.preventDefault(); send(); } };
   d.oncancel = () => { stopSpeaking(); };
+  // Rozpoznawanie mowy. Na iPhonie wynik często nie dostaje znacznika „końcowy”,
+  // dlatego po krótkiej ciszy kończymy sami; bez żadnego dźwięku przerywamy po 8 s.
+  let silence, noInput, listening = false;
+  const stopListening = (andSend) => {
+    clearTimeout(silence); clearTimeout(noInput);
+    listening = false;
+    mic.classList.remove("rec");
+    mic.textContent = "Mów";
+    try { rec?.stop(); } catch {}
+    if (andSend && q.value.trim()) send();
+  };
   mic.onclick = () => {
     if (!SR) return;
+    if (listening) return stopListening(true);   // drugie dotknięcie: koniec i wyślij
     try { rec?.abort(); } catch {}
+    stopSpeaking();
     rec = new SR();
     rec.lang = "pl-PL";
     rec.interimResults = true;
+    rec.continuous = false;
     rec.maxAlternatives = 1;
-    mic.textContent = "● Słucham…";
+    listening = true;
+    mic.classList.add("rec");
+    mic.textContent = "● Słucham… (dotknij, by wysłać)";
+    noInput = setTimeout(() => {
+      if (!q.value.trim()) { stopListening(false); ans.textContent = "Nie usłyszałem pytania. Spróbuj jeszcze raz albo wpisz je."; }
+    }, 8000);
     rec.onresult = (e) => {
-      q.value = Array.from(e.results).map((r) => r[0].transcript).join(" ");
-      if (e.results[e.results.length - 1].isFinal) { mic.textContent = "Mów"; send(); }
+      clearTimeout(noInput); clearTimeout(silence);
+      q.value = Array.from(e.results).map((r) => r[0].transcript).join(" ").trim();
+      if (e.results[e.results.length - 1].isFinal) return stopListening(true);
+      silence = setTimeout(() => stopListening(true), 1600);
     };
-    rec.onerror = () => { mic.textContent = "Mów"; };
-    rec.onend = () => { mic.textContent = "Mów"; };
-    rec.start();
+    rec.onerror = (e) => {
+      stopListening(false);
+      if (e.error === "not-allowed" || e.error === "service-not-allowed")
+        ans.textContent = "Brak dostępu do mikrofonu. Zezwól na mikrofon w ustawieniach przeglądarki albo wpisz pytanie.";
+    };
+    rec.onend = () => { if (listening) stopListening(true); };
+    try { rec.start(); } catch { stopListening(false); }
   };
   // w trybie auto od razu słuchamy
   if (SR && !document.getElementById("carmode").hidden) mic.click();
