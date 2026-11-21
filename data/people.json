@@ -5363,7 +5363,7 @@
    "g": "m",
    "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
    "m": [
-    "Kallimach\\p{L}*"
+    "(?<!Filip\\p{L}* )Kallimach\\p{L}*"
    ]
   },
   {

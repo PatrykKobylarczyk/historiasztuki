@@ -4438,14 +4438,9 @@
      "n": 11,
      "count": 1,
      "i": 56
-    },
-    {
-     "n": 37,
-     "count": 1,
-     "i": 57
     }
    ],
-   "total": 2
+   "total": 1
   },
   {
    "id": "kant",
@@ -12295,7 +12290,7 @@
     "music": 0,
     "lodz": 3,
     "polska": 10,
-    "people": 17,
+    "people": 16,
     "speakers": {
      "gospodarz": 121,
      "historyk": 436,
@@ -12898,7 +12893,7 @@
   ],
   "people": {
    "total": 468,
-   "mentions": 1211,
+   "mentions": 1210,
    "byCategory": {
     "naukowiec": 46,
     "filozof": 31,
