@@ -1494,5 +1494,75 @@
   "creator": "Jakob Prandtauer",
   "date": "1702–1736",
   "place": "Melk, Austria"
+ },
+ "Speyer Cathedral": {
+  "creator": "fundacja cesarza Konrada II",
+  "date": "1030–1106",
+  "place": "Spira, Niemcy"
+ },
+ "Basilica of Saint-Sernin Toulouse": {
+  "creator": "budowniczowie romańscy",
+  "date": "ok. 1080–1120",
+  "place": "Tuluza, Francja"
+ },
+ "Autun tympanum Last Judgement": {
+  "creator": "Gislebertus",
+  "date": "ok. 1130",
+  "place": "Katedra Saint-Lazare, Autun"
+ },
+ "Sant Climent de Taull apse": {
+  "creator": "Mistrz z Taüll",
+  "date": "1123",
+  "place": "Muzeum Sztuki Katalonii, Barcelona"
+ },
+ "Bayeux Tapestry": {
+  "creator": "hafciarki anglosaskie",
+  "date": "ok. 1070",
+  "place": "Muzeum w Bayeux"
+ },
+ "Piazza dei Miracoli Pisa": {
+  "creator": "Buscheto, Rainaldo, Bonanno Pisano",
+  "date": "XI–XIV w.",
+  "place": "Piza"
+ },
+ "Durham Cathedral nave": {
+  "creator": "budowniczowie normańscy",
+  "date": "1093–1133",
+  "place": "Durham, Anglia"
+ },
+ "Basilica of Saint-Denis choir": {
+  "creator": "opat Suger (fundator)",
+  "date": "1140–1144",
+  "place": "Saint-Denis, Francja"
+ },
+ "Notre-Dame de Paris flying buttresses": {
+  "creator": "budowniczowie gotyccy",
+  "date": "XII–XIV w.",
+  "place": "Paryż"
+ },
+ "Chartres Cathedral stained glass": {
+  "creator": "szklarze z Chartres",
+  "date": "XII–XIII w.",
+  "place": "Katedra w Chartres"
+ },
+ "Amiens Cathedral nave": {
+  "creator": "Robert de Luzarches",
+  "date": "1220–1270",
+  "place": "Amiens"
+ },
+ "Notre-Dame de Paris": {
+  "creator": "budowniczowie gotyccy, Eugène Viollet-le-Duc (restauracja)",
+  "date": "od 1163",
+  "place": "Paryż"
+ },
+ "King's College Chapel fan vault": {
+  "creator": "John Wastell",
+  "date": "1508–1515",
+  "place": "Cambridge"
+ },
+ "Archikatedra Łódź": {
+  "creator": "Emil Zillmann",
+  "date": "1901–1912",
+  "place": "Łódź, ul. Piotrkowska"
  }
 }

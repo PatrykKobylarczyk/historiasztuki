@@ -7015,6 +7015,104 @@
    "m": [
     "Kazimierz\\p{L}* Wielki\\p{L}*"
    ]
+  },
+  {
+   "id": "gislebertus",
+   "name": "Gislebertus",
+   "born": 1100,
+   "died": 1150,
+   "c": "rzeźbiarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "rzeźbiarz romański z Autun",
+   "m": [
+    "Gislebert\\p{L}*"
+   ],
+   "works": [
+    "Sąd Ostateczny w Autun"
+   ]
+  },
+  {
+   "id": "grzegorz-vii",
+   "name": "Grzegorz VII",
+   "born": 1015,
+   "died": 1085,
+   "c": "polityk",
+   "country": "Papiestwo",
+   "g": "m",
+   "desc": "papież, reformator Kościoła",
+   "m": [
+    "Grzegorz\\p{L}* siódm\\p{L}*"
+   ]
+  },
+  {
+   "id": "rudolf-glaber",
+   "name": "Rudolf Glaber",
+   "born": 985,
+   "died": 1047,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kronikarz roku tysięcznego",
+   "m": [
+    "Glaber\\p{L}*"
+   ]
+  },
+  {
+   "id": "suger",
+   "name": "Opat Suger",
+   "born": 1081,
+   "died": 1151,
+   "c": "inne",
+   "country": "Francja",
+   "g": "m",
+   "desc": "opat Saint-Denis, inicjator gotyku",
+   "m": [
+    "Suger\\p{L}*"
+   ]
+  },
+  {
+   "id": "villard",
+   "name": "Villard de Honnecourt",
+   "born": 1200,
+   "died": 1250,
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "mistrz budowlany, autor szkicownika",
+   "m": [
+    "Villard\\p{L}*"
+   ]
+  },
+  {
+   "id": "viollet-le-duc",
+   "name": "Eugène Viollet-le-Duc",
+   "born": 1814,
+   "died": 1879,
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "architekt i konserwator, odnowiciel Notre-Dame",
+   "m": [
+    "Viollet-le-Duc\\p{L}*"
+   ]
+  },
+  {
+   "id": "hugo",
+   "name": "Wiktor Hugo",
+   "born": 1802,
+   "died": 1885,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "pisarz, autor „Katedry Marii Panny w Paryżu”",
+   "m": [
+    "Wiktor\\p{L}* Hug\\p{L}*"
+   ],
+   "works": [
+    "Katedra Marii Panny w Paryżu",
+    "Nędznicy"
+   ]
   }
  ]
 }

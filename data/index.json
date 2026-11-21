@@ -2694,6 +2694,27 @@
    "total": 2
   },
   {
+   "id": "gislebertus",
+   "name": "Gislebertus",
+   "born": 1100,
+   "died": 1150,
+   "c": "rzeźbiarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "rzeźbiarz romański z Autun",
+   "works": [
+    "Sąd Ostateczny w Autun"
+   ],
+   "mentions": [
+    {
+     "n": 27,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "gombrich",
    "name": "Ernst Gombrich",
    "born": 1909,
@@ -2866,6 +2887,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "grzegorz-vii",
+   "name": "Grzegorz VII",
+   "born": 1015,
+   "died": 1085,
+   "c": "polityk",
+   "country": "Papiestwo",
+   "g": "m",
+   "desc": "papież, reformator Kościoła",
+   "mentions": [
+    {
+     "n": 27,
+     "count": 1,
+     "i": 15
+    }
+   ],
+   "total": 1
   },
   {
    "id": "gudea",
@@ -3367,6 +3406,28 @@
    "total": 6
   },
   {
+   "id": "hugo",
+   "name": "Wiktor Hugo",
+   "born": 1802,
+   "died": 1885,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "pisarz, autor „Katedry Marii Panny w Paryżu”",
+   "works": [
+    "Katedra Marii Panny w Paryżu",
+    "Nędznicy"
+   ],
+   "mentions": [
+    {
+     "n": 28,
+     "count": 1,
+     "i": 45
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "ibn-al-hajsam",
    "name": "Ibn al-Hajsam",
    "born": 965,
@@ -3736,12 +3797,17 @@
      "i": 16
     },
     {
+     "n": 27,
+     "count": 3,
+     "i": 39
+    },
+    {
      "n": 226,
      "count": 1,
      "i": 30
     }
    ],
-   "total": 9
+   "total": 12
   },
   {
    "id": "jobs",
@@ -5717,9 +5783,14 @@
      "n": 1,
      "count": 1,
      "i": 186
+    },
+    {
+     "n": 23,
+     "count": 1,
+     "i": 60
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "milosz",
@@ -7664,6 +7735,24 @@
    "total": 0
   },
   {
+   "id": "rudolf-glaber",
+   "name": "Rudolf Glaber",
+   "born": 985,
+   "died": 1047,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kronikarz roku tysięcznego",
+   "mentions": [
+    {
+     "n": 27,
+     "count": 1,
+     "i": 4
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "rybczynski",
    "name": "Zbigniew Rybczyński",
    "born": 1949,
@@ -8621,6 +8710,24 @@
    "total": 1
   },
   {
+   "id": "suger",
+   "name": "Opat Suger",
+   "born": 1081,
+   "died": 1151,
+   "c": "inne",
+   "country": "Francja",
+   "g": "m",
+   "desc": "opat Saint-Denis, inicjator gotyku",
+   "mentions": [
+    {
+     "n": 28,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "sullivan",
    "name": "Louis Sullivan",
    "c": "architekt",
@@ -9272,6 +9379,42 @@
    "total": 4
   },
   {
+   "id": "villard",
+   "name": "Villard de Honnecourt",
+   "born": 1200,
+   "died": 1250,
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "mistrz budowlany, autor szkicownika",
+   "mentions": [
+    {
+     "n": 28,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "viollet-le-duc",
+   "name": "Eugène Viollet-le-Duc",
+   "born": 1814,
+   "died": 1879,
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "architekt i konserwator, odnowiciel Notre-Dame",
+   "mentions": [
+    {
+     "n": 28,
+     "count": 1,
+     "i": 45
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "wajda",
    "name": "Andrzej Wajda",
    "born": 1926,
@@ -9877,25 +10020,25 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 41,
+   "ready": 43,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 35,
+   "plannedHours": 34,
    "yearsSpan": 52026,
    "experts": 8
   },
   "ready": {
-   "minutes": 368,
-   "words": 48718,
-   "sentences": 3736,
-   "chapters": 368,
-   "images": 306,
-   "glossary": 265,
-   "quiz": 196,
-   "sources": 169,
+   "minutes": 380,
+   "words": 50261,
+   "sentences": 3856,
+   "chapters": 384,
+   "images": 320,
+   "glossary": 279,
+   "quiz": 205,
+   "sources": 176,
    "music": 7,
-   "lodz": 311,
-   "polska": 213
+   "lodz": 314,
+   "polska": 215
   },
   "lessons": [
    {
@@ -10450,7 +10593,7 @@
     "music": 0,
     "lodz": 0,
     "polska": 1,
-    "people": 12,
+    "people": 13,
     "speakers": {
      "gospodarz": 115,
      "historyk": 378,
@@ -10528,6 +10671,52 @@
      "architekt": 90,
      "literatura": 171,
      "sztuka": 85
+    }
+   },
+   {
+    "n": 27,
+    "title": "Romanizm — kościół jako centrum świata",
+    "era": "ok. 1000–1200",
+    "minutes": 6,
+    "words": 776,
+    "sentences": 62,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 4,
+    "sources": 3,
+    "music": 0,
+    "lodz": 0,
+    "polska": 1,
+    "people": 4,
+    "speakers": {
+     "gospodarz": 121,
+     "historyk": 268,
+     "architekt": 184,
+     "sztuka": 203
+    }
+   },
+   {
+    "n": 28,
+    "title": "Gotyk — światło, konstrukcja i monumentalność",
+    "era": "ok. 1140–1500",
+    "minutes": 6,
+    "words": 767,
+    "sentences": 58,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 3,
+    "polska": 1,
+    "people": 4,
+    "speakers": {
+     "gospodarz": 133,
+     "historyk": 184,
+     "architekt": 363,
+     "sztuka": 87
     }
    },
    {
@@ -10888,10 +11077,10 @@
    }
   ],
   "speakers": {
-   "gospodarz": 6268,
-   "historyk": 9980,
-   "sztuka": 7715,
-   "architekt": 10803,
+   "gospodarz": 6522,
+   "historyk": 10432,
+   "sztuka": 8005,
+   "architekt": 11350,
    "muzyka": 2280,
    "literatura": 6791,
    "design": 4174,
@@ -10916,7 +11105,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 4,
+    "ready": 6,
     "sections": 1
    },
    {
@@ -11102,19 +11291,19 @@
    }
   ],
   "people": {
-   "total": 404,
-   "mentions": 1021,
+   "total": 411,
+   "mentions": 1034,
    "byCategory": {
     "naukowiec": 43,
     "filozof": 24,
-    "inne": 19,
+    "inne": 20,
     "muzyk": 12,
-    "pisarz": 70,
-    "polityk": 62,
-    "architekt": 87,
+    "pisarz": 72,
+    "polityk": 63,
+    "architekt": 89,
     "malarz": 55,
     "projektant": 7,
-    "rzeźbiarz": 15,
+    "rzeźbiarz": 16,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
@@ -11129,16 +11318,16 @@
     "7": 2,
     "8": 3,
     "9": 1,
-    "10": 3,
-    "11": 3,
-    "12": 3,
+    "10": 4,
+    "11": 6,
+    "12": 4,
     "13": 2,
     "14": 2,
     "15": 5,
     "16": 8,
     "17": 3,
     "18": 13,
-    "19": 90,
+    "19": 92,
     "20": 150,
     "-5": 20,
     "-4": 9,
@@ -11160,17 +11349,17 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 252,
+    "zagranica": 259,
     "Polska": 152
    },
    "byGender": {
-    "m": 367,
+    "m": 374,
     "f": 31,
     "k": 6
    },
    "lodz": 31,
-   "withWorks": 217,
-   "works": 655,
+   "withWorks": 219,
+   "works": 658,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,
