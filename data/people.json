@@ -5356,15 +5356,17 @@
   },
   {
    "id": "kallimach",
-   "name": "Kallimach",
-   "born": -450,
-   "c": "rzeźbiarz",
-   "country": "Grecja",
+   "name": "Filip Kallimach",
+   "born": 1437,
+   "c": "pisarz",
+   "country": "Włochy",
    "g": "m",
-   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
+   "desc": "humanista, nauczyciel królewiczów",
    "m": [
-    "Kallimach\\p{L}*"
-   ]
+    "Filip\\p{L}* Kallimach\\p{L}*"
+   ],
+   "died": 1496,
+   "pl": true
   },
   {
    "id": "ajschylos",
@@ -7727,7 +7729,7 @@
    "g": "m",
    "desc": "biskup praski, męczennik, patron Polski",
    "m": [
-    "Wojciech\\p{L}*"
+    "Wojciech\\p{L}*(?!\\p{L}| z Brudzewa| \\p{Lu})"
    ]
   },
   {
@@ -7885,6 +7887,63 @@
    "m": [
     "Kazimierz\\p{L}* Jagiellończyk\\p{L}*"
    ]
+  },
+  {
+   "id": "wojciech-z-brudzewa",
+   "name": "Wojciech z Brudzewa",
+   "born": 1445,
+   "died": 1495,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "astronom, nauczyciel Kopernika",
+   "m": [
+    "Wojciech\\p{L}* z Brudzewa"
+   ]
+  },
+  {
+   "id": "elzbieta-rakuszanka",
+   "name": "Elżbieta Rakuszanka",
+   "born": 1436,
+   "died": 1505,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "królowa Polski, matka królów",
+   "m": [
+    "Rakuszank\\p{L}*"
+   ]
+  },
+  {
+   "id": "zygmunt-stary",
+   "name": "Zygmunt Stary",
+   "born": 1467,
+   "died": 1548,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, mecenas renesansu",
+   "m": [
+    "Zygmunt\\p{L}* Star\\p{L}*"
+   ]
+  },
+  {
+   "id": "jan-pella",
+   "name": "Jan Pella z Niewiesza",
+   "born": 1370,
+   "died": 1428,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "biskup włocławski, zasadźca miasta Łodzi",
+   "m": [
+    "Pell\\p{L}*"
+   ],
+   "lodz": true
   }
  ]
 }

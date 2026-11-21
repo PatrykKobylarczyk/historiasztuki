@@ -1051,9 +1051,14 @@
      "n": 34,
      "count": 3,
      "i": 33
+    },
+    {
+     "n": 37,
+     "count": 1,
+     "i": 29
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "boniek",
@@ -1964,9 +1969,14 @@
      "n": 31,
      "count": 1,
      "i": 66
+    },
+    {
+     "n": 37,
+     "count": 1,
+     "i": 39
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "dmochowski",
@@ -2278,6 +2288,25 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "elzbieta-rakuszanka",
+   "name": "Elżbieta Rakuszanka",
+   "born": 1436,
+   "died": 1505,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "królowa Polski, matka królów",
+   "mentions": [
+    {
+     "n": 37,
+     "count": 1,
+     "i": 56
+    }
+   ],
+   "total": 1
   },
   {
    "id": "enheduanna",
@@ -4041,12 +4070,22 @@
      "i": 30
     },
     {
+     "n": 37,
+     "count": 6,
+     "i": 4
+    },
+    {
+     "n": 38,
+     "count": 1,
+     "i": 24
+    },
+    {
      "n": 227,
      "count": 1,
      "i": 61
     }
    ],
-   "total": 5
+   "total": 12
   },
   {
    "id": "jan-damaszek",
@@ -4080,9 +4119,34 @@
    "lodzLink": "W 1987 roku odwiedził Łódź i spotkał się z włókniarkami.",
    "mentions": [
     {
+     "n": 37,
+     "count": 1,
+     "i": 22
+    },
+    {
      "n": 194,
      "count": 1,
      "i": 102
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "jan-pella",
+   "name": "Jan Pella z Niewiesza",
+   "born": 1370,
+   "died": 1428,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "biskup włocławski, zasadźca miasta Łodzi",
+   "lodz": true,
+   "mentions": [
+    {
+     "n": 38,
+     "count": 1,
+     "i": 25
     }
    ],
    "total": 1
@@ -4344,17 +4408,19 @@
   },
   {
    "id": "kallimach",
-   "name": "Kallimach",
-   "born": -450,
-   "c": "rzeźbiarz",
-   "country": "Grecja",
+   "name": "Filip Kallimach",
+   "born": 1437,
+   "c": "pisarz",
+   "country": "Włochy",
    "g": "m",
-   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
+   "desc": "humanista, nauczyciel królewiczów",
+   "died": 1496,
+   "pl": true,
    "mentions": [
     {
-     "n": 11,
+     "n": 37,
      "count": 1,
-     "i": 56
+     "i": 57
     }
    ],
    "total": 1
@@ -4508,9 +4574,14 @@
      "n": 36,
      "count": 1,
      "i": 53
+    },
+    {
+     "n": 37,
+     "count": 3,
+     "i": 39
     }
    ],
-   "total": 1
+   "total": 4
   },
   {
    "id": "kazimierz-odnowiciel",
@@ -4561,9 +4632,14 @@
      "n": 36,
      "count": 5,
      "i": 4
+    },
+    {
+     "n": 38,
+     "count": 1,
+     "i": 43
     }
    ],
-   "total": 8
+   "total": 9
   },
   {
    "id": "kieslowski",
@@ -4931,9 +5007,14 @@
      "n": 36,
      "count": 1,
      "i": 23
+    },
+    {
+     "n": 37,
+     "count": 2,
+     "i": 46
     }
    ],
-   "total": 1
+   "total": 3
   },
   {
    "id": "kosciuszko",
@@ -5132,9 +5213,14 @@
      "n": 32,
      "count": 1,
      "i": 42
+    },
+    {
+     "n": 37,
+     "count": 1,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "kropiwnicki",
@@ -5774,9 +5860,14 @@
      "n": 36,
      "count": 1,
      "i": 45
+    },
+    {
+     "n": 37,
+     "count": 1,
+     "i": 11
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "loos",
@@ -6212,6 +6303,11 @@
    "pl": true,
    "mentions": [
     {
+     "n": 37,
+     "count": 1,
+     "i": 25
+    },
+    {
      "n": 229,
      "count": 1,
      "i": 82
@@ -6222,7 +6318,7 @@
      "i": 4
     }
    ],
-   "total": 7
+   "total": 8
   },
   {
    "id": "mau",
@@ -6533,6 +6629,11 @@
      "i": 12
     },
     {
+     "n": 38,
+     "count": 1,
+     "i": 21
+    },
+    {
      "n": 224,
      "count": 2,
      "i": 34
@@ -6548,7 +6649,7 @@
      "i": 62
     }
    ],
-   "total": 18
+   "total": 19
   },
   {
    "id": "mieszko",
@@ -8049,6 +8150,11 @@
      "i": 64
     },
     {
+     "n": 38,
+     "count": 1,
+     "i": 62
+    },
+    {
      "n": 186,
      "count": 5,
      "i": 31
@@ -8079,7 +8185,7 @@
      "i": 71
     }
    ],
-   "total": 13
+   "total": 14
   },
   {
    "id": "praksyteles",
@@ -8980,6 +9086,11 @@
      "i": 64
     },
     {
+     "n": 38,
+     "count": 1,
+     "i": 62
+    },
+    {
      "n": 186,
      "count": 1,
      "i": 51
@@ -9010,7 +9121,7 @@
      "i": 32
     }
    ],
-   "total": 7
+   "total": 8
   },
   {
    "id": "schliemann",
@@ -9689,9 +9800,14 @@
      "n": 36,
      "count": 2,
      "i": 52
+    },
+    {
+     "n": 37,
+     "count": 1,
+     "i": 56
     }
    ],
-   "total": 5
+   "total": 6
   },
   {
    "id": "styka",
@@ -10812,9 +10928,14 @@
      "n": 32,
      "count": 2,
      "i": 67
+    },
+    {
+     "n": 37,
+     "count": 1,
+     "i": 49
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "wlostowic",
@@ -10871,11 +10992,6 @@
    "desc": "biskup praski, męczennik, patron Polski",
    "mentions": [
     {
-     "n": 4,
-     "count": 1,
-     "i": 84
-    },
-    {
      "n": 34,
      "count": 6,
      "i": 33
@@ -10886,27 +11002,31 @@
      "i": 47
     },
     {
-     "n": 186,
+     "n": 37,
      "count": 1,
-     "i": 66
-    },
-    {
-     "n": 229,
-     "count": 1,
-     "i": 29
-    },
-    {
-     "n": 230,
-     "count": 1,
-     "i": 24
-    },
-    {
-     "n": 231,
-     "count": 1,
-     "i": 49
+     "i": 10
     }
    ],
-   "total": 12
+   "total": 8
+  },
+  {
+   "id": "wojciech-z-brudzewa",
+   "name": "Wojciech z Brudzewa",
+   "born": 1445,
+   "died": 1495,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "astronom, nauczyciel Kopernika",
+   "mentions": [
+    {
+     "n": 37,
+     "count": 1,
+     "i": 46
+    }
+   ],
+   "total": 1
   },
   {
    "id": "wojtkiewicz",
@@ -11235,13 +11355,32 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "zygmunt-stary",
+   "name": "Zygmunt Stary",
+   "born": 1467,
+   "died": 1548,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, mecenas renesansu",
+   "mentions": [
+    {
+     "n": 37,
+     "count": 1,
+     "i": 30
+    }
+   ],
+   "total": 1
   }
  ],
  "stats": {
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 51,
+   "ready": 53,
    "parts": 11,
    "sections": 20,
    "plannedHours": 32,
@@ -11249,17 +11388,17 @@
    "experts": 8
   },
   "ready": {
-   "minutes": 428,
-   "words": 56592,
-   "sentences": 4321,
-   "chapters": 448,
-   "images": 375,
-   "glossary": 336,
-   "quiz": 238,
-   "sources": 207,
+   "minutes": 440,
+   "words": 58084,
+   "sentences": 4432,
+   "chapters": 464,
+   "images": 388,
+   "glossary": 348,
+   "quiz": 246,
+   "sources": 214,
    "music": 10,
-   "lodz": 329,
-   "polska": 270
+   "lodz": 351,
+   "polska": 282
   },
   "lessons": [
    {
@@ -11352,7 +11491,7 @@
     "music": 0,
     "lodz": 2,
     "polska": 10,
-    "people": 12,
+    "people": 11,
     "speakers": {
      "gospodarz": 235,
      "design": 823,
@@ -11529,7 +11668,7 @@
     "music": 0,
     "lodz": 1,
     "polska": 0,
-    "people": 14,
+    "people": 13,
     "speakers": {
      "gospodarz": 128,
      "historyk": 100,
@@ -12120,6 +12259,51 @@
     }
    },
    {
+    "n": 37,
+    "title": "Kraków, Gniezno i państwo Jagiellonów — kultura i władza",
+    "era": "XIV–XVI w.",
+    "minutes": 6,
+    "words": 720,
+    "sentences": 56,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 3,
+    "music": 0,
+    "lodz": 3,
+    "polska": 10,
+    "people": 16,
+    "speakers": {
+     "gospodarz": 121,
+     "historyk": 436,
+     "architekt": 82,
+     "sztuka": 81
+    }
+   },
+   {
+    "n": 38,
+    "title": "Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokalne",
+    "era": "XII–XVI w.",
+    "minutes": 6,
+    "words": 772,
+    "sentences": 55,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 19,
+    "polska": 2,
+    "people": 6,
+    "speakers": {
+     "gospodarz": 131,
+     "historyk": 466,
+     "architekt": 175
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -12134,7 +12318,7 @@
     "music": 2,
     "lodz": 29,
     "polska": 21,
-    "people": 40,
+    "people": 39,
     "speakers": {
      "gospodarz": 424,
      "historyk": 304,
@@ -12426,7 +12610,7 @@
     "music": 0,
     "lodz": 5,
     "polska": 11,
-    "people": 25,
+    "people": 24,
     "speakers": {
      "gospodarz": 130,
      "literatura": 867
@@ -12447,7 +12631,7 @@
     "music": 0,
     "lodz": 3,
     "polska": 18,
-    "people": 23,
+    "people": 22,
     "speakers": {
      "gospodarz": 131,
      "sztuka": 678,
@@ -12469,7 +12653,7 @@
     "music": 0,
     "lodz": 9,
     "polska": 12,
-    "people": 23,
+    "people": 22,
     "speakers": {
      "gospodarz": 132,
      "sztuka": 923
@@ -12477,10 +12661,10 @@
    }
   ],
   "speakers": {
-   "gospodarz": 7463,
-   "historyk": 11570,
-   "sztuka": 8873,
-   "architekt": 12016,
+   "gospodarz": 7715,
+   "historyk": 12472,
+   "sztuka": 8954,
+   "architekt": 12273,
    "muzyka": 2878,
    "literatura": 8187,
    "design": 4898,
@@ -12505,7 +12689,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 14,
+    "ready": 16,
     "sections": 1
    },
    {
@@ -12607,7 +12791,7 @@
    {
     "n": 38,
     "title": "Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokalne",
-    "ready": false
+    "ready": true
    },
    {
     "n": 96,
@@ -12691,19 +12875,19 @@
    }
   ],
   "people": {
-   "total": 463,
-   "mentions": 1185,
+   "total": 467,
+   "mentions": 1209,
    "byCategory": {
-    "naukowiec": 45,
+    "naukowiec": 46,
     "filozof": 31,
-    "inne": 23,
+    "inne": 24,
     "muzyk": 19,
-    "pisarz": 86,
-    "polityk": 78,
+    "pisarz": 87,
+    "polityk": 80,
     "architekt": 89,
     "malarz": 58,
     "projektant": 7,
-    "rzeźbiarz": 17,
+    "rzeźbiarz": 16,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
@@ -12722,14 +12906,14 @@
     "11": 14,
     "12": 10,
     "13": 9,
-    "14": 13,
-    "15": 10,
+    "14": 14,
+    "15": 14,
     "16": 8,
     "17": 4,
     "18": 15,
     "19": 95,
     "20": 152,
-    "-5": 20,
+    "-5": 19,
     "-4": 9,
     "-1": 12,
     "-23": 2,
@@ -12749,15 +12933,15 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 291,
-    "Polska": 172
+    "zagranica": 290,
+    "Polska": 177
    },
    "byGender": {
-    "m": 420,
+    "m": 423,
     "f": 31,
-    "k": 12
+    "k": 13
    },
-   "lodz": 31,
+   "lodz": 32,
    "withWorks": 239,
    "works": 682,
    "lodzStrength": {
@@ -12767,7 +12951,7 @@
     "brak": 6,
     "urodzeni": 17
    },
-   "lodzAll": 56
+   "lodzAll": 57
   }
  }
 }

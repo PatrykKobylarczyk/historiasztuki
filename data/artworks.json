@@ -1834,5 +1834,50 @@
   "creator": "fundacja rodu Oporowskich",
   "date": "1434–1449",
   "place": "Oporów koło Kutna"
+ },
+ "Sukiennice Kraków": {
+  "creator": "budowniczowie krakowscy (przebudowa renesansowa Giovanni il Mosca)",
+  "date": "XIV–XVI w.",
+  "place": "Rynek Główny, Kraków"
+ },
+ "Battle of Grunwald Matejko": {
+  "creator": "Jan Matejko",
+  "date": "1878",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Szczerbiec": {
+  "creator": "nieznany płatnerz",
+  "date": "XII–XIII w.",
+  "place": "Zamek Królewski na Wawelu"
+ },
+ "Collegium Maius courtyard": {
+  "creator": "budowniczowie krakowscy",
+  "date": "XV w.",
+  "place": "Kraków"
+ },
+ "Globus Jagielloński": {
+  "creator": "nieznany twórca",
+  "date": "ok. 1510",
+  "place": "Muzeum UJ Collegium Maius"
+ },
+ "Stary Rynek Łódź": {
+  "creator": "układ średniowiecznego miasteczka",
+  "date": "od 1423",
+  "place": "Łódź"
+ },
+ "Kościół Wniebowzięcia NMP Łódź Plac Kościelny": {
+  "creator": "Józef Pius Dziekoński",
+  "date": "1888–1897",
+  "place": "Plac Kościelny, Łódź"
+ },
+ "Zamek Królewski Piotrków Trybunalski": {
+  "creator": "Benedykt z Sandomierza (przypisywany)",
+  "date": "1512–1519",
+  "place": "Piotrków Trybunalski"
+ },
+ "Zamek w Uniejowie": {
+  "creator": "fundacja arcybiskupów gnieźnieńskich",
+  "date": "XIV w.",
+  "place": "Uniejów"
  }
 }
