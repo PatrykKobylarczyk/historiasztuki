@@ -15,7 +15,7 @@ import crypto from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { buildItems } from "../js/items.js";
-import { renderJingle, renderOutro, renderSting } from "../js/jingle.js";
+import { renderJingle, renderOutro, renderSting, JINGLE_VERSION } from "../js/jingle.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SR = 24000;
@@ -141,7 +141,7 @@ async function generate(n) {
   const id = String(n).padStart(3, "0");
   const lesson = JSON.parse(fs.readFileSync(path.join(root, "data", "lessons", `${id}.json`), "utf8"));
   const items = buildItems(lesson);
-  const hash = crypto.createHash("sha1").update(JSON.stringify({ items, v: Object.values(VOICES[PROVIDER]) })).digest("hex").slice(0, 12);
+  const hash = crypto.createHash("sha1").update(JSON.stringify({ items, v: Object.values(VOICES[PROVIDER]), j: JINGLE_VERSION })).digest("hex").slice(0, 12);
   const manifestPath = path.join(root, "audio", `${id}.json`);
   if (!process.argv.includes("--force") && fs.existsSync(manifestPath) && JSON.parse(fs.readFileSync(manifestPath, "utf8")).hash === hash) {
     console.log(`Odcinek ${n}: bez zmian, pomijam.`);

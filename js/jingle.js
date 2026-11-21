@@ -1,6 +1,9 @@
-// Autorski dżingiel „Historia kultury" — syntezowany w czystym JS (bez plików audio).
+// Autorski dżingiel KULTURA — syntezowany w czystym JS (bez plików audio).
 // Ten sam kod działa w przeglądarce (AudioBuffer) i w Node (skrypt generujący MP3).
-// Motyw: fortepian, smyczki, delikatny akcent dętych — w duchu radiowej audycji kulturalnej.
+// Motyw: żwawa polka orkiestry rozrywkowej (akordeon, trąbka, tuba, werbel) — w duchu klasycznych sygnałów radiowych.
+
+// Zmiana wersji wymusza ponowne nagranie MP3 z nowym dżinglem.
+export const JINGLE_VERSION = "polka-1";
 
 const midiToHz = (m) => 440 * Math.pow(2, (m - 69) / 12);
 
@@ -98,50 +101,145 @@ function normalize(buf, peak = 0.85) {
   return buf;
 }
 
-// Dżingiel otwierający (~7,5 s). Tonacja D-dur: D – h – G – A – D.
+// ---- Instrumenty orkiestry rozrywkowej (polka) ----
+function accordion(out, sr, start, midis, dur, vel) {
+  const i0 = Math.floor(start * sr);
+  const n = Math.floor((dur + 0.08) * sr);
+  const reeds = [];
+  midis.forEach((m) => [-4, 4].forEach((c) => reeds.push(midiToHz(m) * Math.pow(2, c / 1200)))); // dwa stroiki: musette
+  let lp = 0;
+  for (let i = 0; i < n && i0 + i < out.length; i++) {
+    const t = i / sr;
+    const env = Math.min(1, t / 0.012) * (t > dur ? Math.exp(-(t - dur) * 40) : 1);
+    let s = 0;
+    for (const f of reeds) { const ph = (f * t) % 1; s += (ph < 0.32 ? 1 : -0.47) + 0.4 * (2 * ph - 1); }
+    s /= reeds.length;
+    lp += 0.28 * (s - lp);
+    out[i0 + i] += lp * env * vel * 0.32;
+  }
+}
+
+function trumpet(out, sr, start, midi, dur, vel) {
+  const f = midiToHz(midi);
+  const i0 = Math.floor(start * sr);
+  const n = Math.floor((dur + 0.12) * sr);
+  let lp = 0;
+  for (let i = 0; i < n && i0 + i < out.length; i++) {
+    const t = i / sr;
+    const env = Math.min(1, t / 0.018) * (t > dur ? Math.exp(-(t - dur) * 30) : 1);
+    const vib = 1 + (t > 0.18 ? 0.004 * Math.sin(2 * Math.PI * 5.5 * t) : 0);
+    const ph = (f * vib * t) % 1;
+    const cut = 0.12 + 0.25 * Math.exp(-t * 14);
+    lp += cut * ((2 * ph - 1) - lp);
+    out[i0 + i] += lp * env * vel * 0.5;
+  }
+}
+
+function tuba(out, sr, start, midi, dur, vel) {
+  const f = midiToHz(midi);
+  const i0 = Math.floor(start * sr);
+  const n = Math.floor((dur + 0.1) * sr);
+  let lp = 0;
+  for (let i = 0; i < n && i0 + i < out.length; i++) {
+    const t = i / sr;
+    const env = Math.min(1, t / 0.015) * Math.exp(-t * 3.5) * (t > dur ? Math.exp(-(t - dur) * 25) : 1);
+    const ph = (f * t) % 1;
+    lp += 0.06 * ((2 * ph - 1) - lp);
+    out[i0 + i] += (lp * 0.8 + 0.5 * Math.sin(2 * Math.PI * f * t)) * env * vel * 0.6;
+  }
+}
+
+let seed = 7;
+const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647) * 2 - 1;
+function snare(out, sr, start, vel) {
+  const i0 = Math.floor(start * sr);
+  const n = Math.floor(0.14 * sr);
+  let prev = 0;
+  for (let i = 0; i < n && i0 + i < out.length; i++) {
+    const t = i / sr;
+    const x = rnd();
+    const hp = x - prev; prev = x; // jasny szum — werbel / talerzyk
+    out[i0 + i] += (hp * 0.6 + 0.3 * Math.sin(2 * Math.PI * 190 * t)) * Math.exp(-t * 32) * vel * 0.22;
+  }
+}
+
+// Akompaniament „um-pa”: bas na mocnych częściach, akord akordeonu na słabych.
+function oompah(b, sr, t0, beat, bars) {
+  bars.forEach(([root, fifth, chord], k) => {
+    const t = t0 + k * 2 * beat;
+    tuba(b, sr, t, root, beat * 0.45, 1);
+    accordion(b, sr, t + beat * 0.5, chord, beat * 0.3, 0.7);
+    snare(b, sr, t + beat * 0.5, 0.8);
+    tuba(b, sr, t + beat, fifth, beat * 0.45, 0.85);
+    accordion(b, sr, t + beat * 1.5, chord, beat * 0.3, 0.7);
+    snare(b, sr, t + beat * 1.5, 0.8);
+  });
+}
+
+// Dżingiel otwierający (~7 s): autorska, żwawa polka w duchu radiowych sygnałów lat 70.
+// Orkiestra rozrywkowa: trąbka i akordeon prowadzą melodię, tuba i akordeon grają „um-pa”, werbel na słabych częściach. G-dur, 2/4.
 export function renderJingle(sr = 44100) {
-  const len = Math.floor(7.6 * sr);
+  seed = 7;
+  const beat = 0.4, e = beat / 2;
+  const len = Math.floor(8.4 * sr);
   const b = new Float32Array(len);
-  // Fortepian: wznoszący się motyw i odpowiedź
-  const motif = [
-    [0.0, 62, 0.35], [0.28, 66, 0.35], [0.56, 69, 0.35], [0.84, 74, 0.7],
-    [1.7, 73, 0.3], [1.98, 71, 0.3], [2.26, 69, 0.55],
-    [3.0, 67, 0.3], [3.28, 71, 0.3], [3.56, 74, 0.55],
-    [4.3, 76, 0.3], [4.58, 73, 0.3], [4.86, 78, 1.6],
+  const t0 = 0.05;
+  // melodia: [ósemka startu, midi, długość w ósemkach]
+  const mel = [
+    [0, 74, 1], [1, 71, 1], [2, 67, 1], [3, 71, 1],
+    [4, 74, 2], [6, 76, 1], [7, 74, 1],
+    [8, 72, 1], [9, 69, 1], [10, 66, 1], [11, 69, 1],
+    [12, 72, 2], [14, 74, 1], [15, 72, 1],
+    [16, 71, 1], [17, 74, 1], [18, 79, 1], [19, 74, 1],
+    [20, 76, 1], [21, 72, 1], [22, 69, 1], [23, 72, 1],
+    [24, 74, 1], [25, 78, 1], [26, 81, 1], [27, 78, 1],
+    [28, 79, 1], [29, 74, 1], [30, 79, 2],
   ];
-  motif.forEach(([t, m, d], i) => piano(b, sr, t, m, d, i === motif.length - 1 ? 1 : 0.85));
-  // Bas fortepianu
-  [[0, 38], [1.7, 47], [3.0, 43], [4.3, 45], [4.86, 38]].forEach(([t, m]) => piano(b, sr, t, m, 1.2, 0.7));
-  // Smyczki — harmonia
-  strings(b, sr, 0.0, [62, 66, 69], 1.6, 0.6);
-  strings(b, sr, 1.7, [59, 62, 66], 1.2, 0.6);
-  strings(b, sr, 3.0, [55, 59, 62], 1.2, 0.6);
-  strings(b, sr, 4.3, [57, 61, 64], 0.5, 0.6);
-  strings(b, sr, 4.86, [50, 57, 62, 66, 69], 1.7, 0.75);
-  // Dęte — akcent na finałowym akordzie
-  brass(b, sr, 4.86, [62, 66, 69], 1.2, 0.45);
-  return normalize(reverb(b, sr));
+  mel.forEach(([s, m, d]) => {
+    const t = t0 + s * e, dur = d * e * 0.82;
+    trumpet(b, sr, t, m, dur, 0.9);
+    accordion(b, sr, t, [m + 12], dur, 0.35);
+  });
+  const G = [67, 71, 74], D = [66, 69, 72], C = [64, 67, 72];
+  oompah(b, sr, t0, beat, [[43, 50, G], [43, 50, G], [38, 45, D], [38, 45, D], [43, 50, G], [36, 43, C], [38, 45, D], [43, 50, G]]);
+  // finał: „pa-pam!” całą orkiestrą
+  const tf = t0 + 32 * e;
+  accordion(b, sr, tf, [62, 66, 69, 72], e * 0.9, 1.4);
+  trumpet(b, sr, tf, 78, e * 0.9, 1);
+  tuba(b, sr, tf, 38, e * 0.9, 1.1);
+  snare(b, sr, tf, 1.2);
+  accordion(b, sr, tf + beat, [67, 71, 74, 79], 0.75, 1.1);
+  trumpet(b, sr, tf + beat, 79, 0.75, 1);
+  trumpet(b, sr, tf + beat, 83, 0.75, 0.5);
+  tuba(b, sr, tf + beat, 31, 0.8, 1.1);
+  snare(b, sr, tf + beat, 1.5);
+  return normalize(reverb(b, sr, 0.14));
 }
 
-// Krótki sygnał zamykający (~3,5 s): kadencja A – D.
+// Krótki sygnał zamykający (~2,5 s): kadencja D7 – G w rytmie polki.
 export function renderOutro(sr = 44100) {
-  const len = Math.floor(3.8 * sr);
-  const b = new Float32Array(len);
-  [[0, 69, 0.3], [0.25, 73, 0.3], [0.5, 76, 0.3], [0.8, 74, 1.4]].forEach(([t, m, d]) => piano(b, sr, t, m, d, 0.85));
-  piano(b, sr, 0.8, 50, 1.4, 0.7);
-  strings(b, sr, 0, [57, 61, 64], 0.7, 0.55);
-  strings(b, sr, 0.8, [50, 57, 62, 66], 1.5, 0.7);
-  return normalize(reverb(b, sr));
+  seed = 11;
+  const beat = 0.4, e = beat / 2;
+  const b = new Float32Array(Math.floor(2.6 * sr));
+  [[0, 78], [1, 81], [2, 78], [3, 74]].forEach(([s, m]) => { trumpet(b, sr, s * e, m, e * 0.8, 0.85); accordion(b, sr, s * e, [m], e * 0.8, 0.3); });
+  oompah(b, sr, 0, beat, [[38, 45, [66, 69, 72]]]);
+  const tf = 4 * e;
+  accordion(b, sr, tf, [67, 71, 74, 79], 0.7, 1.1);
+  trumpet(b, sr, tf, 79, 0.7, 1);
+  tuba(b, sr, tf, 31, 0.8, 1.1);
+  snare(b, sr, tf, 1.4);
+  return normalize(reverb(b, sr, 0.14));
 }
 
-// Krótki przerywnik między rozdziałami (~1,4 s).
+// Krótki przerywnik między rozdziałami (~1 s): trzy nuty akordeonu i trąbki.
 export function renderSting(sr = 44100) {
-  const b = new Float32Array(Math.floor(1.8 * sr));
-  piano(b, sr, 0, 74, 0.25, 0.6);
-  piano(b, sr, 0.18, 78, 0.25, 0.6);
-  piano(b, sr, 0.36, 81, 0.6, 0.7);
-  strings(b, sr, 0, [62, 66, 69], 0.6, 0.35);
-  return normalize(reverb(b, sr), 0.5);
+  seed = 3;
+  const e = 0.17;
+  const b = new Float32Array(Math.floor(1.2 * sr));
+  [[0, 74, 1], [1, 78, 1], [2, 79, 2.2]].forEach(([s, m, d]) => { trumpet(b, sr, s * e, m, d * e * 0.8, 0.7); accordion(b, sr, s * e, [m - 12, m], d * e * 0.8, 0.4); });
+  tuba(b, sr, 2 * e, 43, 0.3, 0.8);
+  snare(b, sr, 2 * e, 0.8);
+  return normalize(reverb(b, sr, 0.12), 0.5);
 }
 
 // Zapis do WAV (16 bit mono) — używane przez skrypt w Node.
