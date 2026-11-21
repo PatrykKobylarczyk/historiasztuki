@@ -7770,6 +7770,121 @@
    "m": [
     "Krzywoust\\p{L}*"
    ]
+  },
+  {
+   "id": "wlostowic",
+   "name": "Piotr Włostowic",
+   "born": 1080,
+   "died": 1153,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "możnowładca śląski, fundator kościołów",
+   "m": [
+    "Włostowic\\p{L}*"
+   ]
+  },
+  {
+   "id": "wladyslaw-herman",
+   "name": "Władysław Herman",
+   "born": 1044,
+   "died": 1102,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę Polski",
+   "m": [
+    "Władysław\\p{L}* Herman\\p{L}*"
+   ]
+  },
+  {
+   "id": "kosciuszko",
+   "name": "Tadeusz Kościuszko",
+   "born": 1746,
+   "died": 1817,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "naczelnik insurekcji",
+   "m": [
+    "Kościuszk\\p{L}*"
+   ]
+  },
+  {
+   "id": "sobieski",
+   "name": "Jan III Sobieski",
+   "born": 1629,
+   "died": 1696,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski",
+   "m": [
+    "Sobiesk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kopernik",
+   "name": "Mikołaj Kopernik",
+   "born": 1473,
+   "died": 1543,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "astronom",
+   "m": [
+    "Kopernik\\p{L}*"
+   ],
+   "works": [
+    "O obrotach sfer niebieskich"
+   ]
+  },
+  {
+   "id": "lokietek",
+   "name": "Władysław Łokietek",
+   "born": 1260,
+   "died": 1333,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, zjednoczyciel królestwa",
+   "m": [
+    "Łokiet\\p{L}*"
+   ]
+  },
+  {
+   "id": "wierzynek",
+   "name": "Mikołaj Wierzynek",
+   "born": 1300,
+   "died": 1360,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "mieszczanin krakowski, legendarny gospodarz uczty",
+   "m": [
+    "Wierzyn\\p{L}*"
+   ]
+  },
+  {
+   "id": "kazimierz-jagiellonczyk",
+   "name": "Kazimierz Jagiellończyk",
+   "born": 1427,
+   "died": 1492,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski",
+   "m": [
+    "Kazimierz\\p{L}* Jagiellończyk\\p{L}*"
+   ]
   }
  ]
 }

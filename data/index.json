@@ -4036,12 +4036,17 @@
      "i": 60
     },
     {
+     "n": 36,
+     "count": 2,
+     "i": 30
+    },
+    {
      "n": 227,
      "count": 1,
      "i": 61
     }
    ],
-   "total": 3
+   "total": 5
   },
   {
    "id": "jan-damaszek",
@@ -4203,12 +4208,17 @@
      "i": 17
     },
     {
+     "n": 35,
+     "count": 1,
+     "i": 22
+    },
+    {
      "n": 226,
      "count": 1,
      "i": 30
     }
    ],
-   "total": 15
+   "total": 16
   },
   {
    "id": "jobs",
@@ -4484,6 +4494,25 @@
    "total": 1
   },
   {
+   "id": "kazimierz-jagiellonczyk",
+   "name": "Kazimierz Jagiellończyk",
+   "born": 1427,
+   "died": 1492,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski",
+   "mentions": [
+    {
+     "n": 36,
+     "count": 1,
+     "i": 53
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kazimierz-odnowiciel",
    "name": "Kazimierz Odnowiciel",
    "born": 1016,
@@ -4527,9 +4556,14 @@
      "n": 33,
      "count": 1,
      "i": 60
+    },
+    {
+     "n": 36,
+     "count": 5,
+     "i": 4
     }
    ],
-   "total": 3
+   "total": 8
   },
   {
    "id": "kieslowski",
@@ -4880,6 +4914,52 @@
    "total": 0
   },
   {
+   "id": "kopernik",
+   "name": "Mikołaj Kopernik",
+   "born": 1473,
+   "died": 1543,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "astronom",
+   "works": [
+    "O obrotach sfer niebieskich"
+   ],
+   "mentions": [
+    {
+     "n": 36,
+     "count": 1,
+     "i": 23
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kosciuszko",
+   "name": "Tadeusz Kościuszko",
+   "born": 1746,
+   "died": 1817,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "naczelnik insurekcji",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 1,
+     "i": 70
+    },
+    {
+     "n": 35,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "kossak-w",
    "name": "Wojciech Kossak",
    "c": "malarz",
@@ -5102,9 +5182,14 @@
      "n": 34,
      "count": 1,
      "i": 46
+    },
+    {
+     "n": 35,
+     "count": 1,
+     "i": 38
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "ksenofont",
@@ -5670,6 +5755,25 @@
      "n": 227,
      "count": 1,
      "i": 49
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "lokietek",
+   "name": "Władysław Łokietek",
+   "born": 1260,
+   "died": 1333,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, zjednoczyciel królestwa",
+   "mentions": [
+    {
+     "n": 36,
+     "count": 1,
+     "i": 45
     }
    ],
    "total": 1
@@ -6424,6 +6528,11 @@
      "i": 10
     },
     {
+     "n": 36,
+     "count": 1,
+     "i": 12
+    },
+    {
      "n": 224,
      "count": 2,
      "i": 34
@@ -6439,7 +6548,7 @@
      "i": 62
     }
    ],
-   "total": 17
+   "total": 18
   },
   {
    "id": "mieszko",
@@ -9239,6 +9348,25 @@
    "total": 1
   },
   {
+   "id": "sobieski",
+   "name": "Jan III Sobieski",
+   "born": 1629,
+   "died": 1696,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski",
+   "mentions": [
+    {
+     "n": 35,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "sofokles",
    "name": "Sofokles",
    "born": -497,
@@ -9556,9 +9684,14 @@
      "n": 29,
      "count": 3,
      "i": 47
+    },
+    {
+     "n": 36,
+     "count": 2,
+     "i": 52
     }
    ],
-   "total": 3
+   "total": 5
   },
   {
    "id": "styka",
@@ -10562,6 +10695,25 @@
    "total": 1
   },
   {
+   "id": "wierzynek",
+   "name": "Mikołaj Wierzynek",
+   "born": 1300,
+   "died": 1360,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "mieszczanin krakowski, legendarny gospodarz uczty",
+   "mentions": [
+    {
+     "n": 36,
+     "count": 1,
+     "i": 39
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "wierzynski",
    "name": "Kazimierz Wierzyński",
    "born": 1894,
@@ -10627,6 +10779,25 @@
    "total": 5
   },
   {
+   "id": "wladyslaw-herman",
+   "name": "Władysław Herman",
+   "born": 1044,
+   "died": 1102,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę Polski",
+   "mentions": [
+    {
+     "n": 35,
+     "count": 1,
+     "i": 38
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "wlodkowic",
    "name": "Paweł Włodkowic",
    "born": 1370,
@@ -10641,6 +10812,25 @@
      "n": 32,
      "count": 2,
      "i": 67
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "wlostowic",
+   "name": "Piotr Włostowic",
+   "born": 1080,
+   "died": 1153,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "możnowładca śląski, fundator kościołów",
+   "mentions": [
+    {
+     "n": 35,
+     "count": 2,
+     "i": 35
     }
    ],
    "total": 2
@@ -10691,6 +10881,11 @@
      "i": 33
     },
     {
+     "n": 36,
+     "count": 1,
+     "i": 47
+    },
+    {
      "n": 186,
      "count": 1,
      "i": 66
@@ -10711,7 +10906,7 @@
      "i": 49
     }
    ],
-   "total": 11
+   "total": 12
   },
   {
    "id": "wojtkiewicz",
@@ -11046,25 +11241,25 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 49,
+   "ready": 51,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 33,
+   "plannedHours": 32,
    "yearsSpan": 52026,
    "experts": 8
   },
   "ready": {
-   "minutes": 416,
-   "words": 55015,
-   "sentences": 4214,
-   "chapters": 432,
-   "images": 360,
-   "glossary": 323,
-   "quiz": 230,
-   "sources": 199,
+   "minutes": 428,
+   "words": 56592,
+   "sentences": 4321,
+   "chapters": 448,
+   "images": 375,
+   "glossary": 336,
+   "quiz": 238,
+   "sources": 207,
    "music": 10,
-   "lodz": 319,
-   "polska": 246
+   "lodz": 329,
+   "polska": 270
   },
   "lessons": [
    {
@@ -11666,7 +11861,7 @@
     "music": 0,
     "lodz": 1,
     "polska": 3,
-    "people": 10,
+    "people": 11,
     "speakers": {
      "gospodarz": 120,
      "historyk": 294,
@@ -11875,6 +12070,53 @@
      "historyk": 487,
      "architekt": 87,
      "sztuka": 86
+    }
+   },
+   {
+    "n": 35,
+    "title": "Polska romańska — architektura, rzeźba i sztuka sakralna",
+    "era": "XI–XIII w.",
+    "minutes": 6,
+    "words": 745,
+    "sentences": 51,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 5,
+    "polska": 12,
+    "people": 6,
+    "speakers": {
+     "gospodarz": 116,
+     "architekt": 189,
+     "sztuka": 173,
+     "historyk": 175,
+     "design": 92
+    }
+   },
+   {
+    "n": 36,
+    "title": "Polska gotycka — miasta, zamki i katedry",
+    "era": "XIII–XV w.",
+    "minutes": 6,
+    "words": 832,
+    "sentences": 56,
+    "chapters": 8,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 5,
+    "polska": 12,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 132,
+     "historyk": 197,
+     "architekt": 390,
+     "sztuka": 113
     }
    },
    {
@@ -12235,13 +12477,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 7215,
-   "historyk": 11198,
-   "sztuka": 8587,
-   "architekt": 11437,
+   "gospodarz": 7463,
+   "historyk": 11570,
+   "sztuka": 8873,
+   "architekt": 12016,
    "muzyka": 2878,
    "literatura": 8187,
-   "design": 4806,
+   "design": 4898,
    "foto": 707
   },
   "parts": [
@@ -12263,7 +12505,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 12,
+    "ready": 14,
     "sections": 1
    },
    {
@@ -12449,15 +12691,15 @@
    }
   ],
   "people": {
-   "total": 455,
-   "mentions": 1162,
+   "total": 463,
+   "mentions": 1185,
    "byCategory": {
-    "naukowiec": 44,
+    "naukowiec": 45,
     "filozof": 31,
-    "inne": 22,
+    "inne": 23,
     "muzyk": 19,
     "pisarz": 86,
-    "polityk": 72,
+    "polityk": 78,
     "architekt": 89,
     "malarz": 58,
     "projektant": 7,
@@ -12477,14 +12719,14 @@
     "8": 3,
     "9": 1,
     "10": 10,
-    "11": 12,
+    "11": 14,
     "12": 10,
-    "13": 7,
+    "13": 9,
     "14": 13,
-    "15": 8,
+    "15": 10,
     "16": 8,
-    "17": 3,
-    "18": 14,
+    "17": 4,
+    "18": 15,
     "19": 95,
     "20": 152,
     "-5": 20,
@@ -12508,16 +12750,16 @@
    },
    "byCountry": {
     "zagranica": 291,
-    "Polska": 164
+    "Polska": 172
    },
    "byGender": {
-    "m": 412,
+    "m": 420,
     "f": 31,
     "k": 12
    },
    "lodz": 31,
-   "withWorks": 238,
-   "works": 681,
+   "withWorks": 239,
+   "works": 682,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

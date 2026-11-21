@@ -1764,5 +1764,75 @@
   "creator": "budowniczowie romańscy",
   "date": "1141–1161",
   "place": "Tum pod Łęczycą"
+ },
+ "Krypta św. Leonarda Wawel": {
+  "creator": "budowniczowie romańscy",
+  "date": "ok. 1090–1118",
+  "place": "Katedra na Wawelu, Kraków"
+ },
+ "Kolumny strzeleńskie": {
+  "creator": "nieznany rzeźbiarz romański",
+  "date": "ok. 1170–1190",
+  "place": "Kościół Świętej Trójcy, Strzelno"
+ },
+ "Tympanon z Ołbina": {
+  "creator": "warsztat śląski",
+  "date": "ok. 1150–1170",
+  "place": "Kościół św. Marii Magdaleny, Wrocław"
+ },
+ "Kościół św. Idziego w Inowłodzu": {
+  "creator": "budowniczowie romańscy",
+  "date": "ok. 1086",
+  "place": "Inowłódz, województwo łódzkie"
+ },
+ "Płyta orantów Wiślica": {
+  "creator": "nieznany artysta romański",
+  "date": "2. poł. XII w.",
+  "place": "Wiślica"
+ },
+ "Drzwi Płockie": {
+  "creator": "odlewnia w Magdeburgu, mistrz Riquin",
+  "date": "ok. 1152–1154",
+  "place": "Sobór św. Zofii, Nowogród Wielki"
+ },
+ "Main Market Square Kraków": {
+  "creator": "lokacja 1257",
+  "date": "XIII–XV w.",
+  "place": "Kraków"
+ },
+ "St. Mary's Church Gdańsk": {
+  "creator": "budowniczowie gdańscy",
+  "date": "1343–1502",
+  "place": "Gdańsk"
+ },
+ "Malbork Castle": {
+  "creator": "zakon krzyżacki",
+  "date": "XIII–XV w.",
+  "place": "Malbork"
+ },
+ "Bazylika w Wiślicy": {
+  "creator": "fundacja Kazimierza Wielkiego",
+  "date": "XIV w.",
+  "place": "Wiślica"
+ },
+ "Nagrobek Kazimierza Wielkiego": {
+  "creator": "nieznany rzeźbiarz",
+  "date": "ok. 1370–1380",
+  "place": "Katedra na Wawelu"
+ },
+ "Poliptyk z Ptaszkowej": {
+  "creator": "warsztat małopolski",
+  "date": "XV w.",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Zamek w Łęczycy": {
+  "creator": "fundacja Kazimierza Wielkiego",
+  "date": "XIV w.",
+  "place": "Łęczyca"
+ },
+ "Zamek w Oporowie": {
+  "creator": "fundacja rodu Oporowskich",
+  "date": "1434–1449",
+  "place": "Oporów koło Kutna"
  }
 }
