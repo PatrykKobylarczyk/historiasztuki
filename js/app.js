@@ -91,13 +91,12 @@ function renderPart(id) {
   const idx = program.parts.indexOf(part);
   const prev = program.parts[idx - 1], next = program.parts[idx + 1];
   let html = `<section class="part-hero">
-    <a class="back" href="#/">‹ Program</a>
     ${cover ? `<div class="part-img">${imgTag(big(cover))}</div>` : ""}
     <div class="eyebrow accent">Część ${part.id}</div>
     <h1>${esc(part.title)}</h1>
     <p class="hero-meta">${eps.length} odcinków${r.length ? ` · ${r.length} gotowych · ${mins >= 60 ? `${Math.floor(mins / 60)} godz. ${mins % 60} min` : `${mins} min`}` : ""}</p>
     ${startEp ? `<a class="btn accent big" href="#/lekcja/${startEp.n}">${icons.play} ${done.has(startEp.n) ? "Odtwórz ponownie" : last?.n === startEp.n ? "Kontynuuj" : "Odtwórz"}</a>` : ""}
-  </section><div class="eplist">`;
+  </section><a class="back" href="#/">‹ Wszystkie części</a><div class="eplist">`;
   for (const sec of part.sections) {
     if (sec.title) html += `<div class="sec">${esc(sec.title)}</div>`;
     for (const e of sec.episodes) {
