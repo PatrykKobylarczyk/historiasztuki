@@ -1603,9 +1603,14 @@
      "n": 20,
      "count": 1,
      "i": 52
+    },
+    {
+     "n": 30,
+     "count": 1,
+     "i": 82
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "dariusz",
@@ -1754,6 +1759,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "disney",
+   "name": "Walt Disney",
+   "born": 1901,
+   "died": 1966,
+   "c": "inne",
+   "country": "USA",
+   "g": "m",
+   "desc": "twórca filmów animowanych",
+   "mentions": [
+    {
+     "n": 29,
+     "count": 1,
+     "i": 33
+    }
+   ],
+   "total": 1
   },
   {
    "id": "dmochowski",
@@ -2907,6 +2930,24 @@
    "total": 1
   },
   {
+   "id": "grzegorz-wielki",
+   "name": "Grzegorz Wielki",
+   "born": 540,
+   "died": 604,
+   "c": "polityk",
+   "country": "Papiestwo",
+   "g": "m",
+   "desc": "papież, patron chorału gregoriańskiego",
+   "mentions": [
+    {
+     "n": 30,
+     "count": 1,
+     "i": 11
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "gudea",
    "name": "Gudea z Lagasz",
    "born": -2144,
@@ -2918,6 +2959,24 @@
    "mentions": [
     {
      "n": 7,
+     "count": 3,
+     "i": 24
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "gwidon",
+   "name": "Gwidon z Arezzo",
+   "born": 991,
+   "died": 1033,
+   "c": "muzyk",
+   "country": "Italia",
+   "g": "m",
+   "desc": "teoretyk muzyki, twórca podstaw notacji liniowej",
+   "mentions": [
+    {
+     "n": 30,
      "count": 3,
      "i": 24
     }
@@ -3802,12 +3861,17 @@
      "i": 39
     },
     {
+     "n": 29,
+     "count": 3,
+     "i": 17
+    },
+    {
      "n": 226,
      "count": 1,
      "i": 30
     }
    ],
-   "total": 12
+   "total": 15
   },
   {
    "id": "jobs",
@@ -3983,9 +4047,14 @@
      "n": 23,
      "count": 2,
      "i": 37
+    },
+    {
+     "n": 30,
+     "count": 1,
+     "i": 11
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "karski",
@@ -4047,9 +4116,14 @@
      "n": 26,
      "count": 1,
      "i": 64
+    },
+    {
+     "n": 29,
+     "count": 1,
+     "i": 63
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "kieslowski",
@@ -4711,6 +4785,24 @@
    "total": 3
   },
   {
+   "id": "landini",
+   "name": "Francesco Landini",
+   "born": 1325,
+   "died": 1397,
+   "c": "muzyk",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "kompozytor i organista",
+   "mentions": [
+    {
+     "n": 30,
+     "count": 1,
+     "i": 66
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "le-corbusier",
    "name": "Le Corbusier",
    "born": 1887,
@@ -4860,6 +4952,24 @@
    "total": 2
   },
   {
+   "id": "leoninus",
+   "name": "Leoninus",
+   "born": 1150,
+   "died": 1201,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kompozytor szkoły Notre-Dame",
+   "mentions": [
+    {
+     "n": 30,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "leroi-gourhan",
    "name": "André Leroi-Gourhan",
    "born": 1911,
@@ -4971,6 +5081,27 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "limbourg",
+   "name": "Bracia Limbourg",
+   "born": 1385,
+   "died": 1416,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "iluminatorzy „Bardzo bogatych godzinek”",
+   "works": [
+    "Bardzo bogate godzinki księcia de Berry"
+   ],
+   "mentions": [
+    {
+     "n": 29,
+     "count": 2,
+     "i": 56
+    }
+   ],
+   "total": 2
   },
   {
    "id": "lindley",
@@ -5130,6 +5261,24 @@
    "total": 1
   },
   {
+   "id": "ludwik-ix",
+   "name": "Ludwik IX Święty",
+   "born": 1214,
+   "died": 1270,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "król Francji, fundator Sainte-Chapelle",
+   "mentions": [
+    {
+     "n": 29,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "lukasik",
    "name": "Przemo Łukasik",
    "c": "architekt",
@@ -5150,6 +5299,27 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "machaut",
+   "name": "Guillaume de Machaut",
+   "born": 1300,
+   "died": 1377,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "poeta i kompozytor ars nova",
+   "works": [
+    "Msza Notre-Dame"
+   ],
+   "mentions": [
+    {
+     "n": 30,
+     "count": 3,
+     "i": 62
+    }
+   ],
+   "total": 3
   },
   {
    "id": "machulski",
@@ -5793,6 +5963,28 @@
    "total": 2
   },
   {
+   "id": "mikolaj-z-radomia",
+   "name": "Mikołaj z Radomia",
+   "born": 1390,
+   "died": 1450,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy znany z imienia polski kompozytor",
+   "works": [
+    "Magnificat"
+   ],
+   "mentions": [
+    {
+     "n": 30,
+     "count": 2,
+     "i": 72
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "milosz",
    "name": "Czesław Miłosz",
    "born": 1911,
@@ -6378,6 +6570,27 @@
    "total": 3
   },
   {
+   "id": "orff",
+   "name": "Carl Orff",
+   "born": 1895,
+   "died": 1982,
+   "c": "muzyk",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "kompozytor kantaty „Carmina Burana”",
+   "works": [
+    "Carmina Burana"
+   ],
+   "mentions": [
+    {
+     "n": 30,
+     "count": 1,
+     "i": 57
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "orthwein",
    "name": "Hanna Orthwein",
    "born": 1921,
@@ -6623,6 +6836,28 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "perotinus",
+   "name": "Perotinus",
+   "born": 1160,
+   "died": 1230,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kompozytor szkoły Notre-Dame",
+   "works": [
+    "Viderunt omnes",
+    "Sederunt principes"
+   ],
+   "mentions": [
+    {
+     "n": 30,
+     "count": 4,
+     "i": 40
+    }
+   ],
+   "total": 4
   },
   {
    "id": "perykles",
@@ -8691,6 +8926,29 @@
    "total": 1
   },
   {
+   "id": "stwosz",
+   "name": "Wit Stwosz",
+   "born": 1448,
+   "died": 1533,
+   "c": "rzeźbiarz",
+   "country": "Niemcy",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz, twórca ołtarza Mariackiego",
+   "works": [
+    "Ołtarz Mariacki",
+    "Nagrobek Kazimierza Jagiellończyka"
+   ],
+   "mentions": [
+    {
+     "n": 29,
+     "count": 3,
+     "i": 47
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "styka",
    "name": "Jan Styka",
    "born": 1858,
@@ -9457,6 +9715,24 @@
    "total": 5
   },
   {
+   "id": "walther",
+   "name": "Walther von der Vogelweide",
+   "born": 1170,
+   "died": 1230,
+   "c": "pisarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "minnesinger",
+   "mentions": [
+    {
+     "n": 30,
+     "count": 1,
+     "i": 53
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "warhol",
    "name": "Andy Warhol",
    "born": 1928,
@@ -10020,7 +10296,7 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 43,
+   "ready": 45,
    "parts": 11,
    "sections": 20,
    "plannedHours": 34,
@@ -10028,17 +10304,17 @@
    "experts": 8
   },
   "ready": {
-   "minutes": 380,
-   "words": 50261,
-   "sentences": 3856,
-   "chapters": 384,
-   "images": 320,
-   "glossary": 279,
-   "quiz": 205,
-   "sources": 176,
-   "music": 7,
+   "minutes": 392,
+   "words": 51872,
+   "sentences": 3981,
+   "chapters": 400,
+   "images": 334,
+   "glossary": 295,
+   "quiz": 214,
+   "sources": 184,
+   "music": 10,
    "lodz": 314,
-   "polska": 215
+   "polska": 220
   },
   "lessons": [
    {
@@ -10720,6 +10996,50 @@
     }
    },
    {
+    "n": 29,
+    "title": "Witraż, rzeźba i iluminowane rękopisy",
+    "era": "XII–XV w.",
+    "minutes": 6,
+    "words": 786,
+    "sentences": 57,
+    "chapters": 8,
+    "images": 8,
+    "glossary": 8,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 1,
+    "people": 6,
+    "speakers": {
+     "gospodarz": 109,
+     "design": 181,
+     "sztuka": 496
+    }
+   },
+   {
+    "n": 30,
+    "title": "Średniowieczna muzyka — chorał, notacja i początki wielogłosowości",
+    "era": "IX–XV w.",
+    "minutes": 6,
+    "words": 825,
+    "sentences": 68,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 3,
+    "lodz": 0,
+    "polska": 4,
+    "people": 11,
+    "speakers": {
+     "gospodarz": 110,
+     "muzyka": 598,
+     "literatura": 117
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -11077,13 +11397,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 6522,
+   "gospodarz": 6741,
    "historyk": 10432,
-   "sztuka": 8005,
+   "sztuka": 8501,
    "architekt": 11350,
-   "muzyka": 2280,
-   "literatura": 6791,
-   "design": 4174,
+   "muzyka": 2878,
+   "literatura": 6908,
+   "design": 4355,
    "foto": 707
   },
   "parts": [
@@ -11105,7 +11425,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 6,
+    "ready": 8,
     "sections": 1
    },
    {
@@ -11291,19 +11611,19 @@
    }
   ],
   "people": {
-   "total": 411,
-   "mentions": 1034,
+   "total": 424,
+   "mentions": 1064,
    "byCategory": {
     "naukowiec": 43,
     "filozof": 24,
-    "inne": 20,
-    "muzyk": 12,
-    "pisarz": 72,
-    "polityk": 63,
+    "inne": 21,
+    "muzyk": 19,
+    "pisarz": 73,
+    "polityk": 65,
     "architekt": 89,
-    "malarz": 55,
+    "malarz": 56,
     "projektant": 7,
-    "rzeźbiarz": 16,
+    "rzeźbiarz": 17,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
@@ -11314,21 +11634,21 @@
     "3": 2,
     "4": 5,
     "5": 11,
-    "6": 2,
+    "6": 3,
     "7": 2,
     "8": 3,
     "9": 1,
-    "10": 4,
+    "10": 5,
     "11": 6,
-    "12": 4,
-    "13": 2,
-    "14": 2,
-    "15": 5,
+    "12": 7,
+    "13": 4,
+    "14": 5,
+    "15": 6,
     "16": 8,
     "17": 3,
     "18": 13,
-    "19": 92,
-    "20": 150,
+    "19": 93,
+    "20": 151,
     "-5": 20,
     "-4": 9,
     "-1": 12,
@@ -11349,17 +11669,17 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 259,
-    "Polska": 152
+    "zagranica": 270,
+    "Polska": 154
    },
    "byGender": {
-    "m": 374,
+    "m": 387,
     "f": 31,
     "k": 6
    },
    "lodz": 31,
-   "withWorks": 219,
-   "works": 658,
+   "withWorks": 225,
+   "works": 666,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

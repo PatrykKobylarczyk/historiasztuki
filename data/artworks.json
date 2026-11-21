@@ -1564,5 +1564,75 @@
   "creator": "Emil Zillmann",
   "date": "1901–1912",
   "place": "Łódź, ul. Piotrkowska"
+ },
+ "Sainte-Chapelle interior": {
+  "creator": "fundacja Ludwika IX",
+  "date": "1242–1248",
+  "place": "Paryż"
+ },
+ "Notre-Dame rose window": {
+  "creator": "szklarze paryscy",
+  "date": "XIII w.",
+  "place": "Notre-Dame, Paryż"
+ },
+ "Smiling Angel Reims": {
+  "creator": "warsztat katedry w Reims",
+  "date": "ok. 1240",
+  "place": "Katedra w Reims"
+ },
+ "Uta von Ballenstedt Naumburg": {
+  "creator": "Mistrz z Naumburga",
+  "date": "ok. 1250",
+  "place": "Katedra w Naumburgu"
+ },
+ "Madonna z Krużlowej": {
+  "creator": "nieznany rzeźbiarz małopolski",
+  "date": "ok. 1410",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Veit Stoss altarpiece Krakow": {
+  "creator": "Wit Stwosz",
+  "date": "1477–1489",
+  "place": "Kościół Mariacki, Kraków"
+ },
+ "Très Riches Heures October": {
+  "creator": "bracia Limbourg",
+  "date": "ok. 1412–1416",
+  "place": "Musée Condé, Chantilly"
+ },
+ "The Lady and the Unicorn tapestry": {
+  "creator": "warsztat flamandzki",
+  "date": "ok. 1500",
+  "place": "Musée de Cluny, Paryż"
+ },
+ "Gregorian chant manuscript": {
+  "creator": "skryptorium klasztorne",
+  "date": "XII–XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Guido of Arezzo": {
+  "creator": "iluminator średniowieczny",
+  "date": "XII w.",
+  "place": "zbiory europejskie"
+ },
+ "Codex Manesse Walther von der Vogelweide": {
+  "creator": "iluminatorzy zuryscy",
+  "date": "ok. 1300–1340",
+  "place": "Biblioteka Uniwersytecka w Heidelbergu"
+ },
+ "Carmina Burana Wheel of Fortune": {
+  "creator": "skryptorium bawarskie",
+  "date": "ok. 1230",
+  "place": "Bawarska Biblioteka Państwowa, Monachium"
+ },
+ "Guillaume de Machaut miniature": {
+  "creator": "iluminator francuski",
+  "date": "XIV w.",
+  "place": "Biblioteka Narodowa Francji"
+ },
+ "Bogurodzica manuscript": {
+  "creator": "nieznany skryba",
+  "date": "1407 (najstarszy zapis)",
+  "place": "Biblioteka Jagiellońska, Kraków"
  }
 }

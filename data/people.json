@@ -7113,6 +7113,197 @@
     "Katedra Marii Panny w Paryżu",
     "Nędznicy"
    ]
+  },
+  {
+   "id": "ludwik-ix",
+   "name": "Ludwik IX Święty",
+   "born": 1214,
+   "died": 1270,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "król Francji, fundator Sainte-Chapelle",
+   "m": [
+    "Ludwik\\p{L}* dziewiąt\\p{L}*"
+   ]
+  },
+  {
+   "id": "stwosz",
+   "name": "Wit Stwosz",
+   "born": 1448,
+   "died": 1533,
+   "c": "rzeźbiarz",
+   "country": "Niemcy",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz, twórca ołtarza Mariackiego",
+   "m": [
+    "Stwosz\\p{L}*"
+   ],
+   "works": [
+    "Ołtarz Mariacki",
+    "Nagrobek Kazimierza Jagiellończyka"
+   ]
+  },
+  {
+   "id": "limbourg",
+   "name": "Bracia Limbourg",
+   "born": 1385,
+   "died": 1416,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "iluminatorzy „Bardzo bogatych godzinek”",
+   "m": [
+    "Limbourg\\p{L}*"
+   ],
+   "works": [
+    "Bardzo bogate godzinki księcia de Berry"
+   ]
+  },
+  {
+   "id": "disney",
+   "name": "Walt Disney",
+   "born": 1901,
+   "died": 1966,
+   "c": "inne",
+   "country": "USA",
+   "g": "m",
+   "desc": "twórca filmów animowanych",
+   "m": [
+    "Disney\\p{L}*"
+   ]
+  },
+  {
+   "id": "gwidon",
+   "name": "Gwidon z Arezzo",
+   "born": 991,
+   "died": 1033,
+   "c": "muzyk",
+   "country": "Italia",
+   "g": "m",
+   "desc": "teoretyk muzyki, twórca podstaw notacji liniowej",
+   "m": [
+    "Gwidon\\p{L}*"
+   ]
+  },
+  {
+   "id": "grzegorz-wielki",
+   "name": "Grzegorz Wielki",
+   "born": 540,
+   "died": 604,
+   "c": "polityk",
+   "country": "Papiestwo",
+   "g": "m",
+   "desc": "papież, patron chorału gregoriańskiego",
+   "m": [
+    "Grzegorz\\p{L}* Wielki\\p{L}*"
+   ]
+  },
+  {
+   "id": "perotinus",
+   "name": "Perotinus",
+   "born": 1160,
+   "died": 1230,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kompozytor szkoły Notre-Dame",
+   "m": [
+    "Perotin\\p{L}*"
+   ],
+   "works": [
+    "Viderunt omnes",
+    "Sederunt principes"
+   ]
+  },
+  {
+   "id": "leoninus",
+   "name": "Leoninus",
+   "born": 1150,
+   "died": 1201,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kompozytor szkoły Notre-Dame",
+   "m": [
+    "Leonin\\p{L}*"
+   ]
+  },
+  {
+   "id": "machaut",
+   "name": "Guillaume de Machaut",
+   "born": 1300,
+   "died": 1377,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "poeta i kompozytor ars nova",
+   "m": [
+    "Machaut\\p{L}*"
+   ],
+   "works": [
+    "Msza Notre-Dame"
+   ]
+  },
+  {
+   "id": "walther",
+   "name": "Walther von der Vogelweide",
+   "born": 1170,
+   "died": 1230,
+   "c": "pisarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "minnesinger",
+   "m": [
+    "Walther\\p{L}*"
+   ]
+  },
+  {
+   "id": "landini",
+   "name": "Francesco Landini",
+   "born": 1325,
+   "died": 1397,
+   "c": "muzyk",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "kompozytor i organista",
+   "m": [
+    "Landini\\p{L}*"
+   ]
+  },
+  {
+   "id": "orff",
+   "name": "Carl Orff",
+   "born": 1895,
+   "died": 1982,
+   "c": "muzyk",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "kompozytor kantaty „Carmina Burana”",
+   "m": [
+    "Orff\\p{L}*"
+   ],
+   "works": [
+    "Carmina Burana"
+   ]
+  },
+  {
+   "id": "mikolaj-z-radomia",
+   "name": "Mikołaj z Radomia",
+   "born": 1390,
+   "died": 1450,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy znany z imienia polski kompozytor",
+   "m": [
+    "Mikołaj\\p{L}* z Radomia"
+   ],
+   "works": [
+    "Magnificat"
+   ]
   }
  ]
 }
