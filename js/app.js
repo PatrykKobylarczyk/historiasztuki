@@ -341,7 +341,7 @@ function updatePlayerUI(force = false) {
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
     if (!scrubbing()) $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
     setIcon($(".car-play", car));
-    carVisual(it?.chapter ?? 0);
+    carVisual(it?.chapter ?? 0, player.index);
   }
   // odtwarzacz na stronie lekcji
   const pl = $(".player", view);
@@ -398,7 +398,12 @@ document.addEventListener("click", async (e) => {
   if (a === "car") { openCar(!!b.closest("#view .player")); return; }
   if (a === "car-close") { closeCar(); return; }
   if (a === "car-img") {
-    if (carState.list.length > 1) { carState.pos = (carState.pos + 1) % carState.list.length; showCarImage(); }
+    if (carState.list.length > 1) {
+      const from = carState.manual ? carState.manual.from : carState.pos;
+      carState.pos = (carState.pos + 1) % carState.list.length;
+      carState.manual = { from, pos: carState.pos };
+      showCarImage();
+    }
     return;
   }
   if (b.closest("#view .player") && a !== "speed") await ensureViewLesson();
@@ -772,22 +777,48 @@ function imagesForChapter(lesson, ch) {
   const first = Object.keys(by).map(Number).sort((x, y) => x - y)[0];
   return first != null ? by[first] : [];
 }
-function carVisual(ch) {
+// Który obraz pasuje do bieżącego zdania: obraz, którego opis pojawia się w tekście,
+// wchodzi w chwili, gdy lektor o nim mówi; pozostałe rozkładamy równo w rozdziale.
+const STOP = new Set(["który", "która", "które", "około", "przed", "między", "wieku", "roku"]);
+function captionKeys(g) {
+  return (g.caption || "").toLowerCase().split(/[^\p{L}]+/u)
+    .filter((w) => w.length >= 5 && !STOP.has(w)).map((w) => w.slice(0, Math.max(5, w.length - 2)));
+}
+function chapterTimeline(lesson, ch, list) {
+  const items = player.items.map((it, i) => ({ it, i })).filter(({ it }) => it.chapter === ch && it.kind === "speech");
+  if (!items.length) return list.map((g, k) => ({ g, at: k }));
+  const first = items[0].i, span = items[items.length - 1].i - first + 1;
+  return list.map((g, k) => {
+    const keys = captionKeys(g);
+    const hit = keys.length ? items.find(({ it }) => {
+      const t = it.text.toLowerCase();
+      return keys.filter((w) => t.includes(w)).length >= Math.min(2, keys.length);
+    }) : null;
+    return { g, at: hit ? hit.i : first + Math.floor((k * span) / list.length) };
+  }).sort((x, y) => x.at - y.at);
+}
+function carVisual(ch, index) {
   const lesson = player.lesson;
   const box = $("#carmode .car-visual");
   if (!lesson || !box) return;
   const list = imagesForChapter(lesson, ch);
-  const key = list.map((g) => g.url || g.thumb).join("|");
-  if (carState.lesson !== lesson.n || carState.key !== key) {
+  const key = `${lesson.n}|${ch}|` + list.map((g) => g.url || g.thumb).join("|");
+  if (carState.key !== key) {
+    clearInterval(carState.timer);
     carState.lesson = lesson.n;
     carState.key = key;
     carState.list = list;
-    carState.pos = 0;
-    clearInterval(carState.timer);
-    // kilka obrazów w rozdziale — zmieniają się co 14 s
-    if (list.length > 1) carState.timer = setInterval(() => { carState.pos = (carState.pos + 1) % carState.list.length; showCarImage(); }, 14000);
-    showCarImage();
+    carState.timeline = chapterTimeline(lesson, ch, list);
+    carState.manual = null;
   }
+  // obraz według bieżącego zdania (chyba że słuchacz sam przełączył obraz w tym miejscu)
+  const tl = carState.timeline || [];
+  let pos = 0;
+  tl.forEach((e, k) => { if (index >= e.at) pos = k; });
+  const auto = tl.length ? list.indexOf(tl[pos].g) : 0;
+  if (carState.manual && carState.manual.from === auto) carState.pos = carState.manual.pos;
+  else { carState.manual = null; carState.pos = Math.max(0, auto); }
+  showCarImage();
   box.hidden = !list.length;
 }
 function showCarImage() {
