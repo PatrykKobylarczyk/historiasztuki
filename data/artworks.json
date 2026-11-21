@@ -1359,5 +1359,75 @@
   "creator": "Sandro Botticelli",
   "date": "1480",
   "place": "Ognissanti, Florencja"
+ },
+ "Mausoleum of Theoderic": {
+  "creator": "fundacja Teodoryka Wielkiego",
+  "date": "ok. 520",
+  "place": "Rawenna"
+ },
+ "Sant'Apollinare Nuovo mosaic procession": {
+  "creator": "mozaikarze rawenneńscy",
+  "date": "VI w.",
+  "place": "Sant'Apollinare Nuovo, Rawenna"
+ },
+ "Sutton Hoo helmet": {
+  "creator": "warsztat anglosaski",
+  "date": "VII w.",
+  "place": "British Museum, Londyn"
+ },
+ "Palatine Chapel Aachen interior": {
+  "creator": "Odo z Metzu",
+  "date": "ok. 792–805",
+  "place": "Akwizgran"
+ },
+ "Carolingian minuscule manuscript": {
+  "creator": "skryptorium karolińskie",
+  "date": "IX w.",
+  "place": "zbiory europejskie"
+ },
+ "Oseberg ship": {
+  "creator": "cieśle skandynawscy",
+  "date": "ok. 820",
+  "place": "Muzeum Łodzi Wikingów, Oslo"
+ },
+ "Christ Pantocrator Sinai icon": {
+  "creator": "nieznany malarz bizantyński",
+  "date": "VI w.",
+  "place": "Klasztor św. Katarzyny, Synaj"
+ },
+ "Deesis mosaic Hagia Sophia": {
+  "creator": "mozaikarze bizantyńscy",
+  "date": "ok. 1261",
+  "place": "Hagia Sophia, Stambuł"
+ },
+ "Chora Church mosaic": {
+  "creator": "fundacja Teodora Metochity",
+  "date": "1315–1321",
+  "place": "Kościół Chora, Stambuł"
+ },
+ "St Mark's Basilica Venice": {
+  "creator": "budowniczowie weneccy",
+  "date": "od 1063",
+  "place": "Wenecja"
+ },
+ "Horses of Saint Mark": {
+  "creator": "nieznany rzeźbiarz antyczny",
+  "date": "starożytność",
+  "place": "Bazylika św. Marka, Wenecja"
+ },
+ "Chapel of the Holy Trinity Lublin": {
+  "creator": "malarze ruscy pod kierunkiem Andrzeja",
+  "date": "1418",
+  "place": "Zamek Lubelski"
+ },
+ "Book of Kells Chi Rho": {
+  "creator": "mnisi iroszkoccy",
+  "date": "ok. 800",
+  "place": "Trinity College, Dublin"
+ },
+ "Pala d'Oro Venice": {
+  "creator": "złotnicy bizantyńscy i weneccy",
+  "date": "X–XIV w.",
+  "place": "Bazylika św. Marka, Wenecja"
  }
 }

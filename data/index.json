@@ -110,6 +110,24 @@
    "total": 5
   },
   {
+   "id": "alkuin",
+   "name": "Alkuin z Yorku",
+   "born": 735,
+   "died": 804,
+   "c": "naukowiec",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "uczony dworu Karola Wielkiego",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 1,
+     "i": 38
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "ambrozy",
    "name": "Święty Ambroży",
    "born": 340,
@@ -314,6 +332,24 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "attyla",
+   "name": "Attyla",
+   "born": 406,
+   "died": 453,
+   "c": "polityk",
+   "country": "Hunowie",
+   "g": "m",
+   "desc": "wódz Hunów",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 1,
+     "i": 10
+    }
+   ],
+   "total": 1
   },
   {
    "id": "august",
@@ -810,6 +846,27 @@
      "n": 224,
      "count": 2,
      "i": 73
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "boecjusz",
+   "name": "Boecjusz",
+   "born": 480,
+   "died": 524,
+   "c": "filozof",
+   "country": "Italia",
+   "g": "m",
+   "desc": "filozof, autor „O pocieszeniu, jakie daje filozofia”",
+   "works": [
+    "O pocieszeniu, jakie daje filozofia"
+   ],
+   "mentions": [
+    {
+     "n": 23,
+     "count": 2,
+     "i": 20
     }
    ],
    "total": 2
@@ -1322,6 +1379,24 @@
    "total": 2
   },
   {
+   "id": "chlodwig",
+   "name": "Chlodwig",
+   "born": 466,
+   "died": 511,
+   "c": "polityk",
+   "country": "Frankowie",
+   "g": "m",
+   "desc": "król Franków, ochrzczony w Reims",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 2,
+     "i": 27
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "constable",
    "name": "John Constable",
    "born": 1776,
@@ -1715,6 +1790,27 @@
      "n": 8,
      "count": 1,
      "i": 21
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "eadfrith",
+   "name": "Eadfrith z Lindisfarne",
+   "born": 670,
+   "died": 721,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "mnich, twórca Ewangeliarza z Lindisfarne",
+   "works": [
+    "Ewangeliarz z Lindisfarne"
+   ],
+   "mentions": [
+    {
+     "n": 23,
+     "count": 1,
+     "i": 69
     }
    ],
    "total": 1
@@ -2460,6 +2556,29 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "giotto",
+   "name": "Giotto di Bondone",
+   "born": 1267,
+   "died": 1337,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz, prekursor renesansu",
+   "mentions": [
+    {
+     "n": 24,
+     "count": 1,
+     "i": 39
+    },
+    {
+     "n": 193,
+     "count": 1,
+     "i": 39
+    }
+   ],
+   "total": 2
   },
   {
    "id": "gombrich",
@@ -3238,6 +3357,43 @@
    "total": 1
   },
   {
+   "id": "jagiello",
+   "name": "Władysław Jagiełło",
+   "born": 1362,
+   "died": 1434,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, założyciel dynastii Jagiellonów",
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "jan-damaszek",
+   "name": "Jan z Damaszku",
+   "born": 675,
+   "died": 749,
+   "c": "filozof",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "teolog, obrońca ikon",
+   "mentions": [
+    {
+     "n": 24,
+     "count": 1,
+     "i": 29
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "jan-pawel-ii",
    "name": "Jan Paweł II",
    "born": 1920,
@@ -3359,12 +3515,22 @@
      "i": 10
     },
     {
+     "n": 23,
+     "count": 1,
+     "i": 67
+    },
+    {
+     "n": 24,
+     "count": 5,
+     "i": 16
+    },
+    {
      "n": 226,
      "count": 1,
      "i": 30
     }
    ],
-   "total": 3
+   "total": 9
   },
   {
    "id": "jobs",
@@ -3527,6 +3693,24 @@
    "total": 1
   },
   {
+   "id": "karol-wielki",
+   "name": "Karol Wielki",
+   "born": 747,
+   "died": 814,
+   "c": "polityk",
+   "country": "Frankowie",
+   "g": "m",
+   "desc": "król Franków i cesarz",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 2,
+     "i": 37
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "karski",
    "name": "Jan Karski",
    "born": 1914,
@@ -3549,6 +3733,24 @@
      "n": 211,
      "count": 1,
      "i": 78
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kasjodor",
+   "name": "Kasjodor",
+   "born": 485,
+   "died": 585,
+   "c": "pisarz",
+   "country": "Italia",
+   "g": "m",
+   "desc": "uczony i urzędnik, założyciel klasztoru Vivarium",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 1,
+     "i": 20
     }
    ],
    "total": 1
@@ -3736,6 +3938,24 @@
    "total": 8
   },
   {
+   "id": "kolumban",
+   "name": "Święty Kolumban",
+   "born": 543,
+   "died": 615,
+   "c": "inne",
+   "country": "Irlandia",
+   "g": "m",
+   "desc": "irlandzki mnich, założyciel klasztorów",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 1,
+     "i": 64
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "konieczny",
    "name": "Robert Konieczny",
    "c": "architekt",
@@ -3804,9 +4024,19 @@
      "n": 22,
      "count": 4,
      "i": 29
+    },
+    {
+     "n": 23,
+     "count": 2,
+     "i": 19
+    },
+    {
+     "n": 24,
+     "count": 6,
+     "i": 5
     }
    ],
-   "total": 6
+   "total": 14
   },
   {
    "id": "konwicki",
@@ -4968,6 +5198,24 @@
    "total": 1
   },
   {
+   "id": "mehmed-ii",
+   "name": "Mehmed II Zdobywca",
+   "born": 1432,
+   "died": 1481,
+   "c": "polityk",
+   "country": "Imperium Osmańskie",
+   "g": "m",
+   "desc": "sułtan, zdobywca Konstantynopola",
+   "mentions": [
+    {
+     "n": 24,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "mehoffer",
    "name": "Józef Mehoffer",
    "c": "malarz",
@@ -5184,6 +5432,11 @@
      "i": 72
     },
     {
+     "n": 23,
+     "count": 1,
+     "i": 60
+    },
+    {
      "n": 224,
      "count": 2,
      "i": 34
@@ -5199,7 +5452,7 @@
      "i": 62
     }
    ],
-   "total": 8
+   "total": 9
   },
   {
    "id": "mieszko",
@@ -6266,9 +6519,14 @@
      "n": 21,
      "count": 2,
      "i": 19
+    },
+    {
+     "n": 24,
+     "count": 1,
+     "i": 55
     }
    ],
-   "total": 17
+   "total": 18
   },
   {
    "id": "plaut",
@@ -8437,6 +8695,24 @@
    "total": 1
   },
   {
+   "id": "teodoryk",
+   "name": "Teodoryk Wielki",
+   "born": 454,
+   "died": 526,
+   "c": "polityk",
+   "country": "Italia",
+   "g": "m",
+   "desc": "król Ostrogotów, władca Italii",
+   "mentions": [
+    {
+     "n": 23,
+     "count": 3,
+     "i": 18
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "teodozjusz",
    "name": "Teodozjusz Wielki",
    "born": 347,
@@ -8450,9 +8726,14 @@
      "n": 22,
      "count": 1,
      "i": 32
+    },
+    {
+     "n": 24,
+     "count": 1,
+     "i": 12
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "terencjusz",
@@ -9338,25 +9619,25 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 37,
+   "ready": 39,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 36,
+   "plannedHours": 35,
    "yearsSpan": 52026,
-   "experts": 7
+   "experts": 8
   },
   "ready": {
-   "minutes": 344,
-   "words": 45638,
-   "sentences": 3493,
-   "chapters": 336,
-   "images": 279,
-   "glossary": 239,
-   "quiz": 178,
-   "sources": 155,
+   "minutes": 356,
+   "words": 47182,
+   "sentences": 3614,
+   "chapters": 352,
+   "images": 293,
+   "glossary": 251,
+   "quiz": 186,
+   "sources": 161,
    "music": 7,
    "lodz": 308,
-   "polska": 204
+   "polska": 206
   },
   "lessons": [
    {
@@ -9897,6 +10178,53 @@
     }
    },
    {
+    "n": 23,
+    "title": "Upadek Rzymu i narodziny średniowiecznej Europy",
+    "era": "V–IX w.",
+    "minutes": 6,
+    "words": 784,
+    "sentences": 62,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 3,
+    "music": 0,
+    "lodz": 0,
+    "polska": 1,
+    "people": 12,
+    "speakers": {
+     "gospodarz": 115,
+     "historyk": 378,
+     "architekt": 167,
+     "sztuka": 124
+    }
+   },
+   {
+    "n": 24,
+    "title": "Bizancjum — cesarstwo, ikony i mozaiki",
+    "era": "VI–XV w.",
+    "minutes": 6,
+    "words": 760,
+    "sentences": 59,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 3,
+    "music": 0,
+    "lodz": 0,
+    "polska": 1,
+    "people": 7,
+    "speakers": {
+     "gospodarz": 123,
+     "historyk": 274,
+     "sztuka": 165,
+     "architekt": 80,
+     "design": 118
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -9938,7 +10266,7 @@
     "music": 2,
     "lodz": 12,
     "polska": 12,
-    "people": 20,
+    "people": 21,
     "speakers": {
      "gospodarz": 176,
      "historyk": 522,
@@ -10159,7 +10487,7 @@
     "music": 0,
     "lodz": 0,
     "polska": 8,
-    "people": 29,
+    "people": 30,
     "speakers": {
      "gospodarz": 145,
      "architekt": 781
@@ -10254,13 +10582,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 5795,
-   "historyk": 8762,
-   "sztuka": 7235,
-   "architekt": 10269,
+   "gospodarz": 6033,
+   "historyk": 9414,
+   "sztuka": 7524,
+   "architekt": 10516,
    "muzyka": 2280,
    "literatura": 6534,
-   "design": 4056,
+   "design": 4174,
    "foto": 707
   },
   "parts": [
@@ -10282,7 +10610,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 0,
+    "ready": 2,
     "sections": 1
    },
    {
@@ -10468,17 +10796,17 @@
    }
   ],
   "people": {
-   "total": 379,
-   "mentions": 958,
+   "total": 392,
+   "mentions": 994,
    "byCategory": {
-    "naukowiec": 39,
-    "filozof": 20,
-    "inne": 16,
+    "naukowiec": 40,
+    "filozof": 22,
+    "inne": 17,
     "muzyk": 11,
-    "pisarz": 68,
-    "polityk": 54,
+    "pisarz": 69,
+    "polityk": 60,
     "architekt": 87,
-    "malarz": 52,
+    "malarz": 54,
     "projektant": 7,
     "rzeźbiarz": 15,
     "przemysłowiec": 3,
@@ -10490,11 +10818,15 @@
     "2": 2,
     "3": 2,
     "4": 5,
-    "5": 6,
+    "5": 11,
+    "6": 1,
+    "7": 2,
+    "8": 2,
     "10": 1,
     "11": 1,
-    "13": 1,
-    "15": 4,
+    "13": 2,
+    "14": 1,
+    "15": 5,
     "16": 8,
     "17": 3,
     "18": 13,
@@ -10520,17 +10852,17 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 230,
-    "Polska": 149
+    "zagranica": 242,
+    "Polska": 150
    },
    "byGender": {
-    "m": 345,
+    "m": 358,
     "f": 31,
     "k": 3
    },
    "lodz": 31,
-   "withWorks": 212,
-   "works": 649,
+   "withWorks": 214,
+   "works": 651,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

@@ -6668,6 +6668,182 @@
    "m": [
     "Gall\\p{L}* Placydi\\p{L}*"
    ]
+  },
+  {
+   "id": "teodoryk",
+   "name": "Teodoryk Wielki",
+   "born": 454,
+   "died": 526,
+   "c": "polityk",
+   "country": "Italia",
+   "g": "m",
+   "desc": "król Ostrogotów, władca Italii",
+   "m": [
+    "Teodoryk\\p{L}*"
+   ]
+  },
+  {
+   "id": "boecjusz",
+   "name": "Boecjusz",
+   "born": 480,
+   "died": 524,
+   "c": "filozof",
+   "country": "Italia",
+   "g": "m",
+   "desc": "filozof, autor „O pocieszeniu, jakie daje filozofia”",
+   "m": [
+    "Boecjusz\\p{L}*"
+   ],
+   "works": [
+    "O pocieszeniu, jakie daje filozofia"
+   ]
+  },
+  {
+   "id": "kasjodor",
+   "name": "Kasjodor",
+   "born": 485,
+   "died": 585,
+   "c": "pisarz",
+   "country": "Italia",
+   "g": "m",
+   "desc": "uczony i urzędnik, założyciel klasztoru Vivarium",
+   "m": [
+    "Kasjodor\\p{L}*"
+   ]
+  },
+  {
+   "id": "attyla",
+   "name": "Attyla",
+   "born": 406,
+   "died": 453,
+   "c": "polityk",
+   "country": "Hunowie",
+   "g": "m",
+   "desc": "wódz Hunów",
+   "m": [
+    "Attyl\\p{L}*"
+   ]
+  },
+  {
+   "id": "chlodwig",
+   "name": "Chlodwig",
+   "born": 466,
+   "died": 511,
+   "c": "polityk",
+   "country": "Frankowie",
+   "g": "m",
+   "desc": "król Franków, ochrzczony w Reims",
+   "m": [
+    "Chlodwig\\p{L}*"
+   ]
+  },
+  {
+   "id": "karol-wielki",
+   "name": "Karol Wielki",
+   "born": 747,
+   "died": 814,
+   "c": "polityk",
+   "country": "Frankowie",
+   "g": "m",
+   "desc": "król Franków i cesarz",
+   "m": [
+    "Karol\\p{L}* Wielki\\p{L}*"
+   ]
+  },
+  {
+   "id": "alkuin",
+   "name": "Alkuin z Yorku",
+   "born": 735,
+   "died": 804,
+   "c": "naukowiec",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "uczony dworu Karola Wielkiego",
+   "m": [
+    "Alkuin\\p{L}*"
+   ]
+  },
+  {
+   "id": "jan-damaszek",
+   "name": "Jan z Damaszku",
+   "born": 675,
+   "died": 749,
+   "c": "filozof",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "teolog, obrońca ikon",
+   "m": [
+    "Jan\\p{L}* z Damaszku"
+   ]
+  },
+  {
+   "id": "mehmed-ii",
+   "name": "Mehmed II Zdobywca",
+   "born": 1432,
+   "died": 1481,
+   "c": "polityk",
+   "country": "Imperium Osmańskie",
+   "g": "m",
+   "desc": "sułtan, zdobywca Konstantynopola",
+   "m": [
+    "Mehmed\\p{L}*"
+   ]
+  },
+  {
+   "id": "giotto",
+   "name": "Giotto di Bondone",
+   "born": 1267,
+   "died": 1337,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz, prekursor renesansu",
+   "m": [
+    "Giott\\p{L}*"
+   ]
+  },
+  {
+   "id": "jagiello",
+   "name": "Władysław Jagiełło",
+   "born": 1362,
+   "died": 1434,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, założyciel dynastii Jagiellonów",
+   "m": [
+    "Jagieł\\p{L}*"
+   ]
+  },
+  {
+   "id": "kolumban",
+   "name": "Święty Kolumban",
+   "born": 543,
+   "died": 615,
+   "c": "inne",
+   "country": "Irlandia",
+   "g": "m",
+   "desc": "irlandzki mnich, założyciel klasztorów",
+   "m": [
+    "Kolumban\\p{L}*"
+   ]
+  },
+  {
+   "id": "eadfrith",
+   "name": "Eadfrith z Lindisfarne",
+   "born": 670,
+   "died": 721,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "mnich, twórca Ewangeliarza z Lindisfarne",
+   "m": [
+    "Eadfrith\\p{L}*"
+   ],
+   "works": [
+    "Ewangeliarz z Lindisfarne"
+   ]
   }
  ]
 }
