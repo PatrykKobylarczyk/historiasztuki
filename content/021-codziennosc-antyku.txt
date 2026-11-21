@@ -1,0 +1,109 @@
+---
+n: 21
+title: Muzyka, teatr i codzienność starożytnego świata
+subtitle: Jak brzmiał, bawił się i żył antyk
+era: Grecja i Rzym · VIII w. p.n.e.–IV w. n.e.
+next: Chrześcijaństwo i przemiana antycznego świata.
+---
+
+[jingle]
+
+[gospodarz]
+KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty pierwszy: muzyka, teatr i codzienność starożytnego świata.
+
+Znamy świątynie, posągi i poematy. Ale jak brzmiała muzyka w Atenach? Co jadł rzymski robotnik na śniadanie? Gdzie kibicowano i z czego się śmiano? Dziś zostawiamy wielkie dzieła i schodzimy na ulicę.
+
+# Rozdział I. Muzyka Greków
+
+[muzyka]
+Dla Greków muzyka była sztuką Muz, z której wzięła się sama nazwa. Towarzyszyła wszystkiemu: ofiarom, ucztom, pracy, wojnie i teatrowi. Najważniejsze instrumenty to lira i jej większa siostra kithara, na których grano szarpiąc struny, oraz aulos, podwójny piszczałkowy instrument o ostrym, przenikliwym dźwięku, związany z kultem Dionizosa. Mit opowiada o rywalizacji Apollona z lirą i satyra Marsjasza z aulosem. Apollo wygrał i okrutnie ukarał przeciwnika.
+
+Pitagoras odkrył, że współbrzmienia odpowiadają prostym proporcjom długości struny: połowa daje oktawę, dwie trzecie kwintę. Od tego zaczyna się muzyczna teoria Europy. Grecy rozróżniali skale, zwane harmoniami, i wierzyli, że każda kształtuje charakter: jedna dodaje odwagi, inna rozleniwia. Dlatego Platon chciał w swoim idealnym państwie dopuścić tylko niektóre z nich.
+
+# Rozdział II. Czy możemy usłyszeć antyk
+
+[muzyka]
+Zachowało się zaledwie kilkadziesiąt fragmentów zapisanej muzyki greckiej. Najpełniejszy to Pieśń Sejkilosa z pierwszego wieku naszej ery, wyryta na nagrobnej steli razem z nutami. To krótka melodia, która mówi, by cieszyć się życiem, póki trwa, bo jest krótkie. Badacze i muzycy, tacy jak Armand D'Angour z Oksfordu, rekonstruują dziś instrumenty i melodie i próbują je zagrać.
+
+W Rzymie muzyka była głośniejsza i bardziej widowiskowa. Grały trąby wojskowe, a w amfiteatrach organy wodne, hydraulis, wynalezione w Aleksandrii w trzecim wieku przed naszą erą przez Ktesibiosa. Ich szczątki znaleziono między innymi w Akwinkum na terenie Budapesztu. To przodek organów kościelnych.
+
+[muzyka-fragment] Pieśń Sejkilosa | rekonstrukcja | https://www.youtube.com/results?search_query=Seikilos+epitaph | Najstarsza w pełni zachowana kompozycja z melodią i tekstem.
+
+# Rozdział III. Igrzyska i widowiska
+
+[historyk]
+Grecy rywalizowali w igrzyskach ku czci bogów. Najsłynniejsze odbywały się w Olimpii co cztery lata, według tradycji od siedemset siedemdziesiątego szóstego roku przed naszą erą. Biegano, skakano, rzucano dyskiem i oszczepem, walczono w pankrationie, a wyścigi rydwanów były najbardziej prestiżowe. Na czas igrzysk ogłaszano pokój, by zawodnicy mogli bezpiecznie dojechać. Zwycięzca dostawał wieniec oliwny, a w rodzinnym mieście sławę, posągi i darmowe posiłki do końca życia.
+
+Rzymianie wybierali widowiska, na które się patrzyło. W Circus Maximus, który mieścił ponad sto pięćdziesiąt tysięcy widzów, ścigały się rydwany drużyn w czterech kolorach: białym, czerwonym, zielonym i niebieskim. Kibice przeżywali to jak dziś derby. W amfiteatrach, jak Koloseum, walczyli gladiatorzy, często niewolnicy lub jeńcy, ale też wolni zawodowcy, którzy byli gwiazdami. Na ścianach Pompejów zostały napisy kibiców, na przykład o gladiatorze, za którym wzdychają dziewczęta.
+
+# Rozdział IV. Teatr w Rzymie
+
+[sztuka]
+Rzym przejął teatr od Greków. Plaut i Terencjusz przerabiali greckie komedie, pełne sprytnych niewolników, zakochanych młodzieńców i skąpych ojców. Te typy postaci przeszły potem do włoskiej komedii dell'arte, do Moliera i Fredry. Seneka pisał krwawe tragedie, przeznaczone raczej do czytania, które wpłynęły na dramat elżbietański i Szekspira.
+
+Najbardziej popularne były jednak mim i pantomima: tancerz w masce bez słów opowiadał cały mit, przy muzyce i chórze. Najlepsi pantomimowie byli celebrytami, a ich fani urządzali na widowni bijatyki. Pierwszy kamienny teatr w Rzymie zbudował Pompejusz w pięćdziesiątym piątym roku przed naszą erą, sprytnie łącząc go ze świątynią, bo senat nie lubił stałych teatrów.
+
+# Rozdział V. Uczty i jedzenie
+
+[design]
+Grecy urządzali sympozjon, męskie spotkanie przy winie po kolacji. Wino mieszano z wodą w dużym naczyniu, kraterze, a picie nierozcieńczonego uchodziło za barbarzyństwo. Rozmawiano, recytowano, grano w kottabos, czyli rzucanie resztką wina do celu. Uczta Platona to filozoficzny zapis takiego wieczoru.
+
+Zwykły Rzymianin jadł skromnie: chleb, kaszę z orkiszu, oliwki, ser, warzywa i strączki. Ulubioną przyprawą był garum, sos ze sfermentowanych ryb, słony jak dzisiejsze sosy rybne z Azji. W Pompejach było ponad sto termopoliów, ulicznych barów z ladą, w której stały gliniane naczynia z ciepłym jedzeniem. Bogaci urządzali wielogodzinne uczty z egzotycznymi daniami, a jedyna zachowana rzymska książka kucharska nosi imię smakosza Apicjusza.
+
+# Rozdział VI. Rodzina, szkoła, praca
+
+[historyk]
+Społeczeństwo antyczne opierało się na niewolnictwie. W Atenach i w Rzymie niewolnicy pracowali w domach, warsztatach, kopalniach i na polach, a w Rzymie mogli być wyzwoleni i ich dzieci stawały się obywatelami. Kobiety w Atenach miały niewiele praw i spędzały życie w domu. Rzymianki miały więcej swobody, mogły dziedziczyć majątek i prowadzić interesy, ale nie głosowały.
+
+Dzieci zamożnych uczyły się czytania, pisania i liczenia u nauczyciela, często greckiego niewolnika, a potem retoryki, sztuki przemawiania. Pisano rylcem na woskowych tabliczkach. W koszarach w Vindolandzie przy Murze Hadriana w Brytanii znaleziono drewniane tabliczki z listami żołnierzy i ich rodzin, a wśród nich zaproszenie na urodziny, które jedna kobieta wysłała przyjaciółce. Jeden z najstarszych zachowanych tekstów napisanych kobiecą ręką po łacinie.
+
+# Rozdział VII. Łaźnie i miasto
+
+[architekt]
+Rzymska codzienność toczyła się w łaźniach. Po pracy szło się do term: ćwiczenia, kąpiel w ciepłej, gorącej i zimnej wodzie, masaż, rozmowy, interesy i plotki. Wstęp był tani, czasem darmowy. Seneka, który mieszkał nad łaźnią, skarżył się w liście na hałas: stęknięcia ćwiczących, krzyki sprzedawców kiełbasek i człowieka, który lubi słuchać swojego głosu w kąpieli.
+
+Miasto było głośne, ciasne i tłoczne. Na ulicach Pompejów przejścia dla pieszych to wysokie kamienie, po których przechodziło się nad błotem i ściekami, a koła wozów mieściły się w szczelinach między nimi. Na murach wymalowano hasła wyborcze i ogłoszenia, a ludzie wydrapywali napisy: miłosne wyznania, obelgi, rachunki. To najstarsze graffiti Europy i najbardziej ludzki głos antyku.
+
+# Zakończenie
+
+[gospodarz]
+Podsumujmy. Słuchaliśmy liry i aulosu, poznaliśmy Pitagorasa i Pieśń Sejkilosa, organy wodne, igrzyska w Olimpii, wyścigi w Circus Maximus i gladiatorów, komedie Plauta i pantomimę, sympozjon i uliczne bary Pompejów, życie niewolników, kobiet i dzieci, tabliczki z Vindolandy i hałas rzymskich term.
+
+W następnym odcinku, zamykającym drugą część kursu, zobaczymy, jak nowa religia, chrześcijaństwo, przemienia antyczny świat.
+
+To była KULTURA. Do usłyszenia.
+
+[outro]
+
+## Galeria
+![Apollo z kitharą, malowidło na czarce](Apollo kylix Delphi) @1
+![Stela z Pieśnią Sejkilosa](Seikilos epitaph) @2
+![Stadion w Olimpii](Olympia stadium) @3
+![Mozaika z gladiatorami](Zliten mosaic gladiators) @3
+![Maski teatralne, mozaika](Theatrical masks mosaic Capitoline) @4
+![Termopolium w Pompejach](Thermopolium Pompeii) @5
+![Tabliczka z Vindolandy](Vindolanda tablet) @6
+![Przejście dla pieszych w Pompejach](Pompeii stepping stones street) @7
+
+## Słowniczek
+- Aulos: grecki podwójny instrument dęty.
+- Kithara: duża grecka lira koncertowa.
+- Hydraulis: rzymskie organy wodne.
+- Sympozjon: grecka uczta przy winie i rozmowie.
+- Garum: rzymski sos rybny.
+- Termopolium: uliczny bar z gorącym jedzeniem.
+- Pantomima: widowisko taneczne bez słów.
+- Retoryka: sztuka przemawiania.
+
+## Pytania
+? Co odkrył Pitagoras o dźwięku? | Że dźwięk to światło | Że współbrzmienia odpowiadają prostym proporcjom struny* | Że aulos jest głośniejszy od liry | Połowa struny daje oktawę, dwie trzecie kwintę.
+? Czym jest Pieśń Sejkilosa? | Hymnem olimpijskim | Najstarszą w pełni zachowaną melodią z tekstem* | Rzymskim marszem | Wyryto ją na nagrobnej steli.
+? Co dostawał zwycięzca igrzysk w Olimpii? | Złoty medal | Wieniec oliwny* | Sakiewkę srebra | W rodzinnym mieście czekały go też zaszczyty.
+? Czym było garum? | Winem | Sosem ze sfermentowanych ryb* | Rodzajem chleba | To była ulubiona przyprawa Rzymian.
+? Co znaleziono w Vindolandzie? | Złoty skarb | Drewniane tabliczki z listami* | Posąg cesarza | Wśród nich jest zaproszenie na urodziny.
+
+## Źródła
+- [Muzyka starożytnej Grecji — Wikipedia](https://pl.wikipedia.org/wiki/Muzyka_starożytnej_Grecji)
+- [Vindolanda Tablets Online](http://vindolanda.csad.ox.ac.uk/)
+- [Pompeje — Parco Archeologico](https://pompeiisites.org/)
+- [Starożytne igrzyska olimpijskie — Encyclopaedia Britannica](https://www.britannica.com/sports/Olympic-Games)
