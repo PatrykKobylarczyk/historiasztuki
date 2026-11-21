@@ -9,7 +9,7 @@ next: Muzyka, teatr i codzienność starożytnego świata.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty: literatura antyczna, od Homera do Owidiusza.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty: literatura antyczna, od Homera do Owidiusza.
 
 Gdy mówimy, że ktoś ma piętę achillesową, że zadanie jest syzyfową pracą, a podróż była prawdziwą odyseją, mówimy językiem starożytnych poetów. Ich opowieści przetrwały upadek imperiów, bo były przepisywane, tłumaczone i czytane w każdym pokoleniu. Dziś poznamy najważniejsze z nich.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy Homera, Iliadę i Odyseję, lirykę Safony, tragedie Ajs
 
 W następnym odcinku zajrzymy do codzienności starożytnych: muzyka, teatr, igrzyska, uczty i to, jak żyli zwykli ludzie.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

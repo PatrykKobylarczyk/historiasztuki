@@ -9,7 +9,7 @@ next: Upadek Rzymu i narodziny średniowiecznej Europy.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty drugi: chrześcijaństwo i przemiana antycznego świata.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty drugi: chrześcijaństwo i przemiana antycznego świata.
 
 W pierwszym wieku naszej ery w odległej prowincji imperium, w Judei, powstaje mały ruch religijny wokół nauczyciela z Nazaretu. Trzysta lat później jego wyznawcy budują największe kościoły świata, a cesarz uznaje ich Boga za swojego. Ta przemiana zmieniła sztukę, architekturę, muzykę i sposób myślenia Europy na następne półtora tysiąca lat. Tym odcinkiem zamykamy drugą część kursu.
 
@@ -71,7 +71,7 @@ Podsumujmy. Widzieliśmy narodziny chrześcijaństwa i prześladowania, katakumb
 
 Tym odcinkiem kończymy drugą część kursu, od Mezopotamii do późnego antyku. W następnej części wchodzimy w średniowiecze: zobaczymy z bliska upadek Rzymu i narodziny średniowiecznej Europy.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

@@ -9,7 +9,7 @@ next: Globalizacja sztuki — biennale, galerie i rynek.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek sto dziewięćdziesiąty dziewiąty: Łódź dwa tysiące pięć — dwa tysiące piętnaście. Manufaktura, Off Piotrkowska, murale i Nowe Centrum Łodzi.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek sto dziewięćdziesiąty dziewiąty: Łódź dwa tysiące pięć — dwa tysiące piętnaście. Manufaktura, Off Piotrkowska, murale i Nowe Centrum Łodzi.
 
 To dekada, w której Łódź odkrywa, że jej największym kapitałem są budynki, które jeszcze niedawno wydawały się ciężarem. Fabryki stają się centrami handlu, kultury i mieszkaniami, a ślepe ściany kamienic galerią sztuki pod gołym niebem.
 
@@ -88,7 +88,7 @@ Podsumujmy. Zobaczyliśmy Manufakturę z hotelem w przędzalni i ms dwa w tkalni
 
 W następnym odcinku wracamy do świata: globalizacja sztuki, biennale, galerie i rynek. Do Łodzi powrócimy w odcinku dwieście jedenastym, opowiadając o mieście od dwa tysiące piętnastego roku do dziś.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

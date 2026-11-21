@@ -9,7 +9,7 @@ next: Polscy malarze — od Matejki do Młodej Polski.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty dziewiąty, z cyklu Galeria mistrzów. Dziś polscy poeci dwudziestego wieku, od Leopolda Staffa, Bolesława Leśmiana i Juliana Tuwima do Wisławy Szymborskiej i Adama Zagajewskiego.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty dziewiąty, z cyklu Galeria mistrzów. Dziś polscy poeci dwudziestego wieku, od Leopolda Staffa, Bolesława Leśmiana i Juliana Tuwima do Wisławy Szymborskiej i Adama Zagajewskiego.
 
 Dwudziesty wiek dał polskiej poezji dwie Nagrody Nobla i całą galerię wybitnych twórców. Ich wiersze przechodziły przez dwie wojny, okupację, stalinizm, cenzurę i wolność. Opowiemy o nich parami i grupami, tak jak spotykali się w historii.
 
@@ -74,7 +74,7 @@ Podsumujmy. Poznaliśmy Staffa i Leśmiana, łodzianina Tuwima i Skamandrytów z
 
 W następnym odcinku Galerii mistrzów przechodzimy do malarstwa: polscy malarze od Matejki do Młodej Polski.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

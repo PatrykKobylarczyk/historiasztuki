@@ -9,7 +9,7 @@ next: Bizancjum — cesarstwo, ikony i mozaiki.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty trzeci: upadek Rzymu i narodziny średniowiecznej Europy.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty trzeci: upadek Rzymu i narodziny średniowiecznej Europy.
 
 Zaczynamy trzecią część kursu, średniowiecze. Przez długi czas nazywano je wiekami ciemnymi. Dziś historycy widzą w nim raczej tysiąc lat, w których powstała Europa: jej państwa, języki, miasta, uniwersytety i katedry. Dziś zobaczymy, jak z ruin zachodniego Rzymu wyłania się nowy świat.
 
@@ -69,7 +69,7 @@ Podsumujmy. Widzieliśmy wędrówkę ludów, Teodoryka i Rawennę, chrzest Chlod
 
 W następnym odcinku wracamy na wschód, do Konstantynopola: Bizancjum, ikony i mozaiki.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

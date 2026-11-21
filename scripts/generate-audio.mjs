@@ -176,7 +176,7 @@ async function generate(n) {
   const file = `${id}-${hash.slice(0, 6)}.mp3`;
   execFileSync("ffmpeg", ["-y", "-loglevel", "error", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", raw,
     "-af", "loudnorm=I=-16:TP=-1.5:LRA=11", "-ar", "44100", "-ac", "1", "-b:a", BITRATE,
-    "-metadata", `title=${n}. ${lesson.title}`, "-metadata", "artist=KULTURA", "-metadata", "album=KULTURA",
+    "-metadata", `title=${n}. ${lesson.title}`, "-metadata", "artist=Akademia Kultury", "-metadata", "album=Akademia Kultury",
     path.join(root, "audio", file)]);
   fs.unlinkSync(raw);
   // usuń poprzednie wersje nagrania tego odcinka

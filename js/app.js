@@ -37,7 +37,7 @@ function renderHome() {
   const feat = (last && ready.has(last.n)) ? ready.get(last.n) : catalog[0];
   let html = `
     <section class="hero">
-      <h1 class="hero-title">KULTURA<span class="brand-dot" aria-hidden="true"></span></h1>
+      <h1 class="hero-title">Akademia<br>Kultury<span class="brand-dot" aria-hidden="true"></span></h1>
       <p class="hero-deck">Wielkie dzieła, wielkie idee i&nbsp;ludzie, którzy zmienili świat.</p>
       <p class="hero-meta">${total} odcinków · ${catalog.length} gotowych · ${done.size} wysłuchanych</p>`;
   if (feat) {
@@ -168,7 +168,7 @@ async function renderLesson(n) {
   let lastSi = -1, open = false, chapter = 0, lastSp = null;
   const closePara = () => { if (open) { tr += `</p></div>`; open = false; } };
   items.forEach((it, i) => {
-    if (it.kind === "jingle") { closePara(); tr += `<div class="cue">Sygnał · KULTURA</div>`; lastSp = null; return; }
+    if (it.kind === "jingle") { closePara(); tr += `<div class="cue">Sygnał · Akademia Kultury</div>`; lastSp = null; return; }
     if (it.kind === "outro") { closePara(); tr += `<div class="cue">Koniec odcinka</div>`; return; }
     if (it.kind === "sting") {
       closePara();
@@ -422,7 +422,7 @@ document.addEventListener("click", async (e) => {
   } else if (a === "test-voice") {
     const k = b.dataset.sp;
     stopSpeaking();
-    speak(`Dzień dobry. Tu ${speakers[k].name}, KULTURA. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
+    speak(`Dzień dobry. Tu ${speakers[k].name}, Akademia Kultury. Moja dziedzina to ${speakers[k].role}.`, speakerVoiceParams(k, speakers));
   }
 });
 // ---------- Indeks osób i liczby ----------

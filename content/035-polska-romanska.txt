@@ -9,7 +9,7 @@ next: Polska gotycka — miasta, zamki i katedry.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty piąty: Polska romańska, architektura, rzeźba i sztuka sakralna.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty piąty: Polska romańska, architektura, rzeźba i sztuka sakralna.
 
 Romańskie zabytki w Polsce są nieliczne, bo wiele z nich przebudowano w gotyku i baroku albo zniszczyły je wojny. Ale te, które przetrwały, są niezwykłe: kamienne kolegiaty, rzeźbione kolumny, posadzki z rytymi obrazami. Wiele z nich leży niedaleko Łodzi. Dziś wyruszymy na szlak polskiego romanizmu.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy rotundę i kryptę na Wawelu, kolegiatę w Tumie pod Ł�
 
 W następnym odcinku cegła i ostre łuki: Polska gotycka, miasta, zamki i katedry.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

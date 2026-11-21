@@ -9,7 +9,7 @@ next: Polscy poeci — od Kochanowskiego do Norwida.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty siódmy, z cyklu Galeria mistrzów. Dziś polscy architekci po tysiąc dziewięćset czterdziestym piątym roku, od Oskara Hansena i Jadwigi Grabowskiej-Hawrylak do Roberta Koniecznego.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty siódmy, z cyklu Galeria mistrzów. Dziś polscy architekci po tysiąc dziewięćset czterdziestym piątym roku, od Oskara Hansena i Jadwigi Grabowskiej-Hawrylak do Roberta Koniecznego.
 
 Po wojnie polscy architekci mają przed sobą zadanie bez precedensu: odbudować zniszczony kraj, dać mieszkania milionom ludzi, a potem, po tysiąc dziewięćset osiemdziesiątym dziewiątym roku, odnaleźć się w gospodarce rynkowej. Przejdziemy przez trzy epoki: socrealizm i odwilż, wielkie osiedla i kościoły PRL, a na koniec architekturę wolnej Polski.
 
@@ -74,7 +74,7 @@ Podsumujmy. Poznaliśmy Tygrysów i Dom Partii, Oskara Hansena i Formę Otwartą
 
 W następnym odcinku Galerii mistrzów przechodzimy od architektury do słowa: polscy poeci od Kochanowskiego do Norwida.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

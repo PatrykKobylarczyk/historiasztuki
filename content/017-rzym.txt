@@ -9,7 +9,7 @@ next: Rzymska architektura — beton, łuki, kopuły i infrastruktura.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek siedemnasty: Rzym. Republika, imperium i kultura władzy.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek siedemnasty: Rzym. Republika, imperium i kultura władzy.
 
 Grecy dali Europie filozofię i piękno. Rzymianie dali jej prawo, drogi, łacinę i model państwa. Mówi się, że Grecja podbita podbiła swojego dzikiego zwycięzcę, bo Rzymianie przejęli grecką sztukę i wiedzę. Ale stworzyli też coś zupełnie własnego: kulturę władzy, w której posąg, łuk triumfalny i portret były narzędziami polityki.
 
@@ -78,7 +78,7 @@ Podsumujmy. Widzieliśmy wilczycę i Etrusków, republikę z senatem i prawem Dw
 
 W następnym odcinku zobaczymy, jak Rzymianie budowali: beton, łuki, kopuły, drogi i akwedukty.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

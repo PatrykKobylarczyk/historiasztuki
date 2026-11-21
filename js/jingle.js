@@ -1,4 +1,4 @@
-// Autorski dżingiel KULTURA — syntezowany w czystym JS (bez plików audio).
+// Autorski dżingiel Akademii Kultury — syntezowany w czystym JS (bez plików audio).
 // Ten sam kod działa w przeglądarce (AudioBuffer) i w Node (skrypt generujący MP3).
 // Motyw: żwawa polka orkiestry rozrywkowej (akordeon, trąbka, tuba, werbel) — w duchu klasycznych sygnałów radiowych.
 

@@ -9,7 +9,7 @@ next: Klasztory — architektura, rękopisy i przechowywanie wiedzy.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty piąty: islam, architektura, ornament, kaligrafia i nauka.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty piąty: islam, architektura, ornament, kaligrafia i nauka.
 
 W siódmym wieku na Półwyspie Arabskim narodziła się nowa religia. W ciągu stu lat jej wyznawcy stworzyli państwo od Hiszpanii po Indie. Cywilizacja islamu przechowała naukę starożytnych, rozwinęła matematykę i medycynę i stworzyła sztukę, która zamiast przedstawiać ludzi, buduje piękno z geometrii, roślin i słowa.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy narodziny islamu, meczet od Jerozolimy po Kordobę, orna
 
 W następnym odcinku wracamy do Europy, za mury klasztorów: architektura, rękopisy i przechowywanie wiedzy.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

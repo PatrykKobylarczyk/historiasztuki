@@ -26,8 +26,8 @@ export function splitSentences(text) {
 }
 
 // Zapowiedź lektora po dżinglu — głęboki, spokojny głos radiowy.
-export const TAGLINE = "KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat.";
-const TAG_RE = /^\s*(KULTURA|Historia kultury)\.\s*Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat\.\s*/i;
+export const TAGLINE = "Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat.";
+const TAG_RE = /^\s*(Akademia Kultury|KULTURA|Historia kultury)\.\s*Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat\.\s*/i;
 
 export function buildItems(lesson) {
   const items = [];

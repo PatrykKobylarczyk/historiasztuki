@@ -9,7 +9,7 @@ next: Kraków, Gniezno i państwo Jagiellonów — kultura i władza.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty szósty: Polska gotycka, miasta, zamki i katedry.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty szósty: Polska gotycka, miasta, zamki i katedry.
 
 Mówi się, że Kazimierz Wielki zastał Polskę drewnianą, a zostawił murowaną. To przesada, ale dobrze oddaje to, co działo się w czternastym wieku. Powstały wtedy setki miast z rynkami, kościoły z czerwonej cegły i zamki na granicach. Dziś przejdziemy przez gotycką Polskę, od Malborka po Kraków, i zatrzymamy się w regionie łódzkim.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy lokację miast i plan z rynkiem, gotyk ceglany od Gdańs
 
 W następnym odcinku wejdziemy na dwór królewski: Kraków, Gniezno i państwo Jagiellonów, kultura i władza.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

@@ -9,7 +9,7 @@ next: Scholastyka, św. Augustyn i św. Tomasz z Akwinu.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty pierwszy: literatura średniowieczna, epos, rycerstwo, Dante i mistyka.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty pierwszy: literatura średniowieczna, epos, rycerstwo, Dante i mistyka.
 
 Średniowiecze to czas, gdy obok łaciny zaczęły pisać języki ludowe: francuski, niemiecki, angielski, włoski, a w końcu polski. Powstały wtedy opowieści, które znamy do dziś: o królu Arturze, o Tristanie i Izoldzie, o rycerzu Rolandzie i o wędrówce przez piekło, czyściec i raj. Dziś je poznamy.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy eposy: Beowulfa, Rolanda i Nibelungów, ideał miłości
 
 W następnym odcinku przejdziemy od opowieści do idei: scholastyka, święty Augustyn i święty Tomasz z Akwinu.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

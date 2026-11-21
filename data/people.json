@@ -1,5 +1,5 @@
 {
- "_info": "Indeks osób kursu KULTURA. Pole 'm' to rdzenie/wyrażenia regularne (bez flag, z odmianą przez \\p{L}*), szukane w tekstach odcinków przez scripts/build-index.mjs. 'only' ogranicza dopasowanie do wskazanych odcinków (gdy nazwisko jest niejednoznaczne). 'born'/'died': rok (ujemny = p.n.e.), 'c': dziedzina, 'pl': Polak/Polka, 'lodz': związek z Łodzią, 'g': płeć (m/f), 'legend': postać legendarna. Pola dodatkowe: 'works' — wybrana twórczość/dorobek; 'ls' — siła związku z Łodzią (urodzeni/mieszkali/epizod/temat/brak); 'lodzLink' — opis związku; 'verify' — wymaga weryfikacji.",
+ "_info": "Indeks osób kursu Akademia Kultury. Pole 'm' to rdzenie/wyrażenia regularne (bez flag, z odmianą przez \\p{L}*), szukane w tekstach odcinków przez scripts/build-index.mjs. 'only' ogranicza dopasowanie do wskazanych odcinków (gdy nazwisko jest niejednoznaczne). 'born'/'died': rok (ujemny = p.n.e.), 'c': dziedzina, 'pl': Polak/Polka, 'lodz': związek z Łodzią, 'g': płeć (m/f), 'legend': postać legendarna. Pola dodatkowe: 'works' — wybrana twórczość/dorobek; 'ls' — siła związku z Łodzią (urodzeni/mieszkali/epizod/temat/brak); 'lodzLink' — opis związku; 'verify' — wymaga weryfikacji.",
  "people": [
   {
    "id": "mellaart",
