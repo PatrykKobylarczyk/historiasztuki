@@ -40,6 +40,126 @@
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Stonehenge_from_the_north.jpg/500px-Stonehenge_from_the_north.jpg"
  },
  {
+  "n": 6,
+  "title": "Mezopotamia — narodziny miasta, pisma i władzy",
+  "subtitle": "Uruk, Ur i pierwsze tabliczki",
+  "era": "Mezopotamia · ok. 4000–2000 p.n.e.",
+  "minutes": 10,
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/80/Ziggurat_of_ur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ {
+  "n": 7,
+  "title": "Sumer, Babilon i Asyria — sztuka jako narzędzie potęgi",
+  "subtitle": "Stele, pałace i bramy imperiów",
+  "era": "Mezopotamia · ok. 2300–539 p.n.e.",
+  "minutes": 9,
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/45/Victory_stele_of_Naram_Sin_9071_Star-sun-glyph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ {
+  "n": 8,
+  "title": "Egipt — wieczność, religia i monumentalna architektura",
+  "subtitle": "Piramidy, świątynie i życie po śmierci",
+  "era": "Starożytny Egipt · ok. 3100–30 p.n.e.",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Kairo_Museum_Narmer-Palette_Replik_02.jpg/500px-Kairo_Museum_Narmer-Palette_Replik_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 9,
+  "title": "Egipskie malarstwo, rzeźba, ubiór i przedmioty codzienne",
+  "subtitle": "Kanon, len i niebieski fajans",
+  "era": "Starożytny Egipt · ok. 2700–30 p.n.e.",
+  "minutes": 8,
+  "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/51/%22Pond_in_a_Garden%22_%28fresco_from_the_Tomb_of_Nebamun%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+ },
+ {
+  "n": 10,
+  "title": "Grecja archaiczna — narodziny kanonu piękna",
+  "subtitle": "Homer, kurosy i malowane wazy",
+  "era": "Grecja · ok. 800–480 p.n.e.",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Throne_of_Minos_at_Knossos_Palace.jpg/500px-Throne_of_Minos_at_Knossos_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 11,
+  "title": "Grecja klasyczna — proporcja, harmonia i idea człowieka",
+  "subtitle": "Akropol, Poliklet i kanon piękna",
+  "era": "Grecja · ok. 480–323 p.n.e.",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Restoration_work_Parthenon_facade_Acropolis_Athens_Greece.jpg/500px-Restoration_work_Parthenon_facade_Acropolis_Athens_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 12,
+  "title": "Teatr grecki — tragedia, komedia i scena",
+  "subtitle": "Ajschylos, Sofokles, Eurypides i Arystofanes",
+  "era": "Grecja · V–IV wiek p.n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Ancient_Theatre_of_the_Asklepieion_at_Epidaurus_-_52002574653.jpg/500px-Ancient_Theatre_of_the_Asklepieion_at_Epidaurus_-_52002574653.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 13,
+  "title": "Filozofia grecka — Sokrates, Platon i Arystoteles",
+  "subtitle": "Pytanie, idea i rozum",
+  "era": "Grecja · V–IV wiek p.n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/The_School_of_Athens_by_Raphael%2C_Vatican_Museum%2C_Vatican_City%2C_Rome%2C_Latzio%2C_Italy_-_panoramio.jpg/500px-The_School_of_Athens_by_Raphael%2C_Vatican_Museum%2C_Vatican_City%2C_Rome%2C_Latzio%2C_Italy_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 14,
+  "title": "Grecka architektura — świątynia, porządek i miasto",
+  "subtitle": "Sanktuaria, agory i siatka ulic",
+  "era": "Grecja · VI–II wiek p.n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Ancient_Greek_theatre_of_Delphi_01.jpg/500px-Ancient_Greek_theatre_of_Delphi_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 15,
+  "title": "Grecka ceramika, rzemiosło i kultura przedmiotów",
+  "subtitle": "Naczynia uczty, brązy, tkaniny i monety",
+  "era": "Grecja · VI–I wiek p.n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Euphronios_Krater_%288254576758%29.jpg/500px-Euphronios_Krater_%288254576758%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 16,
+  "title": "Hellenizm — Aleksander Wielki i świat kosmopolityczny",
+  "subtitle": "Aleksandria, Pergamon i emocje w kamieniu",
+  "era": "Świat hellenistyczny · 336–30 p.n.e.",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Alexander_the_Great_mosaic.jpg/500px-Alexander_the_Great_mosaic.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 17,
+  "title": "Rzym — republika, imperium i kultura władzy",
+  "subtitle": "Senat, cesarze i portret",
+  "era": "Rzym · 753 p.n.e.–476 n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Capitoline_Wolf%2C_Musei_Capitolini%2C_Rome_%2813840968834%29.jpg/500px-The_Capitoline_Wolf%2C_Musei_Capitolini%2C_Rome_%2813840968834%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 18,
+  "title": "Rzymska architektura — beton, łuki, kopuły i infrastruktura",
+  "subtitle": "Panteon, Koloseum, akwedukty i drogi",
+  "era": "Rzym · III w. p.n.e.–IV w. n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Pantheon_%28Rome%29_-_Dome_interior.jpg/500px-Pantheon_%28Rome%29_-_Dome_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 19,
+  "title": "Rzymskie wnętrza, mozaiki, malarstwo i meble",
+  "subtitle": "Pompeje, freski i domus",
+  "era": "Rzym · II w. p.n.e.–IV w. n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Ancient_Pompeii_-_Boscoreale_-_Castellammare_-_Pompei_-_Torre_Annunziata_-_Vesuvius_-_Sorrento_-_Capri_-_Panorama.jpg/500px-Ancient_Pompeii_-_Boscoreale_-_Castellammare_-_Pompei_-_Torre_Annunziata_-_Vesuvius_-_Sorrento_-_Capri_-_Panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 20,
+  "title": "Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz",
+  "subtitle": "Opowieści, które czytamy od trzech tysięcy lat",
+  "era": "Grecja i Rzym · VIII w. p.n.e.–II w. n.e.",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Portrait_Bust_of_Homer_-_British_Museum_-_Joy_of_Museums.jpg/500px-Portrait_Bust_of_Homer_-_British_Museum_-_Joy_of_Museums.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
   "n": 186,
   "title": "Łódź 1971 — protest, sztuka i obraz miasta",
   "subtitle": "Polska i świat w pierwszej połowie lat 70. XX wieku",
@@ -94,5 +214,69 @@
   "era": "2015–dziś · Łódź",
   "minutes": 8,
   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017_%28cropped%29.jpg/500px-%C5%81%C3%B3d%C5%BA_Fabryczna%2C_2017_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 224,
+  "title": "Mistrzowie architektury nowoczesnej",
+  "subtitle": "Od Sullivana i Gaudíego do Kahna i Niemeyera",
+  "era": "ok. 1880–1980 · świat",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Trim%2C_Wainwright_Building%2C_7th_Street_and_Chestnut_Street%2C_St._Louis%2C_MO_-_53051646575.jpg/500px-Trim%2C_Wainwright_Building%2C_7th_Street_and_Chestnut_Street%2C_St._Louis%2C_MO_-_53051646575.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 225,
+  "title": "Architekci naszych czasów",
+  "subtitle": "Od Venturiego i Gehry'ego do Hadid, Zumthora i SANAA",
+  "era": "ok. 1960–dziś · świat",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Guggenheim_Museum_Bilbao_6.jpg/500px-Guggenheim_Museum_Bilbao_6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 226,
+  "title": "Polscy architekci — od Tylmana z Gameren do Macieja Nowickiego",
+  "subtitle": "Barok, klasycyzm, styl zakopiański i awangarda",
+  "era": "XVII–XX wiek · Polska",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Krasi%C5%84ski_Palace_in_Warsaw_%28by_Pudelek%29.JPG/500px-Krasi%C5%84ski_Palace_in_Warsaw_%28by_Pudelek%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 227,
+  "title": "Polscy architekci po 1945 roku",
+  "subtitle": "Od Hansena i Grabowskiej-Hawrylak do Koniecznego",
+  "era": "1945–dziś · Polska",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Warszawa_dawny_Dom_Partii.jpg/500px-Warszawa_dawny_Dom_Partii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 228,
+  "title": "Polscy poeci — od Kochanowskiego do Norwida",
+  "subtitle": "Renesans i romantyzm w polskiej poezji",
+  "era": "XVI–XIX wiek · Polska",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Jan_Kochanowski_nad_zw%C5%82okami_Urszulki.jpg/500px-Jan_Kochanowski_nad_zw%C5%82okami_Urszulki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 229,
+  "title": "Polscy poeci XX wieku",
+  "subtitle": "Od Leśmiana i Tuwima do Szymborskiej i Zagajewskiego",
+  "era": "XX–XXI wiek · Polska",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/%C5%81%C3%B3d%C5%BA-plaque_to_Julian_Tuwim_on_the_school_elevation.jpg/500px-%C5%81%C3%B3d%C5%BA-plaque_to_Julian_Tuwim_on_the_school_elevation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 230,
+  "title": "Polscy malarze — od Matejki do Młodej Polski",
+  "subtitle": "Historia, pejzaż i symbol",
+  "era": "ok. 1860–1914 · Polska",
+  "minutes": 7,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Jan_Matejko%2C_Sta%C5%84czyk.jpg/500px-Jan_Matejko%2C_Sta%C5%84czyk.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+ },
+ {
+  "n": 231,
+  "title": "Polscy artyści XX i XXI wieku",
+  "subtitle": "Od Stryjeńskiej i Strzemińskiego do Sasnala i Bałki",
+  "era": "XX–XXI wiek · Polska",
+  "minutes": 8,
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Mural_-_Zofia_Stryje%C5%84ska%2C_Kazury_8%2C_Warsaw.jpg/500px-Mural_-_Zofia_Stryje%C5%84ska%2C_Kazury_8%2C_Warsaw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
  }
 ]

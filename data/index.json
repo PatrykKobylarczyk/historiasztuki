@@ -1,6 +1,197 @@
 {
  "people": [
   {
+   "id": "aalto",
+   "name": "Alvar Aalto",
+   "c": "architekt",
+   "country": "Finlandia",
+   "g": "m",
+   "desc": "architekt i projektant fińskiego modernizmu",
+   "works": [
+    "Sanatorium w Paimio (1929–1933)",
+    "Biblioteka w Wyborgu (1935)",
+    "Villa Mairea (1939)",
+    "Fotel Paimio i wazon Savoy"
+   ],
+   "born": 1898,
+   "died": 1976,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 3,
+     "i": 43
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "abakanowicz",
+   "name": "Magdalena Abakanowicz",
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "g": "f",
+   "desc": "rzeźbiarka i twórczyni tkaniny artystycznej",
+   "works": [
+    "Abakany (lata 60. i 70.)",
+    "Tłumy (od lat 80.)",
+    "Agora w Chicago (2006)"
+   ],
+   "born": 1930,
+   "died": 2017,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 40
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "ajschylos",
+   "name": "Ajschylos",
+   "born": -525,
+   "died": -456,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, twórca „Orestei”",
+   "works": [
+    "Persowie (472 p.n.e.)",
+    "Oresteja (458 p.n.e.)",
+    "Prometeusz skowany"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 2,
+     "i": 20
+    },
+    {
+     "n": 20,
+     "count": 3,
+     "i": 28
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "aleksander",
+   "name": "Aleksander Wielki",
+   "born": -356,
+   "died": -323,
+   "c": "polityk",
+   "country": "Macedonia",
+   "g": "m",
+   "desc": "król Macedonii, zdobywca imperium perskiego",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 74
+    },
+    {
+     "n": 13,
+     "count": 1,
+     "i": 48
+    },
+    {
+     "n": 15,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 16,
+     "count": 2,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "anakreont",
+   "name": "Anakreont",
+   "born": -570,
+   "died": -485,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta liryczny",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 22
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ando",
+   "name": "Tadao Ando",
+   "c": "architekt",
+   "country": "Japonia",
+   "g": "m",
+   "desc": "architekt betonu i światła",
+   "works": [
+    "Dom w Sumiyoshi (1976)",
+    "Kościół Światła (1989)",
+    "Chichu Art Museum (2004)",
+    "Bourse de Commerce w Paryżu (2021)"
+   ],
+   "born": 1941,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "archimedes",
+   "name": "Archimedes",
+   "born": -287,
+   "died": -212,
+   "c": "naukowiec",
+   "country": "Grecja (Syrakuzy)",
+   "g": "m",
+   "desc": "matematyk i wynalazca",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 2,
+     "i": 70
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "arystofanes",
+   "name": "Arystofanes",
+   "born": -446,
+   "died": -386,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "komediopisarz",
+   "works": [
+    "Chmury (423 p.n.e.)",
+    "Ptaki (414 p.n.e.)",
+    "Lizystrata (411 p.n.e.)"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 3,
+     "i": 54
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "arystoteles",
    "name": "Arystoteles",
    "born": -384,
@@ -8,15 +199,97 @@
    "c": "filozof",
    "country": "Grecja",
    "g": "m",
-   "desc": "filozof grecki",
+   "desc": "filozof i uczony, twórca logiki",
+   "works": [
+    "Etyka nikomachejska",
+    "Polityka",
+    "Poetyka",
+    "Metafizyka"
+   ],
    "mentions": [
     {
      "n": 1,
      "count": 1,
      "i": 201
+    },
+    {
+     "n": 12,
+     "count": 2,
+     "i": 41
+    },
+    {
+     "n": 13,
+     "count": 6,
+     "i": 4
+    },
+    {
+     "n": 16,
+     "count": 1,
+     "i": 12
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 31
     }
    ],
-   "total": 1
+   "total": 11
+  },
+  {
+   "id": "asurbanipal",
+   "name": "Asurbanipal",
+   "born": -685,
+   "died": -631,
+   "c": "polityk",
+   "country": "Asyria",
+   "g": "m",
+   "desc": "król Asyrii, twórca biblioteki w Niniwie",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 101
+    },
+    {
+     "n": 7,
+     "count": 3,
+     "i": 49
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "august",
+   "name": "Oktawian August",
+   "born": -63,
+   "died": 14,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "pierwszy cesarz rzymski",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 7,
+     "i": 36
+    },
+    {
+     "n": 18,
+     "count": 2,
+     "i": 70
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 38
+    },
+    {
+     "n": 20,
+     "count": 3,
+     "i": 44
+    }
+   ],
+   "total": 13
   },
   {
    "id": "aulenti",
@@ -55,6 +328,31 @@
    "total": 0
   },
   {
+   "id": "baczynski",
+   "name": "Krzysztof Kamil Baczyński",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta pokolenia Kolumbów, poległ w powstaniu warszawskim",
+   "works": [
+    "Zamknięty echem (1940)",
+    "Dwie miłości (1940)",
+    "Arkusz poetycki (1942)",
+    "Śpiew z pożogi (1944)"
+   ],
+   "born": 1921,
+   "died": 1944,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 43
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "balcerowicz",
    "name": "Leszek Balcerowicz",
    "born": 1947,
@@ -68,6 +366,56 @@
      "n": 197,
      "count": 2,
      "i": 10
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "balka",
+   "name": "Mirosław Bałka",
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "rzeźbiarz i twórca instalacji",
+   "works": [
+    "Pomnik ofiar katastrofy promu Estonia w Sztokholmie (1997)",
+    "Pawilon Polski na Biennale w Wenecji (2003)",
+    "How It Is, Tate Modern (2009)"
+   ],
+   "born": 1958,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "ban",
+   "name": "Shigeru Ban",
+   "c": "architekt",
+   "country": "Japonia",
+   "g": "m",
+   "desc": "architekt konstrukcji z rur papierowych i architektury awaryjnej",
+   "works": [
+    "Schronienia z rur papierowych dla ofiar katastrof",
+    "Centre Pompidou-Metz (2010)",
+    "Katedra z kartonu w Christchurch (2013)"
+   ],
+   "born": 1957,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 60
     }
    ],
    "total": 2
@@ -109,6 +457,31 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "baranczak",
+   "name": "Stanisław Barańczak",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta Nowej Fali, tłumacz",
+   "works": [
+    "Korekta twarzy (1968)",
+    "Sztuczne oddychanie (1974)",
+    "Chirurgiczna precyzja (1998)",
+    "Przekłady Szekspira"
+   ],
+   "born": 1946,
+   "died": 2014,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 70
+    }
+   ],
+   "total": 3
   },
   {
    "id": "basquiat",
@@ -174,6 +547,30 @@
    "total": 1
   },
   {
+   "id": "beksinski",
+   "name": "Zdzisław Beksiński",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz, fotograf i rzeźbiarz wizji fantastycznych",
+   "works": [
+    "Fotografie z lat 50.",
+    "Obrazy fantastyczne lat 70. i 80.",
+    "Kolekcja w Muzeum Historycznym w Sanoku"
+   ],
+   "born": 1929,
+   "died": 2005,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "belka",
    "name": "Marek Belka",
    "born": 1952,
@@ -194,6 +591,28 @@
    "total": 0
   },
   {
+   "id": "bernini",
+   "name": "Gian Lorenzo Bernini",
+   "born": 1598,
+   "died": 1680,
+   "c": "rzeźbiarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "rzeźbiarz i architekt baroku",
+   "works": [
+    "Apollo i Dafne",
+    "Ekstaza świętej Teresy"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "beuys",
    "name": "Joseph Beuys",
    "born": 1921,
@@ -209,9 +628,14 @@
      "n": 194,
      "count": 2,
      "i": 57
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 90
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "bialoszewski",
@@ -222,15 +646,25 @@
    "country": "Polska",
    "pl": true,
    "g": "m",
-   "desc": "poeta, „Pamiętnik z powstania warszawskiego”",
+   "desc": "poeta lingwistyczny",
+   "works": [
+    "Obroty rzeczy (1956)",
+    "Rachunek zaściankowy (1959)",
+    "Pamiętnik z powstania warszawskiego (1970)"
+   ],
    "mentions": [
     {
      "n": 186,
      "count": 2,
      "i": 120
+    },
+    {
+     "n": 229,
+     "count": 2,
+     "i": 61
     }
    ],
-   "total": 2
+   "total": 4
   },
   {
    "id": "bierezin",
@@ -250,8 +684,38 @@
     "Niezależny kwartalnik literacki „Puls” (współzałożyciel, 1977)",
     "Wiersze w obiegu oficjalnym i podziemnym (tytuły tomów do weryfikacji)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 73
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "bo-bardi",
+   "name": "Lina Bo Bardi",
+   "c": "architekt",
+   "country": "Włochy / Brazylia",
+   "g": "f",
+   "desc": "architektka i projektantka brazylijskiego modernizmu",
+   "works": [
+    "Casa de Vidro (1951)",
+    "Muzeum Sztuki w São Paulo — MASP (1968)",
+    "SESC Pompeia (1982)",
+    "Fotel Bowl (1951)"
+   ],
+   "born": 1914,
+   "died": 1992,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 2,
+     "i": 73
+    }
+   ],
+   "total": 2
   },
   {
    "id": "boniek",
@@ -275,6 +739,24 @@
    "total": 2
   },
   {
+   "id": "borchardt",
+   "name": "Ludwig Borchardt",
+   "born": 1863,
+   "died": 1938,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "egiptolog, odkrywca popiersia Nefertiti",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "bowie",
    "name": "David Bowie",
    "born": 1947,
@@ -291,6 +773,30 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "boznanska",
+   "name": "Olga Boznańska",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "f",
+   "desc": "malarka portretów, związana z Paryżem",
+   "works": [
+    "Portret Paula Nauena (1893)",
+    "Dziewczynka z chryzantemami (1894)",
+    "Autoportret (1906)"
+   ],
+   "born": 1865,
+   "died": 1940,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 57
+    }
+   ],
+   "total": 3
   },
   {
    "id": "braun",
@@ -352,6 +858,137 @@
    "total": 0
   },
   {
+   "id": "broniewski",
+   "name": "Władysław Broniewski",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta rewolucyjny i liryk",
+   "works": [
+    "Wiatraki (1925)",
+    "Dymy nad miastem (1927)",
+    "Bagnet na broń (1939)",
+    "Anka (1956)"
+   ],
+   "born": 1897,
+   "died": 1962,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 33
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "bruegel",
+   "name": "Pieter Bruegel starszy",
+   "born": 1525,
+   "died": 1569,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 2,
+     "i": 84
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "brunelleschi",
+   "name": "Filippo Brunelleschi",
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "architekt florenckiego renesansu, odkrywca perspektywy linearnej",
+   "works": [
+    "Kopuła katedry we Florencji (1420–1436)",
+    "Szpital Niewiniątek (od 1419)",
+    "Bazylika San Lorenzo",
+    "Kaplica Pazzich",
+    "Doświadczenia z perspektywą linearną"
+   ],
+   "born": 1377,
+   "died": 1446,
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "budzynski",
+   "name": "Marek Budzyński",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt, współtwórca Ursynowa i Biblioteki UW",
+   "works": [
+    "Osiedle Ursynów Północny (lata 70.)",
+    "Biblioteka Uniwersytetu Warszawskiego z ogrodem na dachu (1999)",
+    "Gmach Sądu Najwyższego (1999)"
+   ],
+   "born": 1939,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 4,
+     "i": 47
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "buszko",
+   "name": "Henryk Buszko",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt śląskiego modernizmu (z A. Frantą)",
+   "works": [
+    "Osiedle Tysiąclecia w Katowicach (od 1961)",
+    "Pomnik Powstańców Śląskich w Katowicach (1967, z G. Zemłą)"
+   ],
+   "born": 1924,
+   "died": 2015,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 2,
+     "i": 37
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "calatrava",
+   "name": "Santiago Calatrava",
+   "c": "architekt",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "architekt i inżynier form inspirowanych naturą",
+   "works": [
+    "Miasto Sztuki i Nauki w Walencji (1998–2009)",
+    "Turning Torso w Malmö (2005)",
+    "Museu do Amanhã w Rio (2015)",
+    "Oculus w Nowym Jorku (2016)"
+   ],
+   "born": 1951,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 68
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "cartailhac",
    "name": "Émile Cartailhac",
    "born": 1845,
@@ -368,6 +1005,153 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "carter",
+   "name": "Howard Carter",
+   "born": 1874,
+   "died": 1939,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca grobu Tutanchamona",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 81
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ceckiewicz",
+   "name": "Witold Cęckiewicz",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt krakowskiego modernizmu",
+   "works": [
+    "Hotel Cracovia (1960–1965)",
+    "Sanktuarium Bożego Miłosierdzia w Łagiewnikach (2002)"
+   ],
+   "born": 1924,
+   "died": 2019,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 48
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "cezar",
+   "name": "Juliusz Cezar",
+   "born": -100,
+   "died": -44,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "wódz i dyktator rzymski",
+   "works": [
+    "O wojnie galijskiej",
+    "Reforma kalendarza (kalendarz juliański, 46 p.n.e.)"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 4,
+     "i": 29
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "champollion",
+   "name": "Jean-François Champollion",
+   "born": 1790,
+   "died": 1832,
+   "c": "naukowiec",
+   "country": "Francja",
+   "g": "m",
+   "desc": "językoznawca, odczytał hieroglify (1822)",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 87
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "chefren",
+   "name": "Chafre (Chefren)",
+   "born": -2570,
+   "died": -2530,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy drugiej piramidy w Gizie",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 2,
+     "i": 33
+    },
+    {
+     "n": 9,
+     "count": 2,
+     "i": 37
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "chelmonski",
+   "name": "Józef Chełmoński",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz realizmu i pejzażu",
+   "works": [
+    "Babie lato (1875)",
+    "Czwórka (1881)",
+    "Kuropatwy na śniegu (1891)",
+    "Bociany (1900)"
+   ],
+   "born": 1849,
+   "died": 1914,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 21
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "cheops",
+   "name": "Chufu (Cheops)",
+   "born": -2600,
+   "died": -2560,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy Wielkiej Piramidy",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 3,
+     "i": 33
+    }
+   ],
+   "total": 3
   },
   {
    "id": "chierowski",
@@ -407,6 +1191,28 @@
    "total": 1
   },
   {
+   "id": "chipperfield",
+   "name": "David Chipperfield",
+   "c": "architekt",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "architekt, laureat Nagrody Pritzkera (2023)",
+   "works": [
+    "Odbudowa Neues Museum w Berlinie (2009)",
+    "The Hepworth Wakefield (2011)",
+    "James-Simon-Galerie (2019)"
+   ],
+   "born": 1953,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 78
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "constable",
    "name": "John Constable",
    "born": 1776,
@@ -423,6 +1229,105 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "corazzi",
+   "name": "Antonio Corazzi",
+   "c": "architekt",
+   "country": "Włochy / Polska",
+   "g": "m",
+   "desc": "architekt klasycyzmu w Warszawie",
+   "works": [
+    "Pałac Staszica (1820–1823)",
+    "Teatr Wielki w Warszawie (1825–1833)",
+    "Gmach Banku Polskiego"
+   ],
+   "born": 1792,
+   "died": 1877,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 5,
+     "i": 17
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "cyceron",
+   "name": "Cyceron",
+   "born": -106,
+   "died": -43,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "mówca, polityk i filozof",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 36
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "cyrus",
+   "name": "Cyrus Wielki",
+   "born": -600,
+   "died": -530,
+   "c": "polityk",
+   "country": "Persja",
+   "g": "m",
+   "desc": "twórca imperium perskiego",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 3,
+     "i": 95
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "dante",
+   "name": "Dante Alighieri",
+   "born": 1265,
+   "died": 1321,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "poeta, autor „Boskiej komedii”",
+   "works": [
+    "Boska komedia"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "dariusz",
+   "name": "Dariusz III",
+   "born": -380,
+   "died": -330,
+   "c": "polityk",
+   "country": "Persja",
+   "g": "m",
+   "desc": "ostatni król perski z dynastii Achemenidów",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 2,
+     "i": 14
+    }
+   ],
+   "total": 2
   },
   {
    "id": "daszynski",
@@ -464,8 +1369,32 @@
     "Dziady w Teatrze Narodowym (1967)",
     "Minister kultury i sztuki (1993–1996)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 89
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "demokryt",
+   "name": "Demokryt z Abdery",
+   "born": -460,
+   "died": -370,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "twórca atomizmu",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 2,
+     "i": 14
+    }
+   ],
+   "total": 2
   },
   {
    "id": "diamond",
@@ -480,6 +1409,48 @@
      "n": 2,
      "count": 1,
      "i": 179
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "diogenes",
+   "name": "Diogenes z Synopy",
+   "born": -412,
+   "died": -323,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof cynik",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 63
+    },
+    {
+     "n": 16,
+     "count": 3,
+     "i": 63
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "dmochowski",
+   "name": "Franciszek Ksawery Dmochowski",
+   "born": 1762,
+   "died": 1808,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta i tłumacz „Iliady”",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 73
     }
    ],
    "total": 1
@@ -504,6 +1475,113 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "doshi",
+   "name": "Balkrishna Doshi",
+   "c": "architekt",
+   "country": "Indie",
+   "g": "m",
+   "desc": "architekt, laureat Nagrody Pritzkera (2018)",
+   "works": [
+    "Sangath — własna pracownia (1981)",
+    "Indian Institute of Management w Bangalore (1977–1992)",
+    "Osiedle Aranya w Indore (1989)"
+   ],
+   "born": 1927,
+   "died": 2023,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 2,
+     "i": 79
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "duda-gracz",
+   "name": "Jerzy Duda-Gracz",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz groteski i cykli",
+   "works": [
+    "Obrazy jurajskie",
+    "Golgota Jasnogórska (2000–2001)",
+    "Chopinowi (cykl, 1999–2003)"
+   ],
+   "born": 1941,
+   "died": 2004,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 71
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "dwurnik",
+   "name": "Edward Dwurnik",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz panoram miast i cykli społecznych",
+   "works": [
+    "Podróże autostopem (cykl, od 1965)",
+    "Robotnicy (cykl)",
+    "Sportowcy (cykl)"
+   ],
+   "born": 1943,
+   "died": 2018,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 67
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "dzeser",
+   "name": "Dżeser",
+   "born": -2690,
+   "died": -2650,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon III dynastii",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "echnaton",
+   "name": "Echnaton",
+   "born": -1380,
+   "died": -1336,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, twórca kultu Atona",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 4,
+     "i": 44
+    }
+   ],
+   "total": 4
   },
   {
    "id": "edelman",
@@ -533,6 +1611,126 @@
    "total": 1
   },
   {
+   "id": "eisenman",
+   "name": "Peter Eisenman",
+   "c": "architekt",
+   "country": "USA",
+   "g": "m",
+   "desc": "architekt i teoretyk dekonstruktywizmu",
+   "works": [
+    "House VI (1975)",
+    "Wexner Center (1989)",
+    "Pomnik Pomordowanych Żydów Europy w Berlinie (2005)"
+   ],
+   "born": 1932,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 24
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "eksekias",
+   "name": "Eksekias",
+   "born": -550,
+   "c": "malarz",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "garncarz i malarz waz czarnofigurowych",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 2,
+     "i": 47
+    },
+    {
+     "n": 15,
+     "count": 1,
+     "i": 29
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "elgin",
+   "name": "Lord Elgin (Thomas Bruce)",
+   "born": 1766,
+   "died": 1841,
+   "c": "polityk",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "ambasador, wywiózł rzeźby Partenonu do Londynu",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 3,
+     "i": 37
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "enheduanna",
+   "name": "Enheduanna",
+   "born": -2285,
+   "died": -2250,
+   "c": "pisarz",
+   "country": "Akad / Sumer",
+   "g": "f",
+   "desc": "kapłanka w Ur, pierwsza znana z imienia autorka",
+   "works": [
+    "Hymny do bogini Inanny (m.in. Nin-me-sara)",
+    "Hymny świątynne"
+   ],
+   "mentions": [
+    {
+     "n": 6,
+     "count": 2,
+     "i": 105
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "epikur",
+   "name": "Epikur",
+   "born": -341,
+   "died": -270,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof szczęścia i spokoju",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "eratostenes",
+   "name": "Eratostenes",
+   "born": -276,
+   "died": -194,
+   "c": "naukowiec",
+   "country": "Grecja (Aleksandria)",
+   "g": "m",
+   "desc": "uczony, obliczył obwód Ziemi",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 2,
+     "i": 32
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "ernst",
    "name": "Max Ernst",
    "born": 1891,
@@ -551,6 +1749,112 @@
    "total": 1
   },
   {
+   "id": "eufronios",
+   "name": "Eufronios",
+   "born": -535,
+   "died": -470,
+   "c": "malarz",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "malarz waz czerwonofigurowych",
+   "mentions": [
+    {
+     "n": 15,
+     "count": 3,
+     "i": 29
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "euklides",
+   "name": "Euklides",
+   "born": -325,
+   "died": -265,
+   "c": "naukowiec",
+   "country": "Grecja (Aleksandria)",
+   "g": "m",
+   "desc": "matematyk, autor „Elementów”",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 2,
+     "i": 31
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "eurypides",
+   "name": "Eurypides",
+   "born": -480,
+   "died": -406,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, autor „Medei” i „Trojanek”",
+   "works": [
+    "Medea (431 p.n.e.)",
+    "Trojanki (415 p.n.e.)",
+    "Bachantki"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 5,
+     "i": 44
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 30
+    }
+   ],
+   "total": 7
+  },
+  {
+   "id": "evans",
+   "name": "Arthur Evans",
+   "born": 1851,
+   "died": 1941,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca pałacu w Knossos",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 1,
+     "i": 12
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "falat",
+   "name": "Julian Fałat",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz pejzażu zimowego i polowań",
+   "works": [
+    "Powrót z polowania na niedźwiedzia",
+    "Śnieg (1907)",
+    "Panorama Berezyny (z W. Kossakiem)"
+   ],
+   "born": 1853,
+   "died": 1929,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 26
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "fangor",
    "name": "Wojciech Fangor",
    "born": 1922,
@@ -559,7 +1863,12 @@
    "country": "Polska",
    "pl": true,
    "g": "m",
-   "desc": "malarz, twórca op-artu i plakacista",
+   "desc": "malarz, plakacista, twórca op-artu",
+   "works": [
+    "Postaci (1950)",
+    "Studium przestrzeni (z S. Zamecznikiem, 1958)",
+    "Obrazy op-artowe (lata 60.)"
+   ],
    "mentions": [
     {
      "n": 4,
@@ -575,9 +1884,105 @@
      "n": 186,
      "count": 5,
      "i": 66
+    },
+    {
+     "n": 231,
+     "count": 3,
+     "i": 49
     }
    ],
-   "total": 7
+   "total": 10
+  },
+  {
+   "id": "fathy",
+   "name": "Hassan Fathy",
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt budownictwa z cegły mułowej",
+   "works": [
+    "Wieś Nowa Gurna (od 1946)",
+    "Architektura dla ubogich (1973)"
+   ],
+   "born": 1900,
+   "died": 1989,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 2,
+     "i": 77
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "fidiasz",
+   "name": "Fidiasz",
+   "born": -480,
+   "died": -430,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, twórca rzeźb Partenonu",
+   "works": [
+    "Atena Partenos (zaginiona)",
+    "Zeus Olimpijski (zaginiony)",
+    "Rzeźby Partenonu (warsztat)"
+   ],
+   "mentions": [
+    {
+     "n": 11,
+     "count": 3,
+     "i": 20
+    },
+    {
+     "n": 14,
+     "count": 1,
+     "i": 23
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "fikus",
+   "name": "Marian Fikus",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt z Poznania",
+   "works": [
+    "Budynki użyteczności publicznej w Poznaniu (do weryfikacji)"
+   ],
+   "born": 1938,
+   "died": 2023,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "fiorelli",
+   "name": "Giuseppe Fiorelli",
+   "born": 1823,
+   "died": 1896,
+   "c": "naukowiec",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "archeolog Pompejów, twórca odlewów gipsowych",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 16
+    }
+   ],
+   "total": 1
   },
   {
    "id": "foster",
@@ -586,12 +1991,65 @@
    "c": "architekt",
    "country": "Wielka Brytania",
    "g": "m",
-   "desc": "architekt high-tech, m.in. bank HSBC w Hongkongu",
+   "desc": "architekt high-tech",
+   "works": [
+    "Bank HSBC w Hongkongu (1986)",
+    "Kopuła Reichstagu (1999)",
+    "30 St Mary Axe (2004)",
+    "Wiadukt Millau (2004)",
+    "Metropolitan w Warszawie (2003)"
+   ],
    "mentions": [
     {
      "n": 193,
      "count": 1,
      "i": 83
+    },
+    {
+     "n": 225,
+     "count": 2,
+     "i": 39
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "franta",
+   "name": "Aleksander Franta",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt śląskiego modernizmu (z H. Buszką)",
+   "works": [
+    "Osiedle Tysiąclecia w Katowicach (od 1961)",
+    "Pomnik Powstańców Śląskich w Katowicach (1967)"
+   ],
+   "born": 1925,
+   "died": 2019,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 37
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "freud",
+   "name": "Zygmunt Freud",
+   "born": 1856,
+   "died": 1939,
+   "c": "naukowiec",
+   "country": "Austria",
+   "g": "m",
+   "desc": "twórca psychoanalizy",
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 41
     }
    ],
    "total": 1
@@ -614,6 +2072,53 @@
    "total": 1
   },
   {
+   "id": "gaudi",
+   "name": "Antoni Gaudí",
+   "c": "architekt",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "architekt katalońskiego modernizmu",
+   "works": [
+    "Sagrada Família (od 1883)",
+    "Park Güell (1900–1914)",
+    "Casa Batlló (1904–1906)",
+    "Casa Milà (1906–1912)"
+   ],
+   "born": 1852,
+   "died": 1926,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "gehry",
+   "name": "Frank Gehry",
+   "c": "architekt",
+   "country": "Kanada / USA",
+   "g": "m",
+   "desc": "architekt dekonstruktywizmu",
+   "works": [
+    "Tańczący dom w Pradze (1996)",
+    "Muzeum Guggenheima w Bilbao (1997)",
+    "Walt Disney Concert Hall (2003)",
+    "Fondation Louis Vuitton (2014)"
+   ],
+   "born": 1929,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "geoffrey",
    "name": "Geoffrey z Monmouth",
    "born": 1095,
@@ -630,6 +2135,24 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "george-smith",
+   "name": "George Smith",
+   "born": 1840,
+   "died": 1876,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "asyriolog, odczytał mezopotamską opowieść o potopie",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 2,
+     "i": 101
+    }
+   ],
+   "total": 2
   },
   {
    "id": "geyer",
@@ -668,6 +2191,24 @@
    "total": 3
   },
   {
+   "id": "gide",
+   "name": "André Gide",
+   "born": 1869,
+   "died": 1951,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "pisarz, laureat Nagrody Nobla",
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 66
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "gierek",
    "name": "Edward Gierek",
    "born": 1913,
@@ -685,6 +2226,45 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "gierowski",
+   "name": "Stefan Gierowski",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz abstrakcji",
+   "works": [
+    "Numerowane Obrazy (od 1957)"
+   ],
+   "born": 1925,
+   "died": 2022,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 2,
+     "i": 53
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "gilgamesz",
+   "name": "Gilgamesz",
+   "c": "inne",
+   "country": "Sumer (legenda)",
+   "g": "m",
+   "legend": true,
+   "desc": "legendarny król Uruk, bohater eposu",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 4,
+     "i": 33
+    }
+   ],
+   "total": 4
   },
   {
    "id": "gombrich",
@@ -770,6 +2350,77 @@
    "total": 3
   },
   {
+   "id": "grabowska-hawrylak",
+   "name": "Jadwiga Grabowska-Hawrylak",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "f",
+   "desc": "architektka wrocławskiego modernizmu",
+   "works": [
+    "Zespół mieszkaniowy przy placu Grunwaldzkim we Wrocławiu (1970–1975)",
+    "Honorowa Nagroda SARP (1974, jako pierwsza kobieta)"
+   ],
+   "born": 1920,
+   "died": 2018,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "gropius",
+   "name": "Walter Gropius",
+   "c": "architekt",
+   "country": "Niemcy / USA",
+   "g": "m",
+   "desc": "założyciel Bauhausu",
+   "works": [
+    "Zakłady Fagus (1911)",
+    "Gmach Bauhausu w Dessau (1925–1926)",
+    "Kierowanie Bauhausem (1919–1928)",
+    "Wykłady na Harvardzie"
+   ],
+   "born": 1883,
+   "died": 1969,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 3,
+     "i": 31
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "grotowski",
+   "name": "Jerzy Grotowski",
+   "born": 1933,
+   "died": 1999,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "reżyser, twórca Teatru Laboratorium",
+   "works": [
+    "Akropolis (1962)",
+    "Książę Niezłomny (1965)",
+    "Apocalypsis cum figuris (1969)"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 88
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "gryczelowska",
    "name": "Krystyna Gryczełowska",
    "born": 1931,
@@ -788,6 +2439,124 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "gudea",
+   "name": "Gudea z Lagasz",
+   "born": -2144,
+   "died": -2124,
+   "c": "polityk",
+   "country": "Sumer",
+   "g": "m",
+   "desc": "książę Lagasz, fundator świątyń",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 3,
+     "i": 24
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "hadid",
+   "name": "Zaha Hadid",
+   "c": "architekt",
+   "country": "Irak / Wielka Brytania",
+   "g": "f",
+   "desc": "architektka dekonstruktywizmu i parametryzmu, pierwsza kobieta z Nagrodą Pritzkera (2004)",
+   "works": [
+    "Remiza Vitra (1993)",
+    "MAXXI w Rzymie (2010)",
+    "Centrum Hejdara Alijewa w Baku (2012)",
+    "Centrum Sportów Wodnych w Londynie (2012)"
+   ],
+   "born": 1950,
+   "died": 2016,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 1,
+     "i": 88
+    },
+    {
+     "n": 225,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "hadrian",
+   "name": "Hadrian",
+   "born": 76,
+   "died": 138,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz rzymski, miłośnik Grecji",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 56
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "hammurabi",
+   "name": "Hammurabi",
+   "born": -1810,
+   "died": -1750,
+   "c": "polityk",
+   "country": "Babilonia",
+   "g": "m",
+   "desc": "król Babilonu, autor kodeksu praw",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 2,
+     "i": 29
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "hansen",
+   "name": "Oskar Hansen",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt i teoretyk Formy Otwartej",
+   "works": [
+    "Teoria Formy Otwartej (1959)",
+    "Osiedle Słowackiego w Lublinie (1961–1966)",
+    "Osiedle Przyczółek Grochowski (1963–1974)",
+    "Linearny System Ciągły"
+   ],
+   "born": 1922,
+   "died": 2005,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 227,
+     "count": 5,
+     "i": 4
+    }
+   ],
+   "total": 6
   },
   {
    "id": "haring",
@@ -830,6 +2599,24 @@
    "total": 0
   },
   {
+   "id": "hatszepsut",
+   "name": "Hatszepsut",
+   "born": -1507,
+   "died": -1458,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "królowa-faraon XVIII dynastii",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 2,
+     "i": 65
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "heidegger",
    "name": "Martin Heidegger",
    "born": 1889,
@@ -848,6 +2635,29 @@
    "total": 1
   },
   {
+   "id": "heraklit",
+   "name": "Heraklit z Efezu",
+   "born": -535,
+   "died": -475,
+   "c": "filozof",
+   "country": "Grecja (Jonia)",
+   "g": "m",
+   "desc": "filozof zmienności: „wszystko płynie”",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 2,
+     "i": 87
+    },
+    {
+     "n": 13,
+     "count": 1,
+     "i": 63
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "herbert",
    "name": "Zbigniew Herbert",
    "born": 1924,
@@ -856,24 +2666,105 @@
    "country": "Polska",
    "pl": true,
    "g": "m",
-   "desc": "poeta, „Pan Cogito”",
+   "desc": "poeta i eseista",
    "ls": "brak",
    "lodzLink": "Brak udokumentowanego związku z Łodzią.",
    "works": [
     "Struna światła (1956)",
-    "Hermes, pies i gwiazda (1957)",
     "Barbarzyńca w ogrodzie (1962)",
     "Pan Cogito (1974)",
     "Raport z oblężonego Miasta (1983)"
    ],
    "mentions": [
     {
+     "n": 20,
+     "count": 1,
+     "i": 72
+    },
+    {
      "n": 186,
      "count": 1,
      "i": 123
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 74
+    },
+    {
+     "n": 229,
+     "count": 3,
+     "i": 51
     }
    ],
-   "total": 1
+   "total": 6
+  },
+  {
+   "id": "herodot",
+   "name": "Herodot",
+   "born": -484,
+   "died": -425,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "grecki historyk, „ojciec historii”",
+   "works": [
+    "Dzieje (Historie)"
+   ],
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 10
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 36
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "herzog-de-meuron",
+   "name": "Herzog & de Meuron (Jacques Herzog, Pierre de Meuron)",
+   "c": "architekt",
+   "country": "Szwajcaria",
+   "g": "m",
+   "desc": "pracownia architektoniczna, laureaci Nagrody Pritzkera (2001)",
+   "works": [
+    "Tate Modern (2000)",
+    "Allianz Arena (2005)",
+    "Stadion Narodowy w Pekinie (2008)",
+    "Elbphilharmonie w Hamburgu (2017)"
+   ],
+   "born": 1950,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 77
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "hippodamos",
+   "name": "Hippodamos z Miletu",
+   "born": -498,
+   "died": -408,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "urbanista, twórca regularnej siatki ulic",
+   "mentions": [
+    {
+     "n": 14,
+     "count": 4,
+     "i": 38
+    }
+   ],
+   "total": 4
   },
   {
    "id": "hirszenberg",
@@ -894,8 +2785,14 @@
     "Galut / Wygnanie (1904)",
     "Czarny sztandar (1905)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 69
+    }
+   ],
+   "total": 3
   },
   {
    "id": "hodder",
@@ -915,6 +2812,37 @@
    "total": 1
   },
   {
+   "id": "homer",
+   "name": "Homer",
+   "born": -800,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta, któremu przypisuje się Iliadę i Odyseję",
+   "works": [
+    "Iliada",
+    "Odyseja"
+   ],
+   "mentions": [
+    {
+     "n": 10,
+     "count": 4,
+     "i": 25
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 20,
+     "count": 5,
+     "i": 3
+    }
+   ],
+   "total": 10
+  },
+  {
    "id": "horacy",
    "name": "Horacy",
    "born": -65,
@@ -928,9 +2856,78 @@
      "n": 5,
      "count": 1,
      "i": 161
+    },
+    {
+     "n": 20,
+     "count": 4,
+     "i": 55
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 6
+  },
+  {
+   "id": "ihnatowicz",
+   "name": "Zbigniew Ihnatowicz",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt modernizmu powojennego",
+   "works": [
+    "Ośrodek sportowy AWF w Warszawie (z J. Sołtanem)",
+    "Projekt pawilonu polskiego na Expo 1958"
+   ],
+   "born": 1906,
+   "died": 1986,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 65
     }
    ],
    "total": 1
+  },
+  {
+   "id": "iktinos",
+   "name": "Iktinos",
+   "born": -480,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "architekt Partenonu",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 20
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "imhotep",
+   "name": "Imhotep",
+   "born": -2690,
+   "died": -2610,
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt piramidy Dżesera, pierwszy znany z imienia architekt",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 3,
+     "i": 23
+    }
+   ],
+   "total": 3
   },
   {
    "id": "inigo-jones",
@@ -949,6 +2946,54 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "ito",
+   "name": "Toyo Ito",
+   "c": "architekt",
+   "country": "Japonia",
+   "g": "m",
+   "desc": "architekt lekkości i przepływu",
+   "works": [
+    "Mediateka w Sendai (2001)",
+    "Pawilon Serpentine (2002)",
+    "Tod’s Omotesando (2004)",
+    "Opera w Taichung (2016)"
+   ],
+   "born": 1941,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 55
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "iwaszkiewicz",
+   "name": "Jarosław Iwaszkiewicz",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta i prozaik, współtwórca Skamandra",
+   "works": [
+    "Brzezina (1932)",
+    "Panny z Wilka (1932)",
+    "Sława i chwała (1956–1962)",
+    "Mapa pogody (1977)"
+   ],
+   "born": 1894,
+   "died": 1980,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 19
+    }
+   ],
+   "total": 3
   },
   {
    "id": "jan-pawel-ii",
@@ -1034,6 +3079,29 @@
    "total": 2
   },
   {
+   "id": "jems",
+   "name": "JEMS Architekci (Olgierd Jagiełło, Maciej Miłobędzki, Marcin Sadowski, Jerzy Szczepanik-Dzikowski)",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "warszawska pracownia architektoniczna",
+   "works": [
+    "Siedziba Agory w Warszawie (2002)",
+    "Ambasada RP w Berlinie (projekt)"
+   ],
+   "born": 1988,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "jobs",
    "name": "Steve Jobs",
    "born": 1955,
@@ -1047,6 +3115,125 @@
      "n": 193,
      "count": 1,
      "i": 94
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "juwenalis",
+   "name": "Juwenalis",
+   "born": 55,
+   "died": 128,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta satyryk",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 69
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kahn",
+   "name": "Louis Kahn",
+   "c": "architekt",
+   "country": "USA",
+   "g": "m",
+   "desc": "architekt monumentalnego modernizmu i światła",
+   "works": [
+    "Salk Institute (1959–1965)",
+    "Kimbell Art Museum (1972)",
+    "Biblioteka w Exeter (1971)",
+    "Zgromadzenie Narodowe w Dhace (1962–1982)"
+   ],
+   "born": 1901,
+   "died": 1974,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "kallikrates",
+   "name": "Kallikrates",
+   "born": -480,
+   "c": "architekt",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "architekt Partenonu",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 20
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kallimach",
+   "name": "Kallimach",
+   "born": -450,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 56
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kantor",
+   "name": "Tadeusz Kantor",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz, reżyser, twórca Teatru Cricot 2",
+   "works": [
+    "Teatr Cricot 2 (od 1955)",
+    "Ambalaże",
+    "Umarła klasa (1975)",
+    "Wielopole, Wielopole (1980)"
+   ],
+   "born": 1915,
+   "died": 1990,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 36
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "karakalla",
+   "name": "Karakalla",
+   "born": 188,
+   "died": 217,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, fundator term",
+   "mentions": [
+    {
+     "n": 18,
+     "count": 1,
+     "i": 49
     }
    ],
    "total": 1
@@ -1121,6 +3308,24 @@
    "total": 2
   },
   {
+   "id": "kleopatra",
+   "name": "Kleopatra VII",
+   "born": -69,
+   "died": -30,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "ostatnia królowa Egiptu ptolemejskiego",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 36
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "klepacz",
    "name": "Michał Klepacz",
    "born": 1893,
@@ -1141,6 +3346,29 @@
    "total": 0
   },
   {
+   "id": "klyszewski",
+   "name": "Wacław Kłyszewski",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt zespołu „Tygrysy”",
+   "works": [
+    "Dom Partii w Warszawie (z J. Mokrzyńskim i E. Wierzbickim, 1948–1952)"
+   ],
+   "born": 1910,
+   "died": 2000,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 9
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kobro",
    "name": "Katarzyna Kobro",
    "born": 1898,
@@ -1150,13 +3378,13 @@
    "pl": true,
    "lodz": true,
    "g": "f",
-   "desc": "rzeźbiarka awangardy, grupa a.r.",
+   "desc": "rzeźbiarka awangardy",
    "ls": "mieszkali",
    "lodzLink": "Od 1931 mieszkała i tworzyła w Łodzi; jej rzeźby są w Muzeum Sztuki w Łodzi.",
    "works": [
     "Rzeźba zawieszona (1921–1922)",
     "Kompozycje przestrzenne (1925–1933)",
-    "Kompozycja przestrzeni. Obliczenia rytmu czasoprzestrzennego (z W. Strzemińskim, 1931)",
+    "Kompozycja przestrzeni (z W. Strzemińskim, 1931)",
     "Akty (1948)"
    ],
    "mentions": [
@@ -1169,9 +3397,123 @@
      "n": 193,
      "count": 1,
      "i": 110
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 45
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 20
     }
    ],
-   "total": 4
+   "total": 9
+  },
+  {
+   "id": "kochanowski",
+   "name": "Jan Kochanowski",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta renesansu, ojciec polskiej poezji",
+   "works": [
+    "Odprawa posłów greckich (1578)",
+    "Psałterz Dawidów (1579)",
+    "Treny (1580)",
+    "Fraszki (1584)",
+    "Pieśni (1586)"
+   ],
+   "born": 1530,
+   "died": 1584,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 20,
+     "count": 3,
+     "i": 23
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 228,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 8
+  },
+  {
+   "id": "konieczny",
+   "name": "Robert Konieczny",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt, założyciel KWK Promes",
+   "works": [
+    "Dom Bezpieczny (2008)",
+    "Centrum Dialogu Przełomy w Szczecinie (2015)",
+    "Dom Arka (2016)"
+   ],
+   "born": 1969,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "konior",
+   "name": "Tomasz Konior",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt z Katowic",
+   "works": [
+    "Siedziba NOSPR w Katowicach (2014)",
+    "Centrum Kongresowe ICE w Krakowie (2014, z A. Isozakim)"
+   ],
+   "born": 1960,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 63
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "konstantyn",
+   "name": "Konstantyn Wielki",
+   "born": 272,
+   "died": 337,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, który zalegalizował chrześcijaństwo",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 65
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 77
+    }
+   ],
+   "total": 2
   },
   {
    "id": "konwicki",
@@ -1193,6 +3535,29 @@
    "total": 1
   },
   {
+   "id": "koolhaas",
+   "name": "Rem Koolhaas",
+   "c": "architekt",
+   "country": "Holandia",
+   "g": "m",
+   "desc": "architekt i teoretyk, założyciel OMA",
+   "works": [
+    "Delirious New York (1978)",
+    "Biblioteka Publiczna w Seattle (2004)",
+    "Casa da Música w Porto (2005)",
+    "Siedziba CCTV w Pekinie (2012)"
+   ],
+   "born": 1944,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 3,
+     "i": 29
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "kopcinski",
    "name": "Stefan Kopciński",
    "c": "inne",
@@ -1209,6 +3574,34 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "kossak-w",
+   "name": "Wojciech Kossak",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz batalista",
+   "works": [
+    "Olszynka Grochowska (1886)",
+    "Panorama Racławicka (z J. Styką, 1893–1894)"
+   ],
+   "born": 1856,
+   "died": 1942,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 29
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 24
+    }
+   ],
+   "total": 2
   },
   {
    "id": "kotarbinski",
@@ -1228,8 +3621,55 @@
     "Traktat o dobrej robocie (1955)",
     "Medytacje o życiu godziwym (1966)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 13,
+     "count": 2,
+     "i": 78
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "kowalski-g",
+   "name": "Grzegorz Kowalski",
+   "born": 1942,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz i pedagog, prowadził tzw. Kowalnię na ASP w Warszawie",
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kozyra",
+   "name": "Katarzyna Kozyra",
+   "born": 1963,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "artystka sztuki krytycznej i wideo",
+   "works": [
+    "Piramida zwierząt (1993)",
+    "Łaźnia (1997)",
+    "W sztuce marzenia stają się rzeczywistością (2003–2008)"
+   ],
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
   },
   {
    "id": "krall",
@@ -1248,6 +3688,31 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "krasinski",
+   "name": "Zygmunt Krasiński",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta i dramatopisarz romantyzmu",
+   "works": [
+    "Nie-Boska komedia (1835)",
+    "Irydion (1836)",
+    "Przedświt (1843)",
+    "Psalmy przyszłości (1845–1848)"
+   ],
+   "born": 1812,
+   "died": 1859,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 228,
+     "count": 2,
+     "i": 46
+    }
+   ],
+   "total": 2
   },
   {
    "id": "kraszewski",
@@ -1300,6 +3765,42 @@
    "total": 2
   },
   {
+   "id": "ksenofont",
+   "name": "Ksenofont",
+   "born": -430,
+   "died": -354,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "historyk, uczeń Sokratesa",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 20
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ktesibios",
+   "name": "Ktesibios",
+   "born": -285,
+   "died": -222,
+   "c": "naukowiec",
+   "country": "Grecja (Aleksandria)",
+   "g": "m",
+   "desc": "inżynier, wynalazca organów wodnych",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 1,
+     "i": 67
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kubasinska",
    "name": "Mira Kubasińska",
    "born": 1944,
@@ -1339,6 +3840,53 @@
    "total": 0
   },
   {
+   "id": "kurylowicz",
+   "name": "Stefan Kuryłowicz",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt, założyciel pracowni Kuryłowicz & Associates",
+   "works": [
+    "Narodowe Forum Muzyki we Wrocławiu (ukończone 2015, pracownia)"
+   ],
+   "born": 1949,
+   "died": 2011,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 62
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "lachert",
+   "name": "Bohdan Lachert",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt awangardy, współtwórca grupy Praesens",
+   "works": [
+    "Dom własny na Saskiej Kępie (z J. Szanajcą, 1928–1929)",
+    "Osiedle Muranów z gruzobetonu (od 1949)",
+    "Mauzoleum Żołnierzy Radzieckich w Warszawie (1949–1950)"
+   ],
+   "born": 1900,
+   "died": 1987,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 3,
+     "i": 46
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "le-corbusier",
    "name": "Le Corbusier",
    "born": 1887,
@@ -1346,12 +3894,49 @@
    "c": "architekt",
    "country": "Szwajcaria / Francja",
    "g": "m",
-   "desc": "architekt modernizmu",
+   "desc": "architekt i teoretyk modernizmu",
+   "works": [
+    "W stronę architektury (1923)",
+    "Villa Savoye (1928–1931)",
+    "Unité d’Habitation w Marsylii (1947–1952)",
+    "Kaplica w Ronchamp (1950–1955)",
+    "Czandigarh (od 1951)",
+    "Modulor"
+   ],
    "mentions": [
     {
      "n": 4,
      "count": 1,
      "i": 172
+    },
+    {
+     "n": 224,
+     "count": 3,
+     "i": 37
+    },
+    {
+     "n": 226,
+     "count": 3,
+     "i": 46
+    }
+   ],
+   "total": 7
+  },
+  {
+   "id": "lechon",
+   "name": "Jan Lechoń",
+   "born": 1899,
+   "died": 1956,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, skamandryta",
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 19
     }
    ],
    "total": 1
@@ -1370,9 +3955,14 @@
      "n": 186,
      "count": 1,
      "i": 178
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 24
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "lem",
@@ -1394,6 +3984,58 @@
    "total": 1
   },
   {
+   "id": "lempicka",
+   "name": "Tamara Łempicka",
+   "c": "malarz",
+   "country": "Polska / USA",
+   "g": "f",
+   "desc": "malarka art déco",
+   "works": [
+    "Autoportret w zielonym bugatti (1929)",
+    "La Belle Rafaela (1927)",
+    "Andromeda (1929)"
+   ],
+   "born": 1898,
+   "died": 1980,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 2,
+     "i": 14
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "leonardo",
+   "name": "Leonardo da Vinci",
+   "born": 1452,
+   "died": 1519,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz, wynalazca, uczony renesansu",
+   "works": [
+    "Dama z gronostajem (ok. 1490, Muzeum Książąt Czartoryskich)",
+    "Ostatnia Wieczerza (1495–1498)",
+    "Mona Lisa (ok. 1503–1519)"
+   ],
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 65
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 88
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "leroi-gourhan",
    "name": "André Leroi-Gourhan",
    "born": 1911,
@@ -1410,6 +4052,36 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "lesmian",
+   "name": "Bolesław Leśmian",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta, twórca neologizmów i ballad",
+   "works": [
+    "Sad rozstajny (1912)",
+    "Łąka (1920)",
+    "Napój cienisty (1936)",
+    "Dziejba leśna (1938)"
+   ],
+   "born": 1877,
+   "died": 1937,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 4
   },
   {
    "id": "leszczynska",
@@ -1454,6 +4126,29 @@
    "total": 1
   },
   {
+   "id": "leykam",
+   "name": "Marek Leykam",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt warszawskiego modernizmu",
+   "works": [
+    "Gmach Ministerstwa Rolnictwa w Warszawie (lata 50., do weryfikacji)"
+   ],
+   "born": 1908,
+   "died": 1983,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "lindley",
    "name": "William Heerlein Lindley",
    "born": 1853,
@@ -1469,8 +4164,93 @@
     "Filtry Lindleya i kanalizacja Warszawy",
     "Systemy wodno-kanalizacyjne m.in. Hamburga i Frankfurtu"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 18,
+     "count": 1,
+     "i": 53
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "liwia",
+   "name": "Liwia Druzylla",
+   "born": -58,
+   "died": 29,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "k",
+   "desc": "żona cesarza Augusta",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 2,
+     "i": 38
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "liwiusz",
+   "name": "Tytus Liwiusz",
+   "born": -59,
+   "died": 17,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "historyk Rzymu od założenia miasta",
+   "works": [
+    "Dzieje Rzymu od założenia miasta"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "lizyp",
+   "name": "Lizyp",
+   "born": -390,
+   "died": -300,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz Aleksandra Wielkiego",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 74
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "loegler",
+   "name": "Romuald Loegler",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt z Krakowa",
+   "works": [
+    "Budynki w Krakowie i Małopolsce (do weryfikacji)"
+   ],
+   "born": 1940,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 1
   },
   {
    "id": "loos",
@@ -1508,6 +4288,46 @@
    "total": 1
   },
   {
+   "id": "ludwik-i-bawarski",
+   "name": "Ludwik I Bawarski",
+   "born": 1786,
+   "died": 1868,
+   "c": "polityk",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "król Bawarii, fundator Pompejanum",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 73
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "lukasik",
+   "name": "Przemo Łukasik",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt, współzałożyciel Medusa Group",
+   "works": [
+    "Projekty rewitalizacji poprzemysłowej na Śląsku (do weryfikacji)"
+   ],
+   "born": 1968,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "machulski",
    "name": "Jan Machulski",
    "born": 1928,
@@ -1528,6 +4348,120 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "mackow",
+   "name": "Zbigniew Maćków",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt z Wrocławia",
+   "works": [
+    "Budynki użyteczności publicznej i biurowce we Wrocławiu (do weryfikacji)"
+   ],
+   "born": 1956,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "majewski",
+   "name": "Hilary Majewski",
+   "born": 1837,
+   "died": 1892,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "lodz": true,
+   "ls": "mieszkali",
+   "g": "m",
+   "desc": "architekt miejski Łodzi 1872–1892",
+   "lodzLink": "Architekt miejski Łodzi; projektował dla Poznańskiego i innych fabrykantów.",
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 71
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "makowski",
+   "name": "Tadeusz Makowski",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz związany z Paryżem, poeta pędzla dzieci",
+   "works": [
+    "Obrazy z dziećmi i kapelami dziecięcymi",
+    "Pamiętnik (wyd. 1961)"
+   ],
+   "born": 1882,
+   "died": 1932,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 68
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "malczewski",
+   "name": "Jacek Malczewski",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz symbolizmu",
+   "works": [
+    "Melancholia (1890–1894)",
+    "Błędne koło (1895–1897)",
+    "Thanatos (1898)",
+    "Zatruta studnia (cykl, 1905–1906)"
+   ],
+   "born": 1854,
+   "died": 1929,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 4,
+     "i": 18
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "malewicz",
+   "name": "Kazimierz Malewicz",
+   "born": 1879,
+   "died": 1935,
+   "c": "malarz",
+   "country": "Rosja / Polska (pochodzenie)",
+   "g": "m",
+   "desc": "malarz, twórca suprematyzmu",
+   "works": [
+    "Czarny kwadrat (1915)",
+    "Biały na białym (1918)"
+   ],
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 46
+    }
+   ],
+   "total": 1
   },
   {
    "id": "maradona",
@@ -1570,6 +4504,27 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "marek-aureliusz",
+   "name": "Marek Aureliusz",
+   "born": 121,
+   "died": 180,
+   "c": "filozof",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz i filozof stoik",
+   "works": [
+    "Rozmyślania"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 2,
+     "i": 64
+    }
+   ],
+   "total": 2
   },
   {
    "id": "margolis",
@@ -1630,6 +4585,73 @@
    "total": 3
   },
   {
+   "id": "matejko",
+   "name": "Jan Matejko",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz historii Polski",
+   "works": [
+    "Stańczyk (1862)",
+    "Kazanie Skargi (1864)",
+    "Bitwa pod Grunwaldem (1878)",
+    "Hołd pruski (1882)",
+    "Poczet królów polskich"
+   ],
+   "born": 1838,
+   "died": 1893,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 82
+    },
+    {
+     "n": 230,
+     "count": 6,
+     "i": 4
+    }
+   ],
+   "total": 7
+  },
+  {
+   "id": "mau",
+   "name": "August Mau",
+   "born": 1840,
+   "died": 1909,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "badacz malarstwa pompejańskiego",
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 31
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "mauzolos",
+   "name": "Mauzolos",
+   "born": -400,
+   "died": -353,
+   "c": "polityk",
+   "country": "Karia",
+   "g": "m",
+   "desc": "władca Karii, od którego imienia pochodzi słowo mauzoleum",
+   "mentions": [
+    {
+     "n": 14,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "mcauliffe",
    "name": "Christa McAuliffe",
    "born": 1948,
@@ -1646,6 +4668,29 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "mehoffer",
+   "name": "Józef Mehoffer",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz i witrażysta Młodej Polski",
+   "works": [
+    "Witraże katedry we Fryburgu (1895–1936)",
+    "Dziwny ogród (1903)"
+   ],
+   "born": 1869,
+   "died": 1946,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 53
+    }
+   ],
+   "total": 2
   },
   {
    "id": "mellaart",
@@ -1701,6 +4746,79 @@
    "total": 1
   },
   {
+   "id": "meuszynski",
+   "name": "Janusz Meuszyński",
+   "born": 1947,
+   "died": 1979,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "archeolog, kierownik polskich prac w Nimrud",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 119
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "michal-aniol",
+   "name": "Michał Anioł",
+   "born": 1475,
+   "died": 1564,
+   "c": "rzeźbiarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "rzeźbiarz, malarz i architekt renesansu",
+   "works": [
+    "Pietà (1498–1499)",
+    "Dawid (1501–1504)",
+    "Sklepienie Kaplicy Sykstyńskiej (1508–1512)",
+    "Sąd Ostateczny (1536–1541)",
+    "Kopuła Bazyliki św. Piotra"
+   ],
+   "mentions": [
+    {
+     "n": 16,
+     "count": 1,
+     "i": 51
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "michalowski",
+   "name": "Kazimierz Michałowski",
+   "born": 1901,
+   "died": 1981,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "archeolog, twórca polskiej szkoły archeologii śródziemnomorskiej",
+   "works": [
+    "Polska Stacja Archeologii Śródziemnomorskiej w Kairze (1959)",
+    "Odkrycie katedry w Faras (1961–1964)",
+    "Prace w Deir el-Bahari"
+   ],
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 74
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 48
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "mickiewicz",
    "name": "Adam Mickiewicz",
    "born": 1798,
@@ -1709,15 +4827,81 @@
    "country": "Polska",
    "pl": true,
    "g": "m",
-   "desc": "poeta, autor „Pana Tadeusza”",
+   "desc": "poeta romantyzmu",
+   "works": [
+    "Ballady i romanse (1822)",
+    "Dziady (cz. II i IV 1823, cz. III 1832)",
+    "Sonety krymskie (1826)",
+    "Konrad Wallenrod (1828)",
+    "Pan Tadeusz (1834)"
+   ],
    "mentions": [
     {
      "n": 3,
      "count": 1,
      "i": 154
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 71
+    },
+    {
+     "n": 228,
+     "count": 7,
+     "i": 23
     }
    ],
-   "total": 1
+   "total": 9
+  },
+  {
+   "id": "mies",
+   "name": "Ludwig Mies van der Rohe",
+   "c": "architekt",
+   "country": "Niemcy / USA",
+   "g": "m",
+   "desc": "architekt modernizmu, autor maksymy „mniej znaczy więcej”",
+   "works": [
+    "Pawilon niemiecki w Barcelonie (1929)",
+    "Willa Tugendhatów w Brnie (1928–1930)",
+    "Seagram Building (1958)",
+    "Neue Nationalgalerie w Berlinie (1968)"
+   ],
+   "born": 1886,
+   "died": 1969,
+   "mentions": [
+    {
+     "n": 1,
+     "count": 2,
+     "i": 125
+    },
+    {
+     "n": 3,
+     "count": 1,
+     "i": 149
+    },
+    {
+     "n": 11,
+     "count": 1,
+     "i": 72
+    },
+    {
+     "n": 224,
+     "count": 2,
+     "i": 34
+    },
+    {
+     "n": 225,
+     "count": 1,
+     "i": 11
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 62
+    }
+   ],
+   "total": 8
   },
   {
    "id": "mieszko",
@@ -1755,13 +4939,72 @@
     "Zniewolony umysł (1953)",
     "Dolina Issy (1955)",
     "Traktat poetycki (1957)",
-    "Rodzinna Europa (1959)",
-    "Historia literatury polskiej (1969)",
-    "Ziemia Ulro (1977)",
-    "Abecadło Miłosza (1997)"
+    "Ziemia Ulro (1977)"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 74
+    },
+    {
+     "n": 229,
+     "count": 2,
+     "i": 39
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "mokrzynski",
+   "name": "Jerzy Mokrzyński",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt zespołu „Tygrysy”",
+   "works": [
+    "Dom Partii w Warszawie (1948–1952)"
+   ],
+   "born": 1909,
+   "died": 1997,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 9
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "moneo",
+   "name": "Rafael Moneo",
+   "c": "architekt",
+   "country": "Hiszpania",
+   "g": "m",
+   "desc": "architekt, laureat Nagrody Pritzkera (1996)",
+   "works": [
+    "Muzeum Sztuki Rzymskiej w Méridzie (1986)",
+    "Kursaal w San Sebastián (1999)",
+    "Katedra w Los Angeles (2002)",
+    "Rozbudowa Prado (2007)"
+   ],
+   "born": 1937,
+   "mentions": [
+    {
+     "n": 15,
+     "count": 1,
+     "i": 60
+    },
+    {
+     "n": 225,
+     "count": 2,
+     "i": 67
+    }
+   ],
+   "total": 3
   },
   {
    "id": "munk",
@@ -1786,6 +5029,41 @@
    "total": 0
   },
   {
+   "id": "myron",
+   "name": "Myron",
+   "born": -480,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor Dyskobola",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 48
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "nabuchodonozor",
+   "name": "Nabuchodonozor II",
+   "born": -634,
+   "died": -562,
+   "c": "polityk",
+   "country": "Babilonia",
+   "g": "m",
+   "desc": "król Babilonu, budowniczy Bramy Isztar",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 2,
+     "i": 58
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "nalepa",
    "name": "Tadeusz Nalepa",
    "born": 1943,
@@ -1800,6 +5078,69 @@
      "n": 186,
      "count": 2,
      "i": 134
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "napoleon",
+   "name": "Napoleon Bonaparte",
+   "born": 1769,
+   "died": 1821,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "cesarz Francuzów",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 85
+    },
+    {
+     "n": 17,
+     "count": 1,
+     "i": 23
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 78
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "naram-sin",
+   "name": "Naram-Sin",
+   "born": -2254,
+   "died": -2218,
+   "c": "polityk",
+   "country": "Akad",
+   "g": "m",
+   "desc": "król Akadu, wnuk Sargona",
+   "mentions": [
+    {
+     "n": 7,
+     "count": 3,
+     "i": 14
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "narmer",
+   "name": "Narmer",
+   "born": -3150,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "władca, który zjednoczył Egipt",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 2,
+     "i": 17
     }
    ],
    "total": 2
@@ -1829,6 +5170,64 @@
    "total": 2
   },
   {
+   "id": "nebamun",
+   "name": "Nebamun",
+   "born": -1400,
+   "c": "inne",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "urzędnik z Teb, którego grób zdobią słynne malowidła",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 3,
+     "i": 24
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "nefertiti",
+   "name": "Nefertiti",
+   "born": -1370,
+   "died": -1330,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "f",
+   "desc": "królowa, żona Echnatona",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 2,
+     "i": 51
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "niemczyk",
+   "name": "Stanisław Niemczyk",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt sakralny",
+   "works": [
+    "Kościół Ducha Świętego w Tychach (z polichromią J. Nowosielskiego)"
+   ],
+   "born": 1943,
+   "died": 2020,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 46
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "niemen",
    "name": "Czesław Niemen",
    "born": 1939,
@@ -1843,9 +5242,77 @@
      "n": 186,
      "count": 2,
      "i": 131
+    },
+    {
+     "n": 228,
+     "count": 3,
+     "i": 61
     }
    ],
-   "total": 2
+   "total": 5
+  },
+  {
+   "id": "niemeyer",
+   "name": "Oscar Niemeyer",
+   "c": "architekt",
+   "country": "Brazylia",
+   "g": "m",
+   "desc": "architekt Brasílii, mistrz betonowej krzywizny",
+   "works": [
+    "Zespół Pampulha (1940–1943)",
+    "Brasília: Kongres i katedra (1958–1970)",
+    "Muzeum Sztuki Współczesnej w Niterói (1996)"
+   ],
+   "born": 1907,
+   "died": 2012,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "nikifor",
+   "name": "Nikifor Krynicki",
+   "born": 1895,
+   "died": 1968,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz naiwny z Krynicy",
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 70
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "nishizawa",
+   "name": "Ryue Nishizawa",
+   "c": "architekt",
+   "country": "Japonia",
+   "g": "m",
+   "desc": "architekt, współzałożyciel SANAA",
+   "works": [
+    "SANAA (z K. Sejimą): Kanazawa, New Museum, Louvre-Lens",
+    "Muzeum Sztuki Teshima (2010)"
+   ],
+   "born": 1966,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 57
+    }
+   ],
+   "total": 1
   },
   {
    "id": "norwid",
@@ -1856,15 +5323,83 @@
    "country": "Polska",
    "pl": true,
    "g": "m",
-   "desc": "poeta; jego wiersze śpiewał Niemen",
+   "desc": "poeta, dramatopisarz i plastyk",
+   "works": [
+    "Promethidion (1851)",
+    "Bema pamięci żałobny rapsod (1851)",
+    "Vade-mecum (1858–1866)",
+    "Fortepian Szopena (1865)"
+   ],
    "mentions": [
     {
      "n": 186,
      "count": 1,
      "i": 133
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 228,
+     "count": 7,
+     "i": 4
     }
    ],
-   "total": 1
+   "total": 9
+  },
+  {
+   "id": "nouvel",
+   "name": "Jean Nouvel",
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "architekt światła i przezroczystości",
+   "works": [
+    "Instytut Świata Arabskiego (1987)",
+    "Fondation Cartier (1994)",
+    "Filharmonia Paryska (2015)",
+    "Luwr Abu Zabi (2017)"
+   ],
+   "born": 1945,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 75
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "nowicki",
+   "name": "Maciej Nowicki",
+   "c": "architekt",
+   "country": "Polska / USA",
+   "g": "m",
+   "desc": "architekt, współtwórca planu Czandigarhu",
+   "works": [
+    "Plan Czandigarhu (1950)",
+    "Dorton Arena w Raleigh (projekt, 1952)",
+    "Udział w projekcie siedziby ONZ"
+   ],
+   "born": 1910,
+   "died": 1950,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 86
+    },
+    {
+     "n": 226,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 4
   },
   {
    "id": "nowosielski",
@@ -1875,24 +5410,57 @@
    "country": "Polska",
    "pl": true,
    "g": "m",
-   "desc": "malarz, łączący ikonę z nowoczesnością",
+   "desc": "malarz łączący ikonę z nowoczesnością",
    "ls": "epizod",
    "verify": true,
    "lodzLink": "Związany z Łodzią przez pracę dydaktyczną w łódzkiej uczelni plastycznej; zakres i lata wymagają weryfikacji.",
    "works": [
     "Akty kobiece (cykl)",
-    "Polichromie i ikony cerkiewne, m.in. w Białym Borze",
-    "Kościół Ducha Świętego w Tychach (polichromie)",
-    "Abstrakcje geometryczne i pejzaże miejskie"
+    "Polichromie i ikony cerkiewne",
+    "Polichromia kościoła Ducha Świętego w Tychach",
+    "Abstrakcje i pejzaże miejskie"
    ],
    "mentions": [
     {
      "n": 186,
      "count": 2,
      "i": 79
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 46
+    },
+    {
+     "n": 231,
+     "count": 2,
+     "i": 46
     }
    ],
-   "total": 2
+   "total": 5
+  },
+  {
+   "id": "opalka",
+   "name": "Roman Opałka",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz konceptualny, twórca „Programu”",
+   "works": [
+    "1965/1 – ∞ (Detale, od 1965)",
+    "Fotograficzne autoportrety"
+   ],
+   "born": 1931,
+   "died": 2011,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 231,
+     "count": 3,
+     "i": 57
+    }
+   ],
+   "total": 3
   },
   {
    "id": "orthwein",
@@ -1941,6 +5509,34 @@
    "total": 1
   },
   {
+   "id": "owidiusz",
+   "name": "Owidiusz",
+   "born": -43,
+   "died": 17,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta, autor „Metamorfoz”",
+   "works": [
+    "Metamorfozy",
+    "Sztuka kochania",
+    "Żale"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 20,
+     "count": 4,
+     "i": 3
+    }
+   ],
+   "total": 5
+  },
+  {
    "id": "palladio",
    "name": "Andrea Palladio",
    "born": 1508,
@@ -1948,7 +5544,14 @@
    "c": "architekt",
    "country": "Włochy",
    "g": "m",
-   "desc": "architekt renesansu",
+   "desc": "architekt renesansu, twórca palladianizmu",
+   "works": [
+    "Bazylika Palladiańska w Vicenzy (od 1549)",
+    "Villa Rotonda (od 1566)",
+    "San Giorgio Maggiore w Wenecji (od 1566)",
+    "Teatro Olimpico (1580–1585)",
+    "Cztery księgi o architekturze (1570)"
+   ],
    "mentions": [
     {
      "n": 5,
@@ -1957,6 +5560,59 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "pankiewicz",
+   "name": "Józef Pankiewicz",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz impresjonizmu i postimpresjonizmu, nauczyciel kapistów",
+   "works": [
+    "Targ na jarzyny (1890)",
+    "Japonka (1908)",
+    "Martwe natury paryskie"
+   ],
+   "born": 1866,
+   "died": 1940,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 30
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "parandowski",
+   "name": "Jan Parandowski",
+   "born": 1895,
+   "died": 1978,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pisarz i tłumacz, autor „Mitologii”",
+   "works": [
+    "Mitologia (1924)",
+    "Dysk olimpijski (1933)",
+    "Odyseja (przekład prozą, 1953)"
+   ],
+   "mentions": [
+    {
+     "n": 10,
+     "count": 1,
+     "i": 33
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 71
+    }
+   ],
+   "total": 3
   },
   {
    "id": "paul-simon",
@@ -1981,6 +5637,76 @@
    "total": 2
   },
   {
+   "id": "pawlikowska",
+   "name": "Maria Pawlikowska-Jasnorzewska",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "f",
+   "desc": "poetka dwudziestolecia",
+   "works": [
+    "Niebieskie migdały (1922)",
+    "Pocałunki (1926)",
+    "Dancing (1927)",
+    "Róża i lasy płonące (1940)"
+   ],
+   "born": 1891,
+   "died": 1945,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 29
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 24
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "penelopa",
+   "name": "Penelopa",
+   "c": "inne",
+   "country": "mitologia grecka",
+   "g": "f",
+   "legend": true,
+   "desc": "żona Odyseusza, wzór wierności i sprytu",
+   "mentions": [
+    {
+     "n": 15,
+     "count": 2,
+     "i": 51
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 15
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "perykles",
+   "name": "Perykles",
+   "born": -495,
+   "died": -429,
+   "c": "polityk",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "przywódca demokratycznych Aten",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 16
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "petrie",
    "name": "Flinders Petrie",
    "born": 1853,
@@ -1994,6 +5720,29 @@
      "n": 4,
      "count": 1,
      "i": 131
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "piano",
+   "name": "Renzo Piano",
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "architekt, współautor Centre Pompidou",
+   "works": [
+    "Centre Pompidou (z R. Rogersem, 1977)",
+    "Fondation Beyeler (1997)",
+    "The Shard (2012)",
+    "Whitney Museum (2015)"
+   ],
+   "born": 1937,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 37
     }
    ],
    "total": 1
@@ -2017,9 +5766,14 @@
      "n": 186,
      "count": 1,
      "i": 178
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 24
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "pilsudski",
@@ -2043,9 +5797,55 @@
      "n": 194,
      "count": 1,
      "i": 99
+    },
+    {
+     "n": 225,
+     "count": 1,
+     "i": 41
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "pindar",
+   "name": "Pindar",
+   "born": -518,
+   "died": -438,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta, autor pieśni na cześć olimpijczyków",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 22
     }
    ],
    "total": 1
+  },
+  {
+   "id": "pitagoras",
+   "name": "Pitagoras",
+   "born": -570,
+   "died": -495,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "filozof i matematyk",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 3,
+     "i": 78
+    },
+    {
+     "n": 13,
+     "count": 1,
+     "i": 63
+    }
+   ],
+   "total": 4
   },
   {
    "id": "platon",
@@ -2055,15 +5855,168 @@
    "c": "filozof",
    "country": "Grecja",
    "g": "m",
-   "desc": "filozof grecki",
+   "desc": "filozof, założyciel Akademii",
+   "works": [
+    "Państwo",
+    "Uczta",
+    "Obrona Sokratesa",
+    "Fedon"
+   ],
    "mentions": [
     {
      "n": 1,
      "count": 1,
      "i": 201
+    },
+    {
+     "n": 10,
+     "count": 1,
+     "i": 37
+    },
+    {
+     "n": 11,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 13,
+     "count": 10,
+     "i": 4
+    },
+    {
+     "n": 15,
+     "count": 1,
+     "i": 21
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 20
+    }
+   ],
+   "total": 15
+  },
+  {
+   "id": "pliniusz-mlodszy",
+   "name": "Pliniusz Młodszy",
+   "born": 61,
+   "died": 113,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "pisarz, świadek wybuchu Wezuwiusza",
+   "works": [
+    "Listy"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 2,
+     "i": 13
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "pliniusz-starszy",
+   "name": "Pliniusz Starszy",
+   "born": 23,
+   "died": 79,
+   "c": "naukowiec",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "uczony, autor „Historii naturalnej”",
+   "works": [
+    "Historia naturalna"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 14
     }
    ],
    "total": 1
+  },
+  {
+   "id": "plutarch",
+   "name": "Plutarch",
+   "born": 46,
+   "died": 120,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "biograf, autor „Żywotów równoległych”",
+   "works": [
+    "Żywoty równoległe"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 41
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "pniewski",
+   "name": "Bohdan Pniewski",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt modernizmu i monumentalizmu",
+   "works": [
+    "Willa własna na Frascati (1923, dziś muzeum)",
+    "Gmach Sądów na Lesznie (1935–1939)",
+    "Rozbudowa Sejmu (1948–1952)",
+    "Odbudowa i rozbudowa Teatru Wielkiego (1951–1965)"
+   ],
+   "born": 1897,
+   "died": 1965,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 3,
+     "i": 38
+    },
+    {
+     "n": 227,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "podkowinski",
+   "name": "Władysław Podkowiński",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "pionier polskiego impresjonizmu",
+   "works": [
+    "Widok ulicy Nowy Świat (1892)",
+    "Dzieci w ogrodzie (1892)",
+    "Szał uniesień (1894)"
+   ],
+   "born": 1866,
+   "died": 1895,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 3,
+     "i": 30
+    }
+   ],
+   "total": 3
   },
   {
    "id": "polanski",
@@ -2089,6 +6042,51 @@
    "total": 0
   },
   {
+   "id": "poliklet",
+   "name": "Poliklet",
+   "born": -480,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz, autor „Kanonu”",
+   "works": [
+    "Doryforos",
+    "Diadumenos",
+    "Kanon (traktat, zaginiony)"
+   ],
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 42
+    },
+    {
+     "n": 17,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "popper",
+   "name": "Karl Popper",
+   "born": 1902,
+   "died": 1994,
+   "c": "filozof",
+   "country": "Austria / Wielka Brytania",
+   "g": "m",
+   "desc": "filozof nauki, autor „Społeczeństwa otwartego”",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 44
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "poznanski",
    "name": "Izrael Poznański",
    "born": 1833,
@@ -2107,6 +6105,11 @@
     "Mauzoleum Poznańskich na cmentarzu żydowskim przy Brackiej"
    ],
    "mentions": [
+    {
+     "n": 14,
+     "count": 1,
+     "i": 64
+    },
     {
      "n": 186,
      "count": 5,
@@ -2131,9 +6134,185 @@
      "n": 199,
      "count": 1,
      "i": 9
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 71
     }
    ],
-   "total": 11
+   "total": 13
+  },
+  {
+   "id": "praksyteles",
+   "name": "Praksyteles",
+   "born": -395,
+   "died": -330,
+   "c": "rzeźbiarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "rzeźbiarz IV w. p.n.e.",
+   "works": [
+    "Afrodyta z Knidos",
+    "Hermes z małym Dionizosem"
+   ],
+   "mentions": [
+    {
+     "n": 11,
+     "count": 2,
+     "i": 71
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "protagoras",
+   "name": "Protagoras",
+   "born": -490,
+   "died": -420,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "sofista: „człowiek miarą wszechrzeczy”",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 12
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "przybos",
+   "name": "Julian Przyboś",
+   "born": 1901,
+   "died": 1970,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta awangardy, członek grupy a.r.",
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ptolemeusz",
+   "name": "Klaudiusz Ptolemeusz",
+   "born": 100,
+   "died": 170,
+   "c": "naukowiec",
+   "country": "Egipt rzymski",
+   "g": "m",
+   "desc": "geograf i astronom",
+   "mentions": [
+    {
+     "n": 16,
+     "count": 1,
+     "i": 24
+    },
+    {
+     "n": 17,
+     "count": 1,
+     "i": 79
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "puabi",
+   "name": "Puabi",
+   "born": -2600,
+   "c": "polityk",
+   "country": "Sumer",
+   "g": "f",
+   "desc": "królowa (lub kapłanka) z Ur, pochowana ze skarbami",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 76
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "radic",
+   "name": "Smiljan Radić Clarke",
+   "c": "architekt",
+   "country": "Chile",
+   "g": "m",
+   "desc": "architekt eksperymentu i materiału",
+   "works": [
+    "Pawilon Serpentine (2014)",
+    "Teatr Regionalny Biobío w Concepción (2018)"
+   ],
+   "born": 1965,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 79
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "rafael",
+   "name": "Rafael Santi",
+   "born": 1483,
+   "died": 1520,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu",
+   "works": [
+    "Szkoła Ateńska (1509–1511)",
+    "Madonna Sykstyńska (1512)",
+    "Przemienienie Pańskie (1516–1520)"
+   ],
+   "mentions": [
+    {
+     "n": 13,
+     "count": 4,
+     "i": 58
+    },
+    {
+     "n": 18,
+     "count": 1,
+     "i": 31
+    },
+    {
+     "n": 225,
+     "count": 1,
+     "i": 67
+    }
+   ],
+   "total": 6
+  },
+  {
+   "id": "ramzes",
+   "name": "Ramzes II",
+   "born": -1303,
+   "died": -1213,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, budowniczy Abu Simbel",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 68
+    }
+   ],
+   "total": 1
   },
   {
    "id": "reagan",
@@ -2175,9 +6354,19 @@
      "n": 3,
      "count": 1,
      "i": 102
+    },
+    {
+     "n": 14,
+     "count": 2,
+     "i": 46
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 21
     }
    ],
-   "total": 1
+   "total": 4
   },
   {
    "id": "reymont",
@@ -2206,6 +6395,11 @@
      "i": 155
     },
     {
+     "n": 7,
+     "count": 1,
+     "i": 88
+    },
+    {
      "n": 186,
      "count": 1,
      "i": 103
@@ -2226,7 +6420,7 @@
      "i": 66
     }
    ],
-   "total": 5
+   "total": 6
   },
   {
    "id": "reznikoff",
@@ -2337,12 +6531,64 @@
    "c": "architekt",
    "country": "Wielka Brytania",
    "g": "m",
-   "desc": "architekt high-tech: Centre Pompidou (z R. Piano), Lloyd's",
+   "desc": "architekt high-tech",
+   "works": [
+    "Centre Pompidou (z R. Piano, 1977)",
+    "Siedziba Lloyd’s (1986)",
+    "Millennium Dome (1999)",
+    "Terminal 4 lotniska Madryt-Barajas (2006)"
+   ],
    "mentions": [
     {
      "n": 193,
      "count": 1,
      "i": 80
+    },
+    {
+     "n": 225,
+     "count": 3,
+     "i": 37
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "romulus",
+   "name": "Romulus",
+   "c": "polityk",
+   "country": "Rzym (legenda)",
+   "g": "m",
+   "legend": true,
+   "desc": "legendarny założyciel Rzymu",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 2,
+     "i": 11
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "rossi",
+   "name": "Aldo Rossi",
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "architekt i teoretyk racjonalizmu",
+   "works": [
+    "Architektura miasta (1966)",
+    "Cmentarz San Cataldo w Modenie",
+    "Teatro del Mondo (1979)",
+    "Muzeum Bonnefanten w Maastricht (1995)"
+   ],
+   "born": 1931,
+   "died": 1997,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 15
     }
    ],
    "total": 1
@@ -2379,6 +6625,49 @@
      "n": 2,
      "count": 1,
      "i": 186
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "rozewicz",
+   "name": "Tadeusz Różewicz",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta i dramatopisarz",
+   "works": [
+    "Niepokój (1947)",
+    "Kartoteka (1960)",
+    "Płaskorzeźba (1991)",
+    "Matka odchodzi (1999)"
+   ],
+   "born": 1921,
+   "died": 2014,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 46
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "rubens",
+   "name": "Peter Paul Rubens",
+   "born": 1577,
+   "died": 1640,
+   "c": "malarz",
+   "country": "Flandria",
+   "g": "m",
+   "desc": "malarz baroku",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 61
     }
    ],
    "total": 1
@@ -2484,6 +6773,81 @@
    "total": 0
   },
   {
+   "id": "saarinen",
+   "name": "Eero Saarinen",
+   "c": "architekt",
+   "country": "Finlandia / USA",
+   "g": "m",
+   "desc": "architekt i projektant mebli",
+   "works": [
+    "Krzesło Tulip (1957)",
+    "Terminal TWA w Nowym Jorku (1962)",
+    "Gateway Arch w St. Louis (1965)",
+    "Lotnisko Dulles (1962)"
+   ],
+   "born": 1910,
+   "died": 1961,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 2,
+     "i": 47
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "safona",
+   "name": "Safona",
+   "born": -630,
+   "died": -570,
+   "c": "pisarz",
+   "country": "Grecja (Lesbos)",
+   "g": "f",
+   "desc": "poetka liryczna z Lesbos",
+   "works": [
+    "Oda do Afrodyty",
+    "Fragmenty pieśni miłosnych"
+   ],
+   "mentions": [
+    {
+     "n": 10,
+     "count": 3,
+     "i": 34
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 19
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 30
+    }
+   ],
+   "total": 6
+  },
+  {
+   "id": "sandecka",
+   "name": "Stanisława Nowicka (Sandecka)",
+   "born": 1912,
+   "died": 2006,
+   "c": "architekt",
+   "country": "Polska / USA",
+   "pl": true,
+   "g": "f",
+   "desc": "architektka, żona i współpracowniczka Macieja Nowickiego",
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 55
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "sapkowski",
    "name": "Andrzej Sapkowski",
    "born": 1948,
@@ -2516,6 +6880,56 @@
    "total": 3
   },
   {
+   "id": "sargon",
+   "name": "Sargon z Akadu",
+   "born": -2334,
+   "died": -2279,
+   "c": "polityk",
+   "country": "Akad",
+   "g": "m",
+   "desc": "twórca pierwszego imperium Mezopotamii",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 105
+    },
+    {
+     "n": 7,
+     "count": 3,
+     "i": 11
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "sasnal",
+   "name": "Wilhelm Sasnal",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz i filmowiec",
+   "works": [
+    "Obrazy o historii, mediach i codzienności (od lat 90.)",
+    "Filmy z Anką Sasnal, m.in. Z daleka widok jest piękny (2011)"
+   ],
+   "born": 1972,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
    "id": "sautuola",
    "name": "Marcelino Sanz de Sautuola",
    "born": 1831,
@@ -2532,6 +6946,30 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "scarpa",
+   "name": "Carlo Scarpa",
+   "c": "architekt",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "architekt detalu i materiału",
+   "works": [
+    "Salon Olivetti w Wenecji (1957–1958)",
+    "Muzeum Castelvecchio w Weronie (1958–1974)",
+    "Fondazione Querini Stampalia",
+    "Grobowiec Brionów (1969–1978)"
+   ],
+   "born": 1906,
+   "died": 1978,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 1,
+     "i": 58
+    }
+   ],
+   "total": 1
   },
   {
    "id": "scheibler",
@@ -2552,6 +6990,11 @@
     "Kaplica Scheiblerów na Starym Cmentarzu"
    ],
    "mentions": [
+    {
+     "n": 14,
+     "count": 1,
+     "i": 64
+    },
     {
      "n": 186,
      "count": 1,
@@ -2583,7 +7026,42 @@
      "i": 32
     }
    ],
-   "total": 6
+   "total": 7
+  },
+  {
+   "id": "schliemann",
+   "name": "Heinrich Schliemann",
+   "born": 1822,
+   "died": 1890,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "archeolog-amator, odkrywca Troi i grobów w Mykenach",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 1,
+     "i": 14
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "schmandt",
+   "name": "Denise Schmandt-Besserat",
+   "born": 1933,
+   "c": "naukowiec",
+   "country": "Francja / USA",
+   "g": "f",
+   "desc": "archeolożka, badaczka narodzin pisma",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 43
+    }
+   ],
+   "total": 1
   },
   {
    "id": "schwitters",
@@ -2617,6 +7095,51 @@
      "n": 2,
      "count": 1,
      "i": 181
+    },
+    {
+     "n": 225,
+     "count": 1,
+     "i": 13
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "scott-brown",
+   "name": "Denise Scott Brown",
+   "born": 1931,
+   "c": "architekt",
+   "country": "USA",
+   "g": "f",
+   "desc": "architektka i urbanistka, współautorka „Uczyć się od Las Vegas”",
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 13
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "sejima",
+   "name": "Kazuyo Sejima",
+   "c": "architekt",
+   "country": "Japonia",
+   "g": "f",
+   "desc": "architektka, współzałożycielka SANAA (Pritzker 2010)",
+   "works": [
+    "Muzeum Sztuki XXI wieku w Kanazawie (2004, SANAA)",
+    "New Museum w Nowym Jorku (2007, SANAA)",
+    "Rolex Learning Center (2010, SANAA)",
+    "Louvre-Lens (2012, SANAA)"
+   ],
+   "born": 1956,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 57
     }
    ],
    "total": 1
@@ -2635,6 +7158,48 @@
      "n": 4,
      "count": 3,
      "i": 50
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "senenmut",
+   "name": "Senenmut",
+   "born": -1500,
+   "c": "architekt",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "architekt świątyni Hatszepsut",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 1,
+     "i": 66
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "sienkiewicz",
+   "name": "Henryk Sienkiewicz",
+   "born": 1846,
+   "died": 1916,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "powieściopisarz, laureat Nagrody Nobla (1905)",
+   "works": [
+    "Trylogia (1884–1888)",
+    "Quo vadis (1896)",
+    "Krzyżacy (1900)",
+    "W pustyni i w puszczy (1911)"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 3,
+     "i": 80
     }
    ],
    "total": 3
@@ -2665,6 +7230,96 @@
    "total": 1
   },
   {
+   "id": "siza",
+   "name": "Álvaro Siza",
+   "c": "architekt",
+   "country": "Portugalia",
+   "g": "m",
+   "desc": "architekt portugalskiego modernizmu",
+   "works": [
+    "Baseny w Leça da Palmeira (1966)",
+    "Pawilon Portugalii na Expo 98",
+    "Muzeum Fundacji Serralves (1999)"
+   ],
+   "born": 1933,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 2,
+     "i": 65
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "skibniewska",
+   "name": "Halina Skibniewska",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "f",
+   "desc": "architektka osiedli mieszkaniowych, wicemarszałek Sejmu",
+   "works": [
+    "Osiedle Sady Żoliborskie (1958–1964)",
+    "Osiedle Szwoleżerów w Warszawie",
+    "Projektowanie dla osób z niepełnosprawnościami"
+   ],
+   "born": 1921,
+   "died": 2011,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 2,
+     "i": 31
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "slonimski",
+   "name": "Antoni Słonimski",
+   "born": 1895,
+   "died": 1976,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta i felietonista, skamandryta",
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "slowacki",
+   "name": "Juliusz Słowacki",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta i dramatopisarz romantyzmu",
+   "works": [
+    "Kordian (1834)",
+    "Balladyna (1839)",
+    "Beniowski (1841)",
+    "Król-Duch (1847)"
+   ],
+   "born": 1809,
+   "died": 1849,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 228,
+     "count": 2,
+     "i": 36
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "slowik",
    "name": "Andrzej Słowik",
    "born": 1949,
@@ -2685,6 +7340,110 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "sofokles",
+   "name": "Sofokles",
+   "born": -497,
+   "died": -406,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "tragik, autor „Antygony” i „Króla Edypa”",
+   "works": [
+    "Antygona",
+    "Król Edyp",
+    "Elektra"
+   ],
+   "mentions": [
+    {
+     "n": 12,
+     "count": 2,
+     "i": 31
+    },
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 20,
+     "count": 3,
+     "i": 29
+    }
+   ],
+   "total": 6
+  },
+  {
+   "id": "sokrates",
+   "name": "Sokrates",
+   "born": -470,
+   "died": -399,
+   "c": "filozof",
+   "country": "Grecja (Ateny)",
+   "g": "m",
+   "desc": "filozof, mistrz Platona",
+   "mentions": [
+    {
+     "n": 12,
+     "count": 2,
+     "i": 56
+    },
+    {
+     "n": 13,
+     "count": 8,
+     "i": 4
+    }
+   ],
+   "total": 10
+  },
+  {
+   "id": "soltan",
+   "name": "Jerzy Sołtan",
+   "c": "architekt",
+   "country": "Polska / USA",
+   "g": "m",
+   "desc": "architekt, współpracownik Le Corbusiera, profesor Harvardu",
+   "works": [
+    "Ośrodek sportowy AWF w Warszawie (z Z. Ihnatowiczem)",
+    "Projekt pawilonu polskiego na Expo 1958"
+   ],
+   "born": 1913,
+   "died": 2005,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 3,
+     "i": 64
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "staff",
+   "name": "Leopold Staff",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta trzech epok",
+   "works": [
+    "Sny o potędze (1901)",
+    "Wysokie drzewa (1932)",
+    "Martwa pogoda (1946)",
+    "Wiklina (1954)"
+   ],
+   "born": 1878,
+   "died": 1957,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 3
   },
   {
    "id": "stanislawski",
@@ -2728,11 +7487,78 @@
    "pl": true,
    "g": "m",
    "desc": "malarz awangardy, grupa a.r.",
+   "works": [
+    "Kompozycje geometryczne lat 20. i 30.",
+    "Reliefy (lata 60.–80.)",
+    "Współtwórca grup Blok, Praesens, a.r."
+   ],
    "mentions": [
     {
      "n": 186,
      "count": 4,
      "i": 74
+    },
+    {
+     "n": 226,
+     "count": 1,
+     "i": 45
+    },
+    {
+     "n": 231,
+     "count": 4,
+     "i": 21
+    }
+   ],
+   "total": 9
+  },
+  {
+   "id": "stelmach",
+   "name": "Bolesław Stelmach",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt z Lublina",
+   "works": [
+    "Centrum Spotkania Kultur w Lublinie (2016, pracownia)"
+   ],
+   "born": 1957,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 64
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "stryjenska",
+   "name": "Zofia Stryjeńska",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "f",
+   "desc": "malarka i ilustratorka, „księżniczka sztuki polskiej”",
+   "works": [
+    "Bożki słowiańskie (1918)",
+    "Tańce polskie (1927)",
+    "Obrzędy polskie (1929)",
+    "Dekoracje transatlantyku Batory"
+   ],
+   "born": 1891,
+   "died": 1976,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 231,
+     "count": 3,
+     "i": 4
     }
    ],
    "total": 4
@@ -2747,15 +7573,14 @@
    "pl": true,
    "lodz": true,
    "g": "m",
-   "desc": "malarz awangardy, twórca unizmu i Sali Neoplastycznej",
+   "desc": "malarz awangardy, twórca unizmu",
    "ls": "mieszkali",
    "lodzLink": "Od 1931 mieszkał i tworzył w Łodzi; współtwórca kolekcji grupy a.r. w Muzeum Sztuki i łódzkiej uczelni plastycznej, dziś ASP jego imienia.",
    "works": [
     "Kompozycje unistyczne (1929–1934)",
-    "Międzynarodowa Kolekcja Sztuki Nowoczesnej grupy a.r. (1931)",
     "Moim przyjaciołom Żydom (1945)",
     "Sala Neoplastyczna (1948)",
-    "Powidoki (cykl, 1948–1949)",
+    "Powidoki (cykl)",
     "Teoria widzenia (wyd. 1958)"
    ],
    "mentions": [
@@ -2783,9 +7608,19 @@
      "n": 211,
      "count": 1,
      "i": 40
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 79
+    },
+    {
+     "n": 231,
+     "count": 6,
+     "i": 4
     }
    ],
-   "total": 8
+   "total": 15
   },
   {
    "id": "stukeley",
@@ -2801,6 +7636,72 @@
      "n": 5,
      "count": 1,
      "i": 117
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "styka",
+   "name": "Jan Styka",
+   "born": 1858,
+   "died": 1925,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz panoram, współautor Panoramy Racławickiej",
+   "mentions": [
+    {
+     "n": 230,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "sullivan",
+   "name": "Louis Sullivan",
+   "c": "architekt",
+   "country": "USA",
+   "g": "m",
+   "desc": "architekt szkoły chicagowskiej, „forma wynika z funkcji”",
+   "works": [
+    "Wainwright Building (1891)",
+    "Domy towarowe Carson Pirie Scott (1899–1904)",
+    "Esej „Wysoki budynek biurowy” (1896)"
+   ],
+   "born": 1856,
+   "died": 1924,
+   "mentions": [
+    {
+     "n": 15,
+     "count": 1,
+     "i": 15
+    },
+    {
+     "n": 224,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "szanajca",
+   "name": "Józef Szanajca",
+   "born": 1902,
+   "died": 1939,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "architekt awangardy, współpracownik Lacherta",
+   "mentions": [
+    {
+     "n": 226,
+     "count": 1,
+     "i": 46
     }
    ],
    "total": 1
@@ -2823,8 +7724,54 @@
     "Maszyny i metody projektowania wzorów tkackich",
     "Barwna fotografia i film"
    ],
-   "mentions": [],
-   "total": 0
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "szekspir",
+   "name": "William Szekspir",
+   "born": 1564,
+   "died": 1616,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "dramatopisarz i poeta",
+   "works": [
+    "Romeo i Julia",
+    "Hamlet",
+    "Juliusz Cezar",
+    "Makbet",
+    "Burza"
+   ],
+   "mentions": [
+    {
+     "n": 17,
+     "count": 1,
+     "i": 33
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 41
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 37
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 72
+    }
+   ],
+   "total": 4
   },
   {
    "id": "szyk",
@@ -2849,6 +7796,127 @@
    "total": 0
   },
   {
+   "id": "szymborska",
+   "name": "Wisława Szymborska",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "f",
+   "desc": "poetka, laureatka Nagrody Nobla (1996)",
+   "works": [
+    "Wołanie do Yeti (1957)",
+    "Sól (1962)",
+    "Wielka liczba (1976)",
+    "Koniec i początek (1993)"
+   ],
+   "born": 1923,
+   "died": 2012,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "szyszko-bohusz",
+   "name": "Adolf Szyszko-Bohusz",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt i konserwator, kierownik odnowy Wawelu",
+   "works": [
+    "Odnowa Zamku Królewskiego na Wawelu",
+    "Zameczek Prezydenta w Wiśle (1929–1931)"
+   ],
+   "born": 1883,
+   "died": 1948,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 2,
+     "i": 35
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "tacyt",
+   "name": "Tacyt",
+   "born": 56,
+   "died": 120,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "historyk cesarstwa",
+   "works": [
+    "Roczniki",
+    "Dzieje"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 13
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 40
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "tales",
+   "name": "Tales z Miletu",
+   "born": -624,
+   "died": -546,
+   "c": "filozof",
+   "country": "Grecja (Jonia)",
+   "g": "m",
+   "desc": "pierwszy filozof grecki",
+   "mentions": [
+    {
+     "n": 10,
+     "count": 2,
+     "i": 84
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "tange",
+   "name": "Kenzo Tange",
+   "c": "architekt",
+   "country": "Japonia",
+   "g": "m",
+   "desc": "architekt japońskiego modernizmu i metabolizmu",
+   "works": [
+    "Park Pokoju w Hiroszimie (1949–1955)",
+    "Hale olimpijskie Yoyogi (1964)",
+    "Plan Tokio 1960"
+   ],
+   "born": 1913,
+   "died": 2005,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 1,
+     "i": 66
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "tansman",
    "name": "Aleksander Tansman",
    "born": 1897,
@@ -2870,6 +7938,47 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "tatarkiewicz",
+   "name": "Władysław Tatarkiewicz",
+   "born": 1886,
+   "died": 1980,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "filozof i historyk sztuki",
+   "works": [
+    "Historia filozofii (1931)",
+    "O szczęściu (1947)",
+    "Historia estetyki (1960–1967)"
+   ],
+   "mentions": [
+    {
+     "n": 13,
+     "count": 2,
+     "i": 77
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "thutmose",
+   "name": "Thutmose",
+   "born": -1350,
+   "c": "rzeźbiarz",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "rzeźbiarz z Amarny",
+   "mentions": [
+    {
+     "n": 9,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
   },
   {
    "id": "tomaszewski",
@@ -2896,6 +8005,45 @@
    "total": 2
   },
   {
+   "id": "trajan",
+   "name": "Trajan",
+   "born": 53,
+   "died": 117,
+   "c": "polityk",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "cesarz, za którego imperium osiągnęło największy zasięg",
+   "mentions": [
+    {
+     "n": 17,
+     "count": 2,
+     "i": 59
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "tukidydes",
+   "name": "Tukidydes",
+   "born": -460,
+   "died": -400,
+   "c": "naukowiec",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "historyk wojny peloponeskiej",
+   "works": [
+    "Wojna peloponeska"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 37
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "turner",
    "name": "William Turner",
    "born": 1775,
@@ -2914,6 +8062,29 @@
    "total": 1
   },
   {
+   "id": "tutanchamon",
+   "name": "Tutanchamon",
+   "born": -1341,
+   "died": -1323,
+   "c": "polityk",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "faraon, którego grób odkryto w 1922",
+   "mentions": [
+    {
+     "n": 8,
+     "count": 3,
+     "i": 81
+    },
+    {
+     "n": 9,
+     "count": 2,
+     "i": 73
+    }
+   ],
+   "total": 5
+  },
+  {
    "id": "tuwim",
    "name": "Julian Tuwim",
    "born": 1894,
@@ -2923,7 +8094,7 @@
    "pl": true,
    "lodz": true,
    "g": "m",
-   "desc": "poeta, współtwórca Skamandra, autor wierszy dla dzieci",
+   "desc": "poeta, współtwórca Skamandra",
    "ls": "urodzeni",
    "lodzLink": "Urodził się w Łodzi i tu dorastał; łódzkie dzieciństwo wraca w jego poezji. Na Piotrkowskiej stoi ławeczka Tuwima.",
    "works": [
@@ -2931,7 +8102,6 @@
     "Sokrates tańczący (1920)",
     "Bal w operze (1936)",
     "Lokomotywa (1938)",
-    "Ptasie radio",
     "Kwiaty polskie (1949)"
    ],
    "mentions": [
@@ -2944,9 +8114,119 @@
      "n": 211,
      "count": 1,
      "i": 78
+    },
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 5,
+     "i": 4
+    }
+   ],
+   "total": 9
+  },
+  {
+   "id": "tycjan",
+   "name": "Tycjan",
+   "born": 1488,
+   "died": 1576,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu weneckiego",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "tylman",
+   "name": "Tylman z Gameren",
+   "c": "architekt",
+   "country": "Niderlandy / Polska",
+   "g": "m",
+   "desc": "architekt baroku w Rzeczypospolitej",
+   "works": [
+    "Pałac Krasińskich w Warszawie (1677–1683)",
+    "Kościół Sakramentek w Warszawie (1688–1692)",
+    "Kościół św. Anny w Krakowie (1689–1703)",
+    "Pałac w Nieborowie"
+   ],
+   "born": 1632,
+   "died": 1706,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 225,
+     "count": 1,
+     "i": 86
+    },
+    {
+     "n": 226,
+     "count": 5,
+     "i": 4
+    }
+   ],
+   "total": 6
+  },
+  {
+   "id": "utzon",
+   "name": "Jørn Utzon",
+   "c": "architekt",
+   "country": "Dania",
+   "g": "m",
+   "desc": "architekt Opery w Sydney",
+   "works": [
+    "Opera w Sydney (1957–1973)",
+    "Kościół w Bagsværd (1976)",
+    "Osiedle Kingo"
+   ],
+   "born": 1918,
+   "died": 2008,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 3,
+     "i": 63
     }
    ],
    "total": 3
+  },
+  {
+   "id": "venturi",
+   "name": "Robert Venturi",
+   "c": "architekt",
+   "country": "USA",
+   "g": "m",
+   "desc": "architekt i teoretyk postmodernizmu",
+   "works": [
+    "Dom Vanny Venturi (1964)",
+    "Złożoność i sprzeczność w architekturze (1966)",
+    "Uczyć się od Las Vegas (1972, z D. Scott Brown i S. Izenourem)",
+    "Skrzydło Sainsbury National Gallery (1991)"
+   ],
+   "born": 1925,
+   "died": 2018,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 1,
+     "i": 88
+    },
+    {
+     "n": 225,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 4
   },
   {
    "id": "wajda",
@@ -2981,9 +8261,14 @@
      "n": 211,
      "count": 2,
      "i": 40
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 25
     }
    ],
-   "total": 4
+   "total": 5
   },
   {
    "id": "warhol",
@@ -3030,6 +8315,351 @@
    "total": 2
   },
   {
+   "id": "wedgwood",
+   "name": "Josiah Wedgwood",
+   "born": 1730,
+   "died": 1795,
+   "c": "projektant",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "przedsiębiorca, twórca przemysłowej ceramiki",
+   "mentions": [
+    {
+     "n": 15,
+     "count": 2,
+     "i": 73
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "wergiliusz",
+   "name": "Wergiliusz",
+   "born": -70,
+   "died": -19,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta, autor „Eneidy”",
+   "works": [
+    "Bukoliki",
+    "Georgiki",
+    "Eneida"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 20,
+     "count": 5,
+     "i": 44
+    }
+   ],
+   "total": 6
+  },
+  {
+   "id": "whitehead",
+   "name": "Alfred North Whitehead",
+   "born": 1861,
+   "died": 1947,
+   "c": "filozof",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "filozof i matematyk",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 5
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "wierzbicki",
+   "name": "Eugeniusz Wierzbicki",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "architekt zespołu „Tygrysy”",
+   "works": [
+    "Dom Partii w Warszawie (1948–1952)"
+   ],
+   "born": 1909,
+   "died": 1991,
+   "pl": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 9
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "wierzynski",
+   "name": "Kazimierz Wierzyński",
+   "born": 1894,
+   "died": 1969,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta, skamandryta",
+   "mentions": [
+    {
+     "n": 229,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "witkiewicz-st",
+   "name": "Stanisław Witkiewicz",
+   "c": "architekt",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz, krytyk, twórca stylu zakopiańskiego",
+   "works": [
+    "Malarstwo i krytyka u nas (1891)",
+    "Willa Koliba w Zakopanem (1892–1893)",
+    "Willa Pod Jedlami (1896–1897)",
+    "Kaplica na Jaszczurówce (1904–1908)"
+   ],
+   "born": 1851,
+   "died": 1915,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 226,
+     "count": 2,
+     "i": 24
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "witruwiusz",
+   "name": "Witruwiusz",
+   "born": -80,
+   "died": -15,
+   "c": "architekt",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "architekt i teoretyk, autor „O architekturze”",
+   "works": [
+    "Dziesięć ksiąg o architekturze"
+   ],
+   "mentions": [
+    {
+     "n": 18,
+     "count": 5,
+     "i": 84
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "wojaczek",
+   "name": "Rafał Wojaczek",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta wyklęty pokolenia 1968 roku",
+   "works": [
+    "Sezon (1969)",
+    "Inna bajka (1970)",
+    "Nie skończona krucjata (1972)",
+    "Którego nie było (1972)"
+   ],
+   "born": 1945,
+   "died": 1971,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 229,
+     "count": 2,
+     "i": 64
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "wojtkiewicz",
+   "name": "Witold Wojtkiewicz",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz groteski i symbolizmu",
+   "works": [
+    "Krucjata dziecięca (1905)",
+    "Ceremonia (1908)",
+    "Ucieczka (1908)"
+   ],
+   "born": 1879,
+   "died": 1909,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 65
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "woolley",
+   "name": "Leonard Woolley",
+   "born": 1880,
+   "died": 1960,
+   "c": "naukowiec",
+   "country": "Wielka Brytania",
+   "g": "m",
+   "desc": "archeolog, odkrywca grobów królewskich w Ur",
+   "mentions": [
+    {
+     "n": 6,
+     "count": 1,
+     "i": 75
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "wright",
+   "name": "Frank Lloyd Wright",
+   "c": "architekt",
+   "country": "USA",
+   "g": "m",
+   "desc": "architekt architektury organicznej",
+   "works": [
+    "Robie House (1909)",
+    "Fallingwater (1935–1939)",
+    "Siedziba Johnson Wax (1936–1939)",
+    "Muzeum Guggenheima w Nowym Jorku (1959)"
+   ],
+   "born": 1867,
+   "died": 1959,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 3,
+     "i": 22
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "wyczolkowski",
+   "name": "Leon Wyczółkowski",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz i grafik, mistrz pejzażu",
+   "works": [
+    "Rybacy (1891)",
+    "Orka na Ukrainie (1892)",
+    "Cykl tatrzański"
+   ],
+   "born": 1852,
+   "died": 1936,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 230,
+     "count": 2,
+     "i": 61
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "wyspianski",
+   "name": "Stanisław Wyspiański",
+   "c": "malarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "malarz, dramatopisarz, projektant Młodej Polski",
+   "works": [
+    "Witraże i polichromie u Franciszkanów w Krakowie (1895–1904)",
+    "Macierzyństwo (1905)",
+    "Wesele (1901)",
+    "Wyzwolenie (1903)"
+   ],
+   "born": 1869,
+   "died": 1907,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 12,
+     "count": 1,
+     "i": 87
+    },
+    {
+     "n": 230,
+     "count": 4,
+     "i": 18
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "zagajewski",
+   "name": "Adam Zagajewski",
+   "c": "pisarz",
+   "country": "Polska",
+   "g": "m",
+   "desc": "poeta Nowej Fali i eseista",
+   "works": [
+    "Komunikat (1972)",
+    "Płótno (1990)",
+    "Pragnienie (1999)"
+   ],
+   "born": 1945,
+   "died": 2021,
+   "pl": true,
+   "mentions": [
+    {
+     "n": 228,
+     "count": 1,
+     "i": 80
+    },
+    {
+     "n": 229,
+     "count": 4,
+     "i": 4
+    }
+   ],
+   "total": 5
+  },
+  {
+   "id": "zamecznik",
+   "name": "Stanisław Zamecznik",
+   "born": 1909,
+   "died": 1971,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "architekt wystaw i grafik",
+   "mentions": [
+    {
+     "n": 231,
+     "count": 1,
+     "i": 50
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "zdanowska",
    "name": "Hanna Zdanowska",
    "born": 1959,
@@ -3054,31 +8684,143 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "zemla",
+   "name": "Gustaw Zemła",
+   "born": 1931,
+   "died": 2021,
+   "c": "rzeźbiarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz, autor Pomnika Powstańców Śląskich",
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "zenon",
+   "name": "Zenon z Kition",
+   "born": -334,
+   "died": -262,
+   "c": "filozof",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "twórca stoicyzmu",
+   "mentions": [
+    {
+     "n": 13,
+     "count": 1,
+     "i": 70
+    },
+    {
+     "n": 16,
+     "count": 1,
+     "i": 62
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "zeuksis",
+   "name": "Zeuksis",
+   "born": -464,
+   "c": "malarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "legendarny malarz grecki",
+   "mentions": [
+    {
+     "n": 11,
+     "count": 1,
+     "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "zmijewski",
+   "name": "Artur Żmijewski",
+   "born": 1966,
+   "c": "filmowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "artysta wideo i fotografii",
+   "mentions": [
+    {
+     "n": 227,
+     "count": 1,
+     "i": 25
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "zofia-hansen",
+   "name": "Zofia Hansen",
+   "born": 1924,
+   "died": 2013,
+   "c": "architekt",
+   "country": "Polska",
+   "pl": true,
+   "g": "f",
+   "desc": "architektka, współautorka projektów Oskara Hansena",
+   "mentions": [],
+   "total": 0
+  },
+  {
+   "id": "zumthor",
+   "name": "Peter Zumthor",
+   "c": "architekt",
+   "country": "Szwajcaria",
+   "g": "m",
+   "desc": "architekt materiału i atmosfery",
+   "works": [
+    "Termy w Vals (1996)",
+    "Kunsthaus Bregenz (1997)",
+    "Kaplica Brata Klausa (2007)",
+    "Muzeum Kolumba w Kolonii (2007)"
+   ],
+   "born": 1943,
+   "mentions": [
+    {
+     "n": 224,
+     "count": 1,
+     "i": 88
+    },
+    {
+     "n": 225,
+     "count": 3,
+     "i": 4
+    }
+   ],
+   "total": 4
   }
  ],
  "stats": {
   "generated": "2026-11-21",
   "course": {
-   "planned": 223,
-   "ready": 12,
+   "planned": 231,
+   "ready": 35,
    "parts": 11,
-   "sections": 19,
-   "plannedHours": 48,
+   "sections": 20,
+   "plannedHours": 36,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 155,
-   "words": 20899,
-   "sentences": 1619,
-   "chapters": 121,
-   "images": 90,
-   "glossary": 76,
-   "quiz": 53,
-   "sources": 55,
-   "music": 5,
-   "lodz": 245,
-   "polska": 98
+   "minutes": 330,
+   "words": 43814,
+   "sentences": 3347,
+   "chapters": 320,
+   "images": 264,
+   "glossary": 223,
+   "quiz": 168,
+   "sources": 147,
+   "music": 6,
+   "lodz": 308,
+   "polska": 201
   },
   "lessons": [
    {
@@ -3096,7 +8838,7 @@
     "music": 1,
     "lodz": 6,
     "polska": 6,
-    "people": 11,
+    "people": 12,
     "speakers": {
      "gospodarz": 266,
      "historyk": 566,
@@ -3147,7 +8889,7 @@
     "music": 0,
     "lodz": 11,
     "polska": 5,
-    "people": 7,
+    "people": 8,
     "speakers": {
      "gospodarz": 249,
      "architekt": 1005,
@@ -3205,6 +8947,367 @@
      "sztuka": 256,
      "literatura": 95,
      "design": 18
+    }
+   },
+   {
+    "n": 6,
+    "title": "Mezopotamia — narodziny miasta, pisma i władzy",
+    "era": "Mezopotamia · ok. 4000–2000 p.n.e.",
+    "minutes": 10,
+    "words": 1379,
+    "sentences": 111,
+    "chapters": 11,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 1,
+    "lodz": 2,
+    "polska": 2,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 141,
+     "historyk": 606,
+     "architekt": 133,
+     "sztuka": 140,
+     "design": 105,
+     "muzyka": 104,
+     "literatura": 150
+    }
+   },
+   {
+    "n": 7,
+    "title": "Sumer, Babilon i Asyria — sztuka jako narzędzie potęgi",
+    "era": "Mezopotamia · ok. 2300–539 p.n.e.",
+    "minutes": 9,
+    "words": 1169,
+    "sentences": 89,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 1,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 138,
+     "historyk": 270,
+     "sztuka": 261,
+     "architekt": 244,
+     "design": 44,
+     "muzyka": 88,
+     "literatura": 124
+    }
+   },
+   {
+    "n": 8,
+    "title": "Egipt — wieczność, religia i monumentalna architektura",
+    "era": "Starożytny Egipt · ok. 3100–30 p.n.e.",
+    "minutes": 8,
+    "words": 1110,
+    "sentences": 86,
+    "chapters": 9,
+    "images": 9,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 5,
+    "people": 14,
+    "speakers": {
+     "gospodarz": 136,
+     "historyk": 396,
+     "architekt": 378,
+     "literatura": 117,
+     "muzyka": 83
+    }
+   },
+   {
+    "n": 9,
+    "title": "Egipskie malarstwo, rzeźba, ubiór i przedmioty codzienne",
+    "era": "Starożytny Egipt · ok. 2700–30 p.n.e.",
+    "minutes": 8,
+    "words": 1084,
+    "sentences": 93,
+    "chapters": 9,
+    "images": 9,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 3,
+    "polska": 0,
+    "people": 7,
+    "speakers": {
+     "gospodarz": 132,
+     "sztuka": 532,
+     "historyk": 42,
+     "design": 272,
+     "literatura": 106
+    }
+   },
+   {
+    "n": 10,
+    "title": "Grecja archaiczna — narodziny kanonu piękna",
+    "era": "Grecja · ok. 800–480 p.n.e.",
+    "minutes": 8,
+    "words": 1076,
+    "sentences": 78,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 2,
+    "people": 10,
+    "speakers": {
+     "gospodarz": 132,
+     "historyk": 216,
+     "literatura": 229,
+     "design": 162,
+     "sztuka": 130,
+     "architekt": 106,
+     "muzyka": 101
+    }
+   },
+   {
+    "n": 11,
+    "title": "Grecja klasyczna — proporcja, harmonia i idea człowieka",
+    "era": "Grecja · ok. 480–323 p.n.e.",
+    "minutes": 8,
+    "words": 981,
+    "sentences": 75,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 0,
+    "people": 14,
+    "speakers": {
+     "gospodarz": 128,
+     "historyk": 100,
+     "architekt": 232,
+     "sztuka": 343,
+     "design": 86,
+     "literatura": 92
+    }
+   },
+   {
+    "n": 12,
+    "title": "Teatr grecki — tragedia, komedia i scena",
+    "era": "Grecja · V–IV wiek p.n.e.",
+    "minutes": 7,
+    "words": 906,
+    "sentences": 79,
+    "chapters": 9,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 3,
+    "people": 10,
+    "speakers": {
+     "gospodarz": 123,
+     "historyk": 83,
+     "literatura": 503,
+     "architekt": 102,
+     "muzyka": 95
+    }
+   },
+   {
+    "n": 13,
+    "title": "Filozofia grecka — Sokrates, Platon i Arystoteles",
+    "era": "Grecja · V–IV wiek p.n.e.",
+    "minutes": 7,
+    "words": 868,
+    "sentences": 73,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 4,
+    "polska": 2,
+    "people": 17,
+    "speakers": {
+     "gospodarz": 123,
+     "literatura": 468,
+     "sztuka": 95,
+     "architekt": 80,
+     "historyk": 102
+    }
+   },
+   {
+    "n": 14,
+    "title": "Grecka architektura — świątynia, porządek i miasto",
+    "era": "Grecja · VI–II wiek p.n.e.",
+    "minutes": 7,
+    "words": 854,
+    "sentences": 66,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 7,
+    "polska": 2,
+    "people": 6,
+    "speakers": {
+     "gospodarz": 128,
+     "architekt": 619,
+     "design": 107
+    }
+   },
+   {
+    "n": 15,
+    "title": "Grecka ceramika, rzemiosło i kultura przedmiotów",
+    "era": "Grecja · VI–I wiek p.n.e.",
+    "minutes": 7,
+    "words": 893,
+    "sentences": 65,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 0,
+    "people": 8,
+    "speakers": {
+     "gospodarz": 121,
+     "design": 394,
+     "literatura": 99,
+     "sztuka": 194,
+     "historyk": 85
+    }
+   },
+   {
+    "n": 16,
+    "title": "Hellenizm — Aleksander Wielki i świat kosmopolityczny",
+    "era": "Świat hellenistyczny · 336–30 p.n.e.",
+    "minutes": 8,
+    "words": 981,
+    "sentences": 77,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 4,
+    "polska": 1,
+    "people": 12,
+    "speakers": {
+     "gospodarz": 138,
+     "historyk": 258,
+     "sztuka": 257,
+     "architekt": 94,
+     "literatura": 184,
+     "muzyka": 50
+    }
+   },
+   {
+    "n": 17,
+    "title": "Rzym — republika, imperium i kultura władzy",
+    "era": "Rzym · 753 p.n.e.–476 n.e.",
+    "minutes": 7,
+    "words": 946,
+    "sentences": 72,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 6,
+    "people": 14,
+    "speakers": {
+     "gospodarz": 128,
+     "historyk": 496,
+     "sztuka": 322
+    }
+   },
+   {
+    "n": 18,
+    "title": "Rzymska architektura — beton, łuki, kopuły i infrastruktura",
+    "era": "Rzym · III w. p.n.e.–IV w. n.e.",
+    "minutes": 7,
+    "words": 970,
+    "sentences": 78,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 5,
+    "polska": 0,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 123,
+     "architekt": 680,
+     "historyk": 85,
+     "literatura": 82
+    }
+   },
+   {
+    "n": 19,
+    "title": "Rzymskie wnętrza, mozaiki, malarstwo i meble",
+    "era": "Rzym · II w. p.n.e.–IV w. n.e.",
+    "minutes": 7,
+    "words": 875,
+    "sentences": 67,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 1,
+    "people": 13,
+    "speakers": {
+     "gospodarz": 123,
+     "historyk": 99,
+     "architekt": 110,
+     "sztuka": 232,
+     "design": 311
+    }
+   },
+   {
+    "n": 20,
+    "title": "Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz",
+    "era": "Grecja i Rzym · VIII w. p.n.e.–II w. n.e.",
+    "minutes": 7,
+    "words": 940,
+    "sentences": 65,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 3,
+    "people": 31,
+    "speakers": {
+     "gospodarz": 114,
+     "literatura": 716,
+     "historyk": 110
     }
    },
    {
@@ -3389,16 +9492,189 @@
      "literatura": 250,
      "historyk": 266
     }
+   },
+   {
+    "n": 224,
+    "title": "Mistrzowie architektury nowoczesnej",
+    "era": "ok. 1880–1980 · świat",
+    "minutes": 8,
+    "words": 1097,
+    "sentences": 74,
+    "chapters": 8,
+    "images": 10,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 1,
+    "people": 19,
+    "speakers": {
+     "gospodarz": 138,
+     "architekt": 767,
+     "design": 192
+    }
+   },
+   {
+    "n": 225,
+    "title": "Architekci naszych czasów",
+    "era": "ok. 1960–dziś · świat",
+    "minutes": 8,
+    "words": 1077,
+    "sentences": 70,
+    "chapters": 9,
+    "images": 9,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 2,
+    "people": 30,
+    "speakers": {
+     "gospodarz": 141,
+     "architekt": 936
+    }
+   },
+   {
+    "n": 226,
+    "title": "Polscy architekci — od Tylmana z Gameren do Macieja Nowickiego",
+    "era": "XVII–XX wiek · Polska",
+    "minutes": 7,
+    "words": 919,
+    "sentences": 64,
+    "chapters": 9,
+    "images": 6,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 6,
+    "polska": 11,
+    "people": 18,
+    "speakers": {
+     "gospodarz": 136,
+     "architekt": 705,
+     "historyk": 78
+    }
+   },
+   {
+    "n": 227,
+    "title": "Polscy architekci po 1945 roku",
+    "era": "1945–dziś · Polska",
+    "minutes": 7,
+    "words": 926,
+    "sentences": 63,
+    "chapters": 9,
+    "images": 7,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 8,
+    "people": 29,
+    "speakers": {
+     "gospodarz": 145,
+     "architekt": 781
+    }
+   },
+   {
+    "n": 228,
+    "title": "Polscy poeci — od Kochanowskiego do Norwida",
+    "era": "XVI–XIX wiek · Polska",
+    "minutes": 7,
+    "words": 922,
+    "sentences": 68,
+    "chapters": 7,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 12,
+    "people": 14,
+    "speakers": {
+     "gospodarz": 141,
+     "literatura": 629,
+     "muzyka": 48,
+     "historyk": 104
+    }
+   },
+   {
+    "n": 229,
+    "title": "Polscy poeci XX wieku",
+    "era": "XX–XXI wiek · Polska",
+    "minutes": 8,
+    "words": 997,
+    "sentences": 68,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 5,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 5,
+    "polska": 11,
+    "people": 24,
+    "speakers": {
+     "gospodarz": 130,
+     "literatura": 867
+    }
+   },
+   {
+    "n": 230,
+    "title": "Polscy malarze — od Matejki do Młodej Polski",
+    "era": "ok. 1860–1914 · Polska",
+    "minutes": 7,
+    "words": 890,
+    "sentences": 65,
+    "chapters": 8,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 3,
+    "polska": 18,
+    "people": 22,
+    "speakers": {
+     "gospodarz": 131,
+     "sztuka": 678,
+     "literatura": 81
+    }
+   },
+   {
+    "n": 231,
+    "title": "Polscy artyści XX i XXI wieku",
+    "era": "XX–XXI wiek · Polska",
+    "minutes": 8,
+    "words": 1055,
+    "sentences": 82,
+    "chapters": 9,
+    "images": 8,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 9,
+    "polska": 12,
+    "people": 22,
+    "speakers": {
+     "gospodarz": 132,
+     "sztuka": 923
+    }
    }
   ],
   "speakers": {
-   "gospodarz": 2521,
-   "historyk": 5105,
-   "sztuka": 2808,
-   "architekt": 4005,
-   "muzyka": 1458,
-   "literatura": 2016,
-   "design": 2279,
+   "gospodarz": 5543,
+   "historyk": 8235,
+   "sztuka": 6915,
+   "architekt": 9972,
+   "muzyka": 2027,
+   "literatura": 6463,
+   "design": 3952,
    "foto": 707
   },
   "parts": [
@@ -3413,7 +9689,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 0,
+    "ready": 15,
     "sections": 1
    },
    {
@@ -3475,8 +9751,8 @@
    {
     "id": "XI",
     "title": "Odcinki specjalne i podsumowania",
-    "episodes": 12,
-    "ready": 0,
+    "episodes": 20,
+    "ready": 8,
     "sections": 1
    }
   ],
@@ -3487,11 +9763,11 @@
    },
    {
     "name": "Architektura i miasto",
-    "count": 43
+    "count": 44
    },
    {
     "name": "Malarstwo i rzeźba",
-    "count": 30
+    "count": 31
    },
    {
     "name": "Muzyka",
@@ -3606,54 +9882,75 @@
    }
   ],
   "people": {
-   "total": 111,
-   "mentions": 203,
+   "total": 355,
+   "mentions": 909,
    "byCategory": {
-    "naukowiec": 17,
-    "filozof": 4,
-    "inne": 8,
+    "naukowiec": 38,
+    "filozof": 18,
+    "inne": 13,
     "muzyk": 10,
-    "pisarz": 15,
-    "polityk": 14,
-    "architekt": 8,
-    "malarz": 17,
-    "projektant": 6,
-    "rzeźbiarz": 3,
+    "pisarz": 60,
+    "polityk": 47,
+    "architekt": 85,
+    "malarz": 52,
+    "projektant": 7,
+    "rzeźbiarz": 15,
     "przemysłowiec": 3,
-    "filmowiec": 4,
+    "filmowiec": 5,
     "fotograf": 2
    },
    "byCentury": {
+    "1": 8,
+    "2": 2,
+    "3": 1,
     "10": 1,
     "11": 1,
-    "16": 2,
-    "17": 1,
-    "18": 5,
-    "19": 31,
-    "20": 66,
-    "-5": 1,
-    "-4": 1,
-    "-1": 1
+    "13": 1,
+    "15": 4,
+    "16": 7,
+    "17": 2,
+    "18": 12,
+    "19": 89,
+    "20": 149,
+    "-5": 20,
+    "-4": 9,
+    "-1": 9,
+    "-23": 2,
+    "-24": 1,
+    "-26": 3,
+    "-7": 4,
+    "-22": 1,
+    "-19": 1,
+    "-6": 8,
+    "-32": 1,
+    "-27": 2,
+    "-16": 1,
+    "-15": 1,
+    "-14": 6,
+    "-8": 1,
+    "-3": 3,
+    "-2": 1
    },
    "byCountry": {
-    "zagranica": 58,
-    "Polska": 53
+    "zagranica": 208,
+    "Polska": 147
    },
    "byGender": {
-    "m": 102,
-    "f": 9
+    "m": 323,
+    "f": 31,
+    "k": 1
    },
-   "lodz": 26,
-   "withWorks": 53,
-   "works": 191,
+   "lodz": 31,
+   "withWorks": 203,
+   "works": 636,
    "lodzStrength": {
     "temat": 3,
-    "mieszkali": 24,
+    "mieszkali": 25,
     "epizod": 9,
     "brak": 6,
     "urodzeni": 17
    },
-   "lodzAll": 55
+   "lodzAll": 56
   }
  }
 }

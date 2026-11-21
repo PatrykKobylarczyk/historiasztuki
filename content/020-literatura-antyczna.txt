@@ -1,0 +1,106 @@
+---
+n: 20
+title: Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz
+subtitle: Opowieści, które czytamy od trzech tysięcy lat
+era: Grecja i Rzym · VIII w. p.n.e.–II w. n.e.
+next: Muzyka, teatr i codzienność starożytnego świata.
+---
+
+[jingle]
+
+[gospodarz]
+KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty: literatura antyczna, od Homera do Owidiusza.
+
+Gdy mówimy, że ktoś ma piętę achillesową, że zadanie jest syzyfową pracą, a podróż była prawdziwą odyseją, mówimy językiem starożytnych poetów. Ich opowieści przetrwały upadek imperiów, bo były przepisywane, tłumaczone i czytane w każdym pokoleniu. Dziś poznamy najważniejsze z nich.
+
+# Rozdział I. Homer — Iliada i Odyseja
+
+[literatura]
+Na początku literatury europejskiej stoją dwa poematy przypisywane Homerowi: Iliada i Odyseja, spisane prawdopodobnie w ósmym albo siódmym wieku przed naszą erą. Nie wiemy, kim był Homer, czy był jednym poetą, czy imieniem dla całej tradycji wędrownych śpiewaków. Pewne jest, że te poematy długo żyły w przekazie ustnym, recytowane heksametrem, rytmicznym wierszem, który ułatwiał zapamiętanie tysięcy wersów.
+
+Iliada nie opowiada całej wojny trojańskiej, tylko kilka tygodni jej dziesiątego roku i gniew Achillesa. Jest pełna bitew, ale jej najpiękniejsze sceny są ciche: pożegnanie Hektora z żoną Andromachą i synkiem, który boi się pióropusza na hełmie ojca, i noc, gdy stary król Priam przychodzi do Achillesa błagać o ciało zabitego syna. Wróg i ojciec płaczą razem. Odyseja to z kolei dziesięcioletni powrót Odyseusza do domu na Itakę, przez cyklopa, czarodziejkę Kirke, syreny i podróż do krainy umarłych, a w domu czeka wierna Penelopa i syn Telemach.
+
+# Rozdział II. Liryka — Safona i poeci uczuć
+
+[literatura]
+Obok eposu narodziła się liryka, poezja śpiewana przy lirze, mówiąca w pierwszej osobie o uczuciach. Najsłynniejszą poetką była Safona z wyspy Lesbos, żyjąca na przełomie siódmego i szóstego wieku przed naszą erą. Platon nazwał ją dziesiątą muzą. Z jej dziewięciu ksiąg przetrwały głównie fragmenty, czasem kilka słów na skrawku papirusu, a mimo to jej wiersze o miłości i zazdrości należą do najczęściej tłumaczonych tekstów świata.
+
+Pindar pisał pieśni na cześć zwycięzców olimpijskich, Anakreont o winie i radości życia. Strofa saficka, wymyślona dla jej pieśni, wróciła w poezji polskiej: pisał nią między innymi Jan Kochanowski.
+
+# Rozdział III. Tragicy
+
+[literatura]
+O teatrze greckim mówiliśmy w odcinku dwunastym. Przypomnijmy trzech wielkich tragików Aten, bo ich teksty to literatura, którą czyta się do dziś. Ajschylos w trylogii Oresteja opowiada, jak krwawa zemsta w rodzie Agamemnona zostaje przerwana przez sąd. Sofokles w Królu Edypie buduje śledztwo, w którym detektyw odkrywa, że sam jest winnym, a w Antygonie stawia pytanie, czy prawo państwa stoi wyżej niż sumienie. Eurypides w Medei i Trojankach pokazuje kobiety i ofiary wojny z empatią, która zaskakuje do dziś.
+
+Arystoteles w Poetyce, pierwszym podręczniku teorii literatury, opisał tragedię jako naśladowanie działania, które przez litość i trwogę prowadzi do katharsis, oczyszczenia. Zasady, które z niego wyczytano, rządziły dramatem europejskim jeszcze w siedemnastym wieku.
+
+# Rozdział IV. Historycy
+
+[historyk]
+Literaturą była też historia. Herodot z Halikarnasu, nazwany przez Cycerona ojcem historii, opisał wojny grecko-perskie, a przy okazji obyczaje Egipcjan, Scytów i Persów, z ciekawością podróżnika i talentem do anegdoty. Tukidydes, Ateńczyk, opisał wojnę peloponeską, w której sam dowodził. Chciał pisać nie dla przyjemności słuchaczy, ale jako dzieło na zawsze, sprawdzając świadectwa i szukając przyczyn. Jego analiza władzy i strachu jest czytana do dziś w akademiach wojskowych.
+
+W Rzymie Tytus Liwiusz napisał historię miasta od założenia, a Tacyt, o którym wspominaliśmy przy Pliniuszu, opisał cesarzy z gorzką ironią. Plutarch z Grecji zestawił w Żywotach równoległych biografie słynnych Greków i Rzymian, a Szekspir czerpał z nich fabuły swoich rzymskich dramatów.
+
+# Rozdział V. Wergiliusz i Eneida
+
+[literatura]
+Najważniejszy poeta Rzymu, Wergiliusz, żył w czasach Augusta. Najpierw pisał Bukoliki, wiersze o pasterzach, i Georgiki o pracy na roli. Potem przez ponad dziesięć lat pracował nad Eneidą, rzymską odpowiedzią na Homera. To historia Eneasza, trojańskiego bohatera, który ucieka z płonącej Troi z ojcem na plecach i synem za rękę, a po latach tułaczki osiada w Italii, gdzie jego potomkowie założą Rzym.
+
+Najbardziej znany epizod to miłość Eneasza i Dydony, królowej Kartaginy. Bogowie każą mu odpłynąć, a Dydona odbiera sobie życie. Wergiliusz umarł, zanim skończył poprawiać poemat, i podobno prosił, by go spalić. August się nie zgodził. W średniowieczu Wergiliusz był tak ceniony, że Dante uczynił go swoim przewodnikiem po piekle i czyśćcu w Boskiej komedii.
+
+# Rozdział VI. Horacy i Owidiusz
+
+[literatura]
+Przyjaciel Wergiliusza, Horacy, pisał ody i satyry. To od niego pochodzi wezwanie, by chwytać dzień, carpe diem, i przekonanie, że poeta stawia sobie pomnik trwalszy niż ze spiżu. Horacy był wzorem dla Kochanowskiego, który przetłumaczył i przerobił wiele jego pieśni.
+
+Owidiusz był najmłodszy i najbardziej przekorny. Pisał wiersze miłosne i poradnik Sztuka kochania, a jego arcydziełem są Metamorfozy: ponad dwieście mitów o przemianach. Dafne zamienia się w drzewo laurowe, Narcyz zakochuje się we własnym odbiciu, Ikar spada do morza, a Pigmalion ożywia rzeźbę. Z Metamorfoz czerpali malarze od Tycjana po Rubensa i rzeźbiarze jak Bernini. W ósmym roku naszej ery August zesłał Owidiusza nad Morze Czarne, do Tomis, dzisiejszej Konstancy w Rumunii, z powodów, których nie znamy. Poeta pisał stamtąd smutne Żale i nigdy nie wrócił.
+
+# Rozdział VII. Jak antyk przetrwał
+
+[literatura]
+Większość antycznej literatury zaginęła. Przetrwało to, co przepisywano: najpierw na zwojach papirusu, potem w kodeksach z pergaminu, w Bizancjum i w klasztorach zachodniej Europy. Wielka Biblioteka Aleksandryjska, o której mówiliśmy przy hellenizmie, nie spłonęła w jednej chwili, lecz upadała stopniowo. Mamy tylko siedem tragedii Ajschylosa i siedem Sofoklesa, choć napisali ich ponad dwieście.
+
+W Polsce antyk był podstawą edukacji przez wieki. Kochanowski tłumaczył i naśladował Horacego, Mickiewicz w Panu Tadeuszu sięgał po homerycki styl porównań, a Jan Parandowski w Mitologii opowiedział mity tak, że czytały je kolejne pokolenia uczniów. Zbigniew Herbert wracał w wierszach do postaci antycznych, by mówić o współczesności. Dzięki tłumaczom, takim jak Franciszek Dmochowski, który przełożył Iliadę, czy Jan Parandowski, który przełożył Odyseję prozą, możemy dziś czytać te teksty po polsku.
+
+# Zakończenie
+
+[gospodarz]
+Podsumujmy. Poznaliśmy Homera, Iliadę i Odyseję, lirykę Safony, tragedie Ajschylosa, Sofoklesa i Eurypidesa, historyków od Herodota do Tacyta, Eneidę Wergiliusza, Horacego i Metamorfozy Owidiusza, a na koniec drogę, którą te teksty przeszły do nas.
+
+W następnym odcinku zajrzymy do codzienności starożytnych: muzyka, teatr, igrzyska, uczty i to, jak żyli zwykli ludzie.
+
+To była KULTURA. Do usłyszenia.
+
+[outro]
+
+## Galeria
+![Popiersie Homera](Homer British Museum bust) @1
+![Achilles i Ajaks grający w kości, wazon Eksekiasa](Exekias Achilles Ajax) @1
+![Safona na fresku z Pompejów](Sappho Pompeii fresco) @2
+![Popiersie Sofoklesa](Sophocles bust) @3
+![Mozaika z Wergiliuszem i muzami](Virgil mosaic Bardo) @5
+![Apollo i Dafne, Bernini](Apollo and Daphne Bernini) @6
+![Pomnik Owidiusza w Konstancy](Ovid statue Constanta) @6
+
+## Słowniczek
+- Epos: długi poemat o czynach bohaterów.
+- Heksametr: sześciostopowy wiersz eposów antycznych.
+- Liryka: poezja wyrażająca uczucia w pierwszej osobie.
+- Strofa saficka: forma zwrotki pochodząca od Safony.
+- Katharsis: oczyszczenie przez litość i trwogę.
+- Carpe diem: chwytaj dzień, maksyma Horacego.
+- Metamorfozy: poemat Owidiusza o przemianach.
+- Kodeks: książka z kartek, następczyni zwoju.
+
+## Pytania
+? Czego dotyczy Iliada? | Całej wojny trojańskiej | Gniewu Achillesa w dziesiątym roku wojny* | Powrotu Odyseusza | Iliada obejmuje tylko kilka tygodni wojny.
+? Kogo Platon nazwał dziesiątą muzą? | Penelopę | Safonę* | Antygonę | Safona była najsłynniejszą poetką liryczną.
+? Kto jest bohaterem Eneidy? | Achilles | Eneasz, uciekinier z Troi* | Romulus | Jego potomkowie mieli założyć Rzym.
+? Od kogo pochodzi maksyma carpe diem? | Owidiusz | Horacy* | Homer | Horacy był wzorem dla Kochanowskiego.
+? Dokąd zesłano Owidiusza? | Na Sycylię | Do Tomis nad Morzem Czarnym* | Do Egiptu | Tomis to dzisiejsza Konstanca w Rumunii.
+
+## Źródła
+- [Homer — Encyclopaedia Britannica](https://www.britannica.com/biography/Homer-Greek-poet)
+- [Wergiliusz — Encyclopaedia Britannica](https://www.britannica.com/biography/Virgil)
+- [Owidiusz — Encyclopaedia Britannica](https://www.britannica.com/biography/Ovid-Roman-poet)
+- [Safona — Wikipedia](https://pl.wikipedia.org/wiki/Safona)

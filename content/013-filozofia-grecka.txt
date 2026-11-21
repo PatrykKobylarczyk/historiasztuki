@@ -1,0 +1,106 @@
+---
+n: 13
+title: Filozofia grecka — Sokrates, Platon i Arystoteles
+subtitle: Pytanie, idea i rozum
+era: Grecja · V–IV wiek p.n.e.
+next: Grecka architektura — świątynia, porządek i miasto.
+---
+
+[jingle]
+
+[gospodarz]
+KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzynasty: filozofia grecka. Sokrates, Platon i Arystoteles.
+
+Brytyjski filozof Alfred North Whitehead napisał kiedyś, że cała filozofia europejska to przypisy do Platona. To przesada, ale niewielka. Trzech ateńskich myślicieli, nauczyciel, uczeń i uczeń ucznia, postawiło pytania, nad którymi głowimy się do dziś: co to jest dobro, sprawiedliwość, piękno, prawda i dobre życie.
+
+# Rozdział I. Sofiści i Demokryt
+
+[literatura]
+W piątym wieku przed naszą erą do demokratycznych Aten przybywają sofiści, wędrowni nauczyciele, którzy za pieniądze uczą sztuki przemawiania i przekonywania. W demokracji, gdzie decyduje zgromadzenie i sąd, umiejętność mówienia to władza. Najsłynniejszy z nich, Protagoras, mówi, że człowiek jest miarą wszechrzeczy. Prawda zależy więc od tego, kto patrzy.
+
+W tym samym czasie w Abderze Demokryt twierdzi, że świat składa się z niepodzielnych cząstek, atomów, poruszających się w próżni. Nazwa atom oznacza po grecku niepodzielny. Ta hipoteza wróci w nauce dopiero po dwóch tysiącach lat.
+
+# Rozdział II. Sokrates — człowiek, który pytał
+
+[literatura]
+Sokrates nie napisał ani słowa. Znamy go z dialogów Platona i wspomnień Ksenofonta. Był brzydki, chodził boso, był żołnierzem i mężem kłótliwej Ksantypy. Całe dnie spędzał na agorze, zaczepiając ludzi i pytając ich: co to jest odwaga? co to jest sprawiedliwość? Ludzie odpowiadali pewnie, a Sokrates kolejnymi pytaniami pokazywał im, że tak naprawdę nie wiedzą. Nazywał to akuszerią, sztuką pomagania przy narodzinach myśli.
+
+Wyrocznia delficka podobno nazwała go najmądrzejszym z ludzi. Sokrates uznał, że chodzi o to, że on jeden wie, że nic nie wie. W czterysta dziewięćdziesiątym dziewiątym roku przed naszą erą oskarżono go o bezbożność i psucie młodzieży. Sąd skazał go na śmierć. Mógł uciec, ale wypił cykutę, bo nie chciał łamać praw miasta. Jego śmierć stała się jednym z mitów założycielskich filozofii: myśleć do końca, nawet za cenę życia.
+
+# Rozdział III. Platon — świat idei
+
+[literatura]
+Platon, arystokrata i uczeń Sokratesa, założył w trzysta osiemdziesiątym siódmym roku przed naszą erą w gaju Akademosa szkołę, nazwaną Akademią. Przetrwała ponad dziewięćset lat. Od niej pochodzą wszystkie nasze akademie.
+
+Platon uważał, że rzeczy, które widzimy, są tylko niedoskonałymi odbiciami idei: wiecznych, doskonałych wzorów. Każde konkretne koło jest krzywe, ale idea koła jest doskonała. W słynnej alegorii jaskini ludzie siedzą przykuci tyłem do wejścia i widzą tylko cienie na ścianie, biorąc je za rzeczywistość. Filozof to ten, kto uwolni się z kajdan, wyjdzie na słońce i zobaczy prawdziwy świat. A potem wróci, żeby powiedzieć innym, choć oni mogą go za to wyśmiać albo zabić, jak Sokratesa.
+
+W „Państwie” Platon projektuje idealne miasto rządzone przez filozofów. To piękna i niepokojąca wizja: sprawiedliwość, ale i kontrola, cenzura poezji i podział ludzi na klasy. Filozof Karl Popper uznał ją za jedno ze źródeł myśli totalitarnej.
+
+# Rozdział IV. Arystoteles — rozum, który porządkuje
+
+[literatura]
+Arystoteles przyjechał do Akademii jako siedemnastolatek i spędził tam dwadzieścia lat. Potem był nauczycielem młodego Aleksandra Macedońskiego, a w końcu założył własną szkołę w Atenach, Liceum. Wykładał podobno spacerując, dlatego jego uczniów nazywano perypatetykami.
+
+Arystoteles nie wierzył w osobny świat idei. Uważał, że forma i istota rzeczy są w samych rzeczach i trzeba je badać, obserwując świat. Pisał o logice, fizyce, biologii, etyce, polityce, retoryce i sztuce. Opisał setki gatunków zwierząt, sam je rozcinając. Stworzył logikę formalną, która przez dwa tysiące lat była podstawą nauki. W „Etyce nikomachejskiej” pisze, że celem życia jest szczęście, czyli eudajmonia, a cnota to złoty środek między skrajnościami: odwaga leży między tchórzostwem a brawurą.
+
+# Rozdział V. Szkoła Ateńska
+
+[sztuka]
+Najsłynniejszy obraz o greckiej filozofii namalował prawie dwa tysiące lat później Rafael. W watykańskiej Stanzy della Segnatura, na fresku nazywanym Szkołą Ateńską, w ogromnej, sklepionej hali stoją w środku dwaj mędrcy. Platon wskazuje palcem w górę, w stronę świata idei. Arystoteles wyciąga dłoń poziomo, w stronę ziemi i doświadczenia. W jednym geście Rafael streścił spór, który trwa do dziś.
+
+Wokół nich tłoczą się inni filozofowie: Sokrates rozmawiający z młodzieńcami, Pitagoras piszący w księdze, Heraklit zamyślony na schodach, Diogenes leżący niedbale. Wielu z nich ma twarze współczesnych Rafaelowi artystów. Platon ma podobno twarz Leonarda da Vinci.
+
+# Rozdział VI. Architektura szkoły
+
+[architekt]
+Pozwolę sobie na krótką uwagę o przestrzeni. Greccy filozofowie myśleli w miejscach publicznych: na agorze, w gimnazjonach, w kolumnadach zwanych stoami. Od stoi malowanej na ateńskiej agorze, gdzie nauczał Zenon z Kition, pochodzi nazwa stoików. Myślenie było częścią życia miasta, a nie zamknięte za murami.
+
+Ta tradycja wraca w architekturze uniwersytetów: dziedzińce z krużgankami w Oksfordzie i w Collegium Maius w Krakowie, ale też współczesne kampusy, w których projektuje się przestrzenie do spotkań i rozmów, a nie tylko sale wykładowe.
+
+# Rozdział VII. Grecka filozofia w Polsce i w Łodzi
+
+[historyk]
+Polska ma swoich wielkich badaczy filozofii greckiej. Władysław Tatarkiewicz napisał w tysiąc dziewięćset trzydziestym pierwszym roku „Historię filozofii”, z której uczyło się kilka pokoleń Polaków, a jego „Historia estetyki” zaczyna się właśnie od Greków.
+
+W Łodzi szczególną postacią jest Tadeusz Kotarbiński, pierwszy rektor Uniwersytetu Łódzkiego po tysiąc dziewięćset czterdziestym piątym roku. Twórca reizmu, poglądu, że istnieją tylko konkretne rzeczy, a nie abstrakcyjne byty, prowadził spór, który zaczął się między Platonem a Arystotelesem. Napisał też „Traktat o dobrej robocie”, w którym, trochę po arystotelesowsku, zastanawiał się, czym jest sprawne i rozsądne działanie. Łódź, miasto pracy, miało więc w swoim pierwszym rektorze filozofa pracy.
+
+# Zakończenie
+
+[gospodarz]
+Podsumujmy. Poznaliśmy sofistów i Demokryta z jego atomami, Sokratesa i jego pytania, Platona z jaskinią i światem idei, Arystotelesa, który wszystko badał i porządkował, „Szkołę Ateńską” Rafaela, filozofię w kolumnadach i krużgankach, a na koniec Tatarkiewicza i łódzkiego Kotarbińskiego.
+
+W następnym odcinku wychodzimy z Akademii na ulice greckich miast: grecka architektura, świątynia, porządek i miasto.
+
+To była KULTURA. Do usłyszenia.
+
+[outro]
+
+## Galeria
+![Szkoła Ateńska, Rafael](The School of Athens Raphael) @5
+![Popiersie Sokratesa](Socrates bust Louvre) @2
+![Popiersie Platona](Plato Silanion) @3
+![Popiersie Arystotelesa](Aristotle Altemps) @4
+![Śmierć Sokratesa, Jacques-Louis David](Death of Socrates David) @2
+![Stoa Attalosa na ateńskiej agorze](Stoa of Attalos) @6
+
+## Słowniczek
+- Sofiści: wędrowni nauczyciele retoryki w Atenach.
+- Atom: według Demokryta niepodzielna cząstka materii.
+- Metoda sokratejska: dochodzenie do prawdy przez pytania.
+- Idea: według Platona wieczny, doskonały wzór rzeczy.
+- Akademia i Liceum: szkoły Platona i Arystotelesa.
+- Eudajmonia: szczęście jako cel życia według Arystotelesa.
+- Reizm: pogląd Kotarbińskiego, że istnieją tylko konkretne rzeczy.
+
+## Pytania
+? Dlaczego Sokrates uważał się za mądrego? | Bo przeczytał wszystkie księgi | Bo wiedział, że nic nie wie* | Bo był bogaty | Tak zinterpretował słowa wyroczni delfickiej.
+? Co oznacza alegoria jaskini Platona? | Że należy mieszkać w jaskiniach | Że świat zmysłów to cienie, a prawda to świat idei* | Że trzeba bać się ciemności | Filozof wychodzi z jaskini ku prawdziwemu światu.
+? Jak Rafael przedstawił różnicę między Platonem a Arystotelesem? | Kolorami szat | Gestem: Platon wskazuje w górę, Arystoteles ku ziemi* | Wiekiem | Gesty streszczają spór idei i doświadczenia.
+? Kogo uczył Arystoteles? | Peryklesa | Aleksandra Macedońskiego* | Sokratesa | Arystoteles był nauczycielem przyszłego Aleksandra Wielkiego.
+? Kto był pierwszym rektorem Uniwersytetu Łódzkiego? | Władysław Tatarkiewicz | Tadeusz Kotarbiński* | Stefan Banach | Kotarbiński był rektorem w latach 1945–1949.
+
+## Źródła
+- [Sokrates — Wikipedia](https://pl.wikipedia.org/wiki/Sokrates)
+- [Platon — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/plato/)
+- [Szkoła Ateńska — Wikipedia](https://pl.wikipedia.org/wiki/Szko%C5%82a_ate%C5%84ska)
+- [Tadeusz Kotarbiński — Wikipedia](https://pl.wikipedia.org/wiki/Tadeusz_Kotarbi%C5%84ski)

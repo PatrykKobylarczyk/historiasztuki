@@ -212,7 +212,7 @@
  },
  "Wojciech Fangor": {
   "creator": "Wojciech Fangor",
-  "date": "1950",
+  "date": "1922–2015",
   "place": ""
  },
  "Muzeum Sztuki w Łodzi ms1": {
@@ -434,5 +434,855 @@
   "creator": "pałac Oskara Kona",
   "date": "szkoła od 1948",
   "place": "Łódź, ul. Targowa 61/63"
+ },
+ "Ziggurat of Ur": {
+  "creator": "król Ur-Nammu (III dynastia z Ur)",
+  "date": "ok. 2100 p.n.e. (częściowa rekonstrukcja XX w.)",
+  "place": "Ur, Irak"
+ },
+ "Warka Vase": {
+  "creator": "nieznany twórca sumeryjski",
+  "date": "ok. 3200–3000 p.n.e.",
+  "place": "Uruk; Muzeum Iraku, Bagdad"
+ },
+ "Cylinder seal impression": {
+  "creator": "twórcy mezopotamscy",
+  "date": "IV–I tysiąclecie p.n.e.",
+  "place": "Mezopotamia"
+ },
+ "cuneiform tablet": {
+  "creator": "pisarze mezopotamscy",
+  "date": "III–I tysiąclecie p.n.e.",
+  "place": "Mezopotamia"
+ },
+ "Standard of Ur": {
+  "creator": "nieznany twórca sumeryjski",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Ur; British Museum, Londyn"
+ },
+ "Puabi headdress": {
+  "creator": "złotnicy sumeryjscy",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Ur; Penn Museum, Filadelfia"
+ },
+ "Bull Headed Lyre Ur": {
+  "creator": "nieznany twórca sumeryjski",
+  "date": "ok. 2500 p.n.e.",
+  "place": "Ur"
+ },
+ "Flood tablet Gilgamesh": {
+  "creator": "pisarze biblioteki Asurbanipala",
+  "date": "VII w. p.n.e.",
+  "place": "Niniwa; British Museum, Londyn"
+ },
+ "Victory Stele of Naram-Sin": {
+  "creator": "nieznany twórca akadyjski",
+  "date": "ok. 2250 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Gudea statue": {
+  "creator": "warsztat z Lagasz",
+  "date": "ok. 2120 p.n.e.",
+  "place": "Lagasz (Girsu), Irak"
+ },
+ "Code of Hammurabi stele": {
+  "creator": "zamówienie króla Hammurabiego",
+  "date": "ok. 1754 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Lamassu Louvre": {
+  "creator": "warsztat asyryjski, pałac Sargona II",
+  "date": "ok. 713–706 p.n.e.",
+  "place": "Chorsabad; Luwr, Paryż"
+ },
+ "Lion Hunt of Ashurbanipal": {
+  "creator": "warsztat asyryjski",
+  "date": "ok. 645–635 p.n.e.",
+  "place": "Niniwa; British Museum, Londyn"
+ },
+ "Ishtar Gate Pergamon": {
+  "creator": "zamówienie Nabuchodonozora II",
+  "date": "ok. 575 p.n.e.",
+  "place": "Babilon; Muzeum Pergamońskie, Berlin"
+ },
+ "Tower of Babel Bruegel Vienna": {
+  "creator": "Pieter Bruegel starszy",
+  "date": "1563",
+  "place": "Kunsthistorisches Museum, Wiedeń"
+ },
+ "Cyrus Cylinder": {
+  "creator": "pisarze Cyrusa Wielkiego",
+  "date": "po 539 p.n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Narmer Palette": {
+  "creator": "warsztat królewski wczesnego Egiptu",
+  "date": "ok. 3100 p.n.e.",
+  "place": "Hierakonpolis; Muzeum Egipskie, Kair"
+ },
+ "Pyramid of Djoser": {
+  "creator": "Imhotep",
+  "date": "ok. 2650 p.n.e.",
+  "place": "Sakkara, Egipt"
+ },
+ "Giza pyramid complex": {
+  "creator": "budowniczowie IV dynastii",
+  "date": "ok. 2560–2500 p.n.e.",
+  "place": "Giza, Egipt"
+ },
+ "Papyrus of Hunefer": {
+  "creator": "skryba z Teb",
+  "date": "ok. 1275 p.n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Karnak hypostyle hall": {
+  "creator": "faraonowie Seti I i Ramzes II",
+  "date": "XIII w. p.n.e.",
+  "place": "Karnak, Luksor"
+ },
+ "Temple of Hatshepsut": {
+  "creator": "Senenmut (dla królowej Hatszepsut)",
+  "date": "ok. 1479–1458 p.n.e.",
+  "place": "Deir el-Bahari, Luksor"
+ },
+ "Abu Simbel temple": {
+  "creator": "zamówienie Ramzesa II",
+  "date": "ok. 1264–1244 p.n.e.; przeniesiona 1964–1968",
+  "place": "Abu Simbel, Egipt"
+ },
+ "Tutankhamun mask": {
+  "creator": "złotnicy królewscy",
+  "date": "ok. 1323 p.n.e.",
+  "place": "Muzeum Egipskie, Kair"
+ },
+ "Rosetta Stone": {
+  "creator": "dekret kapłanów z Memfis",
+  "date": "196 p.n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Nebamun garden": {
+  "creator": "malarz z Teb",
+  "date": "ok. 1350 p.n.e.",
+  "place": "grób Nebamuna; British Museum, Londyn"
+ },
+ "Meidum Geese": {
+  "creator": "malarz z mastaby Nefermaata",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Meidum; Muzeum Egipskie, Kair"
+ },
+ "Khafre statue": {
+  "creator": "warsztat królewski IV dynastii",
+  "date": "ok. 2550 p.n.e.",
+  "place": "Muzeum Egipskie, Kair"
+ },
+ "Seated Scribe Louvre": {
+  "creator": "nieznany rzeźbiarz egipski",
+  "date": "ok. 2600–2350 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Rahotep and Nofret": {
+  "creator": "nieznany rzeźbiarz egipski",
+  "date": "ok. 2600 p.n.e.",
+  "place": "Meidum; Muzeum Egipskie, Kair"
+ },
+ "Nefertiti bust Berlin": {
+  "creator": "Thutmose (warsztat)",
+  "date": "ok. 1345 p.n.e.",
+  "place": "Neues Museum, Berlin"
+ },
+ "Tutankhamun throne": {
+  "creator": "warsztat królewski",
+  "date": "ok. 1330 p.n.e.",
+  "place": "Muzeum Egipskie, Kair"
+ },
+ "William the Hippo": {
+  "creator": "nieznany twórca egipski",
+  "date": "ok. 1961–1878 p.n.e.",
+  "place": "Metropolitan Museum of Art, Nowy Jork"
+ },
+ "Fayum mummy portrait": {
+  "creator": "malarze z Fajum",
+  "date": "I–III w. n.e.",
+  "place": "Egipt rzymski"
+ },
+ "Knossos palace": {
+  "creator": "budowniczowie minojscy; rekonstrukcja Arthur Evans",
+  "date": "ok. 1700–1400 p.n.e.",
+  "place": "Knossos, Kreta"
+ },
+ "Mask of Agamemnon": {
+  "creator": "złotnik mykeński",
+  "date": "ok. 1550–1500 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Dipylon Amphora": {
+  "creator": "Mistrz Dipylonu",
+  "date": "ok. 760–750 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Exekias Achilles Ajax": {
+  "creator": "Eksekias",
+  "date": "ok. 540–530 p.n.e.",
+  "place": "Muzea Watykańskie"
+ },
+ "Kroisos Kouros": {
+  "creator": "nieznany rzeźbiarz attycki",
+  "date": "ok. 530 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Peplos Kore": {
+  "creator": "nieznany rzeźbiarz attycki",
+  "date": "ok. 530 p.n.e.",
+  "place": "Muzeum Akropolu, Ateny"
+ },
+ "Paestum Temple of Hera": {
+  "creator": "koloniści greccy",
+  "date": "ok. 550 p.n.e.",
+  "place": "Paestum, Włochy"
+ },
+ "Thales of Miletus": {
+  "creator": "wizerunek wyobrażony (portret późniejszy)",
+  "date": "Tales z Miletu, ok. 624–546 p.n.e.",
+  "place": ""
+ },
+ "Wainwright Building": {
+  "creator": "Louis Sullivan (z D. Adlerem)",
+  "date": "1890–1891",
+  "place": "Saint Louis, USA"
+ },
+ "Casa Batlló": {
+  "creator": "Antoni Gaudí",
+  "date": "1904–1906",
+  "place": "Barcelona"
+ },
+ "Fallingwater": {
+  "creator": "Frank Lloyd Wright",
+  "date": "1935–1939",
+  "place": "Pensylwania, USA"
+ },
+ "Bauhaus Dessau": {
+  "creator": "Walter Gropius",
+  "date": "1925–1926",
+  "place": "Dessau, Niemcy"
+ },
+ "Barcelona Pavilion": {
+  "creator": "Ludwig Mies van der Rohe (z Lilly Reich)",
+  "date": "1929; rekonstrukcja 1986",
+  "place": "Barcelona"
+ },
+ "Villa Savoye": {
+  "creator": "Le Corbusier i Pierre Jeanneret",
+  "date": "1928–1931",
+  "place": "Poissy, Francja"
+ },
+ "Salk Institute": {
+  "creator": "Louis Kahn",
+  "date": "1959–1965",
+  "place": "La Jolla, Kalifornia"
+ },
+ "Sydney Opera House": {
+  "creator": "Jørn Utzon",
+  "date": "1957–1973",
+  "place": "Sydney, Australia"
+ },
+ "National Congress Brasilia": {
+  "creator": "Oscar Niemeyer",
+  "date": "1958–1960",
+  "place": "Brasília"
+ },
+ "MASP São Paulo": {
+  "creator": "Lina Bo Bardi",
+  "date": "1957–1968",
+  "place": "São Paulo"
+ },
+ "Guggenheim Museum Bilbao": {
+  "creator": "Frank Gehry",
+  "date": "1997",
+  "place": "Bilbao, Hiszpania"
+ },
+ "Memorial to the Murdered Jews of Europe": {
+  "creator": "Peter Eisenman",
+  "date": "2005",
+  "place": "Berlin"
+ },
+ "Centre Pompidou": {
+  "creator": "Renzo Piano i Richard Rogers",
+  "date": "1971–1977",
+  "place": "Paryż"
+ },
+ "Reichstag dome": {
+  "creator": "Norman Foster",
+  "date": "1999",
+  "place": "Berlin"
+ },
+ "MAXXI Rome": {
+  "creator": "Zaha Hadid",
+  "date": "2010",
+  "place": "Rzym"
+ },
+ "Church of the Light": {
+  "creator": "Tadao Ando",
+  "date": "1989",
+  "place": "Ibaraki, Japonia"
+ },
+ "21st Century Museum of Contemporary Art Kanazawa": {
+  "creator": "SANAA (Kazuyo Sejima, Ryue Nishizawa)",
+  "date": "2004",
+  "place": "Kanazawa, Japonia"
+ },
+ "Therme Vals": {
+  "creator": "Peter Zumthor",
+  "date": "1996",
+  "place": "Vals, Szwajcaria"
+ },
+ "Tate Modern": {
+  "creator": "Herzog & de Meuron (dawna elektrownia G. G. Scotta)",
+  "date": "2000",
+  "place": "Londyn"
+ },
+ "Krasiński Palace Warsaw": {
+  "creator": "Tylman z Gameren",
+  "date": "1677–1683",
+  "place": "Warszawa"
+ },
+ "Grand Theatre Warsaw": {
+  "creator": "Antonio Corazzi; odbudowa Bohdan Pniewski",
+  "date": "1825–1833; odbudowa 1951–1965",
+  "place": "Warszawa"
+ },
+ "Willa Pod Jedlami": {
+  "creator": "Stanisław Witkiewicz",
+  "date": "1896–1897",
+  "place": "Zakopane, Koziniec"
+ },
+ "Kaplica na Jaszczurówce": {
+  "creator": "Stanisław Witkiewicz",
+  "date": "1904–1908",
+  "place": "Zakopane"
+ },
+ "Zameczek Prezydenta Wisła": {
+  "creator": "Adolf Szyszko-Bohusz",
+  "date": "1929–1931",
+  "place": "Wisła-Czarne"
+ },
+ "Dorton Arena": {
+  "creator": "Maciej Nowicki (z W. H. Deitrickiem)",
+  "date": "projekt 1950, budowa do 1952",
+  "place": "Raleigh, USA"
+ },
+ "Dom Partii Warszawa": {
+  "creator": "Wacław Kłyszewski, Jerzy Mokrzyński, Eugeniusz Wierzbicki",
+  "date": "1948–1952",
+  "place": "Warszawa"
+ },
+ "Przyczółek Grochowski": {
+  "creator": "Oskar i Zofia Hansenowie",
+  "date": "1963–1974",
+  "place": "Warszawa, Gocław"
+ },
+ "Sedesowce Wrocław": {
+  "creator": "Jadwiga Grabowska-Hawrylak",
+  "date": "1970–1975",
+  "place": "Wrocław, pl. Grunwaldzki"
+ },
+ "Osiedle Tysiąclecia Katowice": {
+  "creator": "Henryk Buszko i Aleksander Franta",
+  "date": "od 1961",
+  "place": "Katowice"
+ },
+ "Biblioteka Uniwersytetu Warszawskiego": {
+  "creator": "Marek Budzyński i Zbigniew Badowski",
+  "date": "1999",
+  "place": "Warszawa, Powiśle"
+ },
+ "NOSPR Katowice": {
+  "creator": "Tomasz Konior",
+  "date": "2014",
+  "place": "Katowice"
+ },
+ "Centrum Dialogu Przełomy": {
+  "creator": "KWK Promes (Robert Konieczny)",
+  "date": "2015",
+  "place": "Szczecin"
+ },
+ "Jan Kochanowski portrait": {
+  "creator": "wizerunek późniejszy",
+  "date": "Jan Kochanowski, 1530–1584",
+  "place": ""
+ },
+ "Adam Mickiewicz daguerreotype": {
+  "creator": "dagerotyp",
+  "date": "Adam Mickiewicz, 1798–1855; zdjęcie z 1842",
+  "place": "Paryż"
+ },
+ "Juliusz Słowacki portrait": {
+  "creator": "portret",
+  "date": "Juliusz Słowacki, 1809–1849",
+  "place": ""
+ },
+ "Zygmunt Krasiński portrait": {
+  "creator": "portret",
+  "date": "Zygmunt Krasiński, 1812–1859",
+  "place": ""
+ },
+ "Cyprian Kamil Norwid portrait": {
+  "creator": "fotografia",
+  "date": "Cyprian Kamil Norwid, 1821–1883",
+  "place": ""
+ },
+ "Crypt of the National Bards Wawel": {
+  "creator": "Katedra Wawelska",
+  "date": "krypta od 1890 (Mickiewicz), 1927 (Słowacki)",
+  "place": "Kraków"
+ },
+ "Julian Tuwim": {
+  "creator": "fotografia",
+  "date": "Julian Tuwim, 1894–1953",
+  "place": ""
+ },
+ "Maria Pawlikowska-Jasnorzewska": {
+  "creator": "fotografia",
+  "date": "Maria Pawlikowska-Jasnorzewska, 1891–1945",
+  "place": ""
+ },
+ "Czesław Miłosz": {
+  "creator": "fotografia",
+  "date": "Czesław Miłosz, 1911–2004",
+  "place": ""
+ },
+ "Wisława Szymborska": {
+  "creator": "fotografia",
+  "date": "Wisława Szymborska, 1923–2012",
+  "place": ""
+ },
+ "Zbigniew Herbert": {
+  "creator": "fotografia",
+  "date": "Zbigniew Herbert, 1924–1998",
+  "place": ""
+ },
+ "Monument to the Fallen Shipyard Workers": {
+  "creator": "Bogdan Pietruszka i zespół",
+  "date": "1980",
+  "place": "Gdańsk"
+ },
+ "Stańczyk Matejko": {
+  "creator": "Jan Matejko",
+  "date": "1862",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Chełmoński Czwórka": {
+  "creator": "Józef Chełmoński",
+  "date": "1881",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Szał uniesień": {
+  "creator": "Władysław Podkowiński",
+  "date": "1894",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Malczewski Melancholia": {
+  "creator": "Jacek Malczewski",
+  "date": "1890–1894",
+  "place": "Muzeum Narodowe w Poznaniu"
+ },
+ "Wyspiański Bóg Ojciec stained glass": {
+  "creator": "Stanisław Wyspiański",
+  "date": "1897–1904",
+  "place": "Bazylika Franciszkanów, Kraków"
+ },
+ "Mehoffer Dziwny ogród": {
+  "creator": "Józef Mehoffer",
+  "date": "1903",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Boznańska Dziewczynka z chryzantemami": {
+  "creator": "Olga Boznańska",
+  "date": "1894",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Hirszenberg Jewish Cemetery": {
+  "creator": "Samuel Hirszenberg",
+  "date": "1892",
+  "place": ""
+ },
+ "Zofia Stryjeńska": {
+  "creator": "Zofia Stryjeńska",
+  "date": "lata 20.–30. XX w.",
+  "place": ""
+ },
+ "Strzemiński unism": {
+  "creator": "Władysław Strzemiński",
+  "date": "1929–1934",
+  "place": "Muzeum Sztuki w Łodzi"
+ },
+ "Katarzyna Kobro spatial composition": {
+  "creator": "Katarzyna Kobro",
+  "date": "1925–1933",
+  "place": "Muzeum Sztuki w Łodzi"
+ },
+ "Tadeusz Kantor": {
+  "creator": "Tadeusz Kantor, teatr Cricot 2",
+  "date": "Umarła klasa, 1975",
+  "place": "Kraków"
+ },
+ "Agora Abakanowicz Chicago": {
+  "creator": "Magdalena Abakanowicz",
+  "date": "2006",
+  "place": "Grant Park, Chicago"
+ },
+ "Estonia monument Stockholm": {
+  "creator": "Mirosław Bałka",
+  "date": "1997",
+  "place": "Sztokholm"
+ },
+ "Parthenon Athens": {
+  "creator": "Iktinos i Kallikrates, nadzór Fidiasz",
+  "date": "447–432 p.n.e.",
+  "place": "Akropol, Ateny"
+ },
+ "Erechtheion Caryatids": {
+  "creator": "warsztat ateński",
+  "date": "ok. 421–406 p.n.e.",
+  "place": "Akropol, Ateny"
+ },
+ "Parthenon frieze": {
+  "creator": "warsztat Fidiasza",
+  "date": "ok. 443–437 p.n.e.",
+  "place": "British Museum, Londyn / Muzeum Akropolu"
+ },
+ "Doryphoros": {
+  "creator": "Poliklet (kopia rzymska)",
+  "date": "oryginał ok. 440 p.n.e.",
+  "place": "Muzeum Archeologiczne, Neapol"
+ },
+ "Discobolus": {
+  "creator": "Myron (kopia rzymska)",
+  "date": "oryginał ok. 450 p.n.e.",
+  "place": "Rzym"
+ },
+ "Corinthian capital": {
+  "creator": "porządek koryncki",
+  "date": "od V–IV w. p.n.e.",
+  "place": ""
+ },
+ "White-ground lekythos": {
+  "creator": "malarz ateński",
+  "date": "V w. p.n.e.",
+  "place": ""
+ },
+ "Hermes and the Infant Dionysus": {
+  "creator": "Praksyteles (lub kopia)",
+  "date": "IV w. p.n.e.",
+  "place": "Muzeum Archeologiczne w Olimpii"
+ },
+ "Theatre of Epidaurus": {
+  "creator": "przypisywany Polikletowi Młodszemu",
+  "date": "IV w. p.n.e.",
+  "place": "Epidauros, Grecja"
+ },
+ "Theatre of Dionysus Athens": {
+  "creator": "teatr ateński",
+  "date": "od V w. p.n.e., przebudowy do czasów rzymskich",
+  "place": "Ateny"
+ },
+ "Theatrical masks mosaic": {
+  "creator": "mozaika rzymska",
+  "date": "II w. n.e.",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Aeschylus bust": {
+  "creator": "kopia rzymska",
+  "date": "Ajschylos, ok. 525–456 p.n.e.",
+  "place": ""
+ },
+ "Sophocles statue": {
+  "creator": "kopia rzymska",
+  "date": "Sofokles, ok. 497–406 p.n.e.",
+  "place": ""
+ },
+ "Euripides bust": {
+  "creator": "kopia rzymska",
+  "date": "Eurypides, ok. 480–406 p.n.e.",
+  "place": ""
+ },
+ "The School of Athens Raphael": {
+  "creator": "Rafael Santi",
+  "date": "1509–1511",
+  "place": "Stanza della Segnatura, Watykan"
+ },
+ "Socrates bust Louvre": {
+  "creator": "kopia rzymska",
+  "date": "Sokrates, ok. 470–399 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Plato Silanion": {
+  "creator": "kopia rzymska według Silaniona",
+  "date": "Platon, ok. 427–347 p.n.e.",
+  "place": ""
+ },
+ "Aristotle Altemps": {
+  "creator": "kopia rzymska według Lizypa",
+  "date": "Arystoteles, 384–322 p.n.e.",
+  "place": "Palazzo Altemps, Rzym"
+ },
+ "Death of Socrates David": {
+  "creator": "Jacques-Louis David",
+  "date": "1787",
+  "place": "Metropolitan Museum of Art, Nowy Jork"
+ },
+ "Stoa of Attalos": {
+  "creator": "fundacja króla Attalosa II; rekonstrukcja 1953–1956",
+  "date": "II w. p.n.e.",
+  "place": "Agora, Ateny"
+ },
+ "Delphi theatre": {
+  "creator": "sanktuarium Apollina",
+  "date": "IV w. p.n.e. (teatr), przebudowy",
+  "place": "Delfy, Grecja"
+ },
+ "Treasury of the Athenians Delphi": {
+  "creator": "fundacja Ateńczyków; rekonstrukcja 1903–1906",
+  "date": "ok. 490 p.n.e.",
+  "place": "Delfy, Grecja"
+ },
+ "Olympia stadium entrance": {
+  "creator": "sanktuarium Zeusa",
+  "date": "IV–III w. p.n.e.",
+  "place": "Olimpia, Grecja"
+ },
+ "Priene": {
+  "creator": "miasto w układzie hippodamejskim",
+  "date": "IV w. p.n.e.",
+  "place": "Priene, Turcja"
+ },
+ "Pella mosaic": {
+  "creator": "mozaikarz Gnosis (podpis)",
+  "date": "ok. 300 p.n.e.",
+  "place": "Pella, Grecja"
+ },
+ "Mausoleum at Halicarnassus model": {
+  "creator": "architekci Pyteos i Satyros (model współczesny)",
+  "date": "ok. 350 p.n.e.",
+  "place": "Halikarnas (Bodrum), Turcja"
+ },
+ "Gods in Color": {
+  "creator": "rekonstrukcja Vinzenza Brinkmanna i zespołu",
+  "date": "oryginały V–IV w. p.n.e.",
+  "place": ""
+ },
+ "Euphronios Krater": {
+  "creator": "Eufronios (malarz) i Euksiteos (garncarz)",
+  "date": "ok. 515 p.n.e.",
+  "place": "Museo Nazionale Cerite, Cerveteri"
+ },
+ "Attic kylix": {
+  "creator": "warsztat ateński",
+  "date": "VI–V w. p.n.e.",
+  "place": ""
+ },
+ "Charioteer of Delphi": {
+  "creator": "nieznany rzeźbiarz grecki",
+  "date": "ok. 474 p.n.e.",
+  "place": "Muzeum Archeologiczne w Delfach"
+ },
+ "Artemision Bronze": {
+  "creator": "nieznany rzeźbiarz grecki",
+  "date": "ok. 460 p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Riace bronzes": {
+  "creator": "nieznani rzeźbiarze greccy",
+  "date": "ok. 460–430 p.n.e.",
+  "place": "Museo Nazionale della Magna Grecia, Reggio di Calabria"
+ },
+ "Athenian tetradrachm owl": {
+  "creator": "mennica ateńska",
+  "date": "V w. p.n.e.",
+  "place": ""
+ },
+ "Tanagra figurine": {
+  "creator": "warsztaty z Tanagry",
+  "date": "IV–III w. p.n.e.",
+  "place": ""
+ },
+ "Antikythera mechanism": {
+  "creator": "nieznany konstruktor grecki",
+  "date": "II–I w. p.n.e.",
+  "place": "Narodowe Muzeum Archeologiczne, Ateny"
+ },
+ "Alexander Mosaic": {
+  "creator": "mozaikarz rzymski według greckiego obrazu",
+  "date": "ok. 100 p.n.e.",
+  "place": "Dom Fauna, Pompeje; Muzeum Archeologiczne, Neapol"
+ },
+ "Pergamon Altar": {
+  "creator": "warsztaty Pergamonu",
+  "date": "ok. 180–160 p.n.e.",
+  "place": "Muzeum Pergamońskie, Berlin"
+ },
+ "Laocoön and His Sons": {
+  "creator": "Agesander, Atenodoros i Polidoros z Rodos",
+  "date": "I w. p.n.e.–I w. n.e. (kopia lub oryginał)",
+  "place": "Muzea Watykańskie"
+ },
+ "Winged Victory of Samothrace": {
+  "creator": "nieznany rzeźbiarz z Rodos",
+  "date": "ok. 190 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Venus de Milo": {
+  "creator": "przypisywana Aleksandrosowi z Antiochii",
+  "date": "ok. 150–125 p.n.e.",
+  "place": "Luwr, Paryż"
+ },
+ "Dying Gaul": {
+  "creator": "kopia rzymska według brązu z Pergamonu",
+  "date": "oryginał ok. 230–220 p.n.e.",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Lighthouse of Alexandria": {
+  "creator": "Sostratos z Knidos (rekonstrukcja wyobrażeniowa)",
+  "date": "ok. 280 p.n.e.",
+  "place": "Aleksandria, Egipt"
+ },
+ "Capitoline Wolf": {
+  "creator": "warsztat etruski lub średniowieczny (spór); bliźnięta z XV w.",
+  "date": "datowanie sporne",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Sarcophagus of the Spouses": {
+  "creator": "nieznany twórca etruski",
+  "date": "ok. 520 p.n.e.",
+  "place": "Muzeum Villa Giulia, Rzym"
+ },
+ "Augustus of Prima Porta": {
+  "creator": "nieznany rzeźbiarz rzymski",
+  "date": "I w. n.e.",
+  "place": "Muzea Watykańskie"
+ },
+ "Ara Pacis": {
+  "creator": "fundacja senatu dla Augusta",
+  "date": "13–9 p.n.e.; pawilon Richarda Meiera 2006",
+  "place": "Rzym"
+ },
+ "Patrician Torlonia": {
+  "creator": "nieznany rzeźbiarz rzymski",
+  "date": "I w. p.n.e.",
+  "place": "Rzym"
+ },
+ "Trajan's Column": {
+  "creator": "przypisywana Apollodorowi z Damaszku",
+  "date": "113 n.e.",
+  "place": "Forum Trajana, Rzym"
+ },
+ "Equestrian Statue of Marcus Aurelius": {
+  "creator": "nieznany rzeźbiarz rzymski",
+  "date": "ok. 175 n.e.",
+  "place": "Muzea Kapitolińskie, Rzym"
+ },
+ "Pantheon interior": {
+  "creator": "budowniczowie cesarza Hadriana",
+  "date": "ok. 113–125 n.e.",
+  "place": "Rzym"
+ },
+ "Colosseum Rome": {
+  "creator": "cesarze Wespazjan i Tytus",
+  "date": "70–80 n.e.",
+  "place": "Rzym"
+ },
+ "Pont du Gard": {
+  "creator": "inżynierowie rzymscy",
+  "date": "I w. n.e.",
+  "place": "Vers-Pont-du-Gard, Francja"
+ },
+ "Baths of Caracalla": {
+  "creator": "cesarz Karakalla",
+  "date": "212–216 n.e.",
+  "place": "Rzym"
+ },
+ "Via Appia Antica": {
+  "creator": "cenzor Appiusz Klaudiusz",
+  "date": "od 312 p.n.e.",
+  "place": "Rzym–Brindisi"
+ },
+ "Ostia Antica insula": {
+  "creator": "budownictwo czynszowe",
+  "date": "II w. n.e.",
+  "place": "Ostia, Włochy"
+ },
+ "Arch of Constantine": {
+  "creator": "senat rzymski dla Konstantyna",
+  "date": "315 n.e.",
+  "place": "Rzym"
+ },
+ "Vitruvian Man": {
+  "creator": "Leonardo da Vinci",
+  "date": "ok. 1490",
+  "place": "Gallerie dell'Accademia, Wenecja"
+ },
+ "Pompeii Vesuvius": {
+  "creator": "miasto rzymskie zasypane przez Wezuwiusza",
+  "date": "79 n.e.",
+  "place": "Pompeje, Włochy"
+ },
+ "Pompeii atrium": {
+  "creator": "budowniczowie rzymscy",
+  "date": "II w. p.n.e.–79 n.e.",
+  "place": "Pompeje"
+ },
+ "Cave canem mosaic": {
+  "creator": "warsztat mozaikarski, Dom Poety Tragicznego",
+  "date": "I w. n.e.",
+  "place": "Pompeje"
+ },
+ "Villa of the Mysteries fresco": {
+  "creator": "nieznany malarz, II styl pompejański",
+  "date": "ok. 60–50 p.n.e.",
+  "place": "Willa Misteriów, Pompeje"
+ },
+ "Villa of Livia garden fresco": {
+  "creator": "nieznany malarz",
+  "date": "ok. 30–20 p.n.e.",
+  "place": "Palazzo Massimo, Rzym"
+ },
+ "Villa Romana del Casale mosaic": {
+  "creator": "warsztaty północnoafrykańskie",
+  "date": "IV w. n.e.",
+  "place": "Piazza Armerina, Sycylia"
+ },
+ "Lycurgus Cup": {
+  "creator": "szklarz rzymski",
+  "date": "IV w. n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Homer British Museum bust": {
+  "creator": "kopia rzymska według oryginału greckiego",
+  "date": "II w. n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Sappho Pompeii fresco": {
+  "creator": "nieznany malarz",
+  "date": "ok. 50 n.e.",
+  "place": "Muzeum Archeologiczne, Neapol"
+ },
+ "Sophocles bust": {
+  "creator": "kopia rzymska według oryginału greckiego",
+  "date": "oryginał IV w. p.n.e.",
+  "place": "zbiory muzealne"
+ },
+ "Virgil mosaic Bardo": {
+  "creator": "warsztat mozaikarski z Hadrumetum",
+  "date": "III w. n.e.",
+  "place": "Muzeum Bardo, Tunis"
+ },
+ "Apollo and Daphne Bernini": {
+  "creator": "Gian Lorenzo Bernini",
+  "date": "1622–1625",
+  "place": "Galleria Borghese, Rzym"
+ },
+ "Ovid statue Constanta": {
+  "creator": "Ettore Ferrari",
+  "date": "1887",
+  "place": "Konstanca, Rumunia"
  }
 }
