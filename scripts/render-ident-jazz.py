@@ -47,16 +47,18 @@ class Mix:
     def __init__(self, sec):
         self.L = np.zeros(int(sec * SR)); self.R = np.zeros(int(sec * SR))
         self.rng = np.random.default_rng(1950)
+        self.SL = np.zeros(int(sec * SR)); self.SR_ = np.zeros(int(sec * SR))   # osobna szyna solisty
 
-    def add(self, x, t, pan):
+    def add(self, x, t, pan, solo=False):
         i = int(t * SR)
         if i >= len(self.L) or i < 0:
             return
-        n = min(len(x), len(self.L) - i)
-        self.L[i:i + n] += x[:n] * np.cos((pan + 1) * np.pi / 4)
-        self.R[i:i + n] += x[:n] * np.sin((pan + 1) * np.pi / 4)
+        L, R = (self.SL, self.SR_) if solo else (self.L, self.R)
+        n = min(len(x), len(L) - i)
+        L[i:i + n] += x[:n] * np.cos((pan + 1) * np.pi / 4)
+        R[i:i + n] += x[:n] * np.sin((pan + 1) * np.pi / 4)
 
-    def play(self, inst, t, notes, dur, vel=1.0, rel=0.12, bend=0.0, players=1, vib=0.0, spread=0.25):
+    def play(self, inst, t, notes, dur, vel=1.0, rel=0.12, bend=0.0, players=1, vib=0.0, spread=0.25, solo=False):
         """Gra jak żywi muzycy: każdy z `players` ma własne drobne przesunięcie w czasie, dynamikę i strój."""
         notes = [note_n(n) if isinstance(n, str) else n for n in (notes if isinstance(notes, (list, tuple)) else [notes])]
         for m in notes:
@@ -79,7 +81,7 @@ class Mix:
                 if len(x) > n:
                     x[n:] *= np.linspace(1, 0, len(x) - n) ** 1.3
                 pan = PAN.get(inst, 0) + (p - (players - 1) / 2) * spread
-                self.add(x * v, t + dt, float(np.clip(pan, -0.9, 0.9)))
+                self.add(x * v, t + dt, 0.0 if solo else float(np.clip(pan, -0.9, 0.9)), solo)
 
     # --- perkusja: prawdziwe próbki zestawu Gretsch (miotełki, ride, stopa) ---
     def ride(self, t, vel=1.0):
@@ -100,19 +102,22 @@ class Mix:
         self.add(hit("ride", 2.2, 0.6) * vel * 0.3, t, 0.3)
         self.add(hit("cymbal", 2.2, 0.6) * vel * 0.12, t, -0.3)
 
-    def master(self, length, peak=0.9):
+    def master(self, length, peak=0.9, solo_gain=2.2):
         rng = np.random.default_rng(1)
         n = int(1.2 * SR); tt = np.arange(n) / SR
         lp = butter(1, 7000, "lowpass", fs=SR, output="sos")
+        pres = butter(2, [1800, 5500], "bandpass", fs=SR, output="sos")
         out = []
-        for ch in (self.L, self.R):  # krótki, „klubowy” pogłos studia
+        for band, solo in ((self.L, self.SL), (self.R, self.SR_)):
             ir = sosfilt(lp, rng.standard_normal(n)) * np.exp(-tt * 5.5)
             ir = np.concatenate([np.zeros(int(0.012 * SR)), ir]); ir /= np.sqrt(np.sum(ir ** 2))
-            out.append(ch + 0.32 * fftconvolve(ch, ir)[:len(ch)])
+            bed = band + 0.32 * fftconvolve(band, ir)[:len(band)]
+            # solista: bliżej mikrofonu — mniej pogłosu, podbita „obecność” 2–5 kHz
+            lead = solo + 0.35 * sosfilt(pres, solo) + 0.14 * fftconvolve(solo, ir)[:len(solo)]
+            out.append(bed + solo_gain * lead)
         st = np.stack(out, 1)[:int(length * SR)]
-        # lekka kompresja i nasycenie — nowoczesne, „premium” brzmienie
         st /= np.max(np.abs(st)) + 1e-9
-        st = np.tanh(st * 1.8) / np.tanh(1.8)
+        st = np.tanh(st * 1.6) / np.tanh(1.6)
         f = int(0.35 * SR); st[-f:] *= (np.linspace(1, 0, f) ** 2)[:, None]
         return st * peak
 
@@ -128,11 +133,11 @@ def compose():
     for b, n, d, bend in motif:
         long = d >= 0.7
         # trąbka prowadzi (z wibrato na długich dźwiękach), saksofon tenorowy dubluje oktawę niżej — brzmienie big bandu
-        m.play(T, sw(b), n, d * B * 1.6, 1.6 if b in (1, 4.5) else 1.4, 0.12, bend, vib=0.14 if long else 0)
-        m.play("tenor_sax", sw(b), note_n(n) - 12, d * B * 1.6, 0.75, 0.12, bend * 0.5, players=2, vib=0.1 if long else 0)
+        m.play(T, sw(b), n, d * B * 1.6, 1.0 if b in (1, 4.5) else 0.9, 0.14, bend, vib=0.14 if long else 0, solo=True)
+        m.play("tenor_sax", sw(b), note_n(n) - 12, d * B * 1.6, 0.45, 0.12, bend * 0.5, players=2, vib=0.1 if long else 0)
     # sekcja saksofonów: miękkie tło akordowe pod motywem
     for b, ch, d in [(0, ["A4", "C5", "E5"], 2.3), (2.5, ["F4", "A4", "C5"], 1.9), (4.5, ["F4", "A4", "D5"], 0.9)]:
-        m.play("alto_sax", sw(b), ch, d * B, 0.32, 0.2, players=2, vib=0.06)
+        m.play("alto_sax", sw(b), ch, d * B, 0.22, 0.2, players=2, vib=0.06)
     # fortepian akcentuje motyw akordami bez prymy (Fmaj9, Dm9 z antycypacją)
     m.play(P, sw(0), ["A3", "C4", "E4", "G4"], 0.35, 0.8)
     m.play(P, sw(2.5), ["F3", "A3", "C4", "E4"], 0.3, 0.7)
@@ -150,15 +155,15 @@ def compose():
     for b, n in run:
         # saksofon altowy prowadzi odpowiedź, fortepian ją cicho dubluje
         acc = b % 1 == 0
-        m.play("alto_sax", sw(b), n, B * (0.62 if acc else 0.4), 1.05 if acc else 0.85, 0.1, -0.6 if b in (7, 9) else 0,
-               vib=0.12 if b == 12 else 0)
-        m.play(P, sw(b), n, 0.2, 0.4 if acc else 0.3, 0.15)
+        m.play("alto_sax", sw(b), n, B * (0.62 if acc else 0.4), 1.0 if acc else 0.85, 0.12, -0.6 if b in (7, 9) else 0,
+               vib=0.12 if b == 12 else 0, solo=True)
+        m.play(P, sw(b), n, 0.2, 0.25 if acc else 0.18, 0.15)
     comp = [(6, ["Bb3", "D4", "F4", "A4"]), (7.5, ["Bb3", "E4", "A4", "D5"]), (9, ["A3", "C4", "E4", "G4"]),
             (10.5, ["Gb3", "C4", "Eb4", "A4"]), (12, ["Bb3", "D4", "F4", "A4"])]
     for b, ch in comp:
         m.play(P, sw(b), ch, 0.3, 0.6)
         # puzony: ciche, długie tło pod solo saksofonu
-        m.play("trombone", sw(b), [note_n(x) - 12 if note_n(x) > 64 else note_n(x) for x in ch[:3]], B * 1.4, 0.28, 0.2, players=2)
+        m.play("trombone", sw(b), [note_n(x) - 12 if note_n(x) > 64 else note_n(x) for x in ch[:3]], B * 1.4, 0.2, 0.2, players=2)
     walk = ["F2", "G2", "A2", "C3", "A2", "Bb2", "D2", "G2"]       # ćwierćnuty, takty 2–3
     for k, n in enumerate(walk):
         m.play(BASS, sw(5 + k), n, B * 0.95, 0.95, 0.08)
@@ -191,7 +196,7 @@ def compose():
             m.play(inst, sw(b), notes, d, 1.1 if chord == "F69" else 0.9, 0.25 if chord == "F69" else 0.06,
                    -1.5 if inst == "trumpet" and chord == "F69" else 0, players=players,
                    vib=0.1 if chord == "F69" and inst != "baritone_sax" else 0)
-    m.play(T, sw(15) + 0.9, "F6", 0.5, 0.9, 0.35, vib=0.15)  # wysoki „dzwonek” trąbki prowadzącej na koniec
+    m.play(T, sw(15) + 0.9, "F6", 0.55, 0.8, 0.4, vib=0.15, solo=True)  # wysoki „dzwonek” trąbki prowadzącej na koniec
     m.play("alto_sax", sw(15) + 0.9, "C6", 0.5, 0.45, 0.35, vib=0.12)
     m.play(P, sw(13.5), ["Bb3", "E4", "Eb5"], 0.18, 0.7)
     m.play(P, sw(14.5), ["Bb3", "E4", "Ab4", "Eb5"], 0.18, 0.75)
