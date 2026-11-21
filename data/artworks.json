@@ -1429,5 +1429,70 @@
   "creator": "złotnicy bizantyńscy i weneccy",
   "date": "X–XIV w.",
   "place": "Bazylika św. Marka, Wenecja"
+ },
+ "Dome of the Rock": {
+  "creator": "fundacja kalifa Abd al-Malika",
+  "date": "691–692",
+  "place": "Jerozolima"
+ },
+ "Mezquita Cordoba arches": {
+  "creator": "budowniczowie emiratu Kordoby",
+  "date": "od 785",
+  "place": "Kordoba, Hiszpania"
+ },
+ "Alhambra muqarnas": {
+  "creator": "artyści dynastii Nasrydów",
+  "date": "XIV w.",
+  "place": "Alhambra, Grenada"
+ },
+ "Blue Quran Kufic": {
+  "creator": "kaligraf północnoafrykański",
+  "date": "IX–X w.",
+  "place": "zbiory muzealne"
+ },
+ "Court of the Lions Alhambra": {
+  "creator": "fundacja Muhammada V",
+  "date": "1362–1391",
+  "place": "Alhambra, Grenada"
+ },
+ "Kruszyniany mosque": {
+  "creator": "społeczność Tatarów polskich",
+  "date": "XVIII w.",
+  "place": "Kruszyniany, Podlasie"
+ },
+ "Monte Cassino Abbey": {
+  "creator": "zakon benedyktynów (odbudowa po 1944)",
+  "date": "zał. ok. 529",
+  "place": "Monte Cassino, Włochy"
+ },
+ "Plan of Saint Gall": {
+  "creator": "nieznany rysownik z Reichenau",
+  "date": "ok. 820–830",
+  "place": "Biblioteka Opactwa, St. Gallen"
+ },
+ "Medieval scribe miniature": {
+  "creator": "iluminator średniowieczny",
+  "date": "XII–XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Knight snail marginalia": {
+  "creator": "iluminator gotycki",
+  "date": "XIV w.",
+  "place": "zbiory europejskie"
+ },
+ "Sulejów Abbey": {
+  "creator": "zakon cystersów",
+  "date": "XII–XIII w.",
+  "place": "Sulejów, województwo łódzkie"
+ },
+ "Hildegard von Bingen Scivias": {
+  "creator": "warsztat Hildegardy z Bingen",
+  "date": "XII w.",
+  "place": "Nadrenia"
+ },
+ "Melk Abbey library": {
+  "creator": "Jakob Prandtauer",
+  "date": "1702–1736",
+  "place": "Melk, Austria"
  }
 }

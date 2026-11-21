@@ -77,6 +77,24 @@
    "total": 5
   },
   {
+   "id": "al-chuwarizmi",
+   "name": "al-Chuwarizmi",
+   "born": 780,
+   "died": 850,
+   "c": "naukowiec",
+   "country": "Bagdad",
+   "g": "m",
+   "desc": "matematyk, od którego nazwiska pochodzi słowo algorytm",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 2,
+     "i": 46
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "aleksander",
    "name": "Aleksander Wielki",
    "born": -356,
@@ -306,9 +324,14 @@
      "n": 20,
      "count": 1,
      "i": 31
+    },
+    {
+     "n": 25,
+     "count": 2,
+     "i": 45
     }
    ],
-   "total": 11
+   "total": 13
   },
   {
    "id": "asurbanipal",
@@ -417,6 +440,45 @@
    "desc": "architektka, autorka wnętrz Musée d'Orsay",
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "awerroes",
+   "name": "Awerroes (Ibn Ruszd)",
+   "born": 1126,
+   "died": 1198,
+   "c": "filozof",
+   "country": "Al-Andalus",
+   "g": "m",
+   "desc": "filozof, komentator Arystotelesa",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 3,
+     "i": 50
+    }
+   ],
+   "total": 3
+  },
+  {
+   "id": "awicenna",
+   "name": "Awicenna (Ibn Sina)",
+   "born": 980,
+   "died": 1037,
+   "c": "naukowiec",
+   "country": "Persja",
+   "g": "m",
+   "desc": "lekarz i filozof, autor „Kanonu medycyny”",
+   "works": [
+    "Kanon medycyny"
+   ],
+   "mentions": [
+    {
+     "n": 25,
+     "count": 3,
+     "i": 48
+    }
+   ],
+   "total": 3
   },
   {
    "id": "bacewicz",
@@ -719,6 +781,29 @@
      "n": 22,
      "count": 1,
      "i": 76
+    },
+    {
+     "n": 26,
+     "count": 3,
+     "i": 9
+    }
+   ],
+   "total": 4
+  },
+  {
+   "id": "bernard-z-clairvaux",
+   "name": "Bernard z Clairvaux",
+   "born": 1090,
+   "died": 1153,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "opat cysterski, teolog",
+   "mentions": [
+    {
+     "n": 26,
+     "count": 1,
+     "i": 47
     }
    ],
    "total": 1
@@ -1457,9 +1542,14 @@
      "n": 22,
      "count": 1,
      "i": 77
+    },
+    {
+     "n": 26,
+     "count": 1,
+     "i": 5
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "cyrus",
@@ -1999,6 +2089,24 @@
    "total": 1
   },
   {
+   "id": "escher",
+   "name": "M. C. Escher",
+   "born": 1898,
+   "died": 1972,
+   "c": "malarz",
+   "country": "Holandia",
+   "g": "m",
+   "desc": "grafik",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 1,
+     "i": 60
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "eufronios",
    "name": "Eufronios",
    "born": -535,
@@ -2030,9 +2138,14 @@
      "n": 16,
      "count": 2,
      "i": 31
+    },
+    {
+     "n": 25,
+     "count": 1,
+     "i": 45
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "eurypides",
@@ -3045,6 +3158,27 @@
    "total": 3
   },
   {
+   "id": "herrada",
+   "name": "Herrada z Landsbergu",
+   "born": 1130,
+   "died": 1195,
+   "c": "pisarz",
+   "country": "Alzacja",
+   "g": "k",
+   "desc": "przeoryszna, autorka encyklopedii „Ogród rozkoszy”",
+   "works": [
+    "Ogród rozkoszy (Hortus deliciarum)"
+   ],
+   "mentions": [
+    {
+     "n": 26,
+     "count": 1,
+     "i": 58
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "herzog-de-meuron",
    "name": "Herzog & de Meuron (Jacques Herzog, Pierre de Meuron)",
    "c": "architekt",
@@ -3084,6 +3218,28 @@
      "n": 22,
      "count": 2,
      "i": 67
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "hildegarda",
+   "name": "Hildegarda z Bingen",
+   "born": 1098,
+   "died": 1179,
+   "c": "muzyk",
+   "country": "Niemcy",
+   "g": "k",
+   "desc": "mistyczka, kompozytorka i uczona",
+   "works": [
+    "Scivias",
+    "Ordo Virtutum"
+   ],
+   "mentions": [
+    {
+     "n": 26,
+     "count": 2,
+     "i": 55
     }
    ],
    "total": 2
@@ -3209,6 +3365,42 @@
     }
    ],
    "total": 6
+  },
+  {
+   "id": "ibn-al-hajsam",
+   "name": "Ibn al-Hajsam",
+   "born": 965,
+   "died": 1040,
+   "c": "naukowiec",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "badacz optyki",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "ibn-mukla",
+   "name": "Ibn Mukla",
+   "born": 885,
+   "died": 940,
+   "c": "inne",
+   "country": "Bagdad",
+   "g": "m",
+   "desc": "kaligraf, twórca systemu proporcji pisma",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 1,
+     "i": 39
+    }
+   ],
+   "total": 1
   },
   {
    "id": "ihnatowicz",
@@ -3352,6 +3544,25 @@
      "n": 22,
      "count": 1,
      "i": 52
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "jadwiga-slaska",
+   "name": "Święta Jadwiga Śląska",
+   "born": 1174,
+   "died": 1243,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "księżna, fundatorka klasztoru w Trzebnicy",
+   "mentions": [
+    {
+     "n": 26,
+     "count": 1,
+     "i": 59
     }
    ],
    "total": 1
@@ -3751,6 +3962,25 @@
      "n": 23,
      "count": 1,
      "i": 20
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kazimierz-wielki",
+   "name": "Kazimierz Wielki",
+   "born": 1310,
+   "died": 1370,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, założyciel Akademii Krakowskiej",
+   "mentions": [
+    {
+     "n": 26,
+     "count": 1,
+     "i": 64
     }
    ],
    "total": 1
@@ -4895,6 +5125,24 @@
      "n": 227,
      "count": 1,
      "i": 65
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "mahomet",
+   "name": "Mahomet",
+   "born": 570,
+   "died": 632,
+   "c": "inne",
+   "country": "Arabia",
+   "g": "m",
+   "desc": "prorok islamu",
+   "mentions": [
+    {
+     "n": 25,
+     "count": 1,
+     "i": 9
     }
    ],
    "total": 1
@@ -6907,9 +7155,14 @@
      "n": 17,
      "count": 1,
      "i": 79
+    },
+    {
+     "n": 25,
+     "count": 1,
+     "i": 45
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "puabi",
@@ -9151,9 +9404,14 @@
      "n": 22,
      "count": 1,
      "i": 77
+    },
+    {
+     "n": 26,
+     "count": 1,
+     "i": 5
     }
    ],
-   "total": 7
+   "total": 8
   },
   {
    "id": "whitehead",
@@ -9619,7 +9877,7 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 39,
+   "ready": 41,
    "parts": 11,
    "sections": 20,
    "plannedHours": 35,
@@ -9627,17 +9885,17 @@
    "experts": 8
   },
   "ready": {
-   "minutes": 356,
-   "words": 47182,
-   "sentences": 3614,
-   "chapters": 352,
-   "images": 293,
-   "glossary": 251,
-   "quiz": 186,
-   "sources": 161,
+   "minutes": 368,
+   "words": 48718,
+   "sentences": 3736,
+   "chapters": 368,
+   "images": 306,
+   "glossary": 265,
+   "quiz": 196,
+   "sources": 169,
    "music": 7,
-   "lodz": 308,
-   "polska": 206
+   "lodz": 311,
+   "polska": 213
   },
   "lessons": [
    {
@@ -10225,6 +10483,54 @@
     }
    },
    {
+    "n": 25,
+    "title": "Islam — architektura, ornament, kaligrafia i nauka",
+    "era": "VII–XV w.",
+    "minutes": 6,
+    "words": 803,
+    "sentences": 62,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 1,
+    "polska": 3,
+    "people": 10,
+    "speakers": {
+     "gospodarz": 120,
+     "historyk": 294,
+     "architekt": 197,
+     "sztuka": 106,
+     "literatura": 86
+    }
+   },
+   {
+    "n": 26,
+    "title": "Klasztory — architektura, rękopisy i przechowywanie wiedzy",
+    "era": "VI–XIII w.",
+    "minutes": 6,
+    "words": 733,
+    "sentences": 60,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 2,
+    "polska": 4,
+    "people": 8,
+    "speakers": {
+     "gospodarz": 115,
+     "historyk": 272,
+     "architekt": 90,
+     "literatura": 171,
+     "sztuka": 85
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -10582,12 +10888,12 @@
    }
   ],
   "speakers": {
-   "gospodarz": 6033,
-   "historyk": 9414,
-   "sztuka": 7524,
-   "architekt": 10516,
+   "gospodarz": 6268,
+   "historyk": 9980,
+   "sztuka": 7715,
+   "architekt": 10803,
    "muzyka": 2280,
-   "literatura": 6534,
+   "literatura": 6791,
    "design": 4174,
    "foto": 707
   },
@@ -10610,7 +10916,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 2,
+    "ready": 4,
     "sections": 1
    },
    {
@@ -10796,17 +11102,17 @@
    }
   ],
   "people": {
-   "total": 392,
-   "mentions": 994,
+   "total": 404,
+   "mentions": 1021,
    "byCategory": {
-    "naukowiec": 40,
-    "filozof": 22,
-    "inne": 17,
-    "muzyk": 11,
-    "pisarz": 69,
-    "polityk": 60,
+    "naukowiec": 43,
+    "filozof": 24,
+    "inne": 19,
+    "muzyk": 12,
+    "pisarz": 70,
+    "polityk": 62,
     "architekt": 87,
-    "malarz": 54,
+    "malarz": 55,
     "projektant": 7,
     "rzeźbiarz": 15,
     "przemysłowiec": 3,
@@ -10819,18 +11125,20 @@
     "3": 2,
     "4": 5,
     "5": 11,
-    "6": 1,
+    "6": 2,
     "7": 2,
-    "8": 2,
-    "10": 1,
-    "11": 1,
+    "8": 3,
+    "9": 1,
+    "10": 3,
+    "11": 3,
+    "12": 3,
     "13": 2,
-    "14": 1,
+    "14": 2,
     "15": 5,
     "16": 8,
     "17": 3,
     "18": 13,
-    "19": 89,
+    "19": 90,
     "20": 150,
     "-5": 20,
     "-4": 9,
@@ -10852,17 +11160,17 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 242,
-    "Polska": 150
+    "zagranica": 252,
+    "Polska": 152
    },
    "byGender": {
-    "m": 358,
+    "m": 367,
     "f": 31,
-    "k": 3
+    "k": 6
    },
    "lodz": 31,
-   "withWorks": 214,
-   "works": 651,
+   "withWorks": 217,
+   "works": 655,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

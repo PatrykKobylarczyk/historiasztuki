@@ -246,7 +246,8 @@
    "g": "m",
    "desc": "pierwszy historyczny władca Polski",
    "m": [
-    "Mieszk[aouie]?\\s+I(?!\\p{L})"
+    "Mieszk[aouie]?\\s+I(?!\\p{L})",
+    "Mieszk\\p{L}* pierwsz\\p{L}*"
    ]
   },
   {
@@ -6843,6 +6844,176 @@
    ],
    "works": [
     "Ewangeliarz z Lindisfarne"
+   ]
+  },
+  {
+   "id": "mahomet",
+   "name": "Mahomet",
+   "born": 570,
+   "died": 632,
+   "c": "inne",
+   "country": "Arabia",
+   "g": "m",
+   "desc": "prorok islamu",
+   "m": [
+    "Mahomet\\p{L}*"
+   ]
+  },
+  {
+   "id": "al-chuwarizmi",
+   "name": "al-Chuwarizmi",
+   "born": 780,
+   "died": 850,
+   "c": "naukowiec",
+   "country": "Bagdad",
+   "g": "m",
+   "desc": "matematyk, od którego nazwiska pochodzi słowo algorytm",
+   "m": [
+    "al-Chuwarizmi\\p{L}*"
+   ]
+  },
+  {
+   "id": "awicenna",
+   "name": "Awicenna (Ibn Sina)",
+   "born": 980,
+   "died": 1037,
+   "c": "naukowiec",
+   "country": "Persja",
+   "g": "m",
+   "desc": "lekarz i filozof, autor „Kanonu medycyny”",
+   "m": [
+    "Ibn Sin\\p{L}*",
+    "Awicenn\\p{L}*"
+   ],
+   "works": [
+    "Kanon medycyny"
+   ]
+  },
+  {
+   "id": "awerroes",
+   "name": "Awerroes (Ibn Ruszd)",
+   "born": 1126,
+   "died": 1198,
+   "c": "filozof",
+   "country": "Al-Andalus",
+   "g": "m",
+   "desc": "filozof, komentator Arystotelesa",
+   "m": [
+    "Ibn Ruszd\\p{L}*",
+    "Awerroes\\p{L}*"
+   ]
+  },
+  {
+   "id": "ibn-al-hajsam",
+   "name": "Ibn al-Hajsam",
+   "born": 965,
+   "died": 1040,
+   "c": "naukowiec",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "badacz optyki",
+   "m": [
+    "Ibn al-Hajsam\\p{L}*"
+   ]
+  },
+  {
+   "id": "ibn-mukla",
+   "name": "Ibn Mukla",
+   "born": 885,
+   "died": 940,
+   "c": "inne",
+   "country": "Bagdad",
+   "g": "m",
+   "desc": "kaligraf, twórca systemu proporcji pisma",
+   "m": [
+    "Ibn Mukl\\p{L}*"
+   ]
+  },
+  {
+   "id": "escher",
+   "name": "M. C. Escher",
+   "born": 1898,
+   "died": 1972,
+   "c": "malarz",
+   "country": "Holandia",
+   "g": "m",
+   "desc": "grafik",
+   "m": [
+    "Escher\\p{L}*"
+   ]
+  },
+  {
+   "id": "hildegarda",
+   "name": "Hildegarda z Bingen",
+   "born": 1098,
+   "died": 1179,
+   "c": "muzyk",
+   "country": "Niemcy",
+   "g": "k",
+   "desc": "mistyczka, kompozytorka i uczona",
+   "m": [
+    "Hildegard\\p{L}*"
+   ],
+   "works": [
+    "Scivias",
+    "Ordo Virtutum"
+   ]
+  },
+  {
+   "id": "bernard-z-clairvaux",
+   "name": "Bernard z Clairvaux",
+   "born": 1090,
+   "died": 1153,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "opat cysterski, teolog",
+   "m": [
+    "Bernard\\p{L}* z Clairvaux"
+   ]
+  },
+  {
+   "id": "herrada",
+   "name": "Herrada z Landsbergu",
+   "born": 1130,
+   "died": 1195,
+   "c": "pisarz",
+   "country": "Alzacja",
+   "g": "k",
+   "desc": "przeoryszna, autorka encyklopedii „Ogród rozkoszy”",
+   "m": [
+    "Herrad\\p{L}*"
+   ],
+   "works": [
+    "Ogród rozkoszy (Hortus deliciarum)"
+   ]
+  },
+  {
+   "id": "jadwiga-slaska",
+   "name": "Święta Jadwiga Śląska",
+   "born": 1174,
+   "died": 1243,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "księżna, fundatorka klasztoru w Trzebnicy",
+   "m": [
+    "Jadwig\\p{L}* Śląsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kazimierz-wielki",
+   "name": "Kazimierz Wielki",
+   "born": 1310,
+   "died": 1370,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, założyciel Akademii Krakowskiej",
+   "m": [
+    "Kazimierz\\p{L}* Wielki\\p{L}*"
    ]
   }
  ]
