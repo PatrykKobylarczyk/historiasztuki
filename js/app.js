@@ -66,11 +66,23 @@ function renderHome() {
     const heard = eps.filter((e) => done.has(e.n)).length;
     const cover = r.map((e) => ready.get(e.n).thumb).find(Boolean);
     const isCur = eps.some((e) => e.n === feat?.n);
-    html += `<a class="prow${isCur ? " cur" : ""}" href="#/czesc/${part.id}">
+    let rows = "";
+    for (const sec of part.sections) {
+      if (sec.title) rows += `<li class="msec">${esc(sec.title)}</li>`;
+      for (const e of sec.episodes) {
+        const c = ready.get(e.n), cur = e.n === feat?.n, isDone = done.has(e.n);
+        const cls = `mrow${cur ? " cur" : ""}${isDone ? " done" : ""}${c ? "" : " off"}`;
+        const inner = `<span class="mn">${e.n}</span><span class="mt">${esc(c ? c.title : e.title)}</span><span class="mm">${isDone ? "✓" : c ? `${c.minutes} min` : "wkrótce"}</span>`;
+        rows += `<li>${c ? `<a class="${cls}" href="#/lekcja/${e.n}">${inner}</a>` : `<span class="${cls}">${inner}</span>`}</li>`;
+      }
+    }
+    html += `<details class="pgroup" name="czesci" id="cz-${part.id}"${isCur ? " open" : ""}>
+      <summary class="prow${isCur ? " cur" : ""}">
       <span class="pcover">${cover ? imgTag(cover) : `<i>${part.id}</i>`}</span>
       <span class="ptext"><small>Część ${part.id}${isCur ? " · słuchasz" : ""}</small><strong>${esc(part.title)}</strong>
       <span class="pmeta">${eps.length} odc.${r.length && r.length < eps.length ? ` · ${r.length} gotowych` : ""}${heard ? ` · ${heard} wysłuchanych` : ""}</span></span>
-      <span class="chev">${icons.arrow}</span></a>`;
+      <span class="chev">${icons.arrow}</span></summary>
+      <ol class="mini">${rows}</ol></details>`;
   }
   html += `</div></section>`;
   view.innerHTML = html;
@@ -213,7 +225,7 @@ async function renderLesson(n) {
     `<section class="lesson-extra${wide ? " wide" : ""}"><div class="section-head"><h2>${title}</h2><span class="eyebrow">${label}</span></div>${body}</section>`;
   view.innerHTML = `
     <header class="lesson-head">
-      <div class="eyebrow">${(() => { const pt = program.parts.find((p) => partEps(p).some((e) => e.n === lesson.n)); return pt ? `<a href="#/czesc/${pt.id}">‹ Część ${pt.id}</a>` : `<a href="#/">Kurs</a>`; })()}<span class="sep"></span><span class="accent">Odcinek ${lesson.n}</span></div>
+      <div class="eyebrow">${(() => { const pt = program.parts.find((p) => partEps(p).some((e) => e.n === lesson.n)); return pt ? `<a href="#/program/${pt.id}">‹ Część ${pt.id}</a>` : `<a href="#/">Kurs</a>`; })()}<span class="sep"></span><span class="accent">Odcinek ${lesson.n}</span></div>
       <h1>${esc(lesson.title)}</h1>
       <div class="sub">${esc(lesson.subtitle)}</div>
       <div class="meta">
@@ -895,7 +907,12 @@ async function route() {
   else if (section === "index") await renderIndex();
   else if (section === "stats") await renderStats();
   else renderHome();
-  if (h.startsWith("#/program")) requestAnimationFrame(() => document.getElementById("program")?.scrollIntoView({ block: "start" }));
+  if (h.startsWith("#/program")) requestAnimationFrame(() => {
+    const id = h.split("/")[2];
+    const d = id && document.getElementById(`cz-${id}`);
+    if (d) { d.open = true; d.scrollIntoView({ block: "start" }); }
+    else document.getElementById("program")?.scrollIntoView({ block: "start" });
+  });
   else if (!m) window.scrollTo(0, 0);
   updatePlayerUI(true);
 }
