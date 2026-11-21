@@ -1,0 +1,111 @@
+---
+n: 30
+title: Średniowieczna muzyka — chorał, notacja i początki wielogłosowości
+subtitle: Jak zapisano dźwięk
+era: IX–XV w.
+next: Literatura średniowieczna — epos, rycerstwo, Dante i mistyka.
+---
+
+[jingle]
+
+[gospodarz]
+KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty: średniowieczna muzyka, chorał, notacja i początki wielogłosowości.
+
+Każda melodia, którą dziś zapisujemy nutami, zawdzięcza coś średniowiecznym mnichom. To oni wymyślili, jak utrwalić dźwięk na pergaminie, i to oni po raz pierwszy kazali dwóm głosom śpiewać różne melodie jednocześnie. Dziś posłuchamy, jak brzmiały kościoły, dwory i jarmarki średniowiecza.
+
+# Rozdział I. Chorał gregoriański
+
+[muzyka]
+Podstawą muzyki średniowiecznego Kościoła był chorał gregoriański: jednogłosowy śpiew po łacinie, bez akompaniamentu i bez wyraźnego metrum. Melodia płynie swobodnie za słowem, jak modlitwa wypowiadana śpiewem. Nazwa pochodzi od papieża Grzegorza Wielkiego, któremu tradycja przypisywała zebranie śpiewów; w rzeczywistości repertuar ukształtował się później, w państwie Karola Wielkiego, z połączenia tradycji rzymskiej i galijskiej.
+
+Chorał opiera się na skalach zwanych modi, innych niż nasza dur i moll, co daje mu archaiczne, spokojne brzmienie. Śpiewano go o określonych porach dnia i nocy podczas liturgii godzin oraz w czasie mszy. Do dziś śpiewają go benedyktyni, także w Tyńcu, a nagrania mnichów z hiszpańskiego Silos w latach dziewięćdziesiątych dwudziestego wieku sprzedały się w milionach egzemplarzy.
+
+[muzyka-fragment] Puer natus est nobis | Chór benedyktynów | https://www.youtube.com/results?search_query=Puer+natus+est+gregorian | Introit na Boże Narodzenie.
+
+# Rozdział II. Jak zapisać melodię
+
+[muzyka]
+Przez stulecia melodie przekazywano z pamięci. Nauka repertuaru zajmowała śpiewakom lata. W dziewiątym wieku nad tekstem zaczęto stawiać znaki zwane neumami: kreski i haczyki, które pokazywały, czy melodia idzie w górę, czy w dół. Przypominały gesty dyrygenta, ale nie podawały dokładnej wysokości dźwięku.
+
+Rewolucję przyniósł w jedenastym wieku Gwidon z Arezzo, mnich i nauczyciel. Wprowadził linie, na których neumy stawały na określonej wysokości, a jedną linię oznaczał kluczem. To początek pięciolinii. Wymyślił też sposób nazywania dźwięków sylabami ut, re, mi, fa, sol, la, wziętymi z pierwszych zgłosek wersów hymnu do świętego Jana. Ut zamieniono później na do i tak powstała solmizacja, którą znacie ze szkoły. Gwidon chwalił się, że dzięki jego metodzie uczeń w kilka miesięcy uczy się tego, co dawniej zajmowało dziesięć lat.
+
+# Rozdział III. Narodziny wielogłosowości
+
+[muzyka]
+Około dziewiątego wieku śpiewacy zaczęli dodawać do melodii chorałowej drugi głos, który szedł równolegle, w odległości kwarty albo kwinty. Tak powstało organum. Z czasem drugi głos się usamodzielnił: poruszał się w przeciwnym kierunku, a potem tworzył długie, ozdobne melizmaty nad powoli płynącym chorałem.
+
+To była jedna z największych innowacji w historii muzyki. Muzyka europejska jako jedna z niewielu na świecie rozwinęła polifonię, współbrzmienie wielu niezależnych linii melodycznych. Bez niej nie byłoby Bacha, symfonii ani harmonii w muzyce popularnej.
+
+# Rozdział IV. Szkoła Notre-Dame
+
+[muzyka]
+Pod koniec dwunastego wieku w budującej się katedrze Notre-Dame w Paryżu działali kompozytorzy, których imiona znamy: Leoninus i Perotinus. Perotinus pisał organa na trzy, a nawet cztery głosy, z rytmem opartym na powtarzanych wzorach. Jego Viderunt omnes brzmi w wielkim wnętrzu jak pulsujące, świetliste sklepienie dźwięku.
+
+Wtedy też pojawiła się notacja rytmiczna, która pozwalała zapisać, jak długo trwa dźwięk. W następnym stuleciu powstał motet: utwór, w którym każdy głos śpiewał inny tekst, czasem w różnych językach, jeden łaciński i pobożny, drugi francuski i miłosny.
+
+[muzyka-fragment] Viderunt omnes | Perotinus, The Hilliard Ensemble | https://www.youtube.com/results?search_query=Perotin+Viderunt+omnes+Hilliard | Czterogłosowe organum z około 1200 roku.
+
+# Rozdział V. Trubadurzy i minnesingerzy
+
+[literatura]
+Poza kościołem rozwijała się muzyka świecka. W Prowansji w dwunastym wieku trubadurzy śpiewali po prowansalsku pieśni o miłości dworskiej, o damie niedostępnej i uwielbianej. Byli wśród nich książęta, jak Wilhelm dziewiąty z Akwitanii, i kobiety, trobairitz, jak hrabina de Dia. Na północy Francji działali truwerzy, w Niemczech minnesingerzy, jak Walther von der Vogelweide.
+
+Ich pieśni były jednogłosowe, śpiewane przy akompaniamencie lutni, harfy albo fideli, przodka skrzypiec. Zachowały się w pięknie zdobionych zbiorach, jak Kodeks Manesse z Zurychu, w którym każdy poeta ma swój portret w miniaturze. Wędrowni muzycy, jokulatorzy i wagantowie, grali na jarmarkach i w karczmach. Zbiór Carmina Burana z łacińskimi pieśniami żaków o winie, miłości i fortunie zainspirował w dwudziestym wieku słynną kantatę Carla Orffa.
+
+# Rozdział VI. Ars nova i Machaut
+
+[muzyka]
+W czternastym wieku we Francji mówiono o nowej sztuce, ars nova. Kompozytorzy pisali coraz bardziej skomplikowane rytmy, a notacja pozwalała je precyzyjnie zapisać. Najwybitniejszym twórcą był Guillaume de Machaut, poeta i kompozytor, sekretarz króla Czech Jana Luksemburskiego. Jego Msza Notre-Dame to pierwsza znana msza skomponowana w całości przez jednego autora na cztery głosy.
+
+Machaut pisał też ballady i rondeaux o miłości. Jedna z jego pieśni ma tytuł Mój koniec jest moim początkiem, a muzyka brzmi tam od tyłu tak samo jak od przodu. W tym czasie we Włoszech działał niewidomy organista Francesco Landini, a muzyka powoli zmierzała ku renesansowi.
+
+# Rozdział VII. Muzyka w średniowiecznej Polsce
+
+[muzyka]
+Najstarszy zachowany polski utwór z tekstem i melodią to Bogurodzica, pieśń, którą według tradycji rycerstwo śpiewało pod Grunwaldem w tysiąc czterysta dziesiątym roku. Jej melodia oparta jest na chorale, a tekst jest jednym z pierwszych zabytków języka polskiego. Z trzynastego wieku pochodzi też hymn Gaude Mater Polonia, ku czci świętego Stanisława, śpiewany do dziś na uroczystościach Uniwersytetu Jagiellońskiego.
+
+W piętnastym wieku w Krakowie działał Mikołaj z Radomia, pierwszy polski kompozytor, którego imię i utwory wielogłosowe znamy. Jego Magnificat i utwory mszalne pokazują, że polscy muzycy znali najnowsze europejskie style. W kolejnych częściach kursu z tej tradycji wyrośnie polska muzyka renesansu.
+
+[muzyka-fragment] Bogurodzica | Schola Gregoriana Cracoviensis | https://www.youtube.com/results?search_query=Bogurodzica+średniowieczna | Najstarsza polska pieśń religijna.
+
+# Zakończenie
+
+[gospodarz]
+Podsumujmy. Poznaliśmy chorał gregoriański, neumy i pięciolinię Gwidona z Arezzo, narodziny organum, szkołę Notre-Dame z Perotinem, trubadurów i Carmina Burana, ars nova i Machauta, a na koniec Bogurodzicę i Mikołaja z Radomia.
+
+W następnym odcinku przejdziemy do słowa: literatura średniowieczna, epos, rycerstwo, Dante i mistyka.
+
+To była KULTURA. Do usłyszenia.
+
+[outro]
+
+## Galeria
+![Rękopis z chorałem gregoriańskim](Gregorian chant manuscript) @1
+![Gwidon z Arezzo, miniatura](Guido of Arezzo) @2
+![Kodeks Manesse, Walther von der Vogelweide](Codex Manesse Walther von der Vogelweide) @5
+![Rękopis Carmina Burana, Koło Fortuny](Carmina Burana Wheel of Fortune) @5
+![Guillaume de Machaut, miniatura](Guillaume de Machaut miniature) @6
+![Rękopis Bogurodzicy](Bogurodzica manuscript) @7
+
+## Słowniczek
+- Chorał gregoriański: jednogłosowy śpiew liturgiczny po łacinie.
+- Neumy: dawne znaki notacji pokazujące ruch melodii.
+- Solmizacja: nazwy dźwięków do, re, mi, fa, sol, la.
+- Organum: wczesna forma wielogłosowości.
+- Polifonia: współbrzmienie niezależnych linii melodycznych.
+- Motet: utwór wielogłosowy z różnymi tekstami w głosach.
+- Ars nova: nowa sztuka muzyczna XIV wieku.
+- Trubadurzy: poeci-muzycy Prowansji.
+
+## Pytania
+? Kto wprowadził linie i nazwy ut, re, mi? | Perotinus | Gwidon z Arezzo* | Machaut | Z jego metody wyrosła pięciolinia.
+? Czym jest organum? | Instrumentem | Wczesną formą wielogłosowości* | Rodzajem chorału | Do melodii dodawano drugi głos.
+? Kto napisał Mszę Notre-Dame w XIV wieku? | Leoninus | Guillaume de Machaut* | Landini | To pierwsza msza jednego autora na cztery głosy.
+? Jaka pieśń ma być śpiewana pod Grunwaldem? | Gaude Mater Polonia | Bogurodzica* | Carmina Burana | To najstarsza polska pieśń z melodią.
+? Kto jest pierwszym znanym z imienia polskim kompozytorem? | Wit Stwosz | Mikołaj z Radomia* | Gwidon | Działał w XV wieku.
+
+## Źródła
+- [Chorał gregoriański — Encyclopaedia Britannica](https://www.britannica.com/art/Gregorian-chant)
+- [Gwidon z Arezzo — Encyclopaedia Britannica](https://www.britannica.com/biography/Guido-dArezzo-Italian-musician)
+- [Bogurodzica — Polona](https://polona.pl/)
+- [Kodeks Manesse — Uniwersytet w Heidelbergu](https://digi.ub.uni-heidelberg.de/diglit/cpg848)

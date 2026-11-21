@@ -176,6 +176,134 @@
   "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/04/The_Good_Shepherd%2C_Priscilla_Catacomb%2Cfrom_the_1903_book_Die_Malereien_der_Katakomben_Roms_%28Tafeln%29_by_Wilpert%2C_Joseph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
  },
  {
+  "n": 23,
+  "title": "Upadek Rzymu i narodziny średniowiecznej Europy",
+  "subtitle": "Od Teodoryka do Karola Wielkiego",
+  "era": "V–IX w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 24,
+  "title": "Bizancjum — cesarstwo, ikony i mozaiki",
+  "subtitle": "Tysiąc lat złota i modlitwy",
+  "era": "VI–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 25,
+  "title": "Islam — architektura, ornament, kaligrafia i nauka",
+  "subtitle": "Od Damaszku do Kordoby i Samarkandy",
+  "era": "VII–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 26,
+  "title": "Klasztory — architektura, rękopisy i przechowywanie wiedzy",
+  "subtitle": "Módl się i pracuj",
+  "era": "VI–XIII w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 27,
+  "title": "Romanizm — kościół jako centrum świata",
+  "subtitle": "Grube mury, półkoliste łuki i pielgrzymi",
+  "era": "ok. 1000–1200",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 28,
+  "title": "Gotyk — światło, konstrukcja i monumentalność",
+  "subtitle": "Katedry, które sięgają nieba",
+  "era": "ok. 1140–1500",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 29,
+  "title": "Witraż, rzeźba i iluminowane rękopisy",
+  "subtitle": "Szkło, kamień i złoto gotyku",
+  "era": "XII–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 30,
+  "title": "Średniowieczna muzyka — chorał, notacja i początki wielogłosowości",
+  "subtitle": "Jak zapisano dźwięk",
+  "era": "IX–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 31,
+  "title": "Literatura średniowieczna — epos, rycerstwo, Dante i mistyka",
+  "subtitle": "Od Rolanda do Boskiej komedii",
+  "era": "VIII–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 32,
+  "title": "Scholastyka, św. Augustyn i św. Tomasz z Akwinu",
+  "subtitle": "Wiara szuka rozumu",
+  "era": "V–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 33,
+  "title": "Moda, ubiór i przedmioty średniowiecznej Europy",
+  "subtitle": "Od tuniki do szpiczastych butów",
+  "era": "V–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 34,
+  "title": "Polska pierwszych Piastów — chrystianizacja i początki państwowości",
+  "subtitle": "Od Mieszka do Bolesława Krzywoustego",
+  "era": "X–XII w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 35,
+  "title": "Polska romańska — architektura, rzeźba i sztuka sakralna",
+  "subtitle": "Kamień, który przetrwał tysiąc lat",
+  "era": "XI–XIII w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 36,
+  "title": "Polska gotycka — miasta, zamki i katedry",
+  "subtitle": "Królestwo z cegły",
+  "era": "XIII–XV w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 37,
+  "title": "Kraków, Gniezno i państwo Jagiellonów — kultura i władza",
+  "subtitle": "Korona, unia i dwór królewski",
+  "era": "XIV–XVI w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
+  "n": 38,
+  "title": "Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokalne",
+  "subtitle": "Zanim powstała ziemia obiecana",
+  "era": "XII–XVI w.",
+  "minutes": 6,
+  "thumb": null
+ },
+ {
   "n": 186,
   "title": "Łódź 1971 — protest, sztuka i obraz miasta",
   "subtitle": "Polska i świat w pierwszej połowie lat 70. XX wieku",

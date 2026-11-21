@@ -246,7 +246,8 @@
    "g": "m",
    "desc": "pierwszy historyczny władca Polski",
    "m": [
-    "Mieszk[aouie]?\\s+I(?!\\p{L})"
+    "Mieszk[aouie]?\\s+I(?!\\p{L})",
+    "Mieszk\\p{L}* pierwsz\\p{L}*"
    ]
   },
   {
@@ -5362,8 +5363,22 @@
    "g": "m",
    "desc": "rzeźbiarz, legendarny twórca głowicy korynckiej",
    "m": [
-    "Kallimach\\p{L}*"
+    "(?<!Filip\\p{L}* )Kallimach\\p{L}*"
    ]
+  },
+  {
+   "id": "filip-kallimach",
+   "name": "Filip Kallimach",
+   "born": 1437,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "humanista, nauczyciel królewiczów",
+   "m": [
+    "Filip\\p{L}* Kallimach\\p{L}*"
+   ],
+   "died": 1496,
+   "pl": true
   },
   {
    "id": "ajschylos",
@@ -6668,6 +6683,1279 @@
    "m": [
     "Gall\\p{L}* Placydi\\p{L}*"
    ]
+  },
+  {
+   "id": "teodoryk",
+   "name": "Teodoryk Wielki",
+   "born": 454,
+   "died": 526,
+   "c": "polityk",
+   "country": "Italia",
+   "g": "m",
+   "desc": "król Ostrogotów, władca Italii",
+   "m": [
+    "Teodoryk\\p{L}*"
+   ]
+  },
+  {
+   "id": "boecjusz",
+   "name": "Boecjusz",
+   "born": 480,
+   "died": 524,
+   "c": "filozof",
+   "country": "Italia",
+   "g": "m",
+   "desc": "filozof, autor „O pocieszeniu, jakie daje filozofia”",
+   "m": [
+    "Boecjusz\\p{L}*"
+   ],
+   "works": [
+    "O pocieszeniu, jakie daje filozofia"
+   ]
+  },
+  {
+   "id": "kasjodor",
+   "name": "Kasjodor",
+   "born": 485,
+   "died": 585,
+   "c": "pisarz",
+   "country": "Italia",
+   "g": "m",
+   "desc": "uczony i urzędnik, założyciel klasztoru Vivarium",
+   "m": [
+    "Kasjodor\\p{L}*"
+   ]
+  },
+  {
+   "id": "attyla",
+   "name": "Attyla",
+   "born": 406,
+   "died": 453,
+   "c": "polityk",
+   "country": "Hunowie",
+   "g": "m",
+   "desc": "wódz Hunów",
+   "m": [
+    "Attyl\\p{L}*"
+   ]
+  },
+  {
+   "id": "chlodwig",
+   "name": "Chlodwig",
+   "born": 466,
+   "died": 511,
+   "c": "polityk",
+   "country": "Frankowie",
+   "g": "m",
+   "desc": "król Franków, ochrzczony w Reims",
+   "m": [
+    "Chlodwig\\p{L}*"
+   ]
+  },
+  {
+   "id": "karol-wielki",
+   "name": "Karol Wielki",
+   "born": 747,
+   "died": 814,
+   "c": "polityk",
+   "country": "Frankowie",
+   "g": "m",
+   "desc": "król Franków i cesarz",
+   "m": [
+    "Karol\\p{L}* Wielki\\p{L}*"
+   ]
+  },
+  {
+   "id": "alkuin",
+   "name": "Alkuin z Yorku",
+   "born": 735,
+   "died": 804,
+   "c": "naukowiec",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "uczony dworu Karola Wielkiego",
+   "m": [
+    "Alkuin\\p{L}*"
+   ]
+  },
+  {
+   "id": "jan-damaszek",
+   "name": "Jan z Damaszku",
+   "born": 675,
+   "died": 749,
+   "c": "filozof",
+   "country": "Bizancjum",
+   "g": "m",
+   "desc": "teolog, obrońca ikon",
+   "m": [
+    "Jan\\p{L}* z Damaszku"
+   ]
+  },
+  {
+   "id": "mehmed-ii",
+   "name": "Mehmed II Zdobywca",
+   "born": 1432,
+   "died": 1481,
+   "c": "polityk",
+   "country": "Imperium Osmańskie",
+   "g": "m",
+   "desc": "sułtan, zdobywca Konstantynopola",
+   "m": [
+    "Mehmed\\p{L}*"
+   ]
+  },
+  {
+   "id": "giotto",
+   "name": "Giotto di Bondone",
+   "born": 1267,
+   "died": 1337,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz, prekursor renesansu",
+   "m": [
+    "Giott\\p{L}*"
+   ]
+  },
+  {
+   "id": "jagiello",
+   "name": "Władysław Jagiełło",
+   "born": 1362,
+   "died": 1434,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, założyciel dynastii Jagiellonów",
+   "m": [
+    "Jagieł\\p{L}*"
+   ]
+  },
+  {
+   "id": "kolumban",
+   "name": "Święty Kolumban",
+   "born": 543,
+   "died": 615,
+   "c": "inne",
+   "country": "Irlandia",
+   "g": "m",
+   "desc": "irlandzki mnich, założyciel klasztorów",
+   "m": [
+    "Kolumban\\p{L}*"
+   ]
+  },
+  {
+   "id": "eadfrith",
+   "name": "Eadfrith z Lindisfarne",
+   "born": 670,
+   "died": 721,
+   "c": "malarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "mnich, twórca Ewangeliarza z Lindisfarne",
+   "m": [
+    "Eadfrith\\p{L}*"
+   ],
+   "works": [
+    "Ewangeliarz z Lindisfarne"
+   ]
+  },
+  {
+   "id": "mahomet",
+   "name": "Mahomet",
+   "born": 570,
+   "died": 632,
+   "c": "inne",
+   "country": "Arabia",
+   "g": "m",
+   "desc": "prorok islamu",
+   "m": [
+    "Mahomet\\p{L}*"
+   ]
+  },
+  {
+   "id": "al-chuwarizmi",
+   "name": "al-Chuwarizmi",
+   "born": 780,
+   "died": 850,
+   "c": "naukowiec",
+   "country": "Bagdad",
+   "g": "m",
+   "desc": "matematyk, od którego nazwiska pochodzi słowo algorytm",
+   "m": [
+    "al-Chuwarizmi\\p{L}*"
+   ]
+  },
+  {
+   "id": "awicenna",
+   "name": "Awicenna (Ibn Sina)",
+   "born": 980,
+   "died": 1037,
+   "c": "naukowiec",
+   "country": "Persja",
+   "g": "m",
+   "desc": "lekarz i filozof, autor „Kanonu medycyny”",
+   "m": [
+    "Ibn Sin\\p{L}*",
+    "Awicenn\\p{L}*"
+   ],
+   "works": [
+    "Kanon medycyny"
+   ]
+  },
+  {
+   "id": "awerroes",
+   "name": "Awerroes (Ibn Ruszd)",
+   "born": 1126,
+   "died": 1198,
+   "c": "filozof",
+   "country": "Al-Andalus",
+   "g": "m",
+   "desc": "filozof, komentator Arystotelesa",
+   "m": [
+    "Ibn Ruszd\\p{L}*",
+    "Awerroes\\p{L}*"
+   ]
+  },
+  {
+   "id": "ibn-al-hajsam",
+   "name": "Ibn al-Hajsam",
+   "born": 965,
+   "died": 1040,
+   "c": "naukowiec",
+   "country": "Egipt",
+   "g": "m",
+   "desc": "badacz optyki",
+   "m": [
+    "Ibn al-Hajsam\\p{L}*"
+   ]
+  },
+  {
+   "id": "ibn-mukla",
+   "name": "Ibn Mukla",
+   "born": 885,
+   "died": 940,
+   "c": "inne",
+   "country": "Bagdad",
+   "g": "m",
+   "desc": "kaligraf, twórca systemu proporcji pisma",
+   "m": [
+    "Ibn Mukl\\p{L}*"
+   ]
+  },
+  {
+   "id": "escher",
+   "name": "M. C. Escher",
+   "born": 1898,
+   "died": 1972,
+   "c": "malarz",
+   "country": "Holandia",
+   "g": "m",
+   "desc": "grafik",
+   "m": [
+    "Escher\\p{L}*"
+   ]
+  },
+  {
+   "id": "hildegarda",
+   "name": "Hildegarda z Bingen",
+   "born": 1098,
+   "died": 1179,
+   "c": "muzyk",
+   "country": "Niemcy",
+   "g": "k",
+   "desc": "mistyczka, kompozytorka i uczona",
+   "m": [
+    "Hildegard\\p{L}*"
+   ],
+   "works": [
+    "Scivias",
+    "Ordo Virtutum"
+   ]
+  },
+  {
+   "id": "bernard-z-clairvaux",
+   "name": "Bernard z Clairvaux",
+   "born": 1090,
+   "died": 1153,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "opat cysterski, teolog",
+   "m": [
+    "Bernard\\p{L}* z Clairvaux"
+   ]
+  },
+  {
+   "id": "herrada",
+   "name": "Herrada z Landsbergu",
+   "born": 1130,
+   "died": 1195,
+   "c": "pisarz",
+   "country": "Alzacja",
+   "g": "k",
+   "desc": "przeoryszna, autorka encyklopedii „Ogród rozkoszy”",
+   "m": [
+    "Herrad\\p{L}*"
+   ],
+   "works": [
+    "Ogród rozkoszy (Hortus deliciarum)"
+   ]
+  },
+  {
+   "id": "jadwiga-slaska",
+   "name": "Święta Jadwiga Śląska",
+   "born": 1174,
+   "died": 1243,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "księżna, fundatorka klasztoru w Trzebnicy",
+   "m": [
+    "Jadwig\\p{L}* Śląsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kazimierz-wielki",
+   "name": "Kazimierz Wielki",
+   "born": 1310,
+   "died": 1370,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, założyciel Akademii Krakowskiej",
+   "m": [
+    "Kazimierz\\p{L}* Wielki\\p{L}*"
+   ]
+  },
+  {
+   "id": "gislebertus",
+   "name": "Gislebertus",
+   "born": 1100,
+   "died": 1150,
+   "c": "rzeźbiarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "rzeźbiarz romański z Autun",
+   "m": [
+    "Gislebert\\p{L}*"
+   ],
+   "works": [
+    "Sąd Ostateczny w Autun"
+   ]
+  },
+  {
+   "id": "grzegorz-vii",
+   "name": "Grzegorz VII",
+   "born": 1015,
+   "died": 1085,
+   "c": "polityk",
+   "country": "Papiestwo",
+   "g": "m",
+   "desc": "papież, reformator Kościoła",
+   "m": [
+    "Grzegorz\\p{L}* siódm\\p{L}*"
+   ]
+  },
+  {
+   "id": "rudolf-glaber",
+   "name": "Rudolf Glaber",
+   "born": 985,
+   "died": 1047,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kronikarz roku tysięcznego",
+   "m": [
+    "Glaber\\p{L}*"
+   ]
+  },
+  {
+   "id": "suger",
+   "name": "Opat Suger",
+   "born": 1081,
+   "died": 1151,
+   "c": "inne",
+   "country": "Francja",
+   "g": "m",
+   "desc": "opat Saint-Denis, inicjator gotyku",
+   "m": [
+    "Suger\\p{L}*"
+   ]
+  },
+  {
+   "id": "villard",
+   "name": "Villard de Honnecourt",
+   "born": 1200,
+   "died": 1250,
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "mistrz budowlany, autor szkicownika",
+   "m": [
+    "Villard\\p{L}*"
+   ]
+  },
+  {
+   "id": "viollet-le-duc",
+   "name": "Eugène Viollet-le-Duc",
+   "born": 1814,
+   "died": 1879,
+   "c": "architekt",
+   "country": "Francja",
+   "g": "m",
+   "desc": "architekt i konserwator, odnowiciel Notre-Dame",
+   "m": [
+    "Viollet-le-Duc\\p{L}*"
+   ]
+  },
+  {
+   "id": "hugo",
+   "name": "Wiktor Hugo",
+   "born": 1802,
+   "died": 1885,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "pisarz, autor „Katedry Marii Panny w Paryżu”",
+   "m": [
+    "Wiktor\\p{L}* Hug\\p{L}*"
+   ],
+   "works": [
+    "Katedra Marii Panny w Paryżu",
+    "Nędznicy"
+   ]
+  },
+  {
+   "id": "ludwik-ix",
+   "name": "Ludwik IX Święty",
+   "born": 1214,
+   "died": 1270,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "król Francji, fundator Sainte-Chapelle",
+   "m": [
+    "Ludwik\\p{L}* dziewiąt\\p{L}*"
+   ]
+  },
+  {
+   "id": "stwosz",
+   "name": "Wit Stwosz",
+   "born": 1448,
+   "died": 1533,
+   "c": "rzeźbiarz",
+   "country": "Niemcy",
+   "pl": true,
+   "g": "m",
+   "desc": "rzeźbiarz, twórca ołtarza Mariackiego",
+   "m": [
+    "Stwosz\\p{L}*"
+   ],
+   "works": [
+    "Ołtarz Mariacki",
+    "Nagrobek Kazimierza Jagiellończyka"
+   ]
+  },
+  {
+   "id": "limbourg",
+   "name": "Bracia Limbourg",
+   "born": 1385,
+   "died": 1416,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "iluminatorzy „Bardzo bogatych godzinek”",
+   "m": [
+    "Limbourg\\p{L}*"
+   ],
+   "works": [
+    "Bardzo bogate godzinki księcia de Berry"
+   ]
+  },
+  {
+   "id": "disney",
+   "name": "Walt Disney",
+   "born": 1901,
+   "died": 1966,
+   "c": "inne",
+   "country": "USA",
+   "g": "m",
+   "desc": "twórca filmów animowanych",
+   "m": [
+    "Disney\\p{L}*"
+   ]
+  },
+  {
+   "id": "gwidon",
+   "name": "Gwidon z Arezzo",
+   "born": 991,
+   "died": 1033,
+   "c": "muzyk",
+   "country": "Italia",
+   "g": "m",
+   "desc": "teoretyk muzyki, twórca podstaw notacji liniowej",
+   "m": [
+    "Gwidon\\p{L}*"
+   ]
+  },
+  {
+   "id": "grzegorz-wielki",
+   "name": "Grzegorz Wielki",
+   "born": 540,
+   "died": 604,
+   "c": "polityk",
+   "country": "Papiestwo",
+   "g": "m",
+   "desc": "papież, patron chorału gregoriańskiego",
+   "m": [
+    "Grzegorz\\p{L}* Wielki\\p{L}*"
+   ]
+  },
+  {
+   "id": "perotinus",
+   "name": "Perotinus",
+   "born": 1160,
+   "died": 1230,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kompozytor szkoły Notre-Dame",
+   "m": [
+    "Perotin\\p{L}*"
+   ],
+   "works": [
+    "Viderunt omnes",
+    "Sederunt principes"
+   ]
+  },
+  {
+   "id": "leoninus",
+   "name": "Leoninus",
+   "born": 1150,
+   "died": 1201,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "kompozytor szkoły Notre-Dame",
+   "m": [
+    "Leonin\\p{L}*"
+   ]
+  },
+  {
+   "id": "machaut",
+   "name": "Guillaume de Machaut",
+   "born": 1300,
+   "died": 1377,
+   "c": "muzyk",
+   "country": "Francja",
+   "g": "m",
+   "desc": "poeta i kompozytor ars nova",
+   "m": [
+    "Machaut\\p{L}*"
+   ],
+   "works": [
+    "Msza Notre-Dame"
+   ]
+  },
+  {
+   "id": "walther",
+   "name": "Walther von der Vogelweide",
+   "born": 1170,
+   "died": 1230,
+   "c": "pisarz",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "minnesinger",
+   "m": [
+    "Walther\\p{L}*"
+   ]
+  },
+  {
+   "id": "landini",
+   "name": "Francesco Landini",
+   "born": 1325,
+   "died": 1397,
+   "c": "muzyk",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "kompozytor i organista",
+   "m": [
+    "Landini\\p{L}*"
+   ]
+  },
+  {
+   "id": "orff",
+   "name": "Carl Orff",
+   "born": 1895,
+   "died": 1982,
+   "c": "muzyk",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "kompozytor kantaty „Carmina Burana”",
+   "m": [
+    "Orff\\p{L}*"
+   ],
+   "works": [
+    "Carmina Burana"
+   ]
+  },
+  {
+   "id": "mikolaj-z-radomia",
+   "name": "Mikołaj z Radomia",
+   "born": 1390,
+   "died": 1450,
+   "c": "muzyk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy znany z imienia polski kompozytor",
+   "m": [
+    "Mikołaj\\p{L}* z Radomia"
+   ],
+   "works": [
+    "Magnificat"
+   ]
+  },
+  {
+   "id": "chretien",
+   "name": "Chrétien de Troyes",
+   "born": 1135,
+   "died": 1191,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "autor romansów arturiańskich",
+   "m": [
+    "Chrétien\\p{L}*"
+   ],
+   "works": [
+    "Lancelot",
+    "Percewal"
+   ]
+  },
+  {
+   "id": "eleonora-akwitanska",
+   "name": "Eleonora Akwitańska",
+   "born": 1122,
+   "died": 1204,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "k",
+   "desc": "królowa Francji i Anglii, mecenaska poetów",
+   "m": [
+    "Eleonor\\p{L}* Akwitańsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "malory",
+   "name": "Thomas Malory",
+   "born": 1415,
+   "died": 1471,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "autor „Śmierci Artura”",
+   "m": [
+    "Malory\\p{L}*"
+   ],
+   "works": [
+    "Śmierć Artura"
+   ]
+  },
+  {
+   "id": "petrarka",
+   "name": "Francesco Petrarka",
+   "born": 1304,
+   "died": 1374,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "poeta, autor sonetów do Laury",
+   "m": [
+    "Petrark\\p{L}*"
+   ],
+   "works": [
+    "Sonety do Laury"
+   ]
+  },
+  {
+   "id": "boccaccio",
+   "name": "Giovanni Boccaccio",
+   "born": 1313,
+   "died": 1375,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "autor „Dekameronu”",
+   "m": [
+    "Boccacci\\p{L}*"
+   ],
+   "works": [
+    "Dekameron"
+   ]
+  },
+  {
+   "id": "chaucer",
+   "name": "Geoffrey Chaucer",
+   "born": 1343,
+   "died": 1400,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "autor „Opowieści kanterberyjskich”",
+   "m": [
+    "Chaucer\\p{L}*"
+   ],
+   "works": [
+    "Opowieści kanterberyjskie"
+   ]
+  },
+  {
+   "id": "franciszek",
+   "name": "Święty Franciszek z Asyżu",
+   "born": 1181,
+   "died": 1226,
+   "c": "pisarz",
+   "country": "Italia",
+   "g": "m",
+   "desc": "założyciel franciszkanów, autor „Pieśni słonecznej”",
+   "m": [
+    "Franciszk\\p{L}* z Asyżu"
+   ],
+   "works": [
+    "Pieśń słoneczna"
+   ]
+  },
+  {
+   "id": "eckhart",
+   "name": "Mistrz Eckhart",
+   "born": 1260,
+   "died": 1328,
+   "c": "filozof",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "mistyk i teolog",
+   "m": [
+    "Eckhart\\p{L}*"
+   ]
+  },
+  {
+   "id": "christine-de-pizan",
+   "name": "Christine de Pizan",
+   "born": 1364,
+   "died": 1430,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "k",
+   "desc": "pisarka, autorka „Księgi o Mieście Pań”",
+   "m": [
+    "Christine de Pizan"
+   ],
+   "works": [
+    "Księga o Mieście Pań"
+   ]
+  },
+  {
+   "id": "gall-anonim",
+   "name": "Gall Anonim",
+   "born": 1065,
+   "died": 1145,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "autor pierwszej kroniki polskiej",
+   "m": [
+    "Gall\\p{L}* Anonim\\p{L}*"
+   ],
+   "works": [
+    "Kronika polska"
+   ]
+  },
+  {
+   "id": "kadlubek",
+   "name": "Wincenty Kadłubek",
+   "born": 1150,
+   "died": 1223,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "biskup krakowski, kronikarz",
+   "m": [
+    "Kadłub\\p{L}*"
+   ],
+   "works": [
+    "Kronika polska"
+   ]
+  },
+  {
+   "id": "dlugosz",
+   "name": "Jan Długosz",
+   "born": 1415,
+   "died": 1480,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "historyk, autor „Roczników”",
+   "m": [
+    "Długosz\\p{L}*"
+   ],
+   "works": [
+    "Roczniki, czyli kroniki sławnego Królestwa Polskiego"
+   ]
+  },
+  {
+   "id": "porebowicz",
+   "name": "Edward Porębowicz",
+   "born": 1862,
+   "died": 1937,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "tłumacz „Boskiej komedii”",
+   "m": [
+    "Porębowicz\\p{L}*"
+   ]
+  },
+  {
+   "id": "kuciak",
+   "name": "Agnieszka Kuciak",
+   "born": 1970,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "poetka, tłumaczka „Boskiej komedii”",
+   "m": [
+    "Kuciak\\p{L}*"
+   ]
+  },
+  {
+   "id": "anzelm",
+   "name": "Anzelm z Canterbury",
+   "born": 1033,
+   "died": 1109,
+   "c": "filozof",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "teolog, autor dowodu ontologicznego",
+   "m": [
+    "Anzelm\\p{L}*"
+   ]
+  },
+  {
+   "id": "abelard",
+   "name": "Piotr Abelard",
+   "born": 1079,
+   "died": 1142,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "filozof scholastyczny",
+   "m": [
+    "Abelard\\p{L}*"
+   ],
+   "works": [
+    "Tak i nie"
+   ]
+  },
+  {
+   "id": "heloiza",
+   "name": "Heloiza",
+   "born": 1100,
+   "died": 1164,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "k",
+   "desc": "uczona, ksieni, autorka listów do Abelarda",
+   "m": [
+    "Heloiz\\p{L}*"
+   ]
+  },
+  {
+   "id": "tomasz-z-akwinu",
+   "name": "Tomasz z Akwinu",
+   "born": 1225,
+   "died": 1274,
+   "c": "filozof",
+   "country": "Italia",
+   "g": "m",
+   "desc": "filozof i teolog, autor „Sumy teologicznej”",
+   "m": [
+    "Tomasz\\p{L}* z Akwinu"
+   ],
+   "works": [
+    "Suma teologiczna"
+   ]
+  },
+  {
+   "id": "ockham",
+   "name": "Wilhelm Ockham",
+   "born": 1287,
+   "died": 1347,
+   "c": "filozof",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "filozof, twórca „brzytwy Ockhama”",
+   "m": [
+    "Ockham\\p{L}*"
+   ]
+  },
+  {
+   "id": "wlodkowic",
+   "name": "Paweł Włodkowic",
+   "born": 1370,
+   "died": 1435,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rektor Akademii Krakowskiej, prawnik",
+   "m": [
+    "Włodkowic\\p{L}*"
+   ]
+  },
+  {
+   "id": "panofsky",
+   "name": "Erwin Panofsky",
+   "born": 1892,
+   "died": 1968,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "historyk sztuki",
+   "m": [
+    "Panofsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kant",
+   "name": "Immanuel Kant",
+   "born": 1724,
+   "died": 1804,
+   "c": "filozof",
+   "country": "Prusy",
+   "g": "m",
+   "desc": "filozof",
+   "m": [
+    "Kant(?:a|em|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "krolowa-jadwiga",
+   "name": "Królowa Jadwiga",
+   "born": 1374,
+   "died": 1399,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "królowa Polski, odnowicielka Akademii Krakowskiej",
+   "m": [
+    "królow\\p{L}* Jadwig\\p{L}*"
+   ]
+  },
+  {
+   "id": "van-eyck",
+   "name": "Jan van Eyck",
+   "born": 1390,
+   "died": 1441,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "m": [
+    "van Eyck\\p{L}*"
+   ],
+   "works": [
+    "Portret Arnolfinich",
+    "Ołtarz Gandawski"
+   ]
+  },
+  {
+   "id": "van-der-weyden",
+   "name": "Rogier van der Weyden",
+   "born": 1399,
+   "died": 1464,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "m": [
+    "van der Weyden\\p{L}*"
+   ]
+  },
+  {
+   "id": "dobrawa",
+   "name": "Dobrawa",
+   "born": 940,
+   "died": 977,
+   "c": "polityk",
+   "country": "Czechy",
+   "g": "k",
+   "desc": "czeska księżniczka, żona Mieszka I",
+   "m": [
+    "Dobraw\\p{L}*"
+   ]
+  },
+  {
+   "id": "ibrahim",
+   "name": "Ibrahim ibn Jakub",
+   "born": 930,
+   "died": 980,
+   "c": "pisarz",
+   "country": "Al-Andalus",
+   "g": "m",
+   "desc": "podróżnik, autor relacji o państwie Mieszka",
+   "m": [
+    "Ibrahim\\p{L}*"
+   ]
+  },
+  {
+   "id": "boleslaw-chrobry",
+   "name": "Bolesław Chrobry",
+   "born": 967,
+   "died": 1025,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy król Polski",
+   "m": [
+    "Chrobr\\p{L}*"
+   ]
+  },
+  {
+   "id": "wojciech",
+   "name": "Święty Wojciech",
+   "born": 956,
+   "died": 997,
+   "c": "inne",
+   "country": "Czechy",
+   "g": "m",
+   "desc": "biskup praski, męczennik, patron Polski",
+   "m": [
+    "Wojciech\\p{L}*(?!\\p{L}| z Brudzewa| \\p{Lu})"
+   ]
+  },
+  {
+   "id": "otton-iii",
+   "name": "Otton III",
+   "born": 980,
+   "died": 1002,
+   "c": "polityk",
+   "country": "Cesarstwo",
+   "g": "m",
+   "desc": "cesarz, uczestnik Zjazdu Gnieźnieńskiego",
+   "m": [
+    "Otton\\p{L}* trzeci\\p{L}*"
+   ]
+  },
+  {
+   "id": "kazimierz-odnowiciel",
+   "name": "Kazimierz Odnowiciel",
+   "born": 1016,
+   "died": 1058,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę, odnowiciel państwa",
+   "m": [
+    "Odnowiciel\\p{L}*"
+   ]
+  },
+  {
+   "id": "krzywousty",
+   "name": "Bolesław Krzywousty",
+   "born": 1086,
+   "died": 1138,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę, autor testamentu dzielącego Polskę",
+   "m": [
+    "Krzywoust\\p{L}*"
+   ]
+  },
+  {
+   "id": "wlostowic",
+   "name": "Piotr Włostowic",
+   "born": 1080,
+   "died": 1153,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "możnowładca śląski, fundator kościołów",
+   "m": [
+    "Włostowic\\p{L}*"
+   ]
+  },
+  {
+   "id": "wladyslaw-herman",
+   "name": "Władysław Herman",
+   "born": 1044,
+   "died": 1102,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę Polski",
+   "m": [
+    "Władysław\\p{L}* Herman\\p{L}*"
+   ]
+  },
+  {
+   "id": "kosciuszko",
+   "name": "Tadeusz Kościuszko",
+   "born": 1746,
+   "died": 1817,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "naczelnik insurekcji",
+   "m": [
+    "Kościuszk\\p{L}*"
+   ]
+  },
+  {
+   "id": "sobieski",
+   "name": "Jan III Sobieski",
+   "born": 1629,
+   "died": 1696,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski",
+   "m": [
+    "Sobiesk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kopernik",
+   "name": "Mikołaj Kopernik",
+   "born": 1473,
+   "died": 1543,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "astronom",
+   "m": [
+    "Kopernik\\p{L}*"
+   ],
+   "works": [
+    "O obrotach sfer niebieskich"
+   ]
+  },
+  {
+   "id": "lokietek",
+   "name": "Władysław Łokietek",
+   "born": 1260,
+   "died": 1333,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, zjednoczyciel królestwa",
+   "m": [
+    "Łokiet\\p{L}*"
+   ]
+  },
+  {
+   "id": "wierzynek",
+   "name": "Mikołaj Wierzynek",
+   "born": 1300,
+   "died": 1360,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "mieszczanin krakowski, legendarny gospodarz uczty",
+   "m": [
+    "Wierzyn\\p{L}*"
+   ]
+  },
+  {
+   "id": "kazimierz-jagiellonczyk",
+   "name": "Kazimierz Jagiellończyk",
+   "born": 1427,
+   "died": 1492,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski",
+   "m": [
+    "Kazimierz\\p{L}* Jagiellończyk\\p{L}*"
+   ]
+  },
+  {
+   "id": "wojciech-z-brudzewa",
+   "name": "Wojciech z Brudzewa",
+   "born": 1445,
+   "died": 1495,
+   "c": "naukowiec",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "astronom, nauczyciel Kopernika",
+   "m": [
+    "Wojciech\\p{L}* z Brudzewa"
+   ]
+  },
+  {
+   "id": "elzbieta-rakuszanka",
+   "name": "Elżbieta Rakuszanka",
+   "born": 1436,
+   "died": 1505,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "królowa Polski, matka królów",
+   "m": [
+    "Rakuszank\\p{L}*"
+   ]
+  },
+  {
+   "id": "zygmunt-stary",
+   "name": "Zygmunt Stary",
+   "born": 1467,
+   "died": 1548,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "król Polski, mecenas renesansu",
+   "m": [
+    "Zygmunt\\p{L}* Star\\p{L}*"
+   ]
+  },
+  {
+   "id": "jan-pella",
+   "name": "Jan Pella z Niewiesza",
+   "born": 1370,
+   "died": 1428,
+   "c": "inne",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "biskup włocławski, zasadźca miasta Łodzi",
+   "m": [
+    "Pell\\p{L}*"
+   ],
+   "lodz": true
   }
  ]
 }

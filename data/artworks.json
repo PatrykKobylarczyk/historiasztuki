@@ -1359,5 +1359,525 @@
   "creator": "Sandro Botticelli",
   "date": "1480",
   "place": "Ognissanti, Florencja"
+ },
+ "Mausoleum of Theoderic": {
+  "creator": "fundacja Teodoryka Wielkiego",
+  "date": "ok. 520",
+  "place": "Rawenna"
+ },
+ "Sant'Apollinare Nuovo mosaic procession": {
+  "creator": "mozaikarze rawenneńscy",
+  "date": "VI w.",
+  "place": "Sant'Apollinare Nuovo, Rawenna"
+ },
+ "Sutton Hoo helmet": {
+  "creator": "warsztat anglosaski",
+  "date": "VII w.",
+  "place": "British Museum, Londyn"
+ },
+ "Palatine Chapel Aachen interior": {
+  "creator": "Odo z Metzu",
+  "date": "ok. 792–805",
+  "place": "Akwizgran"
+ },
+ "Carolingian minuscule manuscript": {
+  "creator": "skryptorium karolińskie",
+  "date": "IX w.",
+  "place": "zbiory europejskie"
+ },
+ "Oseberg ship": {
+  "creator": "cieśle skandynawscy",
+  "date": "ok. 820",
+  "place": "Muzeum Łodzi Wikingów, Oslo"
+ },
+ "Christ Pantocrator Sinai icon": {
+  "creator": "nieznany malarz bizantyński",
+  "date": "VI w.",
+  "place": "Klasztor św. Katarzyny, Synaj"
+ },
+ "Deesis mosaic Hagia Sophia": {
+  "creator": "mozaikarze bizantyńscy",
+  "date": "ok. 1261",
+  "place": "Hagia Sophia, Stambuł"
+ },
+ "Chora Church mosaic": {
+  "creator": "fundacja Teodora Metochity",
+  "date": "1315–1321",
+  "place": "Kościół Chora, Stambuł"
+ },
+ "St Mark's Basilica Venice": {
+  "creator": "budowniczowie weneccy",
+  "date": "od 1063",
+  "place": "Wenecja"
+ },
+ "Horses of Saint Mark": {
+  "creator": "nieznany rzeźbiarz antyczny",
+  "date": "starożytność",
+  "place": "Bazylika św. Marka, Wenecja"
+ },
+ "Chapel of the Holy Trinity Lublin": {
+  "creator": "malarze ruscy pod kierunkiem Andrzeja",
+  "date": "1418",
+  "place": "Zamek Lubelski"
+ },
+ "Book of Kells Chi Rho": {
+  "creator": "mnisi iroszkoccy",
+  "date": "ok. 800",
+  "place": "Trinity College, Dublin"
+ },
+ "Pala d'Oro Venice": {
+  "creator": "złotnicy bizantyńscy i weneccy",
+  "date": "X–XIV w.",
+  "place": "Bazylika św. Marka, Wenecja"
+ },
+ "Dome of the Rock": {
+  "creator": "fundacja kalifa Abd al-Malika",
+  "date": "691–692",
+  "place": "Jerozolima"
+ },
+ "Mezquita Cordoba arches": {
+  "creator": "budowniczowie emiratu Kordoby",
+  "date": "od 785",
+  "place": "Kordoba, Hiszpania"
+ },
+ "Alhambra muqarnas": {
+  "creator": "artyści dynastii Nasrydów",
+  "date": "XIV w.",
+  "place": "Alhambra, Grenada"
+ },
+ "Blue Quran Kufic": {
+  "creator": "kaligraf północnoafrykański",
+  "date": "IX–X w.",
+  "place": "zbiory muzealne"
+ },
+ "Court of the Lions Alhambra": {
+  "creator": "fundacja Muhammada V",
+  "date": "1362–1391",
+  "place": "Alhambra, Grenada"
+ },
+ "Kruszyniany mosque": {
+  "creator": "społeczność Tatarów polskich",
+  "date": "XVIII w.",
+  "place": "Kruszyniany, Podlasie"
+ },
+ "Monte Cassino Abbey": {
+  "creator": "zakon benedyktynów (odbudowa po 1944)",
+  "date": "zał. ok. 529",
+  "place": "Monte Cassino, Włochy"
+ },
+ "Plan of Saint Gall": {
+  "creator": "nieznany rysownik z Reichenau",
+  "date": "ok. 820–830",
+  "place": "Biblioteka Opactwa, St. Gallen"
+ },
+ "Medieval scribe miniature": {
+  "creator": "iluminator średniowieczny",
+  "date": "XII–XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Knight snail marginalia": {
+  "creator": "iluminator gotycki",
+  "date": "XIV w.",
+  "place": "zbiory europejskie"
+ },
+ "Sulejów Abbey": {
+  "creator": "zakon cystersów",
+  "date": "XII–XIII w.",
+  "place": "Sulejów, województwo łódzkie"
+ },
+ "Hildegard von Bingen Scivias": {
+  "creator": "warsztat Hildegardy z Bingen",
+  "date": "XII w.",
+  "place": "Nadrenia"
+ },
+ "Melk Abbey library": {
+  "creator": "Jakob Prandtauer",
+  "date": "1702–1736",
+  "place": "Melk, Austria"
+ },
+ "Speyer Cathedral": {
+  "creator": "fundacja cesarza Konrada II",
+  "date": "1030–1106",
+  "place": "Spira, Niemcy"
+ },
+ "Basilica of Saint-Sernin Toulouse": {
+  "creator": "budowniczowie romańscy",
+  "date": "ok. 1080–1120",
+  "place": "Tuluza, Francja"
+ },
+ "Autun tympanum Last Judgement": {
+  "creator": "Gislebertus",
+  "date": "ok. 1130",
+  "place": "Katedra Saint-Lazare, Autun"
+ },
+ "Sant Climent de Taull apse": {
+  "creator": "Mistrz z Taüll",
+  "date": "1123",
+  "place": "Muzeum Sztuki Katalonii, Barcelona"
+ },
+ "Bayeux Tapestry": {
+  "creator": "hafciarki anglosaskie",
+  "date": "ok. 1070",
+  "place": "Muzeum w Bayeux"
+ },
+ "Piazza dei Miracoli Pisa": {
+  "creator": "Buscheto, Rainaldo, Bonanno Pisano",
+  "date": "XI–XIV w.",
+  "place": "Piza"
+ },
+ "Durham Cathedral nave": {
+  "creator": "budowniczowie normańscy",
+  "date": "1093–1133",
+  "place": "Durham, Anglia"
+ },
+ "Basilica of Saint-Denis choir": {
+  "creator": "opat Suger (fundator)",
+  "date": "1140–1144",
+  "place": "Saint-Denis, Francja"
+ },
+ "Notre-Dame de Paris flying buttresses": {
+  "creator": "budowniczowie gotyccy",
+  "date": "XII–XIV w.",
+  "place": "Paryż"
+ },
+ "Chartres Cathedral stained glass": {
+  "creator": "szklarze z Chartres",
+  "date": "XII–XIII w.",
+  "place": "Katedra w Chartres"
+ },
+ "Amiens Cathedral nave": {
+  "creator": "Robert de Luzarches",
+  "date": "1220–1270",
+  "place": "Amiens"
+ },
+ "Notre-Dame de Paris": {
+  "creator": "budowniczowie gotyccy, Eugène Viollet-le-Duc (restauracja)",
+  "date": "od 1163",
+  "place": "Paryż"
+ },
+ "King's College Chapel fan vault": {
+  "creator": "John Wastell",
+  "date": "1508–1515",
+  "place": "Cambridge"
+ },
+ "Archikatedra Łódź": {
+  "creator": "Emil Zillmann",
+  "date": "1901–1912",
+  "place": "Łódź, ul. Piotrkowska"
+ },
+ "Sainte-Chapelle interior": {
+  "creator": "fundacja Ludwika IX",
+  "date": "1242–1248",
+  "place": "Paryż"
+ },
+ "Notre-Dame rose window": {
+  "creator": "szklarze paryscy",
+  "date": "XIII w.",
+  "place": "Notre-Dame, Paryż"
+ },
+ "Smiling Angel Reims": {
+  "creator": "warsztat katedry w Reims",
+  "date": "ok. 1240",
+  "place": "Katedra w Reims"
+ },
+ "Uta von Ballenstedt Naumburg": {
+  "creator": "Mistrz z Naumburga",
+  "date": "ok. 1250",
+  "place": "Katedra w Naumburgu"
+ },
+ "Madonna z Krużlowej": {
+  "creator": "nieznany rzeźbiarz małopolski",
+  "date": "ok. 1410",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Veit Stoss altarpiece Krakow": {
+  "creator": "Wit Stwosz",
+  "date": "1477–1489",
+  "place": "Kościół Mariacki, Kraków"
+ },
+ "Très Riches Heures October": {
+  "creator": "bracia Limbourg",
+  "date": "ok. 1412–1416",
+  "place": "Musée Condé, Chantilly"
+ },
+ "The Lady and the Unicorn tapestry": {
+  "creator": "warsztat flamandzki",
+  "date": "ok. 1500",
+  "place": "Musée de Cluny, Paryż"
+ },
+ "Gregorian chant manuscript": {
+  "creator": "skryptorium klasztorne",
+  "date": "XII–XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Guido of Arezzo": {
+  "creator": "iluminator średniowieczny",
+  "date": "XII w.",
+  "place": "zbiory europejskie"
+ },
+ "Codex Manesse Walther von der Vogelweide": {
+  "creator": "iluminatorzy zuryscy",
+  "date": "ok. 1300–1340",
+  "place": "Biblioteka Uniwersytecka w Heidelbergu"
+ },
+ "Carmina Burana Wheel of Fortune": {
+  "creator": "skryptorium bawarskie",
+  "date": "ok. 1230",
+  "place": "Bawarska Biblioteka Państwowa, Monachium"
+ },
+ "Guillaume de Machaut miniature": {
+  "creator": "iluminator francuski",
+  "date": "XIV w.",
+  "place": "Biblioteka Narodowa Francji"
+ },
+ "Bogurodzica manuscript": {
+  "creator": "nieznany skryba",
+  "date": "1407 (najstarszy zapis)",
+  "place": "Biblioteka Jagiellońska, Kraków"
+ },
+ "Beowulf manuscript": {
+  "creator": "nieznany skryba anglosaski",
+  "date": "ok. 1000",
+  "place": "British Library, Londyn"
+ },
+ "Death of Roland miniature": {
+  "creator": "iluminator francuski",
+  "date": "XIV–XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Round Table Holy Grail miniature": {
+  "creator": "iluminator francuski",
+  "date": "XV w.",
+  "place": "Biblioteka Narodowa Francji"
+ },
+ "Domenico di Michelino Dante": {
+  "creator": "Domenico di Michelino",
+  "date": "1465",
+  "place": "Katedra Santa Maria del Fiore, Florencja"
+ },
+ "Decameron miniature": {
+  "creator": "iluminator francuski",
+  "date": "XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Christine de Pizan writing": {
+  "creator": "Mistrz Miasta Pań",
+  "date": "ok. 1410–1414",
+  "place": "British Library, Londyn"
+ },
+ "Księga henrykowska": {
+  "creator": "opat Piotr z Henrykowa",
+  "date": "ok. 1270",
+  "place": "Muzeum Archidiecezjalne we Wrocławiu"
+ },
+ "Botticelli Saint Augustine in His Study": {
+  "creator": "Sandro Botticelli",
+  "date": "1480",
+  "place": "Ognissanti, Florencja"
+ },
+ "Abelard and Heloise miniature": {
+  "creator": "iluminator francuski",
+  "date": "XIV w.",
+  "place": "Musée Condé, Chantilly"
+ },
+ "Laurentius de Voltolina lecture": {
+  "creator": "Laurentius de Voltolina",
+  "date": "XIV w.",
+  "place": "Kupferstichkabinett, Berlin"
+ },
+ "Collegium Maius Kraków": {
+  "creator": "budowniczowie krakowscy",
+  "date": "XV w.",
+  "place": "Kraków"
+ },
+ "Triumph of Saint Thomas Aquinas Gozzoli": {
+  "creator": "Benozzo Gozzoli",
+  "date": "1471",
+  "place": "Luwr, Paryż"
+ },
+ "William of Ockham sketch": {
+  "creator": "nieznany autor",
+  "date": "1341",
+  "place": "rękopis Summa logicae"
+ },
+ "Très Riches Heures February": {
+  "creator": "bracia Limbourg",
+  "date": "ok. 1412–1416",
+  "place": "Musée Condé, Chantilly"
+ },
+ "Arnolfini Portrait": {
+  "creator": "Jan van Eyck",
+  "date": "1434",
+  "place": "National Gallery, Londyn"
+ },
+ "Poulaine shoes medieval": {
+  "creator": "szewcy średniowieczni",
+  "date": "XIV–XV w.",
+  "place": "zbiory muzealne"
+ },
+ "Rogier van der Weyden Portrait of a Lady": {
+  "creator": "Rogier van der Weyden",
+  "date": "ok. 1460",
+  "place": "National Gallery of Art, Waszyngton"
+ },
+ "Gothic plate armour": {
+  "creator": "płatnerze niemieccy",
+  "date": "XV w.",
+  "place": "zbiory muzealne"
+ },
+ "Coat of arms of Łódź": {
+  "creator": "herb miasta",
+  "date": "od XVI w.",
+  "place": "Łódź"
+ },
+ "Très Riches Heures January": {
+  "creator": "bracia Limbourg",
+  "date": "ok. 1412–1416",
+  "place": "Musée Condé, Chantilly"
+ },
+ "Grodzisko Giecz": {
+  "creator": "budowniczowie piastowscy",
+  "date": "X w.",
+  "place": "Giecz, Wielkopolska"
+ },
+ "Ostrów Lednicki palatium": {
+  "creator": "budowniczowie piastowscy",
+  "date": "2. poł. X w.",
+  "place": "Ostrów Lednicki"
+ },
+ "Gniezno Cathedral": {
+  "creator": "budowniczowie gotyccy na miejscu świątyni romańskiej",
+  "date": "XIV w.",
+  "place": "Gniezno"
+ },
+ "Drzwi Gnieźnieńskie": {
+  "creator": "warsztat odlewniczy (być może mozański)",
+  "date": "ok. 1175",
+  "place": "Katedra w Gnieźnie"
+ },
+ "Kielich z Trzemeszna": {
+  "creator": "złotnik nadmozański",
+  "date": "2. poł. XII w.",
+  "place": "Trzemeszno"
+ },
+ "Kolegiata w Tumie": {
+  "creator": "budowniczowie romańscy",
+  "date": "1141–1161",
+  "place": "Tum pod Łęczycą"
+ },
+ "Krypta św. Leonarda Wawel": {
+  "creator": "budowniczowie romańscy",
+  "date": "ok. 1090–1118",
+  "place": "Katedra na Wawelu, Kraków"
+ },
+ "Kolumny strzeleńskie": {
+  "creator": "nieznany rzeźbiarz romański",
+  "date": "ok. 1170–1190",
+  "place": "Kościół Świętej Trójcy, Strzelno"
+ },
+ "Tympanon z Ołbina": {
+  "creator": "warsztat śląski",
+  "date": "ok. 1150–1170",
+  "place": "Kościół św. Marii Magdaleny, Wrocław"
+ },
+ "Kościół św. Idziego w Inowłodzu": {
+  "creator": "budowniczowie romańscy",
+  "date": "ok. 1086",
+  "place": "Inowłódz, województwo łódzkie"
+ },
+ "Płyta orantów Wiślica": {
+  "creator": "nieznany artysta romański",
+  "date": "2. poł. XII w.",
+  "place": "Wiślica"
+ },
+ "Drzwi Płockie": {
+  "creator": "odlewnia w Magdeburgu, mistrz Riquin",
+  "date": "ok. 1152–1154",
+  "place": "Sobór św. Zofii, Nowogród Wielki"
+ },
+ "Main Market Square Kraków": {
+  "creator": "lokacja 1257",
+  "date": "XIII–XV w.",
+  "place": "Kraków"
+ },
+ "St. Mary's Church Gdańsk": {
+  "creator": "budowniczowie gdańscy",
+  "date": "1343–1502",
+  "place": "Gdańsk"
+ },
+ "Malbork Castle": {
+  "creator": "zakon krzyżacki",
+  "date": "XIII–XV w.",
+  "place": "Malbork"
+ },
+ "Bazylika w Wiślicy": {
+  "creator": "fundacja Kazimierza Wielkiego",
+  "date": "XIV w.",
+  "place": "Wiślica"
+ },
+ "Nagrobek Kazimierza Wielkiego": {
+  "creator": "nieznany rzeźbiarz",
+  "date": "ok. 1370–1380",
+  "place": "Katedra na Wawelu"
+ },
+ "Poliptyk z Ptaszkowej": {
+  "creator": "warsztat małopolski",
+  "date": "XV w.",
+  "place": "Muzeum Narodowe w Krakowie"
+ },
+ "Zamek w Łęczycy": {
+  "creator": "fundacja Kazimierza Wielkiego",
+  "date": "XIV w.",
+  "place": "Łęczyca"
+ },
+ "Zamek w Oporowie": {
+  "creator": "fundacja rodu Oporowskich",
+  "date": "1434–1449",
+  "place": "Oporów koło Kutna"
+ },
+ "Sukiennice Kraków": {
+  "creator": "budowniczowie krakowscy (przebudowa renesansowa Giovanni il Mosca)",
+  "date": "XIV–XVI w.",
+  "place": "Rynek Główny, Kraków"
+ },
+ "Battle of Grunwald Matejko": {
+  "creator": "Jan Matejko",
+  "date": "1878",
+  "place": "Muzeum Narodowe w Warszawie"
+ },
+ "Szczerbiec": {
+  "creator": "nieznany płatnerz",
+  "date": "XII–XIII w.",
+  "place": "Zamek Królewski na Wawelu"
+ },
+ "Collegium Maius courtyard": {
+  "creator": "budowniczowie krakowscy",
+  "date": "XV w.",
+  "place": "Kraków"
+ },
+ "Globus Jagielloński": {
+  "creator": "nieznany twórca",
+  "date": "ok. 1510",
+  "place": "Muzeum UJ Collegium Maius"
+ },
+ "Stary Rynek Łódź": {
+  "creator": "układ średniowiecznego miasteczka",
+  "date": "od 1423",
+  "place": "Łódź"
+ },
+ "Kościół Wniebowzięcia NMP Łódź Plac Kościelny": {
+  "creator": "Józef Pius Dziekoński",
+  "date": "1888–1897",
+  "place": "Plac Kościelny, Łódź"
+ },
+ "Zamek Królewski Piotrków Trybunalski": {
+  "creator": "Benedykt z Sandomierza (przypisywany)",
+  "date": "1512–1519",
+  "place": "Piotrków Trybunalski"
+ },
+ "Zamek w Uniejowie": {
+  "creator": "fundacja arcybiskupów gnieźnieńskich",
+  "date": "XIV w.",
+  "place": "Uniejów"
  }
 }

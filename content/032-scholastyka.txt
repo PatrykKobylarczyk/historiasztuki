@@ -1,0 +1,103 @@
+---
+n: 32
+title: Scholastyka, św. Augustyn i św. Tomasz z Akwinu
+subtitle: Wiara szuka rozumu
+era: V–XV w.
+next: Moda, ubiór i przedmioty średniowiecznej Europy.
+---
+
+[jingle]
+
+[gospodarz]
+KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty drugi: scholastyka, święty Augustyn i święty Tomasz z Akwinu.
+
+Średniowieczni myśliciele zadawali pytania, które zadajemy sobie do dziś. Czy wiara i rozum mogą się zgodzić? Czy można udowodnić, że Bóg istnieje? Skąd w świecie zło? Czym jest czas? Dziś poznamy, jak próbowali na nie odpowiedzieć, i zobaczymy, że uniwersytet, debata i przypis to wynalazki średniowiecza.
+
+# Rozdział I. Augustyn — niespokojne serce
+
+[literatura]
+Pierwszy wielki filozof chrześcijański to święty Augustyn, o którym wspominaliśmy przy końcu antyku. W Wyznaniach opisał swoje młodzieńcze błędy i poszukiwania, a zaczął od zdania, które stało się sławne: niespokojne jest nasze serce, dopóki nie spocznie w Bogu. Połączył chrześcijaństwo z filozofią Platona: prawdziwy świat to świat idei w umyśle Boga, a nasz jest jego odbiciem.
+
+Augustyn pierwszy tak głęboko zastanawiał się nad czasem. Pisał, że gdy nikt go nie pyta, wie, czym jest czas, ale gdy ma to wytłumaczyć, nie wie. Uznał, że przeszłość istnieje w pamięci, przyszłość w oczekiwaniu, a teraźniejszość w uwadze. Te myśli czytali jeszcze w dwudziestym wieku filozofowie, jak Heidegger.
+
+# Rozdział II. Wiara szukająca zrozumienia
+
+[literatura]
+W jedenastym wieku święty Anzelm z Canterbury sformułował program średniowiecznej filozofii: wiara szukająca zrozumienia. Nie chodziło o to, by wątpić, lecz by zrozumieć rozumem to, w co się wierzy. Anzelm zaproponował słynny dowód na istnienie Boga: skoro możemy pomyśleć byt, od którego nic doskonalszego nie można pomyśleć, to musi on istnieć naprawdę, bo inaczej nie byłby najdoskonalszy.
+
+Ten dowód, nazwany ontologicznym, krytykowali już współcześni, a potem Kant. Filozofowie spierają się o niego do dziś, co dobrze pokazuje, że średniowieczne pytania wcale się nie zestarzały.
+
+# Rozdział III. Abelard i metoda sporu
+
+[literatura]
+Piotr Abelard, paryski nauczyciel z dwunastego wieku, był gwiazdą swoich czasów. Studenci przybywali do niego z całej Europy. W książce Tak i nie zestawił sprzeczne wypowiedzi autorytetów na te same tematy i pokazał, że trzeba je rozważyć rozumem. Tak narodziła się metoda scholastyczna: postawić pytanie, przytoczyć argumenty za i przeciw, a potem rozstrzygnąć.
+
+Abelard znany jest też z tragicznej miłości do Heloizy, swojej uczennicy. Po skandalu oboje wstąpili do klasztorów, ale pisali do siebie listy, które czyta się do dziś. Heloiza była jedną z najlepiej wykształconych kobiet swojej epoki.
+
+# Rozdział IV. Uniwersytet
+
+[historyk]
+W dwunastym i trzynastym wieku powstały uniwersytety: wspólnoty nauczycieli i studentów z przywilejami od papieża i króla. Bolonia słynęła z prawa, Paryż z teologii, Oksford z nauk przyrodniczych, Salerno z medycyny. Student zaczynał od sztuk wyzwolonych: gramatyki, retoryki, dialektyki, arytmetyki, geometrii, astronomii i muzyki, a dopiero potem mógł studiować prawo, medycynę lub teologię.
+
+Zajęcia polegały na wykładzie, czyli czytaniu i komentowaniu tekstu, oraz dyspucie, czyli publicznym sporze. Stopnie bakałarza, magistra i doktora, toga, a nawet podział na wydziały przetrwały do dziś. Uniwersytet w Krakowie, założony w tysiąc trzysta sześćdziesiątym czwartym roku, a odnowiony przez Jagiełłę i królową Jadwigę w tysiąc czterysta, to jeden z najstarszych w Europie Środkowej.
+
+# Rozdział V. Powrót Arystotelesa
+
+[literatura]
+W dwunastym i trzynastym wieku na zachód dotarły dzieła Arystotelesa, tłumaczone z arabskiego i greckiego w Toledo i na Sycylii, razem z komentarzami Awerroesa. To był wstrząs. Arystoteles mówił o przyrodzie, logice, polityce i duszy w sposób spójny i przekonujący, ale bez Boga osobowego i stworzenia świata. Kościół najpierw zakazał niektórych jego tekstów.
+
+Pojawiło się pytanie: czy prawdy rozumu mogą przeczyć prawdom wiary? Niektórzy uczeni w Paryżu mówili, że może istnieć podwójna prawda. Odpowiedzi na ten kryzys udzielił największy myśliciel średniowiecza.
+
+# Rozdział VI. Tomasz z Akwinu
+
+[literatura]
+Tomasz z Akwinu, włoski dominikanin, uczony w Paryżu, uznał, że wiara i rozum nie mogą sobie przeczyć, bo obie pochodzą od Boga. Rozum może poznać świat i dojść do wniosku, że Bóg istnieje, a wiara dopowiada to, czego rozum sam nie odkryje. W Sumie teologicznej zaproponował pięć dróg prowadzących do Boga, na przykład od ruchu: wszystko, co się porusza, jest poruszane przez coś innego, więc musi istnieć pierwszy poruszyciel.
+
+Suma ma budowę katedry: tysiące artykułów, a w każdym pytanie, zarzuty, odpowiedź i odpowiedzi na zarzuty. Historyk sztuki Erwin Panofsky porównał ją wprost do architektury gotyckiej. Pod koniec życia Tomasz przeżył doświadczenie mistyczne i przestał pisać, mówiąc, że wszystko, co napisał, wydaje mu się słomą. Jego filozofia, tomizm, była przez wieki oficjalną filozofią Kościoła katolickiego.
+
+# Rozdział VII. Brzytwa Ockhama i polscy uczeni
+
+[literatura]
+W czternastym wieku angielski franciszkanin Wilhelm Ockham zakwestionował wielkie syntezy. Głosił, że nie należy mnożyć bytów ponad potrzebę. Ta zasada, nazwana brzytwą Ockhama, jest do dziś regułą nauki: z dwóch wyjaśnień lepsze jest prostsze. Ockham oddzielił wiarę od rozumu i utorował drogę nowożytnej nauce.
+
+W Krakowie w piętnastym wieku Paweł Włodkowic, rektor uniwersytetu, bronił na soborze w Konstancji tezy, że nie wolno nawracać pogan mieczem i że poganie mają prawo do własnych państw. Wystąpił przeciw Krzyżakom w imieniu Polski i Litwy. Jego idee uważa się za zapowiedź prawa międzynarodowego i praw człowieka.
+
+# Zakończenie
+
+[gospodarz]
+Podsumujmy. Poznaliśmy Augustyna i jego rozważania o sercu i czasie, Anzelma i dowód ontologiczny, Abelarda, Heloizę i metodę sporu, narodziny uniwersytetu, powrót Arystotelesa, Tomasza z Akwinu i Sumę teologiczną, a na koniec Ockhama i Pawła Włodkowica.
+
+W następnym odcinku zejdziemy z wyżyn filozofii na ziemię: moda, ubiór i przedmioty średniowiecznej Europy.
+
+To była KULTURA. Do usłyszenia.
+
+[outro]
+
+## Galeria
+![Święty Augustyn, fresk Botticellego](Botticelli Saint Augustine in His Study) @1
+![Abelard i Heloiza, miniatura](Abelard and Heloise miniature) @3
+![Wykład na uniwersytecie, Laurentius de Voltolina](Laurentius de Voltolina lecture) @4
+![Collegium Maius w Krakowie](Collegium Maius Kraków) @4
+![Triumf św. Tomasza, Benozzo Gozzoli](Triumph of Saint Thomas Aquinas Gozzoli) @6
+![Wilhelm Ockham, rysunek](William of Ockham sketch) @7
+
+## Słowniczek
+- Scholastyka: średniowieczna metoda filozofii oparta na sporze i logice.
+- Dowód ontologiczny: wywód istnienia Boga z samego pojęcia Boga.
+- Dysputa: publiczny spór naukowy.
+- Sztuki wyzwolone: siedem przedmiotów podstawowych studiów.
+- Suma: obszerne, uporządkowane dzieło obejmujące całą wiedzę.
+- Tomizm: filozofia Tomasza z Akwinu.
+- Brzytwa Ockhama: zasada wybierania prostszego wyjaśnienia.
+
+## Pytania
+? Od czego zaczynają się Wyznania Augustyna? | Od opisu Rzymu | Od słów o niespokojnym sercu* | Od dowodu istnienia Boga | To jedno z najsłynniejszych zdań filozofii.
+? Kto sformułował dowód ontologiczny? | Tomasz z Akwinu | Anzelm z Canterbury* | Ockham | Wywodził istnienie Boga z pojęcia Boga.
+? Co głosi brzytwa Ockhama? | Że wiara jest ponad rozumem | Że nie należy mnożyć bytów ponad potrzebę* | Że trzeba wątpić we wszystko | Prostsze wyjaśnienie jest lepsze.
+? Czego bronił Paweł Włodkowic w Konstancji? | Wypraw krzyżowych | Prawa pogan do własnych państw* | Władzy cesarza | Wystąpił przeciw Krzyżakom.
+
+## Źródła
+- [Tomasz z Akwinu — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/aquinas/)
+- [Anzelm z Canterbury — Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/anselm/)
+- [Uniwersytet Jagielloński — historia](https://www.uj.edu.pl/)
+- [Paweł Włodkowic — Encyklopedia PWN](https://encyklopedia.pwn.pl/)
