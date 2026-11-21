@@ -104,6 +104,12 @@ class Mix:
         self.events.append(("drums", t, 36, 0.1, min(1.0, vel)))
         self.add(hit("kick", 0.5) * vel * 0.3, t, 0)
 
+    def kit(self, name, t, vel=1.0, pan=0.0, length=0.6):
+        gm = {"tom_hi": 48, "tom_lo": 45, "flam": 38, "snare_hard": 38, "snare": 38, "hihat_foot": 44, "kick": 36}.get(name, 38)
+        self.events.append(("drums", t, gm, 0.1, min(1.0, vel)))
+        t += self.rng.normal(0, 0.004); vel *= self.rng.uniform(0.9, 1.08)
+        self.add(hit(name, length, 0.15) * vel * 0.22, t, pan)
+
     def crash(self, t, vel=1.0):
         self.events.append(("drums", t, 49, 0.1, min(1.0, vel)))
         self.add(hit("ride", 2.2, 0.6) * vel * 0.3, t, 0.3)
@@ -152,7 +158,7 @@ def chamber_ir(rt=1.0):
 
 # ---------------------------------------------------------------- partytura: F-dur, 168 BPM, swing
 def compose():
-    m = Mix(7.6)
+    m = Mix(9.2)
     T, P, BASS = "trumpet", "acoustic_grand_piano", "acoustic_bass"
 
     # 0–2 s — motyw trąbki: śmiały, łatwy do zapamiętania (F – A – C – D – C – A … G – F)
@@ -203,12 +209,23 @@ def compose():
     m.play(T, sw(8.5), "D6", 0.18, 0.5, 0.08); m.play(T, sw(9), "C6", 0.25, 0.55, 0.1)
     # drobne dodatki: krótka odpowiedź trąbki z tłumikiem i saksofon wprowadzający finał
     m.play("muted_trumpet", sw(10.5), "A5", 0.14, 0.45, 0.08); m.play("muted_trumpet", sw(11), "G5", 0.3, 0.5, 0.15)
-    for b, n in [(12, "F5"), (12.5, "E5"), (13, "Eb5")]:
-        m.play("alto_sax", sw(b), n, B * 0.45, 0.5, 0.08)
-    # przejście: triola werbla miotełką
-    for k in range(3):
-        m.tap(sw(12) + k * B / 3 * 2, 0.6 + 0.2 * k)
-    m.tap(sw(13), 1.0)
+    # SOLO PERKUSJI (break): zespół milknie na jeden takt, perkusista gra pałkami triolami po werblu i tomach
+    F = 4.0                                       # o tyle ćwierćnut przesuwa się finał
+    tri = B / 3
+    solo = [  # (ćwierćnuta, numer trioli 0–2, instrument, siła, panorama)
+        (12, 2, "snare", 0.5, -0.1),
+        (13, 0, "snare_hard", 0.95, -0.1), (13, 1, "snare", 0.45, -0.1), (13, 2, "snare", 0.6, -0.1),
+        (14, 0, "tom_hi", 0.9, -0.3), (14, 1, "snare", 0.5, -0.1), (14, 2, "tom_hi", 0.75, -0.3),
+        (15, 0, "tom_lo", 1.0, 0.3), (15, 1, "tom_hi", 0.7, -0.3), (15, 2, "tom_lo", 0.85, 0.3),
+        (16, 0, "flam", 1.0, -0.1), (16, 1, "tom_hi", 0.8, -0.3), (16, 2, "tom_lo", 0.95, 0.3),
+    ]
+    for q, k, name, v, pan in solo:
+        m.kit(name, sw(q) + k * tri, v * (0.8 + 0.06 * (q - 12)), pan)
+    for q in (13, 15):
+        m.kit("hihat_foot", sw(q), 0.5, 0.25)
+    for q in (14, 16):
+        m.kick(sw(q), 0.7)
+    m.kit("snare_hard", sw(16.5) + tri * 0.5, 1.0, -0.1)   # sygnał dla zespołu: „wchodzimy!”
 
     # 5–7 s — finał całego zespołu: „da-DAH!” z ostrym akcentem blachy (C7#9 → Gb13 → F6/9)
     horns = {"trumpet": [("C7#9", ["A5"]), ("Gb13", ["Ab5"]), ("F69", ["A5", "C6"])],
@@ -216,7 +233,7 @@ def compose():
              "tenor_sax": [("C7#9", ["Bb4"]), ("Gb13", ["Bb4"]), ("F69", ["D5"])],
              "trombone": [("C7#9", ["E4"]), ("Gb13", ["E4"]), ("F69", ["A4"])],
              "baritone_sax": [("C7#9", ["C3"]), ("Gb13", ["Gb2"]), ("F69", ["F2"])]}
-    hits = {"C7#9": (13.5, 0.2), "Gb13": (14.5, 0.2), "F69": (15, 1.45)}
+    hits = {"C7#9": (13.5 + F, 0.2), "Gb13": (14.5 + F, 0.2), "F69": (15 + F, 1.45)}
     for inst, parts in horns.items():
         for chord, notes in parts:
             b, d = hits[chord]
@@ -224,16 +241,16 @@ def compose():
             m.play(inst, sw(b), notes, d, 1.1 if chord == "F69" else 0.9, 0.25 if chord == "F69" else 0.06,
                    -1.5 if inst == "trumpet" and chord == "F69" else 0, players=players,
                    vib=0.05 if chord == "F69" and inst != "baritone_sax" else 0)
-    m.play(T, sw(15) + 0.9, "F6", 0.55, 0.8, 0.5, vib=0.07, solo=True)  # wysoki „dzwonek” trąbki prowadzącej na koniec
-    m.play("alto_sax", sw(15) + 0.9, "C6", 0.5, 0.45, 0.35, vib=0.12)
-    m.play(P, sw(13.5), ["Bb3", "E4", "Eb5"], 0.18, 0.7)
-    m.play(P, sw(14.5), ["Bb3", "E4", "Ab4", "Eb5"], 0.18, 0.75)
-    m.play(P, sw(15), ["F2", "A3", "D4", "G4", "C5", "F5"], 1.4, 1.0, 0.5)
-    m.play(BASS, sw(13.5), "C2", 0.2, 0.9); m.play(BASS, sw(14.5), "Gb2", 0.2, 0.9); m.play(BASS, sw(15), "F1", 1.3, 1.1, 0.4)
-    m.kick(sw(13.5), 0.7); m.kick(sw(14.5), 0.7); m.kick(sw(15), 1.0)
-    m.tap(sw(13.5), 1.0); m.tap(sw(14.5), 1.1)
-    m.crash(sw(15), 0.45)
-    return m, sw(15) + 1.55
+    m.play(T, sw(15 + F) + 0.9, "F6", 0.55, 0.8, 0.5, vib=0.07, solo=True)  # wysoki „dzwonek” trąbki prowadzącej na koniec
+    m.play("alto_sax", sw(15 + F) + 0.9, "C6", 0.5, 0.45, 0.35, vib=0.12)
+    m.play(P, sw(13.5 + F), ["Bb3", "E4", "Eb5"], 0.18, 0.7)
+    m.play(P, sw(14.5 + F), ["Bb3", "E4", "Ab4", "Eb5"], 0.18, 0.75)
+    m.play(P, sw(15 + F), ["F2", "A3", "D4", "G4", "C5", "F5"], 1.4, 1.0, 0.5)
+    m.play(BASS, sw(13.5 + F), "C2", 0.2, 0.9); m.play(BASS, sw(14.5 + F), "Gb2", 0.2, 0.9); m.play(BASS, sw(15 + F), "F1", 1.3, 1.1, 0.4)
+    m.kick(sw(13.5 + F), 0.7); m.kick(sw(14.5 + F), 0.7); m.kick(sw(15 + F), 1.0)
+    m.tap(sw(13.5 + F), 1.0); m.tap(sw(14.5 + F), 1.1)
+    m.crash(sw(15 + F), 0.45)
+    return m, sw(15 + F) + 1.55
 
 
 GM = {"trumpet": 56, "solo_trumpet": 56, "muted_trumpet": 59, "alto_sax": 65, "solo_alto_sax": 65, "tenor_sax": 66,

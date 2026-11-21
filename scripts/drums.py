@@ -13,6 +13,8 @@ FILES = {
     "brush": "gretsch/002_brushsnare.wav", "brush_ghost": "gretsch/003_brushsnareghost.wav",
     "ride": "gretsch/019_ridecymbal.wav", "ride_bell": "gretsch/018_ridebell.wav",
     "cymbal": "gretsch/017_openhat.wav", "cymbal_rub": "gretsch/008_cymbalrub.wav", "hihat_foot": "gretsch/010_foothat.wav",
+    "tom_hi": "gretsch/012_hitom.wav", "tom_lo": "gretsch/015_lotom.wav", "flam": "gretsch/009_flam.wav",
+    "snare_hard": "gretsch/022_snarehard.wav",
 }
 
 
