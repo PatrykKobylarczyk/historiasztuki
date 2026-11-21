@@ -7646,6 +7646,130 @@
    "m": [
     "królow\\p{L}* Jadwig\\p{L}*"
    ]
+  },
+  {
+   "id": "van-eyck",
+   "name": "Jan van Eyck",
+   "born": 1390,
+   "died": 1441,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "m": [
+    "van Eyck\\p{L}*"
+   ],
+   "works": [
+    "Portret Arnolfinich",
+    "Ołtarz Gandawski"
+   ]
+  },
+  {
+   "id": "van-der-weyden",
+   "name": "Rogier van der Weyden",
+   "born": 1399,
+   "died": 1464,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "m": [
+    "van der Weyden\\p{L}*"
+   ]
+  },
+  {
+   "id": "dobrawa",
+   "name": "Dobrawa",
+   "born": 940,
+   "died": 977,
+   "c": "polityk",
+   "country": "Czechy",
+   "g": "k",
+   "desc": "czeska księżniczka, żona Mieszka I",
+   "m": [
+    "Dobraw\\p{L}*"
+   ]
+  },
+  {
+   "id": "ibrahim",
+   "name": "Ibrahim ibn Jakub",
+   "born": 930,
+   "died": 980,
+   "c": "pisarz",
+   "country": "Al-Andalus",
+   "g": "m",
+   "desc": "podróżnik, autor relacji o państwie Mieszka",
+   "m": [
+    "Ibrahim\\p{L}*"
+   ]
+  },
+  {
+   "id": "boleslaw-chrobry",
+   "name": "Bolesław Chrobry",
+   "born": 967,
+   "died": 1025,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy król Polski",
+   "m": [
+    "Chrobr\\p{L}*"
+   ]
+  },
+  {
+   "id": "wojciech",
+   "name": "Święty Wojciech",
+   "born": 956,
+   "died": 997,
+   "c": "inne",
+   "country": "Czechy",
+   "g": "m",
+   "desc": "biskup praski, męczennik, patron Polski",
+   "m": [
+    "Wojciech\\p{L}*"
+   ]
+  },
+  {
+   "id": "otton-iii",
+   "name": "Otton III",
+   "born": 980,
+   "died": 1002,
+   "c": "polityk",
+   "country": "Cesarstwo",
+   "g": "m",
+   "desc": "cesarz, uczestnik Zjazdu Gnieźnieńskiego",
+   "m": [
+    "Otton\\p{L}* trzeci\\p{L}*"
+   ]
+  },
+  {
+   "id": "kazimierz-odnowiciel",
+   "name": "Kazimierz Odnowiciel",
+   "born": 1016,
+   "died": 1058,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę, odnowiciel państwa",
+   "m": [
+    "Odnowiciel\\p{L}*"
+   ]
+  },
+  {
+   "id": "krzywousty",
+   "name": "Bolesław Krzywousty",
+   "born": 1086,
+   "died": 1138,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę, autor testamentu dzielącego Polskę",
+   "m": [
+    "Krzywoust\\p{L}*"
+   ]
   }
  ]
 }

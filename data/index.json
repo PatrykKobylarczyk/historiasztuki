@@ -1037,6 +1037,25 @@
    "total": 2
   },
   {
+   "id": "boleslaw-chrobry",
+   "name": "Bolesław Chrobry",
+   "born": 967,
+   "died": 1025,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "pierwszy król Polski",
+   "mentions": [
+    {
+     "n": 34,
+     "count": 3,
+     "i": 33
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "boniek",
    "name": "Zbigniew Boniek",
    "born": 1956,
@@ -1988,6 +2007,24 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "dobrawa",
+   "name": "Dobrawa",
+   "born": 940,
+   "died": 977,
+   "c": "polityk",
+   "country": "Czechy",
+   "g": "k",
+   "desc": "czeska księżniczka, żona Mieszka I",
+   "mentions": [
+    {
+     "n": 34,
+     "count": 2,
+     "i": 19
+    }
+   ],
+   "total": 2
   },
   {
    "id": "doshi",
@@ -3795,6 +3832,24 @@
    "total": 1
   },
   {
+   "id": "ibrahim",
+   "name": "Ibrahim ibn Jakub",
+   "born": 930,
+   "died": 980,
+   "c": "pisarz",
+   "country": "Al-Andalus",
+   "g": "m",
+   "desc": "podróżnik, autor relacji o państwie Mieszka",
+   "mentions": [
+    {
+     "n": 34,
+     "count": 1,
+     "i": 18
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "ihnatowicz",
    "name": "Zbigniew Ihnatowicz",
    "c": "architekt",
@@ -3976,12 +4031,17 @@
      "i": 42
     },
     {
+     "n": 33,
+     "count": 1,
+     "i": 60
+    },
+    {
      "n": 227,
      "count": 1,
      "i": 61
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "jan-damaszek",
@@ -4424,6 +4484,25 @@
    "total": 1
   },
   {
+   "id": "kazimierz-odnowiciel",
+   "name": "Kazimierz Odnowiciel",
+   "born": 1016,
+   "died": 1058,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę, odnowiciel państwa",
+   "mentions": [
+    {
+     "n": 34,
+     "count": 1,
+     "i": 45
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kazimierz-wielki",
    "name": "Kazimierz Wielki",
    "born": 1310,
@@ -4443,9 +4522,14 @@
      "n": 29,
      "count": 1,
      "i": 63
+    },
+    {
+     "n": 33,
+     "count": 1,
+     "i": 60
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "kieslowski",
@@ -5002,6 +5086,25 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "krzywousty",
+   "name": "Bolesław Krzywousty",
+   "born": 1086,
+   "died": 1138,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "książę, autor testamentu dzielącego Polskę",
+   "mentions": [
+    {
+     "n": 34,
+     "count": 1,
+     "i": 46
+    }
+   ],
+   "total": 1
   },
   {
    "id": "ksenofont",
@@ -6316,6 +6419,11 @@
      "i": 60
     },
     {
+     "n": 34,
+     "count": 8,
+     "i": 10
+    },
+    {
      "n": 224,
      "count": 2,
      "i": 34
@@ -6331,7 +6439,7 @@
      "i": 62
     }
    ],
-   "total": 9
+   "total": 17
   },
   {
    "id": "mieszko",
@@ -6353,9 +6461,14 @@
      "n": 23,
      "count": 1,
      "i": 60
+    },
+    {
+     "n": 34,
+     "count": 1,
+     "i": 17
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "mikolaj-z-radomia",
@@ -7045,6 +7158,24 @@
      "n": 198,
      "count": 1,
      "i": 57
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "otton-iii",
+   "name": "Otton III",
+   "born": 980,
+   "died": 1002,
+   "c": "polityk",
+   "country": "Cesarstwo",
+   "g": "m",
+   "desc": "cesarz, uczestnik Zjazdu Gnieźnieńskiego",
+   "mentions": [
+    {
+     "n": 34,
+     "count": 1,
+     "i": 36
     }
    ],
    "total": 1
@@ -10120,6 +10251,46 @@
    "total": 3
   },
   {
+   "id": "van-der-weyden",
+   "name": "Rogier van der Weyden",
+   "born": 1399,
+   "died": 1464,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "mentions": [
+    {
+     "n": 33,
+     "count": 1,
+     "i": 30
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "van-eyck",
+   "name": "Jan van Eyck",
+   "born": 1390,
+   "died": 1441,
+   "c": "malarz",
+   "country": "Niderlandy",
+   "g": "m",
+   "desc": "malarz niderlandzki",
+   "works": [
+    "Portret Arnolfinich",
+    "Ołtarz Gandawski"
+   ],
+   "mentions": [
+    {
+     "n": 33,
+     "count": 1,
+     "i": 30
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "venturi",
    "name": "Robert Venturi",
    "c": "architekt",
@@ -10500,6 +10671,49 @@
    "total": 2
   },
   {
+   "id": "wojciech",
+   "name": "Święty Wojciech",
+   "born": 956,
+   "died": 997,
+   "c": "inne",
+   "country": "Czechy",
+   "g": "m",
+   "desc": "biskup praski, męczennik, patron Polski",
+   "mentions": [
+    {
+     "n": 4,
+     "count": 1,
+     "i": 84
+    },
+    {
+     "n": 34,
+     "count": 6,
+     "i": 33
+    },
+    {
+     "n": 186,
+     "count": 1,
+     "i": 66
+    },
+    {
+     "n": 229,
+     "count": 1,
+     "i": 29
+    },
+    {
+     "n": 230,
+     "count": 1,
+     "i": 24
+    },
+    {
+     "n": 231,
+     "count": 1,
+     "i": 49
+    }
+   ],
+   "total": 11
+  },
+  {
    "id": "wojtkiewicz",
    "name": "Witold Wojtkiewicz",
    "c": "malarz",
@@ -10832,7 +11046,7 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 47,
+   "ready": 49,
    "parts": 11,
    "sections": 20,
    "plannedHours": 33,
@@ -10840,17 +11054,17 @@
    "experts": 8
   },
   "ready": {
-   "minutes": 404,
-   "words": 53505,
-   "sentences": 4101,
-   "chapters": 416,
-   "images": 347,
-   "glossary": 309,
-   "quiz": 222,
-   "sources": 192,
+   "minutes": 416,
+   "words": 55015,
+   "sentences": 4214,
+   "chapters": 432,
+   "images": 360,
+   "glossary": 323,
+   "quiz": 230,
+   "sources": 199,
    "music": 10,
-   "lodz": 314,
-   "polska": 230
+   "lodz": 319,
+   "polska": 246
   },
   "lessons": [
    {
@@ -10943,7 +11157,7 @@
     "music": 0,
     "lodz": 2,
     "polska": 10,
-    "people": 11,
+    "people": 12,
     "speakers": {
      "gospodarz": 235,
      "design": 823,
@@ -11619,6 +11833,51 @@
     }
    },
    {
+    "n": 33,
+    "title": "Moda, ubiór i przedmioty średniowiecznej Europy",
+    "era": "V–XV w.",
+    "minutes": 6,
+    "words": 734,
+    "sentences": 55,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 8,
+    "quiz": 4,
+    "sources": 3,
+    "music": 0,
+    "lodz": 1,
+    "polska": 6,
+    "people": 4,
+    "speakers": {
+     "gospodarz": 112,
+     "design": 451,
+     "historyk": 171
+    }
+   },
+   {
+    "n": 34,
+    "title": "Polska pierwszych Piastów — chrystianizacja i początki państwowości",
+    "era": "X–XII w.",
+    "minutes": 6,
+    "words": 776,
+    "sentences": 58,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 6,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 4,
+    "polska": 10,
+    "people": 9,
+    "speakers": {
+     "gospodarz": 116,
+     "historyk": 487,
+     "architekt": 87,
+     "sztuka": 86
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -11633,7 +11892,7 @@
     "music": 2,
     "lodz": 29,
     "polska": 21,
-    "people": 39,
+    "people": 40,
     "speakers": {
      "gospodarz": 424,
      "historyk": 304,
@@ -11925,7 +12184,7 @@
     "music": 0,
     "lodz": 5,
     "polska": 11,
-    "people": 24,
+    "people": 25,
     "speakers": {
      "gospodarz": 130,
      "literatura": 867
@@ -11946,7 +12205,7 @@
     "music": 0,
     "lodz": 3,
     "polska": 18,
-    "people": 22,
+    "people": 23,
     "speakers": {
      "gospodarz": 131,
      "sztuka": 678,
@@ -11968,7 +12227,7 @@
     "music": 0,
     "lodz": 9,
     "polska": 12,
-    "people": 22,
+    "people": 23,
     "speakers": {
      "gospodarz": 132,
      "sztuka": 923
@@ -11976,13 +12235,13 @@
    }
   ],
   "speakers": {
-   "gospodarz": 6987,
-   "historyk": 10540,
-   "sztuka": 8501,
-   "architekt": 11350,
+   "gospodarz": 7215,
+   "historyk": 11198,
+   "sztuka": 8587,
+   "architekt": 11437,
    "muzyka": 2878,
    "literatura": 8187,
-   "design": 4355,
+   "design": 4806,
    "foto": 707
   },
   "parts": [
@@ -12004,7 +12263,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 10,
+    "ready": 12,
     "sections": 1
    },
    {
@@ -12190,17 +12449,17 @@
    }
   ],
   "people": {
-   "total": 446,
-   "mentions": 1129,
+   "total": 455,
+   "mentions": 1162,
    "byCategory": {
     "naukowiec": 44,
     "filozof": 31,
-    "inne": 21,
+    "inne": 22,
     "muzyk": 19,
-    "pisarz": 85,
-    "polityk": 67,
+    "pisarz": 86,
+    "polityk": 72,
     "architekt": 89,
-    "malarz": 56,
+    "malarz": 58,
     "projektant": 7,
     "rzeźbiarz": 17,
     "przemysłowiec": 3,
@@ -12217,11 +12476,11 @@
     "7": 2,
     "8": 3,
     "9": 1,
-    "10": 5,
-    "11": 10,
+    "10": 10,
+    "11": 12,
     "12": 10,
     "13": 7,
-    "14": 11,
+    "14": 13,
     "15": 8,
     "16": 8,
     "17": 3,
@@ -12248,17 +12507,17 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 285,
-    "Polska": 161
+    "zagranica": 291,
+    "Polska": 164
    },
    "byGender": {
-    "m": 404,
+    "m": 412,
     "f": 31,
-    "k": 11
+    "k": 12
    },
    "lodz": 31,
-   "withWorks": 237,
-   "works": 679,
+   "withWorks": 238,
+   "works": 681,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,
