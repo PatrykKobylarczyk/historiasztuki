@@ -79,7 +79,7 @@ class Mix:
                 pos = np.cumsum(2 ** (semis / 12)); pos = pos[pos < len(x) - 1]
                 x = np.interp(pos, idx, x)[:n + r]
                 if len(x) > n:
-                    x[n:] *= np.linspace(1, 0, len(x) - n) ** 1.3
+                    x[n:] *= np.exp(-np.arange(len(x) - n) / SR / max(rel / 3, 0.02))
                 pan = PAN.get(inst, 0) + (p - (players - 1) / 2) * spread
                 self.add(x * v, t + dt, 0.0 if solo else float(np.clip(pan, -0.9, 0.9)), solo)
 
@@ -102,24 +102,45 @@ class Mix:
         self.add(hit("ride", 2.2, 0.6) * vel * 0.3, t, 0.3)
         self.add(hit("cymbal", 2.2, 0.6) * vel * 0.12, t, -0.3)
 
-    def master(self, length, peak=0.9, solo_gain=2.2):
-        rng = np.random.default_rng(1)
-        n = int(1.2 * SR); tt = np.arange(n) / SR
-        lp = butter(1, 7000, "lowpass", fs=SR, output="sos")
-        pres = butter(2, [1800, 5500], "bandpass", fs=SR, output="sos")
+    def master(self, length, peak=0.89, solo_gain=1.9):
+        """Kameralna scena: naturalna akustyka sali zamiast efektów — bez kompresji i podbić."""
+        irL, irR = chamber_ir()
+        dist = butter(1, 9000, "lowpass", fs=SR, output="sos")       # zespół dalej od słuchacza
         out = []
-        for band, solo in ((self.L, self.SL), (self.R, self.SR_)):
-            ir = sosfilt(lp, rng.standard_normal(n)) * np.exp(-tt * 5.5)
-            ir = np.concatenate([np.zeros(int(0.012 * SR)), ir]); ir /= np.sqrt(np.sum(ir ** 2))
-            bed = band + 0.32 * fftconvolve(band, ir)[:len(band)]
-            # solista: bliżej mikrofonu — mniej pogłosu, podbita „obecność” 2–5 kHz
-            lead = solo + 0.35 * sosfilt(pres, solo) + 0.14 * fftconvolve(solo, ir)[:len(solo)]
-            out.append(bed + solo_gain * lead)
+        for bed, solo, ir in ((self.L, self.SL, irL), (self.R, self.SR_, irR)):
+            bed = sosfilt(dist, bed)
+            dry = bed + solo_gain * solo
+            wet = fftconvolve(0.55 * bed + 0.25 * solo_gain * solo, ir)[:len(bed)]
+            out.append(dry + wet)
         st = np.stack(out, 1)[:int(length * SR)]
-        st /= np.max(np.abs(st)) + 1e-9
-        st = np.tanh(st * 1.6) / np.tanh(1.6)
-        f = int(0.35 * SR); st[-f:] *= (np.linspace(1, 0, f) ** 2)[:, None]
-        return st * peak
+        st *= peak / (np.max(np.abs(st)) + 1e-9)
+        f = int(0.45 * SR); st[-f:] *= (np.linspace(1, 0, f) ** 2)[:, None]
+        return st
+
+
+def chamber_ir(rt=1.0):
+    """Odpowiedź impulsowa małej sali koncertowej: wczesne odbicia + ogon z szybszym wygasaniem wysokich tonów."""
+    rng = np.random.default_rng(7)
+    n = int(rt * 1.6 * SR); tt = np.arange(n) / SR
+    irs = []
+    for ch in range(2):
+        ir = np.zeros(n)
+        # wczesne odbicia od ścian, sufitu i podłogi sceny (5–70 ms)
+        for k in range(14):
+            d = rng.uniform(0.005, 0.07); g = 0.55 * (1 - d / 0.08) * rng.uniform(0.6, 1.0)
+            ir[int(d * SR)] += g * (1 if rng.random() > 0.3 else -1)
+        ir = sosfilt(butter(1, 6000, "lowpass", fs=SR, output="sos"), ir)
+        # ogon pogłosowy w pasmach: niskie wybrzmiewają dłużej, wysokie krócej (pochłanianie powietrza i widowni)
+        tail = np.zeros(n)
+        noise = rng.standard_normal(n)
+        for lo, hi, rt_band in ((60, 400, rt * 1.15), (400, 2000, rt), (2000, 6000, rt * 0.7), (6000, 12000, rt * 0.4)):
+            band = sosfilt(butter(2, [lo, hi], "bandpass", fs=SR, output="sos"), noise)
+            tail += band * np.exp(-6.9 * tt / rt_band)
+        onset = np.clip((tt - 0.02) / 0.06, 0, 1)
+        tail *= onset * 0.22
+        ir = ir + tail
+        irs.append(ir / np.sqrt(np.sum(ir ** 2)) * 0.9)
+    return irs
 
 
 # ---------------------------------------------------------------- partytura: F-dur, 168 BPM, swing
@@ -133,7 +154,7 @@ def compose():
     for b, n, d, bend in motif:
         long = d >= 0.7
         # trąbka prowadzi (z wibrato na długich dźwiękach), saksofon tenorowy dubluje oktawę niżej — brzmienie big bandu
-        m.play(T, sw(b), n, d * B * 1.6, 1.0 if b in (1, 4.5) else 0.9, 0.14, bend, vib=0.14 if long else 0, solo=True)
+        m.play(T, sw(b), n, d * B * 1.6, 1.0 if b in (1, 4.5) else 0.9, 0.22, bend * 0.5, vib=0.07 if long else 0, solo=True)
         m.play("tenor_sax", sw(b), note_n(n) - 12, d * B * 1.6, 0.45, 0.12, bend * 0.5, players=2, vib=0.1 if long else 0)
     # sekcja saksofonów: miękkie tło akordowe pod motywem
     for b, ch, d in [(0, ["A4", "C5", "E5"], 2.3), (2.5, ["F4", "A4", "C5"], 1.9), (4.5, ["F4", "A4", "D5"], 0.9)]:
@@ -156,7 +177,7 @@ def compose():
         # saksofon altowy prowadzi odpowiedź, fortepian ją cicho dubluje
         acc = b % 1 == 0
         m.play("alto_sax", sw(b), n, B * (0.62 if acc else 0.4), 1.0 if acc else 0.85, 0.12, -0.6 if b in (7, 9) else 0,
-               vib=0.12 if b == 12 else 0, solo=True)
+               vib=0.06 if b == 12 else 0, solo=True)
         m.play(P, sw(b), n, 0.2, 0.25 if acc else 0.18, 0.15)
     comp = [(6, ["Bb3", "D4", "F4", "A4"]), (7.5, ["Bb3", "E4", "A4", "D5"]), (9, ["A3", "C4", "E4", "G4"]),
             (10.5, ["Gb3", "C4", "Eb4", "A4"]), (12, ["Bb3", "D4", "F4", "A4"])]
@@ -195,8 +216,8 @@ def compose():
             players = {"trumpet": 3, "alto_sax": 2, "tenor_sax": 2, "trombone": 2}.get(inst, 1)
             m.play(inst, sw(b), notes, d, 1.1 if chord == "F69" else 0.9, 0.25 if chord == "F69" else 0.06,
                    -1.5 if inst == "trumpet" and chord == "F69" else 0, players=players,
-                   vib=0.1 if chord == "F69" and inst != "baritone_sax" else 0)
-    m.play(T, sw(15) + 0.9, "F6", 0.55, 0.8, 0.4, vib=0.15, solo=True)  # wysoki „dzwonek” trąbki prowadzącej na koniec
+                   vib=0.05 if chord == "F69" and inst != "baritone_sax" else 0)
+    m.play(T, sw(15) + 0.9, "F6", 0.55, 0.8, 0.5, vib=0.07, solo=True)  # wysoki „dzwonek” trąbki prowadzącej na koniec
     m.play("alto_sax", sw(15) + 0.9, "C6", 0.5, 0.45, 0.35, vib=0.12)
     m.play(P, sw(13.5), ["Bb3", "E4", "Eb5"], 0.18, 0.7)
     m.play(P, sw(14.5), ["Bb3", "E4", "Ab4", "Eb5"], 0.18, 0.75)
