@@ -372,7 +372,7 @@ export class Player extends EventTarget {
   #updateMediaSession() {
     if (!("mediaSession" in navigator) || !this.lesson) return;
     const it = this.current;
-    const sp = it?.sp ? this.speakers?.[it.sp]?.name : "KULTURA";
+    const sp = it?.sp ? this.speakers?.[it.sp]?.name : "Akademia Kultury";
     // okładka na ekranie blokady: obraz z bieżącego rozdziału (podaje aplikacja), inaczej ikona
     const art = this.artworkFor?.(this.lesson, it, this.index) || null;
     const key = `${this.lesson.n}|${it?.chapterTitle}|${sp}|${art?.src || ""}`;
@@ -382,7 +382,7 @@ export class Player extends EventTarget {
         navigator.mediaSession.metadata = new MediaMetadata({
           title: `${this.lesson.n}. ${this.lesson.title}`,
           artist: art?.caption ? `${sp} · ${art.caption}` : `${sp} — ${it?.chapterTitle || ""}`,
-          album: art?.meta ? `KULTURA · ${art.meta}` : "KULTURA",
+          album: art?.meta ? `Akademia Kultury · ${art.meta}` : "Akademia Kultury",
           artwork: art
             ? [
                 ...(art.thumb ? [{ src: art.thumb, sizes: "512x512", type: "image/jpeg" }] : []),

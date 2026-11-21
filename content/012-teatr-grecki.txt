@@ -9,7 +9,7 @@ next: Filozofia grecka — Sokrates, Platon i Arystoteles.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwunasty: teatr grecki. Tragedia, komedia i scena.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwunasty: teatr grecki. Tragedia, komedia i scena.
 
 Każdy, kto był w teatrze, siedział w budynku, którego idea narodziła się w Atenach dwa i pół tysiąca lat temu. Słowa teatr, scena, dramat, tragedia, komedia, chór i orkiestra są greckie. Dziś zobaczymy, jak rodził się teatr, kim byli wielcy tragicy i dlaczego Antygona wciąż do nas mówi.
 
@@ -76,7 +76,7 @@ Podsumujmy. Widzieliśmy Dionizje i konkursy tragików, „Oresteję” Ajschylo
 
 W następnym odcinku idziemy z teatru na agorę, gdzie Sokrates zadaje pytania: filozofia grecka.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

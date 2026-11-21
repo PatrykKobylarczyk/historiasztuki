@@ -9,7 +9,7 @@ next: Polscy artyści XX i XXI wieku — od Stryjeńskiej i Strzemińskiego do S
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście trzydziesty, z cyklu Galeria mistrzów. Dziś polscy malarze, od Jana Matejki do artystów Młodej Polski.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście trzydziesty, z cyklu Galeria mistrzów. Dziś polscy malarze, od Jana Matejki do artystów Młodej Polski.
 
 Druga połowa dziewiętnastego wieku i początek dwudziestego to złoty wiek polskiego malarstwa. Nie ma państwa, ale są obrazy, które opowiadają historię narodu, pokazują polski krajobraz i zadają pytania o duszę. Wiele z nich wisi dziś w Muzeum Narodowym w Krakowie i Warszawie, a kilka także w Muzeum Sztuki w Łodzi.
 
@@ -70,7 +70,7 @@ Podsumujmy. Poznaliśmy Matejkę i jego „Stańczyka”, Chełmońskiego, Kossa
 
 W następnym odcinku Galerii mistrzów: polscy artyści dwudziestego i dwudziestego pierwszego wieku, od Stryjeńskiej i Strzemińskiego do Sasnala i Bałki.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

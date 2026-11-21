@@ -9,7 +9,7 @@ next: Polscy architekci po 1945 roku — od Hansena i Grabowskiej-Hawrylak do Ko
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty szósty, z cyklu Galeria mistrzów. Dziś polscy architekci, od Tylmana z Gameren do Macieja Nowickiego.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty szósty, z cyklu Galeria mistrzów. Dziś polscy architekci, od Tylmana z Gameren do Macieja Nowickiego.
 
 Polska architektura często powstawała w dialogu z Europą: tworzyli ją przybysze z Niderlandów i Włoch, a polscy architekci uczyli się w Paryżu, Petersburgu i Wiedniu. Ale z tego dialogu wyrosło coś własnego, od barokowych pałaców Warszawy po zakopiańskie wille i awangardowe domy Saskiej Kępy.
 
@@ -72,7 +72,7 @@ Podsumujmy. Poznaliśmy Tylmana z Gameren i jego barokowe pałace, Corazziego i 
 
 W następnym odcinku Galerii mistrzów: polscy architekci po tysiąc dziewięćset czterdziestym piątym roku, od Oskara Hansena do dzisiejszych pracowni.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

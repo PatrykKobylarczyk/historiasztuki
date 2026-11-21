@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "KULTURA — kurs historii kultury do słuchania (PWA)",
+  "description": "Akademia Kultury — kurs historii kultury do słuchania (PWA)",
   "scripts": {
     "build": "node scripts/build-lessons.mjs && node scripts/build-index.mjs",
     "audio": "node scripts/generate-audio.mjs",

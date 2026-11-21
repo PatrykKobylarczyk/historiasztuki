@@ -9,7 +9,7 @@ next: Renesans — dlaczego Europa odkryła antyk na nowo?
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty ósmy: średniowieczna Łódź i region łódzki, osadnictwo i przemiany lokalne.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty ósmy: średniowieczna Łódź i region łódzki, osadnictwo i przemiany lokalne.
 
 Kiedy myślimy o Łodzi, widzimy fabryki, kominy i pałace dziewiętnastego wieku. Ale Łódź ma też średniowieczne korzenie: małą wieś biskupów, która w piętnastym wieku otrzymała prawa miejskie. Dziś, kończąc część o średniowieczu, zobaczymy, jak wyglądały ziemie dzisiejszego województwa łódzkiego, zanim nadeszła rewolucja przemysłowa.
 
@@ -69,7 +69,7 @@ Podsumujmy. Zobaczyliśmy region na pograniczu trzech dzielnic, wieś Łodzia z 
 
 Tym odcinkiem kończymy trzecią część kursu, średniowiecze. W czwartej części wyruszymy do Florencji i Rzymu: renesans, odkrycie człowieka.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

@@ -9,7 +9,7 @@ next: Polscy poeci XX wieku — od Leśmiana i Tuwima do Szymborskiej i Zagajews
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty ósmy, z cyklu Galeria mistrzów. Dziś polscy poeci, od Jana Kochanowskiego do Cypriana Kamila Norwida.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście dwudziesty ósmy, z cyklu Galeria mistrzów. Dziś polscy poeci, od Jana Kochanowskiego do Cypriana Kamila Norwida.
 
 Poezja jest w polskiej kulturze czymś więcej niż literaturą. Przez sto dwadzieścia trzy lata zaborów, kiedy nie było państwa, to poeci przechowywali język, pamięć i nadzieję. Dlatego polscy poeci romantyczni nazywani są wieszczami, czyli prorokami. Ale zaczynamy wcześniej, od renesansu i człowieka, który nauczył polszczyznę śpiewać.
 
@@ -67,7 +67,7 @@ Podsumujmy. Poznaliśmy Jana Kochanowskiego, jego fraszki, pieśni i Treny, Adam
 
 W następnym odcinku Galerii mistrzów: polscy poeci dwudziestego wieku, od Leśmiana i Tuwima do Szymborskiej i Zagajewskiego.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

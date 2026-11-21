@@ -9,7 +9,7 @@ next: Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokal
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty siódmy: Kraków, Gniezno i państwo Jagiellonów, kultura i władza.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty siódmy: Kraków, Gniezno i państwo Jagiellonów, kultura i władza.
 
 W tysiąc trzysta osiemdziesiątym szóstym roku dwunastoletnia królowa Jadwiga poślubiła wielkiego księcia litewskiego Jagiełłę. Tak powstał związek, który na dwieście lat uczynił z Polski i Litwy jedno z największych państw Europy. Dziś zobaczymy, jak władza tego państwa wyrażała się w ceremoniach, symbolach i sztuce.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy Gniezno i Kraków jako dwie stolice, Jadwigę i Jagieł�
 
 W ostatnim odcinku tej części wracamy do domu: średniowieczna Łódź i region łódzki, osadnictwo i przemiany lokalne.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

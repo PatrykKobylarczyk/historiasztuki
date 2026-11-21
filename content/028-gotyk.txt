@@ -9,7 +9,7 @@ next: Witraż, rzeźba i iluminowane rękopisy.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty ósmy: gotyk, światło, konstrukcja i monumentalność.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty ósmy: gotyk, światło, konstrukcja i monumentalność.
 
 W połowie dwunastego wieku pod Paryżem opat Suger przebudował kościół w Saint-Denis i napisał, że wnętrze wypełniło się cudownym, nieprzerwanym światłem. Tak zaczął się gotyk, styl, w którym kamień stał się lekki, a ściany zamieniły się w kolorowe szkło. Dziś zobaczymy, jak średniowieczni budowniczowie podnieśli kościoły do nieba.
 
@@ -69,7 +69,7 @@ Podsumujmy. Zaczęliśmy od opata Sugera i nowego światła, poznaliśmy łuk os
 
 W następnym odcinku przyjrzymy się z bliska temu, co wypełniało gotyckie katedry: witraż, rzeźba i iluminowane rękopisy.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

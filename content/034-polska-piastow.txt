@@ -9,7 +9,7 @@ next: Polska romańska — architektura, rzeźba i sztuka sakralna.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty czwarty: Polska pierwszych Piastów, chrystianizacja i początki państwowości.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty czwarty: Polska pierwszych Piastów, chrystianizacja i początki państwowości.
 
 Około dziewięćset sześćdziesiątego szóstego roku książę Polan przyjął chrzest. Tak zaczyna się historia państwa, które nazwiemy Polską. Dziś zobaczymy, jak wyglądały grody pierwszych Piastów, jak z pogańskich plemion powstało chrześcijańskie królestwo i jakie skarby po tamtych czasach zostały.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy plemiona i grody, Mieszka, Dobrawę i chrzest, pierwsze 
 
 W następnym odcinku zobaczymy z bliska, jak wyglądała Polska romańska: architektura, rzeźba i sztuka sakralna.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

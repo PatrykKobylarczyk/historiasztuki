@@ -11406,7 +11406,7 @@
   },
   "ready": {
    "minutes": 440,
-   "words": 58084,
+   "words": 58178,
    "sentences": 4432,
    "chapters": 464,
    "images": 388,
@@ -11549,7 +11549,7 @@
     "title": "Mezopotamia — narodziny miasta, pisma i władzy",
     "era": "Mezopotamia · ok. 4000–2000 p.n.e.",
     "minutes": 10,
-    "words": 1379,
+    "words": 1381,
     "sentences": 111,
     "chapters": 11,
     "images": 8,
@@ -11561,7 +11561,7 @@
     "polska": 2,
     "people": 9,
     "speakers": {
-     "gospodarz": 141,
+     "gospodarz": 143,
      "historyk": 606,
      "architekt": 133,
      "sztuka": 140,
@@ -11575,7 +11575,7 @@
     "title": "Sumer, Babilon i Asyria — sztuka jako narzędzie potęgi",
     "era": "Mezopotamia · ok. 2300–539 p.n.e.",
     "minutes": 9,
-    "words": 1169,
+    "words": 1171,
     "sentences": 89,
     "chapters": 9,
     "images": 8,
@@ -11587,7 +11587,7 @@
     "polska": 1,
     "people": 9,
     "speakers": {
-     "gospodarz": 138,
+     "gospodarz": 140,
      "historyk": 270,
      "sztuka": 261,
      "architekt": 244,
@@ -11601,7 +11601,7 @@
     "title": "Egipt — wieczność, religia i monumentalna architektura",
     "era": "Starożytny Egipt · ok. 3100–30 p.n.e.",
     "minutes": 8,
-    "words": 1110,
+    "words": 1112,
     "sentences": 86,
     "chapters": 9,
     "images": 9,
@@ -11613,7 +11613,7 @@
     "polska": 5,
     "people": 14,
     "speakers": {
-     "gospodarz": 136,
+     "gospodarz": 138,
      "historyk": 396,
      "architekt": 378,
      "literatura": 117,
@@ -11625,7 +11625,7 @@
     "title": "Egipskie malarstwo, rzeźba, ubiór i przedmioty codzienne",
     "era": "Starożytny Egipt · ok. 2700–30 p.n.e.",
     "minutes": 8,
-    "words": 1084,
+    "words": 1086,
     "sentences": 93,
     "chapters": 9,
     "images": 9,
@@ -11637,7 +11637,7 @@
     "polska": 0,
     "people": 7,
     "speakers": {
-     "gospodarz": 132,
+     "gospodarz": 134,
      "sztuka": 532,
      "historyk": 42,
      "design": 272,
@@ -11649,7 +11649,7 @@
     "title": "Grecja archaiczna — narodziny kanonu piękna",
     "era": "Grecja · ok. 800–480 p.n.e.",
     "minutes": 8,
-    "words": 1076,
+    "words": 1078,
     "sentences": 78,
     "chapters": 9,
     "images": 8,
@@ -11661,7 +11661,7 @@
     "polska": 2,
     "people": 10,
     "speakers": {
-     "gospodarz": 132,
+     "gospodarz": 134,
      "historyk": 216,
      "literatura": 229,
      "design": 162,
@@ -11675,7 +11675,7 @@
     "title": "Grecja klasyczna — proporcja, harmonia i idea człowieka",
     "era": "Grecja · ok. 480–323 p.n.e.",
     "minutes": 8,
-    "words": 981,
+    "words": 983,
     "sentences": 75,
     "chapters": 9,
     "images": 8,
@@ -11687,7 +11687,7 @@
     "polska": 0,
     "people": 14,
     "speakers": {
-     "gospodarz": 128,
+     "gospodarz": 130,
      "historyk": 100,
      "architekt": 232,
      "sztuka": 343,
@@ -11700,7 +11700,7 @@
     "title": "Teatr grecki — tragedia, komedia i scena",
     "era": "Grecja · V–IV wiek p.n.e.",
     "minutes": 7,
-    "words": 906,
+    "words": 908,
     "sentences": 79,
     "chapters": 9,
     "images": 6,
@@ -11712,7 +11712,7 @@
     "polska": 3,
     "people": 10,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "historyk": 83,
      "literatura": 503,
      "architekt": 102,
@@ -11724,7 +11724,7 @@
     "title": "Filozofia grecka — Sokrates, Platon i Arystoteles",
     "era": "Grecja · V–IV wiek p.n.e.",
     "minutes": 7,
-    "words": 868,
+    "words": 870,
     "sentences": 73,
     "chapters": 8,
     "images": 6,
@@ -11736,7 +11736,7 @@
     "polska": 2,
     "people": 17,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "literatura": 468,
      "sztuka": 95,
      "architekt": 80,
@@ -11748,7 +11748,7 @@
     "title": "Grecka architektura — świątynia, porządek i miasto",
     "era": "Grecja · VI–II wiek p.n.e.",
     "minutes": 7,
-    "words": 854,
+    "words": 856,
     "sentences": 66,
     "chapters": 8,
     "images": 7,
@@ -11760,7 +11760,7 @@
     "polska": 2,
     "people": 6,
     "speakers": {
-     "gospodarz": 128,
+     "gospodarz": 130,
      "architekt": 619,
      "design": 107
     }
@@ -11770,7 +11770,7 @@
     "title": "Grecka ceramika, rzemiosło i kultura przedmiotów",
     "era": "Grecja · VI–I wiek p.n.e.",
     "minutes": 7,
-    "words": 893,
+    "words": 895,
     "sentences": 65,
     "chapters": 9,
     "images": 8,
@@ -11782,7 +11782,7 @@
     "polska": 0,
     "people": 8,
     "speakers": {
-     "gospodarz": 121,
+     "gospodarz": 123,
      "design": 394,
      "literatura": 99,
      "sztuka": 194,
@@ -11794,7 +11794,7 @@
     "title": "Hellenizm — Aleksander Wielki i świat kosmopolityczny",
     "era": "Świat hellenistyczny · 336–30 p.n.e.",
     "minutes": 8,
-    "words": 981,
+    "words": 983,
     "sentences": 77,
     "chapters": 8,
     "images": 7,
@@ -11806,7 +11806,7 @@
     "polska": 1,
     "people": 12,
     "speakers": {
-     "gospodarz": 138,
+     "gospodarz": 140,
      "historyk": 258,
      "sztuka": 257,
      "architekt": 94,
@@ -11819,7 +11819,7 @@
     "title": "Rzym — republika, imperium i kultura władzy",
     "era": "Rzym · 753 p.n.e.–476 n.e.",
     "minutes": 7,
-    "words": 946,
+    "words": 948,
     "sentences": 72,
     "chapters": 9,
     "images": 7,
@@ -11831,7 +11831,7 @@
     "polska": 6,
     "people": 16,
     "speakers": {
-     "gospodarz": 128,
+     "gospodarz": 130,
      "historyk": 496,
      "sztuka": 322
     }
@@ -11841,7 +11841,7 @@
     "title": "Rzymska architektura — beton, łuki, kopuły i infrastruktura",
     "era": "Rzym · III w. p.n.e.–IV w. n.e.",
     "minutes": 7,
-    "words": 970,
+    "words": 972,
     "sentences": 78,
     "chapters": 9,
     "images": 8,
@@ -11853,7 +11853,7 @@
     "polska": 0,
     "people": 10,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "architekt": 680,
      "historyk": 85,
      "literatura": 82
@@ -11864,7 +11864,7 @@
     "title": "Rzymskie wnętrza, mozaiki, malarstwo i meble",
     "era": "Rzym · II w. p.n.e.–IV w. n.e.",
     "minutes": 7,
-    "words": 875,
+    "words": 877,
     "sentences": 67,
     "chapters": 8,
     "images": 7,
@@ -11876,7 +11876,7 @@
     "polska": 1,
     "people": 13,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "historyk": 99,
      "architekt": 110,
      "sztuka": 232,
@@ -11888,7 +11888,7 @@
     "title": "Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz",
     "era": "Grecja i Rzym · VIII w. p.n.e.–II w. n.e.",
     "minutes": 7,
-    "words": 940,
+    "words": 942,
     "sentences": 65,
     "chapters": 8,
     "images": 7,
@@ -11900,7 +11900,7 @@
     "polska": 3,
     "people": 31,
     "speakers": {
-     "gospodarz": 114,
+     "gospodarz": 116,
      "literatura": 716,
      "historyk": 110
     }
@@ -11910,7 +11910,7 @@
     "title": "Muzyka, teatr i codzienność starożytnego świata",
     "era": "Grecja i Rzym · VIII w. p.n.e.–IV w. n.e.",
     "minutes": 7,
-    "words": 895,
+    "words": 897,
     "sentences": 75,
     "chapters": 8,
     "images": 8,
@@ -11922,7 +11922,7 @@
     "polska": 0,
     "people": 13,
     "speakers": {
-     "gospodarz": 113,
+     "gospodarz": 115,
      "muzyka": 214,
      "historyk": 250,
      "sztuka": 103,
@@ -11935,7 +11935,7 @@
     "title": "Chrześcijaństwo i przemiana antycznego świata",
     "era": "I–VI w. n.e.",
     "minutes": 7,
-    "words": 929,
+    "words": 931,
     "sentences": 71,
     "chapters": 8,
     "images": 7,
@@ -11947,7 +11947,7 @@
     "polska": 3,
     "people": 19,
     "speakers": {
-     "gospodarz": 139,
+     "gospodarz": 141,
      "historyk": 277,
      "sztuka": 217,
      "architekt": 186,
@@ -11960,7 +11960,7 @@
     "title": "Upadek Rzymu i narodziny średniowiecznej Europy",
     "era": "V–IX w.",
     "minutes": 6,
-    "words": 784,
+    "words": 786,
     "sentences": 62,
     "chapters": 8,
     "images": 7,
@@ -11972,7 +11972,7 @@
     "polska": 1,
     "people": 13,
     "speakers": {
-     "gospodarz": 115,
+     "gospodarz": 117,
      "historyk": 378,
      "architekt": 167,
      "sztuka": 124
@@ -11983,7 +11983,7 @@
     "title": "Bizancjum — cesarstwo, ikony i mozaiki",
     "era": "VI–XV w.",
     "minutes": 6,
-    "words": 760,
+    "words": 762,
     "sentences": 59,
     "chapters": 8,
     "images": 7,
@@ -11995,7 +11995,7 @@
     "polska": 1,
     "people": 7,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "historyk": 274,
      "sztuka": 165,
      "architekt": 80,
@@ -12007,7 +12007,7 @@
     "title": "Islam — architektura, ornament, kaligrafia i nauka",
     "era": "VII–XV w.",
     "minutes": 6,
-    "words": 803,
+    "words": 805,
     "sentences": 62,
     "chapters": 8,
     "images": 6,
@@ -12019,7 +12019,7 @@
     "polska": 3,
     "people": 11,
     "speakers": {
-     "gospodarz": 120,
+     "gospodarz": 122,
      "historyk": 294,
      "architekt": 197,
      "sztuka": 106,
@@ -12031,7 +12031,7 @@
     "title": "Klasztory — architektura, rękopisy i przechowywanie wiedzy",
     "era": "VI–XIII w.",
     "minutes": 6,
-    "words": 733,
+    "words": 735,
     "sentences": 60,
     "chapters": 8,
     "images": 7,
@@ -12043,7 +12043,7 @@
     "polska": 4,
     "people": 8,
     "speakers": {
-     "gospodarz": 115,
+     "gospodarz": 117,
      "historyk": 272,
      "architekt": 90,
      "literatura": 171,
@@ -12055,7 +12055,7 @@
     "title": "Romanizm — kościół jako centrum świata",
     "era": "ok. 1000–1200",
     "minutes": 6,
-    "words": 776,
+    "words": 778,
     "sentences": 62,
     "chapters": 8,
     "images": 7,
@@ -12067,7 +12067,7 @@
     "polska": 1,
     "people": 4,
     "speakers": {
-     "gospodarz": 121,
+     "gospodarz": 123,
      "historyk": 268,
      "architekt": 184,
      "sztuka": 203
@@ -12078,7 +12078,7 @@
     "title": "Gotyk — światło, konstrukcja i monumentalność",
     "era": "ok. 1140–1500",
     "minutes": 6,
-    "words": 767,
+    "words": 769,
     "sentences": 58,
     "chapters": 8,
     "images": 7,
@@ -12090,7 +12090,7 @@
     "polska": 1,
     "people": 4,
     "speakers": {
-     "gospodarz": 133,
+     "gospodarz": 135,
      "historyk": 184,
      "architekt": 363,
      "sztuka": 87
@@ -12101,7 +12101,7 @@
     "title": "Witraż, rzeźba i iluminowane rękopisy",
     "era": "XII–XV w.",
     "minutes": 6,
-    "words": 786,
+    "words": 788,
     "sentences": 57,
     "chapters": 8,
     "images": 8,
@@ -12113,7 +12113,7 @@
     "polska": 1,
     "people": 6,
     "speakers": {
-     "gospodarz": 109,
+     "gospodarz": 111,
      "design": 181,
      "sztuka": 496
     }
@@ -12123,7 +12123,7 @@
     "title": "Średniowieczna muzyka — chorał, notacja i początki wielogłosowości",
     "era": "IX–XV w.",
     "minutes": 6,
-    "words": 825,
+    "words": 827,
     "sentences": 68,
     "chapters": 8,
     "images": 6,
@@ -12135,7 +12135,7 @@
     "polska": 4,
     "people": 11,
     "speakers": {
-     "gospodarz": 110,
+     "gospodarz": 112,
      "muzyka": 598,
      "literatura": 117
     }
@@ -12145,7 +12145,7 @@
     "title": "Literatura średniowieczna — epos, rycerstwo, Dante i mistyka",
     "era": "VIII–XV w.",
     "minutes": 6,
-    "words": 827,
+    "words": 829,
     "sentences": 59,
     "chapters": 8,
     "images": 7,
@@ -12157,7 +12157,7 @@
     "polska": 9,
     "people": 24,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "literatura": 704
     }
    },
@@ -12166,7 +12166,7 @@
     "title": "Scholastyka, św. Augustyn i św. Tomasz z Akwinu",
     "era": "V–XV w.",
     "minutes": 6,
-    "words": 806,
+    "words": 808,
     "sentences": 61,
     "chapters": 8,
     "images": 6,
@@ -12178,7 +12178,7 @@
     "polska": 1,
     "people": 15,
     "speakers": {
-     "gospodarz": 123,
+     "gospodarz": 125,
      "literatura": 575,
      "historyk": 108
     }
@@ -12188,7 +12188,7 @@
     "title": "Moda, ubiór i przedmioty średniowiecznej Europy",
     "era": "V–XV w.",
     "minutes": 6,
-    "words": 734,
+    "words": 736,
     "sentences": 55,
     "chapters": 8,
     "images": 7,
@@ -12200,7 +12200,7 @@
     "polska": 6,
     "people": 4,
     "speakers": {
-     "gospodarz": 112,
+     "gospodarz": 114,
      "design": 451,
      "historyk": 171
     }
@@ -12210,7 +12210,7 @@
     "title": "Polska pierwszych Piastów — chrystianizacja i początki państwowości",
     "era": "X–XII w.",
     "minutes": 6,
-    "words": 776,
+    "words": 778,
     "sentences": 58,
     "chapters": 8,
     "images": 6,
@@ -12222,7 +12222,7 @@
     "polska": 10,
     "people": 9,
     "speakers": {
-     "gospodarz": 116,
+     "gospodarz": 118,
      "historyk": 487,
      "architekt": 87,
      "sztuka": 86
@@ -12233,7 +12233,7 @@
     "title": "Polska romańska — architektura, rzeźba i sztuka sakralna",
     "era": "XI–XIII w.",
     "minutes": 6,
-    "words": 745,
+    "words": 747,
     "sentences": 51,
     "chapters": 8,
     "images": 7,
@@ -12245,7 +12245,7 @@
     "polska": 12,
     "people": 6,
     "speakers": {
-     "gospodarz": 116,
+     "gospodarz": 118,
      "architekt": 189,
      "sztuka": 173,
      "historyk": 175,
@@ -12257,7 +12257,7 @@
     "title": "Polska gotycka — miasta, zamki i katedry",
     "era": "XIII–XV w.",
     "minutes": 6,
-    "words": 832,
+    "words": 834,
     "sentences": 56,
     "chapters": 8,
     "images": 8,
@@ -12269,7 +12269,7 @@
     "polska": 12,
     "people": 9,
     "speakers": {
-     "gospodarz": 132,
+     "gospodarz": 134,
      "historyk": 197,
      "architekt": 390,
      "sztuka": 113
@@ -12280,7 +12280,7 @@
     "title": "Kraków, Gniezno i państwo Jagiellonów — kultura i władza",
     "era": "XIV–XVI w.",
     "minutes": 6,
-    "words": 720,
+    "words": 722,
     "sentences": 56,
     "chapters": 8,
     "images": 7,
@@ -12292,7 +12292,7 @@
     "polska": 10,
     "people": 16,
     "speakers": {
-     "gospodarz": 121,
+     "gospodarz": 123,
      "historyk": 436,
      "architekt": 82,
      "sztuka": 81
@@ -12303,7 +12303,7 @@
     "title": "Średniowieczna Łódź i region łódzki — osadnictwo i przemiany lokalne",
     "era": "XII–XVI w.",
     "minutes": 6,
-    "words": 772,
+    "words": 774,
     "sentences": 55,
     "chapters": 8,
     "images": 6,
@@ -12315,7 +12315,7 @@
     "polska": 2,
     "people": 6,
     "speakers": {
-     "gospodarz": 131,
+     "gospodarz": 133,
      "historyk": 466,
      "architekt": 175
     }
@@ -12352,7 +12352,7 @@
     "title": "1986 — jeden rok, cały świat",
     "era": "1986 · Polska, Europa, świat i Łódź",
     "minutes": 12,
-    "words": 1579,
+    "words": 1581,
     "sentences": 120,
     "chapters": 9,
     "images": 9,
@@ -12364,7 +12364,7 @@
     "polska": 12,
     "people": 21,
     "speakers": {
-     "gospodarz": 176,
+     "gospodarz": 178,
      "historyk": 522,
      "literatura": 278,
      "muzyka": 188,
@@ -12378,7 +12378,7 @@
     "title": "Łódź 1980–1989 — kryzys przemysłu, kultura niezależna i zmierzch PRL",
     "era": "1980–1989 · Łódź",
     "minutes": 11,
-    "words": 1477,
+    "words": 1479,
     "sentences": 100,
     "chapters": 12,
     "images": 8,
@@ -12390,7 +12390,7 @@
     "polska": 10,
     "people": 16,
     "speakers": {
-     "gospodarz": 134,
+     "gospodarz": 136,
      "historyk": 568,
      "architekt": 141,
      "design": 220,
@@ -12405,7 +12405,7 @@
     "title": "Łódź 1989–1995 — upadek przemysłu włókienniczego i miasto w transformacji",
     "era": "1989–1995 · Łódź",
     "minutes": 9,
-    "words": 1128,
+    "words": 1130,
     "sentences": 84,
     "chapters": 10,
     "images": 6,
@@ -12417,7 +12417,7 @@
     "polska": 8,
     "people": 3,
     "speakers": {
-     "gospodarz": 148,
+     "gospodarz": 150,
      "historyk": 303,
      "design": 139,
      "architekt": 134,
@@ -12431,7 +12431,7 @@
     "title": "Łódź 1995–2005 — nowe instytucje, festiwale i pierwsze odrodzenie",
     "era": "1995–2005 · Łódź",
     "minutes": 8,
-    "words": 1052,
+    "words": 1054,
     "sentences": 81,
     "chapters": 10,
     "images": 6,
@@ -12443,7 +12443,7 @@
     "polska": 6,
     "people": 9,
     "speakers": {
-     "gospodarz": 144,
+     "gospodarz": 146,
      "historyk": 190,
      "literatura": 201,
      "foto": 216,
@@ -12457,7 +12457,7 @@
     "title": "Łódź 2005–2015 — Manufaktura, Off Piotrkowska, murale i Nowe Centrum Łodzi",
     "era": "2005–2015 · Łódź",
     "minutes": 8,
-    "words": 1108,
+    "words": 1110,
     "sentences": 83,
     "chapters": 10,
     "images": 7,
@@ -12469,7 +12469,7 @@
     "polska": 3,
     "people": 5,
     "speakers": {
-     "gospodarz": 149,
+     "gospodarz": 151,
      "architekt": 431,
      "design": 141,
      "sztuka": 108,
@@ -12484,7 +12484,7 @@
     "title": "Łódź 2015–dziś — dworzec Fabryczna, rewitalizacja, EC1 i droga do Expo 2029",
     "era": "2015–dziś · Łódź",
     "minutes": 8,
-    "words": 1057,
+    "words": 1059,
     "sentences": 73,
     "chapters": 11,
     "images": 7,
@@ -12496,7 +12496,7 @@
     "polska": 4,
     "people": 10,
     "speakers": {
-     "gospodarz": 133,
+     "gospodarz": 135,
      "architekt": 316,
      "sztuka": 92,
      "literatura": 250,
@@ -12508,7 +12508,7 @@
     "title": "Mistrzowie architektury nowoczesnej",
     "era": "ok. 1880–1980 · świat",
     "minutes": 8,
-    "words": 1097,
+    "words": 1099,
     "sentences": 74,
     "chapters": 8,
     "images": 10,
@@ -12520,7 +12520,7 @@
     "polska": 1,
     "people": 19,
     "speakers": {
-     "gospodarz": 138,
+     "gospodarz": 140,
      "architekt": 767,
      "design": 192
     }
@@ -12530,7 +12530,7 @@
     "title": "Architekci naszych czasów",
     "era": "ok. 1960–dziś · świat",
     "minutes": 8,
-    "words": 1077,
+    "words": 1079,
     "sentences": 70,
     "chapters": 9,
     "images": 9,
@@ -12542,7 +12542,7 @@
     "polska": 2,
     "people": 30,
     "speakers": {
-     "gospodarz": 141,
+     "gospodarz": 143,
      "architekt": 936
     }
    },
@@ -12551,7 +12551,7 @@
     "title": "Polscy architekci — od Tylmana z Gameren do Macieja Nowickiego",
     "era": "XVII–XX wiek · Polska",
     "minutes": 7,
-    "words": 919,
+    "words": 921,
     "sentences": 64,
     "chapters": 9,
     "images": 6,
@@ -12563,7 +12563,7 @@
     "polska": 11,
     "people": 19,
     "speakers": {
-     "gospodarz": 136,
+     "gospodarz": 138,
      "architekt": 705,
      "historyk": 78
     }
@@ -12573,7 +12573,7 @@
     "title": "Polscy architekci po 1945 roku",
     "era": "1945–dziś · Polska",
     "minutes": 7,
-    "words": 926,
+    "words": 928,
     "sentences": 63,
     "chapters": 9,
     "images": 7,
@@ -12585,7 +12585,7 @@
     "polska": 8,
     "people": 30,
     "speakers": {
-     "gospodarz": 145,
+     "gospodarz": 147,
      "architekt": 781
     }
    },
@@ -12594,7 +12594,7 @@
     "title": "Polscy poeci — od Kochanowskiego do Norwida",
     "era": "XVI–XIX wiek · Polska",
     "minutes": 7,
-    "words": 922,
+    "words": 924,
     "sentences": 68,
     "chapters": 7,
     "images": 6,
@@ -12606,7 +12606,7 @@
     "polska": 12,
     "people": 14,
     "speakers": {
-     "gospodarz": 141,
+     "gospodarz": 143,
      "literatura": 629,
      "muzyka": 48,
      "historyk": 104
@@ -12617,7 +12617,7 @@
     "title": "Polscy poeci XX wieku",
     "era": "XX–XXI wiek · Polska",
     "minutes": 8,
-    "words": 997,
+    "words": 999,
     "sentences": 68,
     "chapters": 8,
     "images": 7,
@@ -12629,7 +12629,7 @@
     "polska": 11,
     "people": 24,
     "speakers": {
-     "gospodarz": 130,
+     "gospodarz": 132,
      "literatura": 867
     }
    },
@@ -12638,7 +12638,7 @@
     "title": "Polscy malarze — od Matejki do Młodej Polski",
     "era": "ok. 1860–1914 · Polska",
     "minutes": 7,
-    "words": 890,
+    "words": 892,
     "sentences": 65,
     "chapters": 8,
     "images": 8,
@@ -12650,7 +12650,7 @@
     "polska": 18,
     "people": 22,
     "speakers": {
-     "gospodarz": 131,
+     "gospodarz": 133,
      "sztuka": 678,
      "literatura": 81
     }
@@ -12660,7 +12660,7 @@
     "title": "Polscy artyści XX i XXI wieku",
     "era": "XX–XXI wiek · Polska",
     "minutes": 8,
-    "words": 1055,
+    "words": 1057,
     "sentences": 82,
     "chapters": 9,
     "images": 8,
@@ -12672,13 +12672,13 @@
     "polska": 12,
     "people": 22,
     "speakers": {
-     "gospodarz": 132,
+     "gospodarz": 134,
      "sztuka": 923
     }
    }
   ],
   "speakers": {
-   "gospodarz": 7715,
+   "gospodarz": 7809,
    "historyk": 12472,
    "sztuka": 8954,
    "architekt": 12273,

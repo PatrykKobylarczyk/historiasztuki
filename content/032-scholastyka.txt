@@ -9,7 +9,7 @@ next: Moda, ubiór i przedmioty średniowiecznej Europy.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty drugi: scholastyka, święty Augustyn i święty Tomasz z Akwinu.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek trzydziesty drugi: scholastyka, święty Augustyn i święty Tomasz z Akwinu.
 
 Średniowieczni myśliciele zadawali pytania, które zadajemy sobie do dziś. Czy wiara i rozum mogą się zgodzić? Czy można udowodnić, że Bóg istnieje? Skąd w świecie zło? Czym jest czas? Dziś poznamy, jak próbowali na nie odpowiedzieć, i zobaczymy, że uniwersytet, debata i przypis to wynalazki średniowiecza.
 
@@ -69,7 +69,7 @@ Podsumujmy. Poznaliśmy Augustyna i jego rozważania o sercu i czasie, Anzelma i
 
 W następnym odcinku zejdziemy z wyżyn filozofii na ziemię: moda, ubiór i przedmioty średniowiecznej Europy.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

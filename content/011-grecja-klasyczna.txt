@@ -9,7 +9,7 @@ next: Teatr grecki — tragedia, komedia i scena.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek jedenasty: Grecja klasyczna. Proporcja, harmonia i idea człowieka.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek jedenasty: Grecja klasyczna. Proporcja, harmonia i idea człowieka.
 
 Piąty wiek przed naszą erą to w Atenach czas, który późniejsze epoki uznały za wzór. Renesans, klasycyzm, akademie sztuk pięknych, a nawet łódzcy fabrykanci, którzy stawiali kolumny przy swoich pałacach, wszyscy patrzyli na Grecję klasyczną jak na miarę piękna. Sprawdźmy, skąd wziął się ten mit i co w nim prawdziwe.
 
@@ -82,7 +82,7 @@ Podsumujmy. Widzieliśmy zwycięstwo nad Persami i Ateny Peryklesa, Partenon z j
 
 W następnym odcinku zostajemy w Atenach i idziemy do teatru: tragedia, komedia i scena.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

@@ -9,7 +9,7 @@ next: Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dziewiętnasty: rzymskie wnętrza, mozaiki, malarstwo i meble.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dziewiętnasty: rzymskie wnętrza, mozaiki, malarstwo i meble.
 
 Z greckich domów zostały nam głównie fundamenty. Z rzymskich zostały całe ściany pokryte freskami, podłogi z mozaikami, a nawet chleb w piecu. Wszystko dzięki katastrofie, która w jednej chwili zatrzymała czas w dwóch miastach nad Zatoką Neapolitańską. Dziś wchodzimy do rzymskiego domu.
 
@@ -69,7 +69,7 @@ Podsumujmy. Widzieliśmy wybuch Wezuwiusza i listy Pliniusza, dom z atrium i per
 
 W następnym odcinku otwieramy księgi: literatura antyczna, od Homera i Sofoklesa do Wergiliusza i Owidiusza.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

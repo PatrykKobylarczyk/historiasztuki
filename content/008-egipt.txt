@@ -9,7 +9,7 @@ next: Egipskie malarstwo, rzeźba, ubiór i przedmioty codzienne.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek ósmy: Egipt. Wieczność, religia i monumentalna architektura.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek ósmy: Egipt. Wieczność, religia i monumentalna architektura.
 
 Mezopotamia budowała z gliny i patrzyła w niebo z niepokojem, bo jej rzeki wylewały gwałtownie i nieprzewidywalnie. Egipt budował z kamienia i patrzył w wieczność ze spokojem, bo Nil wylewał co roku o tej samej porze. Dziś opowiemy o cywilizacji, która przez trzy tysiące lat wierzyła, że porządek świata można utrwalić w kamieniu.
 
@@ -83,7 +83,7 @@ Podsumujmy. Widzieliśmy Nil i jego wylewy, paletę Narmera, piramidę schodkow�
 
 W następnym odcinku zajrzymy do egipskich domów i warsztatów: zobaczymy malarstwo, rzeźbę, ubiór i przedmioty codzienne.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

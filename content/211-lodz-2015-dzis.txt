@@ -9,7 +9,7 @@ next: Historia piękna — od Platona do współczesności.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście jedenasty: Łódź od dwa tysiące piętnastego roku do dziś. Dworzec Fabryczna, rewitalizacja, EC jeden i droga do Expo dwa tysiące dwadzieścia dziewięć.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście jedenasty: Łódź od dwa tysiące piętnastego roku do dziś. Dworzec Fabryczna, rewitalizacja, EC jeden i droga do Expo dwa tysiące dwadzieścia dziewięć.
 
 Zamykamy łódzki cykl. Po latach kryzysu i pierwszych odnowach przychodzi czas, w którym zmienia się całe centrum miasta. Łódź ma mniej mieszkańców niż kiedykolwiek od ponad stu lat, ale jednocześnie wygląda lepiej niż kiedykolwiek od czasów fabrykantów.
 
@@ -92,7 +92,7 @@ Podsumujmy. Zobaczyliśmy podziemny dworzec Łódź Fabryczna i budowę tunelu, 
 
 To koniec łódzkiego cyklu współczesnego. W następnych odcinkach specjalnych przyglądamy się wielkim tematom kultury, zaczynając od historii piękna.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

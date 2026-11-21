@@ -9,7 +9,7 @@ next: Chrześcijaństwo i przemiana antycznego świata.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty pierwszy: muzyka, teatr i codzienność starożytnego świata.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwudziesty pierwszy: muzyka, teatr i codzienność starożytnego świata.
 
 Znamy świątynie, posągi i poematy. Ale jak brzmiała muzyka w Atenach? Co jadł rzymski robotnik na śniadanie? Gdzie kibicowano i z czego się śmiano? Dziś zostawiamy wielkie dzieła i schodzimy na ulicę.
 
@@ -71,7 +71,7 @@ Podsumujmy. Słuchaliśmy liry i aulosu, poznaliśmy Pitagorasa i Pieśń Sejkil
 
 W następnym odcinku, zamykającym drugą część kursu, zobaczymy, jak nowa religia, chrześcijaństwo, przemienia antyczny świat.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

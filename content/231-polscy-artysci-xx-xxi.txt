@@ -9,7 +9,7 @@ next: Koniec cyklu Galeria mistrzów — wróć do programu kursu.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście trzydziesty pierwszy, zamykający cykl Galeria mistrzów. Dziś polscy artyści dwudziestego i dwudziestego pierwszego wieku, od Zofii Stryjeńskiej i Władysława Strzemińskiego do Wilhelma Sasnala i Mirosława Bałki.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek dwieście trzydziesty pierwszy, zamykający cykl Galeria mistrzów. Dziś polscy artyści dwudziestego i dwudziestego pierwszego wieku, od Zofii Stryjeńskiej i Władysława Strzemińskiego do Wilhelma Sasnala i Mirosława Bałki.
 
 Sztuka polska ostatnich stu lat przeszła wszystko: euforię niepodległości, awangardę, wojnę, socrealizm, odwilż, sztukę konceptualną, stan wojenny i globalny rynek sztuki. A Łódź odegrała w tej historii rolę szczególną: tu powstało jedno z pierwszych na świecie muzeów sztuki nowoczesnej.
 
@@ -78,7 +78,7 @@ Podsumujmy. Poznaliśmy Stryjeńską i Łempicką, łódzką awangardę Strzemi�
 
 To koniec cyklu Galeria mistrzów. Wszystkie osoby, o których mówiliśmy, znajdziesz w zakładce Indeks, razem z ich najważniejszymi dziełami.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 

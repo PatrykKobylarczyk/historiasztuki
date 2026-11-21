@@ -9,7 +9,7 @@ next: Rzymskie wnętrza, mozaiki, malarstwo i meble.
 [jingle]
 
 [gospodarz]
-KULTURA. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek osiemnasty: rzymska architektura. Beton, łuki, kopuły i infrastruktura.
+Akademia Kultury. Wielkie dzieła, wielkie idee i ludzie, którzy zmienili świat. Odcinek osiemnasty: rzymska architektura. Beton, łuki, kopuły i infrastruktura.
 
 Grecy budowali świątynie z kolumn i belek. Rzymianie nauczyli się zamykać przestrzeń łukiem, sklepieniem i kopułą, a do tego wynaleźli materiał, który zmienił świat: beton. Dzięki niemu zbudowali Panteon, Koloseum, łaźnie dla tysięcy ludzi, akwedukty i kanały. Mówiąc dzisiejszym językiem, Rzym był pierwszą wielką cywilizacją infrastruktury.
 
@@ -78,7 +78,7 @@ Podsumujmy. Poznaliśmy rzymski beton i łuk, Panteon z jego kopułą i oculusem
 
 W następnym odcinku wejdziemy do środka rzymskich domów: wnętrza, mozaiki, malarstwo i meble.
 
-To była KULTURA. Do usłyszenia.
+To była Akademia Kultury. Do usłyszenia.
 
 [outro]
 
