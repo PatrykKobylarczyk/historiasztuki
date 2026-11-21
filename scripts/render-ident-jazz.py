@@ -19,6 +19,8 @@ PAN = {"trumpet": 0.0, "acoustic_grand_piano": -0.3, "acoustic_bass": 0.15, "alt
        "trombone": 0.35, "baritone_sax": 0.3, "muted_trumpet": 0.3}
 PAN["tenor_sax"] = 0.2; PAN["alto_sax"] = -0.15
 
+WINDS = {"trumpet", "muted_trumpet", "trombone", "alto_sax", "tenor_sax", "baritone_sax"}
+BREATH = butter(2, [900, 5000], "bandpass", fs=SR, output="sos")
 BPM = 168
 B = 60 / BPM                     # ćwierćnuta
 def sw(beat):                    # swing: ósemka „na raz” 2/3, „na i” 1/3
@@ -80,6 +82,16 @@ class Mix:
                     tt = idx / SR; semis += vib * np.clip((tt - 0.15) / 0.2, 0, 1) * np.sin(2 * np.pi * 5.4 * tt + rng.uniform(0, 6))
                 pos = np.cumsum(2 ** (semis / 12)); pos = pos[pos < len(x) - 1]
                 x = np.interp(pos, idx, x)[:n + r]
+                if inst in WINDS:
+                    pk = np.max(np.abs(x[:int(0.1 * SR)])) + 1e-9
+                    # naturalny atak dętego: krótki podmuch powietrza i „zadęcie” na początku dźwięku
+                    k = int(0.035 * SR); tb = np.arange(k) / SR
+                    br = sosfilt(BREATH, rng.standard_normal(k)) * np.exp(-tb * 90) * pk * (0.10 if "sax" in inst else 0.07)
+                    x[:k] += br[:len(x[:k])]
+                    if dur > 0.4:  # długi dźwięk: lekkie crescendo w trakcie, jak u żywego muzyka
+                        sw_ = np.ones(len(x)); nn = min(n, len(x))
+                        sw_[:nn] = 0.86 + 0.14 * np.sin(np.linspace(0, np.pi / 2, nn))
+                        x *= sw_
                 if len(x) > n:
                     x[n:] *= np.exp(-np.arange(len(x) - n) / SR / max(rel / 3, 0.02))
                 pan = PAN.get(inst, 0) + (p - (players - 1) / 2) * spread
@@ -116,19 +128,33 @@ class Mix:
         self.add(hit("cymbal", 2.2, 0.6) * vel * 0.12, t, -0.3)
 
     def master(self, length, peak=0.89, solo_gain=1.9):
-        """Kameralna scena: naturalna akustyka sali zamiast efektów — bez kompresji i podbić."""
-        irL, irR = chamber_ir()
-        dist = butter(1, 9000, "lowpass", fs=SR, output="sos")       # zespół dalej od słuchacza
+        """Studio z dobrą akustyką: naturalna przestrzeń, szerokie stereo, delikatna kompresja emisyjna."""
+        irL, irR = chamber_ir(0.85)
+        dist = butter(1, 10000, "lowpass", fs=SR, output="sos")
         out = []
         for bed, solo, ir in ((self.L, self.SL, irL), (self.R, self.SR_, irR)):
             bed = sosfilt(dist, bed)
             dry = bed + solo_gain * solo
-            wet = fftconvolve(0.55 * bed + 0.25 * solo_gain * solo, ir)[:len(bed)]
+            wet = fftconvolve(0.42 * bed + 0.2 * solo_gain * solo, ir)[:len(bed)]
             out.append(dry + wet)
         st = np.stack(out, 1)[:int(length * SR)]
+        st /= np.max(np.abs(st)) + 1e-9
+        st = glue(st)
         st *= peak / (np.max(np.abs(st)) + 1e-9)
         f = int(0.45 * SR); st[-f:] *= (np.linspace(1, 0, f) ** 2)[:, None]
         return st
+
+
+def glue(st, thr_db=-14, ratio=2.0, att=0.012, rel=0.18):
+    """Łagodny kompresor szyny (2:1) — spójny, „radiowy” miks bez spłaszczania dynamiki."""
+    from scipy.signal import lfilter
+    lvl = np.max(np.abs(st), 1)
+    a_att, a_rel = np.exp(-1 / (att * SR)), np.exp(-1 / (rel * SR))
+    env = lfilter([1 - a_rel], [1, -a_rel], lvl)          # wolny obwiedniowy
+    env = np.maximum(env, lfilter([1 - a_att], [1, -a_att], lvl))
+    db = 20 * np.log10(env + 1e-9)
+    gain_db = np.where(db > thr_db, (thr_db - db) * (1 - 1 / ratio), 0)
+    return st * (10 ** (gain_db / 20))[:, None]
 
 
 def chamber_ir(rt=1.0):
@@ -233,6 +259,7 @@ def compose():
              "tenor_sax": [("C7#9", ["Bb4"]), ("Gb13", ["Bb4"]), ("F69", ["D5"])],
              "trombone": [("C7#9", ["E4"]), ("Gb13", ["E4"]), ("F69", ["A4"])],
              "baritone_sax": [("C7#9", ["C3"]), ("Gb13", ["Gb2"]), ("F69", ["F2"])]}
+    horns["trombone"] = [("C7#9", ["E4", "C3"]), ("Gb13", ["E4", "Gb2"]), ("F69", ["A4", "F2"])]   # + puzon basowy
     hits = {"C7#9": (13.5 + F, 0.2), "Gb13": (14.5 + F, 0.2), "F69": (15 + F, 1.45)}
     for inst, parts in horns.items():
         for chord, notes in parts:
