@@ -116,4 +116,4 @@ Podgląd lokalny: `npx serve .` (pytania wymagają `vercel dev`).
 
 ## Sygnały dźwiękowe
 
-Dżingiel, przerywnik i sygnał zamykający (`media/fx/*.mp3`) to autorska polka na orkiestrę, renderowana skryptem `scripts/render-jingle.py` z próbek instrumentów MusyngKite (zbiór [gleitz/midi-js-soundfonts](https://github.com/gleitz/midi-js-soundfonts), licencja CC BY-SA 3.0). Po zmianie sygnałów podbij `JINGLE_VERSION` w `js/jingle.js`, żeby nagrania MP3 odcinków powstały na nowo.
+Dżingiel, przerywnik i sygnał zamykający (`media/fx/*.mp3`) to autorska fanfara symfoniczna w duchu Mahlera, renderowana skryptem `scripts/render-jingle.py` z próbek instrumentów MusyngKite (zbiór [gleitz/midi-js-soundfonts](https://github.com/gleitz/midi-js-soundfonts), licencja CC BY-SA 3.0). Po zmianie sygnałów podbij `JINGLE_VERSION` w `js/jingle.js`, żeby nagrania MP3 odcinków powstały na nowo.
