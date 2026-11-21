@@ -24,74 +24,93 @@ async function getLesson(n) {
 }
 
 // ---------- Strona główna ----------
+const pad3 = (n) => String(n).padStart(3, "0");
+const big = (u) => (u || "").replace(/\/(\d+)px-/, "/960px-");
+const imgTag = (u, cls = "") => u ? `<img${cls ? ` class="${cls}"` : ""} src="${esc(u)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+const partEps = (part) => part.sections.flatMap((s) => s.episodes);
+
 function renderHome() {
   const ready = new Map(catalog.map((c) => [c.n, c]));
   const done = new Set(store.get("done", []));
   const last = store.get("last");
-  const total = program.parts.reduce((a, p) => a + p.sections.reduce((b, s) => b + s.episodes.length, 0), 0);
+  const total = program.parts.reduce((a, p) => a + partEps(p).length, 0);
+  const feat = (last && ready.has(last.n)) ? ready.get(last.n) : catalog[0];
   let html = `
     <section class="hero">
-      <div class="eyebrow">Kurs historii kultury do słuchania · Europa · Polska · Łódź</div>
       <h1 class="hero-title">KULTURA<span class="brand-dot" aria-hidden="true"></span></h1>
       <p class="hero-deck">Wielkie dzieła, wielkie idee i&nbsp;ludzie, którzy zmienili świat.</p>
-      <div class="hero-grid">
-        <p class="hero-lead">Słuchaj w aucie, na spacerze, w domu. Każdą dziedzinę prowadzi inny ekspert: historyk, historyczka sztuki, architekt, muzykolog, literaturoznawczyni, historyczka designu i fotograf. Odcinki po 15–20 minut, chronologicznie — od prehistorii po XXI wiek.</p>
-        <div class="stats">
-          <div><b>${total}</b><span>odcinków</span></div>
-          <div><b>${catalog.length}</b><span>gotowych</span></div>
-          <div><b>${done.size}<small> / ${total}</small></b><span>wysłuchanych</span></div>
-        </div>
-      </div>`;
-  const big = (u) => (u || "").replace(/\/(\d+)px-/, "/960px-");
-  const feat = (last && ready.has(last.n)) ? ready.get(last.n) : catalog[0];
+      <p class="hero-meta">${total} odcinków · ${catalog.length} gotowych · ${done.size} wysłuchanych</p>`;
   if (feat) {
     const resume = last && last.n === feat.n;
     const pct = resume ? Math.round((100 * (last.index || 0)) / (last.total || 1)) : 0;
     html += `<a class="continue${feat.thumb ? " has-img" : ""}" href="#/lekcja/${feat.n}">
-      ${feat.thumb ? `<img class="cbg" src="${esc(big(feat.thumb))}" alt="" loading="eager" onerror="this.remove()">` : ""}
-      <span class="play-circle">${icons.play}</span>
-      <span class="ct"><small>${resume ? "Kontynuuj" : "Zacznij od początku"} · odcinek ${feat.n}</small><strong>${esc(feat.title)}</strong>
+      ${feat.thumb ? `<img class="cbg" src="${esc(big(feat.thumb))}" alt="" onerror="this.remove()">` : ""}
+      <span class="ct"><small>${resume ? "Kontynuuj" : "Zacznij słuchać"} · odcinek ${feat.n}</small><strong>${esc(feat.title)}</strong>
       ${feat.subtitle ? `<em>${esc(feat.subtitle)}</em>` : ""}
-      ${resume ? `<span class="bar"><div style="width:${pct}%"></div></span>` : ""}</span><span class="go">${icons.arrow}</span></a>`;
+      ${resume ? `<span class="bar"><div style="width:${pct}%"></div></span>` : ""}</span>
+      <span class="play-circle">${icons.play}</span></a>`;
   }
   html += `</section>`;
-  const startN = feat ? feat.n : 0;
-  const nextUp = catalog.filter((c) => c.n > startN && !done.has(c.n)).slice(0, 12);
+  const nextUp = catalog.filter((c) => c.n > (feat?.n ?? 0) && !done.has(c.n)).slice(0, 12);
   if (nextUp.length) {
-    html += `<div class="section-head shelf-head"><h2>Następne</h2><span class="eyebrow">przewiń →</span></div>
+    html += `<section class="block"><div class="block-head"><h2>Następne</h2></div>
       <div class="shelf">${nextUp.map((c) => `<a class="tile" href="#/lekcja/${c.n}">
-        <span class="tile-img">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy" onerror="this.remove()">` : ""}</span>
-        <span class="tile-n">Odcinek ${c.n} · ${c.minutes} min</span>
-        <strong>${esc(c.title)}</strong></a>`).join("")}</div>`;
+        <span class="tile-img">${imgTag(c.thumb)}</span>
+        <span class="tile-n">${c.n} · ${c.minutes} min</span>
+        <strong>${esc(c.title)}</strong></a>`).join("")}</div></section>`;
   }
-  html += `
-    <div class="section-head"><h2>Program</h2><span class="eyebrow">${program.parts.length} części · ${total} odcinków</span></div>`;
-  const currentN = (last && ready.has(last.n)) ? last.n : player.lesson?.n ?? catalog[0]?.n;
+  html += `<section class="block"><div class="block-head"><h2>Program</h2><span>${program.parts.length} części</span></div><div class="parts">`;
   for (const part of program.parts) {
-    const eps = part.sections.flatMap((s) => s.episodes);
-    const readyCount = eps.filter((e) => ready.has(e.n)).length;
-    // rozwinięta tylko część, w której słuchacz aktualnie jest
-    const open = eps.some((e) => e.n === currentN);
-    html += `<details class="part" ${open ? "open" : ""}>
-      <summary><span class="cover">${(() => { const t = eps.map((e) => ready.get(e.n)?.thumb).find(Boolean); return t ? `<img src="${esc(t)}" alt="" loading="lazy" onerror="this.remove()">` : `<i>${part.id}</i>`; })()}</span><span class="pt"><small class="roman">Część ${part.id}</small>${esc(part.title)}</span>
-      <span class="cnt">${readyCount ? `${readyCount} z ${eps.length} gotowe` : `${eps.length} odc.`}</span></summary><div class="part-body">`;
-    for (const sec of part.sections) {
-      if (sec.title) html += `<div class="section-title">${esc(sec.title)}</div>`;
-      for (const e of sec.episodes) {
-        const c = ready.get(e.n);
-        const cls = (c ? (done.has(e.n) ? "ep ready done" : "ep ready") : "ep") + (e.n === currentN ? " cur" : "");
-        const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "wkrótce";
-        const title = c ? c.title : e.title;
-        html += c
-          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy" onerror="this.remove()">` : String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>${e.n === currentN ? `
-            <div class="ep-scrub"><div class="progress" data-n="${e.n}" title="Przesuń, aby wybrać moment"><div style="width:${last?.n === e.n ? ((100 * (last.index || 0)) / (last.total || 1)).toFixed(1) : 0}%"></div></div></div>` : ""}`
-          : `<div class="${cls}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></div>`;
-      }
-    }
-    html += `</div></details>`;
+    const eps = partEps(part);
+    const r = eps.filter((e) => ready.has(e.n));
+    const heard = eps.filter((e) => done.has(e.n)).length;
+    const cover = r.map((e) => ready.get(e.n).thumb).find(Boolean);
+    const isCur = eps.some((e) => e.n === feat?.n);
+    html += `<a class="prow${isCur ? " cur" : ""}" href="#/czesc/${part.id}">
+      <span class="pcover">${cover ? imgTag(cover) : `<i>${part.id}</i>`}</span>
+      <span class="ptext"><small>Część ${part.id}${isCur ? " · słuchasz" : ""}</small><strong>${esc(part.title)}</strong>
+      <span class="pmeta">${eps.length} odc.${r.length && r.length < eps.length ? ` · ${r.length} gotowych` : ""}${heard ? ` · ${heard} wysłuchanych` : ""}</span></span>
+      <span class="chev">${icons.arrow}</span></a>`;
   }
+  html += `</div></section>`;
   view.innerHTML = html;
-  view.querySelectorAll(".ep-scrub .progress").forEach((bar) => scrubber(bar, lessonSource(Number(bar.dataset.n))));
+}
+
+// ---------- Część kursu ----------
+function renderPart(id) {
+  const part = program.parts.find((p) => p.id === id);
+  if (!part) return renderHome();
+  const ready = new Map(catalog.map((c) => [c.n, c]));
+  const done = new Set(store.get("done", []));
+  const last = store.get("last");
+  const eps = partEps(part);
+  const r = eps.filter((e) => ready.has(e.n)).map((e) => ready.get(e.n));
+  const mins = r.reduce((a, c) => a + (c.minutes || 0), 0);
+  const cover = r.map((c) => c.thumb).find(Boolean);
+  const startEp = r.find((c) => !done.has(c.n)) || r[0];
+  const idx = program.parts.indexOf(part);
+  const prev = program.parts[idx - 1], next = program.parts[idx + 1];
+  let html = `<section class="part-hero">
+    <a class="back" href="#/">‹ Program</a>
+    ${cover ? `<div class="part-img">${imgTag(big(cover))}</div>` : ""}
+    <div class="eyebrow accent">Część ${part.id}</div>
+    <h1>${esc(part.title)}</h1>
+    <p class="hero-meta">${eps.length} odcinków${r.length ? ` · ${r.length} gotowych · ${mins >= 60 ? `${Math.floor(mins / 60)} godz. ${mins % 60} min` : `${mins} min`}` : ""}</p>
+    ${startEp ? `<a class="btn accent big" href="#/lekcja/${startEp.n}">${icons.play} ${done.has(startEp.n) ? "Odtwórz ponownie" : last?.n === startEp.n ? "Kontynuuj" : "Odtwórz"}</a>` : ""}
+  </section><div class="eplist">`;
+  for (const sec of part.sections) {
+    if (sec.title) html += `<div class="sec">${esc(sec.title)}</div>`;
+    for (const e of sec.episodes) {
+      const c = ready.get(e.n);
+      const isDone = done.has(e.n), cur = last?.n === e.n;
+      const inner = `<span class="eimg">${c?.thumb ? imgTag(c.thumb) : `<i>${e.n}</i>`}</span>
+        <span class="etext"><small>${e.n}${c ? ` · ${c.minutes} min` : " · wkrótce"}${cur && !isDone ? " · w trakcie" : ""}</small><strong>${esc(c ? c.title : e.title)}</strong></span>
+        <span class="estate">${isDone ? "✓" : c ? icons.play : ""}</span>`;
+      html += c ? `<a class="erow${isDone ? " done" : ""}${cur ? " cur" : ""}" href="#/lekcja/${e.n}">${inner}</a>` : `<div class="erow off">${inner}</div>`;
+    }
+  }
+  html += `</div><nav class="part-nav">${prev ? `<a href="#/czesc/${prev.id}"><small>‹ Część ${prev.id}</small>${esc(prev.title)}</a>` : "<span></span>"}${next ? `<a class="r" href="#/czesc/${next.id}"><small>Część ${next.id} ›</small>${esc(next.title)}</a>` : ""}</nav>`;
+  view.innerHTML = html;
 }
 
 // przydział obrazów do rozdziałów: jawny (@n) lub równomierny
@@ -188,7 +207,7 @@ async function renderLesson(n) {
     `<section class="lesson-extra${wide ? " wide" : ""}"><div class="section-head"><h2>${title}</h2><span class="eyebrow">${label}</span></div>${body}</section>`;
   view.innerHTML = `
     <header class="lesson-head">
-      <div class="eyebrow"><a href="#/">Kurs</a><span class="sep"></span><span class="accent">Odcinek ${lesson.n}</span></div>
+      <div class="eyebrow">${(() => { const pt = program.parts.find((p) => partEps(p).some((e) => e.n === lesson.n)); return pt ? `<a href="#/czesc/${pt.id}">‹ Część ${pt.id}</a>` : `<a href="#/">Kurs</a>`; })()}<span class="sep"></span><span class="accent">Odcinek ${lesson.n}</span></div>
       <h1>${esc(lesson.title)}</h1>
       <div class="sub">${esc(lesson.subtitle)}</div>
       <div class="meta">
@@ -859,11 +878,13 @@ async function route() {
   const section = h.startsWith("#/ustawienia") ? "settings" : h.startsWith("#/indeks") ? "index" : h.startsWith("#/liczby") ? "stats" : "home";
   document.querySelectorAll("[data-nav]").forEach((a) => a.classList.toggle("active", a.dataset.nav === section));
   const m = h.match(/^#\/lekcja\/(\d+)(?:\/z\/(\d+))?/);
+  const pm = h.match(/^#\/czesc\/([IVXL]+)/);
   lastCur = -1;
   if (m) {
     await renderLesson(Number(m[1]));
     if (m[2] != null) jumpToSentence(Number(m[1]), Number(m[2]));
   }
+  else if (pm) renderPart(pm[1]);
   else if (section === "settings") await renderSettings();
   else if (section === "index") await renderIndex();
   else if (section === "stats") await renderStats();
