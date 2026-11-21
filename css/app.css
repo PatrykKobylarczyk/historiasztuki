@@ -675,3 +675,5 @@ figure figcaption a:hover { text-decoration: underline; }
 .shelf { grid-auto-columns: clamp(168px, 44vw, 230px); gap: 16px; }
 .tile-img { aspect-ratio: 1 / 1; }
 .hero { padding-bottom: clamp(32px, 5vw, 56px); }
+.continue.has-img::after { background: linear-gradient(180deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.45) 40%, rgba(0,0,0,.85) 100%); }
+.continue.has-img .ct strong, .continue.has-img .ct em { text-shadow: 0 1px 18px rgba(0,0,0,.45); }
