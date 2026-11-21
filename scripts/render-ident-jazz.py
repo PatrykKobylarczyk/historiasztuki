@@ -47,6 +47,7 @@ class Mix:
     def __init__(self, sec):
         self.L = np.zeros(int(sec * SR)); self.R = np.zeros(int(sec * SR))
         self.rng = np.random.default_rng(1950)
+        self.events = []   # zapis nut do eksportu MIDI: (instrument, czas, midi, długość, głośność)
         self.SL = np.zeros(int(sec * SR)); self.SR_ = np.zeros(int(sec * SR))   # osobna szyna solisty
 
     def add(self, x, t, pan, solo=False):
@@ -62,6 +63,7 @@ class Mix:
         """Gra jak żywi muzycy: każdy z `players` ma własne drobne przesunięcie w czasie, dynamikę i strój."""
         notes = [note_n(n) if isinstance(n, str) else n for n in (notes if isinstance(notes, (list, tuple)) else [notes])]
         for m in notes:
+            self.events.append(("solo_" + inst if solo else inst, t, m, dur, min(1.0, vel)))
             for p in range(players):
                 rng = self.rng
                 dt = rng.normal(0, 0.009) + (0.006 * p)
@@ -85,20 +87,25 @@ class Mix:
 
     # --- perkusja: prawdziwe próbki zestawu Gretsch (miotełki, ride, stopa) ---
     def ride(self, t, vel=1.0):
+        self.events.append(("drums", t, 51, 0.1, min(1.0, vel)))
         t += self.rng.normal(0, 0.005); vel *= self.rng.uniform(0.85, 1.1)
         self.add(hit("ride", 1.0, 0.3) * vel * 0.13, t, 0.35)
 
     def brush(self, t, vel=1.0, length=0.22):
+        self.events.append(("drums", t, 40, 0.1, min(1.0, vel)))
         t += self.rng.normal(0, 0.006)
         self.add(hit("brush_ghost", 0.5) * vel * 0.12, t, -0.2)
 
     def tap(self, t, vel=1.0):
+        self.events.append(("drums", t, 38, 0.1, min(1.0, vel)))
         self.add(hit("brush", 0.6) * vel * 0.2, t, -0.1)
 
     def kick(self, t, vel=1.0):
+        self.events.append(("drums", t, 36, 0.1, min(1.0, vel)))
         self.add(hit("kick", 0.5) * vel * 0.3, t, 0)
 
     def crash(self, t, vel=1.0):
+        self.events.append(("drums", t, 49, 0.1, min(1.0, vel)))
         self.add(hit("ride", 2.2, 0.6) * vel * 0.3, t, 0.3)
         self.add(hit("cymbal", 2.2, 0.6) * vel * 0.12, t, -0.3)
 
@@ -229,8 +236,47 @@ def compose():
     return m, sw(15) + 1.55
 
 
+GM = {"trumpet": 56, "solo_trumpet": 56, "muted_trumpet": 59, "alto_sax": 65, "solo_alto_sax": 65, "tenor_sax": 66,
+      "baritone_sax": 67, "trombone": 57, "acoustic_grand_piano": 0, "acoustic_bass": 32}
+
+
+def write_midi(events, path):
+    """Wielościeżkowy plik MIDI (typ 1) z aranżacją — do nagrania z profesjonalnymi bibliotekami lub przez muzyków."""
+    ppq, tempo = 480, int(60_000_000 / BPM)
+    tick = lambda sec: int(round(sec * ppq * BPM / 60))
+    vlq = lambda v: bytes(((v >> s) & 0x7F) | (0x80 if s else 0) for s in range(21, -1, -7) if (v >> s) or s == 0)
+    tracks, names = [], {}
+    for name in dict.fromkeys(e[0] for e in events):
+        names[name] = len(names)
+    def track(name, evs):
+        ch = 9 if name == "drums" else names[name] % 9
+        msgs = [(0, bytes([0xFF, 0x03, len(name)]) + name.encode())]
+        if name != "drums":
+            msgs.append((0, bytes([0xC0 | ch, GM.get(name, 0)])))
+        for _, t, m, d, v in evs:
+            on, off = tick(max(t, 0)), tick(max(t, 0) + d)
+            msgs.append((on, bytes([0x90 | ch, m, max(1, int(v * 110))])))
+            msgs.append((off, bytes([0x80 | ch, m, 0])))
+        msgs.sort(key=lambda x: (x[0], x[1][0] & 0xF0 != 0x80))
+        out, last = b"", 0
+        for t, msg in msgs:
+            out += vlq(t - last) + msg; last = t
+        out += vlq(0) + b"\xFF\x2F\x00"
+        return b"MTrk" + len(out).to_bytes(4, "big") + out
+    tempo_track = b"\x00\xFF\x51\x03" + tempo.to_bytes(3, "big") + b"\x00\xFF\x58\x04\x04\x02\x18\x08\x00\xFF\x2F\x00"
+    tracks.append(b"MTrk" + len(tempo_track).to_bytes(4, "big") + tempo_track)
+    for name in names:
+        tracks.append(track(name, [e for e in events if e[0] == name]))
+    with open(path, "wb") as f:
+        f.write(b"MThd" + (6).to_bytes(4, "big") + (1).to_bytes(2, "big") + len(tracks).to_bytes(2, "big") + ppq.to_bytes(2, "big"))
+        for t in tracks:
+            f.write(t)
+
+
 if __name__ == "__main__":
     mix, length = compose()
+    if len(sys.argv) > 3:
+        write_midi(mix.events, sys.argv[3]); print(sys.argv[3])
     st = mix.master(length)
     pcm = (np.clip(st, -1, 1) * 32767).astype("<i2").tobytes()
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", str(SR), "-ac", "2", "-i", "-",
