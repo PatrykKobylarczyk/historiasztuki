@@ -67,9 +67,14 @@
      "n": 12,
      "count": 2,
      "i": 20
+    },
+    {
+     "n": 20,
+     "count": 3,
+     "i": 28
     }
    ],
-   "total": 2
+   "total": 5
   },
   {
    "id": "aleksander",
@@ -103,6 +108,24 @@
     }
    ],
    "total": 5
+  },
+  {
+   "id": "anakreont",
+   "name": "Anakreont",
+   "born": -570,
+   "died": -485,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta liryczny",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 22
+    }
+   ],
+   "total": 1
   },
   {
    "id": "ando",
@@ -203,9 +226,14 @@
      "n": 16,
      "count": 1,
      "i": 12
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 31
     }
    ],
-   "total": 10
+   "total": 11
   },
   {
    "id": "asurbanipal",
@@ -254,9 +282,14 @@
      "n": 19,
      "count": 1,
      "i": 38
+    },
+    {
+     "n": 20,
+     "count": 3,
+     "i": 44
     }
    ],
-   "total": 10
+   "total": 13
   },
   {
    "id": "aulenti",
@@ -556,6 +589,28 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "bernini",
+   "name": "Gian Lorenzo Bernini",
+   "born": 1598,
+   "died": 1680,
+   "c": "rzeźbiarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "rzeźbiarz i architekt baroku",
+   "works": [
+    "Apollo i Dafne",
+    "Ekstaza świętej Teresy"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
   },
   {
    "id": "beuys",
@@ -1200,6 +1255,24 @@
    "total": 5
   },
   {
+   "id": "cyceron",
+   "name": "Cyceron",
+   "born": -106,
+   "died": -43,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "mówca, polityk i filozof",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 36
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "cyrus",
    "name": "Cyrus Wielki",
    "born": -600,
@@ -1216,6 +1289,27 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "dante",
+   "name": "Dante Alighieri",
+   "born": 1265,
+   "died": 1321,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "poeta, autor „Boskiej komedii”",
+   "works": [
+    "Boska komedia"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 52
+    }
+   ],
+   "total": 1
   },
   {
    "id": "dariusz",
@@ -1341,6 +1435,25 @@
     }
    ],
    "total": 4
+  },
+  {
+   "id": "dmochowski",
+   "name": "Franciszek Ksawery Dmochowski",
+   "born": 1762,
+   "died": 1808,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta i tłumacz „Iliady”",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 73
+    }
+   ],
+   "total": 1
   },
   {
    "id": "dmowski",
@@ -1690,9 +1803,14 @@
      "n": 12,
      "count": 5,
      "i": 44
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 30
     }
    ],
-   "total": 5
+   "total": 7
   },
   {
    "id": "evans",
@@ -2559,6 +2677,11 @@
    ],
    "mentions": [
     {
+     "n": 20,
+     "count": 1,
+     "i": 72
+    },
+    {
      "n": 186,
      "count": 1,
      "i": 123
@@ -2574,7 +2697,7 @@
      "i": 51
     }
    ],
-   "total": 5
+   "total": 6
   },
   {
    "id": "herodot",
@@ -2593,9 +2716,14 @@
      "n": 8,
      "count": 1,
      "i": 10
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 36
     }
    ],
-   "total": 1
+   "total": 3
   },
   {
    "id": "herzog-de-meuron",
@@ -2705,9 +2833,14 @@
      "n": 19,
      "count": 1,
      "i": 81
+    },
+    {
+     "n": 20,
+     "count": 5,
+     "i": 3
     }
    ],
-   "total": 5
+   "total": 10
   },
   {
    "id": "horacy",
@@ -2725,12 +2858,17 @@
      "i": 161
     },
     {
+     "n": 20,
+     "count": 4,
+     "i": 55
+    },
+    {
      "n": 228,
      "count": 1,
      "i": 14
     }
    ],
-   "total": 2
+   "total": 6
   },
   {
    "id": "ihnatowicz",
@@ -3292,6 +3430,11 @@
    "pl": true,
    "mentions": [
     {
+     "n": 20,
+     "count": 3,
+     "i": 23
+    },
+    {
      "n": 227,
      "count": 1,
      "i": 79
@@ -3302,7 +3445,7 @@
      "i": 4
     }
    ],
-   "total": 5
+   "total": 8
   },
   {
    "id": "konieczny",
@@ -4049,6 +4192,27 @@
    "total": 2
   },
   {
+   "id": "liwiusz",
+   "name": "Tytus Liwiusz",
+   "born": -59,
+   "died": 17,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "historyk Rzymu od założenia miasta",
+   "works": [
+    "Dzieje Rzymu od założenia miasta"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 40
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "lizyp",
    "name": "Lizyp",
    "born": -390,
@@ -4678,12 +4842,17 @@
      "i": 154
     },
     {
+     "n": 20,
+     "count": 1,
+     "i": 71
+    },
+    {
      "n": 228,
      "count": 7,
      "i": 23
     }
    ],
-   "total": 8
+   "total": 9
   },
   {
    "id": "mies",
@@ -5340,6 +5509,34 @@
    "total": 1
   },
   {
+   "id": "owidiusz",
+   "name": "Owidiusz",
+   "born": -43,
+   "died": 17,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta, autor „Metamorfoz”",
+   "works": [
+    "Metamorfozy",
+    "Sztuka kochania",
+    "Żale"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 20,
+     "count": 4,
+     "i": 3
+    }
+   ],
+   "total": 5
+  },
+  {
    "id": "palladio",
    "name": "Andrea Palladio",
    "born": 1508,
@@ -5408,9 +5605,14 @@
      "n": 10,
      "count": 1,
      "i": 33
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 71
     }
    ],
-   "total": 1
+   "total": 3
   },
   {
    "id": "paul-simon",
@@ -5477,9 +5679,14 @@
      "n": 15,
      "count": 2,
      "i": 51
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 15
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "perykles",
@@ -5600,6 +5807,24 @@
    "total": 2
   },
   {
+   "id": "pindar",
+   "name": "Pindar",
+   "born": -518,
+   "died": -438,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta, autor pieśni na cześć olimpijczyków",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 22
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "pitagoras",
    "name": "Pitagoras",
    "born": -570,
@@ -5662,9 +5887,14 @@
      "n": 15,
      "count": 1,
      "i": 21
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 20
     }
    ],
-   "total": 14
+   "total": 15
   },
   {
    "id": "pliniusz-mlodszy",
@@ -5683,9 +5913,14 @@
      "n": 19,
      "count": 2,
      "i": 13
+    },
+    {
+     "n": 20,
+     "count": 1,
+     "i": 40
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "pliniusz-starszy",
@@ -5704,6 +5939,27 @@
      "n": 19,
      "count": 1,
      "i": 14
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "plutarch",
+   "name": "Plutarch",
+   "born": 46,
+   "died": 120,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "biograf, autor „Żywotów równoległych”",
+   "works": [
+    "Żywoty równoległe"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 41
     }
    ],
    "total": 1
@@ -6399,6 +6655,24 @@
    "total": 3
   },
   {
+   "id": "rubens",
+   "name": "Peter Paul Rubens",
+   "born": 1577,
+   "died": 1640,
+   "c": "malarz",
+   "country": "Flandria",
+   "g": "m",
+   "desc": "malarz baroku",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "rubinstein",
    "name": "Artur Rubinstein",
    "born": 1887,
@@ -6542,12 +6816,17 @@
      "i": 34
     },
     {
+     "n": 20,
+     "count": 2,
+     "i": 19
+    },
+    {
      "n": 229,
      "count": 1,
      "i": 30
     }
    ],
-   "total": 4
+   "total": 6
   },
   {
    "id": "sandecka",
@@ -7086,9 +7365,14 @@
      "n": 19,
      "count": 1,
      "i": 81
+    },
+    {
+     "n": 20,
+     "count": 3,
+     "i": 29
     }
    ],
-   "total": 3
+   "total": 6
   },
   {
    "id": "sokrates",
@@ -7472,6 +7756,11 @@
      "i": 33
     },
     {
+     "n": 20,
+     "count": 1,
+     "i": 41
+    },
+    {
      "n": 228,
      "count": 1,
      "i": 37
@@ -7482,7 +7771,7 @@
      "i": 72
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "szyk",
@@ -7558,6 +7847,33 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "tacyt",
+   "name": "Tacyt",
+   "born": 56,
+   "died": 120,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "historyk cesarstwa",
+   "works": [
+    "Roczniki",
+    "Dzieje"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 13
+    },
+    {
+     "n": 20,
+     "count": 2,
+     "i": 40
+    }
+   ],
+   "total": 3
   },
   {
    "id": "tales",
@@ -7707,6 +8023,27 @@
    "total": 2
   },
   {
+   "id": "tukidydes",
+   "name": "Tukidydes",
+   "born": -460,
+   "died": -400,
+   "c": "naukowiec",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "historyk wojny peloponeskiej",
+   "works": [
+    "Wojna peloponeska"
+   ],
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 37
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "turner",
    "name": "William Turner",
    "born": 1775,
@@ -7790,6 +8127,24 @@
     }
    ],
    "total": 9
+  },
+  {
+   "id": "tycjan",
+   "name": "Tycjan",
+   "born": 1488,
+   "died": 1576,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu weneckiego",
+   "mentions": [
+    {
+     "n": 20,
+     "count": 1,
+     "i": 61
+    }
+   ],
+   "total": 1
   },
   {
    "id": "tylman",
@@ -7976,6 +8331,34 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "wergiliusz",
+   "name": "Wergiliusz",
+   "born": -70,
+   "died": -19,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta, autor „Eneidy”",
+   "works": [
+    "Bukoliki",
+    "Georgiki",
+    "Eneida"
+   ],
+   "mentions": [
+    {
+     "n": 19,
+     "count": 1,
+     "i": 81
+    },
+    {
+     "n": 20,
+     "count": 5,
+     "i": 44
+    }
+   ],
+   "total": 6
   },
   {
    "id": "whitehead",
@@ -8416,28 +8799,28 @@
   }
  ],
  "stats": {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 34,
+   "ready": 35,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 37,
+   "plannedHours": 36,
    "yearsSpan": 52026,
    "experts": 7
   },
   "ready": {
-   "minutes": 323,
-   "words": 42874,
-   "sentences": 3282,
-   "chapters": 312,
-   "images": 257,
-   "glossary": 215,
-   "quiz": 163,
-   "sources": 143,
+   "minutes": 330,
+   "words": 43814,
+   "sentences": 3347,
+   "chapters": 320,
+   "images": 264,
+   "glossary": 223,
+   "quiz": 168,
+   "sources": 147,
    "music": 6,
    "lodz": 308,
-   "polska": 198
+   "polska": 201
   },
   "lessons": [
    {
@@ -8896,13 +9279,35 @@
     "music": 0,
     "lodz": 2,
     "polska": 1,
-    "people": 10,
+    "people": 13,
     "speakers": {
      "gospodarz": 123,
      "historyk": 99,
      "architekt": 110,
      "sztuka": 232,
      "design": 311
+    }
+   },
+   {
+    "n": 20,
+    "title": "Literatura antyczna — Homer, Sofokles, Wergiliusz, Owidiusz",
+    "era": "Grecja i Rzym · VIII w. p.n.e.–II w. n.e.",
+    "minutes": 7,
+    "words": 940,
+    "sentences": 65,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 8,
+    "quiz": 5,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 3,
+    "people": 31,
+    "speakers": {
+     "gospodarz": 114,
+     "literatura": 716,
+     "historyk": 110
     }
    },
    {
@@ -9263,12 +9668,12 @@
    }
   ],
   "speakers": {
-   "gospodarz": 5429,
-   "historyk": 8125,
+   "gospodarz": 5543,
+   "historyk": 8235,
    "sztuka": 6915,
    "architekt": 9972,
    "muzyka": 2027,
-   "literatura": 5747,
+   "literatura": 6463,
    "design": 3952,
    "foto": 707
   },
@@ -9284,7 +9689,7 @@
     "id": "II",
     "title": "Starożytność — fundamenty Europy",
     "episodes": 17,
-    "ready": 14,
+    "ready": 15,
     "sections": 1
    },
    {
@@ -9477,65 +9882,67 @@
    }
   ],
   "people": {
-   "total": 341,
-   "mentions": 848,
+   "total": 355,
+   "mentions": 909,
    "byCategory": {
-    "naukowiec": 37,
+    "naukowiec": 38,
     "filozof": 18,
     "inne": 13,
     "muzyk": 10,
-    "pisarz": 50,
+    "pisarz": 60,
     "polityk": 47,
     "architekt": 85,
-    "malarz": 50,
+    "malarz": 52,
     "projektant": 7,
-    "rzeźbiarz": 14,
+    "rzeźbiarz": 15,
     "przemysłowiec": 3,
     "filmowiec": 5,
     "fotograf": 2
    },
    "byCentury": {
-    "1": 6,
+    "1": 8,
     "2": 2,
     "3": 1,
     "10": 1,
     "11": 1,
-    "15": 3,
-    "16": 5,
+    "13": 1,
+    "15": 4,
+    "16": 7,
     "17": 2,
-    "18": 11,
+    "18": 12,
     "19": 89,
     "20": 149,
-    "-5": 19,
+    "-5": 20,
     "-4": 9,
-    "-1": 6,
+    "-1": 9,
     "-23": 2,
     "-24": 1,
     "-26": 3,
     "-7": 4,
     "-22": 1,
     "-19": 1,
-    "-6": 6,
+    "-6": 8,
     "-32": 1,
     "-27": 2,
     "-16": 1,
     "-15": 1,
     "-14": 6,
     "-8": 1,
-    "-3": 3
+    "-3": 3,
+    "-2": 1
    },
    "byCountry": {
-    "zagranica": 195,
-    "Polska": 146
+    "zagranica": 208,
+    "Polska": 147
    },
    "byGender": {
-    "m": 309,
+    "m": 323,
     "f": 31,
     "k": 1
    },
    "lodz": 31,
-   "withWorks": 195,
-   "works": 622,
+   "withWorks": 203,
+   "works": 636,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

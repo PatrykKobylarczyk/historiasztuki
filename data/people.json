@@ -6067,7 +6067,7 @@
    "g": "k",
    "desc": "żona cesarza Augusta",
    "m": [
-    "Liwi\\p{L}*"
+    "Liwi(?:a|i|ę|ą)(?!\\p{L})"
    ]
   },
   {
@@ -6094,6 +6094,219 @@
    "desc": "król Bawarii, fundator Pompejanum",
    "m": [
     "Ludwik\\p{L}* pierwsz\\p{L}*"
+   ]
+  },
+  {
+   "id": "wergiliusz",
+   "name": "Wergiliusz",
+   "born": -70,
+   "died": -19,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta, autor „Eneidy”",
+   "m": [
+    "Wergiliusz\\p{L}*"
+   ],
+   "works": [
+    "Bukoliki",
+    "Georgiki",
+    "Eneida"
+   ]
+  },
+  {
+   "id": "owidiusz",
+   "name": "Owidiusz",
+   "born": -43,
+   "died": 17,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "poeta, autor „Metamorfoz”",
+   "m": [
+    "Owidiusz\\p{L}*"
+   ],
+   "works": [
+    "Metamorfozy",
+    "Sztuka kochania",
+    "Żale"
+   ]
+  },
+  {
+   "id": "tukidydes",
+   "name": "Tukidydes",
+   "born": -460,
+   "died": -400,
+   "c": "naukowiec",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "historyk wojny peloponeskiej",
+   "m": [
+    "Tukidydes\\p{L}*"
+   ],
+   "works": [
+    "Wojna peloponeska"
+   ]
+  },
+  {
+   "id": "tacyt",
+   "name": "Tacyt",
+   "born": 56,
+   "died": 120,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "historyk cesarstwa",
+   "m": [
+    "Tacyt\\p{L}*"
+   ],
+   "works": [
+    "Roczniki",
+    "Dzieje"
+   ]
+  },
+  {
+   "id": "liwiusz",
+   "name": "Tytus Liwiusz",
+   "born": -59,
+   "died": 17,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "historyk Rzymu od założenia miasta",
+   "m": [
+    "Liwiusz\\p{L}*"
+   ],
+   "works": [
+    "Dzieje Rzymu od założenia miasta"
+   ]
+  },
+  {
+   "id": "plutarch",
+   "name": "Plutarch",
+   "born": 46,
+   "died": 120,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "biograf, autor „Żywotów równoległych”",
+   "m": [
+    "Plutarch\\p{L}*"
+   ],
+   "works": [
+    "Żywoty równoległe"
+   ]
+  },
+  {
+   "id": "cyceron",
+   "name": "Cyceron",
+   "born": -106,
+   "died": -43,
+   "c": "pisarz",
+   "country": "Rzym",
+   "g": "m",
+   "desc": "mówca, polityk i filozof",
+   "m": [
+    "Cyceron\\p{L}*"
+   ]
+  },
+  {
+   "id": "pindar",
+   "name": "Pindar",
+   "born": -518,
+   "died": -438,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta, autor pieśni na cześć olimpijczyków",
+   "m": [
+    "Pindar\\p{L}*"
+   ]
+  },
+  {
+   "id": "anakreont",
+   "name": "Anakreont",
+   "born": -570,
+   "died": -485,
+   "c": "pisarz",
+   "country": "Grecja",
+   "g": "m",
+   "desc": "poeta liryczny",
+   "m": [
+    "Anakreont\\p{L}*"
+   ]
+  },
+  {
+   "id": "dante",
+   "name": "Dante Alighieri",
+   "born": 1265,
+   "died": 1321,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "poeta, autor „Boskiej komedii”",
+   "m": [
+    "Dante(?:go|m|mu)?(?!\\p{L})"
+   ],
+   "works": [
+    "Boska komedia"
+   ]
+  },
+  {
+   "id": "tycjan",
+   "name": "Tycjan",
+   "born": 1488,
+   "died": 1576,
+   "c": "malarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "malarz renesansu weneckiego",
+   "m": [
+    "Tycjan\\p{L}*"
+   ]
+  },
+  {
+   "id": "rubens",
+   "name": "Peter Paul Rubens",
+   "born": 1577,
+   "died": 1640,
+   "c": "malarz",
+   "country": "Flandria",
+   "g": "m",
+   "desc": "malarz baroku",
+   "m": [
+    "Rubens\\p{L}*"
+   ]
+  },
+  {
+   "id": "bernini",
+   "name": "Gian Lorenzo Bernini",
+   "born": 1598,
+   "died": 1680,
+   "c": "rzeźbiarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "rzeźbiarz i architekt baroku",
+   "m": [
+    "Bernini\\p{L}*"
+   ],
+   "works": [
+    "Apollo i Dafne",
+    "Ekstaza świętej Teresy"
+   ]
+  },
+  {
+   "id": "dmochowski",
+   "name": "Franciszek Ksawery Dmochowski",
+   "born": 1762,
+   "died": 1808,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "poeta i tłumacz „Iliady”",
+   "m": [
+    "Dmochowsk\\p{L}*"
    ]
   }
  ]

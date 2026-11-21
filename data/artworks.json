@@ -1254,5 +1254,35 @@
   "creator": "szklarz rzymski",
   "date": "IV w. n.e.",
   "place": "British Museum, Londyn"
+ },
+ "Homer British Museum bust": {
+  "creator": "kopia rzymska według oryginału greckiego",
+  "date": "II w. n.e.",
+  "place": "British Museum, Londyn"
+ },
+ "Sappho Pompeii fresco": {
+  "creator": "nieznany malarz",
+  "date": "ok. 50 n.e.",
+  "place": "Muzeum Archeologiczne, Neapol"
+ },
+ "Sophocles bust": {
+  "creator": "kopia rzymska według oryginału greckiego",
+  "date": "oryginał IV w. p.n.e.",
+  "place": "zbiory muzealne"
+ },
+ "Virgil mosaic Bardo": {
+  "creator": "warsztat mozaikarski z Hadrumetum",
+  "date": "III w. n.e.",
+  "place": "Muzeum Bardo, Tunis"
+ },
+ "Apollo and Daphne Bernini": {
+  "creator": "Gian Lorenzo Bernini",
+  "date": "1622–1625",
+  "place": "Galleria Borghese, Rzym"
+ },
+ "Ovid statue Constanta": {
+  "creator": "Ettore Ferrari",
+  "date": "1887",
+  "place": "Konstanca, Rumunia"
  }
 }
