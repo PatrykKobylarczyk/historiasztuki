@@ -671,3 +671,7 @@ figure figcaption a:hover { text-decoration: underline; }
 .ep .num img { width: 44px; height: 44px; border-radius: 10px; object-fit: cover; }
 .ep.ready { grid-template-columns: 44px 1fr auto; gap: 14px; padding: 10px 0; }
 .ep.cur::before { left: -12px; }
+.shelf-head { padding-top: 8px; }
+.shelf { grid-auto-columns: clamp(168px, 44vw, 230px); gap: 16px; }
+.tile-img { aspect-ratio: 1 / 1; }
+.hero { padding-bottom: clamp(32px, 5vw, 56px); }

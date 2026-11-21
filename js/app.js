@@ -48,7 +48,7 @@ function renderHome() {
     const resume = last && last.n === feat.n;
     const pct = resume ? Math.round((100 * (last.index || 0)) / (last.total || 1)) : 0;
     html += `<a class="continue${feat.thumb ? " has-img" : ""}" href="#/lekcja/${feat.n}">
-      ${feat.thumb ? `<img class="cbg" src="${esc(big(feat.thumb))}" alt="" loading="eager">` : ""}
+      ${feat.thumb ? `<img class="cbg" src="${esc(big(feat.thumb))}" alt="" loading="eager" onerror="this.remove()">` : ""}
       <span class="play-circle">${icons.play}</span>
       <span class="ct"><small>${resume ? "Kontynuuj" : "Zacznij od początku"} · odcinek ${feat.n}</small><strong>${esc(feat.title)}</strong>
       ${feat.subtitle ? `<em>${esc(feat.subtitle)}</em>` : ""}
@@ -60,7 +60,7 @@ function renderHome() {
   if (nextUp.length) {
     html += `<div class="section-head shelf-head"><h2>Następne</h2><span class="eyebrow">przewiń →</span></div>
       <div class="shelf">${nextUp.map((c) => `<a class="tile" href="#/lekcja/${c.n}">
-        <span class="tile-img">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy">` : ""}</span>
+        <span class="tile-img">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy" onerror="this.remove()">` : ""}</span>
         <span class="tile-n">Odcinek ${c.n} · ${c.minutes} min</span>
         <strong>${esc(c.title)}</strong></a>`).join("")}</div>`;
   }
@@ -73,7 +73,7 @@ function renderHome() {
     // rozwinięta tylko część, w której słuchacz aktualnie jest
     const open = eps.some((e) => e.n === currentN);
     html += `<details class="part" ${open ? "open" : ""}>
-      <summary><span class="cover">${(() => { const t = eps.map((e) => ready.get(e.n)?.thumb).find(Boolean); return t ? `<img src="${esc(t)}" alt="" loading="lazy">` : `<i>${part.id}</i>`; })()}</span><span class="pt"><small class="roman">Część ${part.id}</small>${esc(part.title)}</span>
+      <summary><span class="cover">${(() => { const t = eps.map((e) => ready.get(e.n)?.thumb).find(Boolean); return t ? `<img src="${esc(t)}" alt="" loading="lazy" onerror="this.remove()">` : `<i>${part.id}</i>`; })()}</span><span class="pt"><small class="roman">Część ${part.id}</small>${esc(part.title)}</span>
       <span class="cnt">${readyCount ? `${readyCount} z ${eps.length} gotowe` : `${eps.length} odc.`}</span></summary><div class="part-body">`;
     for (const sec of part.sections) {
       if (sec.title) html += `<div class="section-title">${esc(sec.title)}</div>`;
@@ -83,7 +83,7 @@ function renderHome() {
         const badge = c ? (done.has(e.n) ? "✓ wysłuchany" : `${c.minutes} min`) : "wkrótce";
         const title = c ? c.title : e.title;
         html += c
-          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy">` : String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>${e.n === currentN ? `
+          ? `<a class="${cls}" href="#/lekcja/${e.n}"><span class="num">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy" onerror="this.remove()">` : String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></a>${e.n === currentN ? `
             <div class="ep-scrub"><div class="progress" data-n="${e.n}" title="Przesuń, aby wybrać moment"><div style="width:${last?.n === e.n ? ((100 * (last.index || 0)) / (last.total || 1)).toFixed(1) : 0}%"></div></div></div>` : ""}`
           : `<div class="${cls}"><span class="num">${String(e.n).padStart(3, "0")}</span><span class="et">${esc(title)}</span><span class="badge">${badge}</span></div>`;
       }
