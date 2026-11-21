@@ -49,6 +49,27 @@
    "total": 3
   },
   {
+   "id": "abelard",
+   "name": "Piotr Abelard",
+   "born": 1079,
+   "died": 1142,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "filozof scholastyczny",
+   "works": [
+    "Tak i nie"
+   ],
+   "mentions": [
+    {
+     "n": 32,
+     "count": 3,
+     "i": 28
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "ajschylos",
    "name": "Ajschylos",
    "born": -525,
@@ -226,6 +247,24 @@
    "total": 1
   },
   {
+   "id": "anzelm",
+   "name": "Anzelm z Canterbury",
+   "born": 1033,
+   "died": 1109,
+   "c": "filozof",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "teolog, autor dowodu ontologicznego",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 3,
+     "i": 21
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "apicjusz",
    "name": "Apicjusz",
    "born": -25,
@@ -329,9 +368,14 @@
      "n": 25,
      "count": 2,
      "i": 45
+    },
+    {
+     "n": 32,
+     "count": 3,
+     "i": 45
     }
    ],
-   "total": 13
+   "total": 16
   },
   {
    "id": "asurbanipal",
@@ -425,9 +469,19 @@
      "n": 22,
      "count": 2,
      "i": 64
+    },
+    {
+     "n": 31,
+     "count": 1,
+     "i": 73
+    },
+    {
+     "n": 32,
+     "count": 4,
+     "i": 3
     }
    ],
-   "total": 2
+   "total": 7
   },
   {
    "id": "aulenti",
@@ -455,9 +509,14 @@
      "n": 25,
      "count": 3,
      "i": 50
+    },
+    {
+     "n": 32,
+     "count": 1,
+     "i": 45
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "awicenna",
@@ -936,6 +995,27 @@
    "total": 2
   },
   {
+   "id": "boccaccio",
+   "name": "Giovanni Boccaccio",
+   "born": 1313,
+   "died": 1375,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "autor „Dekameronu”",
+   "works": [
+    "Dekameron"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 2,
+     "i": 47
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "boecjusz",
    "name": "Boecjusz",
    "born": 480,
@@ -1339,6 +1419,27 @@
    "total": 1
   },
   {
+   "id": "chaucer",
+   "name": "Geoffrey Chaucer",
+   "born": 1343,
+   "died": 1400,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "autor „Opowieści kanterberyjskich”",
+   "works": [
+    "Opowieści kanterberyjskie"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 2,
+     "i": 50
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "chefren",
    "name": "Chafre (Chefren)",
    "born": -2570,
@@ -1482,6 +1583,49 @@
    "total": 2
   },
   {
+   "id": "chretien",
+   "name": "Chrétien de Troyes",
+   "born": 1135,
+   "died": 1191,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "autor romansów arturiańskich",
+   "works": [
+    "Lancelot",
+    "Percewal"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 22
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "christine-de-pizan",
+   "name": "Christine de Pizan",
+   "born": 1364,
+   "died": 1430,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "k",
+   "desc": "pisarka, autorka „Księgi o Mieście Pań”",
+   "works": [
+    "Księga o Mieście Pań"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 2,
+     "i": 57
+    }
+   ],
+   "total": 2
+  },
+  {
    "id": "constable",
    "name": "John Constable",
    "born": 1776,
@@ -1608,9 +1752,14 @@
      "n": 30,
      "count": 1,
      "i": 82
+    },
+    {
+     "n": 31,
+     "count": 5,
+     "i": 3
     }
    ],
-   "total": 2
+   "total": 7
   },
   {
    "id": "dariusz",
@@ -1774,6 +1923,28 @@
      "n": 29,
      "count": 1,
      "i": 33
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "dlugosz",
+   "name": "Jan Długosz",
+   "born": 1415,
+   "died": 1480,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "historyk, autor „Roczników”",
+   "works": [
+    "Roczniki, czyli kroniki sławnego Królestwa Polskiego"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 66
     }
    ],
    "total": 1
@@ -1947,6 +2118,24 @@
    "total": 4
   },
   {
+   "id": "eckhart",
+   "name": "Mistrz Eckhart",
+   "born": 1260,
+   "died": 1328,
+   "c": "filozof",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "mistyk i teolog",
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 55
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "edelman",
    "name": "Marek Edelman",
    "born": 1919,
@@ -2016,6 +2205,24 @@
     }
    ],
    "total": 3
+  },
+  {
+   "id": "eleonora-akwitanska",
+   "name": "Eleonora Akwitańska",
+   "born": 1122,
+   "died": 1204,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "k",
+   "desc": "królowa Francji i Anglii, mecenaska poetów",
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 21
+    }
+   ],
+   "total": 1
   },
   {
    "id": "elgin",
@@ -2400,6 +2607,21 @@
    "total": 3
   },
   {
+   "id": "franciszek",
+   "name": "Święty Franciszek z Asyżu",
+   "born": 1181,
+   "died": 1226,
+   "c": "pisarz",
+   "country": "Italia",
+   "g": "m",
+   "desc": "założyciel franciszkanów, autor „Pieśni słonecznej”",
+   "works": [
+    "Pieśń słoneczna"
+   ],
+   "mentions": [],
+   "total": 0
+  },
+  {
    "id": "franta",
    "name": "Aleksander Franta",
    "c": "architekt",
@@ -2476,6 +2698,28 @@
      "n": 193,
      "count": 1,
      "i": 64
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "gall-anonim",
+   "name": "Gall Anonim",
+   "born": 1065,
+   "died": 1145,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "autor pierwszej kroniki polskiej",
+   "works": [
+    "Kronika polska"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 63
     }
    ],
    "total": 1
@@ -2559,9 +2803,14 @@
      "n": 5,
      "count": 1,
      "i": 115
+    },
+    {
+     "n": 31,
+     "count": 1,
+     "i": 50
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "george-smith",
@@ -3160,9 +3409,32 @@
      "n": 3,
      "count": 1,
      "i": 148
+    },
+    {
+     "n": 32,
+     "count": 1,
+     "i": 18
     }
    ],
-   "total": 1
+   "total": 2
+  },
+  {
+   "id": "heloiza",
+   "name": "Heloiza",
+   "born": 1100,
+   "died": 1164,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "k",
+   "desc": "uczona, ksieni, autorka listów do Abelarda",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 3,
+     "i": 32
+    }
+   ],
+   "total": 3
   },
   {
    "id": "heraklit",
@@ -3699,12 +3971,17 @@
    "desc": "król Polski, założyciel dynastii Jagiellonów",
    "mentions": [
     {
+     "n": 32,
+     "count": 1,
+     "i": 42
+    },
+    {
      "n": 227,
      "count": 1,
      "i": 61
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "jan-damaszek",
@@ -3933,6 +4210,28 @@
    "total": 1
   },
   {
+   "id": "kadlubek",
+   "name": "Wincenty Kadłubek",
+   "born": 1150,
+   "died": 1223,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "biskup krakowski, kronikarz",
+   "works": [
+    "Kronika polska"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 63
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kahn",
    "name": "Louis Kahn",
    "c": "architekt",
@@ -3986,6 +4285,24 @@
      "n": 11,
      "count": 1,
      "i": 56
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "kant",
+   "name": "Immanuel Kant",
+   "born": 1724,
+   "died": 1804,
+   "c": "filozof",
+   "country": "Prusy",
+   "g": "m",
+   "desc": "filozof",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 1,
+     "i": 24
     }
    ],
    "total": 1
@@ -4052,9 +4369,14 @@
      "n": 30,
      "count": 1,
      "i": 11
+    },
+    {
+     "n": 31,
+     "count": 1,
+     "i": 11
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "karski",
@@ -4295,6 +4617,11 @@
      "i": 23
     },
     {
+     "n": 31,
+     "count": 2,
+     "i": 46
+    },
+    {
      "n": 227,
      "count": 1,
      "i": 79
@@ -4305,7 +4632,7 @@
      "i": 4
     }
    ],
-   "total": 8
+   "total": 10
   },
   {
    "id": "kolumban",
@@ -4627,6 +4954,25 @@
    "total": 1
   },
   {
+   "id": "krolowa-jadwiga",
+   "name": "Królowa Jadwiga",
+   "born": 1374,
+   "died": 1399,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "królowa Polski, odnowicielka Akademii Krakowskiej",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 1,
+     "i": 42
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "kropiwnicki",
    "name": "Jerzy Kropiwnicki",
    "born": 1945,
@@ -4716,6 +5062,24 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "kuciak",
+   "name": "Agnieszka Kuciak",
+   "born": 1970,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "poetka, tłumaczka „Boskiej komedii”",
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 41
+    }
+   ],
+   "total": 1
   },
   {
    "id": "kunitzer",
@@ -5476,6 +5840,27 @@
    "total": 1
   },
   {
+   "id": "malory",
+   "name": "Thomas Malory",
+   "born": 1415,
+   "died": 1471,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "autor „Śmierci Artura”",
+   "works": [
+    "Śmierć Artura"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 29
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "maradona",
    "name": "Diego Maradona",
    "born": 1960,
@@ -5573,9 +5958,14 @@
      "n": 1,
      "count": 1,
      "i": 44
+    },
+    {
+     "n": 31,
+     "count": 1,
+     "i": 21
     }
    ],
-   "total": 1
+   "total": 2
   },
   {
    "id": "marian-schmidt",
@@ -5877,12 +6267,17 @@
      "i": 71
     },
     {
+     "n": 31,
+     "count": 1,
+     "i": 67
+    },
+    {
      "n": 228,
      "count": 7,
      "i": 23
     }
    ],
-   "total": 9
+   "total": 10
   },
   {
    "id": "mies",
@@ -6547,6 +6942,24 @@
    "total": 5
   },
   {
+   "id": "ockham",
+   "name": "Wilhelm Ockham",
+   "born": 1287,
+   "died": 1347,
+   "c": "filozof",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "filozof, twórca „brzytwy Ockhama”",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 4,
+     "i": 63
+    }
+   ],
+   "total": 4
+  },
+  {
    "id": "opalka",
    "name": "Roman Opałka",
    "c": "malarz",
@@ -6714,6 +7127,24 @@
    "total": 3
   },
   {
+   "id": "panofsky",
+   "name": "Erwin Panofsky",
+   "born": 1892,
+   "died": 1968,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "historyk sztuki",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 1,
+     "i": 58
+    }
+   ],
+   "total": 1
+  },
+  {
    "id": "parandowski",
    "name": "Jan Parandowski",
    "born": 1895,
@@ -6873,6 +7304,27 @@
      "n": 11,
      "count": 2,
      "i": 16
+    }
+   ],
+   "total": 2
+  },
+  {
+   "id": "petrarka",
+   "name": "Francesco Petrarka",
+   "born": 1304,
+   "died": 1374,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "poeta, autor sonetów do Laury",
+   "works": [
+    "Sonety do Laury"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 2,
+     "i": 45
     }
    ],
    "total": 2
@@ -7078,9 +7530,14 @@
      "n": 24,
      "count": 1,
      "i": 55
+    },
+    {
+     "n": 32,
+     "count": 1,
+     "i": 14
     }
    ],
-   "total": 18
+   "total": 19
   },
   {
    "id": "plaut",
@@ -7304,6 +7761,25 @@
      "n": 13,
      "count": 1,
      "i": 44
+    }
+   ],
+   "total": 1
+  },
+  {
+   "id": "porebowicz",
+   "name": "Edward Porębowicz",
+   "born": 1862,
+   "died": 1937,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "tłumacz „Boskiej komedii”",
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 41
     }
    ],
    "total": 1
@@ -8130,6 +8606,11 @@
    ],
    "mentions": [
     {
+     "n": 31,
+     "count": 1,
+     "i": 30
+    },
+    {
      "n": 193,
      "count": 1,
      "i": 115
@@ -8140,7 +8621,7 @@
      "i": 44
     }
    ],
-   "total": 3
+   "total": 4
   },
   {
    "id": "sargon",
@@ -9144,6 +9625,11 @@
    "pl": true,
    "mentions": [
     {
+     "n": 31,
+     "count": 1,
+     "i": 67
+    },
+    {
      "n": 228,
      "count": 1,
      "i": 80
@@ -9154,7 +9640,7 @@
      "i": 4
     }
    ],
-   "total": 5
+   "total": 6
   },
   {
    "id": "szyszko-bohusz",
@@ -9387,6 +9873,32 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "tomasz-z-akwinu",
+   "name": "Tomasz z Akwinu",
+   "born": 1225,
+   "died": 1274,
+   "c": "filozof",
+   "country": "Italia",
+   "g": "m",
+   "desc": "filozof i teolog, autor „Sumy teologicznej”",
+   "works": [
+    "Suma teologiczna"
+   ],
+   "mentions": [
+    {
+     "n": 31,
+     "count": 1,
+     "i": 73
+    },
+    {
+     "n": 32,
+     "count": 3,
+     "i": 3
+    }
+   ],
+   "total": 4
   },
   {
    "id": "tomaszewski",
@@ -9828,9 +10340,14 @@
      "n": 26,
      "count": 1,
      "i": 5
+    },
+    {
+     "n": 31,
+     "count": 1,
+     "i": 36
     }
    ],
-   "total": 8
+   "total": 9
   },
   {
    "id": "whitehead",
@@ -9937,6 +10454,25 @@
     }
    ],
    "total": 5
+  },
+  {
+   "id": "wlodkowic",
+   "name": "Paweł Włodkowic",
+   "born": 1370,
+   "died": 1435,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rektor Akademii Krakowskiej, prawnik",
+   "mentions": [
+    {
+     "n": 32,
+     "count": 2,
+     "i": 67
+    }
+   ],
+   "total": 2
   },
   {
    "id": "wojaczek",
@@ -10296,25 +10832,25 @@
   "generated": "2026-11-21",
   "course": {
    "planned": 231,
-   "ready": 45,
+   "ready": 47,
    "parts": 11,
    "sections": 20,
-   "plannedHours": 34,
+   "plannedHours": 33,
    "yearsSpan": 52026,
    "experts": 8
   },
   "ready": {
-   "minutes": 392,
-   "words": 51872,
-   "sentences": 3981,
-   "chapters": 400,
-   "images": 334,
-   "glossary": 295,
-   "quiz": 214,
-   "sources": 184,
+   "minutes": 404,
+   "words": 53505,
+   "sentences": 4101,
+   "chapters": 416,
+   "images": 347,
+   "glossary": 309,
+   "quiz": 222,
+   "sources": 192,
    "music": 10,
    "lodz": 314,
-   "polska": 220
+   "polska": 230
   },
   "lessons": [
    {
@@ -11040,6 +11576,49 @@
     }
    },
    {
+    "n": 31,
+    "title": "Literatura średniowieczna — epos, rycerstwo, Dante i mistyka",
+    "era": "VIII–XV w.",
+    "minutes": 6,
+    "words": 827,
+    "sentences": 59,
+    "chapters": 8,
+    "images": 7,
+    "glossary": 7,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 9,
+    "people": 24,
+    "speakers": {
+     "gospodarz": 123,
+     "literatura": 704
+    }
+   },
+   {
+    "n": 32,
+    "title": "Scholastyka, św. Augustyn i św. Tomasz z Akwinu",
+    "era": "V–XV w.",
+    "minutes": 6,
+    "words": 806,
+    "sentences": 61,
+    "chapters": 8,
+    "images": 6,
+    "glossary": 7,
+    "quiz": 4,
+    "sources": 4,
+    "music": 0,
+    "lodz": 0,
+    "polska": 1,
+    "people": 15,
+    "speakers": {
+     "gospodarz": 123,
+     "literatura": 575,
+     "historyk": 108
+    }
+   },
+   {
     "n": 186,
     "title": "Łódź 1971 — protest, sztuka i obraz miasta",
     "era": "1970–1975 · odcinek próbny z części IX (Łódź lat 70.)",
@@ -11397,12 +11976,12 @@
    }
   ],
   "speakers": {
-   "gospodarz": 6741,
-   "historyk": 10432,
+   "gospodarz": 6987,
+   "historyk": 10540,
    "sztuka": 8501,
    "architekt": 11350,
    "muzyka": 2878,
-   "literatura": 6908,
+   "literatura": 8187,
    "design": 4355,
    "foto": 707
   },
@@ -11425,7 +12004,7 @@
     "id": "III",
     "title": "Średniowiecze — religia, wspólnota i symbol",
     "episodes": 16,
-    "ready": 8,
+    "ready": 10,
     "sections": 1
    },
    {
@@ -11611,15 +12190,15 @@
    }
   ],
   "people": {
-   "total": 424,
-   "mentions": 1064,
+   "total": 446,
+   "mentions": 1129,
    "byCategory": {
-    "naukowiec": 43,
-    "filozof": 24,
+    "naukowiec": 44,
+    "filozof": 31,
     "inne": 21,
     "muzyk": 19,
-    "pisarz": 73,
-    "polityk": 65,
+    "pisarz": 85,
+    "polityk": 67,
     "architekt": 89,
     "malarz": 56,
     "projektant": 7,
@@ -11639,16 +12218,16 @@
     "8": 3,
     "9": 1,
     "10": 5,
-    "11": 6,
-    "12": 7,
-    "13": 4,
-    "14": 5,
-    "15": 6,
+    "11": 10,
+    "12": 10,
+    "13": 7,
+    "14": 11,
+    "15": 8,
     "16": 8,
     "17": 3,
-    "18": 13,
-    "19": 93,
-    "20": 151,
+    "18": 14,
+    "19": 95,
+    "20": 152,
     "-5": 20,
     "-4": 9,
     "-1": 12,
@@ -11669,17 +12248,17 @@
     "-2": 3
    },
    "byCountry": {
-    "zagranica": 270,
-    "Polska": 154
+    "zagranica": 285,
+    "Polska": 161
    },
    "byGender": {
-    "m": 387,
+    "m": 404,
     "f": 31,
-    "k": 6
+    "k": 11
    },
    "lodz": 31,
-   "withWorks": 225,
-   "works": 666,
+   "withWorks": 237,
+   "works": 679,
    "lodzStrength": {
     "temat": 3,
     "mieszkali": 25,

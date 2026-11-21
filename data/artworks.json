@@ -1634,5 +1634,70 @@
   "creator": "nieznany skryba",
   "date": "1407 (najstarszy zapis)",
   "place": "Biblioteka Jagiellońska, Kraków"
+ },
+ "Beowulf manuscript": {
+  "creator": "nieznany skryba anglosaski",
+  "date": "ok. 1000",
+  "place": "British Library, Londyn"
+ },
+ "Death of Roland miniature": {
+  "creator": "iluminator francuski",
+  "date": "XIV–XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Round Table Holy Grail miniature": {
+  "creator": "iluminator francuski",
+  "date": "XV w.",
+  "place": "Biblioteka Narodowa Francji"
+ },
+ "Domenico di Michelino Dante": {
+  "creator": "Domenico di Michelino",
+  "date": "1465",
+  "place": "Katedra Santa Maria del Fiore, Florencja"
+ },
+ "Decameron miniature": {
+  "creator": "iluminator francuski",
+  "date": "XV w.",
+  "place": "zbiory europejskie"
+ },
+ "Christine de Pizan writing": {
+  "creator": "Mistrz Miasta Pań",
+  "date": "ok. 1410–1414",
+  "place": "British Library, Londyn"
+ },
+ "Księga henrykowska": {
+  "creator": "opat Piotr z Henrykowa",
+  "date": "ok. 1270",
+  "place": "Muzeum Archidiecezjalne we Wrocławiu"
+ },
+ "Botticelli Saint Augustine in His Study": {
+  "creator": "Sandro Botticelli",
+  "date": "1480",
+  "place": "Ognissanti, Florencja"
+ },
+ "Abelard and Heloise miniature": {
+  "creator": "iluminator francuski",
+  "date": "XIV w.",
+  "place": "Musée Condé, Chantilly"
+ },
+ "Laurentius de Voltolina lecture": {
+  "creator": "Laurentius de Voltolina",
+  "date": "XIV w.",
+  "place": "Kupferstichkabinett, Berlin"
+ },
+ "Collegium Maius Kraków": {
+  "creator": "budowniczowie krakowscy",
+  "date": "XV w.",
+  "place": "Kraków"
+ },
+ "Triumph of Saint Thomas Aquinas Gozzoli": {
+  "creator": "Benozzo Gozzoli",
+  "date": "1471",
+  "place": "Luwr, Paryż"
+ },
+ "William of Ockham sketch": {
+  "creator": "nieznany autor",
+  "date": "1341",
+  "place": "rękopis Summa logicae"
  }
 }

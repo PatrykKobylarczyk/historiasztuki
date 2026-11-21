@@ -7304,6 +7304,348 @@
    "works": [
     "Magnificat"
    ]
+  },
+  {
+   "id": "chretien",
+   "name": "Chrétien de Troyes",
+   "born": 1135,
+   "died": 1191,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "m",
+   "desc": "autor romansów arturiańskich",
+   "m": [
+    "Chrétien\\p{L}*"
+   ],
+   "works": [
+    "Lancelot",
+    "Percewal"
+   ]
+  },
+  {
+   "id": "eleonora-akwitanska",
+   "name": "Eleonora Akwitańska",
+   "born": 1122,
+   "died": 1204,
+   "c": "polityk",
+   "country": "Francja",
+   "g": "k",
+   "desc": "królowa Francji i Anglii, mecenaska poetów",
+   "m": [
+    "Eleonor\\p{L}* Akwitańsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "malory",
+   "name": "Thomas Malory",
+   "born": 1415,
+   "died": 1471,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "autor „Śmierci Artura”",
+   "m": [
+    "Malory\\p{L}*"
+   ],
+   "works": [
+    "Śmierć Artura"
+   ]
+  },
+  {
+   "id": "petrarka",
+   "name": "Francesco Petrarka",
+   "born": 1304,
+   "died": 1374,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "poeta, autor sonetów do Laury",
+   "m": [
+    "Petrark\\p{L}*"
+   ],
+   "works": [
+    "Sonety do Laury"
+   ]
+  },
+  {
+   "id": "boccaccio",
+   "name": "Giovanni Boccaccio",
+   "born": 1313,
+   "died": 1375,
+   "c": "pisarz",
+   "country": "Włochy",
+   "g": "m",
+   "desc": "autor „Dekameronu”",
+   "m": [
+    "Boccacci\\p{L}*"
+   ],
+   "works": [
+    "Dekameron"
+   ]
+  },
+  {
+   "id": "chaucer",
+   "name": "Geoffrey Chaucer",
+   "born": 1343,
+   "died": 1400,
+   "c": "pisarz",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "autor „Opowieści kanterberyjskich”",
+   "m": [
+    "Chaucer\\p{L}*"
+   ],
+   "works": [
+    "Opowieści kanterberyjskie"
+   ]
+  },
+  {
+   "id": "franciszek",
+   "name": "Święty Franciszek z Asyżu",
+   "born": 1181,
+   "died": 1226,
+   "c": "pisarz",
+   "country": "Italia",
+   "g": "m",
+   "desc": "założyciel franciszkanów, autor „Pieśni słonecznej”",
+   "m": [
+    "Franciszk\\p{L}* z Asyżu"
+   ],
+   "works": [
+    "Pieśń słoneczna"
+   ]
+  },
+  {
+   "id": "eckhart",
+   "name": "Mistrz Eckhart",
+   "born": 1260,
+   "died": 1328,
+   "c": "filozof",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "mistyk i teolog",
+   "m": [
+    "Eckhart\\p{L}*"
+   ]
+  },
+  {
+   "id": "christine-de-pizan",
+   "name": "Christine de Pizan",
+   "born": 1364,
+   "died": 1430,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "k",
+   "desc": "pisarka, autorka „Księgi o Mieście Pań”",
+   "m": [
+    "Christine de Pizan"
+   ],
+   "works": [
+    "Księga o Mieście Pań"
+   ]
+  },
+  {
+   "id": "gall-anonim",
+   "name": "Gall Anonim",
+   "born": 1065,
+   "died": 1145,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "autor pierwszej kroniki polskiej",
+   "m": [
+    "Gall\\p{L}* Anonim\\p{L}*"
+   ],
+   "works": [
+    "Kronika polska"
+   ]
+  },
+  {
+   "id": "kadlubek",
+   "name": "Wincenty Kadłubek",
+   "born": 1150,
+   "died": 1223,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "biskup krakowski, kronikarz",
+   "m": [
+    "Kadłub\\p{L}*"
+   ],
+   "works": [
+    "Kronika polska"
+   ]
+  },
+  {
+   "id": "dlugosz",
+   "name": "Jan Długosz",
+   "born": 1415,
+   "died": 1480,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "historyk, autor „Roczników”",
+   "m": [
+    "Długosz\\p{L}*"
+   ],
+   "works": [
+    "Roczniki, czyli kroniki sławnego Królestwa Polskiego"
+   ]
+  },
+  {
+   "id": "porebowicz",
+   "name": "Edward Porębowicz",
+   "born": 1862,
+   "died": 1937,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "tłumacz „Boskiej komedii”",
+   "m": [
+    "Porębowicz\\p{L}*"
+   ]
+  },
+  {
+   "id": "kuciak",
+   "name": "Agnieszka Kuciak",
+   "born": 1970,
+   "c": "pisarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "poetka, tłumaczka „Boskiej komedii”",
+   "m": [
+    "Kuciak\\p{L}*"
+   ]
+  },
+  {
+   "id": "anzelm",
+   "name": "Anzelm z Canterbury",
+   "born": 1033,
+   "died": 1109,
+   "c": "filozof",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "teolog, autor dowodu ontologicznego",
+   "m": [
+    "Anzelm\\p{L}*"
+   ]
+  },
+  {
+   "id": "abelard",
+   "name": "Piotr Abelard",
+   "born": 1079,
+   "died": 1142,
+   "c": "filozof",
+   "country": "Francja",
+   "g": "m",
+   "desc": "filozof scholastyczny",
+   "m": [
+    "Abelard\\p{L}*"
+   ],
+   "works": [
+    "Tak i nie"
+   ]
+  },
+  {
+   "id": "heloiza",
+   "name": "Heloiza",
+   "born": 1100,
+   "died": 1164,
+   "c": "pisarz",
+   "country": "Francja",
+   "g": "k",
+   "desc": "uczona, ksieni, autorka listów do Abelarda",
+   "m": [
+    "Heloiz\\p{L}*"
+   ]
+  },
+  {
+   "id": "tomasz-z-akwinu",
+   "name": "Tomasz z Akwinu",
+   "born": 1225,
+   "died": 1274,
+   "c": "filozof",
+   "country": "Italia",
+   "g": "m",
+   "desc": "filozof i teolog, autor „Sumy teologicznej”",
+   "m": [
+    "Tomasz\\p{L}* z Akwinu"
+   ],
+   "works": [
+    "Suma teologiczna"
+   ]
+  },
+  {
+   "id": "ockham",
+   "name": "Wilhelm Ockham",
+   "born": 1287,
+   "died": 1347,
+   "c": "filozof",
+   "country": "Anglia",
+   "g": "m",
+   "desc": "filozof, twórca „brzytwy Ockhama”",
+   "m": [
+    "Ockham\\p{L}*"
+   ]
+  },
+  {
+   "id": "wlodkowic",
+   "name": "Paweł Włodkowic",
+   "born": 1370,
+   "died": 1435,
+   "c": "filozof",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "rektor Akademii Krakowskiej, prawnik",
+   "m": [
+    "Włodkowic\\p{L}*"
+   ]
+  },
+  {
+   "id": "panofsky",
+   "name": "Erwin Panofsky",
+   "born": 1892,
+   "died": 1968,
+   "c": "naukowiec",
+   "country": "Niemcy",
+   "g": "m",
+   "desc": "historyk sztuki",
+   "m": [
+    "Panofsk\\p{L}*"
+   ]
+  },
+  {
+   "id": "kant",
+   "name": "Immanuel Kant",
+   "born": 1724,
+   "died": 1804,
+   "c": "filozof",
+   "country": "Prusy",
+   "g": "m",
+   "desc": "filozof",
+   "m": [
+    "Kant(?:a|em|owi)?(?!\\p{L})"
+   ]
+  },
+  {
+   "id": "krolowa-jadwiga",
+   "name": "Królowa Jadwiga",
+   "born": 1374,
+   "died": 1399,
+   "c": "polityk",
+   "country": "Polska",
+   "pl": true,
+   "g": "k",
+   "desc": "królowa Polski, odnowicielka Akademii Krakowskiej",
+   "m": [
+    "królow\\p{L}* Jadwig\\p{L}*"
+   ]
   }
  ]
 }
