@@ -18,7 +18,7 @@ NAMES = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"]
 PAN = {"violin": -0.45, "string_ensemble_1": -0.2, "string_ensemble_2": 0.2, "tremolo_strings": -0.1, "viola": 0.1,
        "cello": 0.35, "contrabass": 0.5, "flute": -0.1, "oboe": 0.05, "clarinet": 0.15, "bassoon": 0.2,
        "french_horn": -0.35, "trumpet": 0.1, "trombone": 0.3, "tuba": 0.4, "brass_section": 0.05,
-       "timpani": 0.25, "orchestral_harp": -0.55, "choir_aahs": 0.0, "glockenspiel": -0.15, "reverse_cymbal": 0.0}
+       "timpani": 0.25, "orchestral_harp": -0.55, "choir_aahs": 0.0, "glockenspiel": -0.15, "alto_sax": 0.3, "tenor_sax": 0.4, "reverse_cymbal": 0.0}
 
 
 @lru_cache(maxsize=None)
@@ -154,6 +154,11 @@ def climax(s, T, hold=3.2):
     s.roll(T + 1.6, 38, hold - 1.8, 0.7, 0.25)
     s.note("orchestral_harp", T + 0.7, [74, 78, 81, 86], 1.2, 0.35, 1.0)
     s.note("glockenspiel", T + 0.7, [90, 93], 0.8, 0.25, 1.0)
+    # solo trąbki nad wybrzmiewającym akordem: echo zewu (A – D – F# – A)
+    for dt, m, d in [(1.3, 69, 0.3), (1.62, 74, 0.3), (1.94, 78, 0.3), (2.26, 81, 1.1)]:
+        s.note("trumpet", T + dt, m, d, 0.7, 0.5)
+    # saksofon dokłada miękką sekstę do akordu końcowego
+    s.note("alto_sax", T + 0.7, 71, hold - 0.9, 0.35, 1.0, (0.4, 0.9))
 
 
 def jingle():
@@ -173,8 +178,12 @@ def jingle():
         s.note("contrabass", t, bass - 12 if bass > 40 else bass, 0.66, v * 0.6, 0.3)
         s.note("french_horn", t, ch[1:3], 0.66, v * 0.55, 0.3)
         s.note("choir_aahs", t, ch, 0.66, v * 0.45, 0.35)
-    # trąbki odpowiadają motywem waltorni oktawę wyżej
-    horn_call(s, 2.45, 12, "trumpet", vel=0.45)
+    # trąbki odpowiadają motywem waltorni oktawę wyżej — wyraźniej, jako solo
+    horn_call(s, 2.45, 12, "trumpet", vel=0.75)
+    # saksofony: ciepła, śpiewna linia pod rozkwitem harmonii (F# – G – G – A)
+    for t, m, low, d in [(2.4, 66, 62, 0.62), (3.05, 67, 62, 0.62), (3.7, 67, 63, 0.62), (4.35, 69, 64, 0.6)]:
+        s.note("alto_sax", t, m, d, 0.55, 0.25, (0.7, 1.0))
+        s.note("tenor_sax", t, low, d, 0.4, 0.25, (0.7, 1.0))
     s.note("timpani", 3.7, 39, 0.4, 0.7, 0.5)
     # 4,35–5,0 s: wzlot drewna i glissando harfy przed kulminacją
     for k, m in enumerate([69, 71, 73, 74, 76, 78, 79, 81, 83, 85]):
