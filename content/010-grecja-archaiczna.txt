@@ -97,6 +97,9 @@ To była Akademia Kultury. Do usłyszenia.
 ![Kora w peplosie](Peplos Kore) @5
 ![Świątynia Hery w Paestum](Paestum Temple of Hera) @6
 ![Tales z Miletu](Thales of Miletus) @8
+![Najstarszy grecki napis — dzban z Dipylonu](Dipylon inscription) @2
+![Popiersie Homera](Homer British Museum bust) @3
+![Pitagoras w Szkole Ateńskiej](Pythagoras School of Athens) @7
 
 ## Słowniczek
 - Polis: greckie miasto-państwo.

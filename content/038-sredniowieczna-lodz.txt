@@ -80,6 +80,8 @@ To była Akademia Kultury. Do usłyszenia.
 ![Zamek w Łęczycy](Zamek w Łęczycy) @5
 ![Zamek królewski w Piotrkowie Trybunalskim](Zamek Królewski Piotrków Trybunalski) @6
 ![Zamek w Uniejowie](Zamek w Uniejowie) @6
+![Dolina Bzury](Bzura rzeka) @1
+![Ulica Piotrkowska](Piotrkowska Street 19th century) @7
 
 ## Słowniczek
 - Lokacja: nadanie praw miejskich i wytyczenie miasta.

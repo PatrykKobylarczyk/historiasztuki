@@ -87,6 +87,8 @@ To była Akademia Kultury. Do usłyszenia.
 ![Ajschylos](Aeschylus bust) @2
 ![Sofokles](Sophocles statue) @3
 ![Eurypides](Euripides bust) @4
+![Arystofanes](Aristophanes bust) @5
+![Teatr Wielki w Łodzi](Teatr Wielki w Łodzi) @8
 
 ## Słowniczek
 - Dionizje: ateńskie święto Dionizosa z konkursami dramatycznymi.

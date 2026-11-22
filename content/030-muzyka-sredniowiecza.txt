@@ -86,6 +86,8 @@ To była Akademia Kultury. Do usłyszenia.
 ![Rękopis Carmina Burana, Koło Fortuny](Carmina Burana Wheel of Fortune) @5
 ![Guillaume de Machaut, miniatura](Guillaume de Machaut miniature) @6
 ![Rękopis Bogurodzicy](Bogurodzica manuscript) @7
+![Organum w rękopisie Musica enchiriadis](Musica enchiriadis) @3
+![Notre-Dame — rękopis Magnus Liber](Magnus Liber Organi) @4
 
 ## Słowniczek
 - Chorał gregoriański: jednogłosowy śpiew liturgiczny po łacinie.

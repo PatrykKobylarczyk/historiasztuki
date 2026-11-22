@@ -340,6 +340,9 @@ function updatePlayerUI(force = false) {
     $(".car-speaker .dot", car).style.background = color;
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
     if (!scrubbing()) $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
+    const tm = player.at(player.progress);
+    $(".car-el", car).textContent = fmtTime(tm.sec);
+    $(".car-rem", car).textContent = `−${fmtTime(tm.total - tm.sec)}`;
     setIcon($(".car-play", car));
     carVisual(it?.chapter ?? 0, player.index);
   }
@@ -773,9 +776,10 @@ function closeCar() {
 let carState = { lesson: null, list: [], pos: 0, shownUrl: null, layer: 0, timer: null };
 function imagesForChapter(lesson, ch) {
   const by = chapterImages(lesson);
-  for (let c = ch; c >= 0; c--) if (by[c]?.length) return by[c];
-  const first = Object.keys(by).map(Number).sort((x, y) => x - y)[0];
-  return first != null ? by[first] : [];
+  if (by[ch]?.length) return by[ch];
+  // rozdział bez własnych obrazów (np. zakończenie): przegląd wszystkich obrazów odcinka,
+  // zamiast zatrzymywać się na obrazie z poprzedniego rozdziału
+  return lesson.gallery.filter((g) => g.thumb);
 }
 // Który obraz pasuje do bieżącego zdania: obraz, którego opis pojawia się w tekście,
 // wchodzi w chwili, gdy lektor o nim mówi; pozostałe rozkładamy równo w rozdziale.

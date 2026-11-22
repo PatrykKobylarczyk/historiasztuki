@@ -97,6 +97,9 @@ To była Akademia Kultury. Do usłyszenia.
 ![Tron Tutanchamona](Tutankhamun throne) @6
 ![Niebieski hipopotam z fajansu](William the Hippo) @6
 ![Portret z Fajum](Fayum mummy portrait) @8
+![Siatka kompozycyjna w malarstwie egipskim](Egyptian grid drawing) @1
+![Kosmetyki i paleta egipska](Ancient Egyptian cosmetic box) @5
+![Papirus Ebersa](Ebers Papyrus) @7
 
 ## Słowniczek
 - Kanon: zestaw obowiązujących proporcji i zasad przedstawiania postaci.

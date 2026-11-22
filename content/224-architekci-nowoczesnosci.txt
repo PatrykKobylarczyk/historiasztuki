@@ -91,6 +91,8 @@ To była Akademia Kultury. Do usłyszenia.
 ![Opera w Sydney, Jørn Utzon](Sydney Opera House) @6
 ![Kongres Narodowy w Brasílii, Oscar Niemeyer](National Congress Brasilia) @6
 ![MASP w São Paulo, Lina Bo Bardi](MASP São Paulo) @7
+![Biblioteka w Wyborgu, Alvar Aalto](Viipuri Library Aalto) @4
+![Terminal TWA, Eero Saarinen](TWA Flight Center) @4
 
 ## Słowniczek
 - Forma wynika z funkcji: hasło Sullivana — kształt budynku ma wynikać z jego przeznaczenia.
