@@ -138,14 +138,21 @@ To była Akademia Kultury i Sztuki. Do usłyszenia.
 [outro]
 
 ## Galeria
-![Filary w kształcie litery T w Göbekli Tepe](Göbekli Tepe pillars)
-![Filary z reliefami zwierząt w Göbekli Tepe](Göbekli Tepe fox relief)
-![Wieża w Jerychu](Tower of Jericho)
-![Siekiera z kamienia gładzonego (neolit)](Neolithic polished stone axe)
-![Żarna neolityczne](Neolithic quern stone)
-![Ceramika wstęgowa ryta](Linear Pottery culture vessel)
-![Rekonstrukcja długiego domu kultury ceramiki wstęgowej](Linear Pottery longhouse reconstruction)
-![Flet z Jiahu](Jiahu bone flute)
+![Filary w kształcie litery T w Göbekli Tepe](Göbekli Tepe pillars) @2
+![Filary z reliefami zwierząt w Göbekli Tepe](Göbekli Tepe fox relief) @2
+![Wieża w Jerychu](Tower of Jericho) @3
+![Siekiera z kamienia gładzonego (neolit)](Neolithic polished stone axe) @4
+![Żarna neolityczne](Neolithic quern stone) @3
+![Ceramika wstęgowa ryta](Linear Pottery culture vessel) @4
+![Rekonstrukcja długiego domu kultury ceramiki wstęgowej](Linear Pottery longhouse reconstruction) @4
+![Flet z Jiahu](Jiahu bone flute) @5
+![Koniec epoki lodowcowej — moreny i jeziora](Moraine lake Poland) @1
+![Göbekli Tepe — widok wykopalisk](Göbekli Tepe excavation overview) @2
+![Bęben z neolitu — ceramika](Neolithic clay drum) @5
+![Posążki z Ain Ghazal](Ain Ghazal statues) @6
+![Figurka z Çatalhöyük — siedząca kobieta](Seated Woman of Çatalhöyük) @6
+![Mezolityczne narzędzia z krzemienia](Mesolithic microliths) @7
+![Szkielet rolnika z neolitu](Neolithic burial skeleton) @8
 
 ## Słowniczek
 - Neolit: młodsza epoka kamienia, czas pierwszych rolników i hodowców.

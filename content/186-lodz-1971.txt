@@ -185,14 +185,19 @@ To była Akademia Kultury i Sztuki. Do usłyszenia na kolejnym spotkaniu.
 [outro]
 
 ## Galeria
-![Manufaktura — dawna fabryka Izraela Poznańskiego](Manufaktura Łódź)
-![Księży Młyn — familoki](Księży Młyn familoki)
-![Pałac Poznańskiego w Łodzi](Pałac Izraela Poznańskiego)
-![Wojciech Fangor, „Murarze” — wczesny, figuratywny Fangor, zanim przyszły słynne kręgi](Wojciech Fangor)
-![Pałac Maurycego Poznańskiego — siedziba ms1 Muzeum Sztuki w Łodzi](Muzeum Sztuki w Łodzi ms1)
-![Sala Neoplastyczna](Sala Neoplastyczna)
-![Mural ROA przy Nowomiejskiej 5 — współczesna Łódź, miasto murali (Galeria Urban Forms)](Łódź mural PRL reklama)
-![Czesław Niemen](Czesław Niemen)
+![Manufaktura — dawna fabryka Izraela Poznańskiego](Manufaktura Łódź) @1
+![Księży Młyn — familoki](Księży Młyn familoki) @2
+![Pałac Poznańskiego w Łodzi](Pałac Izraela Poznańskiego) @2
+![Wojciech Fangor, „Murarze” — wczesny, figuratywny Fangor, zanim przyszły słynne kręgi](Wojciech Fangor) @3
+![Pałac Maurycego Poznańskiego — siedziba ms1 Muzeum Sztuki w Łodzi](Muzeum Sztuki w Łodzi ms1) @9
+![Sala Neoplastyczna](Sala Neoplastyczna) @9
+![Mural ROA przy Nowomiejskiej 5 — współczesna Łódź, miasto murali (Galeria Urban Forms)](Łódź mural PRL reklama) @8
+![Czesław Niemen](Czesław Niemen) @6
+![Szkoła Filmowa w Łodzi](Szkoła Filmowa w Łodzi) @4
+![Julian Tuwim](Julian Tuwim) @5
+![Cepelia — wzornictwo PRL](Cepelia) @7
+![Dom aukcyjny — licytacja](Art auction) @10
+![Pewex](Pewex) @11
 
 ## Słowniczek
 - Grudzień 1970: protesty robotnicze na Wybrzeżu po podwyżkach cen, krwawo stłumione; koniec rządów Gomułki.

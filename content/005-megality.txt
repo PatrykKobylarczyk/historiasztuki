@@ -148,14 +148,20 @@ To była Akademia Kultury i Sztuki. Do usłyszenia.
 [outro]
 
 ## Galeria
-![Stonehenge](Stonehenge)
-![Newgrange — wejście z kamieniem z potrójną spiralą](Newgrange entrance stone)
-![Aleje menhirów w Carnac](Carnac stones)
-![Świątynia Ġgantija na Malcie](Ggantija temple)
-![Dolmen](Poulnabrone dolmen)
-![Grobowce kujawskie w Wietrzychowicach](Wietrzychowice)
-![Krzemień pasiasty z Krzemionek](Krzemień pasiasty)
-![Kopalnia krzemienia w Krzemionkach](Krzemionki)
+![Stonehenge](Stonehenge) @3
+![Newgrange — wejście z kamieniem z potrójną spiralą](Newgrange entrance stone) @2
+![Aleje menhirów w Carnac](Carnac stones) @8
+![Świątynia Ġgantija na Malcie](Ggantija temple) @8
+![Dolmen](Poulnabrone dolmen) @1
+![Grobowce kujawskie w Wietrzychowicach](Wietrzychowice) @4
+![Krzemień pasiasty z Krzemionek](Krzemień pasiasty) @10
+![Kopalnia krzemienia w Krzemionkach](Krzemionki) @10
+![Menhir w Bretanii](Menhir Champ-Dolent) @1
+![Hypogeum Ħal Saflieni na Malcie](Hal Saflieni Hypogeum) @5
+![Transport megalitu — rekonstrukcja eksperymentu](Megalith transport experiment) @6
+![Merlin budujący Stonehenge — miniatura](Merlin Stonehenge manuscript) @7
+![Opactwo w dębowym lesie, Caspar David Friedrich](Abbey among Oak Trees Friedrich) @7
+![Kamienny krąg w Odrach](Kamienny krąg Odry) @9
 
 ## Słowniczek
 - Megalit: budowla lub pomnik z dużych bloków kamiennych.

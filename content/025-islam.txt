@@ -80,6 +80,8 @@ To była Akademia Kultury. Do usłyszenia.
 ![Karta Koranu pismem kufi](Blue Quran Kufic) @4
 ![Dziedziniec Lwów w Alhambrze](Court of the Lions Alhambra) @6
 ![Meczet w Kruszynianach](Kruszyniany mosque) @7
+![Kaaba w Mekce](Kaaba) @1
+![Strona traktatu al-Chuwarizmiego](al-Khwarizmi algebra manuscript) @5
 
 ## Słowniczek
 - Mihrab: nisza w ścianie meczetu wskazująca kierunek Mekki.

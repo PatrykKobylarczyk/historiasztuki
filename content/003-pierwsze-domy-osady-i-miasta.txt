@@ -124,13 +124,21 @@ To była Akademia Kultury i Sztuki. Do usłyszenia.
 [outro]
 
 ## Galeria
-![Çatalhöyük — rekonstrukcja wnętrza domu](Çatalhöyük house interior reconstruction)
-![Çatalhöyük — wykopaliska](Çatalhöyük excavation)
-![Skara Brae — wnętrze domu z kamiennym kredensem](Skara Brae dresser)
-![Skara Brae — widok osady](Skara Brae)
-![Choirokoitia — rekonstrukcja okrągłych domów](Choirokoitia)
-![Biskupin — rekonstrukcja osady](Biskupin gród)
-![Plac Wolności w Łodzi](Plac Wolności Łódź)
+![Çatalhöyük — rekonstrukcja wnętrza domu](Çatalhöyük house interior reconstruction) @1
+![Çatalhöyük — wykopaliska](Çatalhöyük excavation) @1
+![Skara Brae — wnętrze domu z kamiennym kredensem](Skara Brae dresser) @2
+![Skara Brae — widok osady](Skara Brae) @2
+![Choirokoitia — rekonstrukcja okrągłych domów](Choirokoitia) @2
+![Biskupin — rekonstrukcja osady](Biskupin gród) @4
+![Plac Wolności w Łodzi](Plac Wolności Łódź) @5
+![Rekonstrukcja domu kultury Cucuteni-Trypole](Cucuteni-Trypillia house reconstruction) @3
+![Model megaosady Talianky](Trypillia settlement model) @3
+![Osada w Biskupinie — brama](Biskupin gate) @4
+![Długie domy na Kujawach — rekonstrukcja](Kuyavian long barrow) @4
+![Stary Rynek w Łodzi](Stary Rynek Łódź) @5
+![Dom z gliny i trzciny — rekonstrukcja](Wattle and daub reconstruction) @6
+![Mur obronny w Jerychu](Jericho walls) @7
+![Ogień w palenisku — dom neolityczny](Neolithic hearth reconstruction) @8
 
 ## Słowniczek
 - Cegła mułowa: cegła z gliny i mułu suszona na słońcu, bez wypalania.

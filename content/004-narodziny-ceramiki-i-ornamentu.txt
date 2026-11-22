@@ -136,13 +136,18 @@ To była Akademia Kultury i Sztuki. Do usłyszenia.
 [outro]
 
 ## Galeria
-![Wenus z Dolních Věstonic](Venus of Dolní Věstonice)
-![Naczynie kultury Jōmon z „płomiennym” brzegiem](Jomon flame pottery)
-![Ceramika kultury Halaf](Halaf pottery)
-![Ceramika kultury Cucuteni-Trypole](Cucuteni pottery)
-![Puchar lejkowaty](Funnel Beaker culture pottery)
-![Ceramika sznurowa](Corded Ware culture pottery)
-![Naczynie z Bronocic z wizerunkiem wozu](Bronocice pot)
+![Wenus z Dolních Věstonic](Venus of Dolní Věstonice) @1
+![Naczynie kultury Jōmon z „płomiennym” brzegiem](Jomon flame pottery) @2
+![Ceramika kultury Halaf](Halaf pottery) @2
+![Ceramika kultury Cucuteni-Trypole](Cucuteni pottery) @5
+![Puchar lejkowaty](Funnel Beaker culture pottery) @4
+![Ceramika sznurowa](Corded Ware culture pottery) @4
+![Naczynie z Bronocic z wizerunkiem wozu](Bronocice pot) @7
+![Ognisko i wypał gliny](Pit firing pottery) @1
+![Ornament spiralny — ceramika Cucuteni](Cucuteni spiral pottery) @3
+![Lepienie naczynia techniką wałeczkową](Coil pottery technique) @6
+![Gliniany bęben z neolitu](Neolithic drum pottery Germany) @8
+![Adolf Loos](Adolf Loos) @9
 
 ## Słowniczek
 - Ceramika: wyroby z gliny utrwalone przez wypalenie.
