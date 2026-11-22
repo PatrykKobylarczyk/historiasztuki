@@ -340,6 +340,9 @@ function updatePlayerUI(force = false) {
     $(".car-speaker .dot", car).style.background = color;
     $(".car-chapter", car).textContent = it?.chapterTitle || "";
     if (!scrubbing()) $(".car-progress > div", car).style.width = `${(player.progress * 100).toFixed(1)}%`;
+    const tm = player.at(player.progress);
+    $(".car-el", car).textContent = fmtTime(tm.sec);
+    $(".car-rem", car).textContent = `−${fmtTime(tm.total - tm.sec)}`;
     setIcon($(".car-play", car));
     carVisual(it?.chapter ?? 0, player.index);
   }

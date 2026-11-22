@@ -747,3 +747,8 @@ a.mrow:hover { color: var(--ink); }
   .topbar .brand { display: inline-block; }
   .topbar .brand-dot { transform: none; vertical-align: baseline; margin-left: .05em; }
 }
+
+/* tryb auto: czas odcinka i mniejszy przycisk pytania */
+.car-time { display: flex; justify-content: space-between; margin-top: -6px; font-size: .95rem; font-weight: 500; color: #a1a1a6; font-variant-numeric: tabular-nums; }
+.car-ask { height: 54px; font-size: 1.02rem; justify-self: center; padding: 0 28px; border-radius: 999px; width: auto; min-width: 60%; }
+.car-ask svg { width: 20px; height: 20px; }
