@@ -147,9 +147,9 @@ To była Akademia Kultury i Sztuki. Do usłyszenia.
 ![Chata z kości mamuta — rekonstrukcja](mammoth bone dwelling reconstruction) @4
 ![Bumerang z Jaskini Obłazowej](Jaskinia Obłazowa) @6
 ![Mamut włochaty — rekonstrukcja](Woolly mammoth reconstruction) @1
-![Krajobraz epoki lodowcowej — tundra](Mammoth steppe illustration) @1
+![Zwierzęta epoki lodowcowej — ilustracja](Mammoth steppe illustration) @1
 ![Malowidła w jaskini Chauvet](Chauvet cave lions) @2
-![Wejście do jaskini Lascaux](Lascaux cave entrance) @4
+![Lascaux IV — centrum z repliką jaskini](Lascaux cave entrance) @4
 ![Jaskinia Obłazowa w Pieninach](Jaskinia Obłazowa wejście) @6
 ![Jaskinia Raj koło Kielc](Jaskinia Raj) @6
 ![Wenus z Hohle Fels](Venus of Hohle Fels) @7

@@ -143,11 +143,11 @@ To była Akademia Kultury i Sztuki. Do usłyszenia.
 ![Puchar lejkowaty](Funnel Beaker culture pottery) @4
 ![Ceramika sznurowa](Corded Ware culture pottery) @4
 ![Naczynie z Bronocic z wizerunkiem wozu](Bronocice pot) @7
-![Ognisko i wypał gliny](Pit firing pottery) @1
+![Wypał ceramiki w jamie](Pit firing pottery) @1
 ![Ornament spiralny — ceramika Cucuteni](Cucuteni spiral pottery) @3
-![Lepienie naczynia techniką wałeczkową](Coil pottery technique) @6
+![Gliniany garnek kuchenny](Coil pottery technique) @6
 ![Gliniany bęben z neolitu](Neolithic drum pottery Germany) @8
-![Adolf Loos](Adolf Loos) @9
+![Wnętrza Adolfa Loosa — wystawa](Adolf Loos) @9
 
 ## Słowniczek
 - Ceramika: wyroby z gliny utrwalone przez wypalenie.

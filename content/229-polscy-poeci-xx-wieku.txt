@@ -87,8 +87,8 @@ To była Akademia Kultury. Do usłyszenia.
 ![Zbigniew Herbert](Zbigniew Herbert) @5
 ![Pomnik Poległych Stoczniowców w Gdańsku](Monument to the Fallen Shipyard Workers) @4
 ![Leopold Staff](Leopold Staff) @1
-![Miron Białoszewski](Miron Białoszewski) @6
-![Adam Zagajewski](Adam Zagajewski) @7
+![Tablica pamiątkowa Mirona Białoszewskiego](Miron Białoszewski) @6
+![Grób Adama Zagajewskiego na Skałce](Adam Zagajewski) @7
 
 ## Słowniczek
 - Skamander: grupa poetycka dwudziestolecia (Tuwim, Iwaszkiewicz, Słonimski, Lechoń, Wierzyński).
