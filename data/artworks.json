@@ -1879,5 +1879,55 @@
   "creator": "fundacja arcybiskupów gnieźnieńskich",
   "date": "XIV w.",
   "place": "Uniejów"
+ },
+ "Akademia Sztuk Pięknych w Łodzi": {
+  "creator": "ASP im. Władysława Strzemińskiego",
+  "date": "zał. 1945",
+  "place": "Łódź"
+ },
+ "Władysław Strzemiński": {
+  "creator": "fotografia portretowa",
+  "date": "XX w.",
+  "place": "Łódź"
+ },
+ "Stanisław Fijałkowski": {
+  "creator": "fotografia portretowa",
+  "date": "XX–XXI w.",
+  "place": "Łódź"
+ },
+ "Biblioteka Uniwersytetu Łódzkiego": {
+  "creator": "budynek biblioteki",
+  "date": "1959",
+  "place": "Łódź, ul. Matejki"
+ },
+ "Centralne Muzeum Włókiennictwa w Łodzi": {
+  "creator": "Biała Fabryka Ludwika Geyera",
+  "date": "XIX w.",
+  "place": "Łódź, ul. Piotrkowska 282"
+ },
+ "Fernand Léger": {
+  "creator": "fotografia portretowa",
+  "date": "XX w.",
+  "place": "Francja"
+ },
+ "Politechnika Łódzka": {
+  "creator": "gmach uczelni",
+  "date": "XX w.",
+  "place": "Łódź"
+ },
+ "Muzeum Sztuki w Łodzi ms2": {
+  "creator": "Muzeum Sztuki w Łodzi",
+  "date": "od 2008",
+  "place": "Manufaktura, Łódź"
+ },
+ "Benon Liberski": {
+  "creator": "Benon Liberski",
+  "date": "XX w.",
+  "place": "Łódź"
+ },
+ "Józef Robakowski": {
+  "creator": "fotografia portretowa",
+  "date": "XX–XXI w.",
+  "place": "Łódź"
  }
 }
