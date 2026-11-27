@@ -30,7 +30,7 @@ const VOICES = {
   openai: { lektor: "onyx", gospodarz: "onyx", historyk: "ash", sztuka: "coral", architekt: "echo", muzyka: "verse", literatura: "sage", design: "nova", foto: "ballad" },
   // edge: darmowe głosy neuronowe Microsoft Edge (pl-PL: Marek, Zofia) — eksperci różnią się wysokością i tempem
   edge: {
-    lektor: "pl-PL-MarekNeural|-14%|-16Hz", gospodarz: "pl-PL-MarekNeural|+0%|-2Hz", historyk: "pl-PL-MarekNeural|-4%|-9Hz", architekt: "pl-PL-MarekNeural|+3%|+4Hz",
+    lektor: "pl-PL-MarekNeural|-11%|-11Hz|warm", gospodarz: "pl-PL-MarekNeural|+0%|-2Hz", historyk: "pl-PL-MarekNeural|-4%|-9Hz", architekt: "pl-PL-MarekNeural|+3%|+4Hz",
     muzyka: "pl-PL-MarekNeural|+2%|+9Hz", foto: "pl-PL-MarekNeural|+5%|-5Hz",
     sztuka: "pl-PL-ZofiaNeural|+0%|+0Hz", literatura: "pl-PL-ZofiaNeural|-4%|-7Hz", design: "pl-PL-ZofiaNeural|+4%|+7Hz",
   },
@@ -41,7 +41,7 @@ if (fs.existsSync(override)) Object.assign(VOICES[PROVIDER], JSON.parse(fs.readF
 const speakers = JSON.parse(fs.readFileSync(path.join(root, "data", "speakers.json"), "utf8"));
 
 const STYLE = {
-  lektor: "Bardzo niski, mocny, spokojny męski głos lektora radiowego. Powoli, z namaszczeniem, wyraźne pauzy między frazami.",
+  lektor: "Głęboki, ciepły, przyjemny męski głos lektora radiowego. Spokojnie i miękko, bez patosu, z lekkimi pauzami między frazami.",
   gospodarz: "Ciepły, spokojny głos prowadzącego audycję w Polskim Radiu. Wyraźna dykcja, naturalne pauzy.",
   default: "Mówisz po polsku jako ekspert w audycji radiowej: rzeczowo, z pasją, spokojnym tempem, naturalnie — jak wykład dla słuchacza jadącego samochodem.",
 };
@@ -89,11 +89,13 @@ async function ttsGoogle(text, sp) {
 
 // edge: wymaga `pip install edge-tts`; bez klucza API
 async function ttsEdge(text, sp) {
-  const [voice, rate, pitch] = (VOICES.edge[sp] || VOICES.edge.gospodarz).split("|");
+  const [voice, rate, pitch, tone] = (VOICES.edge[sp] || VOICES.edge.gospodarz).split("|");
+  // „warm”: delikatnie cieplejsza barwa lektora — lekko podbity dół, złagodzona góra
+  const toneFx = tone === "warm" ? ["-af", "bass=g=2.5:f=160:w=0.7,treble=g=-1.5:f=6500:w=0.6"] : [];
   const tmp = path.join(cacheDir, `edge-${process.pid}-${crypto.randomUUID()}.mp3`);
   try {
     execFileSync("edge-tts", ["--voice", voice, `--rate=${rate}`, `--pitch=${pitch}`, `--text=${text}`, "--write-media", tmp], { stdio: "pipe" });
-    const pcm = execFileSync("ffmpeg", ["-loglevel", "error", "-i", tmp, "-f", "s16le", "-ar", String(SR), "-ac", "1", "-"], { maxBuffer: 1 << 28 });
+    const pcm = execFileSync("ffmpeg", ["-loglevel", "error", "-i", tmp, ...toneFx, "-f", "s16le", "-ar", String(SR), "-ac", "1", "-"], { maxBuffer: 1 << 28 });
     return new Int16Array(pcm.buffer.slice(pcm.byteOffset, pcm.byteOffset + pcm.length));
   } finally { fs.rmSync(tmp, { force: true }); }
 }

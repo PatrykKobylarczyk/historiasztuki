@@ -2603,6 +2603,32 @@
    "total": 4
   },
   {
+   "id": "fijalkowski",
+   "name": "Stanisław Fijałkowski",
+   "born": 1922,
+   "died": 2020,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz i grafik, uczeń Strzemińskiego, profesor łódzkiej ASP",
+   "works": [
+    "Anioł w postaci dżdżownicy",
+    "cykle linorytów i drzeworytów"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "lodzLink": "student, a potem wieloletni profesor łódzkiej PWSSP; zmarł w Łodzi",
+   "mentions": [
+    {
+     "n": 232,
+     "count": 3,
+     "i": 17
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "fikus",
    "name": "Marian Fikus",
    "c": "architekt",
@@ -2968,6 +2994,32 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "gieraga",
+   "name": "Andrzej Gieraga",
+   "born": 1934,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz abstrakcji geometrycznej, profesor łódzkiej ASP",
+   "works": [
+    "cykl Czarne i białe",
+    "cykl Uskrzydlenia",
+    "obrazy numerowane I–CC"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "lodzLink": "absolwent, prorektor i profesor łódzkiej PWSSP",
+   "mentions": [
+    {
+     "n": 232,
+     "count": 4,
+     "i": 58
+    }
+   ],
+   "total": 4
   },
   {
    "id": "gierek",
@@ -5216,6 +5268,28 @@
    "total": 1
   },
   {
+   "id": "krawczyk",
+   "name": "Jerzy Krawczyk",
+   "born": 1921,
+   "died": 1969,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz realista, pejzaże starej Łodzi",
+   "ls": "mieszkali",
+   "lodz": true,
+   "verify": true,
+   "mentions": [
+    {
+     "n": 232,
+     "count": 3,
+     "i": 68
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "krolowa-jadwiga",
    "name": "Królowa Jadwiga",
    "born": 1374,
@@ -5269,6 +5343,31 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "krygier",
+   "name": "Stefan Krygier",
+   "born": 1923,
+   "died": 1997,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, grafik, rzeźbiarz i architekt",
+   "works": [
+    "Widzenie gotyku (z W. Strzemińskim)"
+   ],
+   "ls": "urodzeni",
+   "lodz": true,
+   "lodzLink": "urodzony i zmarły w Łodzi; wykładał w PWSSP i na Politechnice Łódzkiej",
+   "mentions": [
+    {
+     "n": 232,
+     "count": 3,
+     "i": 49
+    }
+   ],
+   "total": 3
   },
   {
    "id": "krzywousty",
@@ -5391,6 +5490,32 @@
    ],
    "mentions": [],
    "total": 0
+  },
+  {
+   "id": "kunka",
+   "name": "Lech Kunka",
+   "born": 1920,
+   "died": 1978,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, ilustrator, scenograf; uczeń Strzemińskiego i Légera",
+   "works": [
+    "Po pracy (1946)",
+    "Układ XX (1972)"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "lodzLink": "student i wykładowca łódzkiej PWSSP od 1945 r.",
+   "mentions": [
+    {
+     "n": 232,
+     "count": 4,
+     "i": 39
+    }
+   ],
+   "total": 4
   },
   {
    "id": "kurylowicz",
@@ -5531,9 +5656,14 @@
      "n": 231,
      "count": 1,
      "i": 24
+    },
+    {
+     "n": 232,
+     "count": 2,
+     "i": 41
     }
    ],
-   "total": 2
+   "total": 4
   },
   {
    "id": "lem",
@@ -5736,6 +5866,33 @@
     }
    ],
    "total": 1
+  },
+  {
+   "id": "liberski",
+   "name": "Benon Liberski",
+   "born": 1926,
+   "died": 1983,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz i grafik, realista z elementami pop-artu",
+   "works": [
+    "Westerny",
+    "Dyspozytorzy",
+    "Pejzaż /Łódź/ (1963)"
+   ],
+   "ls": "urodzeni",
+   "lodz": true,
+   "lodzLink": "urodzony w Łodzi, profesor łódzkiej PWSSP",
+   "mentions": [
+    {
+     "n": 232,
+     "count": 3,
+     "i": 68
+    }
+   ],
+   "total": 3
   },
   {
    "id": "limbourg",
@@ -8585,9 +8742,14 @@
      "n": 194,
      "count": 2,
      "i": 61
+    },
+    {
+     "n": 232,
+     "count": 2,
+     "i": 78
     }
    ],
-   "total": 2
+   "total": 4
   },
   {
    "id": "rodin",
@@ -9631,6 +9793,32 @@
    "total": 3
   },
   {
+   "id": "starczewski",
+   "name": "Antoni Starczewski",
+   "born": 1924,
+   "died": 2000,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "grafik, twórca tkaniny i ceramiki, uczeń Strzemińskiego",
+   "works": [
+    "Układ na dwie ręce (Biblioteka UŁ)",
+    "Kompozycja, gobelin (1966)"
+   ],
+   "ls": "urodzeni",
+   "lodz": true,
+   "lodzLink": "urodzony w Łodzi, całe życie tworzył w Łodzi",
+   "mentions": [
+    {
+     "n": 232,
+     "count": 3,
+     "i": 28
+    }
+   ],
+   "total": 3
+  },
+  {
    "id": "stazewski",
    "name": "Henryk Stażewski",
    "born": 1894,
@@ -9771,9 +9959,14 @@
      "n": 231,
      "count": 6,
      "i": 4
+    },
+    {
+     "n": 232,
+     "count": 12,
+     "i": 5
     }
    ],
-   "total": 15
+   "total": 27
   },
   {
    "id": "stukeley",
@@ -10721,9 +10914,14 @@
      "n": 198,
      "count": 1,
      "i": 43
+    },
+    {
+     "n": 232,
+     "count": 1,
+     "i": 79
     }
    ],
-   "total": 2
+   "total": 3
   },
   {
    "id": "wedgwood",
@@ -10742,6 +10940,26 @@
     }
    ],
    "total": 2
+  },
+  {
+   "id": "wegner",
+   "name": "Stefan Wegner",
+   "born": 1901,
+   "died": 1980,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, pedagog łódzkiej PWSSP",
+   "verify": true,
+   "mentions": [
+    {
+     "n": 232,
+     "count": 1,
+     "i": 19
+    }
+   ],
+   "total": 1
   },
   {
    "id": "wergiliusz",
@@ -11394,10 +11612,10 @@
   }
  ],
  "stats": {
-  "generated": "2026-11-22",
+  "generated": "2026-11-27",
   "course": {
-   "planned": 231,
-   "ready": 53,
+   "planned": 232,
+   "ready": 54,
    "parts": 11,
    "sections": 20,
    "plannedHours": 32,
@@ -11405,17 +11623,17 @@
    "experts": 8
   },
   "ready": {
-   "minutes": 440,
-   "words": 58178,
-   "sentences": 4432,
-   "chapters": 464,
-   "images": 525,
-   "glossary": 348,
-   "quiz": 246,
-   "sources": 214,
+   "minutes": 448,
+   "words": 59165,
+   "sentences": 4505,
+   "chapters": 473,
+   "images": 537,
+   "glossary": 354,
+   "quiz": 251,
+   "sources": 220,
    "music": 10,
-   "lodz": 351,
-   "polska": 282
+   "lodz": 377,
+   "polska": 286
   },
   "lessons": [
    {
@@ -12675,16 +12893,40 @@
      "gospodarz": 134,
      "sztuka": 923
     }
+   },
+   {
+    "n": 232,
+    "title": "Łódzcy artyści powojenni — uczniowie Strzemińskiego i ich droga",
+    "era": "Łódź · 1945–2020",
+    "minutes": 8,
+    "words": 987,
+    "sentences": 73,
+    "chapters": 9,
+    "images": 12,
+    "glossary": 6,
+    "quiz": 5,
+    "sources": 6,
+    "music": 0,
+    "lodz": 26,
+    "polska": 4,
+    "people": 12,
+    "speakers": {
+     "gospodarz": 115,
+     "historyk": 202,
+     "sztuka": 462,
+     "design": 123,
+     "architekt": 85
+    }
    }
   ],
   "speakers": {
-   "gospodarz": 7809,
-   "historyk": 12472,
-   "sztuka": 8954,
-   "architekt": 12273,
+   "gospodarz": 7924,
+   "historyk": 12674,
+   "sztuka": 9416,
+   "architekt": 12358,
    "muzyka": 2878,
    "literatura": 8187,
-   "design": 4898,
+   "design": 5021,
    "foto": 707
   },
   "parts": [
@@ -12761,15 +13003,15 @@
    {
     "id": "XI",
     "title": "Odcinki specjalne i podsumowania",
-    "episodes": 20,
-    "ready": 8,
+    "episodes": 21,
+    "ready": 9,
     "sections": 1
    }
   ],
   "domains": [
    {
     "name": "Łódź",
-    "count": 17
+    "count": 18
    },
    {
     "name": "Architektura i miasto",
@@ -12889,11 +13131,16 @@
     "n": 220,
     "title": "Łódź — historia miasta w 20 obiektach, fotografiach i budynkach",
     "ready": false
+   },
+   {
+    "n": 232,
+    "title": "Łódzcy artyści powojenni — uczniowie Strzemińskiego i ich droga",
+    "ready": true
    }
   ],
   "people": {
-   "total": 468,
-   "mentions": 1210,
+   "total": 476,
+   "mentions": 1251,
    "byCategory": {
     "naukowiec": 46,
     "filozof": 31,
@@ -12902,7 +13149,7 @@
     "pisarz": 87,
     "polityk": 80,
     "architekt": 89,
-    "malarz": 58,
+    "malarz": 66,
     "projektant": 7,
     "rzeźbiarz": 17,
     "przemysłowiec": 3,
@@ -12929,7 +13176,7 @@
     "17": 4,
     "18": 15,
     "19": 95,
-    "20": 152,
+    "20": 160,
     "-5": 20,
     "-4": 9,
     "-1": 12,
@@ -12951,24 +13198,24 @@
    },
    "byCountry": {
     "zagranica": 291,
-    "Polska": 177
+    "Polska": 185
    },
    "byGender": {
-    "m": 424,
+    "m": 432,
     "f": 31,
     "k": 13
    },
-   "lodz": 32,
-   "withWorks": 239,
-   "works": 682,
+   "lodz": 39,
+   "withWorks": 245,
+   "works": 695,
    "lodzStrength": {
     "temat": 3,
-    "mieszkali": 25,
+    "mieszkali": 29,
     "epizod": 9,
     "brak": 6,
-    "urodzeni": 17
+    "urodzeni": 20
    },
-   "lodzAll": 57
+   "lodzAll": 64
   }
  }
 }

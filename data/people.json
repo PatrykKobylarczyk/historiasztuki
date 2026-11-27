@@ -7956,6 +7956,165 @@
     "Pell\\p{L}*"
    ],
    "lodz": true
+  },
+  {
+   "id": "fijalkowski",
+   "name": "Stanisław Fijałkowski",
+   "born": 1922,
+   "died": 2020,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz i grafik, uczeń Strzemińskiego, profesor łódzkiej ASP",
+   "m": [
+    "Fijałkowsk\\p{L}*"
+   ],
+   "works": [
+    "Anioł w postaci dżdżownicy",
+    "cykle linorytów i drzeworytów"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "lodzLink": "student, a potem wieloletni profesor łódzkiej PWSSP; zmarł w Łodzi"
+  },
+  {
+   "id": "starczewski",
+   "name": "Antoni Starczewski",
+   "born": 1924,
+   "died": 2000,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "grafik, twórca tkaniny i ceramiki, uczeń Strzemińskiego",
+   "m": [
+    "Starczewsk\\p{L}*"
+   ],
+   "works": [
+    "Układ na dwie ręce (Biblioteka UŁ)",
+    "Kompozycja, gobelin (1966)"
+   ],
+   "ls": "urodzeni",
+   "lodz": true,
+   "lodzLink": "urodzony w Łodzi, całe życie tworzył w Łodzi"
+  },
+  {
+   "id": "kunka",
+   "name": "Lech Kunka",
+   "born": 1920,
+   "died": 1978,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, ilustrator, scenograf; uczeń Strzemińskiego i Légera",
+   "m": [
+    "Kunk\\p{L}*"
+   ],
+   "works": [
+    "Po pracy (1946)",
+    "Układ XX (1972)"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "lodzLink": "student i wykładowca łódzkiej PWSSP od 1945 r."
+  },
+  {
+   "id": "krygier",
+   "name": "Stefan Krygier",
+   "born": 1923,
+   "died": 1997,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, grafik, rzeźbiarz i architekt",
+   "m": [
+    "Krygier\\p{L}*"
+   ],
+   "works": [
+    "Widzenie gotyku (z W. Strzemińskim)"
+   ],
+   "ls": "urodzeni",
+   "lodz": true,
+   "lodzLink": "urodzony i zmarły w Łodzi; wykładał w PWSSP i na Politechnice Łódzkiej"
+  },
+  {
+   "id": "gieraga",
+   "name": "Andrzej Gieraga",
+   "born": 1934,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz abstrakcji geometrycznej, profesor łódzkiej ASP",
+   "m": [
+    "Gierag\\p{L}*"
+   ],
+   "works": [
+    "cykl Czarne i białe",
+    "cykl Uskrzydlenia",
+    "obrazy numerowane I–CC"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "lodzLink": "absolwent, prorektor i profesor łódzkiej PWSSP"
+  },
+  {
+   "id": "liberski",
+   "name": "Benon Liberski",
+   "born": 1926,
+   "died": 1983,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz i grafik, realista z elementami pop-artu",
+   "m": [
+    "Libersk\\p{L}*"
+   ],
+   "works": [
+    "Westerny",
+    "Dyspozytorzy",
+    "Pejzaż /Łódź/ (1963)"
+   ],
+   "ls": "urodzeni",
+   "lodz": true,
+   "lodzLink": "urodzony w Łodzi, profesor łódzkiej PWSSP"
+  },
+  {
+   "id": "krawczyk",
+   "name": "Jerzy Krawczyk",
+   "born": 1921,
+   "died": 1969,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz realista, pejzaże starej Łodzi",
+   "m": [
+    "Jerz\\p{L}* Krawczyk\\p{L}*",
+    "Krawczyk\\p{L}*"
+   ],
+   "ls": "mieszkali",
+   "lodz": true,
+   "verify": true
+  },
+  {
+   "id": "wegner",
+   "name": "Stefan Wegner",
+   "born": 1901,
+   "died": 1980,
+   "c": "malarz",
+   "country": "Polska",
+   "pl": true,
+   "g": "m",
+   "desc": "malarz, pedagog łódzkiej PWSSP",
+   "m": [
+    "Wegner\\p{L}*"
+   ],
+   "verify": true
   }
  ]
 }
